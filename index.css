@@ -6,11 +6,18 @@ body {
 
 a {
 	color: #000;
+	text-decoration: none;
+}
+
+.moverdowner {
+	height: 60px;
 }
 
 .header {
 	background-color: #fff;
-	box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1)
+	box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+	width: 100%;
+	position: fixed;
 }
 
 .header ul {
@@ -24,7 +31,6 @@ a {
 .header ul a {
 	display: block;
 	padding: 20px;
-	border-right: 1px solid #aaa;
 	text-decoration: none;
 }
 
@@ -58,7 +64,6 @@ a {
 	height: 2px;
 	width: 18px;
 	position:relative;
-	transition:background .1s ease-out;
 }
 
 .header .menu-icon .nav-icon:before {
@@ -68,7 +73,6 @@ a {
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	transition: all .1s ease-out;
 	top: 5px;
 }
 
@@ -79,7 +83,6 @@ a {
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	transition: all .1s ease-out;
 	bottom: 5px;
 }
 
@@ -89,4 +92,26 @@ a {
 
 .header .menu-btn:checked ~ .menu {
 	max-height:240px;
+}
+
+@media (min-width:48em) {
+	.header li {
+		float:left;
+	}
+	
+	.header li a {
+		padding: 20px 30px;
+	}
+	
+	.header .menu {
+		clear:none;
+		float: right;
+		max-height: none;
+	}
+	.header .menu-icon {
+		display: none;
+	}
+	.header ul a {
+		border-right: 1px solid #aaa;
+	}
 }
