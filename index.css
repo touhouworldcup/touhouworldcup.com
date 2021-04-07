@@ -1,23 +1,23 @@
 body {
 	margin: 0;
 	font-family: sans-serif;
-	background-color: #bbb;
+	background-color: #000;
 }
 
-a {
-	color: #000;
+* {
+	color: #fff;
 	text-decoration: none;
 }
 
 .moverdowner {
-	height: 60px;
+	height: 0;
+	background-color: #222;
 }
 
 .header {
-	background-color: #fff;
+	background-color: #222;
 	box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 	width: 100%;
-	position: fixed;
 }
 
 .header ul {
@@ -25,7 +25,7 @@ a {
 	padding: 0;
 	list-style: none;
 	overflow: hidden;
-	background-color: #fff;
+	background-color: #222;
 }
 
 .header ul a {
@@ -35,7 +35,7 @@ a {
 }
 
 .header ul a:hover {
-	background-color: #ddd;
+	background-color: #333;
 }
 
 .header .logo {
@@ -59,7 +59,7 @@ a {
 }
 
 .header .menu-icon .nav-icon {
-	background:#333;
+	background:#fff;
 	display: block;
 	height: 2px;
 	width: 18px;
@@ -67,7 +67,7 @@ a {
 }
 
 .header .menu-icon .nav-icon:before {
-	background: #333;
+	background: #fff;
 	content: "";
 	display: block;
 	height: 100%;
@@ -77,7 +77,7 @@ a {
 }
 
 .header .menu-icon .nav-icon:after {
-	background: #333;
+	background: #fff;
 	content: "";
 	display: block;
 	height: 100%;
@@ -94,7 +94,7 @@ a {
 	max-height:240px;
 }
 
-@media (min-width:48em) {
+@media (min-width:50em) {
 	.header li {
 		float:left;
 	}
@@ -112,6 +112,9 @@ a {
 		display: none;
 	}
 	.header ul a {
-		border-right: 1px solid #aaa;
+		border-left: 1px solid #aaa;
+	}
+	.moverdowner {
+		height: 58px;
 	}
 }
