@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<title>Touhou World Cup</title>
 	<link rel="stylesheet" href="index.css">
+	<script src="iscore.js"></script>
 </head>
 
 <body>
@@ -20,6 +21,327 @@
 	</ul>
 	</header>
 	<div class="moverdowner"></div>
-	<main></main>
+	<main id="main">
+	<h1>ISCORE Calculator</h1>
+	<noscript>This page requires JavaScript</noscript>
+	<label for="games">Game: </label>
+	<select name="Games" id="games">
+		<option value="th06">Embodiment of Scarlet Devil</option>
+		<option value="th07">Perfect Cherry Blossom</option>
+		<option value="th08">Imperishable Night</option>
+		<option value="th10">Mountain of Faith</option>
+		<option value="th11">Subterrarian Aminism</option>
+		<option value="th12">Undefined Fantastic Object</option>
+		<option value="th128">Great Fairy Wars</option>
+		<option value="th13">Ten Desires</option>
+		<option value="th14">Double Dealing Character</option>
+		<option value="th15">Legacy of Lunatic Kingdom</option>
+		<option value="th16">Hidden Star in Four Seasons</option>
+		<option value="th17">Wily Beast and Weaksest Creature</option>
+	</select>
+	
+	<label id="shot_lab" for="shottypes">Shot:</label>
+	<select name="Shottype" id="shottype"></select>
+	
+	<label for="runtype">Type of run:</label>
+	<select name="Type of run" id="runtype">
+		<option value="surv">Survival</option>
+		<option value="score">Score</option>
+	</select>
+	
+	<span id="fullspell_w" style="display:none;">
+	<label for="fullspell">Full spell:</label>
+	<input name="Full Spell" type="checkbox" id="fullspell" />
+	</span>
+	
+	<br>
+	
+	<span id="surv_opts" style="display:none;">
+		<label for="misscount">Misses:</label>
+		<input type="text" id="misscount">
+	</span>
+	
+	<span id="score_opts" style="display:none;">
+		<label for="score">Score:</label>
+		<input type="text" id="score">
+	</span>
+	
+	<span id="diff_w" style="display:none;">
+	<br>
+	<label for="diff">Difficulty:</label>
+	<select name="Difficulty" id="diff">
+		<option value="Lunatic">Lunatic</option>
+		<option value="Extra">Extra</option>
+	</select>
+	</span>
+	<div id="th08_opts" style="display:none";>
+		<select id="th08_end">
+			<option value="6A">FinalA</option>
+			<option value="6B">FinalB</option>
+		</select>
+	</div>
+	<br>
+	ISCORE: <span id="iscore_final"></span>
+	<div>
+		<button type="button" onclick="calc_iscore()">Calculate</button>
+	</div>
+	</main>
+	<script>
+		const game_shots = {
+			"th06": [
+				"ReimuA",
+				"ReimuB",
+				"MarisaA",
+				"MarisaB",
+			],
+			"th07": [
+				"ReimuA",
+				"ReimuB",
+				"MarisaA",
+				"MarisaB",
+				"SakuyaA",
+				"SakuyaB"
+			],
+			"th08": [
+				"Reimu & Yukari",
+				"Marisa & Alice",
+				"Sakuya & Remilia",
+				"Youmu & Yuyuko",
+				"Reimu",
+				"Marisa",
+				"Sakuya",
+				"Youmu",
+				"Yukari",
+				"Alice",
+				"Remilia",
+				"Yuyuko"
+			],
+			"th10": [
+				"ReimuA",
+				"ReimuB",
+				"ReimuC",
+				"MarisaA",
+				"MarisaB",
+				"MarisaC"
+			],
+			"th11": [
+				"ReimuA",
+				"ReimuB",
+				"ReimuC",
+				"MarisaA",
+				"MarisaB",
+				"MarisaC"
+			],
+			"th12": [
+				"ReimuA",
+				"ReimuB",
+				"MarisaA",
+				"MarisaB",
+				"SanaeA",
+				"SanaeB"
+			],
+			"th13": [
+				"Reimu",
+				"Marisa",
+				"Sanae",
+				"Youmu",
+			],
+			"th14": [
+				"ReimuA",
+				"ReimuB",
+				"MarisaA",
+				"MarisaB",
+				"SakuyaA",
+				"SakuyaB"
+			],
+			"th15": [
+				"Reimu",
+				"Marisa",
+				"Sanae",
+				"Reisen",
+			],
+			"th16": [
+				"Reimu(Spring)",
+				"Cirno(Spring)",
+				"Aya(Spring)",
+				"Marisa(Spring)",
+				"Reimu(Summer)",
+				"Cirno(Summer)",
+				"Aya(Summer)",
+				"Marisa(Summer)",
+				"Reimu(Autumn)",
+				"Cirno(Autumn)",
+				"Aya(Autumn)",
+				"Marisa(Autumn)",
+				"Reimu(Winter)",
+				"Cirno(Winter)",
+				"Aya(Winter)",
+				"Marisa(Winter)",
+			],
+			"th17": [
+				"Reimu(Wolf)",
+				"Reimu(Otter)",
+				"Reimu(Eagle)",
+				"Marisa(Wolf)",
+				"Marisa(Otter)",
+				"Marisa(Eagle)",
+				"Youmu(Wolf)",
+				"Youmu(Otter)",
+				"Youmu(Eagle)"
+			],
+			"th128": [
+				"A-1",
+				"A-2",
+				"B-1",
+				"B-2",
+				"C-1",
+				"C-2",
+				"Extra"
+			]
+		}
+		
+		const game_has_ex_ = [
+			"th06",
+			"th08",
+			"th13",
+			"th14"
+		]
+		
+		function game_has_ex(game) {
+			for(let i = 0; i < game_has_ex_.length; i++) {
+				if(game_has_ex_[i] === game) return true;
+			}
+			return false;
+		}
+
+		function enable_diff_sel() {
+			let diff_sel = document.getElementById("diff_w");
+			if(document.getElementById("runtype").value === "score"
+			   && game_has_ex(document.getElementById("games").value)) {
+				diff_sel.style.display = "block";
+			} else {
+				diff_sel.style.display = "none";
+				document.getElementById("diff").value = "Lunatic";
+			}
+		}
+		
+		function type_of_run_set() {
+			let rt = document.getElementById("runtype").value;
+			let surv_opts = document.getElementById("surv_opts");
+			let score_opts = document.getElementById("score_opts");
+			if(rt === "surv") {
+				surv_opts.style.display = "inline";
+				score_opts.style.display = "none";
+			} else if (rt === "score") {
+				surv_opts.style.display = "none";
+				score_opts.style.display = "inline";
+			} else {
+				surv_opts.style.display = "none";
+				score_opts.style.display = "none";
+			}
+			
+			enable_diff_sel();
+		}
+
+		function game_selected() {
+			document.getElementById("th08_opts").style.display = "none";
+
+			let shottypes = document.getElementById("shottype");
+			shottypes.replaceChildren();
+			let game_name = document.getElementById("games").value;
+			let shot_arr = game_shots[game_name];
+			
+			// scope
+			for(let i = 0; i < shot_arr.length; i++) {
+				let opt = document.createElement("option");
+				opt.value = shot_arr[i];
+				opt.innerText = shot_arr[i];
+				shottypes.appendChild(opt);
+			}
+			
+			if(game_name === "th08") {
+				document.getElementById("th08_opts").style.display = "block";
+			}
+			
+			let fullsp = document.getElementById("fullspell_w");
+			if(game_name === "th08" || game_name === "th13") {
+				fullsp.style.display = "inline";
+			} else {
+				fullsp.style.display = "none";
+			}
+			
+			let shot_lab = document.getElementById("shot_lab");
+			if(game_name === "th128") {
+				shot_lab.innerText = "Route:";
+			} else {
+				shot_lab.innerText = "Shot:";
+			}
+			
+			enable_diff_sel();
+		}
+		let game_el = document.getElementById("games")
+		game_el.addEventListener("change", game_selected, false);
+		game_el.value = "";
+		let rt_el = document.getElementById("runtype")
+		rt_el.addEventListener("change", type_of_run_set, false);
+		rt_el.value = "";
+		
+		function get_element_val(el_id, friendly_name, type) {
+			if(typeof(el_id) != "string") {
+				throw "FATAL ERROR: wrong type for el_id in get_element_val";
+			}
+			let ret = document.getElementById(el_id).value;
+			if(ret == "") {
+				throw "Please fill out " + friendly_name;
+			}
+			if(type === "number") {
+				ret = parseInt(ret, 10);
+			}
+			return ret;
+		}
+		
+		function calc_iscore() {
+			const get_full_spell = () => {
+				let game = document.getElementById("games").value;
+				if(game === "th08" || game === "th13") {
+					if(document.getElementById("fullspell").checked) {
+						return 1;
+					} else {
+						return 0;
+					}
+				} else {
+					return 0;
+				}
+			}
+		
+			let rt = document.getElementById("runtype").value;
+			
+			let iscore_val = 0;
+			try {
+				if(rt === "surv") {
+					iscore_val = iscore_get_survival(
+						get_element_val("games", "the game", "string"),
+						get_element_val("shottype", "the shottype", "string"),
+						get_element_val("misscount", "the miss count", "number"),
+						get_full_spell(),
+						get_element_val("th08_end", "", "string"),
+					);
+				} else if(rt === "score") {
+					let game = get_element_val("games", "the game", "string");
+					if(document.getElementById("diff").value === "Extra") {
+						game = game + "ex";
+					}
+					iscore_val = iscore_get_scoring(
+						game,
+						get_element_val("shottype", "the shottype", "string"),
+						get_element_val("score", "the score", "string")
+					);
+				}
+			} catch (error) {
+				alert(error);
+			}
+			document.getElementById("iscore_final").innerText = iscore_val.toString();
+		}
+	</script>
 </body>
 </html>

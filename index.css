@@ -9,6 +9,22 @@ body {
 	text-decoration: none;
 }
 
+button {
+	background-color: #333;
+}
+
+select {
+	background-color: #000;
+}
+
+main {
+	margin: 30px;
+}
+
+input {
+	background-color: #000;
+}
+
 .moverdowner {
 	height: 0;
 	background-color: #222;
