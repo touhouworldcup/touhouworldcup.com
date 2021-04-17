@@ -23,7 +23,8 @@
 	<div class="moverdowner"></div>
 	<main id="main">
 	<h1>ISCORE Calculator</h1>
-	<noscript>This page requires JavaScript</noscript>
+	<noscript><h2>This page requires JavaScript</h2></noscript>
+	<form id="calc-iscore">
 	<label for="games">Game: </label>
 	<select name="Games" id="games">
 		<option value="th06">Embodiment of Scarlet Devil</option>
@@ -83,8 +84,9 @@
 	<br>
 	ISCORE: <span id="iscore_final"></span>
 	<div>
-		<button type="button" onclick="calc_iscore()">Calculate</button>
+		<button type="submit">Calculate</button>
 	</div>
+	</form>
 	</main>
 	<script>
 		const game_shots = {
@@ -300,7 +302,9 @@
 			return ret;
 		}
 		
-		function calc_iscore() {
+		function calc_iscore(event) {
+			event.preventDefault();
+		
 			const get_full_spell = () => {
 				let game = document.getElementById("games").value;
 				if(game === "th08" || game === "th13") {
@@ -342,6 +346,7 @@
 			}
 			document.getElementById("iscore_final").innerText = iscore_val.toString();
 		}
+		document.getElementById("calc-iscore").addEventListener("submit", calc_iscore);
 	</script>
 </body>
 </html>
