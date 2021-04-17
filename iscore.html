@@ -26,7 +26,7 @@
 	<noscript><h2>This page requires JavaScript</h2></noscript>
 	<form id="calc-iscore">
 	<label for="games">Game: </label>
-	<select name="Games" id="games">
+	<select name="game" id="games">
 		<option value="th06">Embodiment of Scarlet Devil</option>
 		<option value="th07">Perfect Cherry Blossom</option>
 		<option value="th08">Imperishable Night</option>
@@ -42,41 +42,41 @@
 	</select>
 	
 	<label id="shot_lab" for="shottypes">Shot:</label>
-	<select name="Shottype" id="shottype"></select>
+	<select name="shottype" id="shottype"></select>
 	
 	<label for="runtype">Type of run:</label>
-	<select name="Type of run" id="runtype">
+	<select name="runtype" id="runtype">
 		<option value="surv">Survival</option>
 		<option value="score">Score</option>
 	</select>
 	
 	<span id="fullspell_w" style="display:none;">
 	<label for="fullspell">Full spell:</label>
-	<input name="Full Spell" type="checkbox" id="fullspell" />
+	<input name="fs" type="checkbox" id="fullspell" />
 	</span>
 	
 	<br>
 	
 	<span id="surv_opts" style="display:none;">
 		<label for="misscount">Misses:</label>
-		<input type="text" id="misscount">
+		<input type="text" id="misscount" name="misscount">
 	</span>
 	
 	<span id="score_opts" style="display:none;">
 		<label for="score">Score:</label>
-		<input type="text" id="score">
+		<input type="text" id="score" name="score">
 	</span>
 	
 	<span id="diff_w" style="display:none;">
 	<br>
 	<label for="diff">Difficulty:</label>
-	<select name="Difficulty" id="diff">
+	<select name="diff" id="diff">
 		<option value="Lunatic">Lunatic</option>
 		<option value="Extra">Extra</option>
 	</select>
 	</span>
 	<div id="th08_opts" style="display:none";>
-		<select id="th08_end">
+		<select name="th08_end" id="th08_end">
 			<option value="6A">FinalA</option>
 			<option value="6B">FinalB</option>
 		</select>
