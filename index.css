@@ -134,3 +134,7 @@ input {
 		height: 58px;
 	}
 }
+
+main a {
+	color: blue;
+}

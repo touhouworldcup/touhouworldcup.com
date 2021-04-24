@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Touhou World Cup</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<header class="header">
+	<a href="/" class="logo">Touhou World Cup</a>
+	<input class="menu-btn" type="checkbox" id="menu-btn" />
+	<label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+	<ul class="menu">
+		<li><a href="rules">Rules</a></li>
+		<li><a href="schedule">Schedule</a></li>
+		<li><a href="iscore">ISCORE</a></li>
+		<li><a href="credits">Credits</a></li>
+	</ul>
+	</header>
+	<div class="moverdowner"></div>
+	<main>
+	<h2 id='rules'>Rules</h2>
+		<h3>Format</h3>
+		<p>For every match, each team can earn points. Ranking is based on whoever has the most points:</p>
+		<ul>
+			<li>1st place - 2 pts</li>
+			<li>2nd place - 1 pt</li>
+			<li>3rd place - 0 pts</li>
+		</ul>
+		<p>In 2-team matches, the first place gets 2 points, and 2nd place gets 1 point.</p>
+		<p>If multiple players have the exact same amount of ISCORE, their points will be split equally. This also means that, if multiple players have the highest ISCORE, the match ends in a tie.</p>
+		<p>At the end of the World Cup, the teams will be ranked based on has the most points.</p>
+		<h3>Calculating Points</h3>
+		<p>The points are based on the <a href="iscore">ISCORE calculator</a>.</p>
+		<p>Score matches are calculated based on the ISCORE formula. Survival matches (except for GFW) are calculated as follows:</p>
+		<p><tt>(ISCORE No Miss No Bomb Score) / 2 ^ (deaths)</tt></p>
+		<p>In survival runs, bombs are counted as 2 deaths.</p>
+		<p>ISCORE is a scoring metric that compensates for the differences in performance between shot types and categories. The formulas used can be found in the ISCORE rubric with the calculator linked above.</p>
+		<h3>Game-specific Concerns</h3>
+		<h4>Touhou 7</h4>
+		<p>A border break is considered a death in survival runs.</p>
+		<h4>Touhou 8</h4>
+		<p>Getting hit during a Last Spell is <strong>not</strong> considered a death in survival runs. However, ISCORE gives a higher base value in this game to runs that capture all spells (which includes unlocking and capturing <strong>every</strong> Last Spell) AND do not die/bomb (NN + Full-SC).</p>
+		<h4>Touhou 12</h4>
+		<p>Summoning a UFO is considered a death in survival runs. However, collecting tokens does not affect the score in survival runs.</p>
+		<h4>Touhou 12.8</h4>
+		<p></p>
+		<p>The survival formula for this game is (gold medals*1.5)-(deaths).</p>
+		<h4>Touhou 13</h4>
+		<p>A manual trance is considered 2 deaths in survival runs. ISCORE gives a higher base value in this game to runs that capture all spells AND does not die/bomb (NN + Full-SC).</p>
+		<h4>Touhou 15</h4>
+		<p>All runs in both survival/score have to be done in Legacy Mode.</p>
+		<h4>Touhou 16</h4>
+		<p>Releasing your season gauge is considered 2 deaths in survival runs.</p>
+		<h4>Touhou 17</h4>
+		<p>Channeling a berserk roar (3 or more of the same animal tokens during roar mode) is considered 2 deaths in survival runs. Breaking your roar (bombing or touching a bullet during roar mode) is considered a death in survival runs.</p>
+		<h3>Use of Third Party Software &amp; Material</h3>
+		<p>Vsync patch is allowed. Practice patches (such as thprac) are allowed, but all practice cheats have to be disabled for the runs.</p>
+		<p>Visual patches (e.g. hitbox patch) are prohibited. Translation patches are allowed but discouraged. Audio patches/background music is allowed but no copyrighted material.</p>
+		<h3>Other Rules</h3>
+		<ul>
+			<li>Runs only count from the moment the timer has started.</li><li>Players can start as many runs as they want during the match. When the timer has finished on stream, no new runs can be started anymore.</li>
+			<li>A clear is always better than a gameover, no matter the score difference.</li><li>The players have to stream their gameplay. Just stream game footage: no overlay that shapes/crops the stream.</li>
+			<li>Streamers are allowed to have elements (images, input displays, cameras, etc.) on top of their game. However, the gameplay window, as well as all information on the player's HUD, has to be visible at all times.</li>
+			<li>Finished runs need their replays saved.</li><li>Please hide the story ending when your run finishes.</li>
+		</ul>
+	</main>
+</body>
+</html>
