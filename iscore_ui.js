@@ -234,7 +234,7 @@ window.onload = (E) => {
 		let iscore_val = 0;
 		try {
 			if(rt === "surv") {
-				iscore_val = iscore_get_survival(
+				iscore_val = iscore.get_survival(
 					get_element_val(game_sel, "the game", "string"),
 					get_element_val(shottypes, "the shottype", "string"),
 					get_element_val(i_misses, "the miss count", "number"),
@@ -246,7 +246,7 @@ window.onload = (E) => {
 				if(diff_sel.value === "Extra") {
 					game = game + "ex";
 				}
-				iscore_val = iscore_get_scoring(
+				iscore_val = iscore.get_scoring(
 					game,
 					get_element_val(shottypes, "the shottype", "string"),
 					get_element_val(i_score, "the score", "string")
