@@ -598,10 +598,7 @@ iscore.get_survival = (game, shot, miss, FS, end) => {
 			}
 		}
 	};
-	
-	if(miss > 5) {
-		return 0;
-	}
+
 	let iscore;
 	if(game === "th08") {
 		iscore = iscore_survival_table["th08"][end][shot][FS];
