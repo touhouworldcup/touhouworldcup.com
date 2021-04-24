@@ -21,18 +21,18 @@ iscore.get_survival = (game, shot, miss, FS, end) => {
 		},
 		"th08": {
 			"6A": {
-				"Reimu & Yukari": [ 15, 5 ],
-				"Marisa & Alice": [ 18, 5 ],
-				"Sakuya & Remilia": [ 18, 5 ],
-				"Youmu & Yuyuko": [ 15, 5 ],
-				"Reimu": [ 22, 12 ],
-				"Yukari": [ 19, 9 ],
-				"Marisa": [ 26, 13 ],
-				"Alice": [ 40, 20 ],
-				"Sakuya": [ 40, 25 ],
-				"Remilia": [ 23, 10 ],
-				"Youmu": [ 15, 5 ],
-				"Yuyuko": [ 22, 12 ]
+				"Reimu & Yukari": [ 5, 15 ],
+				"Marisa & Alice": [ 5, 18 ],
+				"Sakuya & Remilia": [ 5, 18 ],
+				"Youmu & Yuyuko": [ 5, 15 ],
+				"Reimu": [ 12, 22 ],
+				"Yukari": [ 9, 19 ],
+				"Marisa": [ 13, 26 ],
+				"Alice": [ 20, 40 ],
+				"Sakuya": [ 25, 40 ],
+				"Remilia": [ 10, 23 ],
+				"Youmu": [ 5, 15 ],
+				"Yuyuko": [ 12, 22 ]
 			},
 			"6B": {
 				"Reimu & Yukari": [ 5, 20 ],
@@ -124,6 +124,7 @@ iscore.get_survival = (game, shot, miss, FS, end) => {
 		}
 	};
 	let iscore_val;
+	if(miss) FS = 0;
 	if(game === "th08") {
 		iscore_val = iscore_survival_table["th08"][end][shot][FS];
 	} else if(game === "th13") {
