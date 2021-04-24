@@ -137,6 +137,10 @@ iscore.get_survival = (game, shot, miss, FS, end) => {
 	return iscore_val;
 }
 
+iscore.get_th128_survival = (medals, miss) => {
+	return medals * 1.5 - miss;
+}
+
 iscore.get_scoring = (game, shot, score) => {
 	const iscore_scoring_table = {
 		"th06ex": {

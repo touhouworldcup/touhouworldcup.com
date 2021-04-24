@@ -112,7 +112,7 @@ window.onload = (E) => {
 		]
 	}
 
-	const diff_w = document.getElementById("diff_w");
+	const diff_w   = document.getElementById("diff_w");
 	const runtype  = document.getElementById("runtype");
 	const game_sel = document.getElementById("games");
 	const diff_sel = document.getElementById("diff");
@@ -120,8 +120,10 @@ window.onload = (E) => {
 	const surv_opts  = document.getElementById("surv_opts");
 	const score_opts = document.getElementById("score_opts");
 
-	const th08_opts = document.getElementById("th08_opts");
-	const fullsp    = document.getElementById("fullspell_w");
+	const th08_opts      = document.getElementById("th08_opts");
+	const th128_medals   = document.getElementById("th128_medals");
+	const th128_medal_w  = document.getElementById("th128_medal_w");
+	const fullsp         = document.getElementById("fullspell_w");
 
 	const shottypes = document.getElementById("shottype");
 	const shot_lab  = document.getElementById("shot_lab");
@@ -137,14 +139,18 @@ window.onload = (E) => {
 		"th13": true,
 		"th14": true
 	}
-
-	const enable_diff_sel = () => {
-		if(runtype.value === "score"
-		   && game_has_ex[game_sel.value]) {
+	
+	const game_runtype_specific_opts = () => {
+		if(runtype.value === "score" && game_has_ex[game_sel.value]) {
 			diff_w.style.display = "block";
 		} else {
-			diff_w.style.display = "none";
 			diff_sel.value = "Lunatic";
+			diff_w.style.display = "none";
+		}
+		if(runtype.value === "surv" && game_sel.value === "th128") {
+			th128_medal_w.style.display = "inline";
+		} else {
+			th128_medal_w.style.display = "none";
 		}
 	}
 
@@ -178,7 +184,7 @@ window.onload = (E) => {
 			shot_lab.innerText = "Shot:";
 		}
 
-		enable_diff_sel();
+		game_runtype_specific_opts();
 	}
 
 	game_sel.addEventListener("change", game_selected, false);
@@ -195,7 +201,7 @@ window.onload = (E) => {
 			surv_opts.style.display = "none";
 			score_opts.style.display = "none";
 		}
-		enable_diff_sel();
+		game_runtype_specific_opts();
 	}, false);
 	runtype.value = "";
 
@@ -234,13 +240,21 @@ window.onload = (E) => {
 		let iscore_val = 0;
 		try {
 			if(rt === "surv") {
-				iscore_val = iscore.get_survival(
-					get_element_val(game_sel, "the game", "string"),
-					get_element_val(shottypes, "the shottype", "string"),
-					get_element_val(i_misses, "the miss count", "number"),
-					get_full_spell(),
-					get_element_val(th08_end, "", "string"),
-				);
+				if(game_sel.value === "th128") {
+					iscore_val = iscore.get_th128_survival(
+						get_element_val(th128_medals, "the medals", "number"),
+						get_element_val(i_misses, "the miss count", "number")
+					);
+				} else {
+					iscore_val = iscore.get_survival(
+						get_element_val(game_sel, "the game", "string"),
+						get_element_val(shottypes, "the shottype", "string"),
+						get_element_val(i_misses, "the miss count", "number"),
+						get_full_spell(),
+						get_element_val(th08_end, "", "string"),
+					);
+				}
+				
 			} else if(rt === "score") {
 				let game = get_element_val(game_sel, "the game", "string");
 				if(diff_sel.value === "Extra") {
@@ -263,6 +277,7 @@ window.onload = (E) => {
 	surv_opts.style.display = "none";
 	score_opts.style.display = "none";
 	diff_w.style.display = "none";
+	th128_medal_w.style.display = "none";
 	
 	shottypes.replaceChildren()
 	shot_lab.innerText = "Shot:";
