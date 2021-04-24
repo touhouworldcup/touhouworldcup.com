@@ -6,6 +6,7 @@
 	<title>Touhou World Cup</title>
 	<link rel="stylesheet" href="index.css">
 	<script src="iscore.js"></script>
+	<script src="iscore_ui.js"></script>
 </head>
 
 <body>
@@ -40,34 +41,145 @@
 		<option value="th16">Hidden Star in Four Seasons</option>
 		<option value="th17">Wily Beast and Weaksest Creature</option>
 	</select>
-	
-	<label id="shot_lab" for="shottypes">Shot:</label>
-	<select name="shottype" id="shottype"></select>
-	
+
+	<label id="shot_lab" for="shottypes">Shot/GFW Route:</label>
+	<select name="shottype" id="shottype">
+		<optgroup label="Embodiment of Scarlet Devil">
+			<option value="ReimuA">ReimuA</option>
+			<option value="ReimuB">ReimuB</option>
+			<option value="MarisaA">MarisaA</option>
+			<option value="MarisaB">MarisaB</option>
+		</optgroup>
+		<optgroup label="Perfect Cherry Blossom">
+			<option value="ReimuA">ReimuA</option>
+			<option value="ReimuB">ReimuB</option>
+			<option value="MarisaA">MarisaA</option>
+			<option value="MarisaB">MarisaB</option>
+			<option value="SakuyaA">SakuyaA</option>
+			<option value="SakuyaB">SakuyaB</option>
+		</optgroup>
+		<optgroup label="Imperishable Night">
+			<option value="Reimu & Yukari">Reimu & Yukari</option>
+			<option value="Marisa & Alice">Marisa & Alice</option>
+			<option value="Sakuya & Remilia">Sakuya & Remilia</option>
+			<option value="Youmu & Yuyuko">Youmu & Yuyuko</option>
+			<option value="Reimu"> Reimu</option>
+			<option value="Marisa">Marisa</option>
+			<option value="Sakuya">Sakuya</option>
+			<option value="Youmu">Youmu</option>
+			<option value="Yukari">Yukari</option>
+			<option value="Alice">Alice</option>
+			<option value="Remilia">Remilia</option>
+			<option value="Yuyuko">Yuyuko</option>
+		</optgroup>
+		<optgroup label="Mountain of Faith">
+			<option value="ReimuA">ReimuA</option>
+			<option value="ReimuB">ReimuB</option>
+			<option value="ReimuC">ReimuC</option>
+			<option value="MarisaA">MarisaA</option>
+			<option value="MarisaB">MarisaB</option>
+			<option value="MarisaC">MarisaC</option>
+		</optgroup>
+		<optgroup label="Subterrarian Aminism">
+			<option value="ReimuA">ReimuA</option>
+			<option value="ReimuB">ReimuB</option>
+			<option value="ReimuC">ReimuC</option>
+			<option value="MarisaA">MarisaA</option>
+			<option value="MarisaB">MarisaB</option>
+			<option value="MarisaC">MarisaC</option>
+		</optgroup>
+		<optgroup label="Undefined Fantastic Object">
+			<option value="ReimuA">ReimuA</option>
+			<option value="ReimuB">ReimuB</option>
+			<option value="MarisaA">MarisaA</option>
+			<option value="MarisaB">MarisaB</option>
+			<option value="SanaeA">SanaeA</option>
+			<option value="SanaeB">SanaeB</option>
+		</optgroup>
+		<optgroup label="Ten Desires">
+			<option value="Reimu">Reimu</option>
+			<option value="Marisa">Marisa</option>
+			<option value="Sanae">Sanae</option>
+			<option value="Youmu">Youmu</option>
+		</optgroup>
+		<optgroup label="Double Dealing Character">
+			<option value="ReimuA">ReimuA</option>
+			<option value="ReimuB">ReimuB</option>
+			<option value="MarisaA">MarisaA</option>
+			<option value="MarisaB">MarisaB</option>
+			<option value="SakuyaA">SakuyaA</option>
+			<option value="SakuyaB">SakuyaB</option>
+		</optgroup>
+		<optgroup label="Legacy of Lunatic Kingdom">
+			<option value="Reimu">Reimu</option>
+			<option value="Marisa">Marisa</option>
+			<option value="Sanae">Sanae</option>
+			<option value="Reisen">Reisen</option>
+		</optgroup>
+		<optgroup label="Hidden Star in Four Seasons">
+			<option value="Reimu(Spring)">Reimu(Spring)</option>
+			<option value="Cirno(Spring)">Cirno(Spring)</option>
+			<option value="Aya(Spring)">Aya(Spring)</option>
+			<option value="Marisa(Spring)">Marisa(Spring)</option>
+			<option value="Reimu(Summer)">Reimu(Summer)</option>
+			<option value="Cirno(Summer)">Cirno(Summer)</option>
+			<option value="Aya(Summer)">Aya(Summer)</option>
+			<option value="Marisa(Summer)">Marisa(Summer</option>
+			<option value="Reimu(Autumn)">Reimu(Autumn)</option>
+			<option value="Cirno(Autumn)">Cirno(Autumn)</option>
+			<option value="Aya(Autumn)">Aya(Autumn)</option>
+			<option value="Marisa(Autumn)">Marisa(Autumn</option>
+			<option value="Reimu(Winter)">Reimu(Winter)</option>
+			<option value="Cirno(Winter)">Cirno(Winter)</option>
+			<option value="Aya(Winter)">Aya(Winter)</option>
+			<option value="Marisa(Winter)">Marisa(Winter)</option>
+		</optgroup>
+		<optgroup label="Wily Beast and Weaksest Creature">
+			<option value="Reimu(Wolf)">Reimu(Wolf)</option>
+			<option value="Reimu(Otter)">Reimu(Otter)</option>
+			<option value="Reimu(Eagle)">Reimu(Eagle)</option>
+			<option value="Marisa(Wolf)">Marisa(Wolf)</option>
+			<option value="Marisa(Otter)">Marisa(Otter)</option>
+			<option value="Marisa(Eagle)">Marisa(Eagle)</option>
+			<option value="Youmu(Wolf)">Youmu(Wolf)</option>
+			<option value="Youmu(Otter)">Youmu(Otter)</option>
+			<option value="Youmu(Eagle)">Youmu(Eagle)</option>
+		</optgroup>
+		<optgroup label="Great Fairy Wars">
+			<option value="A-1">A-1</option>
+			<option value="A-2">A-2</option>
+			<option value="B-1">B-1</option>
+			<option value="B-2">B-2</option>
+			<option value="C-1">C-1</option>
+			<option value="C-2">C-2</option>
+			<option value="Extra">Extra</option>
+		</optgroup>
+	</select>
+
 	<label for="runtype">Type of run:</label>
 	<select name="runtype" id="runtype">
 		<option value="surv">Survival</option>
 		<option value="score">Score</option>
 	</select>
-	
-	<span id="fullspell_w" style="display:none;">
+
+	<span id="fullspell_w">
 	<label for="fullspell">Full spell:</label>
 	<input name="fs" type="checkbox" id="fullspell" />
 	</span>
-	
+
 	<br>
-	
-	<span id="surv_opts" style="display:none;">
+
+	<span id="surv_opts">
 		<label for="misscount">Misses:</label>
 		<input type="text" id="misscount" name="misscount">
 	</span>
-	
-	<span id="score_opts" style="display:none;">
+
+	<span id="score_opts">
 		<label for="score">Score:</label>
 		<input type="text" id="score" name="score">
 	</span>
-	
-	<span id="diff_w" style="display:none;">
+
+	<span id="diff_w">
 	<br>
 	<label for="diff">Difficulty:</label>
 	<select name="diff" id="diff">
@@ -88,265 +200,5 @@
 	</div>
 	</form>
 	</main>
-	<script>
-		const game_shots = {
-			"th06": [
-				"ReimuA",
-				"ReimuB",
-				"MarisaA",
-				"MarisaB",
-			],
-			"th07": [
-				"ReimuA",
-				"ReimuB",
-				"MarisaA",
-				"MarisaB",
-				"SakuyaA",
-				"SakuyaB"
-			],
-			"th08": [
-				"Reimu & Yukari",
-				"Marisa & Alice",
-				"Sakuya & Remilia",
-				"Youmu & Yuyuko",
-				"Reimu",
-				"Marisa",
-				"Sakuya",
-				"Youmu",
-				"Yukari",
-				"Alice",
-				"Remilia",
-				"Yuyuko"
-			],
-			"th10": [
-				"ReimuA",
-				"ReimuB",
-				"ReimuC",
-				"MarisaA",
-				"MarisaB",
-				"MarisaC"
-			],
-			"th11": [
-				"ReimuA",
-				"ReimuB",
-				"ReimuC",
-				"MarisaA",
-				"MarisaB",
-				"MarisaC"
-			],
-			"th12": [
-				"ReimuA",
-				"ReimuB",
-				"MarisaA",
-				"MarisaB",
-				"SanaeA",
-				"SanaeB"
-			],
-			"th13": [
-				"Reimu",
-				"Marisa",
-				"Sanae",
-				"Youmu",
-			],
-			"th14": [
-				"ReimuA",
-				"ReimuB",
-				"MarisaA",
-				"MarisaB",
-				"SakuyaA",
-				"SakuyaB"
-			],
-			"th15": [
-				"Reimu",
-				"Marisa",
-				"Sanae",
-				"Reisen",
-			],
-			"th16": [
-				"Reimu(Spring)",
-				"Cirno(Spring)",
-				"Aya(Spring)",
-				"Marisa(Spring)",
-				"Reimu(Summer)",
-				"Cirno(Summer)",
-				"Aya(Summer)",
-				"Marisa(Summer)",
-				"Reimu(Autumn)",
-				"Cirno(Autumn)",
-				"Aya(Autumn)",
-				"Marisa(Autumn)",
-				"Reimu(Winter)",
-				"Cirno(Winter)",
-				"Aya(Winter)",
-				"Marisa(Winter)",
-			],
-			"th17": [
-				"Reimu(Wolf)",
-				"Reimu(Otter)",
-				"Reimu(Eagle)",
-				"Marisa(Wolf)",
-				"Marisa(Otter)",
-				"Marisa(Eagle)",
-				"Youmu(Wolf)",
-				"Youmu(Otter)",
-				"Youmu(Eagle)"
-			],
-			"th128": [
-				"A-1",
-				"A-2",
-				"B-1",
-				"B-2",
-				"C-1",
-				"C-2",
-				"Extra"
-			]
-		}
-		
-		const game_has_ex_ = [
-			"th06",
-			"th08",
-			"th13",
-			"th14"
-		]
-		
-		function game_has_ex(game) {
-			for(let i = 0; i < game_has_ex_.length; i++) {
-				if(game_has_ex_[i] === game) return true;
-			}
-			return false;
-		}
-
-		function enable_diff_sel() {
-			let diff_sel = document.getElementById("diff_w");
-			if(document.getElementById("runtype").value === "score"
-			   && game_has_ex(document.getElementById("games").value)) {
-				diff_sel.style.display = "block";
-			} else {
-				diff_sel.style.display = "none";
-				document.getElementById("diff").value = "Lunatic";
-			}
-		}
-		
-		function type_of_run_set() {
-			let rt = document.getElementById("runtype").value;
-			let surv_opts = document.getElementById("surv_opts");
-			let score_opts = document.getElementById("score_opts");
-			if(rt === "surv") {
-				surv_opts.style.display = "inline";
-				score_opts.style.display = "none";
-			} else if (rt === "score") {
-				surv_opts.style.display = "none";
-				score_opts.style.display = "inline";
-			} else {
-				surv_opts.style.display = "none";
-				score_opts.style.display = "none";
-			}
-			
-			enable_diff_sel();
-		}
-
-		function game_selected() {
-			document.getElementById("th08_opts").style.display = "none";
-
-			let shottypes = document.getElementById("shottype");
-			shottypes.replaceChildren();
-			let game_name = document.getElementById("games").value;
-			let shot_arr = game_shots[game_name];
-			
-			// scope
-			for(let i = 0; i < shot_arr.length; i++) {
-				let opt = document.createElement("option");
-				opt.value = shot_arr[i];
-				opt.innerText = shot_arr[i];
-				shottypes.appendChild(opt);
-			}
-			
-			if(game_name === "th08") {
-				document.getElementById("th08_opts").style.display = "block";
-			}
-			
-			let fullsp = document.getElementById("fullspell_w");
-			if(game_name === "th08" || game_name === "th13") {
-				fullsp.style.display = "inline";
-			} else {
-				fullsp.style.display = "none";
-			}
-			
-			let shot_lab = document.getElementById("shot_lab");
-			if(game_name === "th128") {
-				shot_lab.innerText = "Route:";
-			} else {
-				shot_lab.innerText = "Shot:";
-			}
-			
-			enable_diff_sel();
-		}
-		let game_el = document.getElementById("games")
-		game_el.addEventListener("change", game_selected, false);
-		game_el.value = "";
-		let rt_el = document.getElementById("runtype")
-		rt_el.addEventListener("change", type_of_run_set, false);
-		rt_el.value = "";
-		
-		function get_element_val(el_id, friendly_name, type) {
-			if(typeof(el_id) != "string") {
-				throw "FATAL ERROR: wrong type for el_id in get_element_val";
-			}
-			let ret = document.getElementById(el_id).value;
-			if(ret == "") {
-				throw "Please fill out " + friendly_name;
-			}
-			if(type === "number") {
-				ret = parseInt(ret, 10);
-			}
-			return ret;
-		}
-		
-		function calc_iscore(event) {
-			event.preventDefault();
-		
-			const get_full_spell = () => {
-				let game = document.getElementById("games").value;
-				if(game === "th08" || game === "th13") {
-					if(document.getElementById("fullspell").checked) {
-						return 1;
-					} else {
-						return 0;
-					}
-				} else {
-					return 0;
-				}
-			}
-		
-			let rt = document.getElementById("runtype").value;
-			
-			let iscore_val = 0;
-			try {
-				if(rt === "surv") {
-					iscore_val = iscore_get_survival(
-						get_element_val("games", "the game", "string"),
-						get_element_val("shottype", "the shottype", "string"),
-						get_element_val("misscount", "the miss count", "number"),
-						get_full_spell(),
-						get_element_val("th08_end", "", "string"),
-					);
-				} else if(rt === "score") {
-					let game = get_element_val("games", "the game", "string");
-					if(document.getElementById("diff").value === "Extra") {
-						game = game + "ex";
-					}
-					iscore_val = iscore_get_scoring(
-						game,
-						get_element_val("shottype", "the shottype", "string"),
-						get_element_val("score", "the score", "string")
-					);
-				}
-			} catch (error) {
-				alert(error);
-			}
-			document.getElementById("iscore_final").innerText = iscore_val.toString();
-		}
-		document.getElementById("calc-iscore").addEventListener("submit", calc_iscore);
-	</script>
 </body>
 </html>
