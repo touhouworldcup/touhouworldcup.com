@@ -121,9 +121,11 @@ window.onload = (E) => {
 	const score_opts = document.getElementById("score_opts");
 
 	const th08_opts      = document.getElementById("th08_opts");
+	const th08_end       = document.getElementById("th08_end");
 	const th128_medals   = document.getElementById("th128_medals");
 	const th128_medal_w  = document.getElementById("th128_medal_w");
-	const fullsp         = document.getElementById("fullspell_w");
+	const fullspell_w    = document.getElementById("fullspell_w");
+	const fullspell      = document.getElementById("fullspell");
 
 	const shottypes = document.getElementById("shottype");
 	const shot_lab  = document.getElementById("shot_lab");
@@ -173,9 +175,9 @@ window.onload = (E) => {
 		}
 
 		if(game_name === "th08" || game_name === "th13") {
-			fullsp.style.display = "inline";
+			fullspell_w.style.display = "inline";
 		} else {
-			fullsp.style.display = "none";
+			fullspell_w.style.display = "none";
 		}
 
 		if(game_name === "th128") {
@@ -225,7 +227,7 @@ window.onload = (E) => {
 		const get_full_spell = () => {
 			let game = game_sel.value;
 			if(game === "th08" || game === "th13") {
-				if(document.getElementById("fullspell").checked) {
+				if(fullspell.checked) {
 					return 1;
 				} else {
 					return 0;
@@ -273,7 +275,7 @@ window.onload = (E) => {
 	}
 	document.getElementById("calc-iscore").addEventListener("submit", calc_iscore);
 
-	fullsp.style.display = "none";
+	fullspell_w.style.display = "none";
 	surv_opts.style.display = "none";
 	score_opts.style.display = "none";
 	diff_w.style.display = "none";
