@@ -121,6 +121,12 @@ iscore.get_survival = (game, shot, miss, FS, end) => {
 			"Youmu(Wolf)": 7,
 			"Youmu(Otter)": 8,
 			"Youmu(Eagle)": 50
+		},
+		"th18": {
+			"Reimu": 1,
+			"Marisa": 1,
+			"Sakuya": 1,
+			"Sanae": 1
 		}
 	};
 	let iscore_val;
@@ -715,6 +721,28 @@ iscore.get_scoring = (game, shot, score) => {
 				"a": 1.229,
 				"b": 0.0000042,
 				"c": 0.21973
+			}
+		},
+		"th18": {
+			"Reimu": {
+				"a": 1,
+				"b": 1,
+				"c": 1
+			},
+			"Marisa": {
+				"a": 1,
+				"b": 1,
+				"c": 1
+			},
+			"Sakuya": {
+				"a": 1,
+				"b": 1,
+				"c": 1
+			},
+			"Sanae": {
+				"a": 1,
+				"b": 1,
+				"c": 1
 			}
 		},
 		"th128": {

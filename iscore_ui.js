@@ -101,6 +101,12 @@ window.onload = (E) => {
 			"Youmu(Otter)",
 			"Youmu(Eagle)"
 		],
+		"th18": [
+			"Reimu",
+			"Marisa",
+			"Sakuya",
+			"Sanae"
+		],
 		"th128": [
 			"A-1",
 			"A-2",
