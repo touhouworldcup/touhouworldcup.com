@@ -143,6 +143,24 @@ iscore.get_th128_survival = (medals, miss) => {
 }
 
 iscore.get_scoring = (game, shot, score) => {
+	const lnum_suff = {
+		"m": 1000000,
+		"b": 1000000000,
+		"k": 1000
+	}
+	
+	if(typeof(score) === "string") {
+		score = score.trim();
+		let lnum_mult = lnum_suff[score[score.length - 1]];
+		if(typeof(lnum_mult) === "number") {
+			score = parseFloat(score.substring(0, score.length - 1)) * lnum_mult;
+		} else {
+			score = parseFloat(score);
+		}
+	} else if(typeof(score) != "number") {
+		throw "ISCORE ERROR: Invalid type for \"score\" in iscore.get_scoring";
+	}
+	
 	const iscore_scoring_table = {
 		"th06ex": {
 			"ReimuA": {
