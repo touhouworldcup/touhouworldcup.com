@@ -123,10 +123,10 @@ iscore.get_survival = (game, shot, miss, FS, end) => {
 			"Youmu(Eagle)": 50
 		},
 		"th18": {
-			"Reimu": 1,
-			"Marisa": 1,
-			"Sakuya": 1,
-			"Sanae": 1
+			"Reimu": 20,
+			"Marisa": 80,
+			"Sakuya": 20,
+			"Sanae": 20
 		}
 	};
 	let iscore_val;
