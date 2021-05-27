@@ -123,10 +123,10 @@ iscore.get_survival = (game, shot, miss, FS, end) => {
 			"Youmu(Eagle)": 50
 		},
 		"th18": {
-			"Reimu": 20,
-			"Marisa": 80,
-			"Sakuya": 20,
-			"Sanae": 20
+			"Reimu": 15,
+			"Marisa": 60,
+			"Sakuya": 25,
+			"Sanae": 15
 		}
 	};
 	let iscore_val;
@@ -725,24 +725,24 @@ iscore.get_scoring = (game, shot, score) => {
 		},
 		"th18": {
 			"Reimu": {
-				"a": 1,
-				"b": 1,
-				"c": 1
+				"a": 1.1491,
+				"b": 0.00003164,
+				"c": 0.19087
 			},
 			"Marisa": {
-				"a": 1,
-				"b": 1,
-				"c": 1
+				"a": 1.1491,
+				"b": 0.00004802,
+				"c": 0.19087
 			},
 			"Sakuya": {
-				"a": 1,
-				"b": 1,
-				"c": 1
+				"a": 1.0631,
+				"b": 0.00086,
+				"c": 1.6728
 			},
 			"Sanae": {
-				"a": 1,
-				"b": 1,
-				"c": 1
+				"a": 1.1491,
+				"b": 0.00002084,
+				"c": 0.19087
 			}
 		},
 		"th128": {
