@@ -165,7 +165,7 @@ window.onload = (E) => {
 	const game_selected = () => {
 		th08_opts.style.display = "none";
 
-		shottypes.replaceChildren();
+		shottypes.innerHTML = "";
 		let game_name = game_sel.value;
 		let shot_arr = game_shots[game_name];
 
@@ -287,6 +287,6 @@ window.onload = (E) => {
 	diff_w.style.display = "none";
 	th128_medal_w.style.display = "none";
 	
-	shottypes.replaceChildren()
+	shottypes.innerHTML = "";
 	shot_lab.innerText = "Shot:";
 }
