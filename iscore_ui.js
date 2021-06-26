@@ -259,7 +259,7 @@ window.onload = (E) => {
 						get_element_val(shottypes, "the shottype", "string"),
 						get_element_val(i_misses, "the miss count", "number"),
 						get_full_spell(),
-						get_element_val(th08_end, "", "string"),
+						get_element_val(th08_end, "", "string")
 					);
 				}
 				
