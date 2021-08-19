@@ -33,7 +33,7 @@
 	<h1>ISCORE Calculator</h1>
 	<noscript><h2>This page requires JavaScript</h2></noscript>
 	<form id="calc-iscore">
-	<label for="games">Game: </label>
+	<label for="games">Game</label><br>
 	<select name="games" id="games">
 		<option value="th06">Embodiment of Scarlet Devil</option>
 		<option value="th07">Perfect Cherry Blossom</option>
@@ -48,9 +48,9 @@
 		<option value="th16">Hidden Star in Four Seasons</option>
 		<option value="th17">Wily Beast and Weaksest Creature</option>
 		<option value="th18">Unconnected Marketeers</option>
-	</select>
+	</select><br><br>
 
-	<label id="shot_lab" for="shottypes">Shot/GFW Route:</label>
+	<label id="shot_lab" for="shottypes">Shot/GFW Route</label><br>
 	<select name="shottype" id="shottype">
 		<optgroup label="Embodiment of Scarlet Devil">
 			<option value="ReimuA">ReimuA</option>
@@ -168,55 +168,63 @@
 			<option value="C-2">C-2</option>
 			<option value="Extra">Extra</option>
 		</optgroup>
-	</select>
+	</select><br><br>
 
-	<label for="runtype">Type of run:</label>
+	<label for="runtype">Type of run</label><br>
 	<select name="runtype" id="runtype">
 		<option value="surv">Survival</option>
 		<option value="score">Score</option>
 	</select>
 
 	<span id="fullspell_w">
-	<label for="fullspell">Full spell:</label>
-	<input name="fullspell" type="checkbox" id="fullspell" />
+	<br><br>
+		<label for="fullspell">Full Spell</label>
+		<input name="fullspell" type="checkbox" id="fullspell" />
 	</span>
 
-	<br>
-
 	<span id="surv_opts">
-		<label for="misscount">Misses:</label>
+	<br><br>
+		<label for="misscount">Misses</label><br>
 		<input type="text" id="misscount" name="misscount">
 	</span>
 
 	<span id="score_opts">
-		<label for="score">Score:</label>
+	<br><br>
+		<label for="score">Score</label><br>
 		<input type="text" id="score" name="score">
 	</span>
 	
 	<span id="th128_medal_w">
-		<label for="th128_medals">Medals:</label>
+	<br><br>
+	<label for="th128_medals" id="th128_medal_l">Gold Medals (th128 only)</label><br>
 		<input type="text" id="th128_medals" name="th128_medals">
 	</span>
 
 	<span id="diff_w">
-	<br>
-	<label for="diff">Difficulty:</label>
+	<br><br>
+	<label for="diff">Difficulty</label><br>
 	<select name="diff" id="diff">
 		<option value="Lunatic">Lunatic</option>
 		<option value="Extra">Extra</option>
 	</select>
 	</span>
-	<div id="th08_opts" style="display:none";>
+	
+	<span id="th08_opts">
+	<br><br>
+		<label for="th08_end">Final stage (th08 only)</label><br>
 		<select name="th08_end" id="th08_end">
 			<option value="6A">FinalA</option>
 			<option value="6B">FinalB</option>
 		</select>
-	</div>
-	<br>
-	ISCORE: <span id="iscore_final"></span>
+	</span>
+	
 	<div>
+		<br>
 		<button type="submit">Calculate</button>
 	</div>
+	
+	<hr>
+	ISCORE = <span id="iscore_final"></span>
 	</form>
 	</main>
 </body>

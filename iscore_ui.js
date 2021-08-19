@@ -130,6 +130,7 @@ window.onload = (E) => {
 	const th08_end       = document.getElementById("th08_end");
 	const th128_medals   = document.getElementById("th128_medals");
 	const th128_medal_w  = document.getElementById("th128_medal_w");
+	const th128_medal_l  = document.getElementById("th128_medal_l");
 	const fullspell_w    = document.getElementById("fullspell_w");
 	const fullspell      = document.getElementById("fullspell");
 
@@ -148,17 +149,31 @@ window.onload = (E) => {
 		"th14": true
 	}
 	
-	const game_runtype_specific_opts = () => {
-		if(runtype.value === "score" && game_has_ex[game_sel.value]) {
-			diff_w.style.display = "block";
-		} else {
+	const game_runtype_specific_opts = (game_name) => {
+		if(runtype.value === "score") {
+			fullspell_w.style.display = "none";
+			th128_medal_w.style.display = "none";
+			
+			if(game_has_ex[game_sel.value]) {
+				diff_w.style.display = "block";
+			} else {
+				diff_sel.value = "Lunatic";
+				diff_w.style.display = "none";
+			}
+		} else if(runtype.value === "surv") {
 			diff_sel.value = "Lunatic";
 			diff_w.style.display = "none";
-		}
-		if(runtype.value === "surv" && game_sel.value === "th128") {
-			th128_medal_w.style.display = "inline";
-		} else {
-			th128_medal_w.style.display = "none";
+			
+			if(game_sel.value === "th128") {
+				th128_medal_w.style.display = "inline";
+			} else {
+				th128_medal_w.style.display = "none";
+			}
+			if(game_name === "th08" || game_name === "th13") {
+				fullspell_w.style.display = "inline";
+			} else {
+				fullspell_w.style.display = "none";
+			}
 		}
 	}
 
@@ -180,19 +195,13 @@ window.onload = (E) => {
 			th08_opts.style.display = "block";
 		}
 
-		if(game_name === "th08" || game_name === "th13") {
-			fullspell_w.style.display = "inline";
-		} else {
-			fullspell_w.style.display = "none";
-		}
-
 		if(game_name === "th128") {
-			shot_lab.innerText = "Route:";
+			shot_lab.innerText = "Route";
 		} else {
-			shot_lab.innerText = "Shot:";
+			shot_lab.innerText = "Shot";
 		}
 
-		game_runtype_specific_opts();
+		game_runtype_specific_opts(game_name);
 	}
 
 	game_sel.addEventListener("change", game_selected, false);
@@ -209,7 +218,7 @@ window.onload = (E) => {
 			surv_opts.style.display = "none";
 			score_opts.style.display = "none";
 		}
-		game_runtype_specific_opts();
+		game_runtype_specific_opts(game_sel.value);
 	}, false);
 	runtype.value = "";
 
@@ -286,6 +295,7 @@ window.onload = (E) => {
 	score_opts.style.display = "none";
 	diff_w.style.display = "none";
 	th128_medal_w.style.display = "none";
+	th128_medal_l.innerText = "Gold Medals";
 	
 	shottypes.innerHTML = "";
 	shot_lab.innerText = "Shot:";
