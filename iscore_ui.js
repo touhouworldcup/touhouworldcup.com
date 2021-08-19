@@ -155,7 +155,7 @@ window.onload = (E) => {
 			th128_medal_w.style.display = "none";
 			
 			if(game_has_ex[game_sel.value]) {
-				diff_w.style.display = "block";
+				diff_w.style.display = "inline";
 			} else {
 				diff_sel.value = "Lunatic";
 				diff_w.style.display = "none";
@@ -192,7 +192,7 @@ window.onload = (E) => {
 		}
 
 		if(game_name === "th08") {
-			th08_opts.style.display = "block";
+			th08_opts.style.display = "inline";
 		}
 
 		if(game_name === "th128") {
@@ -294,9 +294,10 @@ window.onload = (E) => {
 	surv_opts.style.display = "none";
 	score_opts.style.display = "none";
 	diff_w.style.display = "none";
+	th08_opts.style.display = "none";
 	th128_medal_w.style.display = "none";
 	th128_medal_l.innerText = "Gold Medals";
 	
 	shottypes.innerHTML = "";
-	shot_lab.innerText = "Shot:";
+	shot_lab.innerText = "Shot";
 }

@@ -110,6 +110,10 @@ input {
 	max-height:240px;
 }
 
+ul.list > li {
+	padding: 0.5em;
+}
+
 @media (min-width:50em) {
 	.header li {
 		float:left;
