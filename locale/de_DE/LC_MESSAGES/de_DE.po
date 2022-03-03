@@ -1,0 +1,647 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-01-16 17:59+0100\n"
+"PO-Revision-Date: 2022-03-03 22:20+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ../../../assets\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: twc/twc.php:5
+msgid ""
+"<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou shooting game competition, first held in "
+"2020, organised by the Chinese gameplay community. This time around, in 2021, it is organised by the Western gameplay "
+"community."
+msgstr ""
+"Der <strong>Touhou World Cup (TWC)</strong> ist ein jährlich stattfindender internationaler Touhou-Shooter-"
+"Wettbewerb, der erstmals im Jahr 2020 von der chinesischen Spieler-Community organisiert wurde. Dieses Mal, im Jahr "
+"2021, wird er von der westlichen Spielergemeinschaft organisiert."
+
+#: twc/twc.php:10
+msgid ""
+"Three teams, a Western community team, a Chinese team, and a Japanese team, duke it out on Lunatic and Extra mode, "
+"playing on live streams and playing both high score and survival."
+msgstr ""
+"Drei Teams, ein westliches Community-Team, ein chinesisches Team und ein japanisches Team, treten im Lunatic- und im "
+"Extra-Modus gegeneinander an, wobei sie in einem Livestream spielen und sowohl Scoring als auch Survival spielen."
+
+#: twc/twc.php:14
+msgid ""
+"See below for official communication channels, live streams with commentary, the schedule, and the rules the players "
+"play by."
+msgstr ""
+"Nachstehend findest du die offiziellen Kommunikationskanäle, Livestreams mit Kommentatoren, den Zeitplan und die "
+"Regeln, nach denen die Spieler spielen."
+
+#: twc/twc.php:18
+msgid "Official TWC Twitter"
+msgstr "Offizieller TWC-Twitter"
+
+#: twc/twc.php:19
+msgid "Official TWC YouTube Channel"
+msgstr "Offizieller TWC YouTube-Kanal"
+
+#: twc/twc.php:20
+msgid "English commentary stream (Twitch)"
+msgstr "Englischer Kommentar-Stream (Twitch)"
+
+#: twc/twc.php:22
+msgid "Chinese commentary stream 1 (Bilibili)"
+msgstr "Chinesischer Kommentar-Stream 1 (Bilibili)"
+
+#: twc/twc.php:24
+msgid "Chinese commentary stream 2 (Bilibili)"
+msgstr "Chinesischer Kommentar-Stream 2 (Bilibili)"
+
+#: twc/twc.php:26
+msgid "Japanese commentary stream (YouTube)"
+msgstr "Japanischer Kommentar-Stream (YouTube)"
+
+#: twc/twc.php:27
+msgid "Russian commentary stream (Twitch)"
+msgstr "Russischer Kommentar-Stream (Twitch)"
+
+#: twc/twc.php:31 twc/twc.php:34
+msgid "Schedule"
+msgstr "Zeitplan"
+
+#: twc/twc.php:35
+msgid "Your time zone was detected as <span id=\"timezone\"></span>."
+msgstr "Deine Zeitzone wurde als <span id=\"timezone\"></span> erkannt."
+
+#: twc/twc.php:38
+msgid "Daylight Saving Time (also known as Summer Time or DST) is taken into account automatically."
+msgstr "Die Sommerzeit (auch bekannt als Daylight Saving Time oder DST) wird automatisch berücksichtigt."
+
+#: twc/twc.php:44
+msgid "Date/Time"
+msgstr "Datum/Uhrzeit"
+
+#: twc/twc.php:47
+msgid "Reset Time<br>(minutes)"
+msgstr "Reset-Zeit<br>(Minuten)"
+
+#: twc/twc.php:54
+msgid "Format"
+msgstr ""
+
+#: twc/twc.php:55
+msgid "For every match, each team can earn points. Ranking is based on whoever has the most points:"
+msgstr "Für jedes Match kann jedes Team Punkte sammeln. Die Rangliste basiert darauf, wer die meisten Punkte hat:"
+
+#: twc/twc.php:57
+msgid "1st place - 2 pts"
+msgstr "1. Platz - 2 Punkte"
+
+#: twc/twc.php:58
+msgid "2nd place - 1 pt"
+msgstr "2. Platz - 1 Punkt"
+
+#: twc/twc.php:59
+msgid "3rd place - 0 pts"
+msgstr "3. Platz - 0 Punkte"
+
+#: twc/twc.php:61
+msgid "In 2-team matches, the first place gets 2 points, and 2nd place gets 1 point."
+msgstr "Bei Spielen mit 2 Teams erhalten die Erstplatzierten 2 Punkte und die Zweitplatzierten 1 Punkt."
+
+#: twc/twc.php:63
+msgid ""
+"If multiple players have the exact same amount of ISCORE, their points will be split equally. This also means that, "
+"if multiple players have the highest ISCORE, the match ends in a tie."
+msgstr ""
+"Wenn mehrere Spieler die exakt gleiche Anzahl an ISCORE haben, werden ihre Punkte gleichmäßig aufgeteilt. Das "
+"bedeutet auch, dass, wenn mehrere Spieler den höchsten ISCORE haben, das Spiel unentschieden endet."
+
+#: twc/twc.php:66
+msgid "At the end of the World Cup, the teams will be ranked based on has the most points."
+msgstr "Am Ende des Weltcups werden die Teams nach den meisten Punkten geordnet in die Rangliste aufgenommen."
+
+#: twc/twc.php:67
+msgid "Calculating Points"
+msgstr "Berechnung der Punkte"
+
+#: twc/twc.php:69
+msgid ""
+"The points are based on the <a href=\"https://www.isndes.com/jf\">ISCORE calculator</a> (see the \"About ISCORE\" "
+"link in the top right after changing to English via the language icon, fourth from the right)."
+msgstr ""
+"Die Punkte basieren auf dem <a href=\"https://www.isndes.com/jf\">ISCORE-Rechner</a> (siehe den Link \"About ISCORE\" "
+"oben rechts, nachdem du über das Sprachsymbol (viertes von rechts) zu Englisch gewechselt hast)."
+
+#: twc/twc.php:74
+msgid ""
+"Score matches are calculated based on the ISCORE formula. Survival matches (except for GFW) are calculated as follows:"
+msgstr ""
+"Score-Matches werden auf der Grundlage der ISCORE-Formel berechnet. Survival Matches (außer GFW) werden wie folgt "
+"berechnet:"
+
+#: twc/twc.php:77
+msgid "(ISCORE No Miss No Bomb Score)*0.5^(deaths)"
+msgstr "(ISCORE No Miss No Bomb Score)*0.5^(Tode)"
+
+#: twc/twc.php:78
+msgid "In survival runs, bombs are counted as 2 deaths."
+msgstr "In Survival-Runs werden Bomben als 2 Tode gewertet."
+
+#: twc/twc.php:80
+msgid ""
+"ISCORE is a scoring metric that compensates for the differences in performance between shot types and categories. The "
+"formulas used can be found in the ISCORE rubric with the calculator linked above."
+msgstr ""
+"ISCORE ist ein Bewertungsmaßstab, der die Leistungsunterschiede zwischen den einzelnen Shot Types und Kategorien "
+"ausgleicht. Die verwendeten Formeln sind in der ISCORE-Rubrik mit dem oben verlinkten Rechner zu finden."
+
+#: twc/twc.php:84
+msgid "Game-specific Concerns"
+msgstr "Spielspezifische Anmerkungen"
+
+#: twc/twc.php:85
+msgid "Touhou 7"
+msgstr ""
+
+#: twc/twc.php:86
+msgid "A border break is considered a death in survival runs."
+msgstr "Ein Border Break wird bei Survival-Runs als Tod angesehen."
+
+#: twc/twc.php:87
+msgid "Touhou 8"
+msgstr ""
+
+#: twc/twc.php:89
+msgid ""
+"Getting hit during a Last Spell is <strong>not</strong> considered a death in survival runs. However, ISCORE gives a "
+"higher base value in this game to runs that capture all spells (which includes unlocking and capturing <strong>every</"
+"strong> Last Spell) AND do not die/bomb (NN + Full-SC)."
+msgstr ""
+"Während eines Last Spells getroffen zu werden, gilt in Survival-Runs <strong>nicht</strong> als Tod. Allerdings gibt "
+"ISCORE in diesem Spiel einen höheren Basiswert für Runs, bei denen man alle Spells schafft (was das Freischalten und "
+"Schaffen <strong>jedes</strong> Last Spells beinhaltet) UND bei denen man nicht stirbt/bombt (NN + Full-SC)."
+
+#: twc/twc.php:94
+msgid "Touhou 12"
+msgstr ""
+
+#: twc/twc.php:98
+msgid ""
+"Summoning a UFO is considered a death in survival runs. However, collecting tokens does not affect the score in "
+"survival runs."
+msgstr ""
+"Das Summonen eines UFOs wird in Survival-Runs als Tod gewertet. Das Einsammeln von Tokens hat jedoch keinen Einfluss "
+"auf die Punktzahl in Survival-Runs."
+
+#: twc/twc.php:101
+msgid "Touhou 12.8"
+msgstr ""
+
+#: twc/twc.php:103
+msgid "The survival formula for this game is (gold medals*1.5)-(deaths)."
+msgstr "Die Survival-Formel für dieses Spiel lautet (Goldmedaillen*1,5)-(Tode)."
+
+#: twc/twc.php:104
+msgid "Touhou 13"
+msgstr ""
+
+#: twc/twc.php:106
+msgid ""
+"A manual trance is considered 2 deaths in survival runs. ISCORE gives a higher base value in this game to runs that "
+"capture all spells AND does not die/bomb (NN + Full-SC)."
+msgstr ""
+"Ein manueller Trance wird bei Survival-Runs als 2 Tode gewertet. ISCORE gibt in diesem Spiel einen höheren Basiswert "
+"für Runs, die alle Spells schaffen UND nicht sterben/bomben (NN + Full-SC)."
+
+#: twc/twc.php:110
+msgid "Touhou 15"
+msgstr ""
+
+#: twc/twc.php:111
+msgid "All runs in both survival/score have to be done in Legacy Mode."
+msgstr "Alle Runs in Survival/Scoring müssen im Legacy-Modus durchgespielt werden."
+
+#: twc/twc.php:112
+msgid "Touhou 16"
+msgstr ""
+
+#: twc/twc.php:113
+msgid "Releasing your season gauge is considered 2 deaths in survival runs."
+msgstr "Das Verwenden eines Season-Releases wird bei Survival-Runs als 2 Tode gewertet."
+
+#: twc/twc.php:114
+msgid "Touhou 17"
+msgstr ""
+
+#: twc/twc.php:116
+msgid ""
+"Channeling a berserk roar (3 or more of the same animal tokens during roar mode) is considered 2 deaths in survival "
+"runs. Breaking your roar (bombing or touching a bullet during roar mode) is considered a death in survival runs."
+msgstr ""
+"Einen Berserk Roar zu verwenden (3 oder mehr gleiche Animal-Tokens im Roar-Modus) gilt in Survival-Runs als 2 Tode. "
+"Das Brechen deines Roars (Bomben oder Berühren einer Bullet im Roar-Modus) wird als Tod in Survival-Runs gewertet."
+
+#: twc/twc.php:120
+msgid "Use of Third Party Software &amp; Material"
+msgstr "Verwendung von Software von Dritten &amp; Material"
+
+#: twc/twc.php:122
+msgid ""
+"Vsync patch is allowed. Practice patches (such as thprac) are allowed, but all practice cheats have to be disabled "
+"for the runs."
+msgstr ""
+"Vsync Patch ist erlaubt. Übungspatches (wie thprac) sind erlaubt, aber alle Übungs-Cheats müssen für die Runs "
+"deaktiviert werden."
+
+#: twc/twc.php:126
+msgid ""
+"Visual patches (e.g. hitbox patch) are prohibited. Translation patches are allowed but discouraged. Audio patches/"
+"background music is allowed but no copyrighted material."
+msgstr ""
+"Visuelle Patches (z. B. Hitbox Patch) sind verboten. Übersetzungspatches sind erlaubt, aber nicht erwünscht. Audio "
+"Patches/Hintergrundmusik sind erlaubt, aber kein urheberrechtlich geschütztes Material."
+
+#: twc/twc.php:129
+msgid "Other Rules"
+msgstr "Andere Regeln"
+
+#: twc/twc.php:131
+msgid ""
+"<li>Runs only count from the moment the timer has started.</li><li>Players can start as many runs as they want during "
+"the match. When the timer has finished on stream, no new runs can be started anymore.</li><li>A clear is always "
+"better than a gameover, no matter the score difference.</li><li>The players have to stream their gameplay. Just "
+"stream game footage: no overlay that shapes/crops the stream.</li><li>Streamers are allowed to have elements (images, "
+"input displays, cameras, etc.) on top of their game. However, the gameplay window, as well as all information on the "
+"player's HUD, has to be visible at all times.</li><li>Finished runs need their replays saved.</li><li>Please hide the "
+"story ending when your run finishes.</li>"
+msgstr ""
+"<li>Runs werden nur ab dem Zeitpunkt gezählt, an dem der Timer gestartet wurde.</li><li>Die Spieler können während "
+"des Matches so viele Runs starten, wie sie wollen. Wenn der Timer im Stream abgelaufen ist, können keine neuen Runs "
+"mehr gestartet werden.</li><li>Ein voller Run ist immer besser als ein Game Over, egal wie groß der Punkteunterschied "
+"ist.</li><li>Die Spieler müssen ihr Spiel streamen. Nur das Spiel streamen: kein Overlay, das den Stream formt/"
+"beschneidet.</li><li>Streamer dürfen Elemente (Bilder, Input Displays, Kameras usw.) über ihr Spiel legen. Das "
+"Gameplay-Fenster sowie alle Informationen auf dem HUD des Spielers müssen jedoch jederzeit sichtbar sein.</"
+"li><li>Beendete Runs müssen als Replay gespeichert werden.</li><li>Bitte verstecke das Story-Ende, wenn dein Run "
+"beendet ist.</li>"
+
+#: wr/wr.php:5
+msgid ""
+"An accurate list of Touhou world records, updated every so often. Note that the player ranking at the bottom does not "
+"take into account how strong specific records are, only numbers. The list does not include scene games as of now."
+msgstr ""
+"Eine genaue Liste der Touhou-Weltrekorde, die von Zeit zu Zeit aktualisiert wird. Beachte, dass das Spieler-Ranking "
+"am Ende nicht berücksichtigt, wie gut bestimmte Rekorde sind, sondern nur Zahlen. Die Liste enthält derzeit keine "
+"Szenen-Spiele."
+
+#: wr/wr.php:10
+msgid "Click a score to download the corresponding replay, if there is one available. "
+msgstr "Klicke auf Eine Punktanzahl, um das entsprechende Replay herunterzuladen, sofern eines verfügbar ist. "
+
+#: wr/wr.php:14
+msgid "The replays provided are <strong>not</strong> meant to be reuploaded to any replay uploading services."
+msgstr ""
+"Die zur Verfügung gestellten Replays sind <strong>nicht</strong> dafür gedacht, auf irgendwelche Replay-Upload-"
+"Dienste hochgeladen zu werden."
+
+#: wr/wr.php:22 wr/wr.php:23 wr/wr.php:31 wr/wr.php:32 wr/wr.php:56 wr/wr.php:109
+msgid "Overall Records"
+msgstr "Gesamtrekorde"
+
+#: wr/wr.php:24 wr/wr.php:33 wr/wr.php:144
+msgid "World Records"
+msgstr "Weltrekorde"
+
+#: wr/wr.php:25 wr/wr.php:26 wr/wr.php:40 wr/wr.php:42 wr/wr.php:316 wr/wr.php:344
+msgid "Recent Records"
+msgstr "Neueste Rekorde"
+
+#: wr/wr.php:38 wr/wr.php:237
+msgid "Western Records"
+msgstr "Westliche Rekorde"
+
+#: wr/wr.php:52
+msgid "Dates"
+msgstr "Datum"
+
+#: wr/wr.php:61 wr/wr.php:307 wr/wr.php:320
+msgid "Score"
+msgstr "Punktanzahl"
+
+#: wr/wr.php:63
+msgid "Difficulty"
+msgstr "Schwierigkeitsgrad"
+
+#: wr/wr.php:65 wr/wr.php:309 wr/wr.php:323
+msgid "Date"
+msgstr "Datum"
+
+#: wr/wr.php:240
+msgid "World"
+msgstr "Weltweit"
+
+#: wr/wr.php:241
+msgid "West"
+msgstr "Westen"
+
+#: wr/wr.php:241
+msgid "Percentage"
+msgstr "Prozent"
+
+#: wr/wr.php:270
+msgid "Click a game cover to show its list of world records."
+msgstr "Klick auf ein Spielcover, um die Liste der Weltrekorde anzuzeigen."
+
+#: wr/wr.php:291
+msgid "Choose a player name from the menu below to show their WRs."
+msgstr "Wähle einen Spielernamen aus dem unten stehenden Menü, um die WRs anzuzeigen."
+
+#: wr/wr.php:368
+msgid "No. of WRs"
+msgstr "Anzahl WRs"
+
+#: wr/wr.php:369
+msgid "Different games"
+msgstr "Verschiedene Spiele"
+
+msgid "Max Points"
+msgstr "Max. Punkte"
+
+msgid "Touhou World Records"
+msgstr "Touhou-Weltrekorde"
+
+msgid "Touhou Lunatic No Miss No Bombs"
+msgstr ""
+
+msgid "Touhou 1 - The Highly Responsive to Prayers"
+msgstr ""
+
+msgid "Touhou 2 - The Story of Eastern Wonderland"
+msgstr ""
+
+msgid "Touhou 3 - Phantasmagoria of Dim.Dream"
+msgstr ""
+
+msgid "Touhou 4 - Lotus Land Story"
+msgstr ""
+
+msgid "Touhou 5 - Mystic Square"
+msgstr ""
+
+msgid "Touhou 6 - The Embodiment of Scarlet Devil"
+msgstr ""
+
+msgid "Touhou 7 - Perfect Cherry Blossom"
+msgstr ""
+
+msgid "Touhou 8 - Imperishable Night"
+msgstr ""
+
+msgid "Touhou 9 - Phantasmagoria of Flower View"
+msgstr ""
+
+msgid "Touhou 9.5 - Shoot the Bullet"
+msgstr ""
+
+msgid "Touhou 10 - Mountain of Faith"
+msgstr ""
+
+msgid "Touhou 11 - Subterranean Animism"
+msgstr ""
+
+msgid "Touhou 12 - Undefined Fantastic Object"
+msgstr ""
+
+msgid "Touhou 12.5 - Double Spoiler"
+msgstr ""
+
+msgid "Touhou 12.8 - Great Fairy Wars"
+msgstr ""
+
+msgid "Touhou 13 - Ten Desires"
+msgstr ""
+
+msgid "Touhou 14 - Double Dealing Character"
+msgstr ""
+
+msgid "Touhou 15 - Legacy of Lunatic Kingdom"
+msgstr ""
+
+msgid "Touhou 16 - Hidden Star in Four Seasons"
+msgstr ""
+
+msgid "Touhou 17 - Wily Beast and Weakest Creature"
+msgstr ""
+
+msgid "Touhou 18 - Unconnected Marketeers"
+msgstr ""
+
+msgid "StB"
+msgstr ""
+
+msgid "UM"
+msgstr ""
+
+msgid "Makai"
+msgstr ""
+
+msgid "Jigoku"
+msgstr ""
+
+msgid "ReimuA"
+msgstr ""
+
+msgid "ReimuB"
+msgstr ""
+
+msgid "ReimuC"
+msgstr ""
+
+msgid "Reimu"
+msgstr ""
+
+msgid "Mima"
+msgstr ""
+
+msgid "Marisa"
+msgstr ""
+
+msgid "Ellen"
+msgstr ""
+
+msgid "Kotohime"
+msgstr ""
+
+msgid "Kana"
+msgstr ""
+
+msgid "Rikako"
+msgstr ""
+
+msgid "Chiyuri"
+msgstr ""
+
+msgid "Yumemi"
+msgstr ""
+
+msgid "Yuuka"
+msgstr ""
+
+msgid "MarisaA"
+msgstr ""
+
+msgid "MarisaB"
+msgstr ""
+
+msgid "SakuyaA"
+msgstr ""
+
+msgid "SakuyaB"
+msgstr ""
+
+msgid "BorderTeam"
+msgstr ""
+
+msgid "MagicTeam"
+msgstr ""
+
+msgid "ScarletTeam"
+msgstr ""
+
+msgid "GhostTeam"
+msgstr ""
+
+msgid "Yukari"
+msgstr ""
+
+msgid "Alice"
+msgstr ""
+
+msgid "Sakuya"
+msgstr ""
+
+msgid "Remilia"
+msgstr ""
+
+msgid "Youmu"
+msgstr ""
+
+msgid "Yuyuko"
+msgstr ""
+
+msgid "Cirno"
+msgstr ""
+
+msgid "Lyrica"
+msgstr ""
+
+msgid "Mystia"
+msgstr ""
+
+msgid "Tewi"
+msgstr ""
+
+msgid "Aya"
+msgstr ""
+
+msgid "Medicine"
+msgstr ""
+
+msgid "Komachi"
+msgstr ""
+
+msgid "Eiki"
+msgstr ""
+
+msgid "Hatate"
+msgstr ""
+
+msgid "MarisaC"
+msgstr ""
+
+msgid "SanaeA"
+msgstr ""
+
+msgid "SanaeB"
+msgstr ""
+
+msgid "Sanae"
+msgstr ""
+
+msgid "ReimuSpring"
+msgstr "ReimuFrühling"
+
+msgid "CirnoSpring"
+msgstr "CirnoFrühling"
+
+msgid "AyaSpring"
+msgstr "AyaFrühling"
+
+msgid "MarisaSpring"
+msgstr "MarisaFrühling"
+
+msgid "ReimuSummer"
+msgstr "ReimuSommer"
+
+msgid "CirnoSummer"
+msgstr "CirnoSommer"
+
+msgid "AyaSummer"
+msgstr "AyaSommer"
+
+msgid "MarisaSummer"
+msgstr "MarisaSommer"
+
+msgid "ReimuAutumn"
+msgstr "ReimuHerbst"
+
+msgid "CirnoAutumn"
+msgstr "CirnoHerbst"
+
+msgid "AyaAutumn"
+msgstr "AyaHerbst"
+
+msgid "MarisaAutumn"
+msgstr "MarisaHerbst"
+
+msgid "ReimuWinter"
+msgstr ""
+
+msgid "CirnoWinter"
+msgstr ""
+
+msgid "AyaWinter"
+msgstr ""
+
+msgid "MarisaWinter"
+msgstr ""
+
+msgid "ReimuWolf"
+msgstr ""
+
+msgid "ReimuOtter"
+msgstr ""
+
+msgid "ReimuEagle"
+msgstr "ReimuAdler"
+
+msgid "MarisaWolf"
+msgstr ""
+
+msgid "MarisaOtter"
+msgstr ""
+
+msgid "MarisaEagle"
+msgstr "MarisaAdler"
+
+msgid "YoumuWolf"
+msgstr ""
+
+msgid "YoumuOtter"
+msgstr ""
+
+msgid "YoumuEagle"
+msgstr "YoumuAdler"
