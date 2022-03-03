@@ -28,6 +28,16 @@ input {
 	background-color: #000;
 }
 
+table {
+    border: 1px solid white;
+}
+
+td {
+    border-top: 1px solid white;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
 .dead {
     text-decoration: line-through;
 }
@@ -115,6 +125,62 @@ input {
 
 .header .menu-btn:checked ~ .menu {
 	max-height:240px;
+}
+
+.TH06 {
+    background-color: #ff2400;
+    color: #000;
+}
+.TH07 {
+    background-color: #ff8ed2;
+    color: #000;
+}
+.TH08 {
+    background-color: #339;
+}
+.TH09 {
+    background-color: #009973;
+}
+.TH10 {
+    background-color: #96b300;
+    color: #000;
+}
+.TH11 {
+    background-color: #591400;
+}
+.TH12 {
+    background-color: #4169e1;
+}
+.TH128 {
+    background-color: #00c8c8;
+    color: #000;
+}
+.TH13 {
+    background-color: #4a808c;
+}
+.TH14 {
+    background-color: #a77;
+}
+.TH15 {
+    background-color: #6a47be;
+}
+.TH16 {
+    background-color: #176e0e;
+}
+.TH17 {
+    background-color: #190e0e;
+}
+.TH18 {
+    background-color: #23fcb1;
+    color: #000;
+}
+.Extra {
+    background-color: #ff00ff;
+    color: #000;
+}
+
+.highlight {
+    background: rgba(128, 128, 0, 0.5);
 }
 
 ul.list > li {
