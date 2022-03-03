@@ -1,7 +1,8 @@
 body {
 	margin: 0;
 	font-family: sans-serif;
-	background-color: #000;
+    background: url('/twc_bg.png') center no-repeat fixed;
+    background-size: cover;
 }
 
 * {
@@ -19,10 +20,16 @@ select {
 
 main {
 	margin: 30px;
+    background-color: #222;
+    opacity: 0.8;
 }
 
 input {
 	background-color: #000;
+}
+
+.dead {
+    text-decoration: line-through;
 }
 
 .moverdowner {
@@ -118,11 +125,11 @@ ul.list > li {
 	.header li {
 		float:left;
 	}
-	
+
 	.header li a {
 		padding: 20px 30px;
 	}
-	
+
 	.header .menu {
 		clear:none;
 		float: right;
@@ -140,5 +147,9 @@ ul.list > li {
 }
 
 main a {
-	color: blue;
+	color: #19f;
+}
+
+header a {
+    color: #fff;
 }
