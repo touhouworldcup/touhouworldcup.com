@@ -22,16 +22,36 @@
 	<input class="menu-btn" type="checkbox" id="menu-btn" />
 	<label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
 	<ul class="menu">
-		<li><a href="rules"><?php echo _('Rules') ?></a></li>
-		<li><a href="schedule"><?php echo _('Schedule') ?></a></li>
-		<li><a href="iscore"><?php echo _('ISCORE') ?></a></li>
-		<li><a href="credits"><?php echo _('Credits') ?></a></li>
+		<li><a class="subpage" href="rules"><?php echo _('Rules') ?></a></li>
+		<li><a class="subpage" href="schedule"><?php echo _('Schedule') ?></a></li>
+		<li><a class="subpage" href="iscore"><?php echo _('ISCORE') ?></a></li>
+		<li><a class="subpage" href="credits"><?php echo _('Credits') ?></a></li>
 	</ul>
+    <ul class="menu">
+        <li<?php echo $lang == 'en_GB' ? ' class="selected"' : '' ?>><a id="en_GB" class="language" href="?hl=en-gb">
+            <img src="/assets/uk.png" alt="<?php echo _('Flag of the United Kingdom') ?>" title="English (UK)">
+        </a></li>
+        <li<?php echo $lang == 'en_US' ? ' class="selected"' : '' ?>><a id="en_US" class="language" href="?hl=en-us">
+            <img src="/assets/us.png" alt="<?php echo _('Flag of the United States') ?>" title="English (US)">
+        </a></li>
+        <li<?php echo $lang == 'ja_JP' ? ' class="selected"' : '' ?>><a id="ja_JP" class="language" href="?hl=jp">
+            <img src="/assets/japan.png" alt="<?php echo _('Flag of Japan') ?>" title="日本語">
+        </a></li>
+        <li<?php echo $lang == 'zh_CN' ? ' class="selected"' : '' ?>><a id="zh_CN" class="language" href="?hl=zh">
+            <img src="/assets/china.png" alt="<?php echo _('Flag of the P.R.C.') ?>" title="简体中文">
+        </a></li>
+        <li<?php echo $lang == 'ru_RU' ? ' class="selected"' : '' ?>><a id="ru_RU" class="language" href="?hl=ru">
+            <img src="/assets/russia.png" alt="<?php echo _('Flag of Russia') ?>" title="Русский">
+        </a></li>
+        <li<?php echo $lang == 'de_DE' ? ' class="selected"' : '' ?>><a id="de_DE" class="language" href="?hl=de">
+            <img src="/assets/germany.png" alt="<?php echo _('Flag of Germany') ?>" title="Deutsch">
+        </a></li>
+    </ul>
 	</header>
 	<div class="moverdowner"></div>
 	<main id="main">
-	<h1>ISCORE Calculator</h1>
-	<noscript><h2>This page requires JavaScript</h2></noscript>
+	<h1><?php echo _('ISCORE Calculator') ?></h1>
+	<noscript><h2><?php echo _('This page requires JavaScript') ?></h2></noscript>
 	<form id="calc-iscore">
 	<label for="games">Game</label><br>
 	<select name="games" id="games">
@@ -227,7 +247,7 @@
 	ISCORE = <span id="iscore_final"></span>
 	</form>
 	</main>
-	<script src="iscore.js" defer></script>
-	<script src="iscore_ui.js" defer></script>
+	<script src="/iscore.js" defer></script>
+	<script src="/iscore_ui.js" defer></script>
 </body>
 </html>
