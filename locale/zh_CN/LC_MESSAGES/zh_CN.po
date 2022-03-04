@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-03-03 23:41+0100\n"
-"PO-Revision-Date: 2022-03-04 00:41+0100\n"
+"POT-Creation-Date: 2022-03-04 01:30+0100\n"
+"PO-Revision-Date: 2022-03-04 01:35+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -18,18 +18,18 @@ msgstr ""
 "X-Poedit-SearchPath-3: rules.php\n"
 "X-Poedit-SearchPath-4: schedule.php\n"
 
-#: credits.php:8 credits.php:28 credits.php:41 index.php:30 iscore.php:28
+#: credits.php:8 credits.php:28 credits.php:53 index.php:30 iscore.php:28
 #: rules.php:28 schedule.php:28
 msgid "Credits"
 msgstr ""
 
 #: credits.php:25 index.php:27 iscore.php:25 rules.php:8 rules.php:25
-#: schedule.php:25
+#: rules.php:53 schedule.php:25
 msgid "Rules"
 msgstr "规则"
 
 #: credits.php:26 index.php:28 iscore.php:26 rules.php:26 schedule.php:8
-#: schedule.php:26
+#: schedule.php:26 schedule.php:53
 msgid "Schedule"
 msgstr "时间表"
 
@@ -38,39 +38,59 @@ msgstr "时间表"
 msgid "ISCORE"
 msgstr ""
 
-#: credits.php:31 index.php:33 iscore.php:31 rules.php:31 schedule.php:31
+#: credits.php:32 index.php:34 iscore.php:32 rules.php:32 schedule.php:32
 msgid "Flag of the United Kingdom"
 msgstr "英国旗"
 
-#: credits.php:32 index.php:34 iscore.php:32 rules.php:32 schedule.php:32
+#: credits.php:35 index.php:37 iscore.php:35 rules.php:35 schedule.php:35
 msgid "Flag of the United States"
 msgstr "美国旗"
 
-#: credits.php:33 index.php:35 iscore.php:33 rules.php:33 schedule.php:33
+#: credits.php:38 index.php:40 iscore.php:38 rules.php:38 schedule.php:38
 msgid "Flag of Japan"
 msgstr "日本旗"
 
-#: credits.php:34 index.php:36 iscore.php:34 rules.php:34 schedule.php:34
+#: credits.php:41 index.php:43 iscore.php:41 rules.php:41 schedule.php:41
 msgid "Flag of the P.R.C."
 msgstr "中国旗"
 
-#: credits.php:35 index.php:37 iscore.php:35 rules.php:35 schedule.php:35
+#: credits.php:44 index.php:46 iscore.php:44 rules.php:44 schedule.php:44
 msgid "Flag of Russia"
 msgstr "俄羅斯國旗"
 
-#: credits.php:36 index.php:38 iscore.php:36 rules.php:36 schedule.php:36
+#: credits.php:47 index.php:49 iscore.php:47 rules.php:47 schedule.php:47
 msgid "Flag of Germany"
 msgstr "德国旗"
 
-#: credits.php:42
+#: credits.php:54
 msgid "Website Source Code"
 msgstr "网站源代码"
 
-#: credits.php:43
+#: credits.php:55
 msgid "Developed by:"
 msgstr "开发人员 ："
 
-#: index.php:45
+#: credits.php:59
+msgid "Translated by:"
+msgstr "译者："
+
+#: credits.php:60
+msgid ": Japanese"
+msgstr "：日语"
+
+#: credits.php:61
+msgid ": Chinese"
+msgstr "：中文"
+
+#: credits.php:62
+msgid ": Russian"
+msgstr "：俄语"
+
+#: credits.php:63
+msgid ": German"
+msgstr "：德国的语言"
+
+#: index.php:57
 msgid ""
 "<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
 "shooting game competition, first held in 2020, organised by the Chinese "
@@ -81,7 +101,7 @@ msgstr ""
 "比赛，世界杯的第一场在2020由中国玩家群体主办, 而今年2021，TWC由西方玩家群体所"
 "筹办。"
 
-#: index.php:50
+#: index.php:62
 msgid ""
 "Three teams, a Western community team, a Chinese team, and a Japanese team, "
 "duke it out on Lunatic and Extra mode, playing on live streams and playing "
@@ -90,77 +110,77 @@ msgstr ""
 "东方世界杯有三支参赛队伍，西方队，中国队和日本队，三支队伍将在东方弹幕作的"
 "Lunatic与Extra模式中一决雌雄，在避弹和打分两个环节上激烈对抗。"
 
-#: index.php:54
+#: index.php:66
 msgid ""
 "See below for official communication channels and live streams with "
 "commentary."
 msgstr "关于我们的官方社交媒体，解说流，请往下读。"
 
-#: index.php:57
+#: index.php:69
 msgid "Official TWC Twitter"
 msgstr "TWC的官方推特"
 
-#: index.php:58
+#: index.php:70
 msgid "Official TWC YouTube Channel"
 msgstr "TWC的官方YouTube频道"
 
-#: index.php:59
+#: index.php:71
 msgid "English commentary stream (Twitch)"
 msgstr "英文流解说（Twitch）"
 
-#: index.php:60
+#: index.php:72
 msgid "Chinese commentary stream 1 (Bilibili)"
 msgstr "一号中文流解说（Bilibili）"
 
-#: index.php:61
+#: index.php:73
 msgid "Chinese commentary stream 2 (Bilibili)"
 msgstr "二号中文流解说（Bilibili）"
 
-#: index.php:62
+#: index.php:74
 msgid "Japanese commentary stream (YouTube)"
 msgstr "日文流解说（YouTube）"
 
-#: index.php:63
+#: index.php:75
 msgid "Russian commentary stream (Twitch)"
 msgstr "俄文流解说（Twitch）"
 
-#: iscore.php:41
+#: iscore.php:53
 msgid "ISCORE Calculator"
 msgstr "ISCORE计算器"
 
-#: iscore.php:42
+#: iscore.php:54
 msgid "This page requires JavaScript"
 msgstr "此网页需要JavaScript"
 
-#: rules.php:42
+#: rules.php:54
 msgid "Format"
 msgstr "比赛形式"
 
-#: rules.php:43
+#: rules.php:55
 msgid ""
 "For every match, each team can earn points. Ranking is based on whoever has "
 "the most points:"
 msgstr ""
 "每场比赛以选手比赛中获得的最高积分进行排名，同时选手所在队伍获得相应的总分。"
 
-#: rules.php:45
+#: rules.php:57
 msgid "1st place - 2 points"
 msgstr "冠军：2总分(避免负分歧义)"
 
-#: rules.php:46
+#: rules.php:58
 msgid "2nd place - 1 point"
 msgstr "亚军：1总分"
 
-#: rules.php:47
+#: rules.php:59
 msgid "3rd place - 0 points"
 msgstr "季军：0总分"
 
-#: rules.php:49
+#: rules.php:61
 msgid ""
 "In 2-team matches, the first place gets 2 points, and 2nd place gets 1 point."
 msgstr "即使是二人战，双方也按照以上描述得分，不参与队伍算季军。"
 
-#: rules.php:51
+#: rules.php:63
 msgid ""
 "If multiple players have the exact same amount of ISCORE, their points will "
 "be split equally. This also means that, if multiple players have the highest "
@@ -169,37 +189,37 @@ msgstr ""
 "如果一个以上的玩家获得了同样的甜品站分数，他们将会得到同样的积分，这同时意味"
 "着如果多人获得了同样的最高分，那么本场比赛将会为平局。"
 
-#: rules.php:54
+#: rules.php:66
 msgid ""
 "At the end of the World Cup, the teams will be ranked based on has the most "
 "points."
 msgstr "在世界杯结束的时候，队伍将会按照积分排名。"
 
-#: rules.php:55
+#: rules.php:68
 msgid "Calculating Points"
 msgstr "计算积分"
 
-#: rules.php:57
+#: rules.php:70
 msgid "The points are based on the <a href=\"/iscore\">ISCORE calculator</a>."
 msgstr ""
 "积分使用<a href=\"/iscore\">甜品站积分计</a>算器计算，计算公式可上甜品站查"
 "看，大战争避弹除外（后述）。"
 
-#: rules.php:61
+#: rules.php:74
 msgid ""
 "Score matches are calculated based on the ISCORE formula. Survival matches "
 "(except for GFW) are calculated as follows:"
 msgstr ""
 
-#: rules.php:64
+#: rules.php:77
 msgid "(ISCORE No Miss No Bomb Score) / 2 ^ (deaths)"
 msgstr "（甜品站积分 NMNB分数）/ 2 ^（死亡数）"
 
-#: rules.php:65
+#: rules.php:78
 msgid "In survival runs, bombs are counted as 2 deaths."
 msgstr "全作避弹项目中，丢雷算2 miss。"
 
-#: rules.php:67
+#: rules.php:80
 msgid ""
 "ISCORE is a scoring metric that compensates for the differences in "
 "performance between shot types and categories. The formulas used can be "
@@ -208,23 +228,23 @@ msgstr ""
 "甜品站分数是可以将不同比赛的差异得分进行修补整合的打分矩阵，您可以点击上面的"
 "甜品站计算器来查看所用的公式。"
 
-#: rules.php:71
+#: rules.php:85
 msgid "Game-specific Concerns"
 msgstr "额外提醒"
 
-#: rules.php:72
+#: rules.php:86
 msgid "Touhou 7"
 msgstr "妖妖梦"
 
-#: rules.php:73
+#: rules.php:87
 msgid "A border break is considered a death in survival runs."
 msgstr "灵击，无论主动还是被动，都算1 miss。"
 
-#: rules.php:74
+#: rules.php:88
 msgid "Touhou 8"
 msgstr "永夜抄"
 
-#: rules.php:76
+#: rules.php:90
 msgid ""
 "Getting hit during a Last Spell is <strong>not</strong> considered a death "
 "in survival runs. However, ISCORE gives a higher base value in this game to "
@@ -233,29 +253,29 @@ msgid ""
 msgstr ""
 "LSC被弹不算1 miss。积分只在LNN的情况下才考虑全卡，LNNFS会获得额外积分。"
 
-#: rules.php:81
+#: rules.php:95
 msgid "Touhou 12"
 msgstr "星莲船"
 
-#: rules.php:85
+#: rules.php:99
 msgid ""
 "Summoning a UFO is considered a death in survival runs. However, collecting "
 "tokens does not affect the score in survival runs."
 msgstr "开碟算1 miss。收碟碎片不影响miss数。"
 
-#: rules.php:88
+#: rules.php:102
 msgid "Touhou 12.8"
 msgstr "妖精大战争"
 
-#: rules.php:90
+#: rules.php:104
 msgid "The survival formula for this game is (gold medals*1.5)-(deaths)."
 msgstr "使用冰冻技能不算miss。避弹公式是（金牌数*1.5）-（miss数）。"
 
-#: rules.php:91
+#: rules.php:105
 msgid "Touhou 13"
 msgstr "神灵庙"
 
-#: rules.php:93
+#: rules.php:107
 msgid ""
 "A manual trance is considered 2 deaths in survival runs. ISCORE gives a "
 "higher base value in this game to runs that capture all spells AND does not "
@@ -264,27 +284,27 @@ msgstr ""
 "主动开灵界算2 miss，被动灵界不算作miss，且可以在被动灵界中开枪积分只在LNNN的"
 "情况下才考虑全卡，LNNNFS会获得额外积分。"
 
-#: rules.php:97
+#: rules.php:111
 msgid "Touhou 15"
 msgstr "绀珠传"
 
-#: rules.php:98
+#: rules.php:112
 msgid "All runs in both survival/score have to be done in Legacy Mode."
 msgstr "避弹打分都必须使用传统模式。"
 
-#: rules.php:99
+#: rules.php:113
 msgid "Touhou 16"
 msgstr "天空璋"
 
-#: rules.php:100
+#: rules.php:114
 msgid "Releasing your season gauge is considered 2 deaths in survival runs."
 msgstr "季节释放算2 miss。"
 
-#: rules.php:101
+#: rules.php:115
 msgid "Touhou 17"
 msgstr "鬼形兽"
 
-#: rules.php:103
+#: rules.php:117
 msgid ""
 "Channeling a berserk roar (3 or more of the same animal tokens during roar "
 "mode) is considered 2 deaths in survival runs. Breaking your roar (bombing "
@@ -294,11 +314,11 @@ msgstr ""
 "开暴走（吃了3个以上同样的动物灵）算2 miss。开正常hyper不算1 miss。灵击，无论"
 "主动还是被动，都算1 miss。"
 
-#: rules.php:107
+#: rules.php:122
 msgid "Use of Third Party Software &amp; Material"
 msgstr "使用额外软件"
 
-#: rules.php:109
+#: rules.php:124
 msgid ""
 "Vsync patch is allowed. Practice patches (such as thprac) are allowed, but "
 "all practice cheats have to be disabled for the runs."
@@ -306,7 +326,7 @@ msgstr ""
 "VP补丁允许使用。各种练习器都允许使用，但不能影响正式推把，也不能影响replay的"
 "正常播放。"
 
-#: rules.php:113
+#: rules.php:128
 msgid ""
 "Visual patches (e.g. hitbox patch) are prohibited. Translation patches are "
 "allowed but discouraged. Audio patches/background music is allowed but no "
@@ -316,11 +336,11 @@ msgstr ""
 "用，但不推荐。比赛时允许使用背景音乐魔改，或播自己的音乐，但必须保证没有任何"
 "版权问题。"
 
-#: rules.php:116
+#: rules.php:132
 msgid "Other Rules"
 msgstr "其他规则"
 
-#: rules.php:118
+#: rules.php:134
 msgid ""
 "<li>Runs only count from the moment the timer has started.</li><li>Players "
 "can start as many runs as they want during the match. When the timer has "
@@ -342,7 +362,7 @@ msgstr ""
 "意！！！通关后选手们在直播画面不能显示ED画面（结局对话），可使用自选图遮挡。"
 "请尽量遵守官方近期更新的东方使用规则。</li>"
 
-#: schedule.php:42
+#: schedule.php:54
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
@@ -350,7 +370,7 @@ msgstr ""
 "我们检测到您的时区是 <strong id=\"timezone\">UTC+0000（协调世界时）</"
 "strong>。"
 
-#: schedule.php:45
+#: schedule.php:57
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
@@ -358,19 +378,19 @@ msgstr ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
 
-#: schedule.php:51
+#: schedule.php:63
 msgid "Date / Time"
 msgstr "日期和时间"
 
-#: schedule.php:52
+#: schedule.php:64
 msgid "Category"
 msgstr "项目"
 
-#: schedule.php:53
+#: schedule.php:65
 msgid "Players"
 msgstr "玩家"
 
-#: schedule.php:54
+#: schedule.php:66
 msgid "Reset Time<br>(minutes)"
 msgstr "Reset Time<br>（分钟）"
 
