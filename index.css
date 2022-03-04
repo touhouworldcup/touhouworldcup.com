@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+}
+
 body {
 	margin: 0;
 	font-family: sans-serif;
@@ -61,13 +65,13 @@ td {
 	background-color: #222;
 }
 
-.header ul a {
+.header ul .subpage {
 	display: block;
 	padding: 20px;
 	text-decoration: none;
 }
 
-.header ul a:hover {
+.header ul .subpage:hover {
 	background-color: #333;
 }
 
@@ -127,6 +131,15 @@ td {
 	max-height:240px;
 }
 
+.languages li:hover {
+	background-color: #fff;
+}
+
+.language {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
 .TH06 {
     background-color: #ff2400;
     color: #000;
@@ -183,6 +196,10 @@ td {
     background: rgba(128, 128, 0, 0.5);
 }
 
+.selected {
+    background: rgba(255, 255, 0, 0.5);
+}
+
 ul.list > li {
 	padding: 0.5em;
 }
@@ -192,7 +209,7 @@ ul.list > li {
 		float:left;
 	}
 
-	.header li a {
+	.header li .subpage {
 		padding: 20px 30px;
 	}
 
@@ -204,7 +221,7 @@ ul.list > li {
 	.header .menu-icon {
 		display: none;
 	}
-	.header ul a {
+	.header ul .subpage {
 		border-left: 1px solid #aaa;
 	}
 	.moverdowner {

@@ -22,21 +22,41 @@
 	<input class="menu-btn" type="checkbox" id="menu-btn" />
 	<label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
 	<ul class="menu">
-		<li><a href="rules"><?php echo _('Rules') ?></a></li>
-		<li><a href="schedule"><?php echo _('Schedule') ?></a></li>
-		<li><a href="iscore"><?php echo _('ISCORE') ?></a></li>
-		<li><a href="credits"><?php echo _('Credits') ?></a></li>
+		<li><a class="subpage" href="rules"><?php echo _('Rules') ?></a></li>
+		<li><a class="subpage" href="schedule"><?php echo _('Schedule') ?></a></li>
+		<li><a class="subpage" href="iscore"><?php echo _('ISCORE') ?></a></li>
+		<li><a class="subpage" href="credits"><?php echo _('Credits') ?></a></li>
 	</ul>
+    <ul class="menu">
+        <li<?php echo $lang == 'en_GB' ? ' class="selected"' : '' ?>><a id="en_GB" class="language" href="?hl=en-gb">
+            <img src="/assets/uk.png" alt="<?php echo _('Flag of the United Kingdom') ?>" title="English (UK)">
+        </a></li>
+        <li<?php echo $lang == 'en_US' ? ' class="selected"' : '' ?>><a id="en_US" class="language" href="?hl=en-us">
+            <img src="/assets/us.png" alt="<?php echo _('Flag of the United States') ?>" title="English (US)">
+        </a></li>
+        <li<?php echo $lang == 'ja_JP' ? ' class="selected"' : '' ?>><a id="ja_JP" class="language" href="?hl=jp">
+            <img src="/assets/japan.png" alt="<?php echo _('Flag of Japan') ?>" title="日本語">
+        </a></li>
+        <li<?php echo $lang == 'zh_CN' ? ' class="selected"' : '' ?>><a id="zh_CN" class="language" href="?hl=zh">
+            <img src="/assets/china.png" alt="<?php echo _('Flag of the P.R.C.') ?>" title="简体中文">
+        </a></li>
+        <li<?php echo $lang == 'ru_RU' ? ' class="selected"' : '' ?>><a id="ru_RU" class="language" href="?hl=ru">
+            <img src="/assets/russia.png" alt="<?php echo _('Flag of Russia') ?>" title="Русский">
+        </a></li>
+        <li<?php echo $lang == 'de_DE' ? ' class="selected"' : '' ?>><a id="de_DE" class="language" href="?hl=de">
+            <img src="/assets/germany.png" alt="<?php echo _('Flag of Germany') ?>" title="Deutsch">
+        </a></li>
+    </ul>
 	</header>
 	<div class="moverdowner"></div>
 	<main>
-	<h1 id='rules'>Rules</h1>
+	<h1 id='rules'><?php echo _('Rules') ?></h1>
     <h2><?php echo _('Format') ?></h2>
     <p><?php echo _('For every match, each team can earn points. Ranking is based on whoever has the most points:') ?></p>
     <ul>
-        <li><?php echo _('1st place - 2 pts') ?></li>
-        <li><?php echo _('2nd place - 1 pt') ?></li>
-        <li><?php echo _('3rd place - 0 pts') ?></li>
+        <li><?php echo _('1st place - 2 points') ?></li>
+        <li><?php echo _('2nd place - 1 point') ?></li>
+        <li><?php echo _('3rd place - 0 points') ?></li>
     </ul>
     <p><?php echo _('In 2-team matches, the first place gets 2 points, and 2nd place gets 1 point.') ?></p>
     <p><?php
@@ -44,6 +64,7 @@
         'This also means that, if multiple players have the highest ISCORE, the match ends in a tie.');
     ?></p>
     <p><?php echo _('At the end of the World Cup, the teams will be ranked based on has the most points.') ?></p>
+    <hr>
     <h2><?php echo _('Calculating Points') ?></h2>
     <p><?php
         echo _('The points are based on the ' .
@@ -60,6 +81,7 @@
         'between shot types and categories. The formulas used can be found in the ISCORE rubric ' .
         'with the calculator linked above.');
     ?></p>
+    <hr>
     <h2><?php echo _('Game-specific Concerns') ?></h2>
     <h3><?php echo _('Touhou 7') ?></h3>
     <p><?php echo _('A border break is considered a death in survival runs.') ?></p>
@@ -96,6 +118,7 @@
         'is considered 2 deaths in survival runs. Breaking your roar ' .
         '(bombing or touching a bullet during roar mode) is considered a death in survival runs.');
     ?></p>
+    <hr>
     <h2><?php echo _('Use of Third Party Software &amp; Material') ?></h2>
     <p><?php
         echo _('Vsync patch is allowed. Practice patches (such as thprac) are allowed, ' .
@@ -105,6 +128,7 @@
         echo _('Visual patches (e.g. hitbox patch) are prohibited. Translation patches are allowed but discouraged. ' .
         'Audio patches/background music is allowed but no copyrighted material.');
     ?></p>
+    <hr>
     <h2><?php echo _('Other Rules') ?></h2>
     <ul><?php
         echo _('<li>Runs only count from the moment the timer has started.</li>' .

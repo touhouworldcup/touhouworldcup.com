@@ -1,4 +1,4 @@
-var language = "en_US", timezone;
+var language = "en-GB", timezone;
 
 function getCookie(name) {
     var decodedCookies, cookieArray, cookie;
@@ -31,66 +31,67 @@ function getClientTimeZone() {
     return timezone;
 }
 
+function sendXHR(type, url, data, callback) {
+    var newXHR = new XMLHttpRequest() || new window.ActiveXObject("Microsoft.XMLHTTP");
+
+    newXHR.open(type, url, true);
+    newXHR.send(data);
+    newXHR.onreadystatechange = function () {
+        if (this.status === 200 && this.readyState === 4) {
+            callback(this.response);
+        }
+    };
+}
+
 function toDateString(unix) {
     var date = new Date(Number(unix) * 1000);
 
-    if (language == "en_US") {
-        return date.toLocaleString("en-US", {"dateStyle": "full"}) + ", " + date.toLocaleTimeString("en-US");
-    } else if (language == "ja_JP") {
-        return date.toLocaleString("ja-JP", {"dateStyle": "full"}) + ", " + date.toLocaleTimeString("ja-JP");
-    } else if (language == "zh_CN") {
-        return date.toLocaleString("zh-CN", {"dateStyle": "full"}) + ", " + date.toLocaleTimeString("zh-CN");
-    } else if (language == "ru_RU") {
-        return date.toLocaleString("ru-RU", {"dateStyle": "full"}) + ", " + date.toLocaleTimeString("ru-RU");
-    } else {
-        return date.toLocaleString("de-DE", {"dateStyle": "full"}) + ", " + date.toLocaleTimeString("de-DE");
-    }
+    return date.toLocaleString(language, {"dateStyle": "full"}) + ", " + date.toLocaleTimeString(language);
 }
 
-function printSchedule(schedule) {
-    var highlight = false, match, id, dateString, team, unix;
+function printSchedule() {
+    var highlight = false, schedule, match, id, dateString, unix, i;
 
-    for (unix in schedule) {
-        match = schedule[unix];
-        id = match.category.replace(/ /g, '_');
-        document.getElementById("schedule_tbody").innerHTML += "<tr id='" + unix + "'></tr>";
-        dateString = toDateString(unix);
-        document.getElementById(unix).innerHTML = "<td class='noborders'>" + dateString +
-        "</td><th class='" + match.category.split(' ')[0] + " noborders'>" + match.category + "</th>" +
-        "<td id='" + id + "_players' class='noborders'></td><td id='" + id +
-        "_reset' class='noborders'>" + (match.reset === 0 ? "N/A" : match.reset) + "</td>";
+    sendXHR("GET", "/schedule.json", null, function (response) {
+        schedule = JSON.parse(response);
 
-        if (!highlight && unix >= new Date().getTime() / 1000) {
-            document.getElementById("unix").classList.add("highlight");
-            highlight = true;
-        }
+        for (unix in schedule) {
+            match = schedule[unix];
+            id = match.category.replace(/ /g, '_');
+            document.getElementById("schedule_tbody").innerHTML += "<tr id='" + unix + "'></tr>";
+            dateString = toDateString(unix);
+            document.getElementById(unix).innerHTML = "<td class='noborders'>" + dateString +
+            "</td><td class='" + match.category.split(' ')[0] + "'>" + match.category + "</td>" +
+            "<td id='" + id + "_players' class='noborders'></td><td id='" + id +
+            "_reset' class='noborders'>" + (match.reset === 0 ? "N/A" : match.reset) + "</td>";
 
-        for (var i = 0; i < match.players.length; i++) {
-            if (match.countries[i] == "cn") {
-                team = "CHINA: ";
-            } else if (match.countries[i] == "jp") {
-                team = "JAPAN: ";
-            } else {
-                team = "WEST: ";
+            if (!highlight && unix >= new Date().getTime() / 1000) {
+                document.getElementById(unix).classList.add("highlight");
+                highlight = true;
             }
 
-            document.getElementById(id + "_players").innerHTML += (i > 0 ? "<br>" : "") + team + match.players[i];
+            for (i = 0; i < match.players.length; i++) {
+                document.getElementById(id + "_players").innerHTML += (i > 0 ? "<br>" : "") +  match.players[i];
+            }
         }
-    }
+    });
 }
 
 function init() {
-    if (getCookie("lang") == "ja_JP" || location.href.includes("jp")) {
-        language = "ja_JP";
-    } else if (getCookie("lang") == "zh_CN" || location.href.includes("zh")) {
-        language = "zh_CN";
+    if (getCookie("lang") == "en_US") {
+        language = "en-US";
+    } else if (getCookie("lang") == "ja_JP") {
+        language = "ja-JP";
+    } else if (getCookie("lang") == "zh_CN") {
+        language = "zh-CN";
     } else if (getCookie("lang") == "ru_RU") {
-        language = "ru_RU";
+        language = "ru-RU";
     } else if (getCookie("lang") == "de_DE") {
-        language = "de_DE";
+        language = "de-DE";
     }
 
     document.getElementById("timezone").innerHTML = getClientTimeZone();
+    printSchedule();
 }
 
 window.addEventListener("DOMContentLoaded", init, false);
