@@ -148,12 +148,12 @@ window.onload = (E) => {
 		"th13": true,
 		"th14": true
 	}
-	
+
 	const game_runtype_specific_opts = (game_name) => {
 		if(runtype.value === "score") {
 			fullspell_w.style.display = "none";
 			th128_medal_w.style.display = "none";
-			
+
 			if(game_has_ex[game_sel.value]) {
 				diff_w.style.display = "inline";
 			} else {
@@ -163,7 +163,7 @@ window.onload = (E) => {
 		} else if(runtype.value === "surv") {
 			diff_sel.value = "Lunatic";
 			diff_w.style.display = "none";
-			
+
 			if(game_sel.value === "th128") {
 				th128_medal_w.style.display = "inline";
 			} else {
@@ -193,12 +193,6 @@ window.onload = (E) => {
 
 		if(game_name === "th08") {
 			th08_opts.style.display = "inline";
-		}
-
-		if(game_name === "th128") {
-			shot_lab.innerText = "Route";
-		} else {
-			shot_lab.innerText = "Shot";
 		}
 
 		game_runtype_specific_opts(game_name);
@@ -271,7 +265,7 @@ window.onload = (E) => {
 						get_element_val(th08_end, "", "string")
 					);
 				}
-				
+
 			} else if(rt === "score") {
 				let game = get_element_val(game_sel, "the game", "string");
 				if(diff_sel.value === "Extra") {
@@ -296,8 +290,7 @@ window.onload = (E) => {
 	diff_w.style.display = "none";
 	th08_opts.style.display = "none";
 	th128_medal_w.style.display = "none";
-	th128_medal_l.innerText = "Gold Medals";
-	
+	th128_medal_l.innerText = "Gold medals (th128 only)";
+
 	shottypes.innerHTML = "";
-	shot_lab.innerText = "Shot";
 }

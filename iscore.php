@@ -2,7 +2,7 @@
 
 <?php include 'locale.php' ?>
 
-<html lang="en">
+<html lang="<?php echo $lc ?>">
 <head>
 	<meta charset="utf-8">
 	<title><?php echo _('ISCORE') ?> - Touhou World Cup</title>
@@ -18,14 +18,14 @@
 
 <body>
 	<header class="header">
-	<a href="/" class="logo">Touhou World Cup</a>
+	<a href="/<?php echo query_string() ?>" class="logo">Touhou World Cup</a>
 	<input class="menu-btn" type="checkbox" id="menu-btn" />
 	<label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
 	<ul class="menu">
-		<li><a class="subpage" href="rules"><?php echo _('Rules') ?></a></li>
-		<li><a class="subpage" href="schedule"><?php echo _('Schedule') ?></a></li>
-		<li><a class="subpage" href="iscore"><?php echo _('ISCORE') ?></a></li>
-		<li><a class="subpage" href="credits"><?php echo _('Credits') ?></a></li>
+		<li><a class="subpage" href="rules<?php echo query_string() ?>"><?php echo _('Rules') ?></a></li>
+		<li><a class="subpage" href="schedule<?php echo query_string() ?>"><?php echo _('Schedule') ?></a></li>
+		<li><a class="subpage" href="iscore<?php echo query_string() ?>"><?php echo _('ISCORE') ?></a></li>
+		<li><a class="subpage" href="credits<?php echo query_string() ?>"><?php echo _('Credits') ?></a></li>
 	</ul>
     <ul class="menu">
         <li<?php echo $lang == 'en_GB' ? ' class="selected"' : '' ?>><a id="en_GB" class="language" href="?hl=en-gb">
@@ -53,176 +53,176 @@
 	<h1><?php echo _('ISCORE Calculator') ?></h1>
 	<noscript><h2><?php echo _('This page requires JavaScript') ?></h2></noscript>
 	<form id="calc-iscore">
-	<label for="games">Game</label><br>
+	<label for="games"><?php echo _('Game') ?></label><br>
 	<select name="games" id="games">
-		<option value="th06">Embodiment of Scarlet Devil</option>
-		<option value="th07">Perfect Cherry Blossom</option>
-		<option value="th08">Imperishable Night</option>
-		<option value="th10">Mountain of Faith</option>
-		<option value="th11">Subterranean Aminism</option>
-		<option value="th12">Undefined Fantastic Object</option>
-		<option value="th128">Great Fairy Wars</option>
-		<option value="th13">Ten Desires</option>
-		<option value="th14">Double Dealing Character</option>
-		<option value="th15">Legacy of Lunatic Kingdom</option>
-		<option value="th16">Hidden Star in Four Seasons</option>
-		<option value="th17">Wily Beast and Weaksest Creature</option>
-		<option value="th18">Unconnected Marketeers</option>
+		<option value="th06"><?php echo _('Embodiment of Scarlet Devil') ?></option>
+		<option value="th07"><?php echo _('Perfect Cherry Blossom') ?></option>
+		<option value="th08"><?php echo _('Imperishable Night') ?></option>
+		<option value="th10"><?php echo _('Mountain of Faith') ?></option>
+		<option value="th11"><?php echo _('Subterranean Aminism') ?></option>
+		<option value="th12"><?php echo _('Undefined Fantastic Object') ?></option>
+		<option value="th128"><?php echo _('Great Fairy Wars') ?></option>
+		<option value="th13"><?php echo _('Ten Desires') ?></option>
+		<option value="th14"><?php echo _('Double Dealing Character') ?></option>
+		<option value="th15"><?php echo _('Legacy of Lunatic Kingdom') ?></option>
+		<option value="th16"><?php echo _('Hidden Star in Four Seasons') ?></option>
+		<option value="th17"><?php echo _('Wily Beast and Weakest Creature') ?></option>
+		<option value="th18"><?php echo _('Unconnected Marketeers') ?></option>
 	</select><br><br>
 
-	<label id="shot_lab" for="shottypes">Shot/GFW Route</label><br>
+	<label id="shot_lab" for="shottypes"><?php echo _('Shottype / Route') ?></label><br>
 	<select name="shottype" id="shottype">
 		<optgroup label="Embodiment of Scarlet Devil">
-			<option value="ReimuA">ReimuA</option>
-			<option value="ReimuB">ReimuB</option>
-			<option value="MarisaA">MarisaA</option>
-			<option value="MarisaB">MarisaB</option>
+			<option value="ReimuA"><?php echo _('ReimuA') ?></option>
+			<option value="ReimuB"><?php echo _('ReimuB') ?></option>
+			<option value="MarisaA"><?php echo _('MarisaA') ?></option>
+			<option value="MarisaB"><?php echo _('MarisaB') ?></option>
 		</optgroup>
 		<optgroup label="Perfect Cherry Blossom">
-			<option value="ReimuA">ReimuA</option>
-			<option value="ReimuB">ReimuB</option>
-			<option value="MarisaA">MarisaA</option>
-			<option value="MarisaB">MarisaB</option>
-			<option value="SakuyaA">SakuyaA</option>
-			<option value="SakuyaB">SakuyaB</option>
+			<option value="ReimuA"><?php echo _('ReimuA') ?></option>
+			<option value="ReimuB"><?php echo _('ReimuB') ?></option>
+			<option value="MarisaA"><?php echo _('MarisaA') ?></option>
+			<option value="MarisaB"><?php echo _('MarisaB') ?></option>
+			<option value="SakuyaA"><?php echo _('SakuyaA') ?></option>
+			<option value="SakuyaB"><?php echo _('SakuyaB') ?></option>
 		</optgroup>
 		<optgroup label="Imperishable Night">
-			<option value="Reimu & Yukari">Reimu & Yukari</option>
-			<option value="Marisa & Alice">Marisa & Alice</option>
-			<option value="Sakuya & Remilia">Sakuya & Remilia</option>
-			<option value="Youmu & Yuyuko">Youmu & Yuyuko</option>
-			<option value="Reimu"> Reimu</option>
-			<option value="Marisa">Marisa</option>
-			<option value="Sakuya">Sakuya</option>
-			<option value="Youmu">Youmu</option>
-			<option value="Yukari">Yukari</option>
-			<option value="Alice">Alice</option>
-			<option value="Remilia">Remilia</option>
-			<option value="Yuyuko">Yuyuko</option>
+			<option value="Reimu & Yukari"><?php echo _('Reimu & Yukari') ?></option>
+			<option value="Marisa & Alice"><?php echo _('Marisa & Alice') ?></option>
+			<option value="Sakuya & Remilia"><?php echo _('Sakuya & Remilia') ?></option>
+			<option value="Youmu & Yuyuko"><?php echo _('Youmu & Yuyuko') ?></option>
+			<option value="Reimu"><?php echo _('Reimu') ?></option>
+			<option value="Marisa"><?php echo _('Marisa') ?></option>
+			<option value="Sakuya"><?php echo _('Sakuya') ?></option>
+			<option value="Youmu"><?php echo _('Youmu') ?></option>
+			<option value="Yukari"><?php echo _('Yukari') ?></option>
+			<option value="Alice"><?php echo _('Alice') ?></option>
+			<option value="Remilia"><?php echo _('Remilia') ?></option>
+			<option value="Yuyuko"><?php echo _('Yuyuko') ?></option>
 		</optgroup>
 		<optgroup label="Mountain of Faith">
-			<option value="ReimuA">ReimuA</option>
-			<option value="ReimuB">ReimuB</option>
-			<option value="ReimuC">ReimuC</option>
-			<option value="MarisaA">MarisaA</option>
-			<option value="MarisaB">MarisaB</option>
-			<option value="MarisaC">MarisaC</option>
+			<option value="ReimuA"><?php echo _('ReimuA') ?></option>
+			<option value="ReimuB"><?php echo _('ReimuB') ?></option>
+			<option value="ReimuC"><?php echo _('ReimuC') ?></option>
+			<option value="MarisaA"><?php echo _('MarisaA') ?></option>
+			<option value="MarisaB"><?php echo _('MarisaB') ?></option>
+			<option value="MarisaC"><?php echo _('MarisaC') ?></option>
 		</optgroup>
 		<optgroup label="Subterrarian Aminism">
-			<option value="ReimuA">ReimuA</option>
-			<option value="ReimuB">ReimuB</option>
-			<option value="ReimuC">ReimuC</option>
-			<option value="MarisaA">MarisaA</option>
-			<option value="MarisaB">MarisaB</option>
-			<option value="MarisaC">MarisaC</option>
+			<option value="ReimuA"><?php echo _('ReimuA') ?></option>
+			<option value="ReimuB"><?php echo _('ReimuB') ?></option>
+			<option value="ReimuC"><?php echo _('ReimuC') ?></option>
+			<option value="MarisaA"><?php echo _('MarisaA') ?></option>
+			<option value="MarisaB"><?php echo _('MarisaB') ?></option>
+			<option value="MarisaC"><?php echo _('MarisaC') ?></option>
 		</optgroup>
 		<optgroup label="Undefined Fantastic Object">
-			<option value="ReimuA">ReimuA</option>
-			<option value="ReimuB">ReimuB</option>
-			<option value="MarisaA">MarisaA</option>
-			<option value="MarisaB">MarisaB</option>
-			<option value="SanaeA">SanaeA</option>
-			<option value="SanaeB">SanaeB</option>
+			<option value="ReimuA"><?php echo _('ReimuA') ?></option>
+			<option value="ReimuB"><?php echo _('ReimuB') ?></option>
+			<option value="MarisaA"><?php echo _('MarisaA') ?></option>
+			<option value="MarisaB"><?php echo _('MarisaB') ?></option>
+			<option value="SanaeA"><?php echo _('SanaeA') ?></option>
+			<option value="SanaeB"><?php echo _('SanaeB') ?></option>
 		</optgroup>
 		<optgroup label="Ten Desires">
-			<option value="Reimu">Reimu</option>
-			<option value="Marisa">Marisa</option>
-			<option value="Sanae">Sanae</option>
-			<option value="Youmu">Youmu</option>
+			<option value="Reimu"><?php echo _('Reimu') ?></option>
+			<option value="Marisa"><?php echo _('Marisa') ?></option>
+			<option value="Sanae"><?php echo _('Sanae') ?></option>
+			<option value="Youmu"><?php echo _('Youmu') ?></option>
 		</optgroup>
 		<optgroup label="Double Dealing Character">
-			<option value="ReimuA">ReimuA</option>
-			<option value="ReimuB">ReimuB</option>
-			<option value="MarisaA">MarisaA</option>
-			<option value="MarisaB">MarisaB</option>
-			<option value="SakuyaA">SakuyaA</option>
-			<option value="SakuyaB">SakuyaB</option>
+			<option value="ReimuA"><?php echo _('ReimuA') ?></option>
+			<option value="ReimuB"><?php echo _('ReimuB') ?></option>
+			<option value="MarisaA"><?php echo _('MarisaA') ?></option>
+			<option value="MarisaB"><?php echo _('MarisaB') ?></option>
+			<option value="SakuyaA"><?php echo _('SakuyaA') ?></option>
+			<option value="SakuyaB"><?php echo _('SakuyaB') ?></option>
 		</optgroup>
 		<optgroup label="Legacy of Lunatic Kingdom">
-			<option value="Reimu">Reimu</option>
-			<option value="Marisa">Marisa</option>
-			<option value="Sanae">Sanae</option>
-			<option value="Reisen">Reisen</option>
+			<option value="Reimu"><?php echo _('Reimu') ?></option>
+			<option value="Marisa"><?php echo _('Marisa') ?></option>
+			<option value="Sanae"><?php echo _('Sanae') ?></option>
+			<option value="Reisen"><?php echo _('Reisen') ?></option>
 		</optgroup>
 		<optgroup label="Hidden Star in Four Seasons">
-			<option value="Reimu(Spring)">Reimu(Spring)</option>
-			<option value="Cirno(Spring)">Cirno(Spring)</option>
-			<option value="Aya(Spring)">Aya(Spring)</option>
-			<option value="Marisa(Spring)">Marisa(Spring)</option>
-			<option value="Reimu(Summer)">Reimu(Summer)</option>
-			<option value="Cirno(Summer)">Cirno(Summer)</option>
-			<option value="Aya(Summer)">Aya(Summer)</option>
-			<option value="Marisa(Summer)">Marisa(Summer</option>
-			<option value="Reimu(Autumn)">Reimu(Autumn)</option>
-			<option value="Cirno(Autumn)">Cirno(Autumn)</option>
-			<option value="Aya(Autumn)">Aya(Autumn)</option>
-			<option value="Marisa(Autumn)">Marisa(Autumn</option>
-			<option value="Reimu(Winter)">Reimu(Winter)</option>
-			<option value="Cirno(Winter)">Cirno(Winter)</option>
-			<option value="Aya(Winter)">Aya(Winter)</option>
-			<option value="Marisa(Winter)">Marisa(Winter)</option>
+			<option value="Reimu(Spring)"><?php echo _('ReimuSpring') ?></option>
+			<option value="Cirno(Spring)"><?php echo _('CirnoSpring') ?></option>
+			<option value="Aya(Spring)"><?php echo _('AyaSpring') ?></option>
+			<option value="Marisa(Spring)"><?php echo _('MarisaSpring') ?></option>
+			<option value="Reimu(Summer)"><?php echo _('ReimuSummer') ?></option>
+			<option value="Cirno(Summer)"><?php echo _('CirnoSummer') ?></option>
+			<option value="Aya(Summer)"><?php echo _('AyaSummer') ?></option>
+			<option value="Marisa(Summer)"><?php echo _('MarisaSummer') ?></option>
+			<option value="Reimu(Autumn)"><?php echo _('ReimuAutumn') ?></option>
+			<option value="Cirno(Autumn)"><?php echo _('CirnoAutumn') ?></option>
+			<option value="Aya(Autumn)"><?php echo _('AyaAutumn') ?></option>
+			<option value="Marisa(Autumn)"><?php echo _('MarisaAutumn') ?></option>
+			<option value="Reimu(Winter)"><?php echo _('ReimuWinter') ?></option>
+			<option value="Cirno(Winter)"><?php echo _('CirnoWinter') ?></option>
+			<option value="Aya(Winter)"><?php echo _('AyaWinter') ?></option>
+			<option value="Marisa(Winter)"><?php echo _('MarisaWinter') ?></option>
 		</optgroup>
-		<optgroup label="Wily Beast and Weaksest Creature">
-			<option value="Reimu(Wolf)">Reimu(Wolf)</option>
-			<option value="Reimu(Otter)">Reimu(Otter)</option>
-			<option value="Reimu(Eagle)">Reimu(Eagle)</option>
-			<option value="Marisa(Wolf)">Marisa(Wolf)</option>
-			<option value="Marisa(Otter)">Marisa(Otter)</option>
-			<option value="Marisa(Eagle)">Marisa(Eagle)</option>
-			<option value="Youmu(Wolf)">Youmu(Wolf)</option>
-			<option value="Youmu(Otter)">Youmu(Otter)</option>
-			<option value="Youmu(Eagle)">Youmu(Eagle)</option>
+		<optgroup label="Wily Beast and Weakest Creature">
+			<option value="Reimu(Wolf)"><?php echo _('ReimuWolf') ?></option>
+			<option value="Reimu(Otter)"><?php echo _('ReimuOtter') ?></option>
+			<option value="Reimu(Eagle)"><?php echo _('ReimuEagle') ?></option>
+			<option value="Marisa(Wolf)"><?php echo _('MarisaWolf') ?></option>
+			<option value="Marisa(Otter)"><?php echo _('MarisaOtter') ?></option>
+			<option value="Marisa(Eagle)"><?php echo _('MarisaEagle') ?></option>
+			<option value="Youmu(Wolf)"><?php echo _('YoumuWolf') ?></option>
+			<option value="Youmu(Otter)"><?php echo _('YoumuOtter') ?></option>
+			<option value="Youmu(Eagle)"><?php echo _('YoumuEagle') ?></option>
 		</optgroup>
 		<optgroup label="Unconnected Marketeers">
-			<option value="Reimu">Reimu</option>
-			<option value="Marisa">Marisa</option>
-			<option value="Sakuya">Sakuya</option>
-			<option value="Sanae">Sanae</option>
+			<option value="Reimu"><?php echo _('Reimu') ?></option>
+			<option value="Marisa"><?php echo _('Marisa') ?></option>
+			<option value="Sakuya"><?php echo _('Sakuya') ?></option>
+			<option value="Sanae"><?php echo _('Sanae') ?></option>
 		</optgroup>
 		<optgroup label="Great Fairy Wars">
-			<option value="A-1">A-1</option>
-			<option value="A-2">A-2</option>
-			<option value="B-1">B-1</option>
-			<option value="B-2">B-2</option>
-			<option value="C-1">C-1</option>
-			<option value="C-2">C-2</option>
-			<option value="Extra">Extra</option>
+			<option value="A-1"><?php echo _('A-1') ?></option>
+			<option value="A-2"><?php echo _('A-2') ?></option>
+			<option value="B-1"><?php echo _('B-1') ?></option>
+			<option value="B-2"><?php echo _('B-2') ?></option>
+			<option value="C-1"><?php echo _('C-1') ?></option>
+			<option value="C-2"><?php echo _('C-2') ?></option>
+			<option value="Extra"><?php echo _('Extra') ?></option>
 		</optgroup>
 	</select><br><br>
 
-	<label for="runtype">Type of run</label><br>
+	<label for="runtype"><?php echo _('Category') ?></label><br>
 	<select name="runtype" id="runtype">
-		<option value="surv">Survival</option>
-		<option value="score">Score</option>
+		<option value="surv"><?php echo _('Survival') ?></option>
+		<option value="score"><?php echo _('Scoring') ?></option>
 	</select>
 
 	<span id="fullspell_w">
 	<br><br>
-		<label for="fullspell">Full Spell</label>
+		<label for="fullspell"><?php echo _('Full Spell') ?></label>
 		<input name="fullspell" type="checkbox" id="fullspell" />
 	</span>
 
 	<span id="surv_opts">
 	<br><br>
-		<label for="misscount">Misses</label><br>
+		<label for="misscount"><?php echo _('Misses') ?></label><br>
 		<input type="text" id="misscount" name="misscount">
 	</span>
 
 	<span id="score_opts">
 	<br><br>
-		<label for="score">Score</label><br>
+		<label for="score"><?php echo _('Score') ?></label><br>
 		<input type="text" id="score" name="score">
 	</span>
 
 	<span id="th128_medal_w">
 	<br><br>
-	<label for="th128_medals" id="th128_medal_l">Gold Medals (th128 only)</label><br>
+	<label for="th128_medals" id="th128_medal_l"><?php echo _('Gold medals (th128 only)') ?></label><br>
 		<input type="text" id="th128_medals" name="th128_medals">
 	</span>
 
 	<span id="diff_w">
 	<br><br>
-	<label for="diff">Difficulty</label><br>
+	<label for="diff"><?php echo _('Difficulty') ?></label><br>
 	<select name="diff" id="diff">
 		<option value="Lunatic">Lunatic</option>
 		<option value="Extra">Extra</option>
@@ -231,20 +231,20 @@
 
 	<span id="th08_opts">
 	<br><br>
-		<label for="th08_end">Final stage (th08 only)</label><br>
+		<label for="th08_end"><?php echo _('Final Stage (th08 only)') ?></label><br>
 		<select name="th08_end" id="th08_end">
-			<option value="6A">FinalA</option>
-			<option value="6B">FinalB</option>
+			<option value="6A"><?php echo _('FinalA') ?></option>
+			<option value="6B"><?php echo _('FinalB') ?></option>
 		</select>
 	</span>
 
 	<div>
 		<br>
-		<button type="submit">Calculate</button>
+		<button type="submit"><?php echo _('Calculate') ?></button>
 	</div>
 
 	<hr>
-	ISCORE = <span id="iscore_final"></span>
+	<?php echo _('ISCORE') ?> = <span id="iscore_final"></span>
 	</form>
 	</main>
 	<script src="/iscore.js" defer></script>

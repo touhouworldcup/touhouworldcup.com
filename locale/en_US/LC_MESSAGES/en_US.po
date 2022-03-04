@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-03-04 00:35+0100\n"
-"PO-Revision-Date: 2022-03-04 00:37+0100\n"
+"POT-Creation-Date: 2022-03-04 14:50+0100\n"
+"PO-Revision-Date: 2022-03-04 14:50+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -18,59 +18,79 @@ msgstr ""
 "X-Poedit-SearchPath-3: rules.php\n"
 "X-Poedit-SearchPath-4: schedule.php\n"
 
-#: credits.php:8 credits.php:28 credits.php:41 index.php:30 iscore.php:28
+#: credits.php:8 credits.php:28 credits.php:53 index.php:30 iscore.php:28
 #: rules.php:28 schedule.php:28
 msgid "Credits"
 msgstr ""
 
 #: credits.php:25 index.php:27 iscore.php:25 rules.php:8 rules.php:25
-#: schedule.php:25
+#: rules.php:53 schedule.php:25
 msgid "Rules"
 msgstr ""
 
 #: credits.php:26 index.php:28 iscore.php:26 rules.php:26 schedule.php:8
-#: schedule.php:26
+#: schedule.php:26 schedule.php:53
 msgid "Schedule"
 msgstr ""
 
-#: credits.php:27 index.php:29 iscore.php:8 iscore.php:27 rules.php:27
-#: schedule.php:27
+#: credits.php:27 index.php:29 iscore.php:8 iscore.php:27 iscore.php:247
+#: rules.php:27 schedule.php:27
 msgid "ISCORE"
 msgstr ""
 
-#: credits.php:31 index.php:33 iscore.php:31 rules.php:31 schedule.php:31
+#: credits.php:32 index.php:34 iscore.php:32 rules.php:32 schedule.php:32
 msgid "Flag of the United Kingdom"
 msgstr ""
 
-#: credits.php:32 index.php:34 iscore.php:32 rules.php:32 schedule.php:32
+#: credits.php:35 index.php:37 iscore.php:35 rules.php:35 schedule.php:35
 msgid "Flag of the United States"
 msgstr ""
 
-#: credits.php:33 index.php:35 iscore.php:33 rules.php:33 schedule.php:33
+#: credits.php:38 index.php:40 iscore.php:38 rules.php:38 schedule.php:38
 msgid "Flag of Japan"
 msgstr ""
 
-#: credits.php:34 index.php:36 iscore.php:34 rules.php:34 schedule.php:34
+#: credits.php:41 index.php:43 iscore.php:41 rules.php:41 schedule.php:41
 msgid "Flag of the P.R.C."
 msgstr ""
 
-#: credits.php:35 index.php:37 iscore.php:35 rules.php:35 schedule.php:35
+#: credits.php:44 index.php:46 iscore.php:44 rules.php:44 schedule.php:44
 msgid "Flag of Russia"
 msgstr ""
 
-#: credits.php:36 index.php:38 iscore.php:36 rules.php:36 schedule.php:36
+#: credits.php:47 index.php:49 iscore.php:47 rules.php:47 schedule.php:47
 msgid "Flag of Germany"
 msgstr ""
 
-#: credits.php:42
+#: credits.php:54
 msgid "Website Source Code"
 msgstr ""
 
-#: credits.php:43
+#: credits.php:55
 msgid "Developed by:"
 msgstr ""
 
-#: index.php:45
+#: credits.php:59
+msgid "Translated by:"
+msgstr ""
+
+#: credits.php:60
+msgid ": Japanese"
+msgstr ""
+
+#: credits.php:61
+msgid ": Chinese"
+msgstr ""
+
+#: credits.php:62
+msgid ": Russian"
+msgstr ""
+
+#: credits.php:63
+msgid ": German"
+msgstr ""
+
+#: index.php:57
 msgid ""
 "<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
 "shooting game competition, first held in 2020, organised by the Chinese "
@@ -82,141 +102,477 @@ msgstr ""
 "gameplay community. This time around, in 2021, it is organized by the "
 "Western gameplay community."
 
-#: index.php:50
+#: index.php:62
 msgid ""
 "Three teams, a Western community team, a Chinese team, and a Japanese team, "
 "duke it out on Lunatic and Extra mode, playing on live streams and playing "
 "both high score and survival."
 msgstr ""
 
-#: index.php:54
+#: index.php:66
 msgid ""
 "See below for official communication channels and live streams with "
 "commentary."
 msgstr ""
 
-#: index.php:57
+#: index.php:69
 msgid "Official TWC Twitter"
 msgstr ""
 
-#: index.php:58
+#: index.php:70
 msgid "Official TWC YouTube Channel"
 msgstr ""
 
-#: index.php:59
+#: index.php:71
 msgid "English commentary stream (Twitch)"
 msgstr ""
 
-#: index.php:60
+#: index.php:72
 msgid "Chinese commentary stream 1 (Bilibili)"
 msgstr ""
 
-#: index.php:61
+#: index.php:73
 msgid "Chinese commentary stream 2 (Bilibili)"
 msgstr ""
 
-#: index.php:62
+#: index.php:74
 msgid "Japanese commentary stream (YouTube)"
 msgstr ""
 
-#: index.php:63
+#: index.php:75
 msgid "Russian commentary stream (Twitch)"
 msgstr ""
 
-#: iscore.php:41
+#: iscore.php:53
 msgid "ISCORE Calculator"
 msgstr ""
 
-#: iscore.php:42
+#: iscore.php:54
 msgid "This page requires JavaScript"
 msgstr ""
 
-#: rules.php:42
+#: iscore.php:56
+msgid "Game"
+msgstr ""
+
+#: iscore.php:58
+msgid "Embodiment of Scarlet Devil"
+msgstr ""
+
+#: iscore.php:59
+msgid "Perfect Cherry Blossom"
+msgstr ""
+
+#: iscore.php:60
+msgid "Imperishable Night"
+msgstr ""
+
+#: iscore.php:61
+msgid "Mountain of Faith"
+msgstr ""
+
+#: iscore.php:62
+msgid "Subterranean Aminism"
+msgstr ""
+
+#: iscore.php:63
+msgid "Undefined Fantastic Object"
+msgstr ""
+
+#: iscore.php:64
+msgid "Great Fairy Wars"
+msgstr ""
+
+#: iscore.php:65
+msgid "Ten Desires"
+msgstr ""
+
+#: iscore.php:66
+msgid "Double Dealing Character"
+msgstr ""
+
+#: iscore.php:67
+msgid "Legacy of Lunatic Kingdom"
+msgstr ""
+
+#: iscore.php:68
+msgid "Hidden Star in Four Seasons"
+msgstr ""
+
+#: iscore.php:69
+msgid "Wily Beast and Weakest Creature"
+msgstr ""
+
+#: iscore.php:70
+msgid "Unconnected Marketeers"
+msgstr ""
+
+#: iscore.php:73
+msgid "Shottype / Route"
+msgstr ""
+
+#: iscore.php:76 iscore.php:82 iscore.php:104 iscore.php:112 iscore.php:120
+#: iscore.php:134
+msgid "ReimuA"
+msgstr ""
+
+#: iscore.php:77 iscore.php:83 iscore.php:105 iscore.php:113 iscore.php:121
+#: iscore.php:135
+msgid "ReimuB"
+msgstr ""
+
+#: iscore.php:78 iscore.php:84 iscore.php:107 iscore.php:115 iscore.php:122
+#: iscore.php:136
+msgid "MarisaA"
+msgstr ""
+
+#: iscore.php:79 iscore.php:85 iscore.php:108 iscore.php:116 iscore.php:123
+#: iscore.php:137
+msgid "MarisaB"
+msgstr ""
+
+#: iscore.php:86 iscore.php:138
+msgid "SakuyaA"
+msgstr ""
+
+#: iscore.php:87 iscore.php:139
+msgid "SakuyaB"
+msgstr ""
+
+#: iscore.php:90
+msgid "Reimu & Yukari"
+msgstr ""
+
+#: iscore.php:91
+msgid "Marisa & Alice"
+msgstr ""
+
+#: iscore.php:92
+msgid "Sakuya & Remilia"
+msgstr ""
+
+#: iscore.php:93
+msgid "Youmu & Yuyuko"
+msgstr ""
+
+#: iscore.php:94 iscore.php:128 iscore.php:142 iscore.php:177
+msgid "Reimu"
+msgstr ""
+
+#: iscore.php:95 iscore.php:129 iscore.php:143 iscore.php:178
+msgid "Marisa"
+msgstr ""
+
+#: iscore.php:96 iscore.php:179
+msgid "Sakuya"
+msgstr ""
+
+#: iscore.php:97 iscore.php:131
+msgid "Youmu"
+msgstr ""
+
+#: iscore.php:98
+msgid "Yukari"
+msgstr ""
+
+#: iscore.php:99
+msgid "Alice"
+msgstr ""
+
+#: iscore.php:100
+msgid "Remilia"
+msgstr ""
+
+#: iscore.php:101
+msgid "Yuyuko"
+msgstr ""
+
+#: iscore.php:106 iscore.php:114
+msgid "ReimuC"
+msgstr ""
+
+#: iscore.php:109 iscore.php:117
+msgid "MarisaC"
+msgstr ""
+
+#: iscore.php:124
+msgid "SanaeA"
+msgstr ""
+
+#: iscore.php:125
+msgid "SanaeB"
+msgstr ""
+
+#: iscore.php:130 iscore.php:144 iscore.php:180
+msgid "Sanae"
+msgstr ""
+
+#: iscore.php:145
+msgid "Reisen"
+msgstr ""
+
+#: iscore.php:148
+msgid "ReimuSpring"
+msgstr ""
+
+#: iscore.php:149
+msgid "CirnoSpring"
+msgstr ""
+
+#: iscore.php:150
+msgid "AyaSpring"
+msgstr ""
+
+#: iscore.php:151
+msgid "MarisaSpring"
+msgstr ""
+
+#: iscore.php:152
+msgid "ReimuSummer"
+msgstr ""
+
+#: iscore.php:153
+msgid "CirnoSummer"
+msgstr ""
+
+#: iscore.php:154
+msgid "AyaSummer"
+msgstr ""
+
+#: iscore.php:155
+msgid "MarisaSummer"
+msgstr ""
+
+#: iscore.php:156
+msgid "ReimuAutumn"
+msgstr ""
+
+#: iscore.php:157
+msgid "CirnoAutumn"
+msgstr ""
+
+#: iscore.php:158
+msgid "AyaAutumn"
+msgstr ""
+
+#: iscore.php:159
+msgid "MarisaAutumn"
+msgstr ""
+
+#: iscore.php:160
+msgid "ReimuWinter"
+msgstr ""
+
+#: iscore.php:161
+msgid "CirnoWinter"
+msgstr ""
+
+#: iscore.php:162
+msgid "AyaWinter"
+msgstr ""
+
+#: iscore.php:163
+msgid "MarisaWinter"
+msgstr ""
+
+#: iscore.php:166
+msgid "ReimuWolf"
+msgstr ""
+
+#: iscore.php:167
+msgid "ReimuOtter"
+msgstr ""
+
+#: iscore.php:168
+msgid "ReimuEagle"
+msgstr ""
+
+#: iscore.php:169
+msgid "MarisaWolf"
+msgstr ""
+
+#: iscore.php:170
+msgid "MarisaOtter"
+msgstr ""
+
+#: iscore.php:171
+msgid "MarisaEagle"
+msgstr ""
+
+#: iscore.php:172
+msgid "YoumuWolf"
+msgstr ""
+
+#: iscore.php:173
+msgid "YoumuOtter"
+msgstr ""
+
+#: iscore.php:174
+msgid "YoumuEagle"
+msgstr ""
+
+#: iscore.php:183
+msgid "A-1"
+msgstr ""
+
+#: iscore.php:184
+msgid "A-2"
+msgstr ""
+
+#: iscore.php:185
+msgid "B-1"
+msgstr ""
+
+#: iscore.php:186
+msgid "B-2"
+msgstr ""
+
+#: iscore.php:187
+msgid "C-1"
+msgstr ""
+
+#: iscore.php:188
+msgid "C-2"
+msgstr ""
+
+#: iscore.php:189
+msgid "Extra"
+msgstr ""
+
+#: iscore.php:193 schedule.php:64
+msgid "Category"
+msgstr ""
+
+#: iscore.php:195
+msgid "Survival"
+msgstr ""
+
+#: iscore.php:196
+msgid "Scoring"
+msgstr ""
+
+#: iscore.php:201
+msgid "Full Spell"
+msgstr ""
+
+#: iscore.php:207
+msgid "Misses"
+msgstr ""
+
+#: iscore.php:213
+msgid "Score"
+msgstr ""
+
+#: iscore.php:219
+msgid "Gold medals (th128 only)"
+msgstr ""
+
+#: iscore.php:225
+msgid "Difficulty"
+msgstr ""
+
+#: iscore.php:234
+msgid "Final Stage (th08 only)"
+msgstr ""
+
+#: iscore.php:236
+msgid "FinalA"
+msgstr ""
+
+#: iscore.php:237
+msgid "FinalB"
+msgstr ""
+
+#: iscore.php:243
+msgid "Calculate"
+msgstr ""
+
+#: rules.php:54
 msgid "Format"
 msgstr ""
 
-#: rules.php:43
+#: rules.php:55
 msgid ""
 "For every match, each team can earn points. Ranking is based on whoever has "
 "the most points:"
 msgstr ""
 
-#: rules.php:45
+#: rules.php:57
 msgid "1st place - 2 points"
 msgstr ""
 
-#: rules.php:46
+#: rules.php:58
 msgid "2nd place - 1 point"
 msgstr ""
 
-#: rules.php:47
+#: rules.php:59
 msgid "3rd place - 0 points"
 msgstr ""
 
-#: rules.php:49
+#: rules.php:61
 msgid ""
 "In 2-team matches, the first place gets 2 points, and 2nd place gets 1 point."
 msgstr ""
 
-#: rules.php:51
+#: rules.php:63
 msgid ""
 "If multiple players have the exact same amount of ISCORE, their points will "
 "be split equally. This also means that, if multiple players have the highest "
 "ISCORE, the match ends in a tie."
 msgstr ""
 
-#: rules.php:54
+#: rules.php:66
 msgid ""
 "At the end of the World Cup, the teams will be ranked based on has the most "
 "points."
 msgstr ""
 
-#: rules.php:56
+#: rules.php:68
 msgid "Calculating Points"
 msgstr ""
 
-#: rules.php:58
+#: rules.php:70
 msgid "The points are based on the <a href=\"/iscore\">ISCORE calculator</a>."
 msgstr ""
 
-#: rules.php:62
+#: rules.php:74
 msgid ""
 "Score matches are calculated based on the ISCORE formula. Survival matches "
 "(except for GFW) are calculated as follows:"
 msgstr ""
 
-#: rules.php:65
+#: rules.php:77
 msgid "(ISCORE No Miss No Bomb Score) / 2 ^ (deaths)"
 msgstr ""
 
-#: rules.php:66
+#: rules.php:78
 msgid "In survival runs, bombs are counted as 2 deaths."
 msgstr ""
 
-#: rules.php:68
+#: rules.php:80
 msgid ""
 "ISCORE is a scoring metric that compensates for the differences in "
 "performance between shot types and categories. The formulas used can be "
 "found in the ISCORE rubric with the calculator linked above."
 msgstr ""
 
-#: rules.php:73
+#: rules.php:85
 msgid "Game-specific Concerns"
 msgstr ""
 
-#: rules.php:74
+#: rules.php:86
 msgid "Touhou 7"
 msgstr ""
 
-#: rules.php:75
+#: rules.php:87
 msgid "A border break is considered a death in survival runs."
 msgstr ""
 
-#: rules.php:76
+#: rules.php:88
 msgid "Touhou 8"
 msgstr ""
 
-#: rules.php:78
+#: rules.php:90
 msgid ""
 "Getting hit during a Last Spell is <strong>not</strong> considered a death "
 "in survival runs. However, ISCORE gives a higher base value in this game to "
@@ -224,56 +580,56 @@ msgid ""
 "<strong>every</strong> Last Spell) AND do not die/bomb (NN + Full-SC)."
 msgstr ""
 
-#: rules.php:83
+#: rules.php:95
 msgid "Touhou 12"
 msgstr ""
 
-#: rules.php:87
+#: rules.php:99
 msgid ""
 "Summoning a UFO is considered a death in survival runs. However, collecting "
 "tokens does not affect the score in survival runs."
 msgstr ""
 
-#: rules.php:90
+#: rules.php:102
 msgid "Touhou 12.8"
 msgstr ""
 
-#: rules.php:92
+#: rules.php:104
 msgid "The survival formula for this game is (gold medals*1.5)-(deaths)."
 msgstr ""
 
-#: rules.php:93
+#: rules.php:105
 msgid "Touhou 13"
 msgstr ""
 
-#: rules.php:95
+#: rules.php:107
 msgid ""
 "A manual trance is considered 2 deaths in survival runs. ISCORE gives a "
 "higher base value in this game to runs that capture all spells AND does not "
 "die/bomb (NN + Full-SC)."
 msgstr ""
 
-#: rules.php:99
+#: rules.php:111
 msgid "Touhou 15"
 msgstr ""
 
-#: rules.php:100
+#: rules.php:112
 msgid "All runs in both survival/score have to be done in Legacy Mode."
 msgstr ""
 
-#: rules.php:101
+#: rules.php:113
 msgid "Touhou 16"
 msgstr ""
 
-#: rules.php:102
+#: rules.php:114
 msgid "Releasing your season gauge is considered 2 deaths in survival runs."
 msgstr ""
 
-#: rules.php:103
+#: rules.php:115
 msgid "Touhou 17"
 msgstr ""
 
-#: rules.php:105
+#: rules.php:117
 msgid ""
 "Channeling a berserk roar (3 or more of the same animal tokens during roar "
 "mode) is considered 2 deaths in survival runs. Breaking your roar (bombing "
@@ -281,28 +637,28 @@ msgid ""
 "runs."
 msgstr ""
 
-#: rules.php:110
+#: rules.php:122
 msgid "Use of Third Party Software &amp; Material"
 msgstr ""
 
-#: rules.php:112
+#: rules.php:124
 msgid ""
 "Vsync patch is allowed. Practice patches (such as thprac) are allowed, but "
 "all practice cheats have to be disabled for the runs."
 msgstr ""
 
-#: rules.php:116
+#: rules.php:128
 msgid ""
 "Visual patches (e.g. hitbox patch) are prohibited. Translation patches are "
 "allowed but discouraged. Audio patches/background music is allowed but no "
 "copyrighted material."
 msgstr ""
 
-#: rules.php:120
+#: rules.php:132
 msgid "Other Rules"
 msgstr ""
 
-#: rules.php:122
+#: rules.php:134
 msgid ""
 "<li>Runs only count from the moment the timer has started.</li><li>Players "
 "can start as many runs as they want during the match. When the timer has "
@@ -316,30 +672,26 @@ msgid ""
 "li><li>Please hide the story ending when your run finishes.</li>"
 msgstr ""
 
-#: schedule.php:42
+#: schedule.php:54
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
 msgstr ""
 
-#: schedule.php:45
+#: schedule.php:57
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
 msgstr ""
 
-#: schedule.php:51
+#: schedule.php:63
 msgid "Date / Time"
 msgstr ""
 
-#: schedule.php:52
-msgid "Category"
-msgstr ""
-
-#: schedule.php:53
+#: schedule.php:65
 msgid "Players"
 msgstr ""
 
-#: schedule.php:54
+#: schedule.php:66
 msgid "Reset Time<br>(minutes)"
 msgstr ""
