@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-03-04 01:29+0100\n"
-"PO-Revision-Date: 2022-03-04 01:33+0100\n"
+"POT-Creation-Date: 2022-03-04 14:48+0100\n"
+"PO-Revision-Date: 2022-03-04 14:49+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -33,8 +33,8 @@ msgstr "ルール"
 msgid "Schedule"
 msgstr "スケジュール"
 
-#: credits.php:27 index.php:29 iscore.php:8 iscore.php:27 rules.php:27
-#: schedule.php:27
+#: credits.php:27 index.php:29 iscore.php:8 iscore.php:27 iscore.php:247
+#: rules.php:27 schedule.php:27
 msgid "ISCORE"
 msgstr ""
 
@@ -153,6 +153,342 @@ msgstr "ISCORE計算機"
 #: iscore.php:54
 msgid "This page requires JavaScript"
 msgstr "このウェブページにはJavaScriptが必要です"
+
+#: iscore.php:56
+msgid "Game"
+msgstr "ゲーム"
+
+#: iscore.php:58
+msgid "Embodiment of Scarlet Devil"
+msgstr "東方紅魔郷　～ the Embodiment of Scarlet Devil"
+
+#: iscore.php:59
+msgid "Perfect Cherry Blossom"
+msgstr "東方妖々夢　～ Perfect Cherry Blossom"
+
+#: iscore.php:60
+msgid "Imperishable Night"
+msgstr "東方永夜抄　～ Imperishable Night"
+
+#: iscore.php:61
+msgid "Mountain of Faith"
+msgstr "東方風神録　～ Mountain of Faith"
+
+#: iscore.php:62
+msgid "Subterranean Aminism"
+msgstr "東方地霊殿　～ Subterranean Animism"
+
+#: iscore.php:63
+msgid "Undefined Fantastic Object"
+msgstr "東方星蓮船　～ Undefined Fantastic Object"
+
+#: iscore.php:64
+msgid "Great Fairy Wars"
+msgstr "妖精大戦争　～ 東方三月精"
+
+#: iscore.php:65
+msgid "Ten Desires"
+msgstr "東方神霊廟　～ Ten Desires"
+
+#: iscore.php:66
+msgid "Double Dealing Character"
+msgstr "東方輝針城　～ Double Dealing Character"
+
+#: iscore.php:67
+msgid "Legacy of Lunatic Kingdom"
+msgstr "東方紺珠伝　～ Legacy of Lunatic Kingdom"
+
+#: iscore.php:68
+msgid "Hidden Star in Four Seasons"
+msgstr "東方天空璋　～ Hidden Star in Four Seasons"
+
+#: iscore.php:69
+msgid "Wily Beast and Weakest Creature"
+msgstr "東方鬼形獣　～ Wily Beast and Weakest Creature"
+
+#: iscore.php:70
+msgid "Unconnected Marketeers"
+msgstr "東方虹龍洞　～ Unconnected Marketeers"
+
+#: iscore.php:73
+msgid "Shottype / Route"
+msgstr "キャラ（th128のルート）"
+
+#: iscore.php:76 iscore.php:82 iscore.php:104 iscore.php:112 iscore.php:120
+#: iscore.php:134
+msgid "ReimuA"
+msgstr "霊夢A"
+
+#: iscore.php:77 iscore.php:83 iscore.php:105 iscore.php:113 iscore.php:121
+#: iscore.php:135
+msgid "ReimuB"
+msgstr "霊夢B"
+
+#: iscore.php:78 iscore.php:84 iscore.php:107 iscore.php:115 iscore.php:122
+#: iscore.php:136
+msgid "MarisaA"
+msgstr "魔理沙A"
+
+#: iscore.php:79 iscore.php:85 iscore.php:108 iscore.php:116 iscore.php:123
+#: iscore.php:137
+msgid "MarisaB"
+msgstr "魔理沙B"
+
+#: iscore.php:86 iscore.php:138
+msgid "SakuyaA"
+msgstr "咲夜A"
+
+#: iscore.php:87 iscore.php:139
+msgid "SakuyaB"
+msgstr "咲夜B"
+
+#: iscore.php:90
+msgid "Reimu & Yukari"
+msgstr "霊夢＆紫"
+
+#: iscore.php:91
+msgid "Marisa & Alice"
+msgstr "魔理沙＆アリス"
+
+#: iscore.php:92
+msgid "Sakuya & Remilia"
+msgstr "咲夜＆レミリア"
+
+#: iscore.php:93
+msgid "Youmu & Yuyuko"
+msgstr "妖夢＆幽々子"
+
+#: iscore.php:94 iscore.php:128 iscore.php:142 iscore.php:177
+msgid "Reimu"
+msgstr "霊夢"
+
+#: iscore.php:95 iscore.php:129 iscore.php:143 iscore.php:178
+msgid "Marisa"
+msgstr "魔理沙"
+
+#: iscore.php:96 iscore.php:179
+msgid "Sakuya"
+msgstr "咲夜"
+
+#: iscore.php:97 iscore.php:131
+msgid "Youmu"
+msgstr "妖夢"
+
+#: iscore.php:98
+msgid "Yukari"
+msgstr "紫"
+
+#: iscore.php:99
+msgid "Alice"
+msgstr "アリス"
+
+#: iscore.php:100
+msgid "Remilia"
+msgstr "レミリア"
+
+#: iscore.php:101
+msgid "Yuyuko"
+msgstr "幽々子"
+
+#: iscore.php:106 iscore.php:114
+msgid "ReimuC"
+msgstr "霊夢C"
+
+#: iscore.php:109 iscore.php:117
+msgid "MarisaC"
+msgstr "魔理沙C"
+
+#: iscore.php:124
+msgid "SanaeA"
+msgstr "早苗A"
+
+#: iscore.php:125
+msgid "SanaeB"
+msgstr "早苗B"
+
+#: iscore.php:130 iscore.php:144 iscore.php:180
+msgid "Sanae"
+msgstr "早苗"
+
+#: iscore.php:145
+msgid "Reisen"
+msgstr "鈴仙"
+
+#: iscore.php:148
+msgid "ReimuSpring"
+msgstr "霊夢(春)"
+
+#: iscore.php:149
+msgid "CirnoSpring"
+msgstr "チルノ(春)"
+
+#: iscore.php:150
+msgid "AyaSpring"
+msgstr "文(春)"
+
+#: iscore.php:151
+msgid "MarisaSpring"
+msgstr "魔理沙(春)"
+
+#: iscore.php:152
+msgid "ReimuSummer"
+msgstr "霊夢(夏)"
+
+#: iscore.php:153
+msgid "CirnoSummer"
+msgstr "チルノ(夏)"
+
+#: iscore.php:154
+msgid "AyaSummer"
+msgstr "文(夏)"
+
+#: iscore.php:155
+msgid "MarisaSummer"
+msgstr "魔理沙(夏)"
+
+#: iscore.php:156
+msgid "ReimuAutumn"
+msgstr "霊夢(秋)"
+
+#: iscore.php:157
+msgid "CirnoAutumn"
+msgstr "チルノ(秋)"
+
+#: iscore.php:158
+msgid "AyaAutumn"
+msgstr "文(秋)"
+
+#: iscore.php:159
+msgid "MarisaAutumn"
+msgstr "魔理沙(秋)"
+
+#: iscore.php:160
+msgid "ReimuWinter"
+msgstr "霊夢(冬)"
+
+#: iscore.php:161
+msgid "CirnoWinter"
+msgstr "チルノ(冬)"
+
+#: iscore.php:162
+msgid "AyaWinter"
+msgstr "文(冬)"
+
+#: iscore.php:163
+msgid "MarisaWinter"
+msgstr "魔理沙(冬)"
+
+#: iscore.php:166
+msgid "ReimuWolf"
+msgstr "霊夢W"
+
+#: iscore.php:167
+msgid "ReimuOtter"
+msgstr "霊夢O"
+
+#: iscore.php:168
+msgid "ReimuEagle"
+msgstr "霊夢E"
+
+#: iscore.php:169
+msgid "MarisaWolf"
+msgstr "魔理沙W"
+
+#: iscore.php:170
+msgid "MarisaOtter"
+msgstr "魔理沙O"
+
+#: iscore.php:171
+msgid "MarisaEagle"
+msgstr "魔理沙E"
+
+#: iscore.php:172
+msgid "YoumuWolf"
+msgstr "妖夢W"
+
+#: iscore.php:173
+msgid "YoumuOtter"
+msgstr "妖夢O"
+
+#: iscore.php:174
+msgid "YoumuEagle"
+msgstr "妖夢E"
+
+#: iscore.php:183
+msgid "A-1"
+msgstr ""
+
+#: iscore.php:184
+msgid "A-2"
+msgstr ""
+
+#: iscore.php:185
+msgid "B-1"
+msgstr ""
+
+#: iscore.php:186
+msgid "B-2"
+msgstr ""
+
+#: iscore.php:187
+msgid "C-1"
+msgstr ""
+
+#: iscore.php:188
+msgid "C-2"
+msgstr ""
+
+#: iscore.php:189
+msgid "Extra"
+msgstr ""
+
+#: iscore.php:193 schedule.php:64
+msgid "Category"
+msgstr "カテゴリー"
+
+#: iscore.php:195
+msgid "Survival"
+msgstr "クリア重視"
+
+#: iscore.php:196
+msgid "Scoring"
+msgstr "稼ぎ"
+
+#: iscore.php:201
+msgid "Full Spell"
+msgstr "フルスぺカ"
+
+#: iscore.php:207
+msgid "Misses"
+msgstr "ミス"
+
+#: iscore.php:213
+msgid "Score"
+msgstr "スコア"
+
+#: iscore.php:219
+msgid "Gold medals (th128 only)"
+msgstr "金メダル（th128のみ）"
+
+#: iscore.php:225
+msgid "Difficulty"
+msgstr "難易度"
+
+#: iscore.php:234
+msgid "Final Stage (th08 only)"
+msgstr "ルート（th08のみ）"
+
+#: iscore.php:236
+msgid "FinalA"
+msgstr "Aルート"
+
+#: iscore.php:237
+msgid "FinalB"
+msgstr "Bルート"
+
+#: iscore.php:243
+msgid "Calculate"
+msgstr "計算する"
 
 #: rules.php:54
 msgid "Format"
@@ -403,10 +739,6 @@ msgstr ""
 msgid "Date / Time"
 msgstr "日付と時間"
 
-#: schedule.php:64
-msgid "Category"
-msgstr "カテゴリー"
-
 #: schedule.php:65
 msgid "Players"
 msgstr "プレイヤー"
@@ -414,6 +746,9 @@ msgstr "プレイヤー"
 #: schedule.php:66
 msgid "Reset Time<br>(minutes)"
 msgstr "リセットのタイマー（分）"
+
+#~ msgid " Reimu"
+#~ msgstr "霊夢"
 
 #~ msgid ""
 #~ "The points are based on the <a href=\"https://www.isndes.com/jf\">ISCORE "
@@ -460,12 +795,6 @@ msgstr "リセットのタイマー（分）"
 
 #~ msgid "Dates"
 #~ msgstr "日付"
-
-#~ msgid "Score"
-#~ msgstr "スコア"
-
-#~ msgid "Difficulty"
-#~ msgstr "難易度"
 
 #~ msgid "Date"
 #~ msgstr "日付"
@@ -516,53 +845,14 @@ msgstr "リセットのタイマー（分）"
 #~ msgid "Touhou 5 - Mystic Square"
 #~ msgstr "東方怪綺談　～ Mystic Square"
 
-#~ msgid "Touhou 6 - The Embodiment of Scarlet Devil"
-#~ msgstr "東方紅魔郷　～ the Embodiment of Scarlet Devil"
-
-#~ msgid "Touhou 7 - Perfect Cherry Blossom"
-#~ msgstr "東方妖々夢　～ Perfect Cherry Blossom"
-
-#~ msgid "Touhou 8 - Imperishable Night"
-#~ msgstr "東方永夜抄　～ Imperishable Night"
-
 #~ msgid "Touhou 9 - Phantasmagoria of Flower View"
 #~ msgstr "東方花映塚　～ Phantasmagoria of Flower View"
 
 #~ msgid "Touhou 9.5 - Shoot the Bullet"
 #~ msgstr "東方文花帖　～ Shoot the Bullet"
 
-#~ msgid "Touhou 10 - Mountain of Faith"
-#~ msgstr "東方風神録　～ Mountain of Faith"
-
-#~ msgid "Touhou 11 - Subterranean Animism"
-#~ msgstr "東方地霊殿　～ Subterranean Animism"
-
-#~ msgid "Touhou 12 - Undefined Fantastic Object"
-#~ msgstr "東方星蓮船　～ Undefined Fantastic Object"
-
 #~ msgid "Touhou 12.5 - Double Spoiler"
 #~ msgstr "ダブルスポイラー　～ 東方文花帖"
-
-#~ msgid "Touhou 12.8 - Great Fairy Wars"
-#~ msgstr "妖精大戦争　～ 東方三月精"
-
-#~ msgid "Touhou 13 - Ten Desires"
-#~ msgstr "東方神霊廟　～ Ten Desires"
-
-#~ msgid "Touhou 14 - Double Dealing Character"
-#~ msgstr "東方輝針城　～ Double Dealing Character"
-
-#~ msgid "Touhou 15 - Legacy of Lunatic Kingdom"
-#~ msgstr "東方紺珠伝　～ Legacy of Lunatic Kingdom"
-
-#~ msgid "Touhou 16 - Hidden Star in Four Seasons"
-#~ msgstr "東方天空璋　～ Hidden Star in Four Seasons"
-
-#~ msgid "Touhou 17 - Wily Beast and Weakest Creature"
-#~ msgstr "東方鬼形獣　～ Wily Beast and Weakest Creature"
-
-#~ msgid "Touhou 18 - Unconnected Marketeers"
-#~ msgstr "東方虹龍洞　～ Unconnected Marketeers"
 
 #~ msgid "StB"
 #~ msgstr "文"
@@ -576,23 +866,8 @@ msgstr "リセットのタイマー（分）"
 #~ msgid "Jigoku"
 #~ msgstr "地獄"
 
-#~ msgid "ReimuA"
-#~ msgstr "霊夢A"
-
-#~ msgid "ReimuB"
-#~ msgstr "霊夢B"
-
-#~ msgid "ReimuC"
-#~ msgstr "霊夢C"
-
-#~ msgid "Reimu"
-#~ msgstr "霊夢"
-
 #~ msgid "Mima"
 #~ msgstr "魅魔"
-
-#~ msgid "Marisa"
-#~ msgstr "魔理沙"
 
 #~ msgid "Ellen"
 #~ msgstr "エレン"
@@ -615,18 +890,6 @@ msgstr "リセットのタイマー（分）"
 #~ msgid "Yuuka"
 #~ msgstr "幽香"
 
-#~ msgid "MarisaA"
-#~ msgstr "魔理沙A"
-
-#~ msgid "MarisaB"
-#~ msgstr "魔理沙B"
-
-#~ msgid "SakuyaA"
-#~ msgstr "咲夜A"
-
-#~ msgid "SakuyaB"
-#~ msgstr "咲夜B"
-
 #~ msgid "BorderTeam"
 #~ msgstr "霊夢＆紫"
 
@@ -638,24 +901,6 @@ msgstr "リセットのタイマー（分）"
 
 #~ msgid "GhostTeam"
 #~ msgstr "妖夢＆幽々子"
-
-#~ msgid "Yukari"
-#~ msgstr "紫"
-
-#~ msgid "Alice"
-#~ msgstr "アリス"
-
-#~ msgid "Sakuya"
-#~ msgstr "咲夜"
-
-#~ msgid "Remilia"
-#~ msgstr "レミリア"
-
-#~ msgid "Youmu"
-#~ msgstr "妖夢"
-
-#~ msgid "Yuyuko"
-#~ msgstr "幽々子"
 
 #~ msgid "Cirno"
 #~ msgstr "チルノ"
@@ -683,90 +928,3 @@ msgstr "リセットのタイマー（分）"
 
 #~ msgid "Hatate"
 #~ msgstr "はたて"
-
-#~ msgid "MarisaC"
-#~ msgstr "魔理沙C"
-
-#~ msgid "SanaeA"
-#~ msgstr "早苗A"
-
-#~ msgid "SanaeB"
-#~ msgstr "早苗B"
-
-#~ msgid "Sanae"
-#~ msgstr "早苗"
-
-#~ msgid "ReimuSpring"
-#~ msgstr "霊夢(春)"
-
-#~ msgid "CirnoSpring"
-#~ msgstr "チルノ(春)"
-
-#~ msgid "AyaSpring"
-#~ msgstr "文(春)"
-
-#~ msgid "MarisaSpring"
-#~ msgstr "魔理沙(春)"
-
-#~ msgid "ReimuSummer"
-#~ msgstr "霊夢(夏)"
-
-#~ msgid "CirnoSummer"
-#~ msgstr "チルノ(夏)"
-
-#~ msgid "AyaSummer"
-#~ msgstr "文(夏)"
-
-#~ msgid "MarisaSummer"
-#~ msgstr "魔理沙(夏)"
-
-#~ msgid "ReimuAutumn"
-#~ msgstr "霊夢(秋)"
-
-#~ msgid "CirnoAutumn"
-#~ msgstr "チルノ(秋)"
-
-#~ msgid "AyaAutumn"
-#~ msgstr "文(秋)"
-
-#~ msgid "MarisaAutumn"
-#~ msgstr "魔理沙(秋)"
-
-#~ msgid "ReimuWinter"
-#~ msgstr "霊夢(冬)"
-
-#~ msgid "CirnoWinter"
-#~ msgstr "チルノ(冬)"
-
-#~ msgid "AyaWinter"
-#~ msgstr "文(冬)"
-
-#~ msgid "MarisaWinter"
-#~ msgstr "魔理沙(冬)"
-
-#~ msgid "ReimuWolf"
-#~ msgstr "霊夢W"
-
-#~ msgid "ReimuOtter"
-#~ msgstr "霊夢O"
-
-#~ msgid "ReimuEagle"
-#~ msgstr "霊夢E"
-
-#~ msgid "MarisaWolf"
-#~ msgstr "魔理沙W"
-
-#~ msgid "MarisaOtter"
-#~ msgstr "魔理沙O"
-
-#~ msgid "MarisaEagle"
-#~ msgstr "魔理沙E"
-
-#~ msgid "YoumuWolf"
-#~ msgstr "妖夢W"
-
-#~ msgid "YoumuOtter"
-#~ msgstr "妖夢O"
-
-#~ msgid "YoumuEagle"
-#~ msgstr "妖夢E"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-03-04 01:27+0100\n"
-"PO-Revision-Date: 2022-03-04 01:31+0100\n"
+"POT-Creation-Date: 2022-03-04 14:49+0100\n"
+"PO-Revision-Date: 2022-03-04 14:49+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -33,8 +33,8 @@ msgstr "Regeln"
 msgid "Schedule"
 msgstr "Zeitplan"
 
-#: credits.php:27 index.php:29 iscore.php:8 iscore.php:27 rules.php:27
-#: schedule.php:27
+#: credits.php:27 index.php:29 iscore.php:8 iscore.php:27 iscore.php:247
+#: rules.php:27 schedule.php:27
 msgid "ISCORE"
 msgstr ""
 
@@ -156,6 +156,342 @@ msgstr "ISCORE-Rechner"
 #: iscore.php:54
 msgid "This page requires JavaScript"
 msgstr "Diese Website benötigt JavaScript"
+
+#: iscore.php:56
+msgid "Game"
+msgstr "Spiel"
+
+#: iscore.php:58
+msgid "Embodiment of Scarlet Devil"
+msgstr ""
+
+#: iscore.php:59
+msgid "Perfect Cherry Blossom"
+msgstr ""
+
+#: iscore.php:60
+msgid "Imperishable Night"
+msgstr ""
+
+#: iscore.php:61
+msgid "Mountain of Faith"
+msgstr ""
+
+#: iscore.php:62
+msgid "Subterranean Aminism"
+msgstr ""
+
+#: iscore.php:63
+msgid "Undefined Fantastic Object"
+msgstr ""
+
+#: iscore.php:64
+msgid "Great Fairy Wars"
+msgstr ""
+
+#: iscore.php:65
+msgid "Ten Desires"
+msgstr ""
+
+#: iscore.php:66
+msgid "Double Dealing Character"
+msgstr ""
+
+#: iscore.php:67
+msgid "Legacy of Lunatic Kingdom"
+msgstr ""
+
+#: iscore.php:68
+msgid "Hidden Star in Four Seasons"
+msgstr ""
+
+#: iscore.php:69
+msgid "Wily Beast and Weakest Creature"
+msgstr ""
+
+#: iscore.php:70
+msgid "Unconnected Marketeers"
+msgstr ""
+
+#: iscore.php:73
+msgid "Shottype / Route"
+msgstr "Shot Type / Route"
+
+#: iscore.php:76 iscore.php:82 iscore.php:104 iscore.php:112 iscore.php:120
+#: iscore.php:134
+msgid "ReimuA"
+msgstr ""
+
+#: iscore.php:77 iscore.php:83 iscore.php:105 iscore.php:113 iscore.php:121
+#: iscore.php:135
+msgid "ReimuB"
+msgstr ""
+
+#: iscore.php:78 iscore.php:84 iscore.php:107 iscore.php:115 iscore.php:122
+#: iscore.php:136
+msgid "MarisaA"
+msgstr ""
+
+#: iscore.php:79 iscore.php:85 iscore.php:108 iscore.php:116 iscore.php:123
+#: iscore.php:137
+msgid "MarisaB"
+msgstr ""
+
+#: iscore.php:86 iscore.php:138
+msgid "SakuyaA"
+msgstr ""
+
+#: iscore.php:87 iscore.php:139
+msgid "SakuyaB"
+msgstr ""
+
+#: iscore.php:90
+msgid "Reimu & Yukari"
+msgstr ""
+
+#: iscore.php:91
+msgid "Marisa & Alice"
+msgstr ""
+
+#: iscore.php:92
+msgid "Sakuya & Remilia"
+msgstr ""
+
+#: iscore.php:93
+msgid "Youmu & Yuyuko"
+msgstr ""
+
+#: iscore.php:94 iscore.php:128 iscore.php:142 iscore.php:177
+msgid "Reimu"
+msgstr ""
+
+#: iscore.php:95 iscore.php:129 iscore.php:143 iscore.php:178
+msgid "Marisa"
+msgstr ""
+
+#: iscore.php:96 iscore.php:179
+msgid "Sakuya"
+msgstr ""
+
+#: iscore.php:97 iscore.php:131
+msgid "Youmu"
+msgstr ""
+
+#: iscore.php:98
+msgid "Yukari"
+msgstr ""
+
+#: iscore.php:99
+msgid "Alice"
+msgstr ""
+
+#: iscore.php:100
+msgid "Remilia"
+msgstr ""
+
+#: iscore.php:101
+msgid "Yuyuko"
+msgstr ""
+
+#: iscore.php:106 iscore.php:114
+msgid "ReimuC"
+msgstr ""
+
+#: iscore.php:109 iscore.php:117
+msgid "MarisaC"
+msgstr ""
+
+#: iscore.php:124
+msgid "SanaeA"
+msgstr ""
+
+#: iscore.php:125
+msgid "SanaeB"
+msgstr ""
+
+#: iscore.php:130 iscore.php:144 iscore.php:180
+msgid "Sanae"
+msgstr ""
+
+#: iscore.php:145
+msgid "Reisen"
+msgstr ""
+
+#: iscore.php:148
+msgid "ReimuSpring"
+msgstr "ReimuFrühling"
+
+#: iscore.php:149
+msgid "CirnoSpring"
+msgstr "CirnoFrühling"
+
+#: iscore.php:150
+msgid "AyaSpring"
+msgstr "AyaFrühling"
+
+#: iscore.php:151
+msgid "MarisaSpring"
+msgstr "MarisaFrühling"
+
+#: iscore.php:152
+msgid "ReimuSummer"
+msgstr "ReimuSommer"
+
+#: iscore.php:153
+msgid "CirnoSummer"
+msgstr "CirnoSommer"
+
+#: iscore.php:154
+msgid "AyaSummer"
+msgstr "AyaSommer"
+
+#: iscore.php:155
+msgid "MarisaSummer"
+msgstr "MarisaSommer"
+
+#: iscore.php:156
+msgid "ReimuAutumn"
+msgstr "ReimuHerbst"
+
+#: iscore.php:157
+msgid "CirnoAutumn"
+msgstr "CirnoHerbst"
+
+#: iscore.php:158
+msgid "AyaAutumn"
+msgstr "AyaHerbst"
+
+#: iscore.php:159
+msgid "MarisaAutumn"
+msgstr "MarisaHerbst"
+
+#: iscore.php:160
+msgid "ReimuWinter"
+msgstr ""
+
+#: iscore.php:161
+msgid "CirnoWinter"
+msgstr ""
+
+#: iscore.php:162
+msgid "AyaWinter"
+msgstr ""
+
+#: iscore.php:163
+msgid "MarisaWinter"
+msgstr ""
+
+#: iscore.php:166
+msgid "ReimuWolf"
+msgstr ""
+
+#: iscore.php:167
+msgid "ReimuOtter"
+msgstr ""
+
+#: iscore.php:168
+msgid "ReimuEagle"
+msgstr "ReimuAdler"
+
+#: iscore.php:169
+msgid "MarisaWolf"
+msgstr ""
+
+#: iscore.php:170
+msgid "MarisaOtter"
+msgstr ""
+
+#: iscore.php:171
+msgid "MarisaEagle"
+msgstr "MarisaAdler"
+
+#: iscore.php:172
+msgid "YoumuWolf"
+msgstr ""
+
+#: iscore.php:173
+msgid "YoumuOtter"
+msgstr ""
+
+#: iscore.php:174
+msgid "YoumuEagle"
+msgstr "YoumuAdler"
+
+#: iscore.php:183
+msgid "A-1"
+msgstr ""
+
+#: iscore.php:184
+msgid "A-2"
+msgstr ""
+
+#: iscore.php:185
+msgid "B-1"
+msgstr ""
+
+#: iscore.php:186
+msgid "B-2"
+msgstr ""
+
+#: iscore.php:187
+msgid "C-1"
+msgstr ""
+
+#: iscore.php:188
+msgid "C-2"
+msgstr ""
+
+#: iscore.php:189
+msgid "Extra"
+msgstr ""
+
+#: iscore.php:193 schedule.php:64
+msgid "Category"
+msgstr "Kategorie"
+
+#: iscore.php:195
+msgid "Survival"
+msgstr ""
+
+#: iscore.php:196
+msgid "Scoring"
+msgstr ""
+
+#: iscore.php:201
+msgid "Full Spell"
+msgstr ""
+
+#: iscore.php:207
+msgid "Misses"
+msgstr "Tode"
+
+#: iscore.php:213
+msgid "Score"
+msgstr "Punktanzahl"
+
+#: iscore.php:219
+msgid "Gold medals (th128 only)"
+msgstr "Goldene Medaillen (nur th128)"
+
+#: iscore.php:225
+msgid "Difficulty"
+msgstr "Schwierigkeitsgrad"
+
+#: iscore.php:234
+msgid "Final Stage (th08 only)"
+msgstr "End-Stage (nur th08)"
+
+#: iscore.php:236
+msgid "FinalA"
+msgstr ""
+
+#: iscore.php:237
+msgid "FinalB"
+msgstr ""
+
+#: iscore.php:243
+msgid "Calculate"
+msgstr "Berechnen"
 
 #: rules.php:54
 msgid "Format"
@@ -411,10 +747,6 @@ msgstr ""
 msgid "Date / Time"
 msgstr "Datum / Uhrzeit"
 
-#: schedule.php:64
-msgid "Category"
-msgstr "Kategorie"
-
 #: schedule.php:65
 msgid "Players"
 msgstr "Spieler"
@@ -472,12 +804,6 @@ msgstr "Reset-Zeit<br>(Minuten)"
 #~ msgid "Dates"
 #~ msgstr "Datum"
 
-#~ msgid "Score"
-#~ msgstr "Punktanzahl"
-
-#~ msgid "Difficulty"
-#~ msgstr "Schwierigkeitsgrad"
-
 #~ msgid "Date"
 #~ msgstr "Datum"
 
@@ -509,48 +835,3 @@ msgstr "Reset-Zeit<br>(Minuten)"
 
 #~ msgid "Touhou World Records"
 #~ msgstr "Touhou-Weltrekorde"
-
-#~ msgid "ReimuSpring"
-#~ msgstr "ReimuFrühling"
-
-#~ msgid "CirnoSpring"
-#~ msgstr "CirnoFrühling"
-
-#~ msgid "AyaSpring"
-#~ msgstr "AyaFrühling"
-
-#~ msgid "MarisaSpring"
-#~ msgstr "MarisaFrühling"
-
-#~ msgid "ReimuSummer"
-#~ msgstr "ReimuSommer"
-
-#~ msgid "CirnoSummer"
-#~ msgstr "CirnoSommer"
-
-#~ msgid "AyaSummer"
-#~ msgstr "AyaSommer"
-
-#~ msgid "MarisaSummer"
-#~ msgstr "MarisaSommer"
-
-#~ msgid "ReimuAutumn"
-#~ msgstr "ReimuHerbst"
-
-#~ msgid "CirnoAutumn"
-#~ msgstr "CirnoHerbst"
-
-#~ msgid "AyaAutumn"
-#~ msgstr "AyaHerbst"
-
-#~ msgid "MarisaAutumn"
-#~ msgstr "MarisaHerbst"
-
-#~ msgid "ReimuEagle"
-#~ msgstr "ReimuAdler"
-
-#~ msgid "MarisaEagle"
-#~ msgstr "MarisaAdler"
-
-#~ msgid "YoumuEagle"
-#~ msgstr "YoumuAdler"

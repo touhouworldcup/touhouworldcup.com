@@ -2,7 +2,7 @@
 
 <?php include 'locale.php' ?>
 
-<html lang="en">
+<html lang="<?php echo $lc ?>">
 <head>
 	<meta charset="utf-8">
 	<title>Touhou World Cup</title>
@@ -20,14 +20,14 @@
 
 <body>
 	<header class="header">
-	<a href="/" class="logo">Touhou World Cup</a>
+	<a href="/<?php echo query_string() ?>" class="logo">Touhou World Cup</a>
 	<input class="menu-btn" type="checkbox" id="menu-btn" />
 	<label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
 	<ul class="menu">
-		<li><a class="subpage" href="rules"><?php echo _('Rules') ?></a></li>
-		<li><a class="subpage" href="schedule"><?php echo _('Schedule') ?></a></li>
-		<li><a class="subpage" href="iscore"><?php echo _('ISCORE') ?></a></li>
-		<li><a class="subpage" href="credits"><?php echo _('Credits') ?></a></li>
+		<li><a class="subpage" href="rules<?php echo query_string() ?>"><?php echo _('Rules') ?></a></li>
+		<li><a class="subpage" href="schedule<?php echo query_string() ?>"><?php echo _('Schedule') ?></a></li>
+		<li><a class="subpage" href="iscore<?php echo query_string() ?>"><?php echo _('ISCORE') ?></a></li>
+		<li><a class="subpage" href="credits<?php echo query_string() ?>"><?php echo _('Credits') ?></a></li>
 	</ul>
     <ul class="menu languages">
         <li<?php echo $lang == 'en_GB' ? ' class="selected"' : '' ?>><a id="en_GB" class="language" href="?hl=en-gb">
