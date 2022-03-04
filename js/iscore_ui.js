@@ -1,123 +1,4 @@
 window.onload = (E) => {
-	const game_shots = {
-		"th06": [
-			"ReimuA",
-			"ReimuB",
-			"MarisaA",
-			"MarisaB",
-		],
-		"th07": [
-			"ReimuA",
-			"ReimuB",
-			"MarisaA",
-			"MarisaB",
-			"SakuyaA",
-			"SakuyaB"
-		],
-		"th08": [
-			"Reimu & Yukari",
-			"Marisa & Alice",
-			"Sakuya & Remilia",
-			"Youmu & Yuyuko",
-			"Reimu",
-			"Marisa",
-			"Sakuya",
-			"Youmu",
-			"Yukari",
-			"Alice",
-			"Remilia",
-			"Yuyuko"
-		],
-		"th10": [
-			"ReimuA",
-			"ReimuB",
-			"ReimuC",
-			"MarisaA",
-			"MarisaB",
-			"MarisaC"
-		],
-		"th11": [
-			"ReimuA",
-			"ReimuB",
-			"ReimuC",
-			"MarisaA",
-			"MarisaB",
-			"MarisaC"
-		],
-		"th12": [
-			"ReimuA",
-			"ReimuB",
-			"MarisaA",
-			"MarisaB",
-			"SanaeA",
-			"SanaeB"
-		],
-		"th13": [
-			"Reimu",
-			"Marisa",
-			"Sanae",
-			"Youmu",
-		],
-		"th14": [
-			"ReimuA",
-			"ReimuB",
-			"MarisaA",
-			"MarisaB",
-			"SakuyaA",
-			"SakuyaB"
-		],
-		"th15": [
-			"Reimu",
-			"Marisa",
-			"Sanae",
-			"Reisen",
-		],
-		"th16": [
-			"Reimu(Spring)",
-			"Cirno(Spring)",
-			"Aya(Spring)",
-			"Marisa(Spring)",
-			"Reimu(Summer)",
-			"Cirno(Summer)",
-			"Aya(Summer)",
-			"Marisa(Summer)",
-			"Reimu(Autumn)",
-			"Cirno(Autumn)",
-			"Aya(Autumn)",
-			"Marisa(Autumn)",
-			"Reimu(Winter)",
-			"Cirno(Winter)",
-			"Aya(Winter)",
-			"Marisa(Winter)",
-		],
-		"th17": [
-			"Reimu(Wolf)",
-			"Reimu(Otter)",
-			"Reimu(Eagle)",
-			"Marisa(Wolf)",
-			"Marisa(Otter)",
-			"Marisa(Eagle)",
-			"Youmu(Wolf)",
-			"Youmu(Otter)",
-			"Youmu(Eagle)"
-		],
-		"th18": [
-			"Reimu",
-			"Marisa",
-			"Sakuya",
-			"Sanae"
-		],
-		"th128": [
-			"A-1",
-			"A-2",
-			"B-1",
-			"B-2",
-			"C-1",
-			"C-2",
-			"Extra"
-		]
-	}
-
 	const diff_w   = document.getElementById("diff_w");
 	const runtype  = document.getElementById("runtype");
 	const game_sel = document.getElementById("games");
@@ -198,24 +79,6 @@ window.onload = (E) => {
 		game_runtype_specific_opts(game_name);
 	}
 
-	game_sel.addEventListener("change", game_selected, false);
-	game_sel.value = "";
-	runtype.addEventListener("change", (E) => {
-		let rt = runtype.value;
-		if(rt === "surv") {
-			surv_opts.style.display = "inline";
-			score_opts.style.display = "none";
-		} else if (rt === "score") {
-			surv_opts.style.display = "none";
-			score_opts.style.display = "inline";
-		} else {
-			surv_opts.style.display = "none";
-			score_opts.style.display = "none";
-		}
-		game_runtype_specific_opts(game_sel.value);
-	}, false);
-	runtype.value = "";
-
 	const get_element_val = (element, friendly_name, type) => {
 		if(typeof(element) != "object") {
 			throw "FATAL ERROR: wrong type for 'element' in get_element_val. Please contact 32th System";
@@ -282,15 +145,33 @@ window.onload = (E) => {
 		}
 		iscore_final.innerText = iscore_val.toString();
 	}
-	document.getElementById("calc-iscore").addEventListener("submit", calc_iscore);
 
-	fullspell_w.style.display = "none";
-	surv_opts.style.display = "none";
-	score_opts.style.display = "none";
-	diff_w.style.display = "none";
-	th08_opts.style.display = "none";
-	th128_medal_w.style.display = "none";
-	th128_medal_l.innerText = "Gold medals (th128 only)";
-
-	shottypes.innerHTML = "";
+    let game_shots;
+    game_shots = JSON.parse(document.getElementById("shots_json").value);
+    game_sel.addEventListener("change", game_selected, false);
+    game_sel.value = "";
+    runtype.addEventListener("change", (E) => {
+        let rt = runtype.value;
+        if(rt === "surv") {
+            surv_opts.style.display = "inline";
+            score_opts.style.display = "none";
+        } else if (rt === "score") {
+            surv_opts.style.display = "none";
+            score_opts.style.display = "inline";
+        } else {
+            surv_opts.style.display = "none";
+            score_opts.style.display = "none";
+        }
+        game_runtype_specific_opts(game_sel.value);
+    }, false);
+    runtype.value = "";
+    document.getElementById("calc-iscore").addEventListener("submit", calc_iscore);
+    fullspell_w.style.display = "none";
+    surv_opts.style.display = "none";
+    score_opts.style.display = "none";
+    diff_w.style.display = "none";
+    th08_opts.style.display = "none";
+    th128_medal_w.style.display = "none";
+    th128_medal_l.innerText = "Gold medals (th128 only)";
+    shottypes.innerHTML = "";
 }
