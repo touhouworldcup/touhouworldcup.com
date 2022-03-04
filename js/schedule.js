@@ -52,7 +52,7 @@ function toDateString(unix) {
 function printSchedule() {
     var highlight = false, schedule, match, id, dateString, unix, i;
 
-    sendXHR("GET", "/schedule.json", null, function (response) {
+    sendXHR("GET", "/json/schedule.json", null, function (response) {
         schedule = JSON.parse(response);
 
         for (unix in schedule) {
