@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-03-04 14:48+0100\n"
-"PO-Revision-Date: 2022-03-04 14:49+0100\n"
+"POT-Creation-Date: 2022-03-04 17:36+0100\n"
+"PO-Revision-Date: 2022-03-04 17:36+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -17,80 +17,41 @@ msgstr ""
 "X-Poedit-SearchPath-2: iscore.php\n"
 "X-Poedit-SearchPath-3: rules.php\n"
 "X-Poedit-SearchPath-4: schedule.php\n"
+"X-Poedit-SearchPath-5: language.php\n"
 
-#: credits.php:8 credits.php:28 credits.php:53 index.php:30 iscore.php:28
-#: rules.php:28 schedule.php:28
+#: credits.php:2 credits.php:12
 msgid "Credits"
 msgstr ""
 
-#: credits.php:25 index.php:27 iscore.php:25 rules.php:8 rules.php:25
-#: rules.php:53 schedule.php:25
-msgid "Rules"
-msgstr "ルール"
-
-#: credits.php:26 index.php:28 iscore.php:26 rules.php:26 schedule.php:8
-#: schedule.php:26 schedule.php:53
-msgid "Schedule"
-msgstr "スケジュール"
-
-#: credits.php:27 index.php:29 iscore.php:8 iscore.php:27 iscore.php:247
-#: rules.php:27 schedule.php:27
-msgid "ISCORE"
-msgstr ""
-
-#: credits.php:32 index.php:34 iscore.php:32 rules.php:32 schedule.php:32
-msgid "Flag of the United Kingdom"
-msgstr "イギリスの国旗"
-
-#: credits.php:35 index.php:37 iscore.php:35 rules.php:35 schedule.php:35
-msgid "Flag of the United States"
-msgstr "アメリカ合衆国の国旗"
-
-#: credits.php:38 index.php:40 iscore.php:38 rules.php:38 schedule.php:38
-msgid "Flag of Japan"
-msgstr "日本の国旗"
-
-#: credits.php:41 index.php:43 iscore.php:41 rules.php:41 schedule.php:41
-msgid "Flag of the P.R.C."
-msgstr "中華人民共和国の国旗"
-
-#: credits.php:44 index.php:46 iscore.php:44 rules.php:44 schedule.php:44
-msgid "Flag of Russia"
-msgstr "ロシアの国旗"
-
-#: credits.php:47 index.php:49 iscore.php:47 rules.php:47 schedule.php:47
-msgid "Flag of Germany"
-msgstr "ドイツの国旗"
-
-#: credits.php:54
+#: credits.php:13
 msgid "Website Source Code"
 msgstr "ウェブサイトのソースコード"
 
-#: credits.php:55
+#: credits.php:14
 msgid "Developed by:"
 msgstr "開発者："
 
-#: credits.php:59
+#: credits.php:18
 msgid "Translated by:"
 msgstr "翻訳者："
 
-#: credits.php:60
+#: credits.php:19
 msgid ": Japanese"
 msgstr "：日本語"
 
-#: credits.php:61
+#: credits.php:20
 msgid ": Chinese"
 msgstr "：中国語"
 
-#: credits.php:62
+#: credits.php:21
 msgid ": Russian"
 msgstr "：ロシア語"
 
-#: credits.php:63
+#: credits.php:22
 msgid ": German"
 msgstr "：ドイツ語"
 
-#: index.php:57
+#: index.php:14
 msgid ""
 "<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
 "shooting game competition, first held in 2020, organised by the Chinese "
@@ -101,7 +62,7 @@ msgstr ""
 "す。第1回は2020年に中国の東方コミュニティ主催により開催され、第2回となる2021"
 "年は西洋の東方コミュニティ主催により開催されます。"
 
-#: index.php:62
+#: index.php:19
 msgid ""
 "Three teams, a Western community team, a Chinese team, and a Japanese team, "
 "duke it out on Lunatic and Extra mode, playing on live streams and playing "
@@ -110,7 +71,7 @@ msgstr ""
 "各試合は中国、日本、西洋3チームのオンライン同時並走により行われ、難易度"
 "Lunatic、Extraのスコアアタック部門やサバイバル部門で競い合います。"
 
-#: index.php:66
+#: index.php:23
 msgid ""
 "See below for official communication channels and live streams with "
 "commentary."
@@ -118,383 +79,419 @@ msgstr ""
 "公式ツイッター及びYouTubeチャンネル、各言語による解説音声付き配信チャンネルは"
 "以下をご覧ください。一覧。"
 
-#: index.php:69
+#: index.php:26
 msgid "Official TWC Twitter"
 msgstr "公式ツイッター"
 
-#: index.php:70
+#: index.php:27
 msgid "Official TWC YouTube Channel"
 msgstr "公式YouTubeチャンネル"
 
-#: index.php:71
+#: index.php:28
 msgid "English commentary stream (Twitch)"
 msgstr "英語解説付き配信チャンネル（Twitch）"
 
-#: index.php:72
+#: index.php:29
 msgid "Chinese commentary stream 1 (Bilibili)"
 msgstr "中国語解説付き配信チャンネル（Bilibili）"
 
-#: index.php:73
+#: index.php:30
 msgid "Chinese commentary stream 2 (Bilibili)"
 msgstr "中国語解説付き配信チャンネル２（Bilibili）"
 
-#: index.php:74
+#: index.php:31
 msgid "Japanese commentary stream (YouTube)"
 msgstr "日本語解説付き配信チャンネル"
 
-#: index.php:75
+#: index.php:32
 msgid "Russian commentary stream (Twitch)"
 msgstr "ロシア語解説付き配信チャンネル（Twitch）"
 
-#: iscore.php:53
+#: iscore.php:2 iscore.php:206
+msgid "ISCORE"
+msgstr ""
+
+#: iscore.php:12
 msgid "ISCORE Calculator"
 msgstr "ISCORE計算機"
 
-#: iscore.php:54
+#: iscore.php:13
 msgid "This page requires JavaScript"
 msgstr "このウェブページにはJavaScriptが必要です"
 
-#: iscore.php:56
+#: iscore.php:15
 msgid "Game"
 msgstr "ゲーム"
 
-#: iscore.php:58
+#: iscore.php:17
 msgid "Embodiment of Scarlet Devil"
 msgstr "東方紅魔郷　～ the Embodiment of Scarlet Devil"
 
-#: iscore.php:59
+#: iscore.php:18
 msgid "Perfect Cherry Blossom"
 msgstr "東方妖々夢　～ Perfect Cherry Blossom"
 
-#: iscore.php:60
+#: iscore.php:19
 msgid "Imperishable Night"
 msgstr "東方永夜抄　～ Imperishable Night"
 
-#: iscore.php:61
+#: iscore.php:20
 msgid "Mountain of Faith"
 msgstr "東方風神録　～ Mountain of Faith"
 
-#: iscore.php:62
+#: iscore.php:21
 msgid "Subterranean Aminism"
 msgstr "東方地霊殿　～ Subterranean Animism"
 
-#: iscore.php:63
+#: iscore.php:22
 msgid "Undefined Fantastic Object"
 msgstr "東方星蓮船　～ Undefined Fantastic Object"
 
-#: iscore.php:64
+#: iscore.php:23
 msgid "Great Fairy Wars"
 msgstr "妖精大戦争　～ 東方三月精"
 
-#: iscore.php:65
+#: iscore.php:24
 msgid "Ten Desires"
 msgstr "東方神霊廟　～ Ten Desires"
 
-#: iscore.php:66
+#: iscore.php:25
 msgid "Double Dealing Character"
 msgstr "東方輝針城　～ Double Dealing Character"
 
-#: iscore.php:67
+#: iscore.php:26
 msgid "Legacy of Lunatic Kingdom"
 msgstr "東方紺珠伝　～ Legacy of Lunatic Kingdom"
 
-#: iscore.php:68
+#: iscore.php:27
 msgid "Hidden Star in Four Seasons"
 msgstr "東方天空璋　～ Hidden Star in Four Seasons"
 
-#: iscore.php:69
+#: iscore.php:28
 msgid "Wily Beast and Weakest Creature"
 msgstr "東方鬼形獣　～ Wily Beast and Weakest Creature"
 
-#: iscore.php:70
+#: iscore.php:29
 msgid "Unconnected Marketeers"
 msgstr "東方虹龍洞　～ Unconnected Marketeers"
 
-#: iscore.php:73
+#: iscore.php:32
 msgid "Shottype / Route"
 msgstr "キャラ（th128のルート）"
 
-#: iscore.php:76 iscore.php:82 iscore.php:104 iscore.php:112 iscore.php:120
-#: iscore.php:134
+#: iscore.php:35 iscore.php:41 iscore.php:63 iscore.php:71 iscore.php:79
+#: iscore.php:93
 msgid "ReimuA"
 msgstr "霊夢A"
 
-#: iscore.php:77 iscore.php:83 iscore.php:105 iscore.php:113 iscore.php:121
-#: iscore.php:135
+#: iscore.php:36 iscore.php:42 iscore.php:64 iscore.php:72 iscore.php:80
+#: iscore.php:94
 msgid "ReimuB"
 msgstr "霊夢B"
 
-#: iscore.php:78 iscore.php:84 iscore.php:107 iscore.php:115 iscore.php:122
-#: iscore.php:136
+#: iscore.php:37 iscore.php:43 iscore.php:66 iscore.php:74 iscore.php:81
+#: iscore.php:95
 msgid "MarisaA"
 msgstr "魔理沙A"
 
-#: iscore.php:79 iscore.php:85 iscore.php:108 iscore.php:116 iscore.php:123
-#: iscore.php:137
+#: iscore.php:38 iscore.php:44 iscore.php:67 iscore.php:75 iscore.php:82
+#: iscore.php:96
 msgid "MarisaB"
 msgstr "魔理沙B"
 
-#: iscore.php:86 iscore.php:138
+#: iscore.php:45 iscore.php:97
 msgid "SakuyaA"
 msgstr "咲夜A"
 
-#: iscore.php:87 iscore.php:139
+#: iscore.php:46 iscore.php:98
 msgid "SakuyaB"
 msgstr "咲夜B"
 
-#: iscore.php:90
+#: iscore.php:49
 msgid "Reimu & Yukari"
 msgstr "霊夢＆紫"
 
-#: iscore.php:91
+#: iscore.php:50
 msgid "Marisa & Alice"
 msgstr "魔理沙＆アリス"
 
-#: iscore.php:92
+#: iscore.php:51
 msgid "Sakuya & Remilia"
 msgstr "咲夜＆レミリア"
 
-#: iscore.php:93
+#: iscore.php:52
 msgid "Youmu & Yuyuko"
 msgstr "妖夢＆幽々子"
 
-#: iscore.php:94 iscore.php:128 iscore.php:142 iscore.php:177
+#: iscore.php:53 iscore.php:87 iscore.php:101 iscore.php:136
 msgid "Reimu"
 msgstr "霊夢"
 
-#: iscore.php:95 iscore.php:129 iscore.php:143 iscore.php:178
+#: iscore.php:54 iscore.php:88 iscore.php:102 iscore.php:137
 msgid "Marisa"
 msgstr "魔理沙"
 
-#: iscore.php:96 iscore.php:179
+#: iscore.php:55 iscore.php:138
 msgid "Sakuya"
 msgstr "咲夜"
 
-#: iscore.php:97 iscore.php:131
+#: iscore.php:56 iscore.php:90
 msgid "Youmu"
 msgstr "妖夢"
 
-#: iscore.php:98
+#: iscore.php:57
 msgid "Yukari"
 msgstr "紫"
 
-#: iscore.php:99
+#: iscore.php:58
 msgid "Alice"
 msgstr "アリス"
 
-#: iscore.php:100
+#: iscore.php:59
 msgid "Remilia"
 msgstr "レミリア"
 
-#: iscore.php:101
+#: iscore.php:60
 msgid "Yuyuko"
 msgstr "幽々子"
 
-#: iscore.php:106 iscore.php:114
+#: iscore.php:65 iscore.php:73
 msgid "ReimuC"
 msgstr "霊夢C"
 
-#: iscore.php:109 iscore.php:117
+#: iscore.php:68 iscore.php:76
 msgid "MarisaC"
 msgstr "魔理沙C"
 
-#: iscore.php:124
+#: iscore.php:83
 msgid "SanaeA"
 msgstr "早苗A"
 
-#: iscore.php:125
+#: iscore.php:84
 msgid "SanaeB"
 msgstr "早苗B"
 
-#: iscore.php:130 iscore.php:144 iscore.php:180
+#: iscore.php:89 iscore.php:103 iscore.php:139
 msgid "Sanae"
 msgstr "早苗"
 
-#: iscore.php:145
+#: iscore.php:104
 msgid "Reisen"
 msgstr "鈴仙"
 
-#: iscore.php:148
+#: iscore.php:107
 msgid "ReimuSpring"
 msgstr "霊夢(春)"
 
-#: iscore.php:149
+#: iscore.php:108
 msgid "CirnoSpring"
 msgstr "チルノ(春)"
 
-#: iscore.php:150
+#: iscore.php:109
 msgid "AyaSpring"
 msgstr "文(春)"
 
-#: iscore.php:151
+#: iscore.php:110
 msgid "MarisaSpring"
 msgstr "魔理沙(春)"
 
-#: iscore.php:152
+#: iscore.php:111
 msgid "ReimuSummer"
 msgstr "霊夢(夏)"
 
-#: iscore.php:153
+#: iscore.php:112
 msgid "CirnoSummer"
 msgstr "チルノ(夏)"
 
-#: iscore.php:154
+#: iscore.php:113
 msgid "AyaSummer"
 msgstr "文(夏)"
 
-#: iscore.php:155
+#: iscore.php:114
 msgid "MarisaSummer"
 msgstr "魔理沙(夏)"
 
-#: iscore.php:156
+#: iscore.php:115
 msgid "ReimuAutumn"
 msgstr "霊夢(秋)"
 
-#: iscore.php:157
+#: iscore.php:116
 msgid "CirnoAutumn"
 msgstr "チルノ(秋)"
 
-#: iscore.php:158
+#: iscore.php:117
 msgid "AyaAutumn"
 msgstr "文(秋)"
 
-#: iscore.php:159
+#: iscore.php:118
 msgid "MarisaAutumn"
 msgstr "魔理沙(秋)"
 
-#: iscore.php:160
+#: iscore.php:119
 msgid "ReimuWinter"
 msgstr "霊夢(冬)"
 
-#: iscore.php:161
+#: iscore.php:120
 msgid "CirnoWinter"
 msgstr "チルノ(冬)"
 
-#: iscore.php:162
+#: iscore.php:121
 msgid "AyaWinter"
 msgstr "文(冬)"
 
-#: iscore.php:163
+#: iscore.php:122
 msgid "MarisaWinter"
 msgstr "魔理沙(冬)"
 
-#: iscore.php:166
+#: iscore.php:125
 msgid "ReimuWolf"
 msgstr "霊夢W"
 
-#: iscore.php:167
+#: iscore.php:126
 msgid "ReimuOtter"
 msgstr "霊夢O"
 
-#: iscore.php:168
+#: iscore.php:127
 msgid "ReimuEagle"
 msgstr "霊夢E"
 
-#: iscore.php:169
+#: iscore.php:128
 msgid "MarisaWolf"
 msgstr "魔理沙W"
 
-#: iscore.php:170
+#: iscore.php:129
 msgid "MarisaOtter"
 msgstr "魔理沙O"
 
-#: iscore.php:171
+#: iscore.php:130
 msgid "MarisaEagle"
 msgstr "魔理沙E"
 
-#: iscore.php:172
+#: iscore.php:131
 msgid "YoumuWolf"
 msgstr "妖夢W"
 
-#: iscore.php:173
+#: iscore.php:132
 msgid "YoumuOtter"
 msgstr "妖夢O"
 
-#: iscore.php:174
+#: iscore.php:133
 msgid "YoumuEagle"
 msgstr "妖夢E"
 
-#: iscore.php:183
+#: iscore.php:142
 msgid "A-1"
 msgstr ""
 
-#: iscore.php:184
+#: iscore.php:143
 msgid "A-2"
 msgstr ""
 
-#: iscore.php:185
+#: iscore.php:144
 msgid "B-1"
 msgstr ""
 
-#: iscore.php:186
+#: iscore.php:145
 msgid "B-2"
 msgstr ""
 
-#: iscore.php:187
+#: iscore.php:146
 msgid "C-1"
 msgstr ""
 
-#: iscore.php:188
+#: iscore.php:147
 msgid "C-2"
 msgstr ""
 
-#: iscore.php:189
+#: iscore.php:148
 msgid "Extra"
 msgstr ""
 
-#: iscore.php:193 schedule.php:64
+#: iscore.php:152 schedule.php:23
 msgid "Category"
 msgstr "カテゴリー"
 
-#: iscore.php:195
+#: iscore.php:154
 msgid "Survival"
 msgstr "クリア重視"
 
-#: iscore.php:196
+#: iscore.php:155
 msgid "Scoring"
 msgstr "稼ぎ"
 
-#: iscore.php:201
+#: iscore.php:160
 msgid "Full Spell"
 msgstr "フルスぺカ"
 
-#: iscore.php:207
+#: iscore.php:166
 msgid "Misses"
 msgstr "ミス"
 
-#: iscore.php:213
+#: iscore.php:172
 msgid "Score"
 msgstr "スコア"
 
-#: iscore.php:219
+#: iscore.php:178
 msgid "Gold medals (th128 only)"
 msgstr "金メダル（th128のみ）"
 
-#: iscore.php:225
+#: iscore.php:184
 msgid "Difficulty"
 msgstr "難易度"
 
-#: iscore.php:234
+#: iscore.php:193
 msgid "Final Stage (th08 only)"
 msgstr "ルート（th08のみ）"
 
-#: iscore.php:236
+#: iscore.php:195
 msgid "FinalA"
 msgstr "Aルート"
 
-#: iscore.php:237
+#: iscore.php:196
 msgid "FinalB"
 msgstr "Bルート"
 
-#: iscore.php:243
+#: iscore.php:202
 msgid "Calculate"
 msgstr "計算する"
 
-#: rules.php:54
+#: language.php:2
+msgid "Language"
+msgstr "言語"
+
+#: language.php:14
+msgid "Flag of the United Kingdom"
+msgstr "イギリスの国旗"
+
+#: language.php:17
+msgid "Flag of the United States"
+msgstr "アメリカ合衆国の国旗"
+
+#: language.php:20
+msgid "Flag of Japan"
+msgstr "日本の国旗"
+
+#: language.php:23
+msgid "Flag of the P.R.C."
+msgstr "中華人民共和国の国旗"
+
+#: language.php:26
+msgid "Flag of Russia"
+msgstr "ロシアの国旗"
+
+#: language.php:29
+msgid "Flag of Germany"
+msgstr "ドイツの国旗"
+
+#: rules.php:2 rules.php:12
+msgid "Rules"
+msgstr "ルール"
+
+#: rules.php:13
 msgid "Format"
 msgstr "概要"
 
-#: rules.php:55
+#: rules.php:14
 msgid ""
 "For every match, each team can earn points. Ranking is based on whoever has "
 "the most points:"
@@ -503,26 +500,26 @@ msgstr ""
 "ISCORE（ISCOREについての欄を参照）の高い順に決定されます。獲得ポイントは以下"
 "の通りです。"
 
-#: rules.php:57
+#: rules.php:16
 msgid "1st place - 2 points"
 msgstr "１位　２ポイント"
 
-#: rules.php:58
+#: rules.php:17
 msgid "2nd place - 1 point"
 msgstr "２位　１ポイント"
 
-#: rules.php:59
+#: rules.php:18
 msgid "3rd place - 0 points"
 msgstr "３位　０ポイント"
 
-#: rules.php:61
+#: rules.php:20
 msgid ""
 "In 2-team matches, the first place gets 2 points, and 2nd place gets 1 point."
 msgstr ""
 "なお２チームのみが出場する試合においては、１位が２ポイント、２位が１ポイント"
 "の獲得となります。"
 
-#: rules.php:63
+#: rules.php:22
 msgid ""
 "If multiple players have the exact same amount of ISCORE, their points will "
 "be split equally. This also means that, if multiple players have the highest "
@@ -532,23 +529,23 @@ msgstr ""
 "合います（例：２チームが同じISCOREを獲得し１位となった場合、トータル３ポイン"
 "トを分け合い1.5ポイントずつを獲得します）"
 
-#: rules.php:66
+#: rules.php:25
 msgid ""
 "At the end of the World Cup, the teams will be ranked based on has the most "
 "points."
 msgstr "全試合終了後、獲得ポイントの多い順に順位が決定されます。"
 
-#: rules.php:68
+#: rules.php:27
 msgid "Calculating Points"
 msgstr "ISCOREについて"
 
-#: rules.php:70
+#: rules.php:29
 msgid "The points are based on the <a href=\"/iscore\">ISCORE calculator</a>."
 msgstr ""
 "各試合で獲得するISCOREは<a href=\"/iscore\">ISCORE Calculator</a>により定めら"
 "れます。"
 
-#: rules.php:74
+#: rules.php:33
 msgid ""
 "Score matches are calculated based on the ISCORE formula. Survival matches "
 "(except for GFW) are calculated as follows:"
@@ -556,15 +553,15 @@ msgstr ""
 "スコアアタックマッチではISCORE Calculatorの計算結果により、サバイバルマッチ"
 "（妖精大戦争を除く）では以下の計算式によりISCOREが決定されます。"
 
-#: rules.php:77
+#: rules.php:36
 msgid "(ISCORE No Miss No Bomb Score) / 2 ^ (deaths)"
 msgstr "(ISCORE表内のNNの値) / 2 ^ (被弾数)"
 
-#: rules.php:78
+#: rules.php:37
 msgid "In survival runs, bombs are counted as 2 deaths."
 msgstr "サバイバルマッチではボムの使用は２被弾としてカウントされます。"
 
-#: rules.php:80
+#: rules.php:39
 msgid ""
 "ISCORE is a scoring metric that compensates for the differences in "
 "performance between shot types and categories. The formulas used can be "
@@ -573,23 +570,23 @@ msgstr ""
 "ISCOREはショットタイプによる性能の差を補完するために開発された評価手法です。"
 "計算方法は上記のAbout ISCOREからご覧いただけます。"
 
-#: rules.php:85
+#: rules.php:44
 msgid "Game-specific Concerns"
 msgstr "作品固有のルール"
 
-#: rules.php:86
+#: rules.php:45
 msgid "Touhou 7"
 msgstr "東方妖々夢　～ Perfect Cherry Blossom."
 
-#: rules.php:87
+#: rules.php:46
 msgid "A border break is considered a death in survival runs."
 msgstr "サバイバルマッチにおいて霊撃は被弾として扱われます。"
 
-#: rules.php:88
+#: rules.php:47
 msgid "Touhou 8"
 msgstr "東方永夜抄　～ Imperishable Night."
 
-#: rules.php:90
+#: rules.php:49
 msgid ""
 "Getting hit during a Last Spell is <strong>not</strong> considered a death "
 "in survival runs. However, ISCORE gives a higher base value in this game to "
@@ -601,11 +598,11 @@ msgstr ""
 "合にのみ、より高いISCOREが与えられます（ISCORE CalculatorのFull-SC欄を参"
 "照）。"
 
-#: rules.php:95
+#: rules.php:54
 msgid "Touhou 12"
 msgstr "東方星蓮船　～ Undefined Fantastic Object."
 
-#: rules.php:99
+#: rules.php:58
 msgid ""
 "Summoning a UFO is considered a death in survival runs. However, collecting "
 "tokens does not affect the score in survival runs."
@@ -613,21 +610,21 @@ msgstr ""
 "サバイバルマッチではUFOの召喚を被弾として扱います。ただし、ベントラーの取得は"
 "ISCOREに影響を与えません。"
 
-#: rules.php:102
+#: rules.php:61
 msgid "Touhou 12.8"
 msgstr "妖精大戦争　～ 東方三月精"
 
-#: rules.php:104
+#: rules.php:63
 msgid "The survival formula for this game is (gold medals*1.5)-(deaths)."
 msgstr ""
 "この作品でのサバイバルマッチでの計算式は以下です。（金メダル獲得数*1.5）-（被"
 "弾数）"
 
-#: rules.php:105
+#: rules.php:64
 msgid "Touhou 13"
 msgstr "東方神霊廟　～ Ten Desires."
 
-#: rules.php:107
+#: rules.php:66
 msgid ""
 "A manual trance is considered 2 deaths in survival runs. ISCORE gives a "
 "higher base value in this game to runs that capture all spells AND does not "
@@ -637,29 +634,29 @@ msgstr ""
 "ドを取得し、かつ、ノーミスノーボムを達成した場合にのみ、より高いISCOREが与え"
 "られます（ISCORE CalculatorのFull-SC欄を参照）。"
 
-#: rules.php:111
+#: rules.php:70
 msgid "Touhou 15"
 msgstr "東方紺珠伝　～ Legacy of Lunatic Kingdom."
 
-#: rules.php:112
+#: rules.php:71
 msgid "All runs in both survival/score have to be done in Legacy Mode."
 msgstr ""
 "サバイバルマッチ、スコアアタックマッチともに完全無欠モードでプレイすることは"
 "禁止されています。"
 
-#: rules.php:113
+#: rules.php:72
 msgid "Touhou 16"
 msgstr "東方天空璋　～ Hidden Star in Four Seasons."
 
-#: rules.php:114
+#: rules.php:73
 msgid "Releasing your season gauge is considered 2 deaths in survival runs."
 msgstr "サバイバルマッチにおいて、季節解放は２被弾として扱われます。"
 
-#: rules.php:115
+#: rules.php:74
 msgid "Touhou 17"
 msgstr "東方鬼形獣 ～ Wily Beast and Weakest Creature."
 
-#: rules.php:117
+#: rules.php:76
 msgid ""
 "Channeling a berserk roar (3 or more of the same animal tokens during roar "
 "mode) is considered 2 deaths in survival runs. Breaking your roar (bombing "
@@ -670,11 +667,11 @@ msgstr ""
 "は２被弾として扱われます。また、ロアリング中の霊撃（ボムボタン押下または被弾"
 "によるもの）はサバイバルマッチでは１被弾として扱われます。"
 
-#: rules.php:122
+#: rules.php:81
 msgid "Use of Third Party Software &amp; Material"
 msgstr "ツールやパッチの使用について"
 
-#: rules.php:124
+#: rules.php:83
 msgid ""
 "Vsync patch is allowed. Practice patches (such as thprac) are allowed, but "
 "all practice cheats have to be disabled for the runs."
@@ -683,7 +680,7 @@ msgstr ""
 "（thprac等）を使用することは許可されていますが、プラクティスツールを用いたプ"
 "レイは無効とします。"
 
-#: rules.php:128
+#: rules.php:87
 msgid ""
 "Visual patches (e.g. hitbox patch) are prohibited. Translation patches are "
 "allowed but discouraged. Audio patches/background music is allowed but no "
@@ -694,11 +691,11 @@ msgstr ""
 "差し替え）の使用は許可されていますが、ゲーム中もしくは著作権フリー以外の音楽"
 "の使用は禁止されています。"
 
-#: rules.php:132
+#: rules.php:91
 msgid "Other Rules"
 msgstr "その他のルール"
 
-#: rules.php:134
+#: rules.php:93
 msgid ""
 "<li>Runs only count from the moment the timer has started.</li><li>Players "
 "can start as many runs as they want during the match. When the timer has "
@@ -721,7 +718,11 @@ msgstr ""
 "</li><li>クリア後は必ずリプレイを保存してください。</li><li>クリア後のエン"
 "ディングは必ず隠してください。</li>"
 
-#: schedule.php:54
+#: schedule.php:2 schedule.php:12
+msgid "Schedule"
+msgstr "スケジュール"
+
+#: schedule.php:13
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
@@ -729,21 +730,21 @@ msgstr ""
 "表示されているタイムゾーンは<strong id=\"timezone\">UTC+0000（協定世界時）</"
 "strong>です。"
 
-#: schedule.php:57
+#: schedule.php:16
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
 msgstr ""
 
-#: schedule.php:63
+#: schedule.php:22
 msgid "Date / Time"
 msgstr "日付と時間"
 
-#: schedule.php:65
+#: schedule.php:24
 msgid "Players"
 msgstr "プレイヤー"
 
-#: schedule.php:66
+#: schedule.php:25
 msgid "Reset Time<br>(minutes)"
 msgstr "リセットのタイマー（分）"
 
