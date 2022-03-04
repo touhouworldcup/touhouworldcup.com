@@ -43,12 +43,14 @@ if (empty($_GET['hl'])) {
             'samesite' => 'Strict'
         ));
     }
-    $page = preg_split('/\?/', $_SERVER['REQUEST_URI'])[0];
-    header("Location: {$page}", true, 303);
-    exit();
+    if (isset($_COOKIE['lang'])) {
+        $page = preg_split('/\?/', $_SERVER['REQUEST_URI'])[0];
+        header("Location: {$page}", true, 303);
+        exit();
+    }
 }
 if (isset($_COOKIE['lang'])) {
-    $lang = str_replace('"', '', $_COOKIE['lang']);
+    $lang = $_COOKIE['lang'];
 }
 $locale = $lang . '.UTF-8';
 setlocale(LC_ALL, $locale);
