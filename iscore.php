@@ -1,6 +1,6 @@
 <!doctype html>
 
-<?php include 'locale.php' ?>
+<?php include_once 'locale.php'; require_once 'mobile_detect.php' ?>
 
 <html lang="<?php echo $lc ?>">
 <head>
@@ -8,6 +8,8 @@
 	<title><?php echo _('ISCORE') ?> - Touhou World Cup</title>
 	<link rel="stylesheet" href="index.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A calculator for the official points system used to judge how good a Touhou World Cup run is">
+    <meta name="keywords" content="touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2022 competition, scoring, survival, tournament, iscore, score, calculator">
 
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Touhou World Cup" />
@@ -26,6 +28,13 @@
 		<li><a class="subpage" href="schedule<?php echo query_string() ?>"><?php echo _('Schedule') ?></a></li>
 		<li><a class="subpage" href="iscore<?php echo query_string() ?>"><?php echo _('ISCORE') ?></a></li>
 		<li><a class="subpage" href="credits<?php echo query_string() ?>"><?php echo _('Credits') ?></a></li>
+        <?php
+            $detect_device = new Mobile_Detect;
+            $is_mobile = $detect_device -> isMobile();
+            if ($is_mobile) {
+                echo '<li><a class="subpage" href="language' . query_string() . '"><img src="/assets/lang.png" alt="Language"></a></li>';
+            }
+        ?>
 	</ul>
     <ul class="menu">
         <li<?php echo $lang == 'en_GB' ? ' class="selected"' : '' ?>><a id="en_GB" class="language" href="?hl=en-gb">

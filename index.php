@@ -1,6 +1,6 @@
 <!doctype html>
 
-<?php include 'locale.php' ?>
+<?php include_once 'locale.php'; require_once 'mobile_detect.php' ?>
 
 <html lang="<?php echo $lc ?>">
 <head>
@@ -21,15 +21,22 @@
 <body>
 	<header class="header">
 	<a href="/<?php echo query_string() ?>" class="logo">Touhou World Cup</a>
-	<input class="menu-btn" type="checkbox" id="menu-btn" />
+	<input class="menu-btn" type="checkbox" id="menu-btn">
 	<label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
 	<ul class="menu">
 		<li><a class="subpage" href="rules<?php echo query_string() ?>"><?php echo _('Rules') ?></a></li>
 		<li><a class="subpage" href="schedule<?php echo query_string() ?>"><?php echo _('Schedule') ?></a></li>
 		<li><a class="subpage" href="iscore<?php echo query_string() ?>"><?php echo _('ISCORE') ?></a></li>
 		<li><a class="subpage" href="credits<?php echo query_string() ?>"><?php echo _('Credits') ?></a></li>
+        <?php
+            $detect_device = new Mobile_Detect;
+            $is_mobile = $detect_device -> isMobile();
+            if ($is_mobile) {
+                echo '<li><a class="subpage" href="language' . query_string() . '"><img src="/assets/lang.png" alt="Language"></a></li>';
+            }
+        ?>
 	</ul>
-    <ul class="menu languages">
+    <ul class="languages">
         <li<?php echo $lang == 'en_GB' ? ' class="selected"' : '' ?>><a id="en_GB" class="language" href="?hl=en-gb">
             <img src="/assets/uk.png" alt="<?php echo _('Flag of the United Kingdom') ?>" title="English (UK)">
         </a></li>
