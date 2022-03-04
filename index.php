@@ -8,7 +8,7 @@
 	<title>Touhou World Cup</title>
 	<link rel="stylesheet" href="index.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="The fficial Touhou World Cup website">
+	<meta name="description" content="The official Touhou World Cup website">
     <meta name="keywords" content="touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2022 competition, scoring, survival, tournament">
 
 	<meta property="og:type" content="website">
