@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-03-04 00:07+0100\n"
-"PO-Revision-Date: 2022-03-04 00:42+0100\n"
+"POT-Creation-Date: 2022-03-04 01:27+0100\n"
+"PO-Revision-Date: 2022-03-04 01:31+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -18,18 +18,18 @@ msgstr ""
 "X-Poedit-SearchPath-3: rules.php\n"
 "X-Poedit-SearchPath-4: schedule.php\n"
 
-#: credits.php:8 credits.php:28 credits.php:41 index.php:30 iscore.php:28
+#: credits.php:8 credits.php:28 credits.php:53 index.php:30 iscore.php:28
 #: rules.php:28 schedule.php:28
 msgid "Credits"
 msgstr ""
 
 #: credits.php:25 index.php:27 iscore.php:25 rules.php:8 rules.php:25
-#: schedule.php:25
+#: rules.php:53 schedule.php:25
 msgid "Rules"
 msgstr "Regeln"
 
 #: credits.php:26 index.php:28 iscore.php:26 rules.php:26 schedule.php:8
-#: schedule.php:26
+#: schedule.php:26 schedule.php:53
 msgid "Schedule"
 msgstr "Zeitplan"
 
@@ -38,39 +38,59 @@ msgstr "Zeitplan"
 msgid "ISCORE"
 msgstr ""
 
-#: credits.php:31 index.php:33 iscore.php:31 rules.php:31 schedule.php:31
+#: credits.php:32 index.php:34 iscore.php:32 rules.php:32 schedule.php:32
 msgid "Flag of the United Kingdom"
 msgstr "Flagge des Vereinigten Königreichs"
 
-#: credits.php:32 index.php:34 iscore.php:32 rules.php:32 schedule.php:32
+#: credits.php:35 index.php:37 iscore.php:35 rules.php:35 schedule.php:35
 msgid "Flag of the United States"
 msgstr "Flagge der Vereinigten Staaten"
 
-#: credits.php:33 index.php:35 iscore.php:33 rules.php:33 schedule.php:33
+#: credits.php:38 index.php:40 iscore.php:38 rules.php:38 schedule.php:38
 msgid "Flag of Japan"
 msgstr "Flagge von Japan"
 
-#: credits.php:34 index.php:36 iscore.php:34 rules.php:34 schedule.php:34
+#: credits.php:41 index.php:43 iscore.php:41 rules.php:41 schedule.php:41
 msgid "Flag of the P.R.C."
 msgstr "Flagge der Volksrepublik China"
 
-#: credits.php:35 index.php:37 iscore.php:35 rules.php:35 schedule.php:35
+#: credits.php:44 index.php:46 iscore.php:44 rules.php:44 schedule.php:44
 msgid "Flag of Russia"
 msgstr "Flagge von Russland"
 
-#: credits.php:36 index.php:38 iscore.php:36 rules.php:36 schedule.php:36
+#: credits.php:47 index.php:49 iscore.php:47 rules.php:47 schedule.php:47
 msgid "Flag of Germany"
 msgstr "Flagge von Deutschland"
 
-#: credits.php:42
+#: credits.php:54
 msgid "Website Source Code"
 msgstr "Website-Quellcode"
 
-#: credits.php:43
+#: credits.php:55
 msgid "Developed by:"
 msgstr "Entwickelt von:"
 
-#: index.php:45
+#: credits.php:59
+msgid "Translated by:"
+msgstr "Übersetzt von:"
+
+#: credits.php:60
+msgid ": Japanese"
+msgstr ": Japanisch"
+
+#: credits.php:61
+msgid ": Chinese"
+msgstr ": Chinesisch"
+
+#: credits.php:62
+msgid ": Russian"
+msgstr ": Russisch"
+
+#: credits.php:63
+msgid ": German"
+msgstr ": Deutsch"
+
+#: index.php:57
 msgid ""
 "<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
 "shooting game competition, first held in 2020, organised by the Chinese "
@@ -82,7 +102,7 @@ msgstr ""
 "chinesischen Spieler-Community organisiert wurde. Dieses Mal, im Jahr 2021, "
 "wird er von der westlichen Spielergemeinschaft organisiert."
 
-#: index.php:50
+#: index.php:62
 msgid ""
 "Three teams, a Western community team, a Chinese team, and a Japanese team, "
 "duke it out on Lunatic and Extra mode, playing on live streams and playing "
@@ -93,7 +113,7 @@ msgstr ""
 "wobei sie in einem Livestream spielen und sowohl Scoring als auch Survival "
 "spielen."
 
-#: index.php:54
+#: index.php:66
 msgid ""
 "See below for official communication channels and live streams with "
 "commentary."
@@ -101,47 +121,47 @@ msgstr ""
 "Nachstehend findest du die offiziellen Kommunikationskanäle und Livestreams "
 "mit Kommentatoren."
 
-#: index.php:57
+#: index.php:69
 msgid "Official TWC Twitter"
 msgstr "Offizieller TWC-Twitter"
 
-#: index.php:58
+#: index.php:70
 msgid "Official TWC YouTube Channel"
 msgstr "Offizieller TWC YouTube-Kanal"
 
-#: index.php:59
+#: index.php:71
 msgid "English commentary stream (Twitch)"
 msgstr "Englischer Kommentar-Stream (Twitch)"
 
-#: index.php:60
+#: index.php:72
 msgid "Chinese commentary stream 1 (Bilibili)"
 msgstr "Chinesischer Kommentar-Stream 1 (Bilibili)"
 
-#: index.php:61
+#: index.php:73
 msgid "Chinese commentary stream 2 (Bilibili)"
 msgstr "Chinesischer Kommentar-Stream 2 (Bilibili)"
 
-#: index.php:62
+#: index.php:74
 msgid "Japanese commentary stream (YouTube)"
 msgstr "Japanischer Kommentar-Stream (YouTube)"
 
-#: index.php:63
+#: index.php:75
 msgid "Russian commentary stream (Twitch)"
 msgstr "Russischer Kommentar-Stream (Twitch)"
 
-#: iscore.php:41
+#: iscore.php:53
 msgid "ISCORE Calculator"
 msgstr "ISCORE-Rechner"
 
-#: iscore.php:42
+#: iscore.php:54
 msgid "This page requires JavaScript"
 msgstr "Diese Website benötigt JavaScript"
 
-#: rules.php:42
+#: rules.php:54
 msgid "Format"
 msgstr ""
 
-#: rules.php:43
+#: rules.php:55
 msgid ""
 "For every match, each team can earn points. Ranking is based on whoever has "
 "the most points:"
@@ -149,26 +169,26 @@ msgstr ""
 "Für jedes Match kann jedes Team Punkte sammeln. Die Rangliste basiert "
 "darauf, wer die meisten Punkte hat:"
 
-#: rules.php:45
+#: rules.php:57
 msgid "1st place - 2 points"
 msgstr "1. Platz - 2 Punkte"
 
-#: rules.php:46
+#: rules.php:58
 msgid "2nd place - 1 point"
 msgstr "2. Platz - 1 Punkt"
 
-#: rules.php:47
+#: rules.php:59
 msgid "3rd place - 0 points"
 msgstr "3. Platz - 0 Punkte"
 
-#: rules.php:49
+#: rules.php:61
 msgid ""
 "In 2-team matches, the first place gets 2 points, and 2nd place gets 1 point."
 msgstr ""
 "Bei Spielen mit 2 Teams erhalten die Erstplatzierten 2 Punkte und die "
 "Zweitplatzierten 1 Punkt."
 
-#: rules.php:51
+#: rules.php:63
 msgid ""
 "If multiple players have the exact same amount of ISCORE, their points will "
 "be split equally. This also means that, if multiple players have the highest "
@@ -178,7 +198,7 @@ msgstr ""
 "Punkte gleichmäßig aufgeteilt. Das bedeutet auch, dass, wenn mehrere Spieler "
 "den höchsten ISCORE haben, das Spiel unentschieden endet."
 
-#: rules.php:54
+#: rules.php:66
 msgid ""
 "At the end of the World Cup, the teams will be ranked based on has the most "
 "points."
@@ -186,15 +206,15 @@ msgstr ""
 "Am Ende des Weltcups werden die Teams nach den meisten Punkten geordnet in "
 "die Rangliste aufgenommen."
 
-#: rules.php:56
+#: rules.php:68
 msgid "Calculating Points"
 msgstr "Berechnung der Punkte"
 
-#: rules.php:58
+#: rules.php:70
 msgid "The points are based on the <a href=\"/iscore\">ISCORE calculator</a>."
 msgstr "Die Punkte basieren auf dem <a href=\"/iscore\">ISCORE-Rechner</a>."
 
-#: rules.php:62
+#: rules.php:74
 msgid ""
 "Score matches are calculated based on the ISCORE formula. Survival matches "
 "(except for GFW) are calculated as follows:"
@@ -202,15 +222,15 @@ msgstr ""
 "Score-Matches werden auf der Grundlage der ISCORE-Formel berechnet. Survival "
 "Matches (außer GFW) werden wie folgt berechnet:"
 
-#: rules.php:65
+#: rules.php:77
 msgid "(ISCORE No Miss No Bomb Score) / 2 ^ (deaths)"
 msgstr "(ISCORE No Miss No Bomb Score) / 2 ^ (Tode)"
 
-#: rules.php:66
+#: rules.php:78
 msgid "In survival runs, bombs are counted as 2 deaths."
 msgstr "In Survival-Runs werden Bomben als 2 Tode gewertet."
 
-#: rules.php:68
+#: rules.php:80
 msgid ""
 "ISCORE is a scoring metric that compensates for the differences in "
 "performance between shot types and categories. The formulas used can be "
@@ -220,23 +240,23 @@ msgstr ""
 "einzelnen Shot Types und Kategorien ausgleicht. Die verwendeten Formeln sind "
 "in der ISCORE-Rubrik mit dem oben verlinkten Rechner zu finden."
 
-#: rules.php:73
+#: rules.php:85
 msgid "Game-specific Concerns"
 msgstr "Spielspezifische Anmerkungen"
 
-#: rules.php:74
+#: rules.php:86
 msgid "Touhou 7"
 msgstr ""
 
-#: rules.php:75
+#: rules.php:87
 msgid "A border break is considered a death in survival runs."
 msgstr "Ein Border Break wird bei Survival-Runs als Tod angesehen."
 
-#: rules.php:76
+#: rules.php:88
 msgid "Touhou 8"
 msgstr ""
 
-#: rules.php:78
+#: rules.php:90
 msgid ""
 "Getting hit during a Last Spell is <strong>not</strong> considered a death "
 "in survival runs. However, ISCORE gives a higher base value in this game to "
@@ -249,11 +269,11 @@ msgstr ""
 "Freischalten und Schaffen <strong>jedes</strong> Last Spells beinhaltet) UND "
 "bei denen man nicht stirbt/bombt (NN + Full-SC)."
 
-#: rules.php:83
+#: rules.php:95
 msgid "Touhou 12"
 msgstr ""
 
-#: rules.php:87
+#: rules.php:99
 msgid ""
 "Summoning a UFO is considered a death in survival runs. However, collecting "
 "tokens does not affect the score in survival runs."
@@ -262,20 +282,20 @@ msgstr ""
 "Einsammeln von Tokens hat jedoch keinen Einfluss auf die Punktzahl in "
 "Survival-Runs."
 
-#: rules.php:90
+#: rules.php:102
 msgid "Touhou 12.8"
 msgstr ""
 
-#: rules.php:92
+#: rules.php:104
 msgid "The survival formula for this game is (gold medals*1.5)-(deaths)."
 msgstr ""
 "Die Survival-Formel für dieses Spiel lautet (Goldmedaillen*1,5)-(Tode)."
 
-#: rules.php:93
+#: rules.php:105
 msgid "Touhou 13"
 msgstr ""
 
-#: rules.php:95
+#: rules.php:107
 msgid ""
 "A manual trance is considered 2 deaths in survival runs. ISCORE gives a "
 "higher base value in this game to runs that capture all spells AND does not "
@@ -285,30 +305,30 @@ msgstr ""
 "in diesem Spiel einen höheren Basiswert für Runs, die alle Spells schaffen "
 "UND nicht sterben/bomben (NN + Full-SC)."
 
-#: rules.php:99
+#: rules.php:111
 msgid "Touhou 15"
 msgstr ""
 
-#: rules.php:100
+#: rules.php:112
 msgid "All runs in both survival/score have to be done in Legacy Mode."
 msgstr ""
 "Alle Runs in Survival/Scoring müssen im Legacy-Modus durchgespielt werden."
 
-#: rules.php:101
+#: rules.php:113
 msgid "Touhou 16"
 msgstr ""
 
-#: rules.php:102
+#: rules.php:114
 msgid "Releasing your season gauge is considered 2 deaths in survival runs."
 msgstr ""
 "Das Verwenden eines Season-Releases wird bei Survival-Runs als 2 Tode "
 "gewertet."
 
-#: rules.php:103
+#: rules.php:115
 msgid "Touhou 17"
 msgstr ""
 
-#: rules.php:105
+#: rules.php:117
 msgid ""
 "Channeling a berserk roar (3 or more of the same animal tokens during roar "
 "mode) is considered 2 deaths in survival runs. Breaking your roar (bombing "
@@ -320,11 +340,11 @@ msgstr ""
 "oder Berühren einer Bullet im Roar-Modus) wird als Tod in Survival-Runs "
 "gewertet."
 
-#: rules.php:110
+#: rules.php:122
 msgid "Use of Third Party Software &amp; Material"
 msgstr "Verwendung von Software von Dritten &amp; Material"
 
-#: rules.php:112
+#: rules.php:124
 msgid ""
 "Vsync patch is allowed. Practice patches (such as thprac) are allowed, but "
 "all practice cheats have to be disabled for the runs."
@@ -332,7 +352,7 @@ msgstr ""
 "Vsync Patch ist erlaubt. Übungspatches (wie thprac) sind erlaubt, aber alle "
 "Übungs-Cheats müssen für die Runs deaktiviert werden."
 
-#: rules.php:116
+#: rules.php:128
 msgid ""
 "Visual patches (e.g. hitbox patch) are prohibited. Translation patches are "
 "allowed but discouraged. Audio patches/background music is allowed but no "
@@ -342,11 +362,11 @@ msgstr ""
 "sind erlaubt, aber nicht erwünscht. Audio Patches/Hintergrundmusik sind "
 "erlaubt, aber kein urheberrechtlich geschütztes Material."
 
-#: rules.php:120
+#: rules.php:132
 msgid "Other Rules"
 msgstr "Andere Regeln"
 
-#: rules.php:122
+#: rules.php:134
 msgid ""
 "<li>Runs only count from the moment the timer has started.</li><li>Players "
 "can start as many runs as they want during the match. When the timer has "
@@ -371,7 +391,7 @@ msgstr ""
 "sein.</li><li>Beendete Runs müssen als Replay gespeichert werden.</"
 "li><li>Bitte verstecke das Story-Ende, wenn dein Run beendet ist.</li>"
 
-#: schedule.php:42
+#: schedule.php:54
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
@@ -379,7 +399,7 @@ msgstr ""
 "Deine Zeitzone wurde als <strong id=\"timezone\">UTC+0000 (Koordinierte "
 "Weltzeit)</strong> erkannt."
 
-#: schedule.php:45
+#: schedule.php:57
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
@@ -387,19 +407,19 @@ msgstr ""
 "Die Sommerzeit (auch bekannt als Daylight Saving Time oder DST) wird "
 "automatisch berücksichtigt."
 
-#: schedule.php:51
+#: schedule.php:63
 msgid "Date / Time"
 msgstr "Datum / Uhrzeit"
 
-#: schedule.php:52
+#: schedule.php:64
 msgid "Category"
 msgstr "Kategorie"
 
-#: schedule.php:53
+#: schedule.php:65
 msgid "Players"
 msgstr "Spieler"
 
-#: schedule.php:54
+#: schedule.php:66
 msgid "Reset Time<br>(minutes)"
 msgstr "Reset-Zeit<br>(Minuten)"
 
