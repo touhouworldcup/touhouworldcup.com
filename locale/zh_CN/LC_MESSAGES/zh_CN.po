@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-03-04 14:49+0100\n"
-"PO-Revision-Date: 2022-03-04 14:50+0100\n"
+"POT-Creation-Date: 2022-03-04 17:37+0100\n"
+"PO-Revision-Date: 2022-03-04 17:37+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -17,80 +17,41 @@ msgstr ""
 "X-Poedit-SearchPath-2: iscore.php\n"
 "X-Poedit-SearchPath-3: rules.php\n"
 "X-Poedit-SearchPath-4: schedule.php\n"
+"X-Poedit-SearchPath-5: language.php\n"
 
-#: credits.php:8 credits.php:28 credits.php:53 index.php:30 iscore.php:28
-#: rules.php:28 schedule.php:28
+#: credits.php:2 credits.php:12
 msgid "Credits"
 msgstr ""
 
-#: credits.php:25 index.php:27 iscore.php:25 rules.php:8 rules.php:25
-#: rules.php:53 schedule.php:25
-msgid "Rules"
-msgstr "规则"
-
-#: credits.php:26 index.php:28 iscore.php:26 rules.php:26 schedule.php:8
-#: schedule.php:26 schedule.php:53
-msgid "Schedule"
-msgstr "时间表"
-
-#: credits.php:27 index.php:29 iscore.php:8 iscore.php:27 iscore.php:247
-#: rules.php:27 schedule.php:27
-msgid "ISCORE"
-msgstr ""
-
-#: credits.php:32 index.php:34 iscore.php:32 rules.php:32 schedule.php:32
-msgid "Flag of the United Kingdom"
-msgstr "英国旗"
-
-#: credits.php:35 index.php:37 iscore.php:35 rules.php:35 schedule.php:35
-msgid "Flag of the United States"
-msgstr "美国旗"
-
-#: credits.php:38 index.php:40 iscore.php:38 rules.php:38 schedule.php:38
-msgid "Flag of Japan"
-msgstr "日本旗"
-
-#: credits.php:41 index.php:43 iscore.php:41 rules.php:41 schedule.php:41
-msgid "Flag of the P.R.C."
-msgstr "中国旗"
-
-#: credits.php:44 index.php:46 iscore.php:44 rules.php:44 schedule.php:44
-msgid "Flag of Russia"
-msgstr "俄羅斯國旗"
-
-#: credits.php:47 index.php:49 iscore.php:47 rules.php:47 schedule.php:47
-msgid "Flag of Germany"
-msgstr "德国旗"
-
-#: credits.php:54
+#: credits.php:13
 msgid "Website Source Code"
 msgstr "网站源代码"
 
-#: credits.php:55
+#: credits.php:14
 msgid "Developed by:"
 msgstr "开发人员 ："
 
-#: credits.php:59
+#: credits.php:18
 msgid "Translated by:"
 msgstr "译者："
 
-#: credits.php:60
+#: credits.php:19
 msgid ": Japanese"
 msgstr "：日语"
 
-#: credits.php:61
+#: credits.php:20
 msgid ": Chinese"
 msgstr "：中文"
 
-#: credits.php:62
+#: credits.php:21
 msgid ": Russian"
 msgstr "：俄语"
 
-#: credits.php:63
+#: credits.php:22
 msgid ": German"
 msgstr "：德国的语言"
 
-#: index.php:57
+#: index.php:14
 msgid ""
 "<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
 "shooting game competition, first held in 2020, organised by the Chinese "
@@ -101,7 +62,7 @@ msgstr ""
 "比赛，世界杯的第一场在2020由中国玩家群体主办, 而今年2021，TWC由西方玩家群体所"
 "筹办。"
 
-#: index.php:62
+#: index.php:19
 msgid ""
 "Three teams, a Western community team, a Chinese team, and a Japanese team, "
 "duke it out on Lunatic and Extra mode, playing on live streams and playing "
@@ -110,413 +71,449 @@ msgstr ""
 "东方世界杯有三支参赛队伍，西方队，中国队和日本队，三支队伍将在东方弹幕作的"
 "Lunatic与Extra模式中一决雌雄，在避弹和打分两个环节上激烈对抗。"
 
-#: index.php:66
+#: index.php:23
 msgid ""
 "See below for official communication channels and live streams with "
 "commentary."
 msgstr "关于我们的官方社交媒体，解说流，请往下读。"
 
-#: index.php:69
+#: index.php:26
 msgid "Official TWC Twitter"
 msgstr "TWC的官方推特"
 
-#: index.php:70
+#: index.php:27
 msgid "Official TWC YouTube Channel"
 msgstr "TWC的官方YouTube频道"
 
-#: index.php:71
+#: index.php:28
 msgid "English commentary stream (Twitch)"
 msgstr "英文流解说（Twitch）"
 
-#: index.php:72
+#: index.php:29
 msgid "Chinese commentary stream 1 (Bilibili)"
 msgstr "一号中文流解说（Bilibili）"
 
-#: index.php:73
+#: index.php:30
 msgid "Chinese commentary stream 2 (Bilibili)"
 msgstr "二号中文流解说（Bilibili）"
 
-#: index.php:74
+#: index.php:31
 msgid "Japanese commentary stream (YouTube)"
 msgstr "日文流解说（YouTube）"
 
-#: index.php:75
+#: index.php:32
 msgid "Russian commentary stream (Twitch)"
 msgstr "俄文流解说（Twitch）"
 
-#: iscore.php:53
+#: iscore.php:2 iscore.php:206
+msgid "ISCORE"
+msgstr ""
+
+#: iscore.php:12
 msgid "ISCORE Calculator"
 msgstr "ISCORE计算器"
 
-#: iscore.php:54
+#: iscore.php:13
 msgid "This page requires JavaScript"
 msgstr "此网页需要JavaScript"
 
-#: iscore.php:56
+#: iscore.php:15
 msgid "Game"
 msgstr "游戏"
 
-#: iscore.php:58
+#: iscore.php:17
 msgid "Embodiment of Scarlet Devil"
 msgstr "东方红魔乡　～ the Embodiment of Scarlet Devil"
 
-#: iscore.php:59
+#: iscore.php:18
 msgid "Perfect Cherry Blossom"
 msgstr "东方妖妖梦　～ Perfect Cherry Blossom"
 
-#: iscore.php:60
+#: iscore.php:19
 msgid "Imperishable Night"
 msgstr "东方永夜抄　～ Imperishable Night"
 
-#: iscore.php:61
+#: iscore.php:20
 msgid "Mountain of Faith"
 msgstr "东方风神录　～ Mountain of Faith"
 
-#: iscore.php:62
+#: iscore.php:21
 msgid "Subterranean Aminism"
 msgstr "东方地灵殿　～ Subterranean Animism"
 
-#: iscore.php:63
+#: iscore.php:22
 msgid "Undefined Fantastic Object"
 msgstr "东方星莲船　～ Undefined Fantastic Object"
 
-#: iscore.php:64
+#: iscore.php:23
 msgid "Great Fairy Wars"
 msgstr "妖精大战争　～ 东方三月精"
 
-#: iscore.php:65
+#: iscore.php:24
 msgid "Ten Desires"
 msgstr "东方神灵庙　～ Ten Desires"
 
-#: iscore.php:66
+#: iscore.php:25
 msgid "Double Dealing Character"
 msgstr "东方辉针城　～ Double Dealing Character"
 
-#: iscore.php:67
+#: iscore.php:26
 msgid "Legacy of Lunatic Kingdom"
 msgstr "东方绀珠传　～ Legacy of Lunatic Kingdom"
 
-#: iscore.php:68
+#: iscore.php:27
 msgid "Hidden Star in Four Seasons"
 msgstr "东方天空璋　～ Hidden Star in Four Seasons"
 
-#: iscore.php:69
+#: iscore.php:28
 msgid "Wily Beast and Weakest Creature"
 msgstr "东方鬼形獣　～ Wily Beast and Weakest Creature"
 
-#: iscore.php:70
+#: iscore.php:29
 msgid "Unconnected Marketeers"
 msgstr "东方虹龙洞　～ Unconnected Marketeers"
 
-#: iscore.php:73
+#: iscore.php:32
 msgid "Shottype / Route"
 msgstr "机体（th128路线）"
 
-#: iscore.php:76 iscore.php:82 iscore.php:104 iscore.php:112 iscore.php:120
-#: iscore.php:134
+#: iscore.php:35 iscore.php:41 iscore.php:63 iscore.php:71 iscore.php:79
+#: iscore.php:93
 msgid "ReimuA"
 msgstr "灵梦A"
 
-#: iscore.php:77 iscore.php:83 iscore.php:105 iscore.php:113 iscore.php:121
-#: iscore.php:135
+#: iscore.php:36 iscore.php:42 iscore.php:64 iscore.php:72 iscore.php:80
+#: iscore.php:94
 msgid "ReimuB"
 msgstr "灵梦B"
 
-#: iscore.php:78 iscore.php:84 iscore.php:107 iscore.php:115 iscore.php:122
-#: iscore.php:136
+#: iscore.php:37 iscore.php:43 iscore.php:66 iscore.php:74 iscore.php:81
+#: iscore.php:95
 msgid "MarisaA"
 msgstr "魔理沙A"
 
-#: iscore.php:79 iscore.php:85 iscore.php:108 iscore.php:116 iscore.php:123
-#: iscore.php:137
+#: iscore.php:38 iscore.php:44 iscore.php:67 iscore.php:75 iscore.php:82
+#: iscore.php:96
 msgid "MarisaB"
 msgstr "魔理沙B"
 
-#: iscore.php:86 iscore.php:138
+#: iscore.php:45 iscore.php:97
 msgid "SakuyaA"
 msgstr "咲夜A"
 
-#: iscore.php:87 iscore.php:139
+#: iscore.php:46 iscore.php:98
 msgid "SakuyaB"
 msgstr "咲夜B"
 
-#: iscore.php:90
+#: iscore.php:49
 msgid "Reimu & Yukari"
 msgstr "结界组"
 
-#: iscore.php:91
+#: iscore.php:50
 msgid "Marisa & Alice"
 msgstr "咏唱组"
 
-#: iscore.php:92
+#: iscore.php:51
 msgid "Sakuya & Remilia"
 msgstr "红魔组"
 
-#: iscore.php:93
+#: iscore.php:52
 msgid "Youmu & Yuyuko"
 msgstr "幽冥组"
 
-#: iscore.php:94 iscore.php:128 iscore.php:142 iscore.php:177
+#: iscore.php:53 iscore.php:87 iscore.php:101 iscore.php:136
 msgid "Reimu"
 msgstr "灵梦"
 
-#: iscore.php:95 iscore.php:129 iscore.php:143 iscore.php:178
+#: iscore.php:54 iscore.php:88 iscore.php:102 iscore.php:137
 msgid "Marisa"
 msgstr "魔理沙"
 
-#: iscore.php:96 iscore.php:179
+#: iscore.php:55 iscore.php:138
 msgid "Sakuya"
 msgstr "咲夜"
 
-#: iscore.php:97 iscore.php:131
+#: iscore.php:56 iscore.php:90
 msgid "Youmu"
 msgstr "妖梦"
 
-#: iscore.php:98
+#: iscore.php:57
 msgid "Yukari"
 msgstr "紫"
 
-#: iscore.php:99
+#: iscore.php:58
 msgid "Alice"
 msgstr "爱丽丝"
 
-#: iscore.php:100
+#: iscore.php:59
 msgid "Remilia"
 msgstr "蕾米莉亚"
 
-#: iscore.php:101
+#: iscore.php:60
 msgid "Yuyuko"
 msgstr "幽幽子"
 
-#: iscore.php:106 iscore.php:114
+#: iscore.php:65 iscore.php:73
 msgid "ReimuC"
 msgstr "灵梦C"
 
-#: iscore.php:109 iscore.php:117
+#: iscore.php:68 iscore.php:76
 msgid "MarisaC"
 msgstr "魔理沙C"
 
-#: iscore.php:124
+#: iscore.php:83
 msgid "SanaeA"
 msgstr "早苗A"
 
-#: iscore.php:125
+#: iscore.php:84
 msgid "SanaeB"
 msgstr "早苗B"
 
-#: iscore.php:130 iscore.php:144 iscore.php:180
+#: iscore.php:89 iscore.php:103 iscore.php:139
 msgid "Sanae"
 msgstr "早苗"
 
-#: iscore.php:145
+#: iscore.php:104
 msgid "Reisen"
 msgstr "铃仙"
 
-#: iscore.php:148
+#: iscore.php:107
 msgid "ReimuSpring"
 msgstr "灵梦春"
 
-#: iscore.php:149
+#: iscore.php:108
 msgid "CirnoSpring"
 msgstr "琪露诺春"
 
-#: iscore.php:150
+#: iscore.php:109
 msgid "AyaSpring"
 msgstr "文春"
 
-#: iscore.php:151
+#: iscore.php:110
 msgid "MarisaSpring"
 msgstr "魔理沙春"
 
-#: iscore.php:152
+#: iscore.php:111
 msgid "ReimuSummer"
 msgstr "灵梦夏"
 
-#: iscore.php:153
+#: iscore.php:112
 msgid "CirnoSummer"
 msgstr "琪露诺夏"
 
-#: iscore.php:154
+#: iscore.php:113
 msgid "AyaSummer"
 msgstr "文夏"
 
-#: iscore.php:155
+#: iscore.php:114
 msgid "MarisaSummer"
 msgstr "魔理沙夏"
 
-#: iscore.php:156
+#: iscore.php:115
 msgid "ReimuAutumn"
 msgstr "灵梦秋"
 
-#: iscore.php:157
+#: iscore.php:116
 msgid "CirnoAutumn"
 msgstr "琪露诺秋"
 
-#: iscore.php:158
+#: iscore.php:117
 msgid "AyaAutumn"
 msgstr "文秋"
 
-#: iscore.php:159
+#: iscore.php:118
 msgid "MarisaAutumn"
 msgstr "魔理沙秋"
 
-#: iscore.php:160
+#: iscore.php:119
 msgid "ReimuWinter"
 msgstr "灵梦冬"
 
-#: iscore.php:161
+#: iscore.php:120
 msgid "CirnoWinter"
 msgstr "琪露诺冬"
 
-#: iscore.php:162
+#: iscore.php:121
 msgid "AyaWinter"
 msgstr "文冬"
 
-#: iscore.php:163
+#: iscore.php:122
 msgid "MarisaWinter"
 msgstr "魔理沙冬"
 
-#: iscore.php:166
+#: iscore.php:125
 msgid "ReimuWolf"
 msgstr "灵梦狼"
 
-#: iscore.php:167
+#: iscore.php:126
 msgid "ReimuOtter"
 msgstr "灵梦獭"
 
-#: iscore.php:168
+#: iscore.php:127
 msgid "ReimuEagle"
 msgstr "灵梦鹰"
 
-#: iscore.php:169
+#: iscore.php:128
 msgid "MarisaWolf"
 msgstr "魔理沙狼"
 
-#: iscore.php:170
+#: iscore.php:129
 msgid "MarisaOtter"
 msgstr "魔理沙獭"
 
-#: iscore.php:171
+#: iscore.php:130
 msgid "MarisaEagle"
 msgstr "魔理沙鹰"
 
-#: iscore.php:172
+#: iscore.php:131
 msgid "YoumuWolf"
 msgstr "妖梦狼"
 
-#: iscore.php:173
+#: iscore.php:132
 msgid "YoumuOtter"
 msgstr "妖梦獭"
 
-#: iscore.php:174
+#: iscore.php:133
 msgid "YoumuEagle"
 msgstr "妖梦鹰"
 
-#: iscore.php:183
+#: iscore.php:142
 msgid "A-1"
 msgstr ""
 
-#: iscore.php:184
+#: iscore.php:143
 msgid "A-2"
 msgstr ""
 
-#: iscore.php:185
+#: iscore.php:144
 msgid "B-1"
 msgstr ""
 
-#: iscore.php:186
+#: iscore.php:145
 msgid "B-2"
 msgstr ""
 
-#: iscore.php:187
+#: iscore.php:146
 msgid "C-1"
 msgstr ""
 
-#: iscore.php:188
+#: iscore.php:147
 msgid "C-2"
 msgstr ""
 
-#: iscore.php:189
+#: iscore.php:148
 msgid "Extra"
 msgstr ""
 
-#: iscore.php:193 schedule.php:64
+#: iscore.php:152 schedule.php:23
 msgid "Category"
 msgstr "项目"
 
-#: iscore.php:195
+#: iscore.php:154
 msgid "Survival"
 msgstr "生存"
 
-#: iscore.php:196
+#: iscore.php:155
 msgid "Scoring"
 msgstr "打分"
 
-#: iscore.php:201
+#: iscore.php:160
 msgid "Full Spell"
 msgstr "FS"
 
-#: iscore.php:207
+#: iscore.php:166
 msgid "Misses"
 msgstr "被弹数"
 
-#: iscore.php:213
+#: iscore.php:172
 msgid "Score"
 msgstr "分数"
 
-#: iscore.php:219
+#: iscore.php:178
 msgid "Gold medals (th128 only)"
 msgstr "金牌（th128只有）"
 
-#: iscore.php:225
+#: iscore.php:184
 msgid "Difficulty"
 msgstr "难度"
 
-#: iscore.php:234
+#: iscore.php:193
 msgid "Final Stage (th08 only)"
 msgstr "路线（th08只有）"
 
-#: iscore.php:236
+#: iscore.php:195
 msgid "FinalA"
 msgstr "路线A"
 
-#: iscore.php:237
+#: iscore.php:196
 msgid "FinalB"
 msgstr "路线B"
 
-#: iscore.php:243
+#: iscore.php:202
 msgid "Calculate"
 msgstr "计算"
 
-#: rules.php:54
+#: language.php:2
+msgid "Language"
+msgstr "语言"
+
+#: language.php:14
+msgid "Flag of the United Kingdom"
+msgstr "英国旗"
+
+#: language.php:17
+msgid "Flag of the United States"
+msgstr "美国旗"
+
+#: language.php:20
+msgid "Flag of Japan"
+msgstr "日本旗"
+
+#: language.php:23
+msgid "Flag of the P.R.C."
+msgstr "中国旗"
+
+#: language.php:26
+msgid "Flag of Russia"
+msgstr "俄羅斯國旗"
+
+#: language.php:29
+msgid "Flag of Germany"
+msgstr "德国旗"
+
+#: rules.php:2 rules.php:12
+msgid "Rules"
+msgstr "规则"
+
+#: rules.php:13
 msgid "Format"
 msgstr "比赛形式"
 
-#: rules.php:55
+#: rules.php:14
 msgid ""
 "For every match, each team can earn points. Ranking is based on whoever has "
 "the most points:"
 msgstr ""
 "每场比赛以选手比赛中获得的最高积分进行排名，同时选手所在队伍获得相应的总分。"
 
-#: rules.php:57
+#: rules.php:16
 msgid "1st place - 2 points"
 msgstr "冠军：2总分(避免负分歧义)"
 
-#: rules.php:58
+#: rules.php:17
 msgid "2nd place - 1 point"
 msgstr "亚军：1总分"
 
-#: rules.php:59
+#: rules.php:18
 msgid "3rd place - 0 points"
 msgstr "季军：0总分"
 
-#: rules.php:61
+#: rules.php:20
 msgid ""
 "In 2-team matches, the first place gets 2 points, and 2nd place gets 1 point."
 msgstr "即使是二人战，双方也按照以上描述得分，不参与队伍算季军。"
 
-#: rules.php:63
+#: rules.php:22
 msgid ""
 "If multiple players have the exact same amount of ISCORE, their points will "
 "be split equally. This also means that, if multiple players have the highest "
@@ -525,37 +522,37 @@ msgstr ""
 "如果一个以上的玩家获得了同样的甜品站分数，他们将会得到同样的积分，这同时意味"
 "着如果多人获得了同样的最高分，那么本场比赛将会为平局。"
 
-#: rules.php:66
+#: rules.php:25
 msgid ""
 "At the end of the World Cup, the teams will be ranked based on has the most "
 "points."
 msgstr "在世界杯结束的时候，队伍将会按照积分排名。"
 
-#: rules.php:68
+#: rules.php:27
 msgid "Calculating Points"
 msgstr "计算积分"
 
-#: rules.php:70
+#: rules.php:29
 msgid "The points are based on the <a href=\"/iscore\">ISCORE calculator</a>."
 msgstr ""
 "积分使用<a href=\"/iscore\">甜品站积分计</a>算器计算，计算公式可上甜品站查"
 "看，大战争避弹除外（后述）。"
 
-#: rules.php:74
+#: rules.php:33
 msgid ""
 "Score matches are calculated based on the ISCORE formula. Survival matches "
 "(except for GFW) are calculated as follows:"
 msgstr ""
 
-#: rules.php:77
+#: rules.php:36
 msgid "(ISCORE No Miss No Bomb Score) / 2 ^ (deaths)"
 msgstr "（甜品站积分 NMNB分数）/ 2 ^（死亡数）"
 
-#: rules.php:78
+#: rules.php:37
 msgid "In survival runs, bombs are counted as 2 deaths."
 msgstr "全作避弹项目中，丢雷算2 miss。"
 
-#: rules.php:80
+#: rules.php:39
 msgid ""
 "ISCORE is a scoring metric that compensates for the differences in "
 "performance between shot types and categories. The formulas used can be "
@@ -564,23 +561,23 @@ msgstr ""
 "甜品站分数是可以将不同比赛的差异得分进行修补整合的打分矩阵，您可以点击上面的"
 "甜品站计算器来查看所用的公式。"
 
-#: rules.php:85
+#: rules.php:44
 msgid "Game-specific Concerns"
 msgstr "额外提醒"
 
-#: rules.php:86
+#: rules.php:45
 msgid "Touhou 7"
 msgstr "妖妖梦"
 
-#: rules.php:87
+#: rules.php:46
 msgid "A border break is considered a death in survival runs."
 msgstr "灵击，无论主动还是被动，都算1 miss。"
 
-#: rules.php:88
+#: rules.php:47
 msgid "Touhou 8"
 msgstr "永夜抄"
 
-#: rules.php:90
+#: rules.php:49
 msgid ""
 "Getting hit during a Last Spell is <strong>not</strong> considered a death "
 "in survival runs. However, ISCORE gives a higher base value in this game to "
@@ -589,29 +586,29 @@ msgid ""
 msgstr ""
 "LSC被弹不算1 miss。积分只在LNN的情况下才考虑全卡，LNNFS会获得额外积分。"
 
-#: rules.php:95
+#: rules.php:54
 msgid "Touhou 12"
 msgstr "星莲船"
 
-#: rules.php:99
+#: rules.php:58
 msgid ""
 "Summoning a UFO is considered a death in survival runs. However, collecting "
 "tokens does not affect the score in survival runs."
 msgstr "开碟算1 miss。收碟碎片不影响miss数。"
 
-#: rules.php:102
+#: rules.php:61
 msgid "Touhou 12.8"
 msgstr "妖精大战争"
 
-#: rules.php:104
+#: rules.php:63
 msgid "The survival formula for this game is (gold medals*1.5)-(deaths)."
 msgstr "使用冰冻技能不算miss。避弹公式是（金牌数*1.5）-（miss数）。"
 
-#: rules.php:105
+#: rules.php:64
 msgid "Touhou 13"
 msgstr "神灵庙"
 
-#: rules.php:107
+#: rules.php:66
 msgid ""
 "A manual trance is considered 2 deaths in survival runs. ISCORE gives a "
 "higher base value in this game to runs that capture all spells AND does not "
@@ -620,27 +617,27 @@ msgstr ""
 "主动开灵界算2 miss，被动灵界不算作miss，且可以在被动灵界中开枪积分只在LNNN的"
 "情况下才考虑全卡，LNNNFS会获得额外积分。"
 
-#: rules.php:111
+#: rules.php:70
 msgid "Touhou 15"
 msgstr "绀珠传"
 
-#: rules.php:112
+#: rules.php:71
 msgid "All runs in both survival/score have to be done in Legacy Mode."
 msgstr "避弹打分都必须使用传统模式。"
 
-#: rules.php:113
+#: rules.php:72
 msgid "Touhou 16"
 msgstr "天空璋"
 
-#: rules.php:114
+#: rules.php:73
 msgid "Releasing your season gauge is considered 2 deaths in survival runs."
 msgstr "季节释放算2 miss。"
 
-#: rules.php:115
+#: rules.php:74
 msgid "Touhou 17"
 msgstr "鬼形兽"
 
-#: rules.php:117
+#: rules.php:76
 msgid ""
 "Channeling a berserk roar (3 or more of the same animal tokens during roar "
 "mode) is considered 2 deaths in survival runs. Breaking your roar (bombing "
@@ -650,11 +647,11 @@ msgstr ""
 "开暴走（吃了3个以上同样的动物灵）算2 miss。开正常hyper不算1 miss。灵击，无论"
 "主动还是被动，都算1 miss。"
 
-#: rules.php:122
+#: rules.php:81
 msgid "Use of Third Party Software &amp; Material"
 msgstr "使用额外软件"
 
-#: rules.php:124
+#: rules.php:83
 msgid ""
 "Vsync patch is allowed. Practice patches (such as thprac) are allowed, but "
 "all practice cheats have to be disabled for the runs."
@@ -662,7 +659,7 @@ msgstr ""
 "VP补丁允许使用。各种练习器都允许使用，但不能影响正式推把，也不能影响replay的"
 "正常播放。"
 
-#: rules.php:128
+#: rules.php:87
 msgid ""
 "Visual patches (e.g. hitbox patch) are prohibited. Translation patches are "
 "allowed but discouraged. Audio patches/background music is allowed but no "
@@ -672,11 +669,11 @@ msgstr ""
 "用，但不推荐。比赛时允许使用背景音乐魔改，或播自己的音乐，但必须保证没有任何"
 "版权问题。"
 
-#: rules.php:132
+#: rules.php:91
 msgid "Other Rules"
 msgstr "其他规则"
 
-#: rules.php:134
+#: rules.php:93
 msgid ""
 "<li>Runs only count from the moment the timer has started.</li><li>Players "
 "can start as many runs as they want during the match. When the timer has "
@@ -698,7 +695,11 @@ msgstr ""
 "意！！！通关后选手们在直播画面不能显示ED画面（结局对话），可使用自选图遮挡。"
 "请尽量遵守官方近期更新的东方使用规则。</li>"
 
-#: schedule.php:54
+#: schedule.php:2 schedule.php:12
+msgid "Schedule"
+msgstr "时间表"
+
+#: schedule.php:13
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
@@ -706,7 +707,7 @@ msgstr ""
 "我们检测到您的时区是 <strong id=\"timezone\">UTC+0000（协调世界时）</"
 "strong>。"
 
-#: schedule.php:57
+#: schedule.php:16
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
@@ -714,15 +715,15 @@ msgstr ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
 
-#: schedule.php:63
+#: schedule.php:22
 msgid "Date / Time"
 msgstr "日期和时间"
 
-#: schedule.php:65
+#: schedule.php:24
 msgid "Players"
 msgstr "玩家"
 
-#: schedule.php:66
+#: schedule.php:25
 msgid "Reset Time<br>(minutes)"
 msgstr "Reset Time<br>（分钟）"
 

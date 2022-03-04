@@ -1,63 +1,13 @@
-<!doctype html>
-
-<?php include_once 'locale.php'; require_once 'mobile_detect.php' ?>
-
-<html lang="<?php echo $lc ?>">
-<head>
-	<meta charset="utf-8">
-	<title><?php echo _('ISCORE') ?> - Touhou World Cup</title>
-	<link rel="stylesheet" href="index.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="A calculator for the official points system used to judge how good a Touhou World Cup run is">
-    <meta name="keywords" content="touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2022 competition, scoring, survival, tournament, iscore, score, calculator">
-
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Touhou World Cup" />
-	<meta property="og:description" content="A calculator for the official points system used to judge how good a Touhou World Cup run is" />
-	<meta property="og:site_name" content="Touhou World Cup" />
-	<meta property="og:image" content="/twc.png" />
-</head>
+<?php
+    $title = _('ISCORE');
+    $description = 'A calculator for the official points system used to judge how good a Touhou World Cup run is';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2022 competition, scoring, survival, tournament, iscore, score, calculator';
+    include_once 'php/locale.php';
+    include_once 'php/head.php';
+?>
 
 <body>
-	<header class="header">
-	<a href="/<?php echo query_string() ?>" class="logo">Touhou World Cup</a>
-	<input class="menu-btn" type="checkbox" id="menu-btn">
-	<label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
-	<ul class="menu">
-		<li><a class="subpage" href="rules<?php echo query_string() ?>"><?php echo _('Rules') ?></a></li>
-		<li><a class="subpage" href="schedule<?php echo query_string() ?>"><?php echo _('Schedule') ?></a></li>
-		<li><a class="subpage" href="iscore<?php echo query_string() ?>"><?php echo _('ISCORE') ?></a></li>
-		<li><a class="subpage" href="credits<?php echo query_string() ?>"><?php echo _('Credits') ?></a></li>
-        <?php
-            $detect_device = new Mobile_Detect;
-            $is_mobile = $detect_device -> isMobile();
-            if ($is_mobile) {
-                echo '<li><a class="subpage" href="language' . query_string() . '"><img src="/assets/lang.png" alt="Language"></a></li>';
-            }
-        ?>
-	</ul>
-    <ul class="languages">
-        <li<?php echo $lang == 'en_GB' ? ' class="selected"' : '' ?>><a id="en_GB" class="language" href="?hl=en-gb">
-            <img src="/assets/uk.png" alt="<?php echo _('Flag of the United Kingdom') ?>" title="English (UK)">
-        </a></li>
-        <li<?php echo $lang == 'en_US' ? ' class="selected"' : '' ?>><a id="en_US" class="language" href="?hl=en-us">
-            <img src="/assets/us.png" alt="<?php echo _('Flag of the United States') ?>" title="English (US)">
-        </a></li>
-        <li<?php echo $lang == 'ja_JP' ? ' class="selected"' : '' ?>><a id="ja_JP" class="language" href="?hl=jp">
-            <img src="/assets/japan.png" alt="<?php echo _('Flag of Japan') ?>" title="日本語">
-        </a></li>
-        <li<?php echo $lang == 'zh_CN' ? ' class="selected"' : '' ?>><a id="zh_CN" class="language" href="?hl=zh">
-            <img src="/assets/china.png" alt="<?php echo _('Flag of the P.R.C.') ?>" title="简体中文">
-        </a></li>
-        <li<?php echo $lang == 'ru_RU' ? ' class="selected"' : '' ?>><a id="ru_RU" class="language" href="?hl=ru">
-            <img src="/assets/russia.png" alt="<?php echo _('Flag of Russia') ?>" title="Русский">
-        </a></li>
-        <li<?php echo $lang == 'de_DE' ? ' class="selected"' : '' ?>><a id="de_DE" class="language" href="?hl=de">
-            <img src="/assets/germany.png" alt="<?php echo _('Flag of Germany') ?>" title="Deutsch">
-        </a></li>
-    </ul>
-	</header>
-	<div class="moverdowner"></div>
+	<?php include_once 'php/body.php' ?>
 	<main id="main">
 	<h1><?php echo _('ISCORE Calculator') ?></h1>
 	<noscript><h2><?php echo _('This page requires JavaScript') ?></h2></noscript>
@@ -256,7 +206,7 @@
 	<?php echo _('ISCORE') ?> = <span id="iscore_final"></span>
 	</form>
 	</main>
-	<script src="/iscore.js" defer></script>
-	<script src="/iscore_ui.js" defer></script>
+	<script src="/js/iscore.js" defer></script>
+	<script src="/js/iscore_ui.js" defer></script>
 </body>
 </html>
