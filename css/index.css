@@ -26,6 +26,10 @@ main {
 	margin: 30px;
     background-color: #222;
     opacity: 0.8;
+	padding-top: 0.1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 1em;
 }
 
 input {
