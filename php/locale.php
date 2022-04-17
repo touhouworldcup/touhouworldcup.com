@@ -25,7 +25,9 @@ function query_string() {
 
 function parse_accept_language() {
     if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
-        return str_replace('-', '_', preg_split('/,/', $_SERVER['HTTP_ACCEPT_LANGUAGE'])[0]);
+        $langs = glob('locale' . '/*' , GLOB_ONLYDIR);
+        $lang = str_replace('-', '_', preg_split('/,/', $_SERVER['HTTP_ACCEPT_LANGUAGE'])[0]);
+        return (in_array($lang, $langs) ? $lang : 'en_GB');
     }
     return 'en_GB';
 }
