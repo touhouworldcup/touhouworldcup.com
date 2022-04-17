@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-17 11:49+0200\n"
-"PO-Revision-Date: 2022-04-17 18:18+0200\n"
+"POT-Creation-Date: 2022-04-17 20:34+0200\n"
+"PO-Revision-Date: 2022-04-17 20:35+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -55,6 +55,10 @@ msgstr "：ドイツ語"
 msgid ": Spanish"
 msgstr "：スペイン語"
 
+#: credits.php:25
+msgid "Artwork:"
+msgstr ""
+
 #: index.php:14
 msgid ""
 "<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
@@ -86,10 +90,14 @@ msgid "TWC English Commentary Stream"
 msgstr "英語解説付き配信チャンネル"
 
 #: index.php:34
+msgid "TWC Japanese Commentary Stream"
+msgstr "日本語解説付き配信チャンネル"
+
+#: index.php:38
 msgid "Official TWC YouTube Channel"
 msgstr "公式YouTubeチャンネル"
 
-#: index.php:38
+#: index.php:42
 msgid "Official TWC Twitter"
 msgstr "公式ツイッター"
 
@@ -635,9 +643,13 @@ msgid "Full Official Rules"
 msgstr "公式ルール全文"
 
 #: rules.php:93
+#, fuzzy
+#| msgid ""
+#| "The full official rulebook can be found <a href=\"\">here</a>. Currently, "
+#| "it is only available in the English language."
 msgid ""
-"The full official rulebook can be found <a href=\"\">here</a>. Currently, it "
-"is only available in the English language."
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook_v1.01."
+"pdf\">here</a>. Currently, it is only available in the English language."
 msgstr ""
 "公式ルール全文は<a href=\"assets/TWC_Handbook_v1.01.pdf\">こちら</a>にありま"
 "すが、現在英語のみとなっています。"
