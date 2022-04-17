@@ -76,10 +76,6 @@ button {
 @media (min-width: 1050px) {
     main {
         max-width: 95%;
-    }
-}
-@media (min-width: 1500px) {
-    main {
-        max-width: 1400px;
+        width: 1400px;
     }
 }
