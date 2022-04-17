@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-17 18:16+0200\n"
-"PO-Revision-Date: 2022-04-17 18:17+0200\n"
+"POT-Creation-Date: 2022-04-17 20:34+0200\n"
+"PO-Revision-Date: 2022-04-17 20:34+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -55,6 +55,10 @@ msgstr ": Alemán"
 msgid ": Spanish"
 msgstr ": Español"
 
+#: credits.php:25
+msgid "Artwork:"
+msgstr ""
+
 #: index.php:14
 msgid ""
 "<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
@@ -87,10 +91,14 @@ msgid "TWC English Commentary Stream"
 msgstr "Stream de los comentarios del TWC en inglés"
 
 #: index.php:34
+msgid "TWC Japanese Commentary Stream"
+msgstr "Stream de los comentarios del TWC en japonés"
+
+#: index.php:38
 msgid "Official TWC YouTube Channel"
 msgstr "Canal oficial de YouTube de TWC"
 
-#: index.php:38
+#: index.php:42
 msgid "Official TWC Twitter"
 msgstr "Twitter oficial de TWC"
 
@@ -381,7 +389,7 @@ msgid ""
 "game score increases."
 msgstr ""
 "Para las categorías de puntuación, la TWCScore incrementa exponencialmente "
-"mientras la puntuación del jugador dentro del juego incremente. "
+"mientras la puntuación del jugador dentro del juego incremente."
 
 #: rules.php:33
 msgid "Reset Timer"

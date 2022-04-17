@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-17 18:18+0200\n"
-"PO-Revision-Date: 2022-04-17 18:18+0200\n"
+"POT-Creation-Date: 2022-04-17 20:33+0200\n"
+"PO-Revision-Date: 2022-04-17 20:34+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -55,6 +55,10 @@ msgstr ": Deutsch"
 msgid ": Spanish"
 msgstr ": Spanisch"
 
+#: credits.php:25
+msgid "Artwork:"
+msgstr ""
+
 #: index.php:14
 msgid ""
 "<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
@@ -87,10 +91,14 @@ msgid "TWC English Commentary Stream"
 msgstr "TWC Englischer Kommentar-Stream"
 
 #: index.php:34
+msgid "TWC Japanese Commentary Stream"
+msgstr "TWC Japanischer Kommentar-Stream"
+
+#: index.php:38
 msgid "Official TWC YouTube Channel"
 msgstr "Offizieller TWC YouTube-Kanal"
 
-#: index.php:38
+#: index.php:42
 msgid "Official TWC Twitter"
 msgstr "Offizieller TWC-Twitter"
 
