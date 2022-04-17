@@ -17,7 +17,7 @@
     </ul></p>
 	<p><?php echo _('Translated by:') ?><ul class="list">
         <li><a href="https://twitter.com/toho_yumiya" target="_blank"><?php echo ($lang == 'ja_JP' ? 'ゆーみや' : 'Yu-miya') ?></a><?php echo _(': Japanese') ?></li>
-        <li><a href="https://space.bilibili.com/107846194" target="_blank">Komeiji Compiler</a>, <a href="https://www.twitch.tv/peigo_touhou">Peigo</a><?php echo _(': Chinese') ?></li>
+        <li><a href="https://space.bilibili.com/107846194" target="_blank">Komeiji Compiler</a>, <a href="https://twitter.com/Rivers10000">Peigo</a><?php echo _(': Chinese') ?></li>
         <li><a href="https://www.youtube.com/channel/UC7QqmWFA-hAyrP5C1c2b-Iw" target="_blank">KVS</a>, <a href="https://www.youtube.com/channel/UCNPSmt1Jpm-SbyrhlIWhmUw" target="_blank">Acaride</a><?php echo _(': Russian') ?></li>
         <li><a href="https://twitter.com/Kawaii_Shadowii" target="_blank">Kawaii_Shadowii</a><?php echo _(': German') ?></li>
         <li><a href="https://twitter.com/POfBoundaries" target="_blank">Paradise of Boundaries</a> (Chise, Fumiko, Orphen Nightford)<?php echo _(': Spanish') ?></li>
