@@ -24,7 +24,10 @@ function query_string() {
 }
 
 function parse_accept_language() {
-    return str_replace('-', '_', preg_split('/,/', $_SERVER['HTTP_ACCEPT_LANGUAGE'])[0]);
+    if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
+        return str_replace('-', '_', preg_split('/,/', $_SERVER['HTTP_ACCEPT_LANGUAGE'])[0]);
+    }
+    return 'en_GB';
 }
 
 function check_hl(string $hl) {
