@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-17 18:15+0200\n"
-"PO-Revision-Date: 2022-04-17 18:15+0200\n"
+"POT-Creation-Date: 2022-04-17 20:04+0200\n"
+"PO-Revision-Date: 2022-04-17 20:04+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -56,6 +56,10 @@ msgstr ": немецкий"
 msgid ": Spanish"
 msgstr ": испанский"
 
+#: credits.php:25
+msgid "Artwork:"
+msgstr ""
+
 #: index.php:14
 msgid ""
 "<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
@@ -81,7 +85,7 @@ msgstr "Снизу указаны ссылки на официальные ка�
 
 #: index.php:24
 msgid "TWC Starts In:"
-msgstr "TWC начинается в:"
+msgstr "TWC начнется через:"
 
 #: index.php:30
 msgid "TWC English Commentary Stream"
@@ -650,9 +654,8 @@ msgstr "Полные официальные правила"
 
 #: rules.php:93
 msgid ""
-"The full official rulebook can be found <a href=\"assets/"
-"TWC_Handbook_v1.01\">here</a>. Currently, it is only available in the "
-"English language."
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook_v1.01."
+"pdf\">here</a>. Currently, it is only available in the English language."
 msgstr ""
 "Полный официальный свод правил можно найти <a href=\"assets/"
 "TWC_Handbook_v1.01.pdf\">здесь</a>. В настоящее время он доступен только на "
