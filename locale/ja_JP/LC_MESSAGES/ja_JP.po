@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-03-04 17:36+0100\n"
-"PO-Revision-Date: 2022-03-04 17:36+0100\n"
+"POT-Creation-Date: 2022-04-17 11:49+0200\n"
+"PO-Revision-Date: 2022-04-17 18:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -14,10 +14,10 @@ msgstr ""
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: index.php\n"
 "X-Poedit-SearchPath-1: credits.php\n"
-"X-Poedit-SearchPath-2: iscore.php\n"
-"X-Poedit-SearchPath-3: rules.php\n"
-"X-Poedit-SearchPath-4: schedule.php\n"
-"X-Poedit-SearchPath-5: language.php\n"
+"X-Poedit-SearchPath-2: rules.php\n"
+"X-Poedit-SearchPath-3: schedule.php\n"
+"X-Poedit-SearchPath-4: twcscore.php\n"
+"X-Poedit-SearchPath-5: php/translations.php\n"
 
 #: credits.php:2 credits.php:12
 msgid "Credits"
@@ -51,437 +51,243 @@ msgstr "：ロシア語"
 msgid ": German"
 msgstr "：ドイツ語"
 
+#: credits.php:23
+msgid ": Spanish"
+msgstr "：スペイン語"
+
 #: index.php:14
 msgid ""
 "<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
-"shooting game competition, first held in 2020, organised by the Chinese "
-"gameplay community. This time around, in 2021, it is organised by the "
-"Western gameplay community."
+"shooting game competition, first held in 2020 and held every year since. It "
+"is organised by the Touhou gameplay community worldwide."
 msgstr ""
-"<strong>Touhou World Cup (TWC)</strong>は年に一度行われる東方STGの世界大会で"
-"す。第1回は2020年に中国の東方コミュニティ主催により開催され、第2回となる2021"
-"年は西洋の東方コミュニティ主催により開催されます。"
+"<strong>東方ワールドカップ（TWC）</strong> は、2020年に初開催され、その後毎年"
+"開催されている東方シューティングゲーム(以下STG)の国際大会です。世界中の東方"
+"ゲームプレイコミュニティによって主催されています。"
 
-#: index.php:19
+#: index.php:18
 msgid ""
-"Three teams, a Western community team, a Chinese team, and a Japanese team, "
-"duke it out on Lunatic and Extra mode, playing on live streams and playing "
-"both high score and survival."
+"Three teams duke it out on Lunatic and Extra mode, playing on live streams "
+"and playing both high score and survival."
 msgstr ""
-"各試合は中国、日本、西洋3チームのオンライン同時並走により行われ、難易度"
-"Lunatic、Extraのスコアアタック部門やサバイバル部門で競い合います。"
+"各試合は3チームのオンライン同時並走により行われ、難易度Lunatic、Extraのスコア"
+"アタック部門やサバイバル部門で競い合います。"
 
-#: index.php:23
-msgid ""
-"See below for official communication channels and live streams with "
-"commentary."
-msgstr ""
-"公式ツイッター及びYouTubeチャンネル、各言語による解説音声付き配信チャンネルは"
-"以下をご覧ください。一覧。"
+#: index.php:21
+msgid "See below for official communication channels."
+msgstr "公式なコミュニケーションチャネルは以下からご参照ください。"
 
-#: index.php:26
-msgid "Official TWC Twitter"
-msgstr "公式ツイッター"
+#: index.php:24
+msgid "TWC Starts In:"
+msgstr "TWC開催まで："
 
-#: index.php:27
+#: index.php:30
+msgid "TWC English Commentary Stream"
+msgstr "英語解説付き配信チャンネル"
+
+#: index.php:34
 msgid "Official TWC YouTube Channel"
 msgstr "公式YouTubeチャンネル"
 
-#: index.php:28
-msgid "English commentary stream (Twitch)"
-msgstr "英語解説付き配信チャンネル（Twitch）"
+#: index.php:38
+msgid "Official TWC Twitter"
+msgstr "公式ツイッター"
 
-#: index.php:29
-msgid "Chinese commentary stream 1 (Bilibili)"
-msgstr "中国語解説付き配信チャンネル（Bilibili）"
-
-#: index.php:30
-msgid "Chinese commentary stream 2 (Bilibili)"
-msgstr "中国語解説付き配信チャンネル２（Bilibili）"
-
-#: index.php:31
-msgid "Japanese commentary stream (YouTube)"
-msgstr "日本語解説付き配信チャンネル"
-
-#: index.php:32
-msgid "Russian commentary stream (Twitch)"
-msgstr "ロシア語解説付き配信チャンネル（Twitch）"
-
-#: iscore.php:2 iscore.php:206
-msgid "ISCORE"
-msgstr ""
-
-#: iscore.php:12
-msgid "ISCORE Calculator"
-msgstr "ISCORE計算機"
-
-#: iscore.php:13
-msgid "This page requires JavaScript"
-msgstr "このウェブページにはJavaScriptが必要です"
-
-#: iscore.php:15
-msgid "Game"
-msgstr "ゲーム"
-
-#: iscore.php:17
-msgid "Embodiment of Scarlet Devil"
-msgstr "東方紅魔郷　～ the Embodiment of Scarlet Devil"
-
-#: iscore.php:18
-msgid "Perfect Cherry Blossom"
-msgstr "東方妖々夢　～ Perfect Cherry Blossom"
-
-#: iscore.php:19
-msgid "Imperishable Night"
-msgstr "東方永夜抄　～ Imperishable Night"
-
-#: iscore.php:20
-msgid "Mountain of Faith"
-msgstr "東方風神録　～ Mountain of Faith"
-
-#: iscore.php:21
-msgid "Subterranean Aminism"
-msgstr "東方地霊殿　～ Subterranean Animism"
-
-#: iscore.php:22
-msgid "Undefined Fantastic Object"
-msgstr "東方星蓮船　～ Undefined Fantastic Object"
-
-#: iscore.php:23
-msgid "Great Fairy Wars"
-msgstr "妖精大戦争　～ 東方三月精"
-
-#: iscore.php:24
-msgid "Ten Desires"
-msgstr "東方神霊廟　～ Ten Desires"
-
-#: iscore.php:25
-msgid "Double Dealing Character"
-msgstr "東方輝針城　～ Double Dealing Character"
-
-#: iscore.php:26
-msgid "Legacy of Lunatic Kingdom"
-msgstr "東方紺珠伝　～ Legacy of Lunatic Kingdom"
-
-#: iscore.php:27
-msgid "Hidden Star in Four Seasons"
-msgstr "東方天空璋　～ Hidden Star in Four Seasons"
-
-#: iscore.php:28
-msgid "Wily Beast and Weakest Creature"
-msgstr "東方鬼形獣　～ Wily Beast and Weakest Creature"
-
-#: iscore.php:29
-msgid "Unconnected Marketeers"
-msgstr "東方虹龍洞　～ Unconnected Marketeers"
-
-#: iscore.php:32
-msgid "Shottype / Route"
-msgstr "キャラ（th128のルート）"
-
-#: iscore.php:35 iscore.php:41 iscore.php:63 iscore.php:71 iscore.php:79
-#: iscore.php:93
+#: php/translations.php:2
 msgid "ReimuA"
 msgstr "霊夢A"
 
-#: iscore.php:36 iscore.php:42 iscore.php:64 iscore.php:72 iscore.php:80
-#: iscore.php:94
+#: php/translations.php:3
 msgid "ReimuB"
 msgstr "霊夢B"
 
-#: iscore.php:37 iscore.php:43 iscore.php:66 iscore.php:74 iscore.php:81
-#: iscore.php:95
+#: php/translations.php:4
 msgid "MarisaA"
 msgstr "魔理沙A"
 
-#: iscore.php:38 iscore.php:44 iscore.php:67 iscore.php:75 iscore.php:82
-#: iscore.php:96
+#: php/translations.php:5
 msgid "MarisaB"
 msgstr "魔理沙B"
 
-#: iscore.php:45 iscore.php:97
+#: php/translations.php:6
 msgid "SakuyaA"
 msgstr "咲夜A"
 
-#: iscore.php:46 iscore.php:98
+#: php/translations.php:7
 msgid "SakuyaB"
 msgstr "咲夜B"
 
-#: iscore.php:49
-msgid "Reimu & Yukari"
+#: php/translations.php:8
+msgid "ReimuYukari"
 msgstr "霊夢＆紫"
 
-#: iscore.php:50
-msgid "Marisa & Alice"
+#: php/translations.php:9
+msgid "MarisaAlice"
 msgstr "魔理沙＆アリス"
 
-#: iscore.php:51
-msgid "Sakuya & Remilia"
+#: php/translations.php:10
+msgid "SakuyaRemilia"
 msgstr "咲夜＆レミリア"
 
-#: iscore.php:52
-msgid "Youmu & Yuyuko"
+#: php/translations.php:11
+msgid "YoumuYuyuko"
 msgstr "妖夢＆幽々子"
 
-#: iscore.php:53 iscore.php:87 iscore.php:101 iscore.php:136
+#: php/translations.php:12
 msgid "Reimu"
 msgstr "霊夢"
 
-#: iscore.php:54 iscore.php:88 iscore.php:102 iscore.php:137
+#: php/translations.php:13
 msgid "Marisa"
 msgstr "魔理沙"
 
-#: iscore.php:55 iscore.php:138
+#: php/translations.php:14
 msgid "Sakuya"
 msgstr "咲夜"
 
-#: iscore.php:56 iscore.php:90
+#: php/translations.php:15 php/translations.php:25
 msgid "Youmu"
 msgstr "妖夢"
 
-#: iscore.php:57
+#: php/translations.php:16
 msgid "Yukari"
 msgstr "紫"
 
-#: iscore.php:58
+#: php/translations.php:17
 msgid "Alice"
 msgstr "アリス"
 
-#: iscore.php:59
+#: php/translations.php:18
 msgid "Remilia"
 msgstr "レミリア"
 
-#: iscore.php:60
+#: php/translations.php:19
 msgid "Yuyuko"
 msgstr "幽々子"
 
-#: iscore.php:65 iscore.php:73
+#: php/translations.php:20
 msgid "ReimuC"
 msgstr "霊夢C"
 
-#: iscore.php:68 iscore.php:76
+#: php/translations.php:21
 msgid "MarisaC"
 msgstr "魔理沙C"
 
-#: iscore.php:83
+#: php/translations.php:22
 msgid "SanaeA"
 msgstr "早苗A"
 
-#: iscore.php:84
+#: php/translations.php:23
 msgid "SanaeB"
 msgstr "早苗B"
 
-#: iscore.php:89 iscore.php:103 iscore.php:139
+#: php/translations.php:24
 msgid "Sanae"
 msgstr "早苗"
 
-#: iscore.php:104
+#: php/translations.php:26
 msgid "Reisen"
 msgstr "鈴仙"
 
-#: iscore.php:107
+#: php/translations.php:27
 msgid "ReimuSpring"
 msgstr "霊夢(春)"
 
-#: iscore.php:108
+#: php/translations.php:28
 msgid "CirnoSpring"
 msgstr "チルノ(春)"
 
-#: iscore.php:109
+#: php/translations.php:29
 msgid "AyaSpring"
 msgstr "文(春)"
 
-#: iscore.php:110
+#: php/translations.php:30
 msgid "MarisaSpring"
 msgstr "魔理沙(春)"
 
-#: iscore.php:111
+#: php/translations.php:31
 msgid "ReimuSummer"
 msgstr "霊夢(夏)"
 
-#: iscore.php:112
+#: php/translations.php:32
 msgid "CirnoSummer"
 msgstr "チルノ(夏)"
 
-#: iscore.php:113
+#: php/translations.php:33
 msgid "AyaSummer"
 msgstr "文(夏)"
 
-#: iscore.php:114
+#: php/translations.php:34
 msgid "MarisaSummer"
 msgstr "魔理沙(夏)"
 
-#: iscore.php:115
+#: php/translations.php:35
 msgid "ReimuAutumn"
 msgstr "霊夢(秋)"
 
-#: iscore.php:116
+#: php/translations.php:36
 msgid "CirnoAutumn"
 msgstr "チルノ(秋)"
 
-#: iscore.php:117
+#: php/translations.php:37
 msgid "AyaAutumn"
 msgstr "文(秋)"
 
-#: iscore.php:118
+#: php/translations.php:38
 msgid "MarisaAutumn"
 msgstr "魔理沙(秋)"
 
-#: iscore.php:119
+#: php/translations.php:39
 msgid "ReimuWinter"
 msgstr "霊夢(冬)"
 
-#: iscore.php:120
+#: php/translations.php:40
 msgid "CirnoWinter"
 msgstr "チルノ(冬)"
 
-#: iscore.php:121
+#: php/translations.php:41
 msgid "AyaWinter"
 msgstr "文(冬)"
 
-#: iscore.php:122
+#: php/translations.php:42
 msgid "MarisaWinter"
 msgstr "魔理沙(冬)"
 
-#: iscore.php:125
+#: php/translations.php:43
 msgid "ReimuWolf"
 msgstr "霊夢W"
 
-#: iscore.php:126
+#: php/translations.php:44
 msgid "ReimuOtter"
 msgstr "霊夢O"
 
-#: iscore.php:127
+#: php/translations.php:45
 msgid "ReimuEagle"
 msgstr "霊夢E"
 
-#: iscore.php:128
+#: php/translations.php:46
 msgid "MarisaWolf"
 msgstr "魔理沙W"
 
-#: iscore.php:129
+#: php/translations.php:47
 msgid "MarisaOtter"
 msgstr "魔理沙O"
 
-#: iscore.php:130
+#: php/translations.php:48
 msgid "MarisaEagle"
 msgstr "魔理沙E"
 
-#: iscore.php:131
+#: php/translations.php:49
 msgid "YoumuWolf"
 msgstr "妖夢W"
 
-#: iscore.php:132
+#: php/translations.php:50
 msgid "YoumuOtter"
 msgstr "妖夢O"
 
-#: iscore.php:133
+#: php/translations.php:51
 msgid "YoumuEagle"
 msgstr "妖夢E"
-
-#: iscore.php:142
-msgid "A-1"
-msgstr ""
-
-#: iscore.php:143
-msgid "A-2"
-msgstr ""
-
-#: iscore.php:144
-msgid "B-1"
-msgstr ""
-
-#: iscore.php:145
-msgid "B-2"
-msgstr ""
-
-#: iscore.php:146
-msgid "C-1"
-msgstr ""
-
-#: iscore.php:147
-msgid "C-2"
-msgstr ""
-
-#: iscore.php:148
-msgid "Extra"
-msgstr ""
-
-#: iscore.php:152 schedule.php:23
-msgid "Category"
-msgstr "カテゴリー"
-
-#: iscore.php:154
-msgid "Survival"
-msgstr "クリア重視"
-
-#: iscore.php:155
-msgid "Scoring"
-msgstr "稼ぎ"
-
-#: iscore.php:160
-msgid "Full Spell"
-msgstr "フルスぺカ"
-
-#: iscore.php:166
-msgid "Misses"
-msgstr "ミス"
-
-#: iscore.php:172
-msgid "Score"
-msgstr "スコア"
-
-#: iscore.php:178
-msgid "Gold medals (th128 only)"
-msgstr "金メダル（th128のみ）"
-
-#: iscore.php:184
-msgid "Difficulty"
-msgstr "難易度"
-
-#: iscore.php:193
-msgid "Final Stage (th08 only)"
-msgstr "ルート（th08のみ）"
-
-#: iscore.php:195
-msgid "FinalA"
-msgstr "Aルート"
-
-#: iscore.php:196
-msgid "FinalB"
-msgstr "Bルート"
-
-#: iscore.php:202
-msgid "Calculate"
-msgstr "計算する"
-
-#: language.php:2
-msgid "Language"
-msgstr "言語"
-
-#: language.php:14
-msgid "Flag of the United Kingdom"
-msgstr "イギリスの国旗"
-
-#: language.php:17
-msgid "Flag of the United States"
-msgstr "アメリカ合衆国の国旗"
-
-#: language.php:20
-msgid "Flag of Japan"
-msgstr "日本の国旗"
-
-#: language.php:23
-msgid "Flag of the P.R.C."
-msgstr "中華人民共和国の国旗"
-
-#: language.php:26
-msgid "Flag of Russia"
-msgstr "ロシアの国旗"
-
-#: language.php:29
-msgid "Flag of Germany"
-msgstr "ドイツの国旗"
 
 #: rules.php:2 rules.php:12
 msgid "Rules"
@@ -492,261 +298,712 @@ msgid "Format"
 msgstr "概要"
 
 #: rules.php:14
-msgid ""
-"For every match, each team can earn points. Ranking is based on whoever has "
-"the most points:"
+msgid "The players from each team will play against each other simultaneously."
+msgstr "各チームのプレイヤーが同時に対戦します。"
+
+#: rules.php:15
+msgid "For every match, each player can earn points for their team:"
 msgstr ""
 "各試合の順位によって各チームはポイントを獲得します。各試合の順位は"
-"ISCORE（ISCOREについての欄を参照）の高い順に決定されます。獲得ポイントは以下"
-"の通りです。"
+"TWCScore（TWCScoreについての欄を参照）の高い順に決定されます。獲得ポイントは"
+"以下の通りです。"
 
-#: rules.php:16
+#: rules.php:17
 msgid "1st place - 2 points"
 msgstr "１位　２ポイント"
 
-#: rules.php:17
+#: rules.php:18
 msgid "2nd place - 1 point"
 msgstr "２位　１ポイント"
 
-#: rules.php:18
+#: rules.php:19
 msgid "3rd place - 0 points"
 msgstr "３位　０ポイント"
 
-#: rules.php:20
+#: rules.php:21
 msgid ""
-"In 2-team matches, the first place gets 2 points, and 2nd place gets 1 point."
+"In 2-team matches, the first place will gain 2 points and second place will "
+"gain 1 point."
 msgstr ""
 "なお２チームのみが出場する試合においては、１位が２ポイント、２位が１ポイント"
 "の獲得となります。"
 
-#: rules.php:22
+#: rules.php:23
 msgid ""
-"If multiple players have the exact same amount of ISCORE, their points will "
-"be split equally. This also means that, if multiple players have the highest "
-"ISCORE, the match ends in a tie."
+"If multiple players have the same TWCScore at the end of a match, they are "
+"considered tied and their points will be split equally."
 msgstr ""
-"また、複数のチームが同じISCOREを獲得した場合は、チームへの獲得ポイントを分け"
-"合います（例：２チームが同じISCOREを獲得し１位となった場合、トータル３ポイン"
-"トを分け合い1.5ポイントずつを獲得します）"
+"また、複数のチームが同じTWCScoreを獲得した場合は、チームへの獲得ポイントを分"
+"け合います（例：２チームが同じISCOREを獲得し１位となった場合、トータル３ポイ"
+"ントを分け合い1.5ポイントずつを獲得します）"
 
 #: rules.php:25
 msgid ""
-"At the end of the World Cup, the teams will be ranked based on has the most "
-"points."
+"Whichever team has the most points at the end of Touhou World Cup is the "
+"winner."
 msgstr "全試合終了後、獲得ポイントの多い順に順位が決定されます。"
 
-#: rules.php:27
-msgid "Calculating Points"
-msgstr "ISCOREについて"
+#: rules.php:27 twcscore.php:2
+msgid "TWCScore"
+msgstr "TWCScore"
+
+#: rules.php:28
+msgid ""
+"The quality of credits is calculated through the <a href=\"twcscore"
+"\">TWCScore Calculator</a>. This is a scoring metric which compensates for "
+"differences in shot type performance so that there is a point of comparison "
+"between credits in a category."
+msgstr "各試合で獲得するTWCScoreはTWCScore計算機により定められます。"
 
 #: rules.php:29
-msgid "The points are based on the <a href=\"/iscore\">ISCORE calculator</a>."
+msgid ""
+"The TWCScore of credits is used to determine player ranking at the end of a "
+"match, with each player's best performing credit being used."
 msgstr ""
-"各試合で獲得するISCOREは<a href=\"/iscore\">ISCORE Calculator</a>により定めら"
-"れます。"
+"走者のクレジットの結果（TWCScore）は、試合終了時のプレイヤーランキングを決定"
+"するために使用され、各プレイヤーの最も良いクレジットが採用されます。"
+
+#: rules.php:30
+msgid ""
+"For Survival Categories, each shot type starts with a prescribed TWCScore "
+"with this value being cut in half every time the player dies."
+msgstr ""
+"サバイバルカテゴリでは、各ショットタイプが規定のTWCScoreで始まり、プレイヤー"
+"が被弾するたびに半分になります。"
+
+#: rules.php:31
+msgid ""
+"For Scoring Categories, TWCScore increases exponentially as the player's in-"
+"game score increases."
+msgstr ""
+"スコアリングカテゴリの場合では、TWCScoreはプレイヤーのゲーム内スコアが増加す"
+"るにつれて指数関数的に増加します。"
 
 #: rules.php:33
+msgid "Reset Timer"
+msgstr "リセットタイマー"
+
+#: rules.php:34
 msgid ""
-"Score matches are calculated based on the ISCORE formula. Survival matches "
-"(except for GFW) are calculated as follows:"
+"Each Category has a Reset Timer which counts down as the match progresses, "
+"this shows the time in which a player can start a new credit."
 msgstr ""
-"スコアアタックマッチではISCORE Calculatorの計算結果により、サバイバルマッチ"
-"（妖精大戦争を除く）では以下の計算式によりISCOREが決定されます。"
+"各カテゴリーにはリセットタイマーがあり、試合の進行に応じてカウントダウンさ"
+"れ、新しいクレジットを開始できる時間が表示されます。"
+
+#: rules.php:35
+msgid ""
+"Players can start as many credits as they want while the Reset Timer is "
+"counting down."
+msgstr ""
+"リセットタイマーがカウントダウンしている間、プレイヤーは何度でもクレジットを"
+"スタートさせることができます。"
 
 #: rules.php:36
-msgid "(ISCORE No Miss No Bomb Score) / 2 ^ (deaths)"
-msgstr "(ISCORE表内のNNの値) / 2 ^ (被弾数)"
+msgid ""
+"When the timer reaches zero, the players cannot start any new credits, but "
+"they can finish a credit already in progress."
+msgstr ""
+"タイマーがゼロになると、プレイヤーは新しいクレジットを開始することはできませ"
+"んが、すでに進行中のクレジットを完走することはできます。"
 
-#: rules.php:37
-msgid "In survival runs, bombs are counted as 2 deaths."
-msgstr "サバイバルマッチではボムの使用は２被弾としてカウントされます。"
+#: rules.php:38
+msgid "Gameplay Rules"
+msgstr "ゲームプレイにおいてのルール"
 
 #: rules.php:39
+msgid "Survival Categories"
+msgstr "サバイバルカテゴリについて"
+
+#: rules.php:40
 msgid ""
-"ISCORE is a scoring metric that compensates for the differences in "
-"performance between shot types and categories. The formulas used can be "
-"found in the ISCORE rubric with the calculator linked above."
+"In Survival Categories, players will try to finish the game without dying. "
+"They can only die a maximum of five timesand are not allowed to use bombs or "
+"any other in game mechanics to help them."
 msgstr ""
-"ISCOREはショットタイプによる性能の差を補完するために開発された評価手法です。"
-"計算方法は上記のAbout ISCOREからご覧いただけます。"
+"サバイバルカテゴリーでは、プレイヤーは出来るだけ被弾せずゲームをクリアするこ"
+"とを目指します。最大5回までしか被弾することができず、また、ボムやゲーム内サブ"
+"システムを使って被弾を回避することは許されません。"
+
+#: rules.php:42
+msgid ""
+"Here is a quick breakdown of how different game mechanics affect Survival "
+"Categories:"
+msgstr "サバイバルカテゴリでの各作品においての簡単な説明です。"
+
+#: rules.php:43
+msgid "All Touhou Games"
+msgstr "すべての作品共通"
 
 #: rules.php:44
-msgid "Game-specific Concerns"
-msgstr "作品固有のルール"
+msgid "Bombs: Bombing at anytime is considered two deaths."
+msgstr "ボム：1⃣ボム使用あたり２被弾扱いとなります。"
 
-#: rules.php:45
+#: rules.php:45 twcscore.php:23
 msgid "Touhou 7"
 msgstr "東方妖々夢　～ Perfect Cherry Blossom."
 
 #: rules.php:46
-msgid "A border break is considered a death in survival runs."
-msgstr "サバイバルマッチにおいて霊撃は被弾として扱われます。"
+msgid ""
+"Supernatural Border: Breaking a border manually by pressing the bomb key is "
+"considered two deaths. However, running into a bullet while a border is "
+"active will only count as one death."
+msgstr ""
+"森羅結界：ボムキー押下による霊撃は２被弾扱いですが、被弾による霊撃は１被弾扱"
+"いとなります。"
 
-#: rules.php:47
+#: rules.php:48 twcscore.php:26
 msgid "Touhou 8"
 msgstr "東方永夜抄　～ Imperishable Night."
 
 #: rules.php:49
 msgid ""
-"Getting hit during a Last Spell is <strong>not</strong> considered a death "
-"in survival runs. However, ISCORE gives a higher base value in this game to "
-"runs that capture all spells (which includes unlocking and capturing "
-"<strong>every</strong> Last Spell) AND do not die/bomb (NN + Full-SC)."
+"Last Spell: Getting hit during a Last Spell is <strong>not</strong> "
+"considered a death in survival runs. However, never dying or bombing and "
+"capturing every Spell Card, including Last Spells, awards a TWCScore bonus "
+"(NN + FS)."
 msgstr ""
-"サバイバルマッチにおいて、ラストスペルでの被弾はISCOREに影響を与えません。た"
-"だし、全てのラストスペルを出現させ取得し、かつ、ノーミスノーボムを達成した場"
-"合にのみ、より高いISCOREが与えられます（ISCORE CalculatorのFull-SC欄を参"
+"サバイバルマッチにおいて、ラストスペルでの被弾はTWCScoreに影響を与えません。"
+"ただし、全てのラストスペルを出現させ取得し、かつ、ノーミスノーボムを達成した"
+"場合にのみ、より高いTWCScoreが与えられます（TWCScore計算機のFull-SC欄を参"
 "照）。"
 
-#: rules.php:54
+#: rules.php:50 twcscore.php:35
 msgid "Touhou 12"
 msgstr "東方星蓮船　～ Undefined Fantastic Object."
 
-#: rules.php:58
+#: rules.php:51
 msgid ""
-"Summoning a UFO is considered a death in survival runs. However, collecting "
-"tokens does not affect the score in survival runs."
+"UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens "
+"is allowed and does not count as a death."
 msgstr ""
 "サバイバルマッチではUFOの召喚を被弾として扱います。ただし、ベントラーの取得は"
 "ISCOREに影響を与えません。"
 
-#: rules.php:61
-msgid "Touhou 12.8"
-msgstr "妖精大戦争　～ 東方三月精"
-
-#: rules.php:63
-msgid "The survival formula for this game is (gold medals*1.5)-(deaths)."
-msgstr ""
-"この作品でのサバイバルマッチでの計算式は以下です。（金メダル獲得数*1.5）-（被"
-"弾数）"
-
-#: rules.php:64
+#: rules.php:52 twcscore.php:41
 msgid "Touhou 13"
 msgstr "東方神霊廟　～ Ten Desires."
 
-#: rules.php:66
+#: rules.php:53
 msgid ""
-"A manual trance is considered 2 deaths in survival runs. ISCORE gives a "
-"higher base value in this game to runs that capture all spells AND does not "
-"die/bomb (NN + Full-SC)."
+"Trance: A manually activated trance is considered two deaths."
+"<br>Additionally, there is a TWCScore Bonus for a credit that captures all "
+"spellcards and finishes with zero deaths."
 msgstr ""
 "任意トランスはサバイバルマッチでは２被弾として扱われます。また、全スペルカー"
-"ドを取得し、かつ、ノーミスノーボムを達成した場合にのみ、より高いISCOREが与え"
-"られます（ISCORE CalculatorのFull-SC欄を参照）。"
+"ドを取得し、かつ、ノーミスノーボムを達成した場合にのみ、より高いTWCScoreが与"
+"えられます（TWCScore計算機のFull-SC欄を参照）。"
 
-#: rules.php:70
-msgid "Touhou 15"
-msgstr "東方紺珠伝　～ Legacy of Lunatic Kingdom."
-
-#: rules.php:71
-msgid "All runs in both survival/score have to be done in Legacy Mode."
-msgstr ""
-"サバイバルマッチ、スコアアタックマッチともに完全無欠モードでプレイすることは"
-"禁止されています。"
-
-#: rules.php:72
+#: rules.php:55 twcscore.php:50
 msgid "Touhou 16"
 msgstr "東方天空璋　～ Hidden Star in Four Seasons."
 
-#: rules.php:73
-msgid "Releasing your season gauge is considered 2 deaths in survival runs."
+#: rules.php:56
+msgid "Season Release: Releasing your season gauge is considered two deaths."
 msgstr "サバイバルマッチにおいて、季節解放は２被弾として扱われます。"
 
-#: rules.php:74
+#: rules.php:57 twcscore.php:53
 msgid "Touhou 17"
 msgstr "東方鬼形獣 ～ Wily Beast and Weakest Creature."
 
-#: rules.php:76
+#: rules.php:58
 msgid ""
-"Channeling a berserk roar (3 or more of the same animal tokens during roar "
-"mode) is considered 2 deaths in survival runs. Breaking your roar (bombing "
-"or touching a bullet during roar mode) is considered a death in survival "
-"runs."
+"Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal "
+"tokens during roar mode) is considered 2 deaths. Breaking a Beserk Roar by "
+"touching a bullet gives no extra punishment. However, breaking either a "
+"Beserk Roar or a Standard Roar by pressing the bomb key will always be "
+"considered one death."
 msgstr ""
 "同種の動物霊を３個以上集めることで発動する暴走ロアリングはサバイバルマッチで"
 "は２被弾として扱われます。また、ロアリング中の霊撃（ボムボタン押下または被弾"
 "によるもの）はサバイバルマッチでは１被弾として扱われます。"
 
+#: rules.php:61 twcscore.php:56
+msgid "Touhou 18"
+msgstr "東方虹龍洞　～ Unconnected Marketeers."
+
+#: rules.php:62
+msgid ""
+"Cards: Players are not allowed to use cards.<br>Additionally, the players "
+"are only allowed to buy \"Money Comes and Goes On its Own\" from the card "
+"shop between stages."
+msgstr ""
+"カードの使用：カードの使用は認められていません。<br>ステージ間のショップでは"
+"「勝手に天下の回り物」(ナズーリンカード)の購入が許可されます。"
+
+#: rules.php:65
+msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
+msgstr "<em>「勝手に天下の回り物」</em>"
+
+#: rules.php:66
+msgid "Scoring Categories"
+msgstr "スコアリングカテゴリについて"
+
+#: rules.php:67
+msgid ""
+"In Scoring Categories the players will try to finish the game while gaining "
+"the highest score possible. They can die, bomb and use any other mechanics "
+"as much as they want."
+msgstr ""
+"スコアリングカテゴリでは、プレイヤーはより高いスコアを獲得することを目指しま"
+"す。\n"
+"被弾、ボムの使用、サブシステムなどを自由に使用することが出来ます。"
+
+#: rules.php:69
+msgid "Some extra details about Scoring Categories:"
+msgstr "スコアリングカテゴリについての詳細"
+
+#: rules.php:71
+msgid ""
+"Unlike previous years of TWC, there is now no penalty to TWCScore if a "
+"player Game Overs in a Scoring Category."
+msgstr "昨年までのTWCと違い、満身創痍にペナルティーが無くなりました。"
+
+#: rules.php:72
+msgid ""
+"In Touhou 17 and Touhou 18, it is possible to reach the maximum value the "
+"score counter can display, known as a counterstop. If this happens, we will "
+"use the player's \"True Score\" which can be determined by using counterstop "
+"removal patches."
+msgstr ""
+"東方鬼形獣、東方虹龍洞において、いわゆるスコアの「カンスト」が起きた場合、カ"
+"ウンターストップ解除パッチにより\n"
+"「本来のスコア」が競技に適用されます。"
+
+#: rules.php:74
+msgid ""
+"In Touhou 12, the score counter will display the player's score incorrectly "
+"if the score reaches a high enough value. However, if this happens, the game "
+"will still record the player's score correctly on the high score leaderboard "
+"and that value will be used instead."
+msgstr ""
+"東方星蓮船ではスコアが一定以上になるとスコアカウンターが正常に機能しなくなり"
+"ます。（いわゆるスコアバグ）\n"
+"しかしリーダーボードでは正しいスコアが表記されるため、そのスコアが採用されま"
+"す。"
+
+#: rules.php:79
+msgid "Allowed Game Mods"
+msgstr "許可されているゲーム改変ツール"
+
+#: rules.php:80
+msgid "Vpatch is allowed for all applicable games."
+msgstr "パッチの使用は許可されています。"
+
 #: rules.php:81
-msgid "Use of Third Party Software &amp; Material"
-msgstr "ツールやパッチの使用について"
+msgid ""
+"thprac can be used for practice during a match, but all cheats must be "
+"disabled when performing credits."
+msgstr ""
+"試合中の練習のためにプラクティスツール（thprac等）を使用することは許可されて"
+"いますが、プラクティスツールを用いたプレイは無効とします。"
+
+#: rules.php:82
+msgid "Counterstop Removal Patches and Scorebug Patches are allowed."
+msgstr "カウンターストップ解除パッチ、スコアバグ回避パッチは許可されます。"
 
 #: rules.php:83
-msgid ""
-"Vsync patch is allowed. Practice patches (such as thprac) are allowed, but "
-"all practice cheats have to be disabled for the runs."
-msgstr ""
-"パッチの使用は許可されています。試合中の練習のためにプラクティスツール"
-"（thprac等）を使用することは許可されていますが、プラクティスツールを用いたプ"
-"レイは無効とします。"
+msgid "Visual, Audio and Translation patches are not allowed."
+msgstr "ゲーム画面改変、音声改変、翻訳パッチは許可されません。"
 
-#: rules.php:87
-msgid ""
-"Visual patches (e.g. hitbox patch) are prohibited. Translation patches are "
-"allowed but discouraged. Audio patches/background music is allowed but no "
-"copyrighted material."
-msgstr ""
-"視覚面の変更を行うパッチ（当たり判定表示パッチなど）の使用は禁止されていま"
-"す。翻訳パッチの使用は許可されていますが、非推奨です。オーディオパッチ（BGMの"
-"差し替え）の使用は許可されていますが、ゲーム中もしくは著作権フリー以外の音楽"
-"の使用は禁止されています。"
-
-#: rules.php:91
+#: rules.php:85
 msgid "Other Rules"
 msgstr "その他のルール"
 
+#: rules.php:87
+msgid ""
+"Players must stream their gameplay while playing their match, without "
+"covering any HUD or gameplay elements."
+msgstr ""
+"プレイヤーはプレイ中のゲーム画面を配信しなければなりません。ゲーム画面をその"
+"まま配信し、形を変えたり切り取りをしないでください。"
+
+#: rules.php:88
+msgid ""
+"The replay file of each player's best performing credit must be submitted to "
+"the TWC Committee at the end of a match."
+msgstr ""
+"試合終了後、各プレイヤーはベストパフォーマンスのリプレイファイルをTWC運営に提"
+"出すること。"
+
+#: rules.php:89
+msgid "Please hide the ending when you reach the end of the game."
+msgstr "クリア後のエンディングは必ず隠してください。"
+
+#: rules.php:92
+msgid "Full Official Rules"
+msgstr "公式ルール全文"
+
 #: rules.php:93
 msgid ""
-"<li>Runs only count from the moment the timer has started.</li><li>Players "
-"can start as many runs as they want during the match. When the timer has "
-"finished on stream, no new runs can be started anymore.</li><li>A clear is "
-"always better than a gameover, no matter the score difference.</li><li>The "
-"players have to stream their gameplay. Just stream game footage: no overlay "
-"that shapes/crops the stream.</li><li>Streamers are allowed to have elements "
-"(images, input displays, cameras, etc.) on top of their game. However, the "
-"gameplay window, as well as all information on the player's HUD, has to be "
-"visible at all times.</li><li>Finished runs need their replays saved.</"
-"li><li>Please hide the story ending when your run finishes.</li>"
+"The full official rulebook can be found <a href=\"\">here</a>. Currently, it "
+"is only available in the English language."
 msgstr ""
-"<li>タイマースタート以降に開始したプレイのみ有効とします。</li><li>タイマース"
-"トップまでは何度でもリトライが可能です。</li><li>スコアアタックマッチのプレイ"
-"では、スコアの如何に関わらず、クリアリプレイが満身創痍のリプレイより常に優位"
-"となります。</li><li>プレイヤーはプレイ中のゲーム画面を配信しなければなりませ"
-"ん。ゲーム画面をそのまま配信し、形を変えたり切り取りをしないでください。</"
-"li><li>プレイヤーは画像、入力表示、カメラなどの要素を画面上に配置することを許"
-"可されていますが、その場合はゲーム内の各種情報を覆わないようにしてください。"
-"</li><li>クリア後は必ずリプレイを保存してください。</li><li>クリア後のエン"
-"ディングは必ず隠してください。</li>"
+"公式ルール全文は<a href=\"assets/TWC_Handbook_v1.01.pdf\">こちら</a>にありま"
+"すが、現在英語のみとなっています。"
+
+#: rules.php:94
+msgid "Back to Top"
+msgstr "上に帰る"
 
 #: schedule.php:2 schedule.php:12
 msgid "Schedule"
 msgstr "スケジュール"
 
 #: schedule.php:13
+msgid "Coming soon!"
+msgstr "今しばらくお待ち下さい。"
+
+#: twcscore.php:12
+msgid "TWCScore Calculator"
+msgstr "TWCScore計算機"
+
+#: twcscore.php:13
+msgid "This page requires JavaScript"
+msgstr "このウェブページにはJavaScriptが必要です"
+
+#: twcscore.php:14
 msgid ""
-"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
-"Universal Time)</strong>."
+"Use this page to calculate TWCScore for any particular run. TWCScore is "
+"subject to change."
 msgstr ""
-"表示されているタイムゾーンは<strong id=\"timezone\">UTC+0000（協定世界時）</"
-"strong>です。"
+"このページでは特定のプレイのTWCスコアを計算することが出来ます。TWCスコアは変"
+"更される可能性があります。"
 
-#: schedule.php:16
+#: twcscore.php:16
+msgid "Game"
+msgstr "ゲーム"
+
+#: twcscore.php:20
+msgid "Touhou 6"
+msgstr "東方紅魔郷　～ the Embodiment of Scarlet Devil."
+
+#: twcscore.php:20
+msgid "Touhou 6: Embodiment of Scarlet Devil"
+msgstr "東方紅魔郷　～ the Embodiment of Scarlet Devil"
+
+#: twcscore.php:23
+msgid "Touhou 7: Perfect Cherry Blossom"
+msgstr "東方妖々夢　～ Perfect Cherry Blossom"
+
+#: twcscore.php:26
+msgid "Touhou 8: Imperishable Night"
+msgstr "東方永夜抄　～ Imperishable Night"
+
+#: twcscore.php:29
+msgid "Touhou 10"
+msgstr "東方星蓮船　～ Undefined Fantastic Object."
+
+#: twcscore.php:29
+msgid "Touhou 10: Mountain of Faith"
+msgstr "東方風神録　～ Mountain of Faith"
+
+#: twcscore.php:32
+msgid "Touhou 11"
+msgstr "東方星蓮船　～ Undefined Fantastic Object."
+
+#: twcscore.php:32
+msgid "Touhou 11: Subterranean Aminism"
+msgstr "東方地霊殿　～ Subterranean Animism"
+
+#: twcscore.php:35
+msgid "Touhou 12: Undefined Fantastic Object"
+msgstr "東方星蓮船　～ Undefined Fantastic Object"
+
+#: twcscore.php:38
+msgid "Touhou 12.8"
+msgstr "妖精大戦争　～ 東方三月精"
+
+#: twcscore.php:38
+msgid "Touhou 12.8: Great Fairy Wars"
+msgstr "妖精大戦争　～ 東方三月精"
+
+#: twcscore.php:41
+msgid "Touhou 13: Ten Desires"
+msgstr "東方神霊廟　～ Ten Desires"
+
+#: twcscore.php:44
+msgid "Touhou 14"
+msgstr "東方星蓮船　～ Undefined Fantastic Object."
+
+#: twcscore.php:44
+msgid "Touhou 14: Double Dealing Character"
+msgstr "東方輝針城　～ Double Dealing Character"
+
+#: twcscore.php:47
+msgid "Touhou 15"
+msgstr "東方紺珠伝　～ Legacy of Lunatic Kingdom."
+
+#: twcscore.php:47
+msgid "Touhou 15: Legacy of Lunatic Kingdom"
+msgstr "東方紺珠伝　～ Legacy of Lunatic Kingdom"
+
+#: twcscore.php:50
+msgid "Touhou 16: Hidden Star in Four Seasons"
+msgstr "東方天空璋　～ Hidden Star in Four Seasons"
+
+#: twcscore.php:53
+msgid "Touhou 17: Wily Beast and Weakest Creature"
+msgstr "東方鬼形獣　～ Wily Beast and Weakest Creature"
+
+#: twcscore.php:56
+msgid "Touhou 18: Unconnected Marketeers"
+msgstr "東方虹龍洞　～ Unconnected Marketeers"
+
+#: twcscore.php:60
+msgid "Shottype / Route"
+msgstr "キャラ"
+
+#: twcscore.php:79
+msgid "Category"
+msgstr "カテゴリー"
+
+#: twcscore.php:82 twcscore.php:83
+msgid "Survival"
+msgstr "クリア重視"
+
+#: twcscore.php:85 twcscore.php:86
+msgid "Scoring"
+msgstr "稼ぎ"
+
+#: twcscore.php:92
+msgid "Full Spell"
+msgstr "フルスぺカ"
+
+#: twcscore.php:98
+msgid "Misses"
+msgstr "ミス"
+
+#: twcscore.php:106
+msgid "Score"
+msgstr "スコア"
+
+#: twcscore.php:112
+msgid "Gold medals"
+msgstr "金メダル"
+
+#: twcscore.php:120
+msgid "Difficulty"
+msgstr "難易度"
+
+#: twcscore.php:129
+msgid "Final Stage"
+msgstr "ルート"
+
+#: twcscore.php:131
+msgid "FinalA"
+msgstr "Aルート"
+
+#: twcscore.php:132
+msgid "FinalB"
+msgstr "Bルート"
+
+#: twcscore.php:138
+msgid "Please fill out the game"
+msgstr "ゲームを記入してください"
+
+#: twcscore.php:139
+msgid "Please fill out the shottype"
+msgstr "キャラを記入してください"
+
+#: twcscore.php:140
+msgid "Please fill out the miss count"
+msgstr "ミス回数を記入してください"
+
+#: twcscore.php:141
+msgid "Please fill out the score"
+msgstr "スコアを記入してください"
+
+#: twcscore.php:142
+msgid "Please fill out the Final Stage"
+msgstr "ルートを記入してください"
+
+#: twcscore.php:143
+msgid "Please fill out the gold medals"
+msgstr "金メダルを記入してください"
+
+#: twcscore.php:144
 msgid ""
-"Daylight Saving Time (also known as Summer Time or DST) is taken into "
-"account automatically."
+"FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
+"<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
 msgstr ""
 
-#: schedule.php:22
-msgid "Date / Time"
-msgstr "日付と時間"
+#: twcscore.php:148
+msgid "Calculate"
+msgstr "計算する"
 
-#: schedule.php:24
-msgid "Players"
-msgstr "プレイヤー"
+#: twcscore.php:154
+msgid "TWCScore:"
+msgstr "TWCScore："
 
-#: schedule.php:25
-msgid "Reset Time<br>(minutes)"
-msgstr "リセットのタイマー（分）"
+#~ msgid "Language"
+#~ msgstr "言語"
+
+#~ msgid "Flag of the United Kingdom"
+#~ msgstr "イギリスの国旗"
+
+#~ msgid "Flag of the United States"
+#~ msgstr "アメリカ合衆国の国旗"
+
+#~ msgid "Flag of Japan"
+#~ msgstr "日本の国旗"
+
+#~ msgid "Flag of the P.R.C."
+#~ msgstr "中華人民共和国の国旗"
+
+#~ msgid "Flag of Russia"
+#~ msgstr "ロシアの国旗"
+
+#~ msgid "Flag of Germany"
+#~ msgstr "ドイツの国旗"
+
+#~ msgid "Flag of Spain"
+#~ msgstr "スペインの国旗"
+
+#~ msgid "Last Spell: Getting hit during a Last Spell is considered a death."
+#~ msgstr "ラストスペル：ラストスペル中の被弾は１被弾扱いとなります。"
+
+#~ msgid ""
+#~ "The TWCScore of a credit can be calculated using the <a href=\"twcscore"
+#~ "\">TWCScore Calculator</a>."
+#~ msgstr ""
+#~ "各試合で獲得するTWCScoreは<a href=\"twcscore\">TWCScore Calculator</a>によ"
+#~ "り定められます。"
+
+#~ msgid ""
+#~ "Your time zone was detected as <strong id=\"timezone\">UTC+0000 "
+#~ "(Coordinated Universal Time)</strong>."
+#~ msgstr ""
+#~ "表示されているタイムゾーンは<strong id=\"timezone\">UTC+0000（協定世界時）"
+#~ "</strong>です。"
+
+#~ msgid "Date / Time"
+#~ msgstr "日付と時間"
+
+#~ msgid "Players"
+#~ msgstr "プレイヤー"
+
+#~ msgid "Reset Time<br>(minutes)"
+#~ msgstr "リセットのタイマー<br>（分）"
+
+#~ msgid "Chinese commentary stream 1 (Bilibili)"
+#~ msgstr "中国語解説付き配信チャンネル（Bilibili）"
+
+#~ msgid "Chinese commentary stream 2 (Bilibili)"
+#~ msgstr "中国語解説付き配信チャンネル２（Bilibili）"
+
+#~ msgid "Japanese commentary stream (YouTube)"
+#~ msgstr "日本語解説付き配信チャンネル"
+
+#~ msgid "Russian commentary stream (Twitch)"
+#~ msgstr "ロシア語解説付き配信チャンネル（Twitch）"
+
+#~ msgid ""
+#~ "If multiple players have the exact same amount of ISCORE, their points "
+#~ "will be split equally. This also means that, if multiple players have the "
+#~ "highest ISCORE, the match ends in a tie."
+#~ msgstr ""
+#~ "また、複数のチームが同じISCOREを獲得した場合は、チームへの獲得ポイントを分"
+#~ "け合います（例：２チームが同じISCOREを獲得し１位となった場合、トータル３ポ"
+#~ "イントを分け合い1.5ポイントずつを獲得します）"
+
+#~ msgid ""
+#~ "At the end of the World Cup, the teams will be ranked based on has the "
+#~ "most points."
+#~ msgstr "全試合終了後、獲得ポイントの多い順に順位が決定されます。"
+
+#~ msgid "Calculating Points"
+#~ msgstr "ISCOREについて"
+
+#~ msgid ""
+#~ "Score matches are calculated based on the ISCORE formula. Survival "
+#~ "matches (except for GFW) are calculated as follows:"
+#~ msgstr ""
+#~ "スコアアタックマッチではISCORE Calculatorの計算結果により、サバイバルマッ"
+#~ "チ（妖精大戦争を除く）では以下の計算式によりISCOREが決定されます。"
+
+#~ msgid "(ISCORE No Miss No Bomb Score) / 2 ^ (deaths)"
+#~ msgstr "(ISCORE表内のNNの値) / 2 ^ (被弾数)"
+
+#~ msgid "In survival runs, bombs are counted as 2 deaths."
+#~ msgstr "サバイバルマッチではボムの使用は２被弾としてカウントされます。"
+
+#~ msgid ""
+#~ "ISCORE is a scoring metric that compensates for the differences in "
+#~ "performance between shot types and categories. The formulas used can be "
+#~ "found in the ISCORE rubric with the calculator linked above."
+#~ msgstr ""
+#~ "ISCOREはショットタイプによる性能の差を補完するために開発された評価手法で"
+#~ "す。計算方法は上記のAbout ISCOREからご覧いただけます。"
+
+#~ msgid "Game-specific Concerns"
+#~ msgstr "作品固有のルール"
+
+#~ msgid "A border break is considered a death in survival runs."
+#~ msgstr "サバイバルマッチにおいて霊撃は被弾として扱われます。"
+
+#~ msgid "The survival formula for this game is (gold medals*1.5)-(deaths)."
+#~ msgstr ""
+#~ "この作品でのサバイバルマッチでの計算式は以下です。（金メダル獲得数*1.5）-"
+#~ "（被弾数）"
+
+#~ msgid ""
+#~ "A manual trance is considered 2 deaths in survival runs. ISCORE gives a "
+#~ "higher base value in this game to runs that capture all spells AND does "
+#~ "not die/bomb (NN + Full-SC)."
+#~ msgstr ""
+#~ "任意トランスはサバイバルマッチでは２被弾として扱われます。また、全スペル"
+#~ "カードを取得し、かつ、ノーミスノーボムを達成した場合にのみ、より高いISCORE"
+#~ "が与えられます（ISCORE CalculatorのFull-SC欄を参照）。"
+
+#~ msgid "All runs in both survival/score have to be done in Legacy Mode."
+#~ msgstr ""
+#~ "サバイバルマッチ、スコアアタックマッチともに完全無欠モードでプレイすること"
+#~ "は禁止されています。"
+
+#~ msgid "Use of Third Party Software &amp; Material"
+#~ msgstr "ツールやパッチの使用について"
+
+#~ msgid ""
+#~ "Vsync patch is allowed. Practice patches (such as thprac) are allowed, "
+#~ "but all practice cheats have to be disabled for the runs."
+#~ msgstr ""
+#~ "パッチの使用は許可されています。試合中の練習のためにプラクティスツール"
+#~ "（thprac等）を使用することは許可されていますが、プラクティスツールを用いた"
+#~ "プレイは無効とします。"
+
+#~ msgid ""
+#~ "Visual patches (e.g. hitbox patch) are prohibited. Translation patches "
+#~ "are allowed but discouraged. Audio patches/background music is allowed "
+#~ "but no copyrighted material."
+#~ msgstr ""
+#~ "視覚面の変更を行うパッチ（当たり判定表示パッチなど）の使用は禁止されていま"
+#~ "す。翻訳パッチの使用は許可されていますが、非推奨です。オーディオパッチ"
+#~ "（BGMの差し替え）の使用は許可されていますが、ゲーム中もしくは著作権フリー"
+#~ "以外の音楽の使用は禁止されています。"
+
+#~ msgid ""
+#~ "<li>Runs only count from the moment the timer has started.</"
+#~ "li><li>Players can start as many runs as they want during the match. When "
+#~ "the timer has finished on stream, no new runs can be started anymore.</"
+#~ "li><li>A clear is always better than a gameover, no matter the score "
+#~ "difference.</li><li>The players have to stream their gameplay. Just "
+#~ "stream game footage: no overlay that shapes/crops the stream.</"
+#~ "li><li>Streamers are allowed to have elements (images, input displays, "
+#~ "cameras, etc.) on top of their game. However, the gameplay window, as "
+#~ "well as all information on the player's HUD, has to be visible at all "
+#~ "times.</li><li>Finished runs need their replays saved.</li><li>Please "
+#~ "hide the story ending when your run finishes.</li>"
+#~ msgstr ""
+#~ "<li>タイマースタート以降に開始したプレイのみ有効とします。</li><li>タイ"
+#~ "マーストップまでは何度でもリトライが可能です。</li><li>スコアアタックマッ"
+#~ "チのプレイでは、スコアの如何に関わらず、クリアリプレイが満身創痍のリプレイ"
+#~ "より常に優位となります。</li><li>プレイヤーはプレイ中のゲーム画面を配信し"
+#~ "なければなりません。ゲーム画面をそのまま配信し、形を変えたり切り取りをしな"
+#~ "いでください。</li><li>プレイヤーは画像、入力表示、カメラなどの要素を画面"
+#~ "上に配置することを許可されていますが、その場合はゲーム内の各種情報を覆わな"
+#~ "いようにしてください。</li><li>クリア後は必ずリプレイを保存してください。"
+#~ "</li><li>クリア後のエンディングは必ず隠してください。</li>"
 
 #~ msgid " Reimu"
 #~ msgstr "霊夢"
