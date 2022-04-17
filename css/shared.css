@@ -1,0 +1,252 @@
+html {
+    overflow-y: scroll;
+}
+body {
+	margin: 0;
+    font-family: sans-serif;
+    background: url('/assets/twc_bg.jpg') left no-repeat fixed;
+    background-size: cover;
+}
+* {
+	color: #fff;
+	text-decoration: none;
+}
+button {
+	background-color: #333;
+}
+select {
+	background-color: #000;
+}
+main {
+    margin: 0px auto 0px auto;
+    background-color: #222;
+    box-shadow: 4px 4px 4px 2px #888;
+  	-webkit-box-shadow: 4px 4px 4px 2px #888;
+    max-width: 100%;
+    min-width: 50%;
+    padding: 15px;
+    opacity: 0.9;
+}
+h1 {
+    margin-top: 64px;
+}
+main a {
+	color: #19f;
+}
+header a {
+    color: #fff;
+}
+aside {
+    float: right;
+    width: 20%;
+}
+input {
+	background-color: #000;
+}
+table {
+    border: 1px solid white;
+}
+td {
+    border-top: 1px solid white;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.moverdowner {
+	height: 0;
+	background-color: #222;
+}
+.header {
+	background-color: #222;
+	box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: absolute;
+	width: 100%;
+    z-index: 1;
+}
+.header ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	background-color: #222;
+}
+.header ul .subpage {
+	display: block;
+	text-decoration: none;
+}
+.header ul .subpage:not(.flag_container) {
+	padding: 20px;
+}
+.header ul .subpage:hover, .menu-icon:hover, .lang-icon:hover {
+	background-color: #444;
+}
+.header ul .subpage:active, .menu-icon:active, .lang-icon:active {
+	background-color: #888;
+}
+.header .logo {
+	float: left;
+	display: block;
+	font-size: 2em;
+	padding: 10px 20px;
+}
+.header .menu, .header {
+	clear: both;
+	max-height: 0;
+	transition: max-height .1s ease-out;
+}
+.header .menu-icon {
+	padding: 28px 20px;
+	position: relative;
+	float: right;
+	cursor: pointer;
+}
+.header .lang-icon {
+    padding: 7px 7px 6px 6px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+.header .menu-icon .nav-icon, .header .lang-icon .nav-icon {
+	background: #fff;
+	display: block;
+	height: 2px;
+	width: 18px;
+	position: relative;
+}
+.header .menu-icon .nav-icon:before {
+	background: #fff;
+	content: "";
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 5px;
+}
+.header .menu-icon .nav-icon:after {
+	background: #fff;
+	content: "";
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	bottom: 5px;
+}
+.header .menu-btn, .lang-btn {
+	display: none;
+}
+.header .menu-btn:checked ~ #main_list {
+	max-height: 300px;
+}
+.header .lang-btn:checked ~ #lang_list {
+    max-height: 400px;
+}
+.language {
+    padding-left: 2px;
+    padding-right: 2px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.selected {
+    background: rgba(255, 255, 0, 0.5);
+}
+.tooltip {
+    font-weight: initial;
+    visibility: hidden;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+}
+.flag {
+    position: relative;
+}
+.flag .tooltip {
+    left: 0%;
+    margin-left: -60px;
+}
+.flag:hover .tooltip {
+    visibility: visible;
+}
+.flag_container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown_button {
+    text-decoration: none;
+    cursor: default;
+}
+.dropdown_content {
+    display: none;
+    position: absolute;
+    border: 1px solid #000;
+    min-width: 165px;
+    opacity: 1.0;
+    z-index: 1;
+}
+.dropdown_content {
+    background-color: #222;
+}
+.dropdown_content p:not(.selected) a:hover {
+    background-color: #444;
+}
+.dropdown_content p:not(.selected) a:active {
+    background-color: #888;
+}
+.dropdown_content p a {
+    display: inline-block;
+    width: 100%;
+}
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+.languages {
+    display: none;
+}
+#language_small {
+    display: list-item;
+}
+#language_link {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (min-width: 1050px) {
+    main {
+        margin-top: 20px;
+        max-width: fit-content;
+    }
+    h1 {
+        margin-top: inherit;
+    }
+    .languages {
+        display: block;
+    }
+	.header li {
+		float: left;
+	}
+	.header .menu, .header .languages {
+		clear: none;
+		float: right;
+		max-height: none;
+	}
+	.header .menu-icon, .header .lang-icon {
+		display: none;
+	}
+	.header ul .subpage {
+		border-left: 1px solid #aaa;
+	}
+	.moverdowner {
+		height: 58px;
+	}
+    #lang_list {
+        display: none;
+    }
+}

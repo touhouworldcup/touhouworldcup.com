@@ -1,0 +1,72 @@
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
+input[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+input[type=radio] + img, input[type=radio] + span {
+    cursor: pointer;
+}
+input[type=radio]:checked + img, input[type=radio]:checked + span {
+    outline: 3px solid #f00;
+    opacity: 1;
+}
+input, select {
+    font-size: 28px;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+    width: 50px;
+}
+input[type=button]:not(#submit) {
+    width: 35px;
+}
+input[type=text] {
+    width: 225px;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+label.pointer {
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+}
+label.float {
+    float: left;
+}
+button {
+    font-size: 22px;
+}
+#twcscore_error {
+    font-weight: bold;
+}
+#twcscore_final {
+    text-align: center;
+    font-weight: bold;
+    font-size: 72px;
+}
+#error_game, #error_shottype, #error_miss, #error_score, #error_final, #error_medals, #error_fatal {
+    display: none;
+    color: red;
+}
+.shottype {
+    background-image: url('../assets/shots_sheet.png');
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+.game {
+    display: none;
+}
+.cover, .shottype {
+    opacity: 0.7;
+}
+.cover:hover, .shottype:hover {
+    opacity: 1;
+}

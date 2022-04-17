@@ -1,0 +1,65 @@
+iframe {
+    float: right;
+}
+.card {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px #888;
+  	-webkit-box-shadow: 2px 2px 2px 1px #888;
+    margin: 0px 15px 25px 15px;
+    display: inline-block;
+    width: 500px;
+}
+.card:hover {
+    background-color: #555;
+    box-shadow: 6px 6px 6px 3px #888;
+  	-webkit-box-shadow: 6px 6px 6px 3px #888;
+}
+.bottom {
+    text-align: center;
+    font-size: 11px;
+    color: #bbb;
+    clear: both;
+}
+.card_link {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.large {
+    font-size: 20px;
+}
+.icon {
+    margin-right: 15px;
+}
+#countdowns {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+#countdown_start {
+    font-family: serif;
+    font-size: 48px;
+}
+#cards {
+    text-align: center;
+}
+@media only screen and (max-width: 1650px) {
+    .card {
+        width: 300px;
+    }
+    .thumbnail {
+        width: 300px;
+        height: 192px;
+    }
+    .large {
+        font-size: 16px;
+    }
+    .icon {
+        margin-right: 0px;
+    }
+}

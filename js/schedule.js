@@ -1,4 +1,4 @@
-var language = "en-GB", timezone;
+let language = "en-GB", timezone;
 
 function getCookie(name) {
     var decodedCookies, cookieArray, cookie;
@@ -88,6 +88,8 @@ function init() {
         language = "ru-RU";
     } else if (getCookie("lang") == "de_DE") {
         language = "de-DE";
+    } else if (getCookie("lang") == "es_ES") {
+        language = "es-ES";
     }
 
     document.getElementById("timezone").innerHTML = getClientTimeZone();

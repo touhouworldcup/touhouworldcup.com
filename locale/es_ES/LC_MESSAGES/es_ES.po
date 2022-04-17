@@ -1,0 +1,897 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-04-17 18:16+0200\n"
+"PO-Revision-Date: 2022-04-17 18:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: credits.php\n"
+"X-Poedit-SearchPath-1: index.php\n"
+"X-Poedit-SearchPath-2: rules.php\n"
+"X-Poedit-SearchPath-3: schedule.php\n"
+"X-Poedit-SearchPath-4: twcscore.php\n"
+"X-Poedit-SearchPath-5: php/translations.php\n"
+
+#: credits.php:2 credits.php:12
+msgid "Credits"
+msgstr "Créditos"
+
+#: credits.php:13
+msgid "Website Source Code"
+msgstr "Código fuente del sitio web"
+
+#: credits.php:14
+msgid "Developed by:"
+msgstr "Desarrollado por:"
+
+#: credits.php:18
+msgid "Translated by:"
+msgstr "Traducido por:"
+
+#: credits.php:19
+msgid ": Japanese"
+msgstr ": Japonés"
+
+#: credits.php:20
+msgid ": Chinese"
+msgstr ": Chino"
+
+#: credits.php:21
+msgid ": Russian"
+msgstr ": Ruso"
+
+#: credits.php:22
+msgid ": German"
+msgstr ": Alemán"
+
+#: credits.php:23
+msgid ": Spanish"
+msgstr ": Español"
+
+#: index.php:14
+msgid ""
+"<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
+"shooting game competition, first held in 2020 and held every year since. It "
+"is organised by the Touhou gameplay community worldwide."
+msgstr ""
+"<strong>Touhou World Cup (TWC)</strong> es una competencia internacional "
+"anual de juegos de shooter de Touhou, que se celebró por primera vez en 2020 "
+"y se celebra cada año desde entonces. Está organizado por la comunidad de "
+"jugadores de Touhou en todo el mundo."
+
+#: index.php:18
+msgid ""
+"Three teams duke it out on Lunatic and Extra mode, playing on live streams "
+"and playing both high score and survival."
+msgstr ""
+"Tres equipos se enfrentan en Lunatic y modo Extra, jugando en directos, "
+"tanto por puntuación y como por supervivencia."
+
+#: index.php:21
+msgid "See below for official communication channels."
+msgstr "Los canales oficiales de comunicación se encuentran abajo."
+
+#: index.php:24
+msgid "TWC Starts In:"
+msgstr "TWC Comienza en:"
+
+#: index.php:30
+msgid "TWC English Commentary Stream"
+msgstr "Stream de los comentarios del TWC en inglés"
+
+#: index.php:34
+msgid "Official TWC YouTube Channel"
+msgstr "Canal oficial de YouTube de TWC"
+
+#: index.php:38
+msgid "Official TWC Twitter"
+msgstr "Twitter oficial de TWC"
+
+#: php/translations.php:2
+msgid "ReimuA"
+msgstr "ReimuA"
+
+#: php/translations.php:3
+msgid "ReimuB"
+msgstr "ReimuB"
+
+#: php/translations.php:4
+msgid "MarisaA"
+msgstr "MarisaA"
+
+#: php/translations.php:5
+msgid "MarisaB"
+msgstr "MarisaB"
+
+#: php/translations.php:6
+msgid "SakuyaA"
+msgstr "SakuyaA"
+
+#: php/translations.php:7
+msgid "SakuyaB"
+msgstr "SakuyaB"
+
+#: php/translations.php:8
+msgid "ReimuYukari"
+msgstr "Reimu & Yukari"
+
+#: php/translations.php:9
+msgid "MarisaAlice"
+msgstr "Marisa & Alice"
+
+#: php/translations.php:10
+msgid "SakuyaRemilia"
+msgstr "Sakuya & Remilia"
+
+#: php/translations.php:11
+msgid "YoumuYuyuko"
+msgstr "Youmu & Yuyuko"
+
+#: php/translations.php:12
+msgid "Reimu"
+msgstr "Reimu"
+
+#: php/translations.php:13
+msgid "Marisa"
+msgstr "Marisa"
+
+#: php/translations.php:14
+msgid "Sakuya"
+msgstr "Sakuya"
+
+#: php/translations.php:15 php/translations.php:25
+msgid "Youmu"
+msgstr "Youmu"
+
+#: php/translations.php:16
+msgid "Yukari"
+msgstr "Yukari"
+
+#: php/translations.php:17
+msgid "Alice"
+msgstr "Alice"
+
+#: php/translations.php:18
+msgid "Remilia"
+msgstr "Remilia"
+
+#: php/translations.php:19
+msgid "Yuyuko"
+msgstr "Yuyuko"
+
+#: php/translations.php:20
+msgid "ReimuC"
+msgstr "ReimuC"
+
+#: php/translations.php:21
+msgid "MarisaC"
+msgstr "MarisaC"
+
+#: php/translations.php:22
+msgid "SanaeA"
+msgstr "SanaeA"
+
+#: php/translations.php:23
+msgid "SanaeB"
+msgstr "SanaeB"
+
+#: php/translations.php:24
+msgid "Sanae"
+msgstr "Sanae"
+
+#: php/translations.php:26
+msgid "Reisen"
+msgstr "Reisen"
+
+#: php/translations.php:27
+msgid "ReimuSpring"
+msgstr "ReimuPrimavera"
+
+#: php/translations.php:28
+msgid "CirnoSpring"
+msgstr "CirnoPrimavera"
+
+#: php/translations.php:29
+msgid "AyaSpring"
+msgstr "AyaPrimavera"
+
+#: php/translations.php:30
+msgid "MarisaSpring"
+msgstr "MarisaPrimavera"
+
+#: php/translations.php:31
+msgid "ReimuSummer"
+msgstr "ReimuVerano"
+
+#: php/translations.php:32
+msgid "CirnoSummer"
+msgstr "CirnoVerano"
+
+#: php/translations.php:33
+msgid "AyaSummer"
+msgstr "AyaVerano"
+
+#: php/translations.php:34
+msgid "MarisaSummer"
+msgstr "MarisaVerano"
+
+#: php/translations.php:35
+msgid "ReimuAutumn"
+msgstr "ReimuOtoño"
+
+#: php/translations.php:36
+msgid "CirnoAutumn"
+msgstr "CirnoOtoño"
+
+#: php/translations.php:37
+msgid "AyaAutumn"
+msgstr "AyaOtoño"
+
+#: php/translations.php:38
+msgid "MarisaAutumn"
+msgstr "MarisaOtoño"
+
+#: php/translations.php:39
+msgid "ReimuWinter"
+msgstr "ReimuInvierno"
+
+#: php/translations.php:40
+msgid "CirnoWinter"
+msgstr "CirnoInvierno"
+
+#: php/translations.php:41
+msgid "AyaWinter"
+msgstr "AyaInvierno"
+
+#: php/translations.php:42
+msgid "MarisaWinter"
+msgstr "MarisaInvierno"
+
+#: php/translations.php:43
+msgid "ReimuWolf"
+msgstr "ReimuLobo"
+
+#: php/translations.php:44
+msgid "ReimuOtter"
+msgstr "ReimuNutria"
+
+#: php/translations.php:45
+msgid "ReimuEagle"
+msgstr "ReimuÁguila"
+
+#: php/translations.php:46
+msgid "MarisaWolf"
+msgstr "MarisaLobo"
+
+#: php/translations.php:47
+msgid "MarisaOtter"
+msgstr "MarisaNutria"
+
+#: php/translations.php:48
+msgid "MarisaEagle"
+msgstr "MarisaÁguila"
+
+#: php/translations.php:49
+msgid "YoumuWolf"
+msgstr "YoumuLobo"
+
+#: php/translations.php:50
+msgid "YoumuOtter"
+msgstr "YoumuNutria"
+
+#: php/translations.php:51
+msgid "YoumuEagle"
+msgstr "YoumuÁguila"
+
+#: rules.php:2 rules.php:12
+msgid "Rules"
+msgstr "Reglas"
+
+#: rules.php:13
+msgid "Format"
+msgstr "Formato"
+
+#: rules.php:14
+msgid "The players from each team will play against each other simultaneously."
+msgstr "Los jugadores de cada equipo jugaran contra cada uno simultáneamente."
+
+#: rules.php:15
+msgid "For every match, each player can earn points for their team:"
+msgstr "Por cada partida, cada jugador conseguirá puntos para su equipo:"
+
+#: rules.php:17
+msgid "1st place - 2 points"
+msgstr "1er lugar - 2 puntos"
+
+#: rules.php:18
+msgid "2nd place - 1 point"
+msgstr "2do lugar - 1 punto"
+
+#: rules.php:19
+msgid "3rd place - 0 points"
+msgstr "3er lugar - 0 puntos"
+
+#: rules.php:21
+msgid ""
+"In 2-team matches, the first place will gain 2 points and second place will "
+"gain 1 point."
+msgstr ""
+"En partidas de 2 por equipo, el primer lugar ganará 2 puntos y el segundo "
+"ganará 1 punto."
+
+#: rules.php:23
+msgid ""
+"If multiple players have the same TWCScore at the end of a match, they are "
+"considered tied and their points will be split equally."
+msgstr ""
+"Si múltiples jugadores tienen la misma TWCScore al final de una partida, se "
+"les considera empatados y sus puntos se dividirán de manera igual."
+
+#: rules.php:25
+msgid ""
+"Whichever team has the most points at the end of Touhou World Cup is the "
+"winner."
+msgstr ""
+"El equipo que tenga más puntos al final del Touhou World Cup es el ganador."
+
+#: rules.php:27 twcscore.php:2
+msgid "TWCScore"
+msgstr "TWCScore"
+
+#: rules.php:28
+msgid ""
+"The quality of credits is calculated through the <a href=\"twcscore"
+"\">TWCScore Calculator</a>. This is a scoring metric which compensates for "
+"differences in shot type performance so that there is a point of comparison "
+"between credits in a category."
+msgstr ""
+"La calidad de los créditos es calculada a través de <a href=\"twcscore\">la "
+"calculadora de TWCScore</a>. Esta es una métrica que compensa por las "
+"diferencias de rendimiento de tipo de disparo para que haya una comparación "
+"entre créditos en una categoría."
+
+#: rules.php:29
+msgid ""
+"The TWCScore of credits is used to determine player ranking at the end of a "
+"match, with each player's best performing credit being used."
+msgstr ""
+"La TWCScore de créditos es usada para determinar la posición de jugadores al "
+"final de una partida, con el crédito de mejor rendimiento por jugador siendo "
+"considerado."
+
+#: rules.php:30
+msgid ""
+"For Survival Categories, each shot type starts with a prescribed TWCScore "
+"with this value being cut in half every time the player dies."
+msgstr ""
+"Para las categorías de supervivencia, cada tipo de disparo empieza con una "
+"TWCScore predeterminada y este valor es dividido a la mitad cada vez que el "
+"jugador muere."
+
+#: rules.php:31
+msgid ""
+"For Scoring Categories, TWCScore increases exponentially as the player's in-"
+"game score increases."
+msgstr ""
+"Para las categorías de puntuación, la TWCScore incrementa exponencialmente "
+"mientras la puntuación del jugador dentro del juego incremente. "
+
+#: rules.php:33
+msgid "Reset Timer"
+msgstr "Temporizador de Reinicio"
+
+#: rules.php:34
+msgid ""
+"Each Category has a Reset Timer which counts down as the match progresses, "
+"this shows the time in which a player can start a new credit."
+msgstr ""
+"Cada categoría tiene un Temporizador de Reinicio que cuenta hacia atrás "
+"conforme la partida avance, esto muestra el tiempo en el que un jugador "
+"puede iniciar un crédito nuevo."
+
+#: rules.php:35
+msgid ""
+"Players can start as many credits as they want while the Reset Timer is "
+"counting down."
+msgstr ""
+"Los jugadores pueden volver a usar tantos créditos como quieran mientras el "
+"Temporizador de Reinicio siga contando hacia atrás."
+
+#: rules.php:36
+msgid ""
+"When the timer reaches zero, the players cannot start any new credits, but "
+"they can finish a credit already in progress."
+msgstr ""
+"Cuando el temporizador llegue a cero, los jugadores ya no podrán empezar un "
+"crédito nuevo, pero pueden terminar el que tienen en progreso."
+
+#: rules.php:38
+msgid "Gameplay Rules"
+msgstr "Reglas de Juego"
+
+#: rules.php:39
+msgid "Survival Categories"
+msgstr "Categorías de Supervivencia"
+
+#: rules.php:40
+msgid ""
+"In Survival Categories, players will try to finish the game without dying. "
+"They can only die a maximum of five timesand are not allowed to use bombs or "
+"any other in game mechanics to help them."
+msgstr ""
+"En las Categorías de Supervivencia, los jugadores tratarán de finalizar el "
+"juego sin morir. Solo pueden morir un máximo de cinco veces y no se les "
+"permite usar bombas o cualquier mecánica dentro del juego para ayudarlos."
+
+#: rules.php:42
+msgid ""
+"Here is a quick breakdown of how different game mechanics affect Survival "
+"Categories:"
+msgstr ""
+"Este es un desglose de cómo las diferentes mecánicas de juego afectan las "
+"Categorías de Supervivencia:"
+
+#: rules.php:43
+msgid "All Touhou Games"
+msgstr "Todos los juegos de Touhou"
+
+#: rules.php:44
+msgid "Bombs: Bombing at anytime is considered two deaths."
+msgstr "Bombas: Usar bombas en cualquier momento se cuenta como dos muertes."
+
+#: rules.php:45 twcscore.php:23
+msgid "Touhou 7"
+msgstr "Touhou 7"
+
+#: rules.php:46
+msgid ""
+"Supernatural Border: Breaking a border manually by pressing the bomb key is "
+"considered two deaths. However, running into a bullet while a border is "
+"active will only count as one death."
+msgstr ""
+"Borde Supernatural: Romper un borde manualmente apretando la tecla de bomba "
+"se considera como dos muertes. Sin embargo, chocar con una bala mientras un "
+"borde está activo solo contará como una muerte."
+
+#: rules.php:48 twcscore.php:26
+msgid "Touhou 8"
+msgstr "Touhou 8"
+
+#: rules.php:49
+msgid ""
+"Last Spell: Getting hit during a Last Spell is <strong>not</strong> "
+"considered a death in survival runs. However, never dying or bombing and "
+"capturing every Spell Card, including Last Spells, awards a TWCScore bonus "
+"(NN + FS)."
+msgstr ""
+"Last Spell: Recibir una bala durante una Last Spell <strong>no</strong> se "
+"considera como una muerte."
+
+#: rules.php:50 twcscore.php:35
+msgid "Touhou 12"
+msgstr "Touhou 12"
+
+#: rules.php:51
+msgid ""
+"UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens "
+"is allowed and does not count as a death."
+msgstr ""
+"UFOs: Invocar un UFO se considera como una muerte. Sin embargo, recolectar "
+"objetos UFO se permite y no cuenta como una muerte."
+
+#: rules.php:52 twcscore.php:41
+msgid "Touhou 13"
+msgstr "Touhou 13"
+
+#: rules.php:53
+msgid ""
+"Trance: A manually activated trance is considered two deaths."
+"<br>Additionally, there is a TWCScore Bonus for a credit that captures all "
+"spellcards and finishes with zero deaths."
+msgstr ""
+"Trance: Un trance activado manualmente cuenta como dos muertes."
+"<br>Adicionalmente, hay un bono de TWCScore por un crédito que capture todas "
+"las Spell Cards y termine con cero muertes."
+
+#: rules.php:55 twcscore.php:50
+msgid "Touhou 16"
+msgstr "Touhou 16"
+
+#: rules.php:56
+msgid "Season Release: Releasing your season gauge is considered two deaths."
+msgstr ""
+"Liberar Estación: Liberar tu medidor de estación se considera como dos "
+"muertes."
+
+#: rules.php:57 twcscore.php:53
+msgid "Touhou 17"
+msgstr "Touhou 17"
+
+#: rules.php:58
+msgid ""
+"Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal "
+"tokens during roar mode) is considered 2 deaths. Breaking a Beserk Roar by "
+"touching a bullet gives no extra punishment. However, breaking either a "
+"Beserk Roar or a Standard Roar by pressing the bomb key will always be "
+"considered one death."
+msgstr ""
+"Espíritus Animales: Canalizar un Rugido Furioso (3 o más de los mismos "
+"objetos animales durante modo rugido) es considerado 2 muertes. Romper un "
+"Rugido Furioso con una bala no te penaliza de más. Sin embargo, romper ya "
+"sea un Rugido Furioso o un Rugido Normal apretando la tecla de bomba siempre "
+"se considerará como una muerte."
+
+#: rules.php:61 twcscore.php:56
+msgid "Touhou 18"
+msgstr "Touhou 18"
+
+#: rules.php:62
+msgid ""
+"Cards: Players are not allowed to use cards.<br>Additionally, the players "
+"are only allowed to buy \"Money Comes and Goes On its Own\" from the card "
+"shop between stages."
+msgstr ""
+"Cartas: A los jugadores no se les permite usar cartas.<br>Adicionalmente, a "
+"los jugadores solo se les permite comprar \"El Dinero viene cuando le "
+"conviene\" de la tienda de cartas entre niveles."
+
+#: rules.php:65
+msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
+msgstr "<em>La carta \"El Dinero viene cuando le conviene\".</em>"
+
+#: rules.php:66
+msgid "Scoring Categories"
+msgstr "Categorías de Puntuación"
+
+#: rules.php:67
+msgid ""
+"In Scoring Categories the players will try to finish the game while gaining "
+"the highest score possible. They can die, bomb and use any other mechanics "
+"as much as they want."
+msgstr ""
+"En las Categorías de Puntuación los jugadores tratarán de terminar el juego "
+"mientras consiguen la puntuación más alta posible. Pueden morir, usar bombas "
+"y cualquier otra mecánica tanto como quieran."
+
+#: rules.php:69
+msgid "Some extra details about Scoring Categories:"
+msgstr "Algunos detalles extra sobre las Categorías de Puntuación:"
+
+#: rules.php:71
+msgid ""
+"Unlike previous years of TWC, there is now no penalty to TWCScore if a "
+"player Game Overs in a Scoring Category."
+msgstr ""
+"A diferencia de los años anteriores en TWC, no hay penalización a la "
+"TWCScore si sucede un Game Over en las Categorías de Puntuación."
+
+#: rules.php:72
+msgid ""
+"In Touhou 17 and Touhou 18, it is possible to reach the maximum value the "
+"score counter can display, known as a counterstop. If this happens, we will "
+"use the player's \"True Score\" which can be determined by using counterstop "
+"removal patches."
+msgstr ""
+"En Touhou 17 y Touhou 18, es posible llegar al valor máximo de puntuación "
+"que el marcador de puntuación puede mostrar, conocido como counterstop. Si "
+"esto sucede, usaremos la \"Puntuación Verdadera\" del jugador, que se "
+"determina usando parches para remover  elcounterstop."
+
+#: rules.php:74
+msgid ""
+"In Touhou 12, the score counter will display the player's score incorrectly "
+"if the score reaches a high enough value. However, if this happens, the game "
+"will still record the player's score correctly on the high score leaderboard "
+"and that value will be used instead."
+msgstr ""
+"En Touhou 12, el marcador de puntuación mostrará la puntuación del jugador "
+"de manera incorrecta si llega a un valor bastante alto. Sin embargo, si eso "
+"pasa, el juego aún guardará la puntuación del jugador de manera correcta en "
+"la clasificación de puntuación y ese valor será el que será usado."
+
+#: rules.php:79
+msgid "Allowed Game Mods"
+msgstr "Mods de Juego Permitidos"
+
+#: rules.php:80
+msgid "Vpatch is allowed for all applicable games."
+msgstr "VPatch se permite para todos los juegos aplicables."
+
+#: rules.php:81
+msgid ""
+"thprac can be used for practice during a match, but all cheats must be "
+"disabled when performing credits."
+msgstr ""
+"thprac puede usarse para practicar durante una partida, pero todos los "
+"trucos deben desactivarse al realizar créditos."
+
+#: rules.php:82
+msgid "Counterstop Removal Patches and Scorebug Patches are allowed."
+msgstr ""
+"Parche removedor de counterstop y parches de bugs de puntuación son "
+"permitidos."
+
+#: rules.php:83
+msgid "Visual, Audio and Translation patches are not allowed."
+msgstr "Parches visuales, de audio y traducciones no son permitidos."
+
+#: rules.php:85
+msgid "Other Rules"
+msgstr "Otras Reglas"
+
+#: rules.php:87
+msgid ""
+"Players must stream their gameplay while playing their match, without "
+"covering any HUD or gameplay elements."
+msgstr ""
+"Los jugadores deben transmitir su juego mientras juegan una partida, sin "
+"cubrir ningún elemento del HUD o del juego."
+
+#: rules.php:88
+msgid ""
+"The replay file of each player's best performing credit must be submitted to "
+"the TWC Committee at the end of a match."
+msgstr ""
+"El archivo de repetición del crédito de mejor rendimiento de cada jugador "
+"debe mostrarse al Comité del TWC al final de cada partida."
+
+#: rules.php:89
+msgid "Please hide the ending when you reach the end of the game."
+msgstr "Por favor oculta el final cuando termines el juego."
+
+#: rules.php:92
+msgid "Full Official Rules"
+msgstr "Reglas Oficiales Completas"
+
+#: rules.php:93
+#, fuzzy
+#| msgid ""
+#| "The full official rulebook can be found <a href=\"\">here</a>. Currently, "
+#| "it is only available in the English language."
+msgid ""
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook_v1.01."
+"pdf\">here</a>. Currently, it is only available in the English language."
+msgstr ""
+"El libro oficial de reglas completas lo puedes encontrar <a href=\"assets/"
+"TWC_Handbook_v1.01.pdf\">aquí</a>. Por el momento, solo se encuentra en el "
+"idioma inglés."
+
+#: rules.php:94
+msgid "Back to Top"
+msgstr ""
+
+#: schedule.php:2 schedule.php:12
+msgid "Schedule"
+msgstr "Horario"
+
+#: schedule.php:13
+msgid "Coming soon!"
+msgstr "¡Próximamente!"
+
+#: twcscore.php:12
+msgid "TWCScore Calculator"
+msgstr "Calculadora de TWCScore"
+
+#: twcscore.php:13
+msgid "This page requires JavaScript"
+msgstr "Esta página requiere JavaScript"
+
+#: twcscore.php:14
+msgid ""
+"Use this page to calculate TWCScore for any particular run. TWCScore is "
+"subject to change."
+msgstr ""
+"Usa esta página para calcular la TWCScore para una partida en particular. La "
+"TWCScore están sujetos a cambio."
+
+#: twcscore.php:16
+msgid "Game"
+msgstr "Juego"
+
+#: twcscore.php:20
+msgid "Touhou 6"
+msgstr "Touhou 6"
+
+#: twcscore.php:20
+msgid "Touhou 6: Embodiment of Scarlet Devil"
+msgstr "Touhou 6: Embodiment of Scarlet Devil"
+
+#: twcscore.php:23
+msgid "Touhou 7: Perfect Cherry Blossom"
+msgstr "Touhou 7: Perfect Cherry Blossom"
+
+#: twcscore.php:26
+msgid "Touhou 8: Imperishable Night"
+msgstr "Touhou 8: Imperishable Night"
+
+#: twcscore.php:29
+msgid "Touhou 10"
+msgstr "Touhou 10"
+
+#: twcscore.php:29
+msgid "Touhou 10: Mountain of Faith"
+msgstr "Touhou 10: Mountain of Faith"
+
+#: twcscore.php:32
+msgid "Touhou 11"
+msgstr "Touhou 11"
+
+#: twcscore.php:32
+msgid "Touhou 11: Subterranean Aminism"
+msgstr "Touhou 11: Subterranean Aminism"
+
+#: twcscore.php:35
+msgid "Touhou 12: Undefined Fantastic Object"
+msgstr "Touhou 12: Undefined Fantastic Object"
+
+#: twcscore.php:38
+msgid "Touhou 12.8"
+msgstr "Touhou 12.8"
+
+#: twcscore.php:38
+msgid "Touhou 12.8: Great Fairy Wars"
+msgstr "Touhou 12.8: Great Fairy Wars"
+
+#: twcscore.php:41
+msgid "Touhou 13: Ten Desires"
+msgstr "Touhou 13: Ten Desires"
+
+#: twcscore.php:44
+msgid "Touhou 14"
+msgstr "Touhou 14"
+
+#: twcscore.php:44
+msgid "Touhou 14: Double Dealing Character"
+msgstr "Touhou 14: Double Dealing Character"
+
+#: twcscore.php:47
+msgid "Touhou 15"
+msgstr "Touhou 15"
+
+#: twcscore.php:47
+msgid "Touhou 15: Legacy of Lunatic Kingdom"
+msgstr "Touhou 15: Legacy of Lunatic Kingdom"
+
+#: twcscore.php:50
+msgid "Touhou 16: Hidden Star in Four Seasons"
+msgstr "Touhou 16: Hidden Star in Four Seasons"
+
+#: twcscore.php:53
+msgid "Touhou 17: Wily Beast and Weakest Creature"
+msgstr "Touhou 17: Wily Beast and Weakest Creature"
+
+#: twcscore.php:56
+msgid "Touhou 18: Unconnected Marketeers"
+msgstr "Touhou 18: Unconnected Marketeers"
+
+#: twcscore.php:60
+msgid "Shottype / Route"
+msgstr "Tipo de Disparo / Ruta"
+
+#: twcscore.php:79
+msgid "Category"
+msgstr "Categoría"
+
+#: twcscore.php:82 twcscore.php:83
+msgid "Survival"
+msgstr "Supervivencia"
+
+#: twcscore.php:85 twcscore.php:86
+msgid "Scoring"
+msgstr "Puntuación"
+
+#: twcscore.php:92
+msgid "Full Spell"
+msgstr "Spell Completa"
+
+#: twcscore.php:98
+msgid "Misses"
+msgstr "Muertes"
+
+#: twcscore.php:106
+msgid "Score"
+msgstr "Puntuación"
+
+#: twcscore.php:112
+msgid "Gold medals"
+msgstr "Medallas de Oro"
+
+#: twcscore.php:120
+msgid "Difficulty"
+msgstr "Dificultad"
+
+#: twcscore.php:129
+msgid "Final Stage"
+msgstr "Nivel Final"
+
+#: twcscore.php:131
+msgid "FinalA"
+msgstr "FinalA"
+
+#: twcscore.php:132
+msgid "FinalB"
+msgstr "FinalB"
+
+#: twcscore.php:138
+msgid "Please fill out the game"
+msgstr "Por favor llene el juego"
+
+#: twcscore.php:139
+msgid "Please fill out the shottype"
+msgstr "Por favor llene el tipo de disparo"
+
+#: twcscore.php:140
+msgid "Please fill out the miss count"
+msgstr "Por favor llene el contador de muertes"
+
+#: twcscore.php:141
+msgid "Please fill out the score"
+msgstr "Por favor llene la puntuación"
+
+#: twcscore.php:142
+msgid "Please fill out the Final Stage"
+msgstr "Por favor llene el Nivel Final"
+
+#: twcscore.php:143
+msgid "Please fill out the gold medals"
+msgstr "Por favor llene las medallas de oro"
+
+#: twcscore.php:144
+msgid ""
+"FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
+"<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
+msgstr ""
+"ERROR FATAL: tipo erróneo para \"element\" en get_element_val. Por favor "
+"contacte <a href=\"https://twitter.com/32thc\" target=\"_blank\">32th "
+"System</a>"
+
+#: twcscore.php:148
+msgid "Calculate"
+msgstr "Calcular"
+
+#: twcscore.php:154
+msgid "TWCScore:"
+msgstr "TWCScore:"
+
+#~ msgid "Language"
+#~ msgstr "Idioma"
+
+#~ msgid "Flag of the United Kingdom"
+#~ msgstr "Bandera de Reino Unido"
+
+#~ msgid "Flag of the United States"
+#~ msgstr "Bandera de Estados Unidos"
+
+#~ msgid "Flag of Japan"
+#~ msgstr "Bandera de Japón"
+
+#~ msgid "Flag of the P.R.C."
+#~ msgstr "Bandera de los R.P.C."
+
+#~ msgid "Flag of Russia"
+#~ msgstr "Bandera de Rusia"
+
+#~ msgid "Flag of Germany"
+#~ msgstr "Bandera de Alemania"
+
+#~ msgid "Flag of Spain"
+#~ msgstr "Bandera de España"
+
+#~ msgid "Last Spell: Getting hit during a Last Spell is considered a death."
+#~ msgstr ""
+#~ "Last Spell: Recibir una bala durante una Last Spell se considera como una "
+#~ "muerte."
+
+#~ msgid ""
+#~ "The TWCScore of a credit can be calculated using the <a href=\"twcscore"
+#~ "\">TWCScore Calculator</a>."
+#~ msgstr ""
+#~ "La PuntuaciónTWC de un crédito se puede calcular con la <a href=\"twcscore"
+#~ "\">Calculadora de PuntuaciónTWC</a>."

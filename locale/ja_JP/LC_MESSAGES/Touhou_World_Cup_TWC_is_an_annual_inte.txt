@@ -1,0 +1,113 @@
+Touhou World Cup (TWC) is an annual international Touhou shooting game competition, first held in 2020 and held every year since. It is organised by the Touhou gameplay community worldwide.
+東方ワールドカップ（TWC）は、2020年に初開催され、その後毎年開催されている東方シューティングゲーム(以下STG)の国際大会です。世界中の東方ゲームプレイコミュニティによって主催されています。
+
+See below for official communication channels.
+公式なコミュニケーションチャネルは以下からご参照ください。
+
+TWC starts in:
+TWCは以下のルールでスタートします。
+
+The players from each team will play against each other simultaneously.
+各チームのプレイヤーが同時に対戦します。
+
+The TWCScore of credits is used to determine player ranking at the end of a match, with each player's best performing credit being used.
+走者のクレジットの結果（TWCScore）は、試合終了時のプレイヤーランキングを決定するために使用され、各プレイヤーの最も良いクレジットが採用されます。
+
+For Survival Categories, each shot type starts with a prescribed TWCScore with this value being cut in half every time the player dies.
+サバイバルカテゴリでは、各ショットタイプが規定のTWCScoreで始まり、プレイヤーが被弾するたびに半分になります。
+
+For Scoring Categories, TWCScore increases exponentially as the player's in-game score increases. 
+スコアリングカテゴリの場合では、TWCScoreはプレイヤーのゲーム内スコアが増加するにつれて指数関数的に増加します。
+
+Each Category has a Reset Timer which counts down as the match progresses, this shows the time in which a player can start a new credit.
+各カテゴリーにはリセットタイマーがあり、試合の進行に応じてカウントダウンされ、新しいクレジットを開始できる時間が表示されます。
+
+Players can start as many credits as they want while the Reset Timer is counting down.
+リセットタイマーがカウントダウンしている間、プレイヤーは何度でもクレジットをスタートさせることができます。
+
+When the timer reaches zero, the players cannot start any new credits, but they can finish a credit already in progress.
+タイマーがゼロになると、プレイヤーは新しいクレジットを開始することはできませんが、すでに進行中のクレジットを完走することはできます。
+
+Gameplay Rules
+ゲームプレイにおいてのルール
+
+Survival Categories
+サバイバルカテゴリについて
+
+In Survival Categories, players will try to finish the game without dying. They can only die a maximum of five timesand are not allowed to use bombs or any other in game mechanics to help them.
+サバイバルカテゴリーでは、プレイヤーは出来るだけ被弾せずゲームをクリアすることを目指します。最大5回までしか被弾することができず、また、ボムやゲーム内サブシステムを使って被弾を回避することは許されません。
+
+Here is a quick breakdown of how different game mechanics affect Survival Categories:
+サバイバルカテゴリでの各作品においての簡単な説明です。
+
+All Touhou Games
+すべての作品共通
+
+Bombs: Bombing at anytime is considered two deaths.
+ボム：1⃣ボム使用あたり２被弾扱いとなります。
+
+Supernatural Border: Breaking a border manually by pressing the bomb key is considered two deaths. However, running into a bullet while a border is active will only count as one death.
+森羅結界：ボムキー押下による霊撃は２被弾扱いですが、被弾による霊撃は１被弾扱いとなります。
+
+Last Spell: Getting hit during a Last Spell is considered a death.
+ラストスペル：ラストスペル中の被弾は１被弾扱いとなります。
+
+Cards: Players are not allowed to use cards.
+Additionally, the players are only allowed to buy "Money Comes and Goes On its Own" from the card shop between stages.
+カードの使用：カードの使用は認められていません。
+ステージ間のショップでは「勝手に天下の回り物」(ナズーリンカード)の購入が許可されます。
+
+<em>The "Money Comes and Goes On its Own" card.</em>
+
+
+
+Scoring Categories
+スコアリングカテゴリについて
+
+In Scoring Categories the players will try to finish the game while gaining the highest score possible. They can die, bomb and use any other mechanics as much as they want.
+スコアリングカテゴリでは、プレイヤーはより高いスコアを獲得することを目指します。
+被弾、ボムの使用、サブシステムなどを自由に使用することが出来ます。
+
+Some extra details about Scoring Categories:
+スコアリングカテゴリについての詳細
+
+Unlike previous years of TWC, there is now no penalty to TWCScore if a player Game Overs in a Scoring Category.
+昨年までのTWCと違い、満身創痍にペナルティーが無くなりました。
+
+In Touhou 17 and Touhou 18, it is possible to reach the maximum value the score counter can display, known as a counterstop. If this happens, we will use the player's "True Score" which can be determined by using counterstop removal patches.
+東方鬼形獣、東方虹龍洞において、いわゆるスコアの「カンスト」が起きた場合、カウンターストップ解除パッチにより
+「本来のスコア」が競技に適用されます。
+
+In Touhou 12, the score counter will display the player's score incorrectly if the score reaches a high enough value. However, if this happens, the game will still record the player's score correctly on the high score leaderboard and that value will be used instead.
+東方星蓮船ではスコアが一定以上になるとスコアカウンターが正常に機能しなくなります。（いわゆるスコアバグ）
+しかしリーダーボードでは正しいスコアが表記されるため、そのスコアが採用されます。
+
+
+
+Allowed Game Mods
+許可されているゲーム改変ツール
+
+Counterstop Removal Patches and Scorebug Patches are allowed.
+カウンターストップ解除パッチ、スコアバグ回避パッチは許可されます。
+
+Visual, Audio and Translation patches are not allowed.
+ゲーム画面改変、音声改変、翻訳パッチは許可されません。
+
+The replay file of each player's best performing credit must be submitted to the TWC Committee at the end of a match.
+試合終了後、各プレイヤーはベストパフォーマンスのリプレイファイルをTWC運営に提出すること。
+
+
+Full Official Rules
+公式ルール全文
+
+The full official rulebook can be found here[link]. Currently, it is only available in the English language.
+公式ルール全文はこちらにあります[link]が、現在英語のみとなっています。
+
+Coming soon!
+今しばらくお待ち下さい。
+
+Use this page to calculate TWCScore for any particular run. TWCScore is subject to change.
+このページでは特定のプレイのTWCスコアを計算することが出来ます。TWCスコアは変更される可能性があります。
+
+Please fill out the miss count
+ミス回数を記入してください。
