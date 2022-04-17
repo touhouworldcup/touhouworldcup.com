@@ -48,7 +48,7 @@ iframe {
 #cards {
     text-align: center;
 }
-@media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 1950px) {
     .card {
         width: 300px;
     }
