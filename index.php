@@ -29,6 +29,10 @@
             <img class="thumbnail" src="/assets/twitch.png" alt="TWC Twitch stream" width=500 height=320>
             <span class="title large"><img class="icon" src="/assets/icons/twitch-icon.png" alt="Twitch icon" width=64 height=64> <?php echo _('TWC English Commentary Stream') ?></span>
         </a></div>
+        <div class="card"><a href="https://www.youtube.com/channel/UCfF3O4wo0YxppTZGmtTGDwg" class="card_link" target="_blank">
+            <img class="thumbnail" src="/assets/jpyt.png" alt="TWC Japanese stream" width=500 height=320>
+            <span class="title large"><img class="icon" src="/assets/icons/youtube-icon.png" alt="YouTube icon" width=64 height=64> <?php echo _('TWC Japanese Commentary Stream') ?></span>
+        </a></div>
         <div class="card"><a href="https://www.youtube.com/c/TouhouWorldCup" class="card_link" target="_blank">
             <img class="thumbnail" src="/assets/youtube.png" alt="TWC YouTube channel" width=500 height=320>
             <span class="title large"><img class="icon" src="/assets/icons/youtube-icon.png" alt="YouTube icon" width=64 height=64> <?php echo _('Official TWC YouTube Channel') ?></span>
