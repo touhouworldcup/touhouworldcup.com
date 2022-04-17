@@ -12,7 +12,7 @@
 	<h1><?php echo _('Credits') ?></h1>
 	<h2><a href="https://github.com/touhouworldcup/touhouworldcup.com"><?php echo _('Website Source Code') ?></a></h2>
 	<p><?php echo _('Developed by:') ?><ul class="list">
-        <li><a href="https://twitter.com/32thc" target="_blank">32th System</a></li>
+        <li><a href="https://www.youtube.com/channel/UChyVpooBi31k3xPbWYsoq3w" target="_blank">32th System</a></li>
         <li><a href="https://twitter.com/MaribelHearn42" target="_blank">Maribel Hearn</a></li>
     </ul></p>
 	<p><?php echo _('Translated by:') ?><ul class="list">
