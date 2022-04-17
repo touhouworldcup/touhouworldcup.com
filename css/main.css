@@ -8,7 +8,7 @@ iframe {
   	-webkit-box-shadow: 2px 2px 2px 1px #888;
     margin: 0px 15px 25px 15px;
     display: inline-block;
-    width: 500px;
+    width: 400px;
 }
 .card:hover {
     background-color: #555;
@@ -48,7 +48,7 @@ iframe {
 #cards {
     text-align: center;
 }
-@media only screen and (max-width: 1950px) {
+@media only screen and (max-width: 1850px) {
     .card {
         width: 300px;
     }
@@ -61,5 +61,14 @@ iframe {
     }
     .icon {
         margin-right: 0px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .card {
+        width: 200px;
+    }
+    .thumbnail {
+        width: 200px;
+        height: 128px;
     }
 }
