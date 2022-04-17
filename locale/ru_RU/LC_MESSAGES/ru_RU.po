@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-17 20:04+0200\n"
-"PO-Revision-Date: 2022-04-17 20:04+0200\n"
+"POT-Creation-Date: 2022-04-17 20:33+0200\n"
+"PO-Revision-Date: 2022-04-17 20:33+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -92,10 +92,14 @@ msgid "TWC English Commentary Stream"
 msgstr "Английский стрим TWC"
 
 #: index.php:34
+msgid "TWC Japanese Commentary Stream"
+msgstr "Японский стрим TWC"
+
+#: index.php:38
 msgid "Official TWC YouTube Channel"
 msgstr "Официальный канал TWC на Youtube"
 
-#: index.php:38
+#: index.php:42
 msgid "Official TWC Twitter"
 msgstr "Официальный Твиттер TWC"
 
