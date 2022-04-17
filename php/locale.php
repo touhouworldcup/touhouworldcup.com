@@ -23,22 +23,29 @@ function query_string() {
     return '';
 }
 
+function parse_accept_language() {
+    return str_replace('-', '_', preg_split('/,/', $_SERVER['HTTP_ACCEPT_LANGUAGE'])[0]);
+}
+
+function check_hl(string $hl) {
+    switch ($hl) {
+        case 'en-us': return 'en_US';
+        case 'jp': return 'ja_JP';
+        case 'zh': return 'zh_CN';
+        case 'ru': return 'ru_RU';
+        case 'de': return 'de_DE';
+        case 'es': return 'es_ES';
+        default: return 'en_GB';
+    }
+}
+
 if (empty($_GET['hl'])) {
-    $lang = 'en_GB';
-} else {
-    if ($_GET['hl'] == 'en-us') {
-        $lang = 'en_US';
-    } else if ($_GET['hl'] == 'jp') {
-        $lang = 'ja_JP';
-    } else if ($_GET['hl'] == 'zh') {
-        $lang = 'zh_CN';
-    } else if ($_GET['hl'] == 'ru') {
-        $lang = 'ru_RU';
-    } else if ($_GET['hl'] == 'de') {
-        $lang = 'de_DE';
-    } else {
+    $lang = parse_accept_language();
+    if ($lang == 'en_US') {
         $lang = 'en_GB';
     }
+} else {
+    $lang = check_hl($_GET['hl']);
     if (is_localhost()) {
         setcookie('lang', $lang, array(
             'expires' => 2147483647,
