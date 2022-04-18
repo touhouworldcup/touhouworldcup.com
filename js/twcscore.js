@@ -11,6 +11,7 @@ iscore.get_survival = (game, shot, miss, FS, end) => {
 	if (miss) {
         FS = 0;
     }
+
 	if (game === "th08") {
 		iscore_val = iscore_survival_table["th08"][end][shot][FS];
 	} else if (game === "th13") {
@@ -18,11 +19,12 @@ iscore.get_survival = (game, shot, miss, FS, end) => {
 	} else {
 		iscore_val = iscore_survival_table[game][shot];
 	}
+
 	for (let i = 0; i < miss; i++) {
 		iscore_val /= 2;
 	}
 
-	return iscore_val;
+	return miss > 5 ? 0 : iscore_val;
 }
 
 iscore.get_th128_survival = (medals, miss) => {
