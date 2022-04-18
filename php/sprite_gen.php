@@ -16,4 +16,9 @@ for ($i = 0; $i < count($shots); $i++) {
     $y = floor($i / $row_size) * $offset;
     echo '#' . $shots[$i] . '{background-position:' . $x . 'px ' . $y . 'px}';
 }
+$games = array('th06', 'th07', 'th08', 'th09', 'th10', 'th11', 'th12', 'th128', 'th13', 'th14', 'th15', 'th16', 'th17', 'th18');
+for ($i = 0; $i < count($games); $i++) {
+    $x = $i * $offset;
+    echo '#cover_' . $games[$i] . '{background-position:' . $x . 'px 0px}';
+}
 ?>
