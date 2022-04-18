@@ -58,14 +58,19 @@ button {
     display: none;
     color: red;
 }
+.game {
+    display: none;
+}
+.cover {
+    background-image: url('../assets/games_sheet.jpg');
+}
 .shottype {
     background-image: url('../assets/shots_sheet.png');
+}
+.shottype, .cover {
     display: inline-block;
     height: 100px;
     width: 100px;
-}
-.game {
-    display: none;
 }
 .cover, .shottype {
     opacity: 0.7;
