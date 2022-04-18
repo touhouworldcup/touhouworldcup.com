@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-17 20:38+0200\n"
-"PO-Revision-Date: 2022-04-17 20:38+0200\n"
+"POT-Creation-Date: 2022-04-18 13:45+0200\n"
+"PO-Revision-Date: 2022-04-18 13:45+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -404,8 +404,8 @@ msgstr ""
 #: rules.php:40
 msgid ""
 "In Survival Categories, players will try to finish the game without dying. "
-"They can only die a maximum of five timesand are not allowed to use bombs or "
-"any other in game mechanics to help them."
+"They can only die a maximum of five times and are not allowed to use bombs "
+"or any other in game mechanics to help them."
 msgstr ""
 
 #: rules.php:42

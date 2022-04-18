@@ -38,7 +38,7 @@
     <h2><?php echo _('Gameplay Rules') ?></h2>
         <h3><?php echo _('Survival Categories') ?></h3>
             <p><?php echo _('In Survival Categories, players will try to finish the game without dying. ' .
-            'They can only die a maximum of five timesand are not allowed to use bombs or any other in game mechanics to help them.') ?></p>
+            'They can only die a maximum of five times and are not allowed to use bombs or any other in game mechanics to help them.') ?></p>
             <p><?php echo _('Here is a quick breakdown of how different game mechanics affect Survival Categories:') ?></p>
             <h4><?php echo _('All Touhou Games') ?></h4>
                 <p><?php echo _('Bombs: Bombing at anytime is considered two deaths.') ?></p>
