@@ -16,31 +16,31 @@
 	<label for="games"><?php echo _('Game') ?></label><br>
 	<fieldset name="games" id="games">
         <label>
-    		<input type="radio" name="games" value="th06"><span id="cover_th06" class="cover" width="100" height="100"></span>
+    		<input type="radio" name="games" value="th06"><span id="cover_th06" class="cover" width=100 height=100 title="<?php echo _('Touhou 6: Embodiment of Scarlet Devil') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th07"><span id="cover_th07" class="cover" width="100" height="100"></span>
+    		<input type="radio" name="games" value="th07"><span id="cover_th07" class="cover" width=100 height=100 title="<?php echo _('Touhou 7: Perfect Cherry Blossom') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th08"><span id="cover_th08" class="cover" width="100" height="100"></span>
+    		<input type="radio" name="games" value="th08"><span id="cover_th08" class="cover" width=100 height=100 title="<?php echo _('Touhou 8: Imperishable Night') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th10"><span id="cover_th10" class="cover" width="100" height="100"></span>
+    		<input type="radio" name="games" value="th10"><span id="cover_th10" class="cover" width=100 height=100 title="<?php echo _('Touhou 10: Mountain of Faith') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th11"><span id="cover_th11" class="cover" width="100" height="100"></span>
+    		<input type="radio" name="games" value="th11"><span id="cover_th11" class="cover" width=100 height=100 title="<?php echo _('Touhou 11: Subterranean Animism') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th12"><span id="cover_th12" class="cover" width="100" height="100"></span>
+    		<input type="radio" name="games" value="th12"><span id="cover_th12" class="cover" width=100 height=100 title="<?php echo _('Touhou 12: Undefined Fantastic Object') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th128"><span id="cover_th128" class="cover" width="100" height="100"></span>
+    		<input type="radio" name="games" value="th128"><span id="cover_th128" class="cover" width=100 height=100 title="<?php echo _('Touhou 12.8: Great Fairy Wars') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th13"><span id="cover_th13" class="cover" width="100" height="100"></span>
+    		<input type="radio" name="games" value="th13"><span id="cover_th13" class="cover" width=100 height=100 title="<?php echo _('Touhou 13: Ten Desires') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th14"><span id="cover_th14" class="cover" width="100" height="100"></span>
+    		<input type="radio" name="games" value="th14"><span id="cover_th14" class="cover" width=100 height=100 title="<?php echo _('Touhou 14: Double Dealing Character') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th15"><span id="cover_th15" class="cover" width="100" height="100"></span>
+    		<input type="radio" name="games" value="th15"><span id="cover_th15" class="cover" width=100 height=100 title="<?php echo _('Touhou 15: Legacy of Lunatic Kingdom') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th16"><span id="cover_th16" class="cover" width="100" height="100"></span>
+    		<input type="radio" name="games" value="th16"><span id="cover_th16" class="cover" width=100 height=100 title="<?php echo _('Touhou 16: Hidden Star in Four Seasons') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th17"><span id="cover_th17" class="cover" width="100" height="100"></span>
+    		<input type="radio" name="games" value="th17"><span id="cover_th17" class="cover" width=100 height=100 title="<?php echo _('Touhou 17: Wily Beast and Weakest Creature') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th18"><span id="cover_th18" class="cover" width="100" height="100"></span>
+    		<input type="radio" name="games" value="th18"><span id="cover_th18" class="cover" width=100 height=100 title="<?php echo _('Touhou 18: Unconnected Marketeers') ?>"></span>
         </label>
 	</fieldset><br><br>
 
@@ -66,10 +66,10 @@
 	<label for="runtype"><?php echo _('Category') ?></label><br>
     <fieldset name="runtype" id="runtype">
         <label class="float">
-    		<input type="radio" id="input_surv" name="runtype" value="surv"><img class="cover" src="assets/surv.png" width="100" height="100" alt="<?php echo _('Survival') ?>"><br>
+    		<input type="radio" id="input_surv" name="runtype" value="surv"><img class="cover" src="assets/surv.png" width=100 height=100 alt="<?php echo _('Survival') ?>"><br>
             <label class="pointer" for="input_surv"><?php echo _('Survival') ?></label>
         </label><label class="float">
-    		<input type="radio" id="input_score" name="runtype" value="score"><img class="cover" src="assets/score.png" width="100" height="100" alt="<?php echo _('Scoring') ?>"><br>
+    		<input type="radio" id="input_score" name="runtype" value="score"><img class="cover" src="assets/score.png" width=100 height=100 alt="<?php echo _('Scoring') ?>"><br>
             <label class="pointer" for="input_score"><?php echo _('Scoring') ?></label>
         </label>
 	</fieldset>

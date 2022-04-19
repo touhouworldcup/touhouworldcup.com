@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-18 13:46+0200\n"
-"PO-Revision-Date: 2022-04-18 13:46+0200\n"
+"POT-Creation-Date: 2022-04-19 12:36+0200\n"
+"PO-Revision-Date: 2022-04-19 12:37+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -454,7 +454,7 @@ msgstr "Все игры"
 msgid "Bombs: Bombing at anytime is considered two deaths."
 msgstr "Бомбы: Использование бомбы в любое время считается за две смерти."
 
-#: rules.php:45 twcscore.php:23
+#: rules.php:45
 msgid "Touhou 7"
 msgstr "Touhou 7"
 
@@ -468,7 +468,7 @@ msgstr ""
 "считается за две смерти. Однако, столкновение с пулей при активном барьере "
 "будет считаться только за одну смерть."
 
-#: rules.php:48 twcscore.php:26
+#: rules.php:48
 msgid "Touhou 8"
 msgstr "Touhou 8"
 
@@ -483,7 +483,7 @@ msgstr ""
 "выживание. Однако ISCORE дает большее количество очков за забеги, в которых "
 "были захвачены все бонусные спеллы И ОДНОВРЕМЕННО без бомб и смертей."
 
-#: rules.php:50 twcscore.php:35
+#: rules.php:50
 msgid "Touhou 12"
 msgstr "Touhou 12"
 
@@ -495,7 +495,7 @@ msgstr ""
 "НЛО: Призыв НЛО считается смертью. Однако, сбор НЛО-предметов разрешен и не "
 "считается смертью."
 
-#: rules.php:52 twcscore.php:41
+#: rules.php:52
 msgid "Touhou 13"
 msgstr "Touhou 13"
 
@@ -509,7 +509,7 @@ msgstr ""
 "существует TWCScore бонус за прохождение с захватом всех спелл-карты и без "
 "смертей."
 
-#: rules.php:55 twcscore.php:50
+#: rules.php:55
 msgid "Touhou 16"
 msgstr "Touhou 16"
 
@@ -517,7 +517,7 @@ msgstr "Touhou 16"
 msgid "Season Release: Releasing your season gauge is considered two deaths."
 msgstr "Высвобождение сезона: Высвобождение сезона считается за две смерти."
 
-#: rules.php:57 twcscore.php:53
+#: rules.php:57
 msgid "Touhou 17"
 msgstr "Touhou 17"
 
@@ -535,7 +535,7 @@ msgstr ""
 "рыка-берсерка или стандартного рыка нажатием клавиши бомбы всегда будет "
 "считаться за одну смерть."
 
-#: rules.php:61 twcscore.php:56
+#: rules.php:61
 msgid "Touhou 18"
 msgstr "Touhou 18"
 
@@ -697,155 +697,131 @@ msgstr ""
 msgid "Game"
 msgstr "Игра"
 
-#: twcscore.php:20
-msgid "Touhou 6"
-msgstr "Touhou 6"
-
-#: twcscore.php:20
+#: twcscore.php:19
 msgid "Touhou 6: Embodiment of Scarlet Devil"
 msgstr "Touhou 6: Embodiment of Scarlet Devil"
 
-#: twcscore.php:23
+#: twcscore.php:21
 msgid "Touhou 7: Perfect Cherry Blossom"
 msgstr "Touhou 7: Perfect Cherry Blossom"
 
-#: twcscore.php:26
+#: twcscore.php:23
 msgid "Touhou 8: Imperishable Night"
 msgstr "Touhou 8: Imperishable Night"
 
-#: twcscore.php:29
-msgid "Touhou 10"
-msgstr "Touhou 10"
-
-#: twcscore.php:29
+#: twcscore.php:25
 msgid "Touhou 10: Mountain of Faith"
 msgstr "Touhou 10: Mountain of Faith"
 
-#: twcscore.php:32
-msgid "Touhou 11"
-msgstr "Touhou 11"
-
-#: twcscore.php:32
-msgid "Touhou 11: Subterranean Aminism"
+#: twcscore.php:27
+msgid "Touhou 11: Subterranean Animism"
 msgstr "Touhou 11: Subterranean Aminism"
 
-#: twcscore.php:35
+#: twcscore.php:29
 msgid "Touhou 12: Undefined Fantastic Object"
 msgstr "Touhou 12: Undefined Fantastic Object"
 
-#: twcscore.php:38
-msgid "Touhou 12.8"
-msgstr "Touhou 12.8"
-
-#: twcscore.php:38
+#: twcscore.php:31
 msgid "Touhou 12.8: Great Fairy Wars"
 msgstr "Touhou 12.8: Great Fairy Wars"
 
-#: twcscore.php:41
+#: twcscore.php:33
 msgid "Touhou 13: Ten Desires"
 msgstr "Touhou 13: Ten Desires"
 
-#: twcscore.php:44
-msgid "Touhou 14"
-msgstr "Touhou 14"
-
-#: twcscore.php:44
+#: twcscore.php:35
 msgid "Touhou 14: Double Dealing Character"
 msgstr "Touhou 14: Double Dealing Character"
 
-#: twcscore.php:47
-msgid "Touhou 15"
-msgstr "Touhou 15"
-
-#: twcscore.php:47
+#: twcscore.php:37
 msgid "Touhou 15: Legacy of Lunatic Kingdom"
 msgstr "Touhou 15: Legacy of Lunatic Kingdom"
 
-#: twcscore.php:50
+#: twcscore.php:39
 msgid "Touhou 16: Hidden Star in Four Seasons"
 msgstr "Touhou 16: Hidden Star in Four Seasons"
 
-#: twcscore.php:53
+#: twcscore.php:41
 msgid "Touhou 17: Wily Beast and Weakest Creature"
 msgstr "Touhou 17: Wily Beast and Weakest Creature"
 
-#: twcscore.php:56
+#: twcscore.php:43
 msgid "Touhou 18: Unconnected Marketeers"
 msgstr "Touhou 18: Unconnected Marketeers"
 
-#: twcscore.php:60
+#: twcscore.php:47
 msgid "Shottype / Route"
 msgstr "Шоттип / Раут"
 
-#: twcscore.php:79
+#: twcscore.php:66
 msgid "Category"
 msgstr "Категория"
 
-#: twcscore.php:82 twcscore.php:83
+#: twcscore.php:69 twcscore.php:70
 msgid "Survival"
 msgstr "Выживание"
 
-#: twcscore.php:85 twcscore.php:86
+#: twcscore.php:72 twcscore.php:73
 msgid "Scoring"
 msgstr "Скоринг"
 
-#: twcscore.php:92
+#: twcscore.php:79
 msgid "Full Spell"
 msgstr "Фул Спелл"
 
-#: twcscore.php:98
+#: twcscore.php:85
 msgid "Misses"
 msgstr "Промахи"
 
-#: twcscore.php:106
+#: twcscore.php:93
 msgid "Score"
 msgstr "Счёт"
 
-#: twcscore.php:112
+#: twcscore.php:99
 msgid "Gold medals"
 msgstr "Золотые медали"
 
-#: twcscore.php:120
+#: twcscore.php:107
 msgid "Difficulty"
 msgstr "Уровень сложности"
 
-#: twcscore.php:129
+#: twcscore.php:116
 msgid "Final Stage"
 msgstr "Финальный уровень"
 
-#: twcscore.php:131
+#: twcscore.php:118
 msgid "FinalA"
 msgstr "ФиналА"
 
-#: twcscore.php:132
+#: twcscore.php:119
 msgid "FinalB"
 msgstr "ФиналБ"
 
-#: twcscore.php:138
+#: twcscore.php:125
 msgid "Please fill out the game"
 msgstr "Пожалуйста, укажите игру"
 
-#: twcscore.php:139
+#: twcscore.php:126
 msgid "Please fill out the shottype"
 msgstr "Пожалуйста, укажите шоттип"
 
-#: twcscore.php:140
+#: twcscore.php:127
 msgid "Please fill out the miss count"
 msgstr "Пожалуйста, укажите количество промахов"
 
-#: twcscore.php:141
+#: twcscore.php:128
 msgid "Please fill out the score"
 msgstr "Пожалуйста, укажите счёт"
 
-#: twcscore.php:142
+#: twcscore.php:129
 msgid "Please fill out the Final Stage"
 msgstr "Пожалуйста, укажите финальный уровень"
 
-#: twcscore.php:143
+#: twcscore.php:130
 msgid "Please fill out the gold medals"
 msgstr "Пожалуйста, укажите золотые медали"
 
-#: twcscore.php:144
+#: twcscore.php:131
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
@@ -853,13 +829,31 @@ msgstr ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
 
-#: twcscore.php:148
+#: twcscore.php:135
 msgid "Calculate"
 msgstr "Рассчитать"
 
-#: twcscore.php:154
+#: twcscore.php:141
 msgid "TWCScore:"
 msgstr "TWCScore:"
+
+#~ msgid "Touhou 6"
+#~ msgstr "Touhou 6"
+
+#~ msgid "Touhou 10"
+#~ msgstr "Touhou 10"
+
+#~ msgid "Touhou 11"
+#~ msgstr "Touhou 11"
+
+#~ msgid "Touhou 12.8"
+#~ msgstr "Touhou 12.8"
+
+#~ msgid "Touhou 14"
+#~ msgstr "Touhou 14"
+
+#~ msgid "Touhou 15"
+#~ msgstr "Touhou 15"
 
 #~ msgid "Language"
 #~ msgstr "Язык"
