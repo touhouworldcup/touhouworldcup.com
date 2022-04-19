@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-18 13:46+0200\n"
-"PO-Revision-Date: 2022-04-18 13:46+0200\n"
+"POT-Creation-Date: 2022-04-19 12:37+0200\n"
+"PO-Revision-Date: 2022-04-19 12:38+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -447,7 +447,7 @@ msgstr "すべての作品共通"
 msgid "Bombs: Bombing at anytime is considered two deaths."
 msgstr "ボム：1⃣ボム使用あたり２被弾扱いとなります。"
 
-#: rules.php:45 twcscore.php:23
+#: rules.php:45
 msgid "Touhou 7"
 msgstr "東方妖々夢　～ Perfect Cherry Blossom."
 
@@ -460,7 +460,7 @@ msgstr ""
 "森羅結界：ボムキー押下による霊撃は２被弾扱いですが、被弾による霊撃は１被弾扱"
 "いとなります。"
 
-#: rules.php:48 twcscore.php:26
+#: rules.php:48
 msgid "Touhou 8"
 msgstr "東方永夜抄　～ Imperishable Night."
 
@@ -476,7 +476,7 @@ msgstr ""
 "場合にのみ、より高いTWCScoreが与えられます（TWCScore計算機のFull-SC欄を参"
 "照）。"
 
-#: rules.php:50 twcscore.php:35
+#: rules.php:50
 msgid "Touhou 12"
 msgstr "東方星蓮船　～ Undefined Fantastic Object."
 
@@ -488,7 +488,7 @@ msgstr ""
 "サバイバルマッチではUFOの召喚を被弾として扱います。ただし、ベントラーの取得は"
 "ISCOREに影響を与えません。"
 
-#: rules.php:52 twcscore.php:41
+#: rules.php:52
 msgid "Touhou 13"
 msgstr "東方神霊廟　～ Ten Desires."
 
@@ -502,7 +502,7 @@ msgstr ""
 "ドを取得し、かつ、ノーミスノーボムを達成した場合にのみ、より高いTWCScoreが与"
 "えられます（TWCScore計算機のFull-SC欄を参照）。"
 
-#: rules.php:55 twcscore.php:50
+#: rules.php:55
 msgid "Touhou 16"
 msgstr "東方天空璋　～ Hidden Star in Four Seasons."
 
@@ -510,7 +510,7 @@ msgstr "東方天空璋　～ Hidden Star in Four Seasons."
 msgid "Season Release: Releasing your season gauge is considered two deaths."
 msgstr "サバイバルマッチにおいて、季節解放は２被弾として扱われます。"
 
-#: rules.php:57 twcscore.php:53
+#: rules.php:57
 msgid "Touhou 17"
 msgstr "東方鬼形獣 ～ Wily Beast and Weakest Creature."
 
@@ -526,7 +526,7 @@ msgstr ""
 "は２被弾として扱われます。また、ロアリング中の霊撃（ボムボタン押下または被弾"
 "によるもの）はサバイバルマッチでは１被弾として扱われます。"
 
-#: rules.php:61 twcscore.php:56
+#: rules.php:61
 msgid "Touhou 18"
 msgstr "東方虹龍洞　～ Unconnected Marketeers."
 
@@ -559,7 +559,7 @@ msgstr ""
 
 #: rules.php:69
 msgid "Some extra details about Scoring Categories:"
-msgstr "スコアリングカテゴリについての詳細"
+msgstr "スコアリングカテゴリについての詳細。"
 
 #: rules.php:71
 msgid ""
@@ -682,167 +682,161 @@ msgstr ""
 msgid "Game"
 msgstr "ゲーム"
 
-#: twcscore.php:20
-msgid "Touhou 6"
-msgstr "東方紅魔郷　～ the Embodiment of Scarlet Devil."
-
-#: twcscore.php:20
+#: twcscore.php:19
 msgid "Touhou 6: Embodiment of Scarlet Devil"
 msgstr "東方紅魔郷　～ the Embodiment of Scarlet Devil"
 
-#: twcscore.php:23
+#: twcscore.php:21
 msgid "Touhou 7: Perfect Cherry Blossom"
 msgstr "東方妖々夢　～ Perfect Cherry Blossom"
 
-#: twcscore.php:26
+#: twcscore.php:23
 msgid "Touhou 8: Imperishable Night"
 msgstr "東方永夜抄　～ Imperishable Night"
 
-#: twcscore.php:29
-msgid "Touhou 10"
-msgstr "東方星蓮船　～ Undefined Fantastic Object."
-
-#: twcscore.php:29
+#: twcscore.php:25
 msgid "Touhou 10: Mountain of Faith"
 msgstr "東方風神録　～ Mountain of Faith"
 
-#: twcscore.php:32
-msgid "Touhou 11"
-msgstr "東方星蓮船　～ Undefined Fantastic Object."
-
-#: twcscore.php:32
-msgid "Touhou 11: Subterranean Aminism"
+#: twcscore.php:27
+msgid "Touhou 11: Subterranean Animism"
 msgstr "東方地霊殿　～ Subterranean Animism"
 
-#: twcscore.php:35
+#: twcscore.php:29
 msgid "Touhou 12: Undefined Fantastic Object"
 msgstr "東方星蓮船　～ Undefined Fantastic Object"
 
-#: twcscore.php:38
-msgid "Touhou 12.8"
-msgstr "妖精大戦争　～ 東方三月精"
-
-#: twcscore.php:38
+#: twcscore.php:31
 msgid "Touhou 12.8: Great Fairy Wars"
 msgstr "妖精大戦争　～ 東方三月精"
 
-#: twcscore.php:41
+#: twcscore.php:33
 msgid "Touhou 13: Ten Desires"
 msgstr "東方神霊廟　～ Ten Desires"
 
-#: twcscore.php:44
-msgid "Touhou 14"
-msgstr "東方星蓮船　～ Undefined Fantastic Object."
-
-#: twcscore.php:44
+#: twcscore.php:35
 msgid "Touhou 14: Double Dealing Character"
 msgstr "東方輝針城　～ Double Dealing Character"
 
-#: twcscore.php:47
-msgid "Touhou 15"
-msgstr "東方紺珠伝　～ Legacy of Lunatic Kingdom."
-
-#: twcscore.php:47
+#: twcscore.php:37
 msgid "Touhou 15: Legacy of Lunatic Kingdom"
 msgstr "東方紺珠伝　～ Legacy of Lunatic Kingdom"
 
-#: twcscore.php:50
+#: twcscore.php:39
 msgid "Touhou 16: Hidden Star in Four Seasons"
 msgstr "東方天空璋　～ Hidden Star in Four Seasons"
 
-#: twcscore.php:53
+#: twcscore.php:41
 msgid "Touhou 17: Wily Beast and Weakest Creature"
 msgstr "東方鬼形獣　～ Wily Beast and Weakest Creature"
 
-#: twcscore.php:56
+#: twcscore.php:43
 msgid "Touhou 18: Unconnected Marketeers"
 msgstr "東方虹龍洞　～ Unconnected Marketeers"
 
-#: twcscore.php:60
+#: twcscore.php:47
 msgid "Shottype / Route"
 msgstr "キャラ"
 
-#: twcscore.php:79
+#: twcscore.php:66
 msgid "Category"
 msgstr "カテゴリー"
 
-#: twcscore.php:82 twcscore.php:83
+#: twcscore.php:69 twcscore.php:70
 msgid "Survival"
 msgstr "クリア重視"
 
-#: twcscore.php:85 twcscore.php:86
+#: twcscore.php:72 twcscore.php:73
 msgid "Scoring"
 msgstr "稼ぎ"
 
-#: twcscore.php:92
+#: twcscore.php:79
 msgid "Full Spell"
 msgstr "フルスぺカ"
 
-#: twcscore.php:98
+#: twcscore.php:85
 msgid "Misses"
 msgstr "ミス"
 
-#: twcscore.php:106
+#: twcscore.php:93
 msgid "Score"
 msgstr "スコア"
 
-#: twcscore.php:112
+#: twcscore.php:99
 msgid "Gold medals"
 msgstr "金メダル"
 
-#: twcscore.php:120
+#: twcscore.php:107
 msgid "Difficulty"
 msgstr "難易度"
 
-#: twcscore.php:129
+#: twcscore.php:116
 msgid "Final Stage"
 msgstr "ルート"
 
-#: twcscore.php:131
+#: twcscore.php:118
 msgid "FinalA"
 msgstr "Aルート"
 
-#: twcscore.php:132
+#: twcscore.php:119
 msgid "FinalB"
 msgstr "Bルート"
 
-#: twcscore.php:138
+#: twcscore.php:125
 msgid "Please fill out the game"
 msgstr "ゲームを記入してください"
 
-#: twcscore.php:139
+#: twcscore.php:126
 msgid "Please fill out the shottype"
 msgstr "キャラを記入してください"
 
-#: twcscore.php:140
+#: twcscore.php:127
 msgid "Please fill out the miss count"
 msgstr "ミス回数を記入してください"
 
-#: twcscore.php:141
+#: twcscore.php:128
 msgid "Please fill out the score"
 msgstr "スコアを記入してください"
 
-#: twcscore.php:142
+#: twcscore.php:129
 msgid "Please fill out the Final Stage"
 msgstr "ルートを記入してください"
 
-#: twcscore.php:143
+#: twcscore.php:130
 msgid "Please fill out the gold medals"
 msgstr "金メダルを記入してください"
 
-#: twcscore.php:144
+#: twcscore.php:131
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
 msgstr ""
 
-#: twcscore.php:148
+#: twcscore.php:135
 msgid "Calculate"
 msgstr "計算する"
 
-#: twcscore.php:154
+#: twcscore.php:141
 msgid "TWCScore:"
 msgstr "TWCScore："
+
+#~ msgid "Touhou 6"
+#~ msgstr "東方紅魔郷　～ the Embodiment of Scarlet Devil."
+
+#~ msgid "Touhou 10"
+#~ msgstr "東方星蓮船　～ Undefined Fantastic Object."
+
+#~ msgid "Touhou 11"
+#~ msgstr "東方星蓮船　～ Undefined Fantastic Object."
+
+#~ msgid "Touhou 12.8"
+#~ msgstr "妖精大戦争　～ 東方三月精"
+
+#~ msgid "Touhou 14"
+#~ msgstr "東方星蓮船　～ Undefined Fantastic Object."
+
+#~ msgid "Touhou 15"
+#~ msgstr "東方紺珠伝　～ Legacy of Lunatic Kingdom."
 
 #~ msgid "Language"
 #~ msgstr "言語"
