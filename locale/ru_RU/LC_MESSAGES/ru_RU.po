@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-19 12:36+0200\n"
-"PO-Revision-Date: 2022-04-19 12:37+0200\n"
+"POT-Creation-Date: 2022-05-01 12:22+0200\n"
+"PO-Revision-Date: 2022-05-01 12:22+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -658,12 +658,11 @@ msgstr "Полные официальные правила"
 
 #: rules.php:93
 msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook_v1.01."
-"pdf\">here</a>. Currently, it is only available in the English language."
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf"
+"\">here</a>. Currently, it is only available in the English language."
 msgstr ""
-"Полный официальный свод правил можно найти <a href=\"assets/"
-"TWC_Handbook_v1.01.pdf\">здесь</a>. В настоящее время он доступен только на "
-"английском языке."
+"Полный официальный свод правил можно найти <a href=\"assets/TWC_Handbook.pdf"
+"\">здесь</a>. В настоящее время он доступен только на английском языке."
 
 #: rules.php:94
 msgid "Back to Top"
@@ -674,8 +673,34 @@ msgid "Schedule"
 msgstr "Расписание"
 
 #: schedule.php:13
-msgid "Coming soon!"
-msgstr "Скоро будет!"
+msgid ""
+"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
+"Universal Time)</strong>."
+msgstr ""
+"Ваш часовой пояс: <strong id=\"timezone\">UTC+0000 (Всемирное "
+"координированное время)</strong>."
+
+#: schedule.php:16
+msgid ""
+"Daylight Saving Time (also known as Summer Time or DST) is taken into "
+"account automatically."
+msgstr "Переход на летнее время также учитан автоматически."
+
+#: schedule.php:22
+msgid "Date / Time"
+msgstr "Дата / Время"
+
+#: schedule.php:23 twcscore.php:66
+msgid "Category"
+msgstr "Категория"
+
+#: schedule.php:24
+msgid "Players"
+msgstr "Игроки"
+
+#: schedule.php:25
+msgid "Reset Time<br>(minutes)"
+msgstr "Время на рестарт<br>(минут)"
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -752,10 +777,6 @@ msgstr "Touhou 18: Unconnected Marketeers"
 #: twcscore.php:47
 msgid "Shottype / Route"
 msgstr "Шоттип / Раут"
-
-#: twcscore.php:66
-msgid "Category"
-msgstr "Категория"
 
 #: twcscore.php:69 twcscore.php:70
 msgid "Survival"
@@ -837,6 +858,9 @@ msgstr "Рассчитать"
 msgid "TWCScore:"
 msgstr "TWCScore:"
 
+#~ msgid "Coming soon!"
+#~ msgstr "Скоро будет!"
+
 #~ msgid "Touhou 6"
 #~ msgstr "Touhou 6"
 
@@ -890,27 +914,6 @@ msgstr "TWCScore:"
 #~ msgstr ""
 #~ "Последнее заклинание: получение удара во время последнего заклинания "
 #~ "считается смертью."
-
-#~ msgid ""
-#~ "Your time zone was detected as <strong id=\"timezone\">UTC+0000 "
-#~ "(Coordinated Universal Time)</strong>."
-#~ msgstr ""
-#~ "Ваш часовой пояс: <strong id=\"timezone\">UTC+0000 (Всемирное "
-#~ "координированное время)</strong>."
-
-#~ msgid ""
-#~ "Daylight Saving Time (also known as Summer Time or DST) is taken into "
-#~ "account automatically."
-#~ msgstr "Переход на летнее время также учитан автоматически."
-
-#~ msgid "Date / Time"
-#~ msgstr "Дата / Время"
-
-#~ msgid "Players"
-#~ msgstr "Игроки"
-
-#~ msgid "Reset Time<br>(minutes)"
-#~ msgstr "Время на рестарт<br>(минут)"
 
 #~ msgid "Chinese commentary stream 1 (Bilibili)"
 #~ msgstr "Китайский стрим 1 (Bilibili)"
