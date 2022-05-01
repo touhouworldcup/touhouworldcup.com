@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-19 12:37+0200\n"
-"PO-Revision-Date: 2022-04-19 12:38+0200\n"
+"POT-Creation-Date: 2022-05-01 12:23+0200\n"
+"PO-Revision-Date: 2022-05-01 12:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -644,11 +644,11 @@ msgstr "公式ルール全文"
 
 #: rules.php:93
 msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook_v1.01."
-"pdf\">here</a>. Currently, it is only available in the English language."
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf"
+"\">here</a>. Currently, it is only available in the English language."
 msgstr ""
-"公式ルール全文は<a href=\"assets/TWC_Handbook_v1.01.pdf\">こちら</a>にありま"
-"すが、現在英語のみとなっています。"
+"公式ルール全文は<a href=\"assets/TWC_Handbook.pdf\">こちら</a>にありますが、"
+"現在英語のみとなっています。"
 
 #: rules.php:94
 msgid "Back to Top"
@@ -659,8 +659,34 @@ msgid "Schedule"
 msgstr "スケジュール"
 
 #: schedule.php:13
-msgid "Coming soon!"
-msgstr "今しばらくお待ち下さい。"
+msgid ""
+"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
+"Universal Time)</strong>."
+msgstr ""
+"表示されているタイムゾーンは<strong id=\"timezone\">UTC+0000（協定世界時）</"
+"strong>です。"
+
+#: schedule.php:16
+msgid ""
+"Daylight Saving Time (also known as Summer Time or DST) is taken into "
+"account automatically."
+msgstr ""
+
+#: schedule.php:22
+msgid "Date / Time"
+msgstr "日付と時間"
+
+#: schedule.php:23 twcscore.php:66
+msgid "Category"
+msgstr "カテゴリー"
+
+#: schedule.php:24
+msgid "Players"
+msgstr "プレイヤー"
+
+#: schedule.php:25
+msgid "Reset Time<br>(minutes)"
+msgstr "リセットのタイマー<br>（分）"
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -737,10 +763,6 @@ msgstr "東方虹龍洞　～ Unconnected Marketeers"
 #: twcscore.php:47
 msgid "Shottype / Route"
 msgstr "キャラ"
-
-#: twcscore.php:66
-msgid "Category"
-msgstr "カテゴリー"
 
 #: twcscore.php:69 twcscore.php:70
 msgid "Survival"
@@ -820,6 +842,9 @@ msgstr "計算する"
 msgid "TWCScore:"
 msgstr "TWCScore："
 
+#~ msgid "Coming soon!"
+#~ msgstr "今しばらくお待ち下さい。"
+
 #~ msgid "Touhou 6"
 #~ msgstr "東方紅魔郷　～ the Embodiment of Scarlet Devil."
 
@@ -871,22 +896,6 @@ msgstr "TWCScore："
 #~ msgstr ""
 #~ "各試合で獲得するTWCScoreは<a href=\"twcscore\">TWCScore Calculator</a>によ"
 #~ "り定められます。"
-
-#~ msgid ""
-#~ "Your time zone was detected as <strong id=\"timezone\">UTC+0000 "
-#~ "(Coordinated Universal Time)</strong>."
-#~ msgstr ""
-#~ "表示されているタイムゾーンは<strong id=\"timezone\">UTC+0000（協定世界時）"
-#~ "</strong>です。"
-
-#~ msgid "Date / Time"
-#~ msgstr "日付と時間"
-
-#~ msgid "Players"
-#~ msgstr "プレイヤー"
-
-#~ msgid "Reset Time<br>(minutes)"
-#~ msgstr "リセットのタイマー<br>（分）"
 
 #~ msgid "Chinese commentary stream 1 (Bilibili)"
 #~ msgstr "中国語解説付き配信チャンネル（Bilibili）"

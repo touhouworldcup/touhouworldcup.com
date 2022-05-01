@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-18 13:45+0200\n"
-"PO-Revision-Date: 2022-04-18 13:45+0200\n"
+"POT-Creation-Date: 2022-05-01 12:23+0200\n"
+"PO-Revision-Date: 2022-05-01 12:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -422,7 +422,7 @@ msgstr ""
 msgid "Bombs: Bombing at anytime is considered two deaths."
 msgstr ""
 
-#: rules.php:45 twcscore.php:23
+#: rules.php:45
 msgid "Touhou 7"
 msgstr ""
 
@@ -433,7 +433,7 @@ msgid ""
 "active will only count as one death."
 msgstr ""
 
-#: rules.php:48 twcscore.php:26
+#: rules.php:48
 msgid "Touhou 8"
 msgstr ""
 
@@ -445,7 +445,7 @@ msgid ""
 "(NN + FS)."
 msgstr ""
 
-#: rules.php:50 twcscore.php:35
+#: rules.php:50
 msgid "Touhou 12"
 msgstr ""
 
@@ -455,7 +455,7 @@ msgid ""
 "is allowed and does not count as a death."
 msgstr ""
 
-#: rules.php:52 twcscore.php:41
+#: rules.php:52
 msgid "Touhou 13"
 msgstr ""
 
@@ -466,7 +466,7 @@ msgid ""
 "spellcards and finishes with zero deaths."
 msgstr ""
 
-#: rules.php:55 twcscore.php:50
+#: rules.php:55
 msgid "Touhou 16"
 msgstr ""
 
@@ -474,7 +474,7 @@ msgstr ""
 msgid "Season Release: Releasing your season gauge is considered two deaths."
 msgstr ""
 
-#: rules.php:57 twcscore.php:53
+#: rules.php:57
 msgid "Touhou 17"
 msgstr ""
 
@@ -487,7 +487,7 @@ msgid ""
 "considered one death."
 msgstr ""
 
-#: rules.php:61 twcscore.php:56
+#: rules.php:61
 msgid "Touhou 18"
 msgstr ""
 
@@ -587,8 +587,8 @@ msgstr ""
 
 #: rules.php:93
 msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook_v1.01."
-"pdf\">here</a>. Currently, it is only available in the English language."
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf"
+"\">here</a>. Currently, it is only available in the English language."
 msgstr ""
 
 #: rules.php:94
@@ -600,7 +600,31 @@ msgid "Schedule"
 msgstr ""
 
 #: schedule.php:13
-msgid "Coming soon!"
+msgid ""
+"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
+"Universal Time)</strong>."
+msgstr ""
+
+#: schedule.php:16
+msgid ""
+"Daylight Saving Time (also known as Summer Time or DST) is taken into "
+"account automatically."
+msgstr ""
+
+#: schedule.php:22
+msgid "Date / Time"
+msgstr ""
+
+#: schedule.php:23 twcscore.php:66
+msgid "Category"
+msgstr ""
+
+#: schedule.php:24
+msgid "Players"
+msgstr ""
+
+#: schedule.php:25
+msgid "Reset Time<br>(minutes)"
 msgstr ""
 
 #: twcscore.php:12
@@ -621,164 +645,136 @@ msgstr ""
 msgid "Game"
 msgstr ""
 
-#: twcscore.php:20
-msgid "Touhou 6"
-msgstr ""
-
-#: twcscore.php:20
+#: twcscore.php:19
 msgid "Touhou 6: Embodiment of Scarlet Devil"
 msgstr ""
 
-#: twcscore.php:23
+#: twcscore.php:21
 msgid "Touhou 7: Perfect Cherry Blossom"
 msgstr ""
 
-#: twcscore.php:26
+#: twcscore.php:23
 msgid "Touhou 8: Imperishable Night"
 msgstr ""
 
-#: twcscore.php:29
-msgid "Touhou 10"
-msgstr ""
-
-#: twcscore.php:29
+#: twcscore.php:25
 msgid "Touhou 10: Mountain of Faith"
 msgstr ""
 
-#: twcscore.php:32
-msgid "Touhou 11"
+#: twcscore.php:27
+msgid "Touhou 11: Subterranean Animism"
 msgstr ""
 
-#: twcscore.php:32
-msgid "Touhou 11: Subterranean Aminism"
-msgstr ""
-
-#: twcscore.php:35
+#: twcscore.php:29
 msgid "Touhou 12: Undefined Fantastic Object"
 msgstr ""
 
-#: twcscore.php:38
-msgid "Touhou 12.8"
-msgstr ""
-
-#: twcscore.php:38
+#: twcscore.php:31
 msgid "Touhou 12.8: Great Fairy Wars"
 msgstr ""
 
-#: twcscore.php:41
+#: twcscore.php:33
 msgid "Touhou 13: Ten Desires"
 msgstr ""
 
-#: twcscore.php:44
-msgid "Touhou 14"
-msgstr ""
-
-#: twcscore.php:44
+#: twcscore.php:35
 msgid "Touhou 14: Double Dealing Character"
 msgstr ""
 
-#: twcscore.php:47
-msgid "Touhou 15"
-msgstr ""
-
-#: twcscore.php:47
+#: twcscore.php:37
 msgid "Touhou 15: Legacy of Lunatic Kingdom"
 msgstr ""
 
-#: twcscore.php:50
+#: twcscore.php:39
 msgid "Touhou 16: Hidden Star in Four Seasons"
 msgstr ""
 
-#: twcscore.php:53
+#: twcscore.php:41
 msgid "Touhou 17: Wily Beast and Weakest Creature"
 msgstr ""
 
-#: twcscore.php:56
+#: twcscore.php:43
 msgid "Touhou 18: Unconnected Marketeers"
 msgstr ""
 
-#: twcscore.php:60
+#: twcscore.php:47
 msgid "Shottype / Route"
 msgstr ""
 
-#: twcscore.php:79
-msgid "Category"
-msgstr ""
-
-#: twcscore.php:82 twcscore.php:83
+#: twcscore.php:69 twcscore.php:70
 msgid "Survival"
 msgstr ""
 
-#: twcscore.php:85 twcscore.php:86
+#: twcscore.php:72 twcscore.php:73
 msgid "Scoring"
 msgstr ""
 
-#: twcscore.php:92
+#: twcscore.php:79
 msgid "Full Spell"
 msgstr ""
 
-#: twcscore.php:98
+#: twcscore.php:85
 msgid "Misses"
 msgstr ""
 
-#: twcscore.php:106
+#: twcscore.php:93
 msgid "Score"
 msgstr ""
 
-#: twcscore.php:112
+#: twcscore.php:99
 msgid "Gold medals"
 msgstr ""
 
-#: twcscore.php:120
+#: twcscore.php:107
 msgid "Difficulty"
 msgstr ""
 
-#: twcscore.php:129
+#: twcscore.php:116
 msgid "Final Stage"
 msgstr ""
 
-#: twcscore.php:131
+#: twcscore.php:118
 msgid "FinalA"
 msgstr ""
 
-#: twcscore.php:132
+#: twcscore.php:119
 msgid "FinalB"
 msgstr ""
 
-#: twcscore.php:138
+#: twcscore.php:125
 msgid "Please fill out the game"
 msgstr ""
 
-#: twcscore.php:139
+#: twcscore.php:126
 msgid "Please fill out the shottype"
 msgstr ""
 
-#: twcscore.php:140
+#: twcscore.php:127
 msgid "Please fill out the miss count"
 msgstr ""
 
-#: twcscore.php:141
+#: twcscore.php:128
 msgid "Please fill out the score"
 msgstr ""
 
-#: twcscore.php:142
+#: twcscore.php:129
 msgid "Please fill out the Final Stage"
 msgstr ""
 
-#: twcscore.php:143
+#: twcscore.php:130
 msgid "Please fill out the gold medals"
 msgstr ""
 
-#: twcscore.php:144
+#: twcscore.php:131
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
 msgstr ""
 
-#: twcscore.php:148
+#: twcscore.php:135
 msgid "Calculate"
 msgstr ""
 
-#: twcscore.php:154
+#: twcscore.php:141
 msgid "TWCScore:"
 msgstr ""

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-19 12:38+0200\n"
-"PO-Revision-Date: 2022-04-19 12:39+0200\n"
+"POT-Creation-Date: 2022-05-01 12:23+0200\n"
+"PO-Revision-Date: 2022-05-01 12:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -665,12 +665,11 @@ msgstr "Vollständige offizielle Regeln"
 
 #: rules.php:93
 msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook_v1.01."
-"pdf\">here</a>. Currently, it is only available in the English language."
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf"
+"\">here</a>. Currently, it is only available in the English language."
 msgstr ""
-"Das vollständige offizielle Regelwerk ist <a href=\"assets/"
-"TWC_Handbook_v1.01.pdf\">hier</a> zu finden. Derzeit ist es nur in "
-"englischer Sprache verfügbar."
+"Das vollständige offizielle Regelwerk ist <a href=\"assets/TWC_Handbook.pdf"
+"\">hier</a> zu finden. Derzeit ist es nur in englischer Sprache verfügbar."
 
 #: rules.php:94
 msgid "Back to Top"
@@ -681,8 +680,36 @@ msgid "Schedule"
 msgstr "Zeitplan"
 
 #: schedule.php:13
-msgid "Coming soon!"
-msgstr "Kommt bald!"
+msgid ""
+"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
+"Universal Time)</strong>."
+msgstr ""
+"Deine Zeitzone wurde als <strong id=\"timezone\">UTC+0000 (Koordinierte "
+"Weltzeit)</strong> erkannt."
+
+#: schedule.php:16
+msgid ""
+"Daylight Saving Time (also known as Summer Time or DST) is taken into "
+"account automatically."
+msgstr ""
+"Die Sommerzeit (auch bekannt als Daylight Saving Time oder DST) wird "
+"automatisch berücksichtigt."
+
+#: schedule.php:22
+msgid "Date / Time"
+msgstr "Datum / Uhrzeit"
+
+#: schedule.php:23 twcscore.php:66
+msgid "Category"
+msgstr "Kategorie"
+
+#: schedule.php:24
+msgid "Players"
+msgstr "Spieler"
+
+#: schedule.php:25
+msgid "Reset Time<br>(minutes)"
+msgstr "Reset-Zeit<br>(Minuten)"
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -759,10 +786,6 @@ msgstr ""
 #: twcscore.php:47
 msgid "Shottype / Route"
 msgstr "Shot Type / Route"
-
-#: twcscore.php:66
-msgid "Category"
-msgstr "Kategorie"
 
 #: twcscore.php:69 twcscore.php:70
 msgid "Survival"
@@ -845,6 +868,9 @@ msgstr "Berechnen"
 msgid "TWCScore:"
 msgstr ""
 
+#~ msgid "Coming soon!"
+#~ msgstr "Kommt bald!"
+
 #~ msgid "Language"
 #~ msgstr "Sprache"
 
@@ -878,29 +904,6 @@ msgstr ""
 #~ "\">TWCScore Calculator</a>."
 #~ msgstr ""
 #~ "Die Punkte basieren auf dem <a href=\"twcscore\">TWCScore-Rechner</a>."
-
-#~ msgid ""
-#~ "Your time zone was detected as <strong id=\"timezone\">UTC+0000 "
-#~ "(Coordinated Universal Time)</strong>."
-#~ msgstr ""
-#~ "Deine Zeitzone wurde als <strong id=\"timezone\">UTC+0000 (Koordinierte "
-#~ "Weltzeit)</strong> erkannt."
-
-#~ msgid ""
-#~ "Daylight Saving Time (also known as Summer Time or DST) is taken into "
-#~ "account automatically."
-#~ msgstr ""
-#~ "Die Sommerzeit (auch bekannt als Daylight Saving Time oder DST) wird "
-#~ "automatisch berücksichtigt."
-
-#~ msgid "Date / Time"
-#~ msgstr "Datum / Uhrzeit"
-
-#~ msgid "Players"
-#~ msgstr "Spieler"
-
-#~ msgid "Reset Time<br>(minutes)"
-#~ msgstr "Reset-Zeit<br>(Minuten)"
 
 #~ msgid "Chinese commentary stream 1 (Bilibili)"
 #~ msgstr "Chinesischer Kommentar-Stream 1 (Bilibili)"

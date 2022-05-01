@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-19 12:36+0200\n"
-"PO-Revision-Date: 2022-04-19 12:36+0200\n"
+"POT-Creation-Date: 2022-05-01 12:23+0200\n"
+"PO-Revision-Date: 2022-05-01 12:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -607,11 +607,11 @@ msgstr "TWC规则完整版"
 
 #: rules.php:93
 msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook_v1.01."
-"pdf\">here</a>. Currently, it is only available in the English language."
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf"
+"\">here</a>. Currently, it is only available in the English language."
 msgstr ""
-"完整的TWC规则可以在 <a href=\"assets/TWC_Handbook_v1.01.pdf\">这里</a>被找"
-"到。目前仅提供英文版。"
+"完整的TWC规则可以在 <a href=\"assets/TWC_Handbook.pdf\">这里</a>被找到。目前"
+"仅提供英文版。"
 
 #: rules.php:94
 msgid "Back to Top"
@@ -622,8 +622,36 @@ msgid "Schedule"
 msgstr "时间表"
 
 #: schedule.php:13
-msgid "Coming soon!"
-msgstr "敬请期待！"
+msgid ""
+"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
+"Universal Time)</strong>."
+msgstr ""
+"我们检测到您的时区是 <strong id=\"timezone\">UTC+0000（协调世界时）</"
+"strong>。"
+
+#: schedule.php:16
+msgid ""
+"Daylight Saving Time (also known as Summer Time or DST) is taken into "
+"account automatically."
+msgstr ""
+"Daylight Saving Time (also known as Summer Time or DST) is taken into "
+"account automatically."
+
+#: schedule.php:22
+msgid "Date / Time"
+msgstr "日期和时间"
+
+#: schedule.php:23 twcscore.php:66
+msgid "Category"
+msgstr "项目"
+
+#: schedule.php:24
+msgid "Players"
+msgstr "玩家"
+
+#: schedule.php:25
+msgid "Reset Time<br>(minutes)"
+msgstr "Reset Time<br>（分钟）"
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -698,10 +726,6 @@ msgstr "东方虹龙洞　～ Unconnected Marketeers"
 #: twcscore.php:47
 msgid "Shottype / Route"
 msgstr "机体"
-
-#: twcscore.php:66
-msgid "Category"
-msgstr "项目"
 
 #: twcscore.php:69 twcscore.php:70
 msgid "Survival"
@@ -783,6 +807,9 @@ msgstr "计算"
 msgid "TWCScore:"
 msgstr "TWCScore："
 
+#~ msgid "Coming soon!"
+#~ msgstr "敬请期待！"
+
 #~ msgid "Touhou 6"
 #~ msgstr "红魔乡"
 
@@ -832,29 +859,6 @@ msgstr "TWCScore："
 #~ "The TWCScore of a credit can be calculated using the <a href=\"twcscore"
 #~ "\">TWCScore Calculator</a>."
 #~ msgstr "积分使用<a href=“twcscore”>TWCScore 计算器</a>计算。"
-
-#~ msgid ""
-#~ "Your time zone was detected as <strong id=\"timezone\">UTC+0000 "
-#~ "(Coordinated Universal Time)</strong>."
-#~ msgstr ""
-#~ "我们检测到您的时区是 <strong id=\"timezone\">UTC+0000（协调世界时）</"
-#~ "strong>。"
-
-#~ msgid ""
-#~ "Daylight Saving Time (also known as Summer Time or DST) is taken into "
-#~ "account automatically."
-#~ msgstr ""
-#~ "Daylight Saving Time (also known as Summer Time or DST) is taken into "
-#~ "account automatically."
-
-#~ msgid "Date / Time"
-#~ msgstr "日期和时间"
-
-#~ msgid "Players"
-#~ msgstr "玩家"
-
-#~ msgid "Reset Time<br>(minutes)"
-#~ msgstr "Reset Time<br>（分钟）"
 
 #~ msgid "Chinese commentary stream 1 (Bilibili)"
 #~ msgstr "一号中文流解说（Bilibili）"

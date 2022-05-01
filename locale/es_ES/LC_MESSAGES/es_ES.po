@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-04-19 12:39+0200\n"
-"PO-Revision-Date: 2022-04-19 12:39+0200\n"
+"POT-Creation-Date: 2022-05-01 12:23+0200\n"
+"PO-Revision-Date: 2022-05-01 12:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -660,12 +660,12 @@ msgstr "Reglas Oficiales Completas"
 
 #: rules.php:93
 msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook_v1.01."
-"pdf\">here</a>. Currently, it is only available in the English language."
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf"
+"\">here</a>. Currently, it is only available in the English language."
 msgstr ""
 "El libro oficial de reglas completas lo puedes encontrar <a href=\"assets/"
-"TWC_Handbook_v1.01.pdf\">aquí</a>. Por el momento, solo se encuentra en el "
-"idioma inglés."
+"TWC_Handbook.pdf\">aquí</a>. Por el momento, solo se encuentra en el idioma "
+"inglés."
 
 #: rules.php:94
 msgid "Back to Top"
@@ -676,8 +676,32 @@ msgid "Schedule"
 msgstr "Horario"
 
 #: schedule.php:13
-msgid "Coming soon!"
-msgstr "¡Próximamente!"
+msgid ""
+"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
+"Universal Time)</strong>."
+msgstr ""
+
+#: schedule.php:16
+msgid ""
+"Daylight Saving Time (also known as Summer Time or DST) is taken into "
+"account automatically."
+msgstr ""
+
+#: schedule.php:22
+msgid "Date / Time"
+msgstr "Fecha / Hora"
+
+#: schedule.php:23 twcscore.php:66
+msgid "Category"
+msgstr "Categoría"
+
+#: schedule.php:24
+msgid "Players"
+msgstr "Jugadores"
+
+#: schedule.php:25
+msgid "Reset Time<br>(minutes)"
+msgstr "Temporizador de Reinicio"
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -754,10 +778,6 @@ msgstr "Touhou 18: Unconnected Marketeers"
 #: twcscore.php:47
 msgid "Shottype / Route"
 msgstr "Tipo de Disparo / Ruta"
-
-#: twcscore.php:66
-msgid "Category"
-msgstr "Categoría"
 
 #: twcscore.php:69 twcscore.php:70
 msgid "Survival"
@@ -839,6 +859,9 @@ msgstr "Calcular"
 #: twcscore.php:141
 msgid "TWCScore:"
 msgstr "TWCScore:"
+
+#~ msgid "Coming soon!"
+#~ msgstr "¡Próximamente!"
 
 #~ msgid "Touhou 6"
 #~ msgstr "Touhou 6"
