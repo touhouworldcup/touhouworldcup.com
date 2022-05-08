@@ -1,15 +1,11 @@
-let language = "en-GB", timezone;
+let language = "en-GB";
 
 function getCookie(name) {
-    var decodedCookies, cookieArray, cookie;
-
-    decodedCookies = decodeURIComponent(document.cookie);
-    cookieArray = decodedCookies.split(';');
+    let decodedCookies = decodeURIComponent(document.cookie);
+    let cookieArray = decodedCookies.split(';');
     name += '=';
 
-    for (var i = 0; i < cookieArray.length; i += 1) {
-        cookie = cookieArray[i];
-
+    for (let cookie of cookieArray) {
         while (cookie.charAt(0) === ' ') {
             cookie = cookie.substring(1);
         }
@@ -27,12 +23,11 @@ function getCookie(name) {
 }
 
 function getClientTimeZone() {
-    timezone = "UTC" + new Date().toString().split("GMT")[1];
-    return timezone;
+    return "UTC" + new Date().toString().split("GMT")[1];
 }
 
 function sendXHR(type, url, data, callback) {
-    var newXHR = new XMLHttpRequest() || new window.ActiveXObject("Microsoft.XMLHTTP");
+    const newXHR = new XMLHttpRequest() || new window.ActiveXObject("Microsoft.XMLHTTP");
 
     newXHR.open(type, url, true);
     newXHR.send(data);
@@ -50,16 +45,17 @@ function toDateString(unix) {
 }
 
 function printSchedule() {
-    var teams = ["Rose", "Mind", "Heart"], highlight = false, schedule, match, id, dateString, unix, i;
+    const teams = ["Rose", "Mind", "Heart"];
+    let highlight = false;
 
     sendXHR("GET", "/json/schedule.json", null, function (response) {
-        schedule = JSON.parse(response);
+        let schedule = JSON.parse(response);
 
-        for (unix in schedule) {
-            match = schedule[unix];
-            id = match.category.replace(/ /g, '_');
+        for (let unix in schedule) {
+            const match = schedule[unix];
+            const id = match.category.replace(/ /g, '_');
             document.getElementById("schedule_tbody").innerHTML += "<tr id='" + unix + "'></tr>";
-            dateString = toDateString(unix);
+            const dateString = toDateString(unix);
             document.getElementById(unix).innerHTML = "<td class='noborders'>" + dateString +
             "</td><td class='" + match.category.split(' ')[0] + "'>" + match.category + "</td>" +
             "<td id='" + id + "_players' class='noborders'></td><td id='" + id +
@@ -70,9 +66,9 @@ function printSchedule() {
                 highlight = true;
             }
 
-            for (i = 0; i < match.players.length; i++) {
+            for (let i = 0; i < match.players.length; i++) {
                 document.getElementById(id + "_players").innerHTML += (i > 0 ? "<br>" : "") + "<span class='team'><img src='assets/icons/" + teams[i].toLowerCase() +
-                ".png' alt='Team " + teams[i] + "'><span class='tooltip'>Team " + teams[i] + "</span></span>" + match.players[i];
+                ".png' alt='Team " + teams[i] + "'><span class='tooltip'>Team " + teams[i] + "</span></span> " + match.players[i];
             }
         }
     });
