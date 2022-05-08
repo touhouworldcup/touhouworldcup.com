@@ -52,3 +52,26 @@
 .highlight {
     background: rgba(128, 128, 0, 0.5);
 }
+.team {
+    cursor: help;
+    position: relative;
+}
+.team .tooltip {
+    margin-left: -60px;
+}
+.team:hover .tooltip {
+    visibility: visible;
+}
+.tooltip {
+    font-weight: initial;
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    max-width: 100px;
+}

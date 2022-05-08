@@ -1,1 +1,272 @@
-{"1616223600":{"category":"TH10 Lunatic Survival","players":["Kayo","Aelita","Rory"],"reset":60},"1616238000":{"category":"TH17 Lunatic Scoring","players":["Borealis","Seiko","Kiti"],"reset":115},"1616848200":{"category":"TH13 Lunatic Survival","players":["Cao Minh","Alex","kkgk"],"reset":75},"1616857200":{"category":"TH06 Lunatic Survival","players":["LorennaRose","ZJM","Alshie"],"reset":75},"1616911200":{"category":"TH09 Lunatic Scoring","players":["Dagoth2hu","-","Atsumori"],"reset":105},"1616940000":{"category":"TH07 Lunatic Scoring","players":["sp0thss","-","ゆーすけ (Yu-suke)"],"reset":135},"1617451200":{"category":"TH17 Lunatic Survival","players":["BeheeyemBREAK","Asahi","Buchiwashi"],"reset":75},"1617460200":{"category":"TH12 Lunatic Survival","players":["Mino","HAN","yuki"],"reset":85},"1617523200":{"category":"TH07 Lunatic Survival","players":["Ghost","ULK","Guroniga"],"reset":80},"1617537600":{"category":"TH08 Lunatic Scoring","players":["Levea","-","Zetsu"],"reset":115},"1618056000":{"category":"TH13 Extra Scoring","players":["morth","XBH","idtn"],"reset":50},"1618061400":{"category":"TH11 Lunatic Survival","players":["ness","Cero","kamoneko"],"reset":75},"1618117200":{"category":"TH10 Lunatic Scoring","players":["-","zxxsmart","ryusei"],"reset":75},"1618142400":{"category":"TH06 Lunatic Scoring","players":["kana0603","-","9☆Y"],"reset":95},"1618642800":{"category":"TH128 Lunatic Scoring","players":["-","Cerasis","gyouch"],"reset":70},"1618668000":{"category":"TH13 Lunatic Scoring","players":["Maribel Hearn","Lyrica","ns"],"reset":70},"1618727400":{"category":"TH14 Extra Scoring","players":["thk573","feng","YDH"],"reset":55},"1618732800":{"category":"TH12 Lunatic Scoring","players":["ZPS","17","K・G"],"reset":90},"1619263800":{"category":"TH16 Lunatic Scoring","players":["Ray","ZKY","Hiro"],"reset":100},"1619272800":{"category":"TH08 Lunatic Survival","players":["Jovial","CWC","ふすま (fusuma)"],"reset":80},"1619334000":{"category":"TH16 Lunatic Survival","players":["Haki","BENREN","SOC"],"reset":80},"1619352000":{"category":"TH06 Extra Scoring","players":["TrickOfHat","-","OOSAKA"],"reset":50},"1619870400":{"category":"TH128 Lunatic Survival","players":["yeashie","ATM","Febryu"],"reset":45},"1619875800":{"category":"TH11 Lunatic Scoring","players":["Scarlet Moose","ling","STI"],"reset":100},"1619938800":{"category":"TH14 Lunatic Scoring","players":["-","ISN","Dean"],"reset":100},"1619956800":{"category":"TH08 Extra Scoring","players":["Sakurei","-","pingval"],"reset":70},"1620457200":{"category":"TH14 Lunatic Survival","players":["Yatsuzume","SMT","Taruha"],"reset":85},"1620475200":{"category":"TH15 Lunatic Survival","players":["CreepyNinja","COMMON","SNT"],"reset":105},"1620558000":{"category":"TH18 Lunatic Survival","players":["Mino","XCF","SOC"],"reset":95},"1620567000":{"category":"Extra Marathon","players":["Maribel Hearn","ULK","Norbis"],"reset":0}}
+{
+  "1652526000": {
+    "category": "TH11 Extra Scoring",
+    "players": [
+      "たけのこ (KTT)",
+      "KagLun",
+      "ムラサイレブン (wadatsumi)"
+    ],
+    "reset": 75
+  },
+  "1652612400": {
+    "category": "TH13 Lunatic Survival",
+    "players": [
+      "LYXQ",
+      "ULK",
+      "幽谷もこ (moko)"
+    ],
+    "reset": 75
+  },
+  "1652961600": {
+    "category": "TH09 Lunatic Scoring",
+    "players": [
+      "ESC",
+      "FSX",
+      "Cottingley"
+    ],
+    "reset": 110
+  },
+  "1653141600": {
+    "category": "TH10 Lunatic Survival",
+    "players": [
+      "Yamada",
+      "inakilbss",
+      "zhzhzh"
+    ],
+    "reset": 60
+  },
+  "1653219000": {
+    "category": "TH16 Lunatic Survival",
+    "players": [
+      "Belita",
+      "Kayo",
+      "SNT"
+    ],
+    "reset": 80
+  },
+  "1653724800": {
+    "category": "TH12 Lunatic Survival",
+    "players": [
+      "yuki",
+      "LXN",
+      "hrs2006"
+    ],
+    "reset": 85
+  },
+  "1653739200": {
+    "category": "TH11 Lunatic Survival",
+    "players": [
+      "てーる (Tale)",
+      "Funen",
+      "Teragat"
+    ],
+    "reset": 70
+  },
+  "1653822000": {
+    "category": "TH15 Lunatic Survival",
+    "players": [
+      "KGR (kamoneko)",
+      "Yatsuzume",
+      "Nagisa"
+    ],
+    "reset": 115
+  },
+  "1654340400": {
+    "category": "TH13 Lunatic Scoring",
+    "players": [
+      "ハローズ (Halows)",
+      "kugei",
+      "Maribel Hearn"
+    ],
+    "reset": 80
+  },
+  "1654348500": {
+    "category": "TH13 Extra Scoring",
+    "players": [
+      "Morth",
+      "idtn",
+      "-"
+    ],
+    "reset": 50
+  },
+  "1654430400": {
+    "category": "TH06 Lunatic Scoring",
+    "players": [
+      "kana",
+      "MiLa",
+      "noppon"
+    ],
+    "reset": 100
+  },
+  "1654439400": {
+    "category": "TH17 Lunatic Scoring",
+    "players": [
+      "-",
+      "kitch (みょん吉)",
+      "RebotOva"
+    ],
+    "reset": 115
+  },
+  "1654956000": {
+    "category": "TH07 Lunatic Scoring",
+    "players": [
+      "sp0",
+      "-",
+      "ゆーすけ (Yu-suke)"
+    ],
+    "reset": 140
+  },
+  "1655017200": {
+    "category": "TH14 Extra Scoring",
+    "players": [
+      "Feng",
+      "Ray",
+      "あせび (Aseb)"
+    ],
+    "reset": 55
+  },
+  "1655031600": {
+    "category": "TH07 Extra Scoring",
+    "players": [
+      "-",
+      "いな (ina)",
+      "lua"
+    ],
+    "reset": 80
+  },
+  "1655517600": {
+    "category": "TH08 Lunatic Scoring",
+    "players": [
+      "???",
+      "???",
+      "???"
+    ],
+    "reset": 120
+  },
+  "1655643600": {
+    "category": "TH16 Lunatic Scoring",
+    "players": [
+      "oitan",
+      "枝豆 (function)",
+      "SND"
+    ],
+    "reset": 105
+  },
+  "1656150300": {
+    "category": "TH14 Lunatic Survival",
+    "players": [
+      "XCF",
+      "Ameko",
+      "TARUHA"
+    ],
+    "reset": 85
+  },
+  "1656158400": {
+    "category": "TH14 Lunatic Scoring",
+    "players": [
+      "-",
+      "Dean",
+      "Mino"
+    ],
+    "reset": 100
+  },
+  "1656226800": {
+    "category": "TH10 Lunatic Scoring",
+    "players": [
+      "Melita",
+      "Delita",
+      "ko_ume"
+    ],
+    "reset": 90
+  },
+  "1656244800": {
+    "category": "TH08 Lunatic Survival",
+    "players": [
+      "えるもん (erumon)",
+      "ふすま (fusuma)",
+      "Maki"
+    ],
+    "reset": 85
+  },
+  "1656763200": {
+    "category": "TH06 Extra Scoring",
+    "players": [
+      "int",
+      "TrickOfHat",
+      "OOSAKA"
+    ],
+    "reset": 55
+  },
+  "1656792000": {
+    "category": "TH128 Lunatic Survival",
+    "players": [
+      "yeashie bedwar",
+      "SsjacsS",
+      "-"
+    ],
+    "reset": 45
+  },
+  "1656849600": {
+    "category": "TH17 Lunatic Survival",
+    "players": [
+      "Beheeyem",
+      "-",
+      "Buchiwashi"
+    ],
+    "reset": 75
+  },
+  "1656856800": {
+    "category": "TH128 Lunatic Scoring",
+    "players": [
+      "gyou",
+      "",
+      "Dagoth"
+    ],
+    "reset": 70
+  },
+  "1657364400": {
+    "category": "TH06 Lunatic Survival",
+    "players": [
+      "LorennaRose",
+      "kkgk",
+      "riu"
+    ],
+    "reset": 80
+  },
+  "1657371600": {
+    "category": "TH07 Lunatic Survival",
+    "players": [
+      "Febryu",
+      "glorious_laugh",
+      "Shooten"
+    ],
+    "reset": 80
+  },
+  "1657432800": {
+    "category": "TH12 Lunatic Scoring",
+    "players": [
+      "ニャムニャム (286nyamu)",
+      "K・G",
+      "HAN"
+    ],
+    "reset": 95
+  },
+  "1657458900": {
+    "category": "TH18 Lunatic Survival",
+    "players": [
+      "未知 (ns)",
+      "JWRmiso",
+      "SOC"
+    ],
+    "reset": 85
+  },
+  "1657965600": {
+    "category": "TH15 Lunatic Scoring",
+    "players": [
+      "Kasoti",
+      "RB",
+      "Maru_9"
+    ],
+    "reset": 130
+  }
+}

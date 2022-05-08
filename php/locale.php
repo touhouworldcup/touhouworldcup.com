@@ -6,10 +6,13 @@ function is_localhost() {
 
 function get_date_format(string $lang) {
     switch ($lang) {
-        case 'ja_JP': return 'l, Y F j, H:i:s';
-        case 'zh_CN': return 'l, Y F j, H:i:s';
-        case 'en_US': return 'l, F j Y, H:i:s';
-        default: return 'l, j F Y, H:i:s';
+        case 'en_US': return '%A, %B %e, %Y, %H:%M:%S';
+        case 'ja_JP': return '%Y年%B%e日%A, %H:%M:%S';
+        case 'zh_CN': return '%Y年%B%e日%A, %H:%M:%S';
+        case 'ru_RU': return '%A, %e %B %Y года, %H:%M:%S';
+        case 'de_DE': return '%A, %e. %B %Y, %H:%M:%S Uhr';
+        case 'es_ES': return '%A %e de %B de %Y, %H:%M:%S';
+        default: return '%A, %e %B %Y, %H:%M:%S';
     }
 }
 
