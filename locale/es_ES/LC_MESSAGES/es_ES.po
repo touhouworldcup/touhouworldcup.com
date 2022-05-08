@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-05-01 12:23+0200\n"
-"PO-Revision-Date: 2022-05-07 13:07+0200\n"
+"PO-Revision-Date: 2022-05-08 19:13+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -669,7 +669,7 @@ msgstr ""
 
 #: rules.php:94
 msgid "Back to Top"
-msgstr ""
+msgstr "De vuelta al Inicio"
 
 #: schedule.php:2 schedule.php:12
 msgid "Schedule"
@@ -680,12 +680,14 @@ msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
 msgstr ""
+"Tu zona horaria fue detectada como <strong id=\"timezone\">UTC+0000 "
+"(Coordinated Universal Time)</strong>."
 
 #: schedule.php:16
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
-msgstr ""
+msgstr "El Horario de Verano (DST) es considerado de manera automática."
 
 #: schedule.php:22
 msgid "Date / Time"
