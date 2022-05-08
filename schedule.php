@@ -37,7 +37,7 @@
                 } else {
                     echo '<tr>';
                 }
-                echo '<td>' . strftime(get_date_format($lang), $key) . '</td>';
+                echo '<td>' . gmdate(get_date_format($lang), $key) . '</td>';
                 echo '<td class="' . preg_split('/ /', $match['category'])[0] . '">' . $match['category'] . '</td><td>';
                 foreach ($match['players'] as $key => $player) {
                     $team = $teams[$key];
