@@ -25,7 +25,7 @@
                 <th rowspan='3'><?php echo _('Reset Time<br>(minutes)') ?></th>
             </tr>
         </thead>
-        <tbody id="schedule_tbody"><?php
+        <tbody id="schedule_tbody"><noscript><?php
             $json = file_get_contents('json/schedule.json');
             $schedule = json_decode($json, true);
             $teams = ['rose', 'mind', 'heart'];
@@ -46,7 +46,7 @@
                 echo '</td><td>' . ($match['reset'] === 0 ? 'N/A' : $match['reset']) . '</td>';
                 echo '</tr>';
             }
-        ?></tbody>
+        ?></noscript></tbody>
     </table>
 	</main>
 </body>
