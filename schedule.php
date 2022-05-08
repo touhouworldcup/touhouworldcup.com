@@ -10,26 +10,25 @@
 	<?php include_once 'php/body.php' ?>
 	<main>
 	<h1><?php echo _('Schedule') ?></h1>
-    <p><?php echo _('Coming soon!') ?></p>
-    <!--<p><?php //echo _('Your time zone was detected as <strong id="timezone">UTC+0000 (Coordinated Universal Time)</strong>.') ?></p>
+    <p><?php echo _('Your time zone was detected as <strong id="timezone">UTC+0000 (Coordinated Universal Time)</strong>.') ?></p>
     <p><?php
         if ($lang == 'en_GB' || $lang == 'en_US' || $lang == 'de_DE' || $lang == 'es_ES') {
-            //echo _('Daylight Saving Time (also known as Summer Time or DST) is taken into account automatically.');
+            echo _('Daylight Saving Time (also known as Summer Time or DST) is taken into account automatically.');
         }
     ?></p>
     <table id="schedule_table">
         <thead>
             <tr>
-                <th rowspan='3'><?php //echo _('Date / Time') ?></th>
-                <th rowspan='3'><?php //echo _('Category') ?></th>
-                <th rowspan='3'><?php //echo _('Players') ?></th>
-                <th rowspan='3'><?php //echo _('Reset Time<br>(minutes)') ?></th>
+                <th rowspan='3'><?php echo _('Date / Time') ?></th>
+                <th rowspan='3'><?php echo _('Category') ?></th>
+                <th rowspan='3'><?php echo _('Players') ?></th>
+                <th rowspan='3'><?php echo _('Reset Time<br>(minutes)') ?></th>
             </tr>
         </thead>
-        <tbody id="schedule_tbody">
-        <noscript><?php
-            /*$json = file_get_contents('schedule.json');
+        <tbody id="schedule_tbody"><?php
+            $json = file_get_contents('json/schedule.json');
             $schedule = json_decode($json, true);
+            $teams = ['rose', 'mind', 'heart'];
             $highlight = false;
             foreach ($schedule as $key => $match) {
                 if (!$highlight && $key >= time()) {
@@ -38,16 +37,17 @@
                 } else {
                     echo '<tr>';
                 }
-                echo '<td>' . gmdate(get_date_format($lang), $key) . '</td>';
-                echo '<td class="' . preg_split('/ /', $match['category'])[0] . '">' . $match['category'] . '</td>';
-                echo '<td>' . implode('<br>', $match['players']) . '</td>';
-                echo '<td>' . ($match['reset'] === 0 ? 'N/A' : $match['reset']) . '</td>';
+                echo '<td>' . strftime(get_date_format($lang), $key) . '</td>';
+                echo '<td class="' . preg_split('/ /', $match['category'])[0] . '">' . $match['category'] . '</td><td>';
+                foreach ($match['players'] as $key => $player) {
+                    $team = $teams[$key];
+                    echo '<span class="team"><img src="assets/icons/' . $team . '.png" alt="' . ucfirst($team) . '"><span class="tooltip">Team ' . ucfirst($team) . '</span></span> ' . $player . '<br>';
+                }
+                echo '</td><td>' . ($match['reset'] === 0 ? 'N/A' : $match['reset']) . '</td>';
                 echo '</tr>';
-
-            }*/
-        ?></noscript>
-        </tbody>
-    </table>-->
+            }
+        ?></tbody>
+    </table>
 	</main>
 </body>
 </html>
