@@ -50,7 +50,7 @@ function toDateString(unix) {
 }
 
 function printSchedule() {
-    var highlight = false, schedule, match, id, dateString, unix, i;
+    var teams = ["Rose", "Mind", "Heart"], highlight = false, schedule, match, id, dateString, unix, i;
 
     sendXHR("GET", "/json/schedule.json", null, function (response) {
         schedule = JSON.parse(response);
@@ -71,7 +71,8 @@ function printSchedule() {
             }
 
             for (i = 0; i < match.players.length; i++) {
-                document.getElementById(id + "_players").innerHTML += (i > 0 ? "<br>" : "") +  match.players[i];
+                document.getElementById(id + "_players").innerHTML += (i > 0 ? "<br>" : "") + "<span class='team'><img src='assets/icons/" + teams[i].toLowerCase() +
+                ".png' alt='Team " + teams[i] + "'><span class='tooltip'>Team " + teams[i] + "</span></span>" + match.players[i];
             }
         }
     });
