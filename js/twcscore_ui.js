@@ -28,10 +28,11 @@ window.onload = () => {
 	const iscore_final = document.getElementById("twcscore_final");
 
 	const game_has_ex = {
-		"th06": true,
-		"th08": true,
-		"th13": true,
-		"th14": true
+        "th06": true,
+        "th08": true,
+        "th11": true,
+        "th13": true,
+        "th14": true
 	}
 
     const get_shot_sel = () => {
