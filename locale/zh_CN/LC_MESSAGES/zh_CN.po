@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-05-01 12:23+0200\n"
-"PO-Revision-Date: 2022-05-01 12:23+0200\n"
+"PO-Revision-Date: 2022-05-11 17:15+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -579,7 +579,7 @@ msgstr "爆分（以及分数bug）补丁。"
 
 #: rules.php:83
 msgid "Visual, Audio and Translation patches are not allowed."
-msgstr "汉化版以及各类魔改（包括但不限于BGM，背景，以及立绘）。"
+msgstr "不能使用汉化版以及各类魔改（包括但不限于BGM，背景，以及立绘）。"
 
 #: rules.php:85
 msgid "Other Rules"
