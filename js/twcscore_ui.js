@@ -75,6 +75,8 @@ window.onload = () => {
 
         if (selected_game === "th09") {
             survival.style.display = "none";
+            surv_opts.style.display = "none";
+            score_opts.style.display = "inline";
             scoring.checked = true;
         } else {
             survival.style.display = "inline";
