@@ -48,7 +48,7 @@ function printSchedule() {
     const teams = ["Rose", "Mind", "Heart"];
     let highlight = false;
 
-    sendXHR("GET", "/json/schedule.json", null, function (response) {
+    sendXHR("GET", "/json/schedule_new.json", null, function (response) {
         let schedule = JSON.parse(response);
 
         for (let unix in schedule) {
