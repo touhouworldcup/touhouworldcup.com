@@ -1,6 +1,6 @@
 /*global iscore*/
 window.onload = () => {
-    const games    = ["th06", "th07", "th08", "th10", "th11", "th12", "th128", "th13", "th14", "th15", "th16", "th17", "th18"];
+    const games    = ["th06", "th07", "th08", "th09", "th10", "th11", "th12", "th128", "th13", "th14", "th15", "th16", "th17", "th18"];
 	const diff_w   = document.getElementById("diff_w");
 	const runtype  = document.getElementById("runtype");
 	const game_sel = document.getElementById("games");
@@ -26,6 +26,9 @@ window.onload = () => {
 
     const submit       = document.getElementById("submit");
 	const iscore_final = document.getElementById("twcscore_final");
+
+    const survival     = document.getElementById("survival");
+    const scoring      = document.getElementById("input_score");
 
 	const game_has_ex = {
         "th06": true,
@@ -69,6 +72,13 @@ window.onload = () => {
 	const game_runtype_specific_opts = (game_name) => {
         let selected_game = get_name(game_sel);
         let rt = get_name(runtype);
+
+        if (selected_game === "th09") {
+            survival.style.display = "none";
+            scoring.checked = true;
+        } else {
+            survival.style.display = "inline";
+        }
 
 		if (rt === "score") {
 			fullspell_w.style.display = "none";
@@ -147,8 +157,12 @@ window.onload = () => {
     }
 
     const handle_error = (error) => {
+        const error_types = ["game", "shottype", "miss", "score", "final", "medals", "fatal"];
         clear_errors();
-        document.getElementById("error_" + error).style.display = "block";
+
+        if (error_types.includes(error)) {
+            document.getElementById("error_" + error).style.display = "block";
+        }
     }
 
 	const calc_iscore = (event) => {
@@ -269,7 +283,6 @@ window.onload = () => {
     submit.addEventListener("click", calc_iscore, false);
     game_sel.addEventListener("change", game_selected, false);
     runtype.addEventListener("change", change_runtype, false);
-
     runtype.value = "";
     document.getElementById("calc-iscore").addEventListener("submit", calc_iscore);
     fullspell_w.style.display = "none";
@@ -278,5 +291,6 @@ window.onload = () => {
     diff_w.style.display = "none";
     th08_opts.style.display = "none";
     th128_medal_w.style.display = "none";
-    game_selected(); change_runtype();
+    game_selected();
+    change_runtype();
 }

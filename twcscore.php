@@ -22,6 +22,8 @@
         </label><label>
     		<input type="radio" name="games" value="th08"><span id="cover_th08" class="cover" width=100 height=100 title="<?php echo _('Touhou 8: Imperishable Night') ?>"></span>
         </label><label>
+    		<input type="radio" name="games" value="th09"><span id="cover_th09" class="cover" width=100 height=100 title="<?php echo _('Touhou 9: Phantasmagoria of Flower View') ?>"></span>
+        </label><label>
     		<input type="radio" name="games" value="th10"><span id="cover_th10" class="cover" width=100 height=100 title="<?php echo _('Touhou 10: Mountain of Faith') ?>"></span>
         </label><label>
     		<input type="radio" name="games" value="th11"><span id="cover_th11" class="cover" width=100 height=100 title="<?php echo _('Touhou 11: Subterranean Animism') ?>"></span>
@@ -65,10 +67,10 @@
 
 	<label for="runtype"><?php echo _('Category') ?></label><br>
     <fieldset name="runtype" id="runtype">
-        <label class="float">
+        <label id="survival" class="float">
     		<input type="radio" id="input_surv" name="runtype" value="surv"><img class="cover" src="assets/surv.png" width=100 height=100 alt="<?php echo _('Survival') ?>"><br>
             <label class="pointer" for="input_surv"><?php echo _('Survival') ?></label>
-        </label><label class="float">
+        </label><label id="scoring" class="float">
     		<input type="radio" id="input_score" name="runtype" value="score"><img class="cover" src="assets/score.png" width=100 height=100 alt="<?php echo _('Scoring') ?>"><br>
             <label class="pointer" for="input_score"><?php echo _('Scoring') ?></label>
         </label>
