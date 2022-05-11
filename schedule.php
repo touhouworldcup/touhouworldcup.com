@@ -26,7 +26,7 @@
             </tr>
         </thead>
         <tbody id="schedule_tbody"><noscript><?php
-            $json = file_get_contents('json/schedule.json');
+            $json = file_get_contents('json/schedule_new.json');
             $schedule = json_decode($json, true);
             $teams = ['rose', 'mind', 'heart'];
             $highlight = false;
