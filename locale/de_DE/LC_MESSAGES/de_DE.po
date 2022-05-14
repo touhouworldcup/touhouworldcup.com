@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-14 16:45+0200\n"
-"PO-Revision-Date: 2022-05-14 16:48+0200\n"
+"POT-Creation-Date: 2022-05-14 17:11+0200\n"
+"PO-Revision-Date: 2022-05-14 17:16+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -697,37 +697,41 @@ msgstr ""
 
 #: schedule.php:19
 msgid "Show Results"
-msgstr "Zeige Ergebnisse"
+msgstr "Ergebnisse anzeigen"
 
-#: schedule.php:23
+#: schedule.php:20
+msgid "Hide Results"
+msgstr "Ergebnisse verstecken"
+
+#: schedule.php:24
 msgid "Date / Time"
 msgstr "Datum / Uhrzeit"
 
-#: schedule.php:24 twcscore.php:68
+#: schedule.php:25 twcscore.php:68
 msgid "Category"
 msgstr "Kategorie"
 
-#: schedule.php:25
+#: schedule.php:26
 msgid "Players"
 msgstr "Spieler"
 
-#: schedule.php:26
+#: schedule.php:27
 msgid "Reset Time<br>(minutes)"
 msgstr "Reset-Zeit<br>(Minuten)"
 
-#: schedule.php:27
+#: schedule.php:28 schedule.php:31
 msgid "Results"
 msgstr "Ergebnisse"
 
-#: schedule.php:28
+#: schedule.php:29 schedule.php:32
 msgid "Points"
 msgstr "Punkte"
 
-#: schedule.php:39
+#: schedule.php:44
 msgid " ("
 msgstr ""
 
-#: schedule.php:41
+#: schedule.php:46
 msgid ")"
 msgstr ""
 
