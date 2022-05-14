@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-01 12:23+0200\n"
-"PO-Revision-Date: 2022-05-01 12:23+0200\n"
+"POT-Creation-Date: 2022-05-14 16:45+0200\n"
+"PO-Revision-Date: 2022-05-14 16:48+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -695,21 +695,41 @@ msgstr ""
 "Die Sommerzeit (auch bekannt als Daylight Saving Time oder DST) wird "
 "automatisch berücksichtigt."
 
-#: schedule.php:22
+#: schedule.php:19
+msgid "Show Results"
+msgstr "Zeige Ergebnisse"
+
+#: schedule.php:23
 msgid "Date / Time"
 msgstr "Datum / Uhrzeit"
 
-#: schedule.php:23 twcscore.php:66
+#: schedule.php:24 twcscore.php:68
 msgid "Category"
 msgstr "Kategorie"
 
-#: schedule.php:24
+#: schedule.php:25
 msgid "Players"
 msgstr "Spieler"
 
-#: schedule.php:25
+#: schedule.php:26
 msgid "Reset Time<br>(minutes)"
 msgstr "Reset-Zeit<br>(Minuten)"
+
+#: schedule.php:27
+msgid "Results"
+msgstr "Ergebnisse"
+
+#: schedule.php:28
+msgid "Points"
+msgstr "Punkte"
+
+#: schedule.php:39
+msgid " ("
+msgstr ""
+
+#: schedule.php:41
+msgid ")"
+msgstr ""
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -744,114 +764,118 @@ msgid "Touhou 8: Imperishable Night"
 msgstr ""
 
 #: twcscore.php:25
-msgid "Touhou 10: Mountain of Faith"
+msgid "Touhou 9: Phantasmagoria of Flower View"
 msgstr ""
 
 #: twcscore.php:27
-msgid "Touhou 11: Subterranean Animism"
+msgid "Touhou 10: Mountain of Faith"
 msgstr ""
 
 #: twcscore.php:29
-msgid "Touhou 12: Undefined Fantastic Object"
+msgid "Touhou 11: Subterranean Animism"
 msgstr ""
 
 #: twcscore.php:31
-msgid "Touhou 12.8: Great Fairy Wars"
+msgid "Touhou 12: Undefined Fantastic Object"
 msgstr ""
 
 #: twcscore.php:33
-msgid "Touhou 13: Ten Desires"
+msgid "Touhou 12.8: Great Fairy Wars"
 msgstr ""
 
 #: twcscore.php:35
-msgid "Touhou 14: Double Dealing Character"
+msgid "Touhou 13: Ten Desires"
 msgstr ""
 
 #: twcscore.php:37
-msgid "Touhou 15: Legacy of Lunatic Kingdom"
+msgid "Touhou 14: Double Dealing Character"
 msgstr ""
 
 #: twcscore.php:39
-msgid "Touhou 16: Hidden Star in Four Seasons"
+msgid "Touhou 15: Legacy of Lunatic Kingdom"
 msgstr ""
 
 #: twcscore.php:41
-msgid "Touhou 17: Wily Beast and Weakest Creature"
+msgid "Touhou 16: Hidden Star in Four Seasons"
 msgstr ""
 
 #: twcscore.php:43
+msgid "Touhou 17: Wily Beast and Weakest Creature"
+msgstr ""
+
+#: twcscore.php:45
 msgid "Touhou 18: Unconnected Marketeers"
 msgstr ""
 
-#: twcscore.php:47
+#: twcscore.php:49
 msgid "Shottype / Route"
 msgstr "Shot Type / Route"
 
-#: twcscore.php:69 twcscore.php:70
+#: twcscore.php:71 twcscore.php:72
 msgid "Survival"
 msgstr ""
 
-#: twcscore.php:72 twcscore.php:73
+#: twcscore.php:74 twcscore.php:75
 msgid "Scoring"
 msgstr ""
 
-#: twcscore.php:79
+#: twcscore.php:81
 msgid "Full Spell"
 msgstr ""
 
-#: twcscore.php:85
+#: twcscore.php:87
 msgid "Misses"
 msgstr "Tode"
 
-#: twcscore.php:93
+#: twcscore.php:95
 msgid "Score"
 msgstr "Punktanzahl"
 
-#: twcscore.php:99
+#: twcscore.php:101
 msgid "Gold medals"
 msgstr "Goldene Medaillen"
 
-#: twcscore.php:107
+#: twcscore.php:109
 msgid "Difficulty"
 msgstr "Schwierigkeitsgrad"
 
-#: twcscore.php:116
+#: twcscore.php:118
 msgid "Final Stage"
 msgstr "End-Stage"
 
-#: twcscore.php:118
+#: twcscore.php:120
 msgid "FinalA"
 msgstr ""
 
-#: twcscore.php:119
+#: twcscore.php:121
 msgid "FinalB"
 msgstr ""
 
-#: twcscore.php:125
+#: twcscore.php:127
 msgid "Please fill out the game"
 msgstr "Bitte fülle das Spiel aus"
 
-#: twcscore.php:126
+#: twcscore.php:128
 msgid "Please fill out the shottype"
 msgstr "Bitte fülle die Shot Type aus"
 
-#: twcscore.php:127
+#: twcscore.php:129
 msgid "Please fill out the miss count"
 msgstr "Bitte fülle die Anzahl der Tode aus"
 
-#: twcscore.php:128
+#: twcscore.php:130
 msgid "Please fill out the score"
 msgstr "Bitte fülle die Punktzahl aus"
 
-#: twcscore.php:129
+#: twcscore.php:131
 msgid "Please fill out the Final Stage"
 msgstr "Bitte fülle die End-Stage aus"
 
-#: twcscore.php:130
+#: twcscore.php:132
 msgid "Please fill out the gold medals"
 msgstr "Bitte fülle die Goldmedaillen aus"
 
-#: twcscore.php:131
+#: twcscore.php:133
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
@@ -860,11 +884,11 @@ msgstr ""
 "kontaktiere <a href=\"https://twitter.com/32thc\" target=\"_blank\">32th "
 "System</a>"
 
-#: twcscore.php:135
+#: twcscore.php:137
 msgid "Calculate"
 msgstr "Berechnen"
 
-#: twcscore.php:141
+#: twcscore.php:143
 msgid "TWCScore:"
 msgstr ""
 
@@ -1101,9 +1125,6 @@ msgstr ""
 
 #~ msgid "Different games"
 #~ msgstr "Verschiedene Spiele"
-
-#~ msgid "Max Points"
-#~ msgstr "Max. Punkte"
 
 #~ msgid "Touhou World Records"
 #~ msgstr "Touhou-Weltrekorde"
