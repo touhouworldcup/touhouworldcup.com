@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-01 12:23+0200\n"
-"PO-Revision-Date: 2022-05-01 12:23+0200\n"
+"POT-Creation-Date: 2022-05-14 16:51+0200\n"
+"PO-Revision-Date: 2022-05-14 16:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -672,21 +672,41 @@ msgid ""
 "account automatically."
 msgstr ""
 
-#: schedule.php:22
+#: schedule.php:19
+msgid "Show Results"
+msgstr "業績を見せて"
+
+#: schedule.php:23
 msgid "Date / Time"
 msgstr "日付と時間"
 
-#: schedule.php:23 twcscore.php:66
+#: schedule.php:24 twcscore.php:68
 msgid "Category"
 msgstr "カテゴリー"
 
-#: schedule.php:24
+#: schedule.php:25
 msgid "Players"
 msgstr "プレイヤー"
 
-#: schedule.php:25
+#: schedule.php:26
 msgid "Reset Time<br>(minutes)"
 msgstr "リセットのタイマー<br>（分）"
+
+#: schedule.php:27
+msgid "Results"
+msgstr "業績"
+
+#: schedule.php:28
+msgid "Points"
+msgstr "ポイント"
+
+#: schedule.php:39
+msgid " ("
+msgstr "（"
+
+#: schedule.php:41
+msgid ")"
+msgstr "）"
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -721,124 +741,128 @@ msgid "Touhou 8: Imperishable Night"
 msgstr "東方永夜抄　～ Imperishable Night"
 
 #: twcscore.php:25
+msgid "Touhou 9: Phantasmagoria of Flower View"
+msgstr "東方花映塚　～ Phantasmagoria of Flower View"
+
+#: twcscore.php:27
 msgid "Touhou 10: Mountain of Faith"
 msgstr "東方風神録　～ Mountain of Faith"
 
-#: twcscore.php:27
+#: twcscore.php:29
 msgid "Touhou 11: Subterranean Animism"
 msgstr "東方地霊殿　～ Subterranean Animism"
 
-#: twcscore.php:29
+#: twcscore.php:31
 msgid "Touhou 12: Undefined Fantastic Object"
 msgstr "東方星蓮船　～ Undefined Fantastic Object"
 
-#: twcscore.php:31
+#: twcscore.php:33
 msgid "Touhou 12.8: Great Fairy Wars"
 msgstr "妖精大戦争　～ 東方三月精"
 
-#: twcscore.php:33
+#: twcscore.php:35
 msgid "Touhou 13: Ten Desires"
 msgstr "東方神霊廟　～ Ten Desires"
 
-#: twcscore.php:35
+#: twcscore.php:37
 msgid "Touhou 14: Double Dealing Character"
 msgstr "東方輝針城　～ Double Dealing Character"
 
-#: twcscore.php:37
+#: twcscore.php:39
 msgid "Touhou 15: Legacy of Lunatic Kingdom"
 msgstr "東方紺珠伝　～ Legacy of Lunatic Kingdom"
 
-#: twcscore.php:39
+#: twcscore.php:41
 msgid "Touhou 16: Hidden Star in Four Seasons"
 msgstr "東方天空璋　～ Hidden Star in Four Seasons"
 
-#: twcscore.php:41
+#: twcscore.php:43
 msgid "Touhou 17: Wily Beast and Weakest Creature"
 msgstr "東方鬼形獣　～ Wily Beast and Weakest Creature"
 
-#: twcscore.php:43
+#: twcscore.php:45
 msgid "Touhou 18: Unconnected Marketeers"
 msgstr "東方虹龍洞　～ Unconnected Marketeers"
 
-#: twcscore.php:47
+#: twcscore.php:49
 msgid "Shottype / Route"
 msgstr "キャラ"
 
-#: twcscore.php:69 twcscore.php:70
+#: twcscore.php:71 twcscore.php:72
 msgid "Survival"
 msgstr "クリア重視"
 
-#: twcscore.php:72 twcscore.php:73
+#: twcscore.php:74 twcscore.php:75
 msgid "Scoring"
 msgstr "稼ぎ"
 
-#: twcscore.php:79
+#: twcscore.php:81
 msgid "Full Spell"
 msgstr "フルスぺカ"
 
-#: twcscore.php:85
+#: twcscore.php:87
 msgid "Misses"
 msgstr "ミス"
 
-#: twcscore.php:93
+#: twcscore.php:95
 msgid "Score"
 msgstr "スコア"
 
-#: twcscore.php:99
+#: twcscore.php:101
 msgid "Gold medals"
 msgstr "金メダル"
 
-#: twcscore.php:107
+#: twcscore.php:109
 msgid "Difficulty"
 msgstr "難易度"
 
-#: twcscore.php:116
+#: twcscore.php:118
 msgid "Final Stage"
 msgstr "ルート"
 
-#: twcscore.php:118
+#: twcscore.php:120
 msgid "FinalA"
 msgstr "Aルート"
 
-#: twcscore.php:119
+#: twcscore.php:121
 msgid "FinalB"
 msgstr "Bルート"
 
-#: twcscore.php:125
+#: twcscore.php:127
 msgid "Please fill out the game"
 msgstr "ゲームを記入してください"
 
-#: twcscore.php:126
+#: twcscore.php:128
 msgid "Please fill out the shottype"
 msgstr "キャラを記入してください"
 
-#: twcscore.php:127
+#: twcscore.php:129
 msgid "Please fill out the miss count"
 msgstr "ミス回数を記入してください"
 
-#: twcscore.php:128
+#: twcscore.php:130
 msgid "Please fill out the score"
 msgstr "スコアを記入してください"
 
-#: twcscore.php:129
+#: twcscore.php:131
 msgid "Please fill out the Final Stage"
 msgstr "ルートを記入してください"
 
-#: twcscore.php:130
+#: twcscore.php:132
 msgid "Please fill out the gold medals"
 msgstr "金メダルを記入してください"
 
-#: twcscore.php:131
+#: twcscore.php:133
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
 msgstr ""
 
-#: twcscore.php:135
+#: twcscore.php:137
 msgid "Calculate"
 msgstr "計算する"
 
-#: twcscore.php:141
+#: twcscore.php:143
 msgid "TWCScore:"
 msgstr "TWCScore："
 
@@ -1090,9 +1114,6 @@ msgstr "TWCScore："
 #~ msgid "Different games"
 #~ msgstr "ゲーム"
 
-#~ msgid "Max Points"
-#~ msgstr "最大点"
-
 #~ msgid "Touhou World Records"
 #~ msgstr "東方の世界記録"
 
@@ -1113,9 +1134,6 @@ msgstr "TWCScore："
 
 #~ msgid "Touhou 5 - Mystic Square"
 #~ msgstr "東方怪綺談　～ Mystic Square"
-
-#~ msgid "Touhou 9 - Phantasmagoria of Flower View"
-#~ msgstr "東方花映塚　～ Phantasmagoria of Flower View"
 
 #~ msgid "Touhou 9.5 - Shoot the Bullet"
 #~ msgstr "東方文花帖　～ Shoot the Bullet"

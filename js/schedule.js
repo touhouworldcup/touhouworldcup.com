@@ -22,6 +22,14 @@ function getCookie(name) {
     return "";
 }
 
+function showResults() {
+    const results = document.getElementsByClassName("spoiler");
+
+    for (const result of results) {
+        result.style.display = "table-cell";
+    }
+}
+
 function getClientTimeZone() {
     return "UTC" + new Date().toString().split("GMT")[1];
 }
@@ -44,32 +52,13 @@ function toDateString(unix) {
     return date.toLocaleString(language, {"dateStyle": "full"}) + ", " + date.toLocaleTimeString(language);
 }
 
-function printSchedule() {
-    const teams = ["Rose", "Mind", "Heart"];
-    let highlight = false;
-
+function convertDateTimes() {
     sendXHR("GET", "/json/schedule_new.json", null, function (response) {
         let schedule = JSON.parse(response);
 
         for (let unix in schedule) {
-            const match = schedule[unix];
-            const id = match.category.replace(/ /g, '_');
-            document.getElementById("schedule_tbody").innerHTML += "<tr id='" + unix + "'></tr>";
             const dateString = toDateString(unix);
-            document.getElementById(unix).innerHTML = "<td class='noborders'>" + dateString +
-            "</td><td class='" + match.category.split(' ')[0] + "'>" + match.category + "</td>" +
-            "<td id='" + id + "_players' class='noborders'></td><td id='" + id +
-            "_reset' class='noborders'>" + (match.reset === 0 ? "N/A" : match.reset) + "</td>";
-
-            if (!highlight && unix >= new Date().getTime() / 1000) {
-                document.getElementById(unix).classList.add("highlight");
-                highlight = true;
-            }
-
-            for (let i = 0; i < match.players.length; i++) {
-                document.getElementById(id + "_players").innerHTML += (i > 0 ? "<br>" : "") + "<span class='team'><img src='assets/icons/" + teams[i].toLowerCase() +
-                ".png' alt='Team " + teams[i] + "'><span class='tooltip'>Team " + teams[i] + "</span></span> " + match.players[i];
-            }
+            document.getElementById(unix + "_date").innerHTML = "<td class='noborders'>" + dateString + "</td>";
         }
     });
 }
@@ -89,8 +78,10 @@ function init() {
         language = "es-ES";
     }
 
+    document.getElementById("show_results").addEventListener("click", showResults, false);
     document.getElementById("timezone").innerHTML = getClientTimeZone();
-    printSchedule();
+    document.getElementById("show_results").style.display = "inline";
+    convertDateTimes();
 }
 
 window.addEventListener("DOMContentLoaded", init, false);

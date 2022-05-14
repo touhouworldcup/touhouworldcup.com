@@ -1,3 +1,6 @@
+input[type=button] {
+    font-size: 28px;
+}
 .TH06 {
     background-color: #ff2400;
     color: #000;
@@ -51,6 +54,9 @@
 }
 .highlight {
     background: rgba(128, 128, 0, 0.5);
+}
+.spoiler, #show_results {
+    display: none;
 }
 .team {
     cursor: help;
