@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-14 16:51+0200\n"
-"PO-Revision-Date: 2022-05-14 16:53+0200\n"
+"POT-Creation-Date: 2022-05-14 17:23+0200\n"
+"PO-Revision-Date: 2022-05-14 17:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -79,10 +79,6 @@ msgstr ""
 #: index.php:21
 msgid "See below for official communication channels."
 msgstr "官方频道详见以下链接。"
-
-#: index.php:24
-msgid "TWC Starts In:"
-msgstr "TWC开幕日期："
 
 #: index.php:30
 msgid "TWC English Commentary Stream"
@@ -641,35 +637,39 @@ msgstr ""
 msgid "Show Results"
 msgstr "显示结果"
 
-#: schedule.php:23
+#: schedule.php:20
+msgid "Hide Results"
+msgstr "隐藏结果"
+
+#: schedule.php:24
 msgid "Date / Time"
 msgstr "日期和时间"
 
-#: schedule.php:24 twcscore.php:68
+#: schedule.php:25 twcscore.php:68
 msgid "Category"
 msgstr "项目"
 
-#: schedule.php:25
+#: schedule.php:26
 msgid "Players"
 msgstr "玩家"
 
-#: schedule.php:26
+#: schedule.php:27
 msgid "Reset Time<br>(minutes)"
 msgstr "Reset Time<br>（分钟）"
 
-#: schedule.php:27
+#: schedule.php:28 schedule.php:31
 msgid "Results"
 msgstr "结果"
 
-#: schedule.php:28
+#: schedule.php:29 schedule.php:32
 msgid "Points"
 msgstr "总分"
 
-#: schedule.php:39
+#: schedule.php:44
 msgid " ("
 msgstr ""
 
-#: schedule.php:41
+#: schedule.php:46
 msgid ")"
 msgstr ""
 
@@ -830,6 +830,9 @@ msgstr "计算"
 #: twcscore.php:143
 msgid "TWCScore:"
 msgstr "TWCScore："
+
+#~ msgid "TWC Starts In:"
+#~ msgstr "TWC开幕日期："
 
 #~ msgid "Coming soon!"
 #~ msgstr "敬请期待！"

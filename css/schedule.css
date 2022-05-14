@@ -1,4 +1,5 @@
 input[type=button] {
+    display: none;
     font-size: 28px;
 }
 .TH06 {
@@ -55,7 +56,7 @@ input[type=button] {
 .highlight {
     background: rgba(128, 128, 0, 0.5);
 }
-.spoiler, #show_results {
+.spoiler {
     display: none;
 }
 .team {

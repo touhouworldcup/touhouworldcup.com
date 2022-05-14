@@ -20,10 +20,10 @@
     <p><?php
         echo _('See below for official communication channels.');
     ?></p>
-    <div id="countdowns">
-        <h2><?php echo _('TWC Starts In:') ?></h2>
+    <!--<div id="countdowns">
+        <h2><?php //echo _('TWC Starts In:') ?></h2>
         <p class="large"><span id="countdown_start"></span></p>
-    </div>
+    </div>-->
     <div id="cards">
         <div class="card"><a href="https://www.twitch.tv/touhou_replay_showcase" class="card_link" target="_blank">
             <img class="thumbnail" src="/assets/twitch.png" alt="TWC Twitch stream" width=400 height=256>

@@ -17,6 +17,7 @@
         }
     ?></p>
     <p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
+    <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>
     <table id="schedule_table">
         <thead>
             <tr>
