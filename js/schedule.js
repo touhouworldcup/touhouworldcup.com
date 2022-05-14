@@ -1,4 +1,4 @@
-let language = "en-GB";
+let language = "en-GB", clicked = false;
 
 function getCookie(name) {
     let decodedCookies = decodeURIComponent(document.cookie);
@@ -22,12 +22,16 @@ function getCookie(name) {
     return "";
 }
 
-function showResults() {
+function toggleResults() {
     const results = document.getElementsByClassName("spoiler");
+    document.getElementById("show_results").style.display = (clicked ? "inline" : "none");
+    document.getElementById("hide_results").style.display = (clicked ? "none" : "inline");
 
     for (const result of results) {
-        result.style.display = "table-cell";
+        result.style.display = clicked ? "none" : "table-cell";
     }
+
+    clicked = !clicked;
 }
 
 function getClientTimeZone() {
@@ -78,7 +82,8 @@ function init() {
         language = "es-ES";
     }
 
-    document.getElementById("show_results").addEventListener("click", showResults, false);
+    document.getElementById("show_results").addEventListener("click", toggleResults, false);
+    document.getElementById("hide_results").addEventListener("click", toggleResults, false);
     document.getElementById("timezone").innerHTML = getClientTimeZone();
     document.getElementById("show_results").style.display = "inline";
     convertDateTimes();

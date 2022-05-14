@@ -1,4 +1,4 @@
-let language = "en-GB", step = setInterval(updateCountdowns, 1000);
+/*let language = "en-GB", step = setInterval(updateCountdowns, 1000);
 
 function _(letter) {
     if (language != "ja-JP" && language != "zh-CN") {
@@ -77,4 +77,4 @@ function init() {
     updateCountdowns();
 }
 
-window.addEventListener("DOMContentLoaded", init, false);
+window.addEventListener("DOMContentLoaded", init, false);*/

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-14 16:48+0200\n"
-"PO-Revision-Date: 2022-05-14 16:49+0200\n"
+"POT-Creation-Date: 2022-05-14 17:19+0200\n"
+"PO-Revision-Date: 2022-05-14 17:21+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -81,10 +81,6 @@ msgstr ""
 #: index.php:21
 msgid "See below for official communication channels."
 msgstr "Los canales oficiales de comunicación se encuentran abajo."
-
-#: index.php:24
-msgid "TWC Starts In:"
-msgstr "TWC Comienza en:"
 
 #: index.php:30
 msgid "TWC English Commentary Stream"
@@ -693,35 +689,39 @@ msgstr "El Horario de Verano (DST) es considerado de manera automática."
 msgid "Show Results"
 msgstr "Mostrar Resultados"
 
-#: schedule.php:23
+#: schedule.php:20
+msgid "Hide Results"
+msgstr "Ocultar Resultados"
+
+#: schedule.php:24
 msgid "Date / Time"
 msgstr "Fecha / Hora"
 
-#: schedule.php:24 twcscore.php:68
+#: schedule.php:25 twcscore.php:68
 msgid "Category"
 msgstr "Categoría"
 
-#: schedule.php:25
+#: schedule.php:26
 msgid "Players"
 msgstr "Jugadores"
 
-#: schedule.php:26
+#: schedule.php:27
 msgid "Reset Time<br>(minutes)"
 msgstr "Temporizador de Reinicio<br>(minutos)"
 
-#: schedule.php:27
+#: schedule.php:28 schedule.php:31
 msgid "Results"
 msgstr "Resultados"
 
-#: schedule.php:28
+#: schedule.php:29 schedule.php:32
 msgid "Points"
 msgstr "Puntos"
 
-#: schedule.php:39
+#: schedule.php:44
 msgid " ("
 msgstr ""
 
-#: schedule.php:41
+#: schedule.php:46
 msgid ")"
 msgstr ""
 
@@ -885,6 +885,9 @@ msgstr "Calcular"
 #: twcscore.php:143
 msgid "TWCScore:"
 msgstr "TWCScore:"
+
+#~ msgid "TWC Starts In:"
+#~ msgstr "TWC Comienza en:"
 
 #~ msgid "Coming soon!"
 #~ msgstr "¡Próximamente!"
