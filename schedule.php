@@ -40,7 +40,11 @@
                     $result = $results[$key][$i];
                     $formatted .= ($i > 0 ? '<br>' : '');
                     $formatted .= _($result['shot']) . ' ';
-                    $formatted .= number_format($result['score'], 0, '.', ',');
+                    if (is_string($result['score'])) { // survival
+                        $formatted .= $result['score'];
+                    } else { // scoring
+                        $formatted .= number_format($result['score'], 0, '.', ',');
+                    }
                     $formatted .= _(' (');
                     $formatted .= $result['twcscore'];
                     $formatted .= _(')');
