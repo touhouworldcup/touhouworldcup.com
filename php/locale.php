@@ -47,7 +47,7 @@ function parse_accept_language() {
 function check_hl(string $hl) {
     switch ($hl) {
         case 'en-us': return 'en_US';
-        case 'jp': return 'ja_JP';
+        case 'ja': return 'ja_JP';
         case 'zh': return 'zh_CN';
         case 'ru': return 'ru_RU';
         case 'de': return 'de_DE';
