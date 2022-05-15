@@ -45,6 +45,15 @@
     <!--
     <a class="twitter-timeline" data-width="300" data-height="500" data-dnt="true" data-theme="light" href="https://twitter.com/touhouworldcup?ref_src=twsrc%5Etfw">Tweets by touhouworldcup</a>
     -->
+    <p class="bottom">
+        <a class="language_small" href="/?hl=en-gb">English (UK)</a>
+        <a class="language_small" href="/?hl=en-us">English (US)</a>
+        <a class="language_small" href="/?hl=ja">日本語</a>
+        <a class="language_small" href="/?hl=zh">简体中文</a>
+        <a class="language_small" href="/?hl=ru">Русский</a>
+        <a class="language_small" href="/?hl=de">Deutsch</a>
+        <a class="language_small" href="/?hl=es">Español</a>
+    </p>
     <p class="bottom">Touhou World Cup 2022</p>
 	</main>
 </body>
