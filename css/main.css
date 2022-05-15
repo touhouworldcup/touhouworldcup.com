@@ -31,6 +31,10 @@ iframe {
     align-items: center;
     justify-content: center;
 }
+.language_small {
+    font-size: 14px;
+    margin: 0px 10px 0px 10px;
+}
 .large {
     font-size: 20px;
 }
