@@ -17,7 +17,7 @@
     <li class="subpage flag_container <?php echo $lang == 'en_US' ? 'selected' : '' ?>"><a id="en_US" class="language" href="?hl=en-us">
         <span class="flag"><img class="flag_img" src="/assets/icons/us.png" alt="<?php echo _('Flag of the United States') ?>"> English (US)</span>
     </a></li>
-    <li class="subpage flag_container <?php echo $lang == 'ja_JP' ? 'selected' : '' ?>"><a id="ja_JP" class="language" href="?hl=jp">
+    <li class="subpage flag_container <?php echo $lang == 'ja_JP' ? 'selected' : '' ?>"><a id="ja_JP" class="language" href="?hl=ja">
         <span class="flag"><img class="flag_img" src="/assets/icons/japan.png" alt="<?php echo _('Flag of Japan') ?>"> 日本語</span>
     </a></li>
     <li class="subpage flag_container <?php echo $lang == 'zh_CN' ? 'selected' : '' ?>"><a id="zh_CN" class="language" href="?hl=zh">
@@ -42,7 +42,7 @@
         <p class="flag_container <?php echo $lang == 'en_US' ? 'selected' : '' ?>"><a id="en_US" class="language" href="?hl=en-us">
             <span class="flag"><img class="flag_img" src="/assets/icons/us.png" alt="<?php echo _('Flag of the United States') ?>"> English (US)</span>
         </a></p>
-        <p class="flag_container <?php echo $lang == 'ja_JP' ? 'selected' : '' ?>"><a id="ja_JP" class="language" href="?hl=jp">
+        <p class="flag_container <?php echo $lang == 'ja_JP' ? 'selected' : '' ?>"><a id="ja_JP" class="language" href="?hl=ja">
             <span class="flag"><img class="flag_img" src="/assets/icons/japan.png" alt="<?php echo _('Flag of Japan') ?>"> 日本語</span>
         </a></p>
         <p class="flag_container <?php echo $lang == 'zh_CN' ? 'selected' : '' ?>"><a id="zh_CN" class="language" href="?hl=zh">
