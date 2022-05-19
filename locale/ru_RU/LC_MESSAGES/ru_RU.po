@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-14 17:22+0200\n"
-"PO-Revision-Date: 2022-05-14 17:23+0200\n"
+"POT-Creation-Date: 2022-05-19 10:18+0200\n"
+"PO-Revision-Date: 2022-05-19 10:19+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -470,20 +470,24 @@ msgstr "Touhou 8"
 
 #: rules.php:49
 msgid ""
-"Last Spell: Getting hit during a Last Spell is <strong>not</strong> "
-"considered a death in survival runs. However, never dying or bombing and "
-"capturing every Spell Card, including Last Spells, awards a TWCScore bonus "
-"(NN + FS)."
+"Last Spell: Getting hit during a Last Spell is considered a death. Not "
+"meeting the time orb requirement in Stage 1-5 is also considered a death. "
+"Timing out a Last Spell is <strong>not</strong> considered a death. Failing "
+"any number of Kaguya's Last Spells counts as 1 death, even if the player "
+"dies more than once."
 msgstr ""
-"Получение урона во время бонусных спеллов не считается смертью в матчах на "
-"выживание. Однако ISCORE дает большее количество очков за забеги, в которых "
-"были захвачены все бонусные спеллы И ОДНОВРЕМЕННО без бомб и смертей."
+"Последнее заклинание: Получение урона во время Последнего заклинания "
+"считается за одну смерть. Отсутствие достаточного количества сфер времени на "
+"уровнях 1-5 также считается за одну смерть. Таймаут Последнего заклинания "
+"<strong>не</strong> считается за смерть. Провал любого числа Последних "
+"заклинаний Кагуи считается за одну смерть, даже если игрок умирает более "
+"одного раза."
 
-#: rules.php:50
+#: rules.php:51
 msgid "Touhou 12"
 msgstr "Touhou 12"
 
-#: rules.php:51
+#: rules.php:52
 msgid ""
 "UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens "
 "is allowed and does not count as a death."
@@ -491,11 +495,11 @@ msgstr ""
 "НЛО: Призыв НЛО считается смертью. Однако, сбор НЛО-предметов разрешен и не "
 "считается смертью."
 
-#: rules.php:52
+#: rules.php:53
 msgid "Touhou 13"
 msgstr "Touhou 13"
 
-#: rules.php:53
+#: rules.php:54
 msgid ""
 "Trance: A manually activated trance is considered two deaths."
 "<br>Additionally, there is a TWCScore Bonus for a credit that captures all "
@@ -505,19 +509,19 @@ msgstr ""
 "существует TWCScore бонус за прохождение с захватом всех спелл-карты и без "
 "смертей."
 
-#: rules.php:55
+#: rules.php:56
 msgid "Touhou 16"
 msgstr "Touhou 16"
 
-#: rules.php:56
+#: rules.php:57
 msgid "Season Release: Releasing your season gauge is considered two deaths."
 msgstr "Высвобождение сезона: Высвобождение сезона считается за две смерти."
 
-#: rules.php:57
+#: rules.php:58
 msgid "Touhou 17"
 msgstr "Touhou 17"
 
-#: rules.php:58
+#: rules.php:59
 msgid ""
 "Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal "
 "tokens during roar mode) is considered 2 deaths. Breaking a Beserk Roar by "
@@ -531,11 +535,11 @@ msgstr ""
 "рыка-берсерка или стандартного рыка нажатием клавиши бомбы всегда будет "
 "считаться за одну смерть."
 
-#: rules.php:61
+#: rules.php:62
 msgid "Touhou 18"
 msgstr "Touhou 18"
 
-#: rules.php:62
+#: rules.php:63
 msgid ""
 "Cards: Players are not allowed to use cards.<br>Additionally, the players "
 "are only allowed to buy \"Money Comes and Goes On its Own\" from the card "
@@ -545,15 +549,15 @@ msgstr ""
 "разрешено покупать только «Гуляющее по миру добро» в карточном магазине "
 "между уровнями."
 
-#: rules.php:65
+#: rules.php:66
 msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
 msgstr "<em>Карта «Гуляющее по миру добро».</em>"
 
-#: rules.php:66
+#: rules.php:67
 msgid "Scoring Categories"
 msgstr "Категории скоринга"
 
-#: rules.php:67
+#: rules.php:68
 msgid ""
 "In Scoring Categories the players will try to finish the game while gaining "
 "the highest score possible. They can die, bomb and use any other mechanics "
@@ -563,11 +567,11 @@ msgstr ""
 "максимально возможное количество очков. Они могут умирать, бомбить и "
 "использовать любую другую механику сколько угодно."
 
-#: rules.php:69
+#: rules.php:70
 msgid "Some extra details about Scoring Categories:"
 msgstr "Некоторые дополнительные детали о категориях скоринга:"
 
-#: rules.php:71
+#: rules.php:72
 msgid ""
 "Unlike previous years of TWC, there is now no penalty to TWCScore if a "
 "player Game Overs in a Scoring Category."
@@ -575,7 +579,7 @@ msgstr ""
 "В отличие TWC предыдущих лет, теперь нет штрафа к TWCscore, если игрок "
 "получает геймовер в категории скоринга."
 
-#: rules.php:72
+#: rules.php:73
 msgid ""
 "In Touhou 17 and Touhou 18, it is possible to reach the maximum value the "
 "score counter can display, known as a counterstop. If this happens, we will "
@@ -587,7 +591,7 @@ msgstr ""
 "произойдет, мы будем использовать «Истинный счет» игрока, который можно "
 "определить с помощью патчей для удаления каунтерстопа."
 
-#: rules.php:74
+#: rules.php:75
 msgid ""
 "In Touhou 12, the score counter will display the player's score incorrectly "
 "if the score reaches a high enough value. However, if this happens, the game "
@@ -599,15 +603,15 @@ msgstr ""
 "прежнему будет правильно записывать счет игрока в таблице рекордов, и вместо "
 "неверного значения будет использоваться это."
 
-#: rules.php:79
+#: rules.php:80
 msgid "Allowed Game Mods"
 msgstr "Разрешенные игровые модификации"
 
-#: rules.php:80
+#: rules.php:81
 msgid "Vpatch is allowed for all applicable games."
 msgstr "Vpatch разрешен для всех применимых игр."
 
-#: rules.php:81
+#: rules.php:82
 msgid ""
 "thprac can be used for practice during a match, but all cheats must be "
 "disabled when performing credits."
@@ -615,20 +619,20 @@ msgstr ""
 "thprac можно использовать для тренировки во время матча, но все читы должны "
 "быть отключены во время прохождения."
 
-#: rules.php:82
+#: rules.php:83
 msgid "Counterstop Removal Patches and Scorebug Patches are allowed."
 msgstr ""
 "Патчи для удаления каунтерстопа и неправильного отображения счета разрешены."
 
-#: rules.php:83
+#: rules.php:84
 msgid "Visual, Audio and Translation patches are not allowed."
 msgstr "Визуальные, звуковые и патчи с переводом не разрешены."
 
-#: rules.php:85
+#: rules.php:86
 msgid "Other Rules"
 msgstr "Другие правила"
 
-#: rules.php:87
+#: rules.php:88
 msgid ""
 "Players must stream their gameplay while playing their match, without "
 "covering any HUD or gameplay elements."
@@ -636,7 +640,7 @@ msgstr ""
 "Игроки должны транслировать свой игровой процесс во время матча, не закрывая "
 "HUD или элементы игрового процесса."
 
-#: rules.php:88
+#: rules.php:89
 msgid ""
 "The replay file of each player's best performing credit must be submitted to "
 "the TWC Committee at the end of a match."
@@ -644,15 +648,15 @@ msgstr ""
 "Каждый игрок в конце матча должен представить файл с реплеем своего лучшего "
 "прохождения организаторам TWC."
 
-#: rules.php:89
+#: rules.php:90
 msgid "Please hide the ending when you reach the end of the game."
 msgstr "Пожалуйста, скройте концовку, когда дойдете до конца игры."
 
-#: rules.php:92
+#: rules.php:93
 msgid "Full Official Rules"
 msgstr "Полные официальные правила"
 
-#: rules.php:93
+#: rules.php:94
 msgid ""
 "The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf"
 "\">here</a>. Currently, it is only available in the English language."
@@ -660,7 +664,7 @@ msgstr ""
 "Полный официальный свод правил можно найти <a href=\"assets/TWC_Handbook.pdf"
 "\">здесь</a>. В настоящее время он доступен только на английском языке."
 
-#: rules.php:94
+#: rules.php:95
 msgid "Back to Top"
 msgstr "Наверх"
 
@@ -714,11 +718,11 @@ msgstr "Результаты"
 msgid "Points"
 msgstr "Очков"
 
-#: schedule.php:44
+#: schedule.php:48
 msgid " ("
 msgstr ""
 
-#: schedule.php:46
+#: schedule.php:50
 msgid ")"
 msgstr ""
 
@@ -881,6 +885,17 @@ msgstr "Рассчитать"
 #: twcscore.php:143
 msgid "TWCScore:"
 msgstr "TWCScore:"
+
+#~ msgid ""
+#~ "Last Spell: Getting hit during a Last Spell is <strong>not</strong> "
+#~ "considered a death in survival runs. However, never dying or bombing and "
+#~ "capturing every Spell Card, including Last Spells, awards a TWCScore "
+#~ "bonus (NN + FS)."
+#~ msgstr ""
+#~ "Получение урона во время бонусных спеллов не считается смертью в матчах "
+#~ "на выживание. Однако ISCORE дает большее количество очков за забеги, в "
+#~ "которых были захвачены все бонусные спеллы И ОДНОВРЕМЕННО без бомб и "
+#~ "смертей."
 
 #~ msgid "TWC Starts In:"
 #~ msgstr "TWC начнется через:"

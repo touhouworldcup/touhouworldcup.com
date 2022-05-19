@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-14 17:23+0200\n"
-"PO-Revision-Date: 2022-05-14 17:23+0200\n"
+"POT-Creation-Date: 2022-05-19 10:18+0200\n"
+"PO-Revision-Date: 2022-05-19 10:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -462,21 +462,23 @@ msgstr "東方永夜抄　～ Imperishable Night."
 
 #: rules.php:49
 msgid ""
-"Last Spell: Getting hit during a Last Spell is <strong>not</strong> "
-"considered a death in survival runs. However, never dying or bombing and "
-"capturing every Spell Card, including Last Spells, awards a TWCScore bonus "
-"(NN + FS)."
+"Last Spell: Getting hit during a Last Spell is considered a death. Not "
+"meeting the time orb requirement in Stage 1-5 is also considered a death. "
+"Timing out a Last Spell is <strong>not</strong> considered a death. Failing "
+"any number of Kaguya's Last Spells counts as 1 death, even if the player "
+"dies more than once."
 msgstr ""
-"サバイバルマッチにおいて、ラストスペルでの被弾はTWCScoreに影響を与えません。"
-"ただし、全てのラストスペルを出現させ取得し、かつ、ノーミスノーボムを達成した"
-"場合にのみ、より高いTWCScoreが与えられます（TWCScore計算機のFull-SC欄を参"
-"照）。"
+"ラストスペルについて：ラストスペルでの被弾は、１被弾とカウントされます。ス"
+"テージ５までのラストスペルを出現させることが出来なかった場合、１つのラストス"
+"ペルあたり１被弾とカウントされます。ラストスペルがタイムアウトした場合は被弾"
+"とカウントされません。輝夜の永夜返しについては、１枚もしくはそれ以上の取得失"
+"敗を１被弾とカウントされます。"
 
-#: rules.php:50
+#: rules.php:51
 msgid "Touhou 12"
 msgstr "東方星蓮船　～ Undefined Fantastic Object."
 
-#: rules.php:51
+#: rules.php:52
 msgid ""
 "UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens "
 "is allowed and does not count as a death."
@@ -484,11 +486,11 @@ msgstr ""
 "サバイバルマッチではUFOの召喚を被弾として扱います。ただし、ベントラーの取得は"
 "ISCOREに影響を与えません。"
 
-#: rules.php:52
+#: rules.php:53
 msgid "Touhou 13"
 msgstr "東方神霊廟　～ Ten Desires."
 
-#: rules.php:53
+#: rules.php:54
 msgid ""
 "Trance: A manually activated trance is considered two deaths."
 "<br>Additionally, there is a TWCScore Bonus for a credit that captures all "
@@ -498,19 +500,19 @@ msgstr ""
 "ドを取得し、かつ、ノーミスノーボムを達成した場合にのみ、より高いTWCScoreが与"
 "えられます（TWCScore計算機のFull-SC欄を参照）。"
 
-#: rules.php:55
+#: rules.php:56
 msgid "Touhou 16"
 msgstr "東方天空璋　～ Hidden Star in Four Seasons."
 
-#: rules.php:56
+#: rules.php:57
 msgid "Season Release: Releasing your season gauge is considered two deaths."
 msgstr "サバイバルマッチにおいて、季節解放は２被弾として扱われます。"
 
-#: rules.php:57
+#: rules.php:58
 msgid "Touhou 17"
 msgstr "東方鬼形獣 ～ Wily Beast and Weakest Creature."
 
-#: rules.php:58
+#: rules.php:59
 msgid ""
 "Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal "
 "tokens during roar mode) is considered 2 deaths. Breaking a Beserk Roar by "
@@ -522,11 +524,11 @@ msgstr ""
 "は２被弾として扱われます。また、ロアリング中の霊撃（ボムボタン押下または被弾"
 "によるもの）はサバイバルマッチでは１被弾として扱われます。"
 
-#: rules.php:61
+#: rules.php:62
 msgid "Touhou 18"
 msgstr "東方虹龍洞　～ Unconnected Marketeers."
 
-#: rules.php:62
+#: rules.php:63
 msgid ""
 "Cards: Players are not allowed to use cards.<br>Additionally, the players "
 "are only allowed to buy \"Money Comes and Goes On its Own\" from the card "
@@ -535,15 +537,15 @@ msgstr ""
 "カードの使用：カードの使用は認められていません。<br>ステージ間のショップでは"
 "「勝手に天下の回り物」(ナズーリンカード)の購入が許可されます。"
 
-#: rules.php:65
+#: rules.php:66
 msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
 msgstr "<em>「勝手に天下の回り物」</em>"
 
-#: rules.php:66
+#: rules.php:67
 msgid "Scoring Categories"
 msgstr "スコアリングカテゴリについて"
 
-#: rules.php:67
+#: rules.php:68
 msgid ""
 "In Scoring Categories the players will try to finish the game while gaining "
 "the highest score possible. They can die, bomb and use any other mechanics "
@@ -553,17 +555,17 @@ msgstr ""
 "す。\n"
 "被弾、ボムの使用、サブシステムなどを自由に使用することが出来ます。"
 
-#: rules.php:69
+#: rules.php:70
 msgid "Some extra details about Scoring Categories:"
 msgstr "スコアリングカテゴリについての詳細。"
 
-#: rules.php:71
+#: rules.php:72
 msgid ""
 "Unlike previous years of TWC, there is now no penalty to TWCScore if a "
 "player Game Overs in a Scoring Category."
 msgstr "昨年までのTWCと違い、満身創痍にペナルティーが無くなりました。"
 
-#: rules.php:72
+#: rules.php:73
 msgid ""
 "In Touhou 17 and Touhou 18, it is possible to reach the maximum value the "
 "score counter can display, known as a counterstop. If this happens, we will "
@@ -574,7 +576,7 @@ msgstr ""
 "ウンターストップ解除パッチにより\n"
 "「本来のスコア」が競技に適用されます。"
 
-#: rules.php:74
+#: rules.php:75
 msgid ""
 "In Touhou 12, the score counter will display the player's score incorrectly "
 "if the score reaches a high enough value. However, if this happens, the game "
@@ -586,15 +588,15 @@ msgstr ""
 "しかしリーダーボードでは正しいスコアが表記されるため、そのスコアが採用されま"
 "す。"
 
-#: rules.php:79
+#: rules.php:80
 msgid "Allowed Game Mods"
 msgstr "許可されているゲーム改変ツール"
 
-#: rules.php:80
+#: rules.php:81
 msgid "Vpatch is allowed for all applicable games."
 msgstr "パッチの使用は許可されています。"
 
-#: rules.php:81
+#: rules.php:82
 msgid ""
 "thprac can be used for practice during a match, but all cheats must be "
 "disabled when performing credits."
@@ -602,19 +604,19 @@ msgstr ""
 "試合中の練習のためにプラクティスツール（thprac等）を使用することは許可されて"
 "いますが、プラクティスツールを用いたプレイは無効とします。"
 
-#: rules.php:82
+#: rules.php:83
 msgid "Counterstop Removal Patches and Scorebug Patches are allowed."
 msgstr "カウンターストップ解除パッチ、スコアバグ回避パッチは許可されます。"
 
-#: rules.php:83
+#: rules.php:84
 msgid "Visual, Audio and Translation patches are not allowed."
 msgstr "ゲーム画面改変、音声改変、翻訳パッチは許可されません。"
 
-#: rules.php:85
+#: rules.php:86
 msgid "Other Rules"
 msgstr "その他のルール"
 
-#: rules.php:87
+#: rules.php:88
 msgid ""
 "Players must stream their gameplay while playing their match, without "
 "covering any HUD or gameplay elements."
@@ -622,7 +624,7 @@ msgstr ""
 "プレイヤーはプレイ中のゲーム画面を配信しなければなりません。ゲーム画面をその"
 "まま配信し、形を変えたり切り取りをしないでください。"
 
-#: rules.php:88
+#: rules.php:89
 msgid ""
 "The replay file of each player's best performing credit must be submitted to "
 "the TWC Committee at the end of a match."
@@ -630,15 +632,15 @@ msgstr ""
 "試合終了後、各プレイヤーはベストパフォーマンスのリプレイファイルをTWC運営に提"
 "出すること。"
 
-#: rules.php:89
+#: rules.php:90
 msgid "Please hide the ending when you reach the end of the game."
 msgstr "クリア後のエンディングは必ず隠してください。"
 
-#: rules.php:92
+#: rules.php:93
 msgid "Full Official Rules"
 msgstr "公式ルール全文"
 
-#: rules.php:93
+#: rules.php:94
 msgid ""
 "The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf"
 "\">here</a>. Currently, it is only available in the English language."
@@ -646,7 +648,7 @@ msgstr ""
 "公式ルール全文は<a href=\"assets/TWC_Handbook.pdf\">こちら</a>にありますが、"
 "現在英語のみとなっています。"
 
-#: rules.php:94
+#: rules.php:95
 msgid "Back to Top"
 msgstr "上に帰る"
 
@@ -700,11 +702,11 @@ msgstr "業績"
 msgid "Points"
 msgstr "ポイント"
 
-#: schedule.php:44
+#: schedule.php:48
 msgid " ("
 msgstr "（"
 
-#: schedule.php:46
+#: schedule.php:50
 msgid ")"
 msgstr "）"
 
@@ -865,6 +867,17 @@ msgstr "計算する"
 #: twcscore.php:143
 msgid "TWCScore:"
 msgstr "TWCScore："
+
+#~ msgid ""
+#~ "Last Spell: Getting hit during a Last Spell is <strong>not</strong> "
+#~ "considered a death in survival runs. However, never dying or bombing and "
+#~ "capturing every Spell Card, including Last Spells, awards a TWCScore "
+#~ "bonus (NN + FS)."
+#~ msgstr ""
+#~ "サバイバルマッチにおいて、ラストスペルでの被弾はTWCScoreに影響を与えませ"
+#~ "ん。ただし、全てのラストスペルを出現させ取得し、かつ、ノーミスノーボムを達"
+#~ "成した場合にのみ、より高いTWCScoreが与えられます（TWCScore計算機のFull-SC"
+#~ "欄を参照）。"
 
 #~ msgid "TWC Starts In:"
 #~ msgstr "TWC開催まで："

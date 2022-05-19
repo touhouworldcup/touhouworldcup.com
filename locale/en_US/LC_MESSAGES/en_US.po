@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-14 17:11+0200\n"
-"PO-Revision-Date: 2022-05-14 17:11+0200\n"
+"POT-Creation-Date: 2022-05-19 10:18+0200\n"
+"PO-Revision-Date: 2022-05-19 10:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -77,10 +77,6 @@ msgstr ""
 
 #: index.php:21
 msgid "See below for official communication channels."
-msgstr ""
-
-#: index.php:24
-msgid "TWC Starts In:"
 msgstr ""
 
 #: index.php:30
@@ -439,46 +435,47 @@ msgstr ""
 
 #: rules.php:49
 msgid ""
-"Last Spell: Getting hit during a Last Spell is <strong>not</strong> "
-"considered a death in survival runs. However, never dying or bombing and "
-"capturing every Spell Card, including Last Spells, awards a TWCScore bonus "
-"(NN + FS)."
-msgstr ""
-
-#: rules.php:50
-msgid "Touhou 12"
+"Last Spell: Getting hit during a Last Spell is considered a death. Not "
+"meeting the time orb requirement in Stage 1-5 is also considered a death. "
+"Timing out a Last Spell is <strong>not</strong> considered a death. Failing "
+"any number of Kaguya's Last Spells counts as 1 death, even if the player "
+"dies more than once."
 msgstr ""
 
 #: rules.php:51
+msgid "Touhou 12"
+msgstr ""
+
+#: rules.php:52
 msgid ""
 "UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens "
 "is allowed and does not count as a death."
 msgstr ""
 
-#: rules.php:52
+#: rules.php:53
 msgid "Touhou 13"
 msgstr ""
 
-#: rules.php:53
+#: rules.php:54
 msgid ""
 "Trance: A manually activated trance is considered two deaths."
 "<br>Additionally, there is a TWCScore Bonus for a credit that captures all "
 "spellcards and finishes with zero deaths."
 msgstr ""
 
-#: rules.php:55
+#: rules.php:56
 msgid "Touhou 16"
 msgstr ""
 
-#: rules.php:56
+#: rules.php:57
 msgid "Season Release: Releasing your season gauge is considered two deaths."
 msgstr ""
 
-#: rules.php:57
+#: rules.php:58
 msgid "Touhou 17"
 msgstr ""
 
-#: rules.php:58
+#: rules.php:59
 msgid ""
 "Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal "
 "tokens during roar mode) is considered 2 deaths. Breaking a Beserk Roar by "
@@ -487,43 +484,43 @@ msgid ""
 "considered one death."
 msgstr ""
 
-#: rules.php:61
+#: rules.php:62
 msgid "Touhou 18"
 msgstr ""
 
-#: rules.php:62
+#: rules.php:63
 msgid ""
 "Cards: Players are not allowed to use cards.<br>Additionally, the players "
 "are only allowed to buy \"Money Comes and Goes On its Own\" from the card "
 "shop between stages."
 msgstr ""
 
-#: rules.php:65
+#: rules.php:66
 msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
 msgstr ""
 
-#: rules.php:66
+#: rules.php:67
 msgid "Scoring Categories"
 msgstr ""
 
-#: rules.php:67
+#: rules.php:68
 msgid ""
 "In Scoring Categories the players will try to finish the game while gaining "
 "the highest score possible. They can die, bomb and use any other mechanics "
 "as much as they want."
 msgstr ""
 
-#: rules.php:69
+#: rules.php:70
 msgid "Some extra details about Scoring Categories:"
 msgstr ""
 
-#: rules.php:71
+#: rules.php:72
 msgid ""
 "Unlike previous years of TWC, there is now no penalty to TWCScore if a "
 "player Game Overs in a Scoring Category."
 msgstr ""
 
-#: rules.php:72
+#: rules.php:73
 msgid ""
 "In Touhou 17 and Touhou 18, it is possible to reach the maximum value the "
 "score counter can display, known as a counterstop. If this happens, we will "
@@ -531,7 +528,7 @@ msgid ""
 "removal patches."
 msgstr ""
 
-#: rules.php:74
+#: rules.php:75
 msgid ""
 "In Touhou 12, the score counter will display the player's score incorrectly "
 "if the score reaches a high enough value. However, if this happens, the game "
@@ -539,59 +536,59 @@ msgid ""
 "and that value will be used instead."
 msgstr ""
 
-#: rules.php:79
+#: rules.php:80
 msgid "Allowed Game Mods"
 msgstr ""
 
-#: rules.php:80
+#: rules.php:81
 msgid "Vpatch is allowed for all applicable games."
 msgstr ""
 
-#: rules.php:81
+#: rules.php:82
 msgid ""
 "thprac can be used for practice during a match, but all cheats must be "
 "disabled when performing credits."
 msgstr ""
 
-#: rules.php:82
+#: rules.php:83
 msgid "Counterstop Removal Patches and Scorebug Patches are allowed."
 msgstr ""
 
-#: rules.php:83
+#: rules.php:84
 msgid "Visual, Audio and Translation patches are not allowed."
 msgstr ""
 
-#: rules.php:85
+#: rules.php:86
 msgid "Other Rules"
 msgstr ""
 
-#: rules.php:87
+#: rules.php:88
 msgid ""
 "Players must stream their gameplay while playing their match, without "
 "covering any HUD or gameplay elements."
 msgstr ""
 
-#: rules.php:88
+#: rules.php:89
 msgid ""
 "The replay file of each player's best performing credit must be submitted to "
 "the TWC Committee at the end of a match."
 msgstr ""
 
-#: rules.php:89
+#: rules.php:90
 msgid "Please hide the ending when you reach the end of the game."
 msgstr ""
 
-#: rules.php:92
+#: rules.php:93
 msgid "Full Official Rules"
 msgstr ""
 
-#: rules.php:93
+#: rules.php:94
 msgid ""
 "The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf"
 "\">here</a>. Currently, it is only available in the English language."
 msgstr ""
 
-#: rules.php:94
+#: rules.php:95
 msgid "Back to Top"
 msgstr ""
 
@@ -643,11 +640,11 @@ msgstr ""
 msgid "Points"
 msgstr ""
 
-#: schedule.php:44
+#: schedule.php:48
 msgid " ("
 msgstr ""
 
-#: schedule.php:46
+#: schedule.php:50
 msgid ")"
 msgstr ""
 
