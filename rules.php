@@ -46,7 +46,8 @@
                 <p><?php echo _('Supernatural Border: Breaking a border manually by pressing the bomb key is considered two deaths. ' .
                 'However, running into a bullet while a border is active will only count as one death.') ?></p>
             <h4><?php echo _('Touhou 8') ?></h4>
-                <p><?php echo _('Last Spell: Getting hit during a Last Spell is <strong>not</strong> considered a death in survival runs. However, never dying or bombing and capturing every Spell Card, including Last Spells, awards a TWCScore bonus (NN + FS).') ?></p>
+                <p><?php echo _('Last Spell: Getting hit during a Last Spell is considered a death. Not meeting the time orb requirement in Stage 1-5 is also considered a death. ' .
+                'Timing out a Last Spell is <strong>not</strong> considered a death. Failing any number of Kaguya\'s Last Spells counts as 1 death, even if the player dies more than once.') ?></p>
             <h4><?php echo _('Touhou 12') ?></h4>
                 <p><?php echo _('UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens is allowed and does not count as a death.') ?></p>
             <h4><?php echo _('Touhou 13') ?></h4>
