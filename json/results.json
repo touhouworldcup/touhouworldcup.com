@@ -1,1 +1,62 @@
-{"1652526000":[{"shot":"ReimuA","score":1061815670,"twcscore":53.928,"points":2},{"shot":"ReimuA","score":813890120,"twcscore":3.868,"points":1},{"shot":"MarisaA","score":46614480,"twcscore":0,"points":0}],"1652612400":[{"shot":"Reimu","score":"3M","twcscore":1.125,"points":0},{"shot":"Sanae","score":"2M","twcscore":6.25,"points":1},{"shot":"Reimu","score":"LNNN","twcscore":9,"points":2}]}
+{
+    "1652526000": [
+        {
+            "shot": "ReimuA",
+            "score": 1061815670,
+            "twcscore": 53.928,
+            "points": 2
+        },
+        {
+            "shot": "ReimuA",
+            "score": 813890120,
+            "twcscore": 3.868,
+            "points": 1
+        },
+        {
+            "shot": "MarisaA",
+            "score": 46614480,
+            "twcscore": 0,
+            "points": 0
+        }
+    ],
+    "1652612400": [
+        {
+            "shot": "Reimu",
+            "score": "3M",
+            "twcscore": 1.125,
+            "points": 0
+        },
+        {
+            "shot": "Sanae",
+            "score": "2M",
+            "twcscore": 6.25,
+            "points": 1
+        },
+        {
+            "shot": "Reimu",
+            "score": "LNNN",
+            "twcscore": 9,
+            "points": 2
+        }
+    ],
+    "1652961600": [
+        {
+            "shot": "Cirno",
+            "score": 361489430,
+            "twcscore": 14.253,
+            "points": 0
+        },
+        {
+            "shot": "Eiki",
+            "score": 450680720,
+            "twcscore": 15.560,
+            "points": 1
+        },
+        {
+            "shot": "Reisen",
+            "score": 530468900,
+            "twcscore": 24.513,
+            "points": 2
+        }
+    ]
+}
