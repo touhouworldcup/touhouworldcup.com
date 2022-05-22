@@ -78,5 +78,25 @@
             "twcscore": 1.375,
             "points": 2
         }
+    ],
+    "1653219000": [
+        {
+            "shot": "AyaAutumn",
+            "score": "2M",
+            "twcscore": 4,
+            "points": 1
+        },
+        {
+            "shot": "CirnoAutumn",
+            "score": "4M",
+            "twcscore": 0.813,
+            "points": 0
+        },
+        {
+            "shot": "MarisaSummer",
+            "score": "1M",
+            "twcscore": 17,
+            "points": 2
+        }
     ]
 }
