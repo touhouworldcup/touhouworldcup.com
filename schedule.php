@@ -39,12 +39,13 @@
                 for ($i = 0; $i < count($results[$key]); $i++) {
                     $result = $results[$key][$i];
                     $formatted .= ($i > 0 ? '<br>' : '');
-                    $formatted .= _($result['shot']) . ' ';
+                    $formatted .= _($result['shot']) . ' <br class="mobile_br">';
                     if (is_string($result['score'])) { // survival
                         $formatted .= $result['score'];
                     } else { // scoring
                         $formatted .= number_format($result['score'], 0, '.', ',');
                     }
+                    $formatted .= '<br class="mobile_br">';
                     $formatted .= _(' (');
                     $formatted .= $result['twcscore'];
                     $formatted .= _(')');
@@ -57,6 +58,7 @@
                     $result = $results[$key][$i];
                     $formatted .= ($i > 0 ? '<br>' : '');
                     $formatted .= ($result['points'] == 2 ? '<strong>2</strong>' : $result['points']);
+                    $formatted .= '<br class="mobile_br"><br class="mobile_br">';
                 }
                 return $formatted;
             }
