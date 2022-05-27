@@ -1,3 +1,6 @@
+main {
+    overflow-x: auto;
+}
 input[type=button] {
     display: none;
     font-size: 28px;
@@ -81,4 +84,8 @@ input[type=button] {
     z-index: 1;
     top: 100%;
     max-width: 100px;
+}
+#schedule_table {
+    max-width: 95%;
+    overflow-x: scroll;
 }
