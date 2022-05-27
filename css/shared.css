@@ -237,7 +237,7 @@ td {
 		float: right;
 		max-height: none;
 	}
-	.header .menu-icon, .header .lang-icon {
+	.header .menu-icon, .header .lang-icon, .mobile_br {
 		display: none;
 	}
 	.header ul .subpage {
