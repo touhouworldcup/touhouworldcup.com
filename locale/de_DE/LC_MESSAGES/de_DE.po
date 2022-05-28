@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-19 10:17+0200\n"
-"PO-Revision-Date: 2022-05-19 10:18+0200\n"
+"POT-Creation-Date: 2022-05-28 18:40+0200\n"
+"PO-Revision-Date: 2022-05-28 18:40+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -150,7 +150,7 @@ msgstr ""
 msgid "Sakuya"
 msgstr ""
 
-#: php/translations.php:15 php/translations.php:25
+#: php/translations.php:15 php/translations.php:20
 msgid "Youmu"
 msgstr ""
 
@@ -170,127 +170,151 @@ msgstr ""
 msgid "Yuyuko"
 msgstr ""
 
-#: php/translations.php:20
-msgid "ReimuC"
-msgstr ""
-
 #: php/translations.php:21
-msgid "MarisaC"
-msgstr ""
-
-#: php/translations.php:22
-msgid "SanaeA"
-msgstr ""
-
-#: php/translations.php:23
-msgid "SanaeB"
-msgstr ""
-
-#: php/translations.php:24
-msgid "Sanae"
-msgstr ""
-
-#: php/translations.php:26
 msgid "Reisen"
 msgstr ""
 
+#: php/translations.php:22
+msgid "Cirno"
+msgstr ""
+
+#: php/translations.php:23
+msgid "Lyrica"
+msgstr ""
+
+#: php/translations.php:24
+msgid "Mystia"
+msgstr ""
+
+#: php/translations.php:25
+msgid "Tewi"
+msgstr ""
+
+#: php/translations.php:26
+msgid "Yuuka"
+msgstr ""
+
 #: php/translations.php:27
+msgid "Komachi"
+msgstr ""
+
+#: php/translations.php:28
+msgid "Eiki"
+msgstr ""
+
+#: php/translations.php:29
+msgid "MarisaC"
+msgstr ""
+
+#: php/translations.php:30
+msgid "SanaeA"
+msgstr ""
+
+#: php/translations.php:31
+msgid "SanaeB"
+msgstr ""
+
+#: php/translations.php:32
+msgid "Sanae"
+msgstr ""
+
+#: php/translations.php:33
 msgid "ReimuSpring"
 msgstr "ReimuFrühling"
 
-#: php/translations.php:28
+#: php/translations.php:34
 msgid "CirnoSpring"
 msgstr "CirnoFrühling"
 
-#: php/translations.php:29
+#: php/translations.php:35
 msgid "AyaSpring"
 msgstr "AyaFrühling"
 
-#: php/translations.php:30
+#: php/translations.php:36
 msgid "MarisaSpring"
 msgstr "MarisaFrühling"
 
-#: php/translations.php:31
+#: php/translations.php:37
 msgid "ReimuSummer"
 msgstr "ReimuSommer"
 
-#: php/translations.php:32
+#: php/translations.php:38
 msgid "CirnoSummer"
 msgstr "CirnoSommer"
 
-#: php/translations.php:33
+#: php/translations.php:39
 msgid "AyaSummer"
 msgstr "AyaSommer"
 
-#: php/translations.php:34
+#: php/translations.php:40
 msgid "MarisaSummer"
 msgstr "MarisaSommer"
 
-#: php/translations.php:35
+#: php/translations.php:41
 msgid "ReimuAutumn"
 msgstr "ReimuHerbst"
 
-#: php/translations.php:36
+#: php/translations.php:42
 msgid "CirnoAutumn"
 msgstr "CirnoHerbst"
 
-#: php/translations.php:37
+#: php/translations.php:43
 msgid "AyaAutumn"
 msgstr "AyaHerbst"
 
-#: php/translations.php:38
+#: php/translations.php:44
 msgid "MarisaAutumn"
 msgstr "MarisaHerbst"
 
-#: php/translations.php:39
+#: php/translations.php:45
 msgid "ReimuWinter"
 msgstr ""
 
-#: php/translations.php:40
+#: php/translations.php:46
 msgid "CirnoWinter"
 msgstr ""
 
-#: php/translations.php:41
+#: php/translations.php:47
 msgid "AyaWinter"
 msgstr ""
 
-#: php/translations.php:42
+#: php/translations.php:48
 msgid "MarisaWinter"
 msgstr ""
 
-#: php/translations.php:43
+#: php/translations.php:49
 msgid "ReimuWolf"
 msgstr ""
 
-#: php/translations.php:44
+#: php/translations.php:50
 msgid "ReimuOtter"
 msgstr ""
 
-#: php/translations.php:45
+#: php/translations.php:51
 msgid "ReimuEagle"
 msgstr "ReimuAdler"
 
-#: php/translations.php:46
+#: php/translations.php:52
 msgid "MarisaWolf"
 msgstr ""
 
-#: php/translations.php:47
+#: php/translations.php:53
 msgid "MarisaOtter"
 msgstr ""
 
-#: php/translations.php:48
+#: php/translations.php:54
 msgid "MarisaEagle"
 msgstr "MarisaAdler"
 
-#: php/translations.php:49
+#: php/translations.php:55
 msgid "YoumuWolf"
 msgstr ""
 
-#: php/translations.php:50
+#: php/translations.php:56
 msgid "YoumuOtter"
 msgstr ""
 
-#: php/translations.php:51
+#: php/translations.php:57
 msgid "YoumuEagle"
 msgstr "YoumuAdler"
 
@@ -725,11 +749,11 @@ msgstr "Ergebnisse"
 msgid "Points"
 msgstr "Punkte"
 
-#: schedule.php:48
+#: schedule.php:49
 msgid " ("
 msgstr ""
 
-#: schedule.php:50
+#: schedule.php:51
 msgid ")"
 msgstr ""
 
