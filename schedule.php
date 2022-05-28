@@ -39,7 +39,7 @@
                 for ($i = 0; $i < count($results[$key]); $i++) {
                     $result = $results[$key][$i];
                     $formatted .= ($i > 0 ? '<br>' : '');
-                    $formatted .= _($result['shot']) . ' <br class="mobile_br">';
+                    $formatted .= (empty($result['shot'] ? '' : _($result['shot']))) . ' <br class="mobile_br">';
                     if (is_string($result['score'])) { // survival
                         $formatted .= $result['score'];
                     } else { // scoring
