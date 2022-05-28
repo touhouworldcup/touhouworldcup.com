@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-19 10:17+0200\n"
-"PO-Revision-Date: 2022-05-19 10:17+0200\n"
+"POT-Creation-Date: 2022-05-28 18:42+0200\n"
+"PO-Revision-Date: 2022-05-28 18:42+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -100,27 +100,27 @@ msgstr "Twitter oficial de TWC"
 
 #: php/translations.php:2
 msgid "ReimuA"
-msgstr "ReimuA"
+msgstr ""
 
 #: php/translations.php:3
 msgid "ReimuB"
-msgstr "ReimuB"
+msgstr ""
 
 #: php/translations.php:4
 msgid "MarisaA"
-msgstr "MarisaA"
+msgstr ""
 
 #: php/translations.php:5
 msgid "MarisaB"
-msgstr "MarisaB"
+msgstr ""
 
 #: php/translations.php:6
 msgid "SakuyaA"
-msgstr "SakuyaA"
+msgstr ""
 
 #: php/translations.php:7
 msgid "SakuyaB"
-msgstr "SakuyaB"
+msgstr ""
 
 #: php/translations.php:8
 msgid "ReimuYukari"
@@ -140,157 +140,181 @@ msgstr "Youmu & Yuyuko"
 
 #: php/translations.php:12
 msgid "Reimu"
-msgstr "Reimu"
+msgstr ""
 
 #: php/translations.php:13
 msgid "Marisa"
-msgstr "Marisa"
+msgstr ""
 
 #: php/translations.php:14
 msgid "Sakuya"
-msgstr "Sakuya"
+msgstr ""
 
-#: php/translations.php:15 php/translations.php:25
+#: php/translations.php:15 php/translations.php:20
 msgid "Youmu"
-msgstr "Youmu"
+msgstr ""
 
 #: php/translations.php:16
 msgid "Yukari"
-msgstr "Yukari"
+msgstr ""
 
 #: php/translations.php:17
 msgid "Alice"
-msgstr "Alice"
+msgstr ""
 
 #: php/translations.php:18
 msgid "Remilia"
-msgstr "Remilia"
+msgstr ""
 
 #: php/translations.php:19
 msgid "Yuyuko"
-msgstr "Yuyuko"
-
-#: php/translations.php:20
-msgid "ReimuC"
-msgstr "ReimuC"
+msgstr ""
 
 #: php/translations.php:21
-msgid "MarisaC"
-msgstr "MarisaC"
+msgid "Reisen"
+msgstr ""
 
 #: php/translations.php:22
-msgid "SanaeA"
-msgstr "SanaeA"
+msgid "Cirno"
+msgstr ""
 
 #: php/translations.php:23
-msgid "SanaeB"
-msgstr "SanaeB"
+msgid "Lyrica"
+msgstr ""
 
 #: php/translations.php:24
-msgid "Sanae"
-msgstr "Sanae"
+msgid "Mystia"
+msgstr ""
+
+#: php/translations.php:25
+msgid "Tewi"
+msgstr ""
 
 #: php/translations.php:26
-msgid "Reisen"
-msgstr "Reisen"
+msgid "Yuuka"
+msgstr ""
 
 #: php/translations.php:27
+msgid "Komachi"
+msgstr ""
+
+#: php/translations.php:28
+msgid "Eiki"
+msgstr ""
+
+#: php/translations.php:29
+msgid "MarisaC"
+msgstr ""
+
+#: php/translations.php:30
+msgid "SanaeA"
+msgstr ""
+
+#: php/translations.php:31
+msgid "SanaeB"
+msgstr ""
+
+#: php/translations.php:32
+msgid "Sanae"
+msgstr ""
+
+#: php/translations.php:33
 msgid "ReimuSpring"
 msgstr "ReimuPrimavera"
 
-#: php/translations.php:28
+#: php/translations.php:34
 msgid "CirnoSpring"
 msgstr "CirnoPrimavera"
 
-#: php/translations.php:29
+#: php/translations.php:35
 msgid "AyaSpring"
 msgstr "AyaPrimavera"
 
-#: php/translations.php:30
+#: php/translations.php:36
 msgid "MarisaSpring"
 msgstr "MarisaPrimavera"
 
-#: php/translations.php:31
+#: php/translations.php:37
 msgid "ReimuSummer"
 msgstr "ReimuVerano"
 
-#: php/translations.php:32
+#: php/translations.php:38
 msgid "CirnoSummer"
 msgstr "CirnoVerano"
 
-#: php/translations.php:33
+#: php/translations.php:39
 msgid "AyaSummer"
 msgstr "AyaVerano"
 
-#: php/translations.php:34
+#: php/translations.php:40
 msgid "MarisaSummer"
 msgstr "MarisaVerano"
 
-#: php/translations.php:35
+#: php/translations.php:41
 msgid "ReimuAutumn"
 msgstr "ReimuOtoño"
 
-#: php/translations.php:36
+#: php/translations.php:42
 msgid "CirnoAutumn"
 msgstr "CirnoOtoño"
 
-#: php/translations.php:37
+#: php/translations.php:43
 msgid "AyaAutumn"
 msgstr "AyaOtoño"
 
-#: php/translations.php:38
+#: php/translations.php:44
 msgid "MarisaAutumn"
 msgstr "MarisaOtoño"
 
-#: php/translations.php:39
+#: php/translations.php:45
 msgid "ReimuWinter"
 msgstr "ReimuInvierno"
 
-#: php/translations.php:40
+#: php/translations.php:46
 msgid "CirnoWinter"
 msgstr "CirnoInvierno"
 
-#: php/translations.php:41
+#: php/translations.php:47
 msgid "AyaWinter"
 msgstr "AyaInvierno"
 
-#: php/translations.php:42
+#: php/translations.php:48
 msgid "MarisaWinter"
 msgstr "MarisaInvierno"
 
-#: php/translations.php:43
+#: php/translations.php:49
 msgid "ReimuWolf"
 msgstr "ReimuLobo"
 
-#: php/translations.php:44
+#: php/translations.php:50
 msgid "ReimuOtter"
 msgstr "ReimuNutria"
 
-#: php/translations.php:45
+#: php/translations.php:51
 msgid "ReimuEagle"
 msgstr "ReimuÁguila"
 
-#: php/translations.php:46
+#: php/translations.php:52
 msgid "MarisaWolf"
 msgstr "MarisaLobo"
 
-#: php/translations.php:47
+#: php/translations.php:53
 msgid "MarisaOtter"
 msgstr "MarisaNutria"
 
-#: php/translations.php:48
+#: php/translations.php:54
 msgid "MarisaEagle"
 msgstr "MarisaÁguila"
 
-#: php/translations.php:49
+#: php/translations.php:55
 msgid "YoumuWolf"
 msgstr "YoumuLobo"
 
-#: php/translations.php:50
+#: php/translations.php:56
 msgid "YoumuOtter"
 msgstr "YoumuNutria"
 
-#: php/translations.php:51
+#: php/translations.php:57
 msgid "YoumuEagle"
 msgstr "YoumuÁguila"
 
@@ -722,11 +746,11 @@ msgstr "Resultados"
 msgid "Points"
 msgstr "Puntos"
 
-#: schedule.php:48
+#: schedule.php:49
 msgid " ("
 msgstr ""
 
-#: schedule.php:50
+#: schedule.php:51
 msgid ")"
 msgstr ""
 
@@ -890,6 +914,9 @@ msgstr "Calcular"
 #: twcscore.php:143
 msgid "TWCScore:"
 msgstr "TWCScore:"
+
+#~ msgid "ReimuC"
+#~ msgstr "ReimuC"
 
 #~ msgid ""
 #~ "Last Spell: Getting hit during a Last Spell is <strong>not</strong> "

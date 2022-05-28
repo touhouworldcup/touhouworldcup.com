@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-19 10:18+0200\n"
-"PO-Revision-Date: 2022-05-19 10:19+0200\n"
+"POT-Creation-Date: 2022-05-28 18:40+0200\n"
+"PO-Revision-Date: 2022-05-28 18:42+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -151,7 +151,7 @@ msgstr "Мариса"
 msgid "Sakuya"
 msgstr "Сакуя"
 
-#: php/translations.php:15 php/translations.php:25
+#: php/translations.php:15 php/translations.php:20
 msgid "Youmu"
 msgstr "Ёму"
 
@@ -171,127 +171,151 @@ msgstr "Ремилия"
 msgid "Yuyuko"
 msgstr "Ююко"
 
-#: php/translations.php:20
-msgid "ReimuC"
-msgstr "РеймуС"
-
 #: php/translations.php:21
-msgid "MarisaC"
-msgstr "МарисаС"
-
-#: php/translations.php:22
-msgid "SanaeA"
-msgstr "СанаэА"
-
-#: php/translations.php:23
-msgid "SanaeB"
-msgstr "СанаэБ"
-
-#: php/translations.php:24
-msgid "Sanae"
-msgstr "Санаэ"
-
-#: php/translations.php:26
 msgid "Reisen"
 msgstr "Рейсен"
 
+#: php/translations.php:22
+msgid "Cirno"
+msgstr "Чирно"
+
+#: php/translations.php:23
+msgid "Lyrica"
+msgstr "Лирика"
+
+#: php/translations.php:24
+msgid "Mystia"
+msgstr "Мистия"
+
+#: php/translations.php:25
+msgid "Tewi"
+msgstr "Теви"
+
+#: php/translations.php:26
+msgid "Yuuka"
+msgstr "Юка"
+
 #: php/translations.php:27
+msgid "Komachi"
+msgstr "Комачи"
+
+#: php/translations.php:28
+msgid "Eiki"
+msgstr "Эйки"
+
+#: php/translations.php:29
+msgid "MarisaC"
+msgstr "МарисаС"
+
+#: php/translations.php:30
+msgid "SanaeA"
+msgstr "СанаэА"
+
+#: php/translations.php:31
+msgid "SanaeB"
+msgstr "СанаэБ"
+
+#: php/translations.php:32
+msgid "Sanae"
+msgstr "Санаэ"
+
+#: php/translations.php:33
 msgid "ReimuSpring"
 msgstr "РеймуВесна"
 
-#: php/translations.php:28
+#: php/translations.php:34
 msgid "CirnoSpring"
 msgstr "ЧирноВесна"
 
-#: php/translations.php:29
+#: php/translations.php:35
 msgid "AyaSpring"
 msgstr "АяВесна"
 
-#: php/translations.php:30
+#: php/translations.php:36
 msgid "MarisaSpring"
 msgstr "МарисаВесна"
 
-#: php/translations.php:31
+#: php/translations.php:37
 msgid "ReimuSummer"
 msgstr "РеймуЛето"
 
-#: php/translations.php:32
+#: php/translations.php:38
 msgid "CirnoSummer"
 msgstr "ЧирноЛето"
 
-#: php/translations.php:33
+#: php/translations.php:39
 msgid "AyaSummer"
 msgstr "АяЛето"
 
-#: php/translations.php:34
+#: php/translations.php:40
 msgid "MarisaSummer"
 msgstr "МарисаЛето"
 
-#: php/translations.php:35
+#: php/translations.php:41
 msgid "ReimuAutumn"
 msgstr "РеймуОсень"
 
-#: php/translations.php:36
+#: php/translations.php:42
 msgid "CirnoAutumn"
 msgstr "ЧирноОсень"
 
-#: php/translations.php:37
+#: php/translations.php:43
 msgid "AyaAutumn"
 msgstr "АяОсень"
 
-#: php/translations.php:38
+#: php/translations.php:44
 msgid "MarisaAutumn"
 msgstr "МарисаОсень"
 
-#: php/translations.php:39
+#: php/translations.php:45
 msgid "ReimuWinter"
 msgstr "РеймуЗима"
 
-#: php/translations.php:40
+#: php/translations.php:46
 msgid "CirnoWinter"
 msgstr "ЧирноЗима"
 
-#: php/translations.php:41
+#: php/translations.php:47
 msgid "AyaWinter"
 msgstr "АяЗима"
 
-#: php/translations.php:42
+#: php/translations.php:48
 msgid "MarisaWinter"
 msgstr "МарисаЗима"
 
-#: php/translations.php:43
+#: php/translations.php:49
 msgid "ReimuWolf"
 msgstr "РеймуВолк"
 
-#: php/translations.php:44
+#: php/translations.php:50
 msgid "ReimuOtter"
 msgstr "РеймуВыдра"
 
-#: php/translations.php:45
+#: php/translations.php:51
 msgid "ReimuEagle"
 msgstr "РеймуОрёл"
 
-#: php/translations.php:46
+#: php/translations.php:52
 msgid "MarisaWolf"
 msgstr "МарисаВолк"
 
-#: php/translations.php:47
+#: php/translations.php:53
 msgid "MarisaOtter"
 msgstr "МарисаВыдра"
 
-#: php/translations.php:48
+#: php/translations.php:54
 msgid "MarisaEagle"
 msgstr "МарисаОрёл"
 
-#: php/translations.php:49
+#: php/translations.php:55
 msgid "YoumuWolf"
 msgstr "ЁмуВолк"
 
-#: php/translations.php:50
+#: php/translations.php:56
 msgid "YoumuOtter"
 msgstr "ЁмуВыдра"
 
-#: php/translations.php:51
+#: php/translations.php:57
 msgid "YoumuEagle"
 msgstr "ЁмуОрёл"
 
@@ -718,11 +742,11 @@ msgstr "Результаты"
 msgid "Points"
 msgstr "Очков"
 
-#: schedule.php:48
+#: schedule.php:49
 msgid " ("
 msgstr ""
 
-#: schedule.php:50
+#: schedule.php:51
 msgid ")"
 msgstr ""
 
@@ -885,6 +909,9 @@ msgstr "Рассчитать"
 #: twcscore.php:143
 msgid "TWCScore:"
 msgstr "TWCScore:"
+
+#~ msgid "ReimuC"
+#~ msgstr "РеймуС"
 
 #~ msgid ""
 #~ "Last Spell: Getting hit during a Last Spell is <strong>not</strong> "

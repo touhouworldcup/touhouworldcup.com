@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-19 10:18+0200\n"
-"PO-Revision-Date: 2022-05-19 10:18+0200\n"
+"POT-Creation-Date: 2022-05-28 18:43+0200\n"
+"PO-Revision-Date: 2022-05-28 18:43+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -148,7 +148,7 @@ msgstr "魔理沙"
 msgid "Sakuya"
 msgstr "咲夜"
 
-#: php/translations.php:15 php/translations.php:25
+#: php/translations.php:15 php/translations.php:20
 msgid "Youmu"
 msgstr "妖梦"
 
@@ -168,127 +168,151 @@ msgstr "蕾米莉亚"
 msgid "Yuyuko"
 msgstr "幽幽子"
 
-#: php/translations.php:20
-msgid "ReimuC"
-msgstr "灵梦C"
-
 #: php/translations.php:21
-msgid "MarisaC"
-msgstr "魔理沙C"
-
-#: php/translations.php:22
-msgid "SanaeA"
-msgstr "早苗A"
-
-#: php/translations.php:23
-msgid "SanaeB"
-msgstr "早苗B"
-
-#: php/translations.php:24
-msgid "Sanae"
-msgstr "早苗"
-
-#: php/translations.php:26
 msgid "Reisen"
 msgstr "铃仙"
 
+#: php/translations.php:22
+msgid "Cirno"
+msgstr "琪露诺"
+
+#: php/translations.php:23
+msgid "Lyrica"
+msgstr "莉莉卡"
+
+#: php/translations.php:24
+msgid "Mystia"
+msgstr "米丝蒂亚"
+
+#: php/translations.php:25
+msgid "Tewi"
+msgstr "帝"
+
+#: php/translations.php:26
+msgid "Yuuka"
+msgstr "幽香"
+
 #: php/translations.php:27
+msgid "Komachi"
+msgstr "小町"
+
+#: php/translations.php:28
+msgid "Eiki"
+msgstr "映姬"
+
+#: php/translations.php:29
+msgid "MarisaC"
+msgstr "魔理沙C"
+
+#: php/translations.php:30
+msgid "SanaeA"
+msgstr "早苗A"
+
+#: php/translations.php:31
+msgid "SanaeB"
+msgstr "早苗B"
+
+#: php/translations.php:32
+msgid "Sanae"
+msgstr "早苗"
+
+#: php/translations.php:33
 msgid "ReimuSpring"
 msgstr "灵梦春"
 
-#: php/translations.php:28
+#: php/translations.php:34
 msgid "CirnoSpring"
 msgstr "琪露诺春"
 
-#: php/translations.php:29
+#: php/translations.php:35
 msgid "AyaSpring"
 msgstr "文春"
 
-#: php/translations.php:30
+#: php/translations.php:36
 msgid "MarisaSpring"
 msgstr "魔理沙春"
 
-#: php/translations.php:31
+#: php/translations.php:37
 msgid "ReimuSummer"
 msgstr "灵梦夏"
 
-#: php/translations.php:32
+#: php/translations.php:38
 msgid "CirnoSummer"
 msgstr "琪露诺夏"
 
-#: php/translations.php:33
+#: php/translations.php:39
 msgid "AyaSummer"
 msgstr "文夏"
 
-#: php/translations.php:34
+#: php/translations.php:40
 msgid "MarisaSummer"
 msgstr "魔理沙夏"
 
-#: php/translations.php:35
+#: php/translations.php:41
 msgid "ReimuAutumn"
 msgstr "灵梦秋"
 
-#: php/translations.php:36
+#: php/translations.php:42
 msgid "CirnoAutumn"
 msgstr "琪露诺秋"
 
-#: php/translations.php:37
+#: php/translations.php:43
 msgid "AyaAutumn"
 msgstr "文秋"
 
-#: php/translations.php:38
+#: php/translations.php:44
 msgid "MarisaAutumn"
 msgstr "魔理沙秋"
 
-#: php/translations.php:39
+#: php/translations.php:45
 msgid "ReimuWinter"
 msgstr "灵梦冬"
 
-#: php/translations.php:40
+#: php/translations.php:46
 msgid "CirnoWinter"
 msgstr "琪露诺冬"
 
-#: php/translations.php:41
+#: php/translations.php:47
 msgid "AyaWinter"
 msgstr "文冬"
 
-#: php/translations.php:42
+#: php/translations.php:48
 msgid "MarisaWinter"
 msgstr "魔理沙冬"
 
-#: php/translations.php:43
+#: php/translations.php:49
 msgid "ReimuWolf"
 msgstr "灵梦狼"
 
-#: php/translations.php:44
+#: php/translations.php:50
 msgid "ReimuOtter"
 msgstr "灵梦獭"
 
-#: php/translations.php:45
+#: php/translations.php:51
 msgid "ReimuEagle"
 msgstr "灵梦鹰"
 
-#: php/translations.php:46
+#: php/translations.php:52
 msgid "MarisaWolf"
 msgstr "魔理沙狼"
 
-#: php/translations.php:47
+#: php/translations.php:53
 msgid "MarisaOtter"
 msgstr "魔理沙獭"
 
-#: php/translations.php:48
+#: php/translations.php:54
 msgid "MarisaEagle"
 msgstr "魔理沙鹰"
 
-#: php/translations.php:49
+#: php/translations.php:55
 msgid "YoumuWolf"
 msgstr "妖梦狼"
 
-#: php/translations.php:50
+#: php/translations.php:56
 msgid "YoumuOtter"
 msgstr "妖梦獭"
 
-#: php/translations.php:51
+#: php/translations.php:57
 msgid "YoumuEagle"
 msgstr "妖梦鹰"
 
@@ -667,11 +691,11 @@ msgstr "结果"
 msgid "Points"
 msgstr "总分"
 
-#: schedule.php:48
+#: schedule.php:49
 msgid " ("
 msgstr ""
 
-#: schedule.php:50
+#: schedule.php:51
 msgid ")"
 msgstr ""
 
@@ -832,6 +856,9 @@ msgstr "计算"
 #: twcscore.php:143
 msgid "TWCScore:"
 msgstr "TWCScore："
+
+#~ msgid "ReimuC"
+#~ msgstr "灵梦C"
 
 #~ msgid ""
 #~ "Last Spell: Getting hit during a Last Spell is <strong>not</strong> "
@@ -1130,9 +1157,6 @@ msgstr "TWCScore："
 #~ msgid "Yumemi"
 #~ msgstr "梦美"
 
-#~ msgid "Yuuka"
-#~ msgstr "幽香"
-
 #~ msgid "BorderTeam"
 #~ msgstr "结界组"
 
@@ -1145,29 +1169,11 @@ msgstr "TWCScore："
 #~ msgid "GhostTeam"
 #~ msgstr "幽冥组"
 
-#~ msgid "Cirno"
-#~ msgstr "琪露诺"
-
-#~ msgid "Lyrica"
-#~ msgstr "莉莉卡"
-
-#~ msgid "Mystia"
-#~ msgstr "米丝蒂亚"
-
-#~ msgid "Tewi"
-#~ msgstr "帝"
-
 #~ msgid "Aya"
 #~ msgstr "文"
 
 #~ msgid "Medicine"
 #~ msgstr "梅蒂薪"
-
-#~ msgid "Komachi"
-#~ msgstr "小町"
-
-#~ msgid "Eiki"
-#~ msgstr "映姬"
 
 #~ msgid "Hatate"
 #~ msgstr "羽立"
