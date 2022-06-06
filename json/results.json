@@ -198,5 +198,45 @@
             "twcscore": 0,
             "points": 0
         }
+    ],
+    "1654430400": [
+        {
+            "shot": "ReimuB",
+            "score": 626363100,
+            "twcscore": 28.608,
+            "points": 1
+        },
+        {
+            "shot": "ReimuB",
+            "score": 716796080,
+            "twcscore": 96.782,
+            "points": 2
+        },
+        {
+            "shot": "ReimuB",
+            "score": 610617650,
+            "twcscore": 23.346,
+            "points": 0
+        }
+    ],
+    "1654439400": [
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "YoumuWolf",
+            "score": 7812678310,
+            "twcscore": 75.951,
+            "points": 2
+        },
+        {
+            "shot": "MarisaOtter",
+            "score": 10529605790,
+            "twcscore": 26.063,
+            "points": 1
+        }
     ]
 }
