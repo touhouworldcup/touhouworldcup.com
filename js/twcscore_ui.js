@@ -32,6 +32,7 @@ window.onload = () => {
 
 	const game_has_ex = {
         "th06": true,
+        "th07": true,
         "th08": true,
         "th11": true,
         "th13": true,
