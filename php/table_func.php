@@ -4,6 +4,10 @@ function format_results(array $results, array $bonus_matches, string $key) {
     for ($i = 0; $i < count($results[$key]); $i++) {
         $result = $results[$key][$i];
         $formatted .= ($i > 0 ? '<br>' : '');
+        if (empty($result['shot']) && empty($result['score']) && $result['twcscore'] === 0) {
+            $formatted .= '-';
+            continue;
+        }
         $formatted .= (empty($result['shot']) ? '' : _($result['shot'])) . ' <br class="mobile_br">';
         $formatted .= (empty($result['route']) ? '' : $result['route']) . ' ';
         if (is_string($result['score'])) { // survival
