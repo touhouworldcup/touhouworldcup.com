@@ -29,15 +29,15 @@
     <ol>
         <li>
             <img src='assets/icons/japan_small.png' alt='<?php echo _('Flag of Japan') ?>'>
-            <strong><?php _('Team Japan: ') ?>32<?php echo _(' points') ?></strong>
+            <strong><?php echo _('Team Japan: ') ?>32<?php echo _(' points') ?></strong>
         </li>
         <li>
             <img src='assets/icons/china_small.png' alt='<?php echo _('Flag of the P.R.C.') ?>'>
-            <?php _('Team China: ') ?>29<?php echo _(' points') ?>
+            <?php echo _('Team China: ') ?>29<?php echo _(' points') ?>
         </li>
         <li>
             <img src='assets/icons/earth.png' alt='<?php echo _('Earth') ?>'>
-            <?php _('Team West: ') ?>23<?php echo _(' points') ?>
+            <?php echo _('Team West: ') ?>23<?php echo _(' points') ?>
         </li>
     </ol>
     <table class="schedule_table">
@@ -79,15 +79,15 @@
     <ol>
         <li>
             <img src='assets/icons/japan_small.png' alt='<?php echo _('Flag of Japan') ?>'>
-            <strong><?php _('Team Japan: ') ?>22.5<?php echo _(' points') ?></strong>
+            <strong><?php echo _('Team Japan: ') ?>22.5<?php echo _(' points') ?></strong>
         </li>
         <li>
             <img src='assets/icons/earth.png' alt='<?php echo _('Earth') ?>'>
-            <?php _('Team West: ') ?>13<?php echo _(' points') ?>
+            <?php echo _('Team West: ') ?>13<?php echo _(' points') ?>
         </li>
         <li>
             <img src='assets/icons/china_small.png' alt='<?php echo _('Flag of the P.R.C.') ?>'>
-            <?php _('Team China: ') ?>12.5<?php echo _(' points') ?>
+            <?php echo _('Team China: ') ?>12.5<?php echo _(' points') ?>
         </li>
     </ol>
     <table class="schedule_table">
