@@ -1,1 +1,1 @@
-/home/casper/Documents/GitHub/touhouworldcup.com/js/schedule.js
+schedule.js
