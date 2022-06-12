@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-28 18:43+0200\n"
-"PO-Revision-Date: 2022-05-28 18:43+0200\n"
+"POT-Creation-Date: 2022-06-13 00:27+0200\n"
+"PO-Revision-Date: 2022-06-13 00:31+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -18,6 +18,8 @@ msgstr ""
 "X-Poedit-SearchPath-3: schedule.php\n"
 "X-Poedit-SearchPath-4: twcscore.php\n"
 "X-Poedit-SearchPath-5: php/translations.php\n"
+"X-Poedit-SearchPath-6: results.php\n"
+"X-Poedit-SearchPath-7: php/table_func.php\n"
 
 #: credits.php:2 credits.php:12
 msgid "Credits"
@@ -95,6 +97,18 @@ msgstr "TWC官方YouTube频道"
 #: index.php:42
 msgid "Official TWC Twitter"
 msgstr "TWC官方推特"
+
+#: php/table_func.php:20
+msgid " ("
+msgstr "（"
+
+#: php/table_func.php:22
+msgid ")"
+msgstr "）"
+
+#: php/table_func.php:43
+msgid "Exhibition Matches"
+msgstr ""
 
 #: php/translations.php:2
 msgid "ReimuA"
@@ -316,6 +330,95 @@ msgstr "妖梦獭"
 msgid "YoumuEagle"
 msgstr "妖梦鹰"
 
+#: results.php:2 results.php:13
+msgid "Past Results"
+msgstr ""
+
+#: results.php:15
+msgid "This page lists the results of past years of Touhou World Cup."
+msgstr ""
+
+#: results.php:16 schedule.php:14
+msgid ""
+"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
+"Universal Time)</strong>."
+msgstr ""
+"我们检测到您的时区是 <strong id=\"timezone\">UTC+0000（协调世界时）</"
+"strong>。"
+
+#: results.php:19 schedule.php:17
+msgid ""
+"Daylight Saving Time (also known as Summer Time or DST) is taken into "
+"account automatically."
+msgstr ""
+"Daylight Saving Time (also known as Summer Time or DST) is taken into "
+"account automatically."
+
+#: results.php:22
+msgid "Contents"
+msgstr "内容"
+
+#: results.php:28 results.php:78
+msgid "Final tally:"
+msgstr ""
+
+#: results.php:31 results.php:70 results.php:81
+msgid "Flag of Japan"
+msgstr "日本国旗"
+
+#: results.php:32 results.php:36 results.php:40 results.php:82 results.php:86
+#: results.php:90
+msgid " points"
+msgstr "总分"
+
+#: results.php:35 results.php:66 results.php:89
+msgid "Flag of the P.R.C."
+msgstr "中国国旗"
+
+#: results.php:39 results.php:62 results.php:85
+msgid "Earth"
+msgstr "地球"
+
+#: results.php:46 results.php:96 schedule.php:25
+msgid "Date / Time"
+msgstr "日期和时间"
+
+#: results.php:47 results.php:97 schedule.php:26 twcscore.php:68
+msgid "Category"
+msgstr "项目"
+
+#: results.php:48 results.php:98 schedule.php:27
+msgid "Players"
+msgstr "玩家"
+
+#: results.php:49 results.php:99 schedule.php:28
+msgid "Reset Time<br>(minutes)"
+msgstr "Reset Time<br>（分钟）"
+
+#: results.php:50 results.php:100 schedule.php:29 schedule.php:32
+msgid "Results"
+msgstr "结果"
+
+#: results.php:51 results.php:101 schedule.php:30 schedule.php:33
+msgid "Points"
+msgstr "总分"
+
+#: results.php:76 results.php:113
+msgid "Game Over"
+msgstr ""
+
+#: results.php:82
+msgid "Team Japan: "
+msgstr "日本团队："
+
+#: results.php:86
+msgid "Team West: "
+msgstr "西方团队："
+
+#: results.php:90
+msgid "Team China: "
+msgstr "中国团队："
+
 #: rules.php:2 rules.php:12
 msgid "Rules"
 msgstr "规则"
@@ -369,10 +472,10 @@ msgstr "TWCScore"
 
 #: rules.php:28
 msgid ""
-"The quality of credits is calculated through the <a href=\"twcscore"
-"\">TWCScore Calculator</a>. This is a scoring metric which compensates for "
-"differences in shot type performance so that there is a point of comparison "
-"between credits in a category."
+"The quality of credits is calculated through the <a "
+"href=\"twcscore\">TWCScore Calculator</a>. This is a scoring metric which "
+"compensates for differences in shot type performance so that there is a "
+"point of comparison between credits in a category."
 msgstr ""
 "选手成绩将通过<a href=\"twcscore\">TWCScore</a>进行换算。TWCScore是一个用于比"
 "较项目内不同机体成绩的分数系统。"
@@ -629,8 +732,8 @@ msgstr "TWC规则完整版"
 
 #: rules.php:94
 msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf"
-"\">here</a>. Currently, it is only available in the English language."
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook."
+"pdf\">here</a>. Currently, it is only available in the English language."
 msgstr ""
 "完整的TWC规则可以在 <a href=\"assets/TWC_Handbook.pdf\">这里</a>被找到。目前"
 "仅提供英文版。"
@@ -639,65 +742,17 @@ msgstr ""
 msgid "Back to Top"
 msgstr "回到顶部"
 
-#: schedule.php:2 schedule.php:12
+#: schedule.php:2 schedule.php:13
 msgid "Schedule"
 msgstr "时间表"
 
-#: schedule.php:13
-msgid ""
-"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
-"Universal Time)</strong>."
-msgstr ""
-"我们检测到您的时区是 <strong id=\"timezone\">UTC+0000（协调世界时）</"
-"strong>。"
-
-#: schedule.php:16
-msgid ""
-"Daylight Saving Time (also known as Summer Time or DST) is taken into "
-"account automatically."
-msgstr ""
-"Daylight Saving Time (also known as Summer Time or DST) is taken into "
-"account automatically."
-
-#: schedule.php:19
+#: schedule.php:20
 msgid "Show Results"
 msgstr "显示结果"
 
-#: schedule.php:20
+#: schedule.php:21
 msgid "Hide Results"
 msgstr "隐藏结果"
-
-#: schedule.php:24
-msgid "Date / Time"
-msgstr "日期和时间"
-
-#: schedule.php:25 twcscore.php:68
-msgid "Category"
-msgstr "项目"
-
-#: schedule.php:26
-msgid "Players"
-msgstr "玩家"
-
-#: schedule.php:27
-msgid "Reset Time<br>(minutes)"
-msgstr "Reset Time<br>（分钟）"
-
-#: schedule.php:28 schedule.php:31
-msgid "Results"
-msgstr "结果"
-
-#: schedule.php:29 schedule.php:32
-msgid "Points"
-msgstr "总分"
-
-#: schedule.php:49
-msgid " ("
-msgstr ""
-
-#: schedule.php:51
-msgid ")"
-msgstr ""
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -904,12 +959,6 @@ msgstr "TWCScore："
 #~ msgid "Flag of the United States"
 #~ msgstr "美国国旗"
 
-#~ msgid "Flag of Japan"
-#~ msgstr "日本国旗"
-
-#~ msgid "Flag of the P.R.C."
-#~ msgstr "中国国旗"
-
 #~ msgid "Flag of Russia"
 #~ msgstr "俄罗斯国旗"
 
@@ -920,8 +969,8 @@ msgstr "TWCScore："
 #~ msgstr "西班牙国旗"
 
 #~ msgid ""
-#~ "The TWCScore of a credit can be calculated using the <a href=\"twcscore"
-#~ "\">TWCScore Calculator</a>."
+#~ "The TWCScore of a credit can be calculated using the <a "
+#~ "href=\"twcscore\">TWCScore Calculator</a>."
 #~ msgstr "积分使用<a href=“twcscore”>TWCScore 计算器</a>计算。"
 
 #~ msgid "Chinese commentary stream 1 (Bilibili)"

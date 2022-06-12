@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-28 18:42+0200\n"
-"PO-Revision-Date: 2022-05-28 18:42+0200\n"
+"POT-Creation-Date: 2022-06-13 00:20+0200\n"
+"PO-Revision-Date: 2022-06-13 00:21+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -18,6 +18,8 @@ msgstr ""
 "X-Poedit-SearchPath-3: schedule.php\n"
 "X-Poedit-SearchPath-4: twcscore.php\n"
 "X-Poedit-SearchPath-5: php/translations.php\n"
+"X-Poedit-SearchPath-6: results.php\n"
+"X-Poedit-SearchPath-7: php/table_func.php\n"
 
 #: credits.php:2 credits.php:12
 msgid "Credits"
@@ -97,6 +99,18 @@ msgstr "Canal oficial de YouTube de TWC"
 #: index.php:42
 msgid "Official TWC Twitter"
 msgstr "Twitter oficial de TWC"
+
+#: php/table_func.php:20
+msgid " ("
+msgstr ""
+
+#: php/table_func.php:22
+msgid ")"
+msgstr ""
+
+#: php/table_func.php:43
+msgid "Exhibition Matches"
+msgstr ""
 
 #: php/translations.php:2
 msgid "ReimuA"
@@ -318,6 +332,94 @@ msgstr "YoumuNutria"
 msgid "YoumuEagle"
 msgstr "YoumuÁguila"
 
+#: results.php:2 results.php:13
+msgid "Past Results"
+msgstr "Resultados Pasados"
+
+#: results.php:15
+msgid "This page lists the results of past years of Touhou World Cup."
+msgstr ""
+"Esta página enumera los resultados de los últimos años del Touhou World Cup."
+
+#: results.php:16 schedule.php:14
+msgid ""
+"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
+"Universal Time)</strong>."
+msgstr ""
+"Tu zona horaria fue detectada como <strong id=\"timezone\">UTC+0000 "
+"(Coordinated Universal Time)</strong>."
+
+#: results.php:19 schedule.php:17
+msgid ""
+"Daylight Saving Time (also known as Summer Time or DST) is taken into "
+"account automatically."
+msgstr "El Horario de Verano (DST) es considerado de manera automática."
+
+#: results.php:22
+msgid "Contents"
+msgstr "Contenido"
+
+#: results.php:28 results.php:78
+msgid "Final tally:"
+msgstr "Puntuaciones finales:"
+
+#: results.php:31 results.php:70 results.php:81
+msgid "Flag of Japan"
+msgstr "Bandera de Japón"
+
+#: results.php:32 results.php:36 results.php:40 results.php:82 results.php:86
+#: results.php:90
+msgid " points"
+msgstr " puntos"
+
+#: results.php:35 results.php:66 results.php:89
+msgid "Flag of the P.R.C."
+msgstr "Bandera de los R.P.C."
+
+#: results.php:39 results.php:62 results.php:85
+msgid "Earth"
+msgstr "Tierra"
+
+#: results.php:46 results.php:96 schedule.php:25
+msgid "Date / Time"
+msgstr "Fecha / Hora"
+
+#: results.php:47 results.php:97 schedule.php:26 twcscore.php:68
+msgid "Category"
+msgstr "Categoría"
+
+#: results.php:48 results.php:98 schedule.php:27
+msgid "Players"
+msgstr "Jugadores"
+
+#: results.php:49 results.php:99 schedule.php:28
+msgid "Reset Time<br>(minutes)"
+msgstr "Temporizador de Reinicio<br>(minutos)"
+
+#: results.php:50 results.php:100 schedule.php:29 schedule.php:32
+msgid "Results"
+msgstr "Resultados"
+
+#: results.php:51 results.php:101 schedule.php:30 schedule.php:33
+msgid "Points"
+msgstr "Puntos"
+
+#: results.php:76 results.php:113
+msgid "Game Over"
+msgstr ""
+
+#: results.php:82
+msgid "Team Japan: "
+msgstr "Equipo de Japón: "
+
+#: results.php:86
+msgid "Team West: "
+msgstr "Equipo del Occidente: "
+
+#: results.php:90
+msgid "Team China: "
+msgstr "Equipo de China: "
+
 #: rules.php:2 rules.php:12
 msgid "Rules"
 msgstr "Reglas"
@@ -375,10 +477,10 @@ msgstr "TWCScore"
 
 #: rules.php:28
 msgid ""
-"The quality of credits is calculated through the <a href=\"twcscore"
-"\">TWCScore Calculator</a>. This is a scoring metric which compensates for "
-"differences in shot type performance so that there is a point of comparison "
-"between credits in a category."
+"The quality of credits is calculated through the <a "
+"href=\"twcscore\">TWCScore Calculator</a>. This is a scoring metric which "
+"compensates for differences in shot type performance so that there is a "
+"point of comparison between credits in a category."
 msgstr ""
 "La calidad de los créditos es calculada a través de <a href=\"twcscore\">la "
 "calculadora de TWCScore</a>. Esta es una métrica que compensa por las "
@@ -685,8 +787,8 @@ msgstr "Reglas Oficiales Completas"
 
 #: rules.php:94
 msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf"
-"\">here</a>. Currently, it is only available in the English language."
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook."
+"pdf\">here</a>. Currently, it is only available in the English language."
 msgstr ""
 "El libro oficial de reglas completas lo puedes encontrar <a href=\"assets/"
 "TWC_Handbook.pdf\">aquí</a>. Por el momento, solo se encuentra en el idioma "
@@ -696,63 +798,17 @@ msgstr ""
 msgid "Back to Top"
 msgstr "De vuelta al Inicio"
 
-#: schedule.php:2 schedule.php:12
+#: schedule.php:2 schedule.php:13
 msgid "Schedule"
 msgstr "Horario"
 
-#: schedule.php:13
-msgid ""
-"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
-"Universal Time)</strong>."
-msgstr ""
-"Tu zona horaria fue detectada como <strong id=\"timezone\">UTC+0000 "
-"(Coordinated Universal Time)</strong>."
-
-#: schedule.php:16
-msgid ""
-"Daylight Saving Time (also known as Summer Time or DST) is taken into "
-"account automatically."
-msgstr "El Horario de Verano (DST) es considerado de manera automática."
-
-#: schedule.php:19
+#: schedule.php:20
 msgid "Show Results"
 msgstr "Mostrar Resultados"
 
-#: schedule.php:20
+#: schedule.php:21
 msgid "Hide Results"
 msgstr "Ocultar Resultados"
-
-#: schedule.php:24
-msgid "Date / Time"
-msgstr "Fecha / Hora"
-
-#: schedule.php:25 twcscore.php:68
-msgid "Category"
-msgstr "Categoría"
-
-#: schedule.php:26
-msgid "Players"
-msgstr "Jugadores"
-
-#: schedule.php:27
-msgid "Reset Time<br>(minutes)"
-msgstr "Temporizador de Reinicio<br>(minutos)"
-
-#: schedule.php:28 schedule.php:31
-msgid "Results"
-msgstr "Resultados"
-
-#: schedule.php:29 schedule.php:32
-msgid "Points"
-msgstr "Puntos"
-
-#: schedule.php:49
-msgid " ("
-msgstr ""
-
-#: schedule.php:51
-msgid ")"
-msgstr ""
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -788,7 +844,7 @@ msgstr "Touhou 8: Imperishable Night"
 
 #: twcscore.php:25
 msgid "Touhou 9: Phantasmagoria of Flower View"
-msgstr ""
+msgstr "Touhou 9: Phantasmagoria of Flower View"
 
 #: twcscore.php:27
 msgid "Touhou 10: Mountain of Faith"
@@ -960,12 +1016,6 @@ msgstr "TWCScore:"
 #~ msgid "Flag of the United States"
 #~ msgstr "Bandera de Estados Unidos"
 
-#~ msgid "Flag of Japan"
-#~ msgstr "Bandera de Japón"
-
-#~ msgid "Flag of the P.R.C."
-#~ msgstr "Bandera de los R.P.C."
-
 #~ msgid "Flag of Russia"
 #~ msgstr "Bandera de Rusia"
 
@@ -981,8 +1031,8 @@ msgstr "TWCScore:"
 #~ "muerte."
 
 #~ msgid ""
-#~ "The TWCScore of a credit can be calculated using the <a href=\"twcscore"
-#~ "\">TWCScore Calculator</a>."
+#~ "The TWCScore of a credit can be calculated using the <a "
+#~ "href=\"twcscore\">TWCScore Calculator</a>."
 #~ msgstr ""
-#~ "La PuntuaciónTWC de un crédito se puede calcular con la <a href=\"twcscore"
-#~ "\">Calculadora de PuntuaciónTWC</a>."
+#~ "La PuntuaciónTWC de un crédito se puede calcular con la <a "
+#~ "href=\"twcscore\">Calculadora de PuntuaciónTWC</a>."
