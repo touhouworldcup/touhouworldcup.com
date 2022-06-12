@@ -4,6 +4,7 @@
     $keywords = 'touhou, touhou project, 東方, 东方, world cup, touhou world cup, twc, 2022 competition, scoring, survival, tournament, schedule, timetable';
     include_once 'php/locale.php';
     include_once 'php/head.php';
+    include_once 'php/table_func.php';
 ?>
 
 <body>
@@ -18,7 +19,7 @@
     ?></p>
     <p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
     <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>
-    <table id="schedule_table">
+    <table class="schedule_table">
         <thead>
             <tr>
                 <th rowspan="3"><?php echo _('Date / Time') ?></th>
@@ -33,40 +34,13 @@
                 </noscript>
             </tr>
         </thead>
-        <tbody id="schedule_tbody"><?php
-            function format_results(array $results, string $key) {
-                $formatted = '';
-                for ($i = 0; $i < count($results[$key]); $i++) {
-                    $result = $results[$key][$i];
-                    $formatted .= ($i > 0 ? '<br>' : '');
-                    $formatted .= (empty($result['shot']) ? '' : _($result['shot'])) . ' <br class="mobile_br">';
-                    if (is_string($result['score'])) { // survival
-                        $formatted .= $result['score'];
-                    } else { // scoring
-                        $formatted .= number_format($result['score'], 0, '.', ',');
-                    }
-                    $formatted .= '<br class="mobile_br">';
-                    $formatted .= _(' (');
-                    $formatted .= $result['twcscore'];
-                    $formatted .= _(')');
-                }
-                return $formatted;
-            }
-            function format_points(array $results, string $key) {
-                $formatted = '';
-                for ($i = 0; $i < count($results[$key]); $i++) {
-                    $result = $results[$key][$i];
-                    $formatted .= ($i > 0 ? '<br>' : '');
-                    $formatted .= ($result['points'] == 2 ? '<strong>2</strong>' : $result['points']);
-                    $formatted .= '<br class="mobile_br"><br class="mobile_br">';
-                }
-                return $formatted;
-            }
+        <tbody><?php
             $json = file_get_contents('json/schedule_new.json');
             $schedule = json_decode($json, true);
             $json = file_get_contents('json/results.json');
             $results = json_decode($json, true);
-            $teams = ['rose', 'mind', 'heart'];
+            $teams = array('rose', 'mind', 'heart');
+            $bonus_matches = array();
             $highlight = false;
             foreach ($schedule as $key => $match) {
                 if (!$highlight && $key >= time()) {
@@ -83,8 +57,8 @@
                 }
                 echo '</td><td>' . ($match['reset'] === 0 ? 'N/A' : $match['reset']) . '</td>';
                 if (array_key_exists($key, $results)) {
-                    echo '<td class="spoiler">' . format_results($results, $key) . '</td><td class="spoiler">' . format_points($results, $key) . '</td>';
-                    echo '<noscript><td>' . format_results($results, $key) . '</td><td>' . format_points($results, $key) . '</td></noscript>';
+                    echo '<td class="spoiler">' . format_results($results, $bonus_matches, $key) . '</td><td class="spoiler">' . format_points($results, $key) . '</td>';
+                    echo '<noscript><td>' . format_results($results, $bonus_matches, $key) . '</td><td>' . format_points($results, $key) . '</td></noscript>';
                 } else {
                     echo '<td class="spoiler">&nbsp;</td><td class="spoiler">&nbsp;</td>';
                     echo '<noscript><td>&nbsp;</td><td>&nbsp;</td></noscript>';
