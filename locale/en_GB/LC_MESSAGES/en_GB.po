@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-05-28 18:40+0200\n"
-"PO-Revision-Date: 2022-05-28 18:40+0200\n"
+"POT-Creation-Date: 2022-06-13 00:12+0200\n"
+"PO-Revision-Date: 2022-06-13 00:12+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -18,6 +18,8 @@ msgstr ""
 "X-Poedit-SearchPath-3: schedule.php\n"
 "X-Poedit-SearchPath-4: twcscore.php\n"
 "X-Poedit-SearchPath-5: php/translations.php\n"
+"X-Poedit-SearchPath-6: results.php\n"
+"X-Poedit-SearchPath-7: php/table_func.php\n"
 
 #: credits.php:2 credits.php:12
 msgid "Credits"
@@ -90,6 +92,18 @@ msgstr ""
 
 #: index.php:42
 msgid "Official TWC Twitter"
+msgstr ""
+
+#: php/table_func.php:20
+msgid " ("
+msgstr ""
+
+#: php/table_func.php:22
+msgid ")"
+msgstr ""
+
+#: php/table_func.php:43
+msgid "Exhibition Matches"
 msgstr ""
 
 #: php/translations.php:2
@@ -312,6 +326,79 @@ msgstr ""
 msgid "YoumuEagle"
 msgstr ""
 
+#: results.php:2 results.php:13
+msgid "Past Results"
+msgstr ""
+
+#: results.php:15
+msgid "This page lists the results of past years of Touhou World Cup."
+msgstr ""
+
+#: results.php:16 schedule.php:14
+msgid ""
+"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
+"Universal Time)</strong>."
+msgstr ""
+
+#: results.php:19 schedule.php:17
+msgid ""
+"Daylight Saving Time (also known as Summer Time or DST) is taken into "
+"account automatically."
+msgstr ""
+
+#: results.php:22
+msgid "Contents"
+msgstr ""
+
+#: results.php:28 results.php:78
+msgid "Final tally:"
+msgstr ""
+
+#: results.php:31 results.php:70 results.php:81
+msgid "Flag of Japan"
+msgstr ""
+
+#: results.php:32 results.php:36 results.php:40 results.php:82 results.php:86
+#: results.php:90
+msgid " points"
+msgstr ""
+
+#: results.php:35 results.php:66 results.php:89
+msgid "Flag of the P.R.C."
+msgstr ""
+
+#: results.php:39 results.php:62 results.php:85
+msgid "Earth"
+msgstr ""
+
+#: results.php:46 results.php:96 schedule.php:25
+msgid "Date / Time"
+msgstr ""
+
+#: results.php:47 results.php:97 schedule.php:26 twcscore.php:68
+msgid "Category"
+msgstr ""
+
+#: results.php:48 results.php:98 schedule.php:27
+msgid "Players"
+msgstr ""
+
+#: results.php:49 results.php:99 schedule.php:28
+msgid "Reset Time<br>(minutes)"
+msgstr ""
+
+#: results.php:50 results.php:100 schedule.php:29 schedule.php:32
+msgid "Results"
+msgstr ""
+
+#: results.php:51 results.php:101 schedule.php:30 schedule.php:33
+msgid "Points"
+msgstr ""
+
+#: results.php:76 results.php:113
+msgid "Game Over"
+msgstr ""
+
 #: rules.php:2 rules.php:12
 msgid "Rules"
 msgstr ""
@@ -364,10 +451,10 @@ msgstr ""
 
 #: rules.php:28
 msgid ""
-"The quality of credits is calculated through the <a href=\"twcscore"
-"\">TWCScore Calculator</a>. This is a scoring metric which compensates for "
-"differences in shot type performance so that there is a point of comparison "
-"between credits in a category."
+"The quality of credits is calculated through the <a "
+"href=\"twcscore\">TWCScore Calculator</a>. This is a scoring metric which "
+"compensates for differences in shot type performance so that there is a "
+"point of comparison between credits in a category."
 msgstr ""
 
 #: rules.php:29
@@ -605,68 +692,24 @@ msgstr ""
 
 #: rules.php:94
 msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf"
-"\">here</a>. Currently, it is only available in the English language."
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook."
+"pdf\">here</a>. Currently, it is only available in the English language."
 msgstr ""
 
 #: rules.php:95
 msgid "Back to Top"
 msgstr ""
 
-#: schedule.php:2 schedule.php:12
+#: schedule.php:2 schedule.php:13
 msgid "Schedule"
 msgstr ""
 
-#: schedule.php:13
-msgid ""
-"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
-"Universal Time)</strong>."
-msgstr ""
-
-#: schedule.php:16
-msgid ""
-"Daylight Saving Time (also known as Summer Time or DST) is taken into "
-"account automatically."
-msgstr ""
-
-#: schedule.php:19
+#: schedule.php:20
 msgid "Show Results"
 msgstr ""
 
-#: schedule.php:20
+#: schedule.php:21
 msgid "Hide Results"
-msgstr ""
-
-#: schedule.php:24
-msgid "Date / Time"
-msgstr ""
-
-#: schedule.php:25 twcscore.php:68
-msgid "Category"
-msgstr ""
-
-#: schedule.php:26
-msgid "Players"
-msgstr ""
-
-#: schedule.php:27
-msgid "Reset Time<br>(minutes)"
-msgstr ""
-
-#: schedule.php:28 schedule.php:31
-msgid "Results"
-msgstr ""
-
-#: schedule.php:29 schedule.php:32
-msgid "Points"
-msgstr ""
-
-#: schedule.php:49
-msgid " ("
-msgstr ""
-
-#: schedule.php:51
-msgid ")"
 msgstr ""
 
 #: twcscore.php:12

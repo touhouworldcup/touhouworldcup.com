@@ -1,0 +1,117 @@
+{
+    "1580549400": {
+        "category": "TH15 Lunatic Survival",
+        "players": ["-", "HNY", "SOC"],
+        "reset": 60
+    },
+    "1580558400": {
+        "category": "TH10 Lunatic Survival",
+        "players": ["Kayo", "LRS", "Tylopilus"],
+        "reset": 60
+    },
+    "1580619600": {
+        "category": "TH10 Lunatic Scoring",
+        "players": ["-", "dxk", "AAA"],
+        "reset": 60
+    },
+    "1580650200": {
+        "category": "TH07 Lunatic Survival",
+        "players": ["Mino", "ATM", "rori-"],
+        "reset": 60
+    },
+    "1581138000": {
+        "category": "TH11 Lunatic Survival",
+        "players": ["Ness", "Cerasis", "ムラサイレブン (wadatsumi)"],
+        "reset": 60
+    },
+    "1581170400": {
+        "category": "TH13 Lunatic Scoring",
+        "players": ["Maribel Hearn", "lyrica", "Mu"],
+        "reset": 60
+    },
+    "1581249600": {
+        "category": "TH16 Lunatic Survival",
+        "players": ["-", "IAH", "SNT"],
+        "reset": 60
+    },
+    "1581768000": {
+        "category": "TH06 Lunatic Survival",
+        "players": ["pienyan", "COMMON", "kkgk"],
+        "reset": 60
+    },
+    "1581775200": {
+        "category": "TH06 Lunatic Scoring",
+        "players": ["kana0603", "-", "yami"],
+        "reset": 60
+    },
+    "1581832800": {
+        "category": "TH14 Lunatic Survival",
+        "players": ["pyro", "ISN", "GB"],
+        "reset": 60
+    },
+    "1581840000": {
+        "category": "TH11 Lunatic Scoring",
+        "players": ["-", "Cero", "gob"],
+        "reset": 60
+    },
+    "1581852600": {
+        "category": "TH16 Lunatic Scoring",
+        "players": ["Ray", "BENREN", "ひろ♪☆ (Hiro)"],
+        "reset": 60
+    },
+    "1582353000": {
+        "category": "TH12 Lunatic Survival",
+        "players": ["ZPS", "yuki", "Zsy"],
+        "reset": 60
+    },
+    "1582372800": {
+        "category": "TH13 Lunatic Survival",
+        "players": ["LepLop", "epsilon", "ns"],
+        "reset": 60
+    },
+    "1582380000": {
+        "category": "TH128 Lunatic Scoring",
+        "players": ["Dagoth", "-", "kaiko"],
+        "reset": 60
+    },
+    "1582439400": {
+        "category": "TH12 Lunatic Scoring",
+        "players": ["ZM", "mengo", "K・G"],
+        "reset": 60
+    },
+    "1582452000": {
+        "category": "TH14 Lunatic Scoring",
+        "players": ["-", "17", "ゆーみや (yu-miya)"],
+        "reset": 60
+    },
+    "1582459200": {
+        "category": "TH17 Lunatic Scoring",
+        "players": ["Borealis", "sel", "-"],
+        "reset": 60
+    },
+    "1582948800": {
+        "category": "TH07 Lunatic Scoring",
+        "players": ["streetmachino", "ZKY", "ゆーすけ (Yu-suke)"],
+        "reset": 90
+    },
+    "1583391600": {
+        "category": "TH08 Lunatic Scoring",
+        "players": ["Obama", "Nayutan", "IwanaM"],
+        "reset": 90
+    },
+    "1583578800": {
+        "category": "TH08 Lunatic Survival",
+        "players": ["Cao Minh", "WXQ", "Garm"],
+        "reset": 60
+    },
+    "1583586000": {
+        "category": "TH17 Lunatic Survival",
+        "players": ["Yatsuzume", "YWH", "すばりっく (subarick)"],
+        "reset": 60
+    },
+    "1584273600": {
+        "category": "TH15 Pointdevice RNG",
+        "players": ["Mino", "HNY", "SOC"],
+        "reset": 60
+    }
+}

@@ -1,7 +1,8 @@
-let language = "en-GB", clicked = false;
+let language = "en-GB";
+let clicked = false;
 
 function getCookie(name) {
-    let decodedCookies = decodeURIComponent(document.cookie);
+    const decodedCookies = decodeURIComponent(document.cookie);
     let cookieArray = decodedCookies.split(';');
     name += '=';
 
@@ -40,7 +41,6 @@ function getClientTimeZone() {
 
 function sendXHR(type, url, data, callback) {
     const newXHR = new XMLHttpRequest() || new window.ActiveXObject("Microsoft.XMLHTTP");
-
     newXHR.open(type, url, true);
     newXHR.send(data);
     newXHR.onreadystatechange = function () {
@@ -51,16 +51,15 @@ function sendXHR(type, url, data, callback) {
 }
 
 function toDateString(unix) {
-    var date = new Date(Number(unix) * 1000);
-
+    const date = new Date(Number(unix) * 1000);
     return date.toLocaleString(language, {"dateStyle": "full"}) + ", " + date.toLocaleTimeString(language);
 }
 
-function convertDateTimes() {
-    sendXHR("GET", "/json/schedule_new.json", null, function (response) {
-        let schedule = JSON.parse(response);
+function convertDateTimes(json) {
+    sendXHR("GET", json, null, function (response) {
+        const schedule = JSON.parse(response);
 
-        for (let unix in schedule) {
+        for (const unix in schedule) {
             const dateString = toDateString(unix);
             document.getElementById(unix + "_date").innerHTML = "<td class='noborders'>" + dateString + "</td>";
         }
@@ -82,11 +81,23 @@ function init() {
         language = "es-ES";
     }
 
-    document.getElementById("show_results").addEventListener("click", toggleResults, false);
-    document.getElementById("hide_results").addEventListener("click", toggleResults, false);
+    const showResults = document.getElementById("show_results");
+    const hideResults = document.getElementById("hide_results");
+
+    if (showResults) {
+        hideResults.addEventListener("click", toggleResults, false);
+        showResults.addEventListener("click", toggleResults, false);
+        showResults.style.display = "inline";
+    }
+    
     document.getElementById("timezone").innerHTML = getClientTimeZone();
-    document.getElementById("show_results").style.display = "inline";
-    convertDateTimes();
+
+    if (location.pathname == "/schedule") {
+        convertDateTimes("/json/schedule_new.json");
+    } else {
+        convertDateTimes("/past/schedule_2021.json");
+        convertDateTimes("/past/schedule_2020.json");
+    }
 }
 
 window.addEventListener("DOMContentLoaded", init, false);

@@ -1,0 +1,466 @@
+{
+    "1580549400": [
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "",
+            "score": "DNF",
+            "twcscore": 0,
+            "points": 1
+        },
+        {
+            "shot": "Reimu",
+            "score": "1M",
+            "twcscore": 3.75,
+            "points": 2
+        }
+    ],
+    "1580558400": [
+        {
+            "shot": "ReimuB",
+            "score": "1M",
+            "twcscore": -1,
+            "points": 2
+        },
+        {
+            "shot": "ReimuB",
+            "score": "3M",
+            "twcscore": -1,
+            "points": 0.5
+        },
+        {
+            "shot": "ReimuB",
+            "score": "3M",
+            "twcscore": -1,
+            "points": 0.5
+        }
+    ],
+    "1580619600": [
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "ReimuB",
+            "score": 2178580410,
+            "twcscore": 0,
+            "points": 1
+        },
+        {
+            "shot": "ReimuB",
+            "score": "DNF",
+            "twcscore": 0,
+            "points": 0
+        }
+    ],
+    "1580650200": [
+        {
+            "shot": "MarisaB",
+            "score": "LNNN",
+            "twcscore": -1,
+            "points": 2
+        },
+        {
+            "shot": "MarisaA",
+            "score": "2M",
+            "twcscore": -1,
+            "points": 1
+        },
+        {
+            "shot": "SakuyaB",
+            "score": "2M",
+            "twcscore": -1,
+            "points": 0
+        }
+    ],
+    "1581138000": [
+        {
+            "shot": "ReimuA",
+            "score": "5M",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "MarisaB",
+            "score": "3M",
+            "twcscore": 1.375,
+            "points": 0
+        },
+        {
+            "shot": "MarisaC",
+            "score": "2M",
+            "twcscore": 5.5,
+            "points": 1
+        }
+    ],
+    "1581170400": [
+        {
+            "shot": "Marisa",
+            "score": 3212839820,
+            "twcscore": 5.396,
+            "points": 1
+        },
+        {
+            "shot": "Marisa",
+            "score": 3067739450,
+            "twcscore": 3.551,
+            "points": 0
+        },
+        {
+            "shot": "Reimu",
+            "score": 3110930800,
+            "twcscore": 20.610,
+            "points": 2
+        }
+    ],
+    "1581249600": [
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "ReimuSpring",
+            "score": "2M",
+            "twcscore": 8,
+            "points": 1
+        },
+        {
+            "shot": "MarisaSummer",
+            "score": "3M",
+            "twcscore": 3.75,
+            "points": 0
+        }
+    ],
+    "1581768000": [
+        {
+            "shot": "ReimuB",
+            "score": "3M",
+            "twcscore": 2.5,
+            "points": 1
+        },
+        {
+            "shot": "MarisaB",
+            "score": "4M",
+            "twcscore": 2.0625,
+            "points": 0
+        },
+        {
+            "shot": "MarisaB",
+            "score": "3M",
+            "twcscore": -1,
+            "points": 2
+        }
+    ],
+    "1581775200": [
+        {
+            "shot": "ReimuB",
+            "score": 542026840,
+            "twcscore": 6.392,
+            "points": 0
+        },
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "ReimuB",
+            "score": 662371090,
+            "twcscore": -1,
+            "points": 1
+        }
+    ],
+    "1581832800": [
+        {
+            "shot": "ReimuB",
+            "score": "5M",
+            "twcscore": 2.65625,
+            "points": 2
+        },
+        {
+            "shot": "SakuyaA",
+            "score": "1M",
+            "twcscore": 2,
+            "points": 1
+        },
+        {
+            "shot": "ReimuA",
+            "score": "5M",
+            "twcscore": 0.125,
+            "points": 0
+        }
+    ],
+    "1581840000": [
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "ReimuA",
+            "score": 4148165390,
+            "twcscore": 8.272,
+            "points": 0
+        },
+        {
+            "shot": "ReimuA",
+            "score": 4589284310,
+            "twcscore": -1,
+            "points": 1
+        }
+    ],
+    "1581852600": [
+        {
+            "shot": "AyaSpring",
+            "score": 3204797590,
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "ReimuSummer",
+            "score": 3459297690,
+            "twcscore": -1,
+            "points": 1
+        },
+        {
+            "shot": "AyaAutumn",
+            "score": 8244370010,
+            "twcscore": 21.569,
+            "points": 2
+        }
+    ],
+    "1582353000": [
+        {
+            "shot": "ReimuA",
+            "score": "4M",
+            "twcscore": 1.25,
+            "points": 1
+        },
+        {
+            "shot": "",
+            "score": "DNF",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "ReimuA",
+            "score": "3M",
+            "twcscore": 2.5,
+            "points": 2
+        }
+    ],
+    "1582372800": [
+        {
+            "shot": "",
+            "score": "DNF",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "Reimu",
+            "score": "2M",
+            "twcscore": 2.25,
+            "points": 1
+        },
+        {
+            "shot": "Sanae",
+            "score": "1M",
+            "twcscore": 12.5,
+            "points": 2
+        }
+    ],
+    "1582380000": [
+        {
+            "shot": "A1",
+            "score": 100210660,
+            "twcscore": 10.148,
+            "points": 1
+        },
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "A1",
+            "score": 91159900,
+            "twcscore": 5.57,
+            "points": 0
+        }
+    ],
+    "1582439400": [
+        {
+            "shot": "SanaeB",
+            "score": 2609100010,
+            "twcscore": 9.236,
+            "points": 1
+        },
+        {
+            "shot": "MarisaA",
+            "score": 2230548410,
+            "twcscore": 4.723,
+            "points": 0
+        },
+        {
+            "shot": "SanaeB",
+            "score": 3173361380,
+            "twcscore": 28.434,
+            "points": 2
+        }
+    ],
+    "1582452000": [
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "MarisaB",
+            "score": 1685995620,
+            "twcscore": 5.994,
+            "points": 1
+        },
+        {
+            "shot": "MarisaB",
+            "score": 1623599560,
+            "twcscore": 4.515,
+            "points": 0
+        }
+    ],
+    "1582459200": [
+        {
+            "shot": "ReimuOtter",
+            "score": 6253568980,
+            "gameover": true,
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "ReimuOtter",
+            "score": 7770047510,
+            "twcscore": 5.580,
+            "points": 1
+        },
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        }
+    ],
+    "1582948800": [
+        {
+            "shot": "SakuyaB",
+            "score": 2855251970,
+            "twcscore": 12.277,
+            "points": 0
+        },
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "SakuyaB",
+            "score": 3360383840,
+            "twcscore": 46.517,
+            "points": 1
+        }
+    ],
+    "1583391600": [
+        {
+            "shot": "SakuyaRemilia",
+            "score": 5421994200,
+            "twcscore": 5.052,
+            "points": 1
+        },
+        {
+            "shot": "YoumuYuyuko",
+            "score": 4390440540,
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "YoumuYuyuko",
+            "score": 6125161870,
+            "twcscore": 21.542,
+            "points": 2
+        }
+    ],
+    "1583578800": [
+        {
+            "shot": "ReimuYukari",
+            "route": "6B",
+            "score": "3M",
+            "twcscore": 0.625,
+            "points": 0
+        },
+        {
+            "shot": "Youmu",
+            "route": "6A",
+            "score": "2M",
+            "twcscore": 1.25,
+            "points": 1
+        },
+        {
+            "shot": "Marisa",
+            "route": "6B",
+            "score": "3M",
+            "twcscore": 1.625,
+            "points": 2
+        }
+    ],
+    "1583586000": [
+        {
+            "shot": "YoumuWolf",
+            "score": "1M",
+            "twcscore": 4,
+            "points": 1
+        },
+        {
+            "shot": "ReimuWolf",
+            "score": "LNNNN",
+            "twcscore": 13,
+            "points": 2
+        },
+        {
+            "shot": "YoumuWolf",
+            "score": "4M",
+            "twcscore": 0.5,
+            "points": 0
+        }
+    ],
+    "1584273600": [
+        {
+            "shot": "Sanae",
+            "score": "Normal Stage 6",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "Reisen",
+            "score": "Easy 1cc",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "Sanae",
+            "score": "Normal Stage 6",
+            "twcscore": 0,
+            "points": 0
+        }
+    ]
+}

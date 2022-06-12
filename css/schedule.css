@@ -59,6 +59,17 @@ input[type=button] {
 .spoiler {
     display: none;
 }
+.large {
+    font-size: 24px;
+}
+.bonus {
+    text-align: center;
+}
+/*.contents {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}*/
 .team {
     cursor: help;
     position: relative;
@@ -86,7 +97,7 @@ input[type=button] {
     main {
         overflow-x: auto;
     }
-    #schedule_table {
+    .schedule_table {
         max-width: 95%;
         overflow-x: scroll;
     }
