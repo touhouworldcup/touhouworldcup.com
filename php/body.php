@@ -7,6 +7,7 @@
 <ul id="main_list" class="menu">
     <li><a class="subpage" href="rules<?php echo query_string() ?>"><?php echo _('Rules') ?></a></li>
     <li><a class="subpage" href="schedule<?php echo query_string() ?>"><?php echo _('Schedule') ?></a></li>
+    <li><a class="subpage" href="results<?php echo query_string() ?>"><?php echo _('Past Results') ?></a></li>
     <li><a class="subpage" href="twcscore<?php echo query_string() ?>"><?php echo _('TWCScore') ?></a></li>
     <li><a class="subpage" href="credits<?php echo query_string() ?>"><?php echo _('Credits') ?></a></li>
 </ul>
