@@ -238,5 +238,65 @@
             "twcscore": 26.063,
             "points": 1
         }
+    ],
+    "1654956000": [
+        {
+            "shot": "ReimuB",
+            "score": 3310185500,
+            "twcscore": 61.635,
+            "points": 1
+        },
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "ReimuB",
+            "score": 3497343850,
+            "twcscore": 113.558,
+            "points": 2
+        }
+    ],
+    "1655017200": [
+        {
+            "shot": "MarisaB",
+            "score": 1189164890,
+            "twcscore": 43.823,
+            "points": 2
+        },
+        {
+            "shot": "",
+            "score": "DQ",
+            "twcscore": -1000,
+            "points": 0
+        },
+        {
+            "shot": "MarisaB",
+            "score": 1178842600,
+            "twcscore": 36.353,
+            "points": 1
+        }
+    ],
+    "1655031600": [
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "ReimuB",
+            "score": 1471784220,
+            "twcscore": 62.005,
+            "points": 2
+        },
+        {
+            "shot": "ReimuB",
+            "score": 1285978180,
+            "twcscore": 36.353,
+            "points": 1
+        }
     ]
 }
