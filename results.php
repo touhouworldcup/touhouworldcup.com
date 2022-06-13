@@ -12,7 +12,6 @@
 	<main>
 	<h1><?php echo _('Past Results') ?></h1>
     <!--<p class='large'><?php //echo _('This is NOT the current schedule! For the schedule, see the <a href="/schedule' . query_string(). '">Schedule</a> page.') ?></p>-->
-    <p><?php echo _('This page lists the results of past years of Touhou World Cup.') ?></p>
     <p><?php echo _('Your time zone was detected as <strong id="timezone">UTC+0000 (Coordinated Universal Time)</strong>.') ?></p>
     <p><?php
         if ($lang == 'en_GB' || $lang == 'en_US' || $lang == 'de_DE' || $lang == 'es_ES') {
@@ -71,7 +70,7 @@
                 ]
             );
             print_schedule($schedule_2021, $results_2021, $teams_2021);
-        ?></tbody>
+        ?></tbod`y`>
     </table>
     <p>* <?php echo _('Game Over') ?></p>
     <h2 id="2020">TWC 2020</h2>

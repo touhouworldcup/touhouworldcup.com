@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-06-13 00:24+0200\n"
-"PO-Revision-Date: 2022-06-13 00:31+0200\n"
+"POT-Creation-Date: 2022-06-13 20:08+0200\n"
+"PO-Revision-Date: 2022-06-13 20:10+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -99,17 +99,17 @@ msgstr "公式YouTubeチャンネル"
 msgid "Official TWC Twitter"
 msgstr "公式ツイッター"
 
-#: php/table_func.php:20
+#: php/table_func.php:24
 msgid " ("
 msgstr "（"
 
-#: php/table_func.php:22
+#: php/table_func.php:26
 msgid ")"
 msgstr "）"
 
-#: php/table_func.php:43
+#: php/table_func.php:47
 msgid "Exhibition Matches"
-msgstr ""
+msgstr "エキシビション"
 
 #: php/translations.php:2
 msgid "ReimuA"
@@ -333,13 +333,9 @@ msgstr "妖夢E"
 
 #: results.php:2 results.php:13
 msgid "Past Results"
-msgstr ""
+msgstr "過去の試合結果"
 
-#: results.php:15
-msgid "This page lists the results of past years of Touhou World Cup."
-msgstr ""
-
-#: results.php:16 schedule.php:14
+#: results.php:15 schedule.php:14
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
@@ -347,76 +343,76 @@ msgstr ""
 "表示されているタイムゾーンは<strong id=\"timezone\">UTC+0000（協定世界時）</"
 "strong>です。"
 
-#: results.php:19 schedule.php:17
+#: results.php:18 schedule.php:17
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
 msgstr ""
 
-#: results.php:22
+#: results.php:21
 msgid "Contents"
 msgstr "内容"
 
-#: results.php:28 results.php:78
+#: results.php:27 results.php:77
 msgid "Final tally:"
-msgstr ""
+msgstr "最終獲得ポイント："
 
-#: results.php:31 results.php:70 results.php:81
+#: results.php:30 results.php:69 results.php:80
 msgid "Flag of Japan"
 msgstr "日本の国旗"
 
-#: results.php:32 results.php:36 results.php:40 results.php:82 results.php:86
-#: results.php:90
-msgid " points"
-msgstr "ポイント"
-
-#: results.php:35 results.php:66 results.php:89
-msgid "Flag of the P.R.C."
-msgstr "中華人民共和国の国旗"
-
-#: results.php:39 results.php:62 results.php:85
-msgid "Earth"
-msgstr "地球"
-
-#: results.php:46 results.php:96 schedule.php:25
-msgid "Date / Time"
-msgstr "日付と時間"
-
-#: results.php:47 results.php:97 schedule.php:26 twcscore.php:68
-msgid "Category"
-msgstr "カテゴリー"
-
-#: results.php:48 results.php:98 schedule.php:27
-msgid "Players"
-msgstr "プレイヤー"
-
-#: results.php:49 results.php:99 schedule.php:28
-msgid "Reset Time<br>(minutes)"
-msgstr "リセットのタイマー<br>（分）"
-
-#: results.php:50 results.php:100 schedule.php:29 schedule.php:32
-msgid "Results"
-msgstr "業績"
-
-#: results.php:51 results.php:101 schedule.php:30 schedule.php:33
-msgid "Points"
-msgstr "ポイント"
-
-#: results.php:76 results.php:113
-msgid "Game Over"
-msgstr ""
-
-#: results.php:82
+#: results.php:31 results.php:81
 msgid "Team Japan: "
 msgstr "日本チーム："
 
-#: results.php:86
+#: results.php:31 results.php:35 results.php:39 results.php:81 results.php:85
+#: results.php:89
+msgid " points"
+msgstr "ポイント"
+
+#: results.php:34 results.php:65 results.php:88
+msgid "Flag of the P.R.C."
+msgstr "中華人民共和国の国旗"
+
+#: results.php:35 results.php:89
+msgid "Team China: "
+msgstr "中国チーム："
+
+#: results.php:38 results.php:61 results.php:84
+msgid "Earth"
+msgstr "地球"
+
+#: results.php:39 results.php:85
 msgid "Team West: "
 msgstr "西洋チーム："
 
-#: results.php:90
-msgid "Team China: "
-msgstr "中国チーム："
+#: results.php:45 results.php:95 schedule.php:25
+msgid "Date / Time"
+msgstr "日付と時間"
+
+#: results.php:46 results.php:96 schedule.php:26 twcscore.php:68
+msgid "Category"
+msgstr "カテゴリー"
+
+#: results.php:47 results.php:97 schedule.php:27
+msgid "Players"
+msgstr "プレイヤー"
+
+#: results.php:48 results.php:98 schedule.php:28
+msgid "Reset Time<br>(minutes)"
+msgstr "リセットのタイマー<br>（分）"
+
+#: results.php:49 results.php:99 schedule.php:29 schedule.php:32
+msgid "Results"
+msgstr "業績"
+
+#: results.php:50 results.php:100 schedule.php:30 schedule.php:33
+msgid "Points"
+msgstr "ポイント"
+
+#: results.php:75 results.php:112
+msgid "Game Over"
+msgstr ""
 
 #: rules.php:2 rules.php:12
 msgid "Rules"
@@ -783,11 +779,11 @@ msgstr "スケジュール"
 
 #: schedule.php:20
 msgid "Show Results"
-msgstr "業績を見せて"
+msgstr "試合結果を表示"
 
 #: schedule.php:21
 msgid "Hide Results"
-msgstr "業績を見せない"
+msgstr "試合結果を非表示"
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
