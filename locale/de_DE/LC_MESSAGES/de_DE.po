@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-06-13 00:19+0200\n"
-"PO-Revision-Date: 2022-06-13 00:20+0200\n"
+"POT-Creation-Date: 2022-06-13 20:11+0200\n"
+"PO-Revision-Date: 2022-06-13 20:11+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -100,15 +100,15 @@ msgstr "Offizieller TWC YouTube-Kanal"
 msgid "Official TWC Twitter"
 msgstr "Offizieller TWC-Twitter"
 
-#: php/table_func.php:20
+#: php/table_func.php:24
 msgid " ("
 msgstr ""
 
-#: php/table_func.php:22
+#: php/table_func.php:26
 msgid ")"
 msgstr ""
 
-#: php/table_func.php:43
+#: php/table_func.php:47
 msgid "Exhibition Matches"
 msgstr ""
 
@@ -336,13 +336,7 @@ msgstr "YoumuAdler"
 msgid "Past Results"
 msgstr "Vergangene Ergebnisse"
 
-#: results.php:15
-msgid "This page lists the results of past years of Touhou World Cup."
-msgstr ""
-"Diese Seite listet die Ergebnisse der vergangenen Jahre der Touhou World Cup "
-"auf."
-
-#: results.php:16 schedule.php:14
+#: results.php:15 schedule.php:14
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
@@ -350,7 +344,7 @@ msgstr ""
 "Deine Zeitzone wurde als <strong id=\"timezone\">UTC+0000 (Koordinierte "
 "Weltzeit)</strong> erkannt."
 
-#: results.php:19 schedule.php:17
+#: results.php:18 schedule.php:17
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
@@ -358,69 +352,69 @@ msgstr ""
 "Die Sommerzeit (auch bekannt als Daylight Saving Time oder DST) wird "
 "automatisch berücksichtigt."
 
-#: results.php:22
+#: results.php:21
 msgid "Contents"
 msgstr "Inhalt"
 
-#: results.php:28 results.php:78
+#: results.php:27 results.php:77
 msgid "Final tally:"
 msgstr "Endzahlen:"
 
-#: results.php:31 results.php:70 results.php:81
+#: results.php:30 results.php:69 results.php:80
 msgid "Flag of Japan"
 msgstr "Flagge von Japan"
 
-#: results.php:32 results.php:36 results.php:40 results.php:82 results.php:86
-#: results.php:90
-msgid " points"
-msgstr " Punkte"
-
-#: results.php:35 results.php:66 results.php:89
-msgid "Flag of the P.R.C."
-msgstr "Flagge der Volksrepublik China"
-
-#: results.php:39 results.php:62 results.php:85
-msgid "Earth"
-msgstr "Erde"
-
-#: results.php:46 results.php:96 schedule.php:25
-msgid "Date / Time"
-msgstr "Datum / Uhrzeit"
-
-#: results.php:47 results.php:97 schedule.php:26 twcscore.php:68
-msgid "Category"
-msgstr "Kategorie"
-
-#: results.php:48 results.php:98 schedule.php:27
-msgid "Players"
-msgstr "Spieler"
-
-#: results.php:49 results.php:99 schedule.php:28
-msgid "Reset Time<br>(minutes)"
-msgstr "Reset-Zeit<br>(Minuten)"
-
-#: results.php:50 results.php:100 schedule.php:29 schedule.php:32
-msgid "Results"
-msgstr "Ergebnisse"
-
-#: results.php:51 results.php:101 schedule.php:30 schedule.php:33
-msgid "Points"
-msgstr "Punkte"
-
-#: results.php:76 results.php:113
-msgid "Game Over"
-msgstr ""
-
-#: results.php:82
+#: results.php:31 results.php:81
 msgid "Team Japan: "
 msgstr ""
 
-#: results.php:86
+#: results.php:31 results.php:35 results.php:39 results.php:81 results.php:85
+#: results.php:89
+msgid " points"
+msgstr " Punkte"
+
+#: results.php:34 results.php:65 results.php:88
+msgid "Flag of the P.R.C."
+msgstr "Flagge der Volksrepublik China"
+
+#: results.php:35 results.php:89
+msgid "Team China: "
+msgstr ""
+
+#: results.php:38 results.php:61 results.php:84
+msgid "Earth"
+msgstr "Erde"
+
+#: results.php:39 results.php:85
 msgid "Team West: "
 msgstr ""
 
-#: results.php:90
-msgid "Team China: "
+#: results.php:45 results.php:95 schedule.php:25
+msgid "Date / Time"
+msgstr "Datum / Uhrzeit"
+
+#: results.php:46 results.php:96 schedule.php:26 twcscore.php:68
+msgid "Category"
+msgstr "Kategorie"
+
+#: results.php:47 results.php:97 schedule.php:27
+msgid "Players"
+msgstr "Spieler"
+
+#: results.php:48 results.php:98 schedule.php:28
+msgid "Reset Time<br>(minutes)"
+msgstr "Reset-Zeit<br>(Minuten)"
+
+#: results.php:49 results.php:99 schedule.php:29 schedule.php:32
+msgid "Results"
+msgstr "Ergebnisse"
+
+#: results.php:50 results.php:100 schedule.php:30 schedule.php:33
+msgid "Points"
+msgstr "Punkte"
+
+#: results.php:75 results.php:112
+msgid "Game Over"
 msgstr ""
 
 #: rules.php:2 rules.php:12
@@ -974,6 +968,11 @@ msgstr "Berechnen"
 #: twcscore.php:143
 msgid "TWCScore:"
 msgstr ""
+
+#~ msgid "This page lists the results of past years of Touhou World Cup."
+#~ msgstr ""
+#~ "Diese Seite listet die Ergebnisse der vergangenen Jahre der Touhou World "
+#~ "Cup auf."
 
 #~ msgid "TWC Starts In:"
 #~ msgstr "TWC startet in:"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-06-13 00:12+0200\n"
-"PO-Revision-Date: 2022-06-13 00:12+0200\n"
+"POT-Creation-Date: 2022-06-13 20:11+0200\n"
+"PO-Revision-Date: 2022-06-13 20:11+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -97,15 +97,15 @@ msgstr ""
 msgid "Official TWC Twitter"
 msgstr ""
 
-#: php/table_func.php:20
+#: php/table_func.php:24
 msgid " ("
 msgstr ""
 
-#: php/table_func.php:22
+#: php/table_func.php:26
 msgid ")"
 msgstr ""
 
-#: php/table_func.php:43
+#: php/table_func.php:47
 msgid "Exhibition Matches"
 msgstr ""
 
@@ -333,72 +333,80 @@ msgstr ""
 msgid "Past Results"
 msgstr ""
 
-#: results.php:15
-msgid "This page lists the results of past years of Touhou World Cup."
-msgstr ""
-
-#: results.php:16 schedule.php:14
+#: results.php:15 schedule.php:14
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
 msgstr ""
 
-#: results.php:19 schedule.php:17
+#: results.php:18 schedule.php:17
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
 msgstr ""
 
-#: results.php:22
+#: results.php:21
 msgid "Contents"
 msgstr ""
 
-#: results.php:28 results.php:78
+#: results.php:27 results.php:77
 msgid "Final tally:"
 msgstr ""
 
-#: results.php:31 results.php:70 results.php:81
+#: results.php:30 results.php:69 results.php:80
 msgid "Flag of Japan"
 msgstr ""
 
-#: results.php:32 results.php:36 results.php:40 results.php:82 results.php:86
-#: results.php:90
+#: results.php:31 results.php:81
+msgid "Team Japan: "
+msgstr ""
+
+#: results.php:31 results.php:35 results.php:39 results.php:81 results.php:85
+#: results.php:89
 msgid " points"
 msgstr ""
 
-#: results.php:35 results.php:66 results.php:89
+#: results.php:34 results.php:65 results.php:88
 msgid "Flag of the P.R.C."
 msgstr ""
 
-#: results.php:39 results.php:62 results.php:85
+#: results.php:35 results.php:89
+msgid "Team China: "
+msgstr ""
+
+#: results.php:38 results.php:61 results.php:84
 msgid "Earth"
 msgstr ""
 
-#: results.php:46 results.php:96 schedule.php:25
+#: results.php:39 results.php:85
+msgid "Team West: "
+msgstr ""
+
+#: results.php:45 results.php:95 schedule.php:25
 msgid "Date / Time"
 msgstr ""
 
-#: results.php:47 results.php:97 schedule.php:26 twcscore.php:68
+#: results.php:46 results.php:96 schedule.php:26 twcscore.php:68
 msgid "Category"
 msgstr ""
 
-#: results.php:48 results.php:98 schedule.php:27
+#: results.php:47 results.php:97 schedule.php:27
 msgid "Players"
 msgstr ""
 
-#: results.php:49 results.php:99 schedule.php:28
+#: results.php:48 results.php:98 schedule.php:28
 msgid "Reset Time<br>(minutes)"
 msgstr ""
 
-#: results.php:50 results.php:100 schedule.php:29 schedule.php:32
+#: results.php:49 results.php:99 schedule.php:29 schedule.php:32
 msgid "Results"
 msgstr ""
 
-#: results.php:51 results.php:101 schedule.php:30 schedule.php:33
+#: results.php:50 results.php:100 schedule.php:30 schedule.php:33
 msgid "Points"
 msgstr ""
 
-#: results.php:76 results.php:113
+#: results.php:75 results.php:112
 msgid "Game Over"
 msgstr ""
 
