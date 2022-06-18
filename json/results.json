@@ -298,5 +298,25 @@
             "twcscore": 4.680,
             "points": 1
         }
+    ],
+    "1655517600": [
+        {
+            "shot": "SakuyaRemilia",
+            "score": 6523499570,
+            "twcscore": 58.475,
+            "points": 1
+        },
+        {
+            "shot": "YoumuYuyuko",
+            "score": 6526854620,
+            "twcscore": 82.761,
+            "points": 2
+        },
+        {
+            "shot": "YoumuYuyuko",
+            "score": 6323697440,
+            "twcscore": 55.812,
+            "points": 0
+        }
     ]
 }
