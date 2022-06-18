@@ -28,7 +28,7 @@ iscore.get_survival = (game, shot, miss, FS, end) => {
 }
 
 iscore.get_th128_survival = (medals, miss) => {
-	return Math.max(medals * 1.5 - miss, 0);
+	return medals * 1.5 - miss;
 }
 
 iscore.get_scoring = (game, shot, score) => {
