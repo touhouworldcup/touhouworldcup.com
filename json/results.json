@@ -318,5 +318,25 @@
             "twcscore": 55.812,
             "points": 0
         }
+    ],
+    "1655643600": [
+        {
+            "shot": "CirnoSummer",
+            "score": 4253887640,
+            "twcscore": 94.142,
+            "points": 2
+        },
+        {
+            "shot": "AyaAutumn",
+            "score": 7716511190,
+            "twcscore": 82.761,
+            "points": 0
+        },
+        {
+            "shot": "CirnoWinter",
+            "score": 6156135980,
+            "twcscore": 87.799,
+            "points": 1
+        }
     ]
 }
