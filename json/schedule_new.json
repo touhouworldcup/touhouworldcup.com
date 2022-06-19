@@ -179,15 +179,6 @@
         ],
         "reset": 85
     },
-    "1656755100": {
-        "category": "TH14 Lunatic Survival",
-        "players": [
-            "XCF",
-            "Ameko",
-            "TARUHA"
-        ],
-        "reset": 85
-    },
     "1656763200": {
         "category": "TH06 Extra Scoring",
         "players": [
@@ -223,6 +214,15 @@
             "Dagoth"
         ],
         "reset": 70
+    },
+    "1657356300": {
+        "category": "TH14 Lunatic Survival",
+        "players": [
+            "XCF",
+            "Ameko",
+            "TARUHA"
+        ],
+        "reset": 85
     },
     "1657364400": {
         "category": "TH06 Lunatic Survival",
