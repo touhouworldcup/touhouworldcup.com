@@ -23,6 +23,8 @@
         <p><a href="#2021">2021</a></p>
         <p><a href="#2020">2020</a></p>
     </div>
+    <p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
+    <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>
     <h2 id="2021">TWC 2021</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol>
@@ -39,7 +41,7 @@
             <?php echo _('Team West: ') ?>23<?php echo _(' points') ?>
         </li>
     </ol>
-    <table class="schedule_table">
+    <table class="schedule_table spoiler">
         <thead>
             <tr>
                 <th rowspan="3"><?php echo _('Date / Time') ?></th>
@@ -72,7 +74,7 @@
             print_schedule($schedule_2021, $results_2021, $teams_2021);
         ?></tbod`y`>
     </table>
-    <p>* <?php echo _('Game Over') ?></p>
+    <p class="spoiler">* <?php echo _('Game Over') ?></p>
     <h2 id="2020">TWC 2020</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol>
@@ -89,7 +91,7 @@
             <?php echo _('Team China: ') ?>12.5<?php echo _(' points') ?>
         </li>
     </ol>
-    <table class="schedule_table">
+    <table class="schedule_table spoiler">
         <thead>
             <tr>
                 <th rowspan="3"><?php echo _('Date / Time') ?></th>
@@ -109,8 +111,8 @@
             print_schedule($schedule_2020, $results_2020, $teams_2020);
         ?></tbody>
     </table>
-    <p>* <?php echo _('Game Over') ?></p>
-    <p><a href="#top">Back to Top</a></p>
+    <p class="spoiler">* <?php echo _('Game Over') ?></p>
+    <p class="spoiler"><a href="#top"><?php echo _('Back to Top') ?></a></p>
 	</main>
 </body>
 </html>
