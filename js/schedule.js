@@ -1,5 +1,4 @@
 let language = "en-GB";
-let clicked = false;
 
 function getCookie(name) {
     const decodedCookies = decodeURIComponent(document.cookie);
@@ -23,16 +22,28 @@ function getCookie(name) {
     return "";
 }
 
-function toggleResults() {
+function showResults(event) {
     const results = document.getElementsByClassName("spoiler");
-    document.getElementById("show_results").style.display = (clicked ? "inline" : "none");
-    document.getElementById("hide_results").style.display = (clicked ? "none" : "inline");
+    document.getElementById(event.target.id).style.display = "none";
+    document.getElementById(event.target.id.replace("show", "hide")).style.display = "inline";
 
     for (const result of results) {
-        result.style.display = clicked ? "none" : "table-cell";
+        if (result.tagName == "P") {
+            result.style.display = "block";
+        } else {
+            result.style.display = "table-cell";
+        }
     }
+}
 
-    clicked = !clicked;
+function hideResults(event) {
+    const results = document.getElementsByClassName("spoiler");
+    document.getElementById(event.target.id).style.display = "none";
+    document.getElementById(event.target.id.replace("hide", "show")).style.display = "inline";
+
+    for (const result of results) {
+        result.style.display = "none";
+    }
 }
 
 function getClientTimeZone() {
@@ -81,13 +92,13 @@ function init() {
         language = "es-ES";
     }
 
-    const showResults = document.getElementById("show_results");
-    const hideResults = document.getElementById("hide_results");
+    const showButton = document.getElementById("show_results");
+    const hideButton = document.getElementById("hide_results");
 
-    if (showResults) {
-        hideResults.addEventListener("click", toggleResults, false);
-        showResults.addEventListener("click", toggleResults, false);
-        showResults.style.display = "inline";
+    if (showButton) {
+        showButton.addEventListener("click", showResults, false);
+        hideButton.addEventListener("click", hideResults, false);
+        showButton.style.display = "inline";
     }
     
     document.getElementById("timezone").innerHTML = getClientTimeZone();
