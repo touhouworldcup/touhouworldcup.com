@@ -19,6 +19,20 @@
     ?></p>
     <p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
     <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>
+    <ol id="spoiler_ol">
+        <li>
+            <img src="assets/icons/heart.png" alt="<?php echo _('Team Heart') ?>">
+            <strong><?php echo _('Team Heart: ') ?>19<?php echo _(' points') ?></strong>
+        </li>
+        <li>
+            <img src="assets/icons/rose.png" alt="<?php echo _('Team Rose') ?>">
+            <?php echo _('Team Rose: ') ?>17.5<?php echo _(' points') ?>
+        </li>
+        <li>
+            <img src="assets/icons/mind.png" alt="<?php echo _('Team Mind') ?>">
+            <?php echo _('Team Mind: ') ?>17.5<?php echo _(' points') ?>
+        </li>
+    </ol>
     <table class="schedule_table">
         <thead>
             <tr>
