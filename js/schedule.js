@@ -24,6 +24,7 @@ function getCookie(name) {
 
 function showResults(event) {
     const results = document.getElementsByClassName("spoiler");
+    document.getElementById("spoiler_ol").style.display = "block";
     document.getElementById(event.target.id).style.display = "none";
     document.getElementById(event.target.id.replace("show", "hide")).style.display = "inline";
 
@@ -38,6 +39,7 @@ function showResults(event) {
 
 function hideResults(event) {
     const results = document.getElementsByClassName("spoiler");
+    document.getElementById("spoiler_ol").style.display = "none";
     document.getElementById(event.target.id).style.display = "none";
     document.getElementById(event.target.id.replace("hide", "show")).style.display = "inline";
 
