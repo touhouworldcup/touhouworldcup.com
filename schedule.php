@@ -22,15 +22,15 @@
     <ol id="spoiler_ol">
         <li>
             <img src="assets/icons/heart.png" alt="<?php echo _('Team Heart') ?>">
-            <strong><?php echo _('Team Heart: ') ?>20<?php echo _(' points') ?></strong>
+            <strong><?php echo _('Team Heart: ') ?>22<?php echo _(' points') ?></strong>
         </li>
         <li>
             <img src="assets/icons/rose.png" alt="<?php echo _('Team Rose') ?>">
-            <?php echo _('Team Rose: ') ?>19.5<?php echo _(' points') ?>
+            <?php echo _('Team Rose: ') ?>20<?php echo _(' points') ?>
         </li>
         <li>
             <img src="assets/icons/mind.png" alt="<?php echo _('Team Mind') ?>">
-            <?php echo _('Team Mind: ') ?>17.5<?php echo _(' points') ?>
+            <?php echo _('Team Mind: ') ?>18<?php echo _(' points') ?>
         </li>
     </ol>
     <table class="schedule_table">
