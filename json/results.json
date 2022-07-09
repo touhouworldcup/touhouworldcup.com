@@ -518,5 +518,25 @@
             "twcscore": 5,
             "points": 1
         }
+    ],
+    "1657371600": [
+        {
+            "shot": "ReimuA",
+            "score": "2M",
+            "twcscore": 2.25,
+            "points": 1
+        },
+        {
+            "shot": "ReimuB",
+            "score": "2M",
+            "twcscore": 4.25,
+            "points": 2
+        },
+		{
+            "shot": "MarisaB",
+            "score": "3M",
+            "twcscore": 2.125,
+            "points": 0
+        }
     ]
 }
