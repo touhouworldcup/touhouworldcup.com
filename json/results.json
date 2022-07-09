@@ -486,17 +486,17 @@
             "twcscore": 12.5,
             "points": 2
         },
+		{
+            "shot": "",
+            "score": "DNF",
+            "twcscore": 0,
+            "points": 0
+        },
         {
             "shot": "MarisaA",
             "score": "5M",
             "twcscore": 4.688,
             "points": 1
-        },
-        {
-            "shot": "",
-            "score": "DNF",
-            "twcscore": 0,
-            "points": 0
         }
     ],
     "1657364400": [
@@ -506,17 +506,17 @@
             "twcscore": 0.625,
             "points": 0
         },
-        {
-            "shot": "ReimuB",
-            "score": "3M",
-            "twcscore": 2.5,
-            "points": 1
-        },
-        {
+		{
             "shot": "ReimuB",
             "score": "1M",
             "twcscore": 10,
             "points": 2
+        },
+        {
+            "shot": "ReimuB",
+            "score": "2M",
+            "twcscore": 5,
+            "points": 1
         }
     ]
 }
