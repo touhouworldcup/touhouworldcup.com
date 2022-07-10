@@ -73,7 +73,15 @@
                     }
                     echo '<span class="team"><img src="assets/icons/' . $team . '.png" alt="' . ucfirst($team) . '"><span class="tooltip">Team ' . ucfirst($team) . '</span></span> ' . $player . '<br>';
                 }
-                echo '</td><td>' . ($match['reset'] === 0 ? 'N/A' : $match['reset']) . '</td>';
+                $reset = 0;
+                if($match['reset'] === 0) {
+                    $reset = "N/A";
+                } else if($match['reset'] === -1) {
+                    $reset = "TBD";
+                } else {
+                    $reset = $match['reset'];
+                }
+                echo '</td><td>' . $reset . '</td>';
                 if (array_key_exists($key, $results)) {
                     echo '<td class="spoiler">' . format_results($results, $bonus_matches, $key) . '</td><td class="spoiler">' . format_points($results, $key) . '</td>';
                     echo '<noscript><td>' . format_results($results, $bonus_matches, $key) . '</td><td>' . format_points($results, $key) . '</td></noscript>';
