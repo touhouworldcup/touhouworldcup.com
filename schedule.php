@@ -8,9 +8,9 @@
 ?>
 
 <body>
-	<?php include_once 'php/body.php' ?>
-	<main>
-	<h1><?php echo _('Schedule') ?></h1>
+    <?php include_once 'php/body.php' ?>
+    <main>
+    <h1><?php echo _('Schedule') ?></h1>
     <p><?php echo _('Your time zone was detected as <strong id="timezone">UTC+0000 (Coordinated Universal Time)</strong>.') ?></p>
     <p><?php
         if ($lang == 'en_GB' || $lang == 'en_US' || $lang == 'de_DE' || $lang == 'es_ES') {
@@ -54,7 +54,7 @@
             $json = file_get_contents('json/results.json');
             $results = json_decode($json, true);
             $teams = array('rose', 'mind', 'heart');
-            $bonus_matches = array();
+            $bonus_matches = array('1657980000', '1658062800');
             $highlight = false;
             foreach ($schedule as $key => $match) {
                 if (!$highlight && $key >= time()) {
@@ -66,7 +66,11 @@
                 echo '<td id="' . $key . '_date">' . gmdate(get_date_format($lang), $key) . '</td>';
                 echo '<td class="' . preg_split('/ /', $match['category'])[0] . '">' . $match['category'] . '</td><td>';
                 foreach ($match['players'] as $index => $player) {
-                    $team = $teams[$index];
+                    if(in_array($key, $bonus_matches)) {
+                        $team = "";
+                    } else {
+                        $team = $teams[$index];
+                    }
                     echo '<span class="team"><img src="assets/icons/' . $team . '.png" alt="' . ucfirst($team) . '"><span class="tooltip">Team ' . ucfirst($team) . '</span></span> ' . $player . '<br>';
                 }
                 echo '</td><td>' . ($match['reset'] === 0 ? 'N/A' : $match['reset']) . '</td>';
@@ -81,6 +85,6 @@
             }
         ?></tbody>
     </table>
-	</main>
+    </main>
 </body>
 </html>
