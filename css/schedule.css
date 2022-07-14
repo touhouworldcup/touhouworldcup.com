@@ -53,6 +53,10 @@ input[type=button] {
     background-color: #ff00ff;
     color: #000;
 }
+.Bingo {
+	background-color: #F2855A;
+	color: #000;
+}
 .highlight {
     background: rgba(128, 128, 0, 0.5);
 }
