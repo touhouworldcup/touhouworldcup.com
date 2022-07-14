@@ -34,7 +34,11 @@ function format_points(array $results, string $key) {
     for ($i = 0; $i < count($results[$key]); $i++) {
         $result = $results[$key][$i];
         $formatted .= ($i > 0 ? '<br>' : '');
-        $formatted .= ($result['points'] == $max_points ? '<strong>' . $result['points'] . '</strong>' : $result['points']);
+        if($result['points'] == -1) {
+            $formatted .= 'N/A';
+        } else {
+            $formatted .= ($result['points'] == $max_points ? '<strong>' . $result['points'] . '</strong>' : $result['points']);
+        }
         $formatted .= '<br class="mobile_br"><br class="mobile_br">';
     }
     return $formatted;
