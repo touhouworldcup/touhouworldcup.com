@@ -23,10 +23,14 @@ function getCookie(name) {
 }
 
 function showResults(event) {
+    const spoilerOl = document.getElementById("spoiler_ol");
     const results = document.getElementsByClassName("spoiler");
-    document.getElementById("spoiler_ol").style.display = "block";
     document.getElementById(event.target.id).style.display = "none";
     document.getElementById(event.target.id.replace("show", "hide")).style.display = "inline";
+
+    if (spoilerOl) {
+        spoilerOl.style.display = "block";
+    }
 
     for (const result of results) {
         if (result.tagName == "P") {
