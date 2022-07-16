@@ -22,7 +22,7 @@
     <ol id="spoiler_ol">
         <li>
             <img src="assets/icons/rose.png" alt="<?php echo _('Team Rose') ?>">
-            <strong><?php echo _('Team Rose: ') ?>32<?php echo _(' points') ?></strong>
+            <strong><?php echo _('Team Rose: ') ?>33<?php echo _(' points') ?></strong>
         </li>
         <li>
             <img src="assets/icons/heart.png" alt="<?php echo _('Team Heart') ?>">
@@ -30,7 +30,7 @@
         </li>
         <li>
             <img src="assets/icons/mind.png" alt="<?php echo _('Team Mind') ?>">
-            <?php echo _('Team Mind: ') ?>26<?php echo _(' points') ?>
+            <?php echo _('Team Mind: ') ?>28<?php echo _(' points') ?>
         </li>
     </ol>
     <table class="schedule_table">
