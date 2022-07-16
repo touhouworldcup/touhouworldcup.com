@@ -272,8 +272,8 @@
     "1657980000": {
         "category": "Extra Marathon",
         "players": [
-            "IDTN",
-            "Kaglun",
+            "idtn",
+            "KagLun",
             "TSG"
         ],
         "reset": 0
@@ -281,7 +281,7 @@
     "1658062800": {
         "category": "Bingo Match",
         "players": [
-            "NS",
+            "未知 (ns)",
             "Lorenzo"
         ],
         "reset": "TBD"
