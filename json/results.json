@@ -578,5 +578,25 @@
             "twcscore": 5.5,
             "points": 1
         }
-	]
+	],
+    "1657965600": [
+        {
+            "shot": "Reisen",
+            "score": 3050762730,
+            "twcscore": 28.274,
+            "points": 1
+        },
+        {
+            "shot": "Reisen",
+            "score": 3663058990,
+            "twcscore": 194.611,
+            "points": 2
+        },
+        {
+            "shot": "Reisen",
+            "score": 2347549880,
+            "twcscore": 4.066,
+            "points": 0
+        }
+    ]
 }
