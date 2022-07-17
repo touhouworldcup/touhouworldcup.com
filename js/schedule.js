@@ -42,10 +42,14 @@ function showResults(event) {
 }
 
 function hideResults(event) {
+    const spoilerOl = document.getElementById("spoiler_ol");
     const results = document.getElementsByClassName("spoiler");
-    document.getElementById("spoiler_ol").style.display = "none";
     document.getElementById(event.target.id).style.display = "none";
     document.getElementById(event.target.id.replace("hide", "show")).style.display = "inline";
+
+    if (spoilerOl) {
+        spoilerOl.style.display = "none";
+    }
 
     for (const result of results) {
         result.style.display = "none";
