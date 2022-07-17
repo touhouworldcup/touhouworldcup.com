@@ -28,16 +28,22 @@ function format_results(array $results, array $bonus_matches, string $key) {
     }
     return $formatted;
 }
-function format_points(array $results, string $key) {
+function format_points(array $results, array $bonus_matches, string $key) {
     $formatted = '';
-    $max_points = max($results[$key][0]['points'], $results[$key][1]['points'], $results[$key][2]['points']);
+    if (!empty($results[$key][2]['points'])) {
+        $max_points = max($results[$key][0]['points'], $results[$key][1]['points'], $results[$key][2]['points']);
+    } else {
+        $max_points = max($results[$key][0]['points'], $results[$key][1]['points']);
+    }
     for ($i = 0; $i < count($results[$key]); $i++) {
         $result = $results[$key][$i];
         $formatted .= ($i > 0 ? '<br>' : '');
-        if($result['points'] == -1) {
-            $formatted .= 'N/A';
-        } else {
-            $formatted .= ($result['points'] == $max_points ? '<strong>' . $result['points'] . '</strong>' : $result['points']);
+        if (!in_array($key, $bonus_matches)) {
+            if ($result['points'] == -1) {
+                $formatted .= 'N/A';
+            } else {
+                $formatted .= ($result['points'] == $max_points ? '<strong>' . $result['points'] . '</strong>' : $result['points']);
+            }
         }
         $formatted .= '<br class="mobile_br"><br class="mobile_br">';
     }
@@ -61,7 +67,7 @@ function print_schedule(array $schedule, array $results, array $teams) {
         if (array_key_exists($key, $results)) {
             echo '<td>' . format_results($results, $bonus_matches, $key) . '</td>';
             if (!in_array($key, $bonus_matches)) {
-                echo '<td>' . format_points($results, $key) . '</td>';
+                echo '<td>' . format_points($results, $bonus_matches, $key) . '</td>';
             } else {
                 echo '<td>&nbsp;</td>';
             }

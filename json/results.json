@@ -598,5 +598,39 @@
             "twcscore": 4.066,
             "points": 0
         }
+    ],
+    "1657980000": [
+        {
+            "shot": "",
+            "score": "10M",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "",
+            "score": "57M",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "",
+            "score": "102M",
+            "twcscore": 0,
+            "points": 0
+        }
+    ],
+    "1658062800": [
+        {
+            "shot": "",
+            "score": 17,
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "",
+            "score": 17,
+            "twcscore": 0,
+            "points": 0
+        }
     ]
 }
