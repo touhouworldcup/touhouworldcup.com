@@ -1,3 +1,9 @@
+<?php
+    $title = 'Index';
+    $description = 'Main page of the official Touhou World Cup website';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2022 competition, scoring, survival, tournament';
+?>
+
 <!DOCTYPE html>
 <html id="top" lang="<?php echo $lc ?>">
 <head>
