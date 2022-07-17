@@ -71,12 +71,16 @@
                     } else {
                         $team = $teams[$index];
                     }
-                    echo '<span class="team"><img src="assets/icons/' . $team . '.png" alt="' . ucfirst($team) . '"><span class="tooltip">Team ' . ucfirst($team) . '</span></span> ' . $player . '<br>';
+                    if (!empty($team)) {
+                        echo '<span class="team"><img src="assets/icons/' . $team . '.png" alt="' . ucfirst($team) . '"><span class="tooltip">Team ' . ucfirst($team) . '</span></span> ' . $player . '<br>';
+                    } else {
+                        echo $player . '<br>';
+                    }
                 }
                 echo '</td><td>' . ($match['reset'] === 0 ? 'N/A' : $match['reset']) . '</td>';
                 if (array_key_exists($key, $results)) {
-                    echo '<td class="spoiler">' . format_results($results, $bonus_matches, $key) . '</td><td class="spoiler">' . format_points($results, $key) . '</td>';
-                    echo '<noscript><td>' . format_results($results, $bonus_matches, $key) . '</td><td>' . format_points($results, $key) . '</td></noscript>';
+                    echo '<td class="spoiler">' . format_results($results, $bonus_matches, $key) . '</td><td class="spoiler">' . format_points($results, $bonus_matches, $key) . '</td>';
+                    echo '<noscript><td>' . format_results($results, $bonus_matches, $key) . '</td><td>' . format_points($results, $bonus_matches, $key) . '</td></noscript>';
                 } else {
                     echo '<td class="spoiler">&nbsp;</td><td class="spoiler">&nbsp;</td>';
                     echo '<noscript><td>&nbsp;</td><td>&nbsp;</td></noscript>';
