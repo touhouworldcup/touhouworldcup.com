@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-03-28 21:13+0200\n"
-"PO-Revision-Date: 2023-03-28 21:13+0200\n"
+"POT-Creation-Date: 2023-03-28 21:56+0200\n"
+"PO-Revision-Date: 2023-03-28 21:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -85,19 +85,25 @@ msgstr ""
 msgid "TWC Starts In:"
 msgstr ""
 
-#: index.php:27
+#: index.php:23
+msgid ""
+"<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" target=\"_blank\">Sign up "
+"here!</a>"
+msgstr ""
+
+#: index.php:28
 msgid "TWC English Commentary Stream"
 msgstr ""
 
-#: index.php:31
+#: index.php:32
 msgid "TWC Japanese Commentary Stream"
 msgstr ""
 
-#: index.php:35
+#: index.php:36
 msgid "Official TWC YouTube Channel"
 msgstr ""
 
-#: index.php:39
+#: index.php:40
 msgid "Official TWC Twitter"
 msgstr ""
 

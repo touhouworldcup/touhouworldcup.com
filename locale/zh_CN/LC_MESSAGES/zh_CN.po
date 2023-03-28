@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-03-28 21:12+0200\n"
-"PO-Revision-Date: 2023-03-28 21:29+0200\n"
+"POT-Creation-Date: 2023-03-28 21:57+0200\n"
+"PO-Revision-Date: 2023-03-28 21:57+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -86,19 +86,27 @@ msgstr "官方频道详见以下链接。"
 msgid "TWC Starts In:"
 msgstr "TWC开幕日期："
 
-#: index.php:27
+#: index.php:23
+msgid ""
+"<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" target=\"_blank\">Sign up "
+"here!</a>"
+msgstr ""
+"<a href=\"https://forms.gle/WqTH2uweHFRZMpRT8\" target=\"_blank\">在这里报名"
+"表</a>"
+
+#: index.php:28
 msgid "TWC English Commentary Stream"
 msgstr "TWC英文解说"
 
-#: index.php:31
+#: index.php:32
 msgid "TWC Japanese Commentary Stream"
 msgstr "TWC日语解说"
 
-#: index.php:35
+#: index.php:36
 msgid "Official TWC YouTube Channel"
 msgstr "TWC官方YouTube频道"
 
-#: index.php:39
+#: index.php:40
 msgid "Official TWC Twitter"
 msgstr "TWC官方推特"
 
