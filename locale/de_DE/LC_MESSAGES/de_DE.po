@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-03-28 20:39+0200\n"
-"PO-Revision-Date: 2023-03-28 21:24+0200\n"
+"POT-Creation-Date: 2023-03-28 21:56+0200\n"
+"PO-Revision-Date: 2023-03-28 21:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -88,19 +88,27 @@ msgstr "Nachstehend findest du die offiziellen Kommunikationskanäle."
 msgid "TWC Starts In:"
 msgstr "TWC startet in:"
 
-#: index.php:27
+#: index.php:23
+msgid ""
+"<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" target=\"_blank\">Sign up "
+"here!</a>"
+msgstr ""
+"<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" target=\"_blank\">Hier "
+"einschreiben!</a>"
+
+#: index.php:28
 msgid "TWC English Commentary Stream"
 msgstr "TWC Englischer Kommentar-Stream"
 
-#: index.php:31
+#: index.php:32
 msgid "TWC Japanese Commentary Stream"
 msgstr "TWC Japanischer Kommentar-Stream"
 
-#: index.php:35
+#: index.php:36
 msgid "Official TWC YouTube Channel"
 msgstr "Offizieller TWC YouTube-Kanal"
 
-#: index.php:39
+#: index.php:40
 msgid "Official TWC Twitter"
 msgstr "Offizieller TWC-Twitter"
 
@@ -511,7 +519,7 @@ msgstr ""
 "Das Team, welches am Ende des Touhou World Cups die meisten Punkte hat, ist "
 "der Sieger."
 
-#: rules.php:27 twcscore.php:2 twcscore.php:102 twcscore.php:106
+#: rules.php:27 twcscore.php:2 twcscore.php:101 twcscore.php:104
 msgid "TWCScore"
 msgstr ""
 
@@ -920,7 +928,7 @@ msgstr ""
 msgid "Shottype / Route"
 msgstr "Shot Type / Route"
 
-#: twcscore.php:71 twcscore.php:72 twcscore.php:98 twcscore.php:101
+#: twcscore.php:71 twcscore.php:72
 msgid "Survival"
 msgstr ""
 
@@ -940,55 +948,55 @@ msgstr "Tode"
 msgid "Input score"
 msgstr "Punktanzahl zu eingeben"
 
-#: twcscore.php:99 twcscore.php:105
+#: twcscore.php:98 twcscore.php:103
 msgid "Score"
 msgstr "Punktanzahl"
 
-#: twcscore.php:112
+#: twcscore.php:110
 msgid "Gold medals"
 msgstr "Goldene Medaillen"
 
-#: twcscore.php:120
+#: twcscore.php:118
 msgid "Difficulty"
 msgstr "Schwierigkeitsgrad"
 
-#: twcscore.php:129
+#: twcscore.php:127
 msgid "Final Stage"
 msgstr "End-Stage"
 
-#: twcscore.php:131
+#: twcscore.php:129
 msgid "FinalA"
 msgstr ""
 
-#: twcscore.php:132
+#: twcscore.php:130
 msgid "FinalB"
 msgstr ""
 
-#: twcscore.php:138
+#: twcscore.php:136
 msgid "Please fill out the game"
 msgstr "Bitte fülle das Spiel aus"
 
-#: twcscore.php:139
+#: twcscore.php:137
 msgid "Please fill out the shottype"
 msgstr "Bitte fülle die Shot Type aus"
 
-#: twcscore.php:140
+#: twcscore.php:138
 msgid "Please fill out the miss count"
 msgstr "Bitte fülle die Anzahl der Tode aus"
 
-#: twcscore.php:141
+#: twcscore.php:139
 msgid "Please fill out the score"
 msgstr "Bitte fülle die Punktzahl aus"
 
-#: twcscore.php:142
+#: twcscore.php:140
 msgid "Please fill out the Final Stage"
 msgstr "Bitte fülle die End-Stage aus"
 
-#: twcscore.php:143
+#: twcscore.php:141
 msgid "Please fill out the gold medals"
 msgstr "Bitte fülle die Goldmedaillen aus"
 
-#: twcscore.php:144
+#: twcscore.php:142
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
@@ -997,15 +1005,15 @@ msgstr ""
 "kontaktiere <a href=\"https://twitter.com/32thc\" target=\"_blank\">32th "
 "System</a>"
 
-#: twcscore.php:148
+#: twcscore.php:146
 msgid "Calculate"
 msgstr "Berechnen"
 
-#: twcscore.php:154
+#: twcscore.php:152
 msgid "TWCScore:"
 msgstr ""
 
-#: twcscore.php:155
+#: twcscore.php:153
 msgid "Score:"
 msgstr "Punktanzahl:"
 

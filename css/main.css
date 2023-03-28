@@ -38,6 +38,9 @@ iframe {
 .large {
     font-size: 20px;
 }
+.huge {
+    font-size: 32px;
+}
 .icon {
     margin-right: 15px;
 }
