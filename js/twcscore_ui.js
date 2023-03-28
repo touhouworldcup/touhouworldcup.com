@@ -3,6 +3,7 @@ window.onload = () => {
     const games    = ["th06", "th07", "th08", "th09", "th10", "th11", "th12", "th128", "th13", "th14", "th15", "th16", "th17", "th18"];
 	const diff_w   = document.getElementById("diff_w");
 	const runtype  = document.getElementById("runtype");
+	const inputscore  = document.getElementById("inputscore");
 	const game_sel = document.getElementById("games");
 	const diff_sel = document.getElementById("diff");
 
@@ -30,6 +31,11 @@ window.onload = () => {
     const survival     = document.getElementById("survival");
     const scoring      = document.getElementById("input_score");
 
+	const score_label  = document.getElementById("score_label");
+	const score_label_alt  = document.getElementById("score_label_alt");
+	const twcscore_label = document.getElementById("twcscore_label");
+	const twcscore_label_alt = document.getElementById("twcscore_label_alt");
+
 	const game_has_ex = {
         "th06": true,
         "th07": true,
@@ -38,6 +44,10 @@ window.onload = () => {
         "th13": true,
         "th14": true
 	}
+
+    const sep = (number) => {
+        return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+    }
 
     const get_shot_sel = () => {
         for (let sel of shot_sels) {
@@ -53,11 +63,11 @@ window.onload = () => {
         let children = sel.childNodes;
 
         for (let i = 0; i < children.length; i++) {
-            if ((sel.id === "games" || sel.id === "runtype") && (i === 0 || i === children.length - 1)) {
+            if ((sel.id === "games" || sel.id === "runtype" || sel.id === "inputscore") && (i === 0 || i === children.length - 1)) {
                 continue;
             }
 
-            if (children[i].control.checked) {
+            if (children[i].control && children[i].control.checked) {
                 return children[i].control.value;
             }
         }
@@ -138,7 +148,11 @@ window.onload = () => {
 			throw "fatal";
 		}
 
-		let ret = element.value.replace(/\.|,/g, "");
+		let ret = element.value;
+
+        if (type !== "float") {
+            ret = element.value.replace(/\.|,/g, "");
+        }
 
 		if (ret === "") {
 			throw error;
@@ -146,7 +160,9 @@ window.onload = () => {
 
 		if (type === "number") {
 			ret = parseInt(ret, 10);
-		}
+		} else if (type === "float") {
+            ret = parseFloat(ret);
+        }
 
 		return ret;
 	}
@@ -180,7 +196,8 @@ window.onload = () => {
 			}
 		}
 
-		let rt = get_name(runtype);
+		const rt = get_name(runtype);
+        const is = get_name(inputscore);
 		let iscore_val = 0;
 
 		try {
@@ -217,11 +234,20 @@ window.onload = () => {
 					game_name = game_name + "ex";
 				}
 
-				iscore_val = iscore.get_scoring(
-					game_name,
-					shottype_name,
-					get_element_val(i_score, "score", "string")
-				);
+                if (is === "ingame") {
+                    iscore_val = iscore.get_scoring(
+                        game_name,
+                        shottype_name,
+                        get_element_val(i_score, "score", "string")
+                    );
+                } else { // inputscore.value === "twc"
+                    iscore_val = iscore.get_scoring_reverse(
+                        game_name,
+                        shottype_name,
+                        get_element_val(i_score, "score", "float")
+                    );
+                    iscore_val = sep(iscore_val);
+                }
 			}
             clear_errors();
 		} catch (error) {
@@ -277,6 +303,23 @@ window.onload = () => {
         game_runtype_specific_opts(get_name(game_sel));
     }
 
+    const change_inputscore = () => {
+        let is = get_name(inputscore);
+        console.log(is);
+
+        if (is === "ingame") {
+            score_label.style.display = "inline";   
+            score_label_alt.style.display = "none";
+            twcscore_label.style.display = "inline";
+            twcscore_label_alt.style.display = "none";
+        } else { // is === "twc"
+            score_label.style.display = "none";
+            score_label_alt.style.display = "inline";
+            twcscore_label.style.display = "none";
+            twcscore_label_alt.style.display = "inline";
+        }
+    }
+
     document.body.addEventListener("keypress", key_press, false);
     i_score.addEventListener("keypress", key_down, false);
     i_plus.addEventListener("click", adjust_miss_count, false);
@@ -286,6 +329,7 @@ window.onload = () => {
     submit.addEventListener("click", calc_iscore, false);
     game_sel.addEventListener("change", game_selected, false);
     runtype.addEventListener("change", change_runtype, false);
+    inputscore.addEventListener("change", change_inputscore, false);
     runtype.value = "";
     document.getElementById("calc-iscore").addEventListener("submit", calc_iscore);
     fullspell_w.style.display = "none";
@@ -296,4 +340,5 @@ window.onload = () => {
     th128_medal_w.style.display = "none";
     game_selected();
     change_runtype();
+    change_inputscore();
 }

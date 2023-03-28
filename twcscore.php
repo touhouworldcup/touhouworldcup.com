@@ -77,13 +77,13 @@
 	</fieldset>
 
 	<span id="fullspell_w">
-	<br><br>
+		<br><br>
 		<label for="fullspell"><?php echo _('Full Spell') ?></label>
 		<input name="fullspell" type="checkbox" id="fullspell" />
 	</span>
 
 	<span id="surv_opts">
-	<br><br>
+		<br><br>
         <label for="misscount"><?php echo _('Misses') ?></label><br>
         <input type="button" id="minus" value="-">
 		<input type="number" id="misscount" name="misscount" value=0 readonly>
@@ -91,13 +91,22 @@
 	</span>
 
 	<span id="score_opts">
-	<br><br>
-		<label for="score"><?php echo _('Score') ?></label><br>
+		<br><br>
+		<label for="inputscore"><?php echo _('Input score') ?></label><br>
+		<fieldset name="inputscore" id="inputscore">
+			<input type="radio" id="ingame" name="inputscore" value="ingame" checked>
+			<label for="ingame" class="float"><?php echo _('Score') ?></label>
+			<br><br>
+			<input type="radio" id="twc" name="inputscore" value="twc">
+			<label for="twc" class="float"><?php echo _('TWCScore') ?></label>
+		</fieldset><br><br>
+		<label id="score_label" for="score"><?php echo _('Score') ?></label>
+		<label id="score_label_alt" for="score"><?php echo _('TWCScore') ?></label><br>
 		<input type="text" id="score" name="score">
 	</span>
 
 	<span id="th128_medal_w">
-	<br><br>
+		<br><br>
         <label for="th128_medals" id="th128_medal_l"><?php echo _('Gold medals') ?></label><br>
         <input type="button" id="gold_minus" value="-">
 		<input type="number" id="th128_medals" name="th128_medals" value=0 readonly>
@@ -141,6 +150,7 @@
     <div id="twcscore_result">
         <p id="twcscore_label_container">
             <span id="twcscore_label"><?php echo _('TWCScore:') ?></span>
+            <span id="twcscore_label_alt"><?php echo _('Score:') ?></span>
         </p>
     	<p id="twcscore_final"></p>
     </div>

@@ -1,4 +1,4 @@
-/*let language = "en-GB", step = setInterval(updateCountdowns, 1000);
+let language = "en-GB", step = setInterval(updateCountdowns, 1000);
 
 function _(letter) {
     if (language != "ja-JP" && language != "zh-CN") {
@@ -48,7 +48,7 @@ function formatTime(timeLeft) {
 }
 
 function updateCountdowns() {
-    let date = Date.UTC("2022", "4", "14", "11", "0", "0");
+    let date = Date.UTC("2023", "4", "27", "11", "0", "0");
     let now = new Date().getTime();
     let timeLeft = date - now;
     document.getElementById("countdown_start").innerHTML = formatTime(timeLeft);
@@ -77,4 +77,4 @@ function init() {
     updateCountdowns();
 }
 
-window.addEventListener("DOMContentLoaded", init, false);*/
+window.addEventListener("DOMContentLoaded", init, false);

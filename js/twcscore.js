@@ -40,7 +40,7 @@ iscore.get_scoring = (game, shot, score) => {
 
 	if (typeof(score) === "string") {
 		score = score.trim();
-		let lnum_mult = lnum_suff[score[score.length - 1]];
+		const lnum_mult = lnum_suff[score[score.length - 1]];
 
 		if (typeof(lnum_mult) === "number") {
 			score = parseFloat(score.substring(0, score.length - 1)) * lnum_mult;
@@ -51,9 +51,15 @@ iscore.get_scoring = (game, shot, score) => {
 		throw "ISCORE ERROR: Invalid type for \"score\" in iscore.get_scoring";
 	}
 
-	let x = iscore_scoring_table[game][shot];
-    let iscore = Math.pow(x["a"], score / 100000000) * x["b"] + x["c"];
+	const rubric = iscore_scoring_table[game][shot];
+    const iscore = Math.pow(rubric["a"], score / 100000000) * rubric["b"] + rubric["c"];
 	return iscore.toFixed(3);
+}
+
+iscore.get_scoring_reverse = (game, shot, iscore) => {
+	const rubric = iscore_scoring_table[game][shot];
+    let score = Math.round(Math.log((iscore - rubric["c"]) / rubric["b"]) / Math.log(rubric["a"]) * 100000000);
+	return score;
 }
 
 try {
