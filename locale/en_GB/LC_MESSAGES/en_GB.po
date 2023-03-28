@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-06-13 20:11+0200\n"
-"PO-Revision-Date: 2022-06-13 20:11+0200\n"
+"POT-Creation-Date: 2023-03-28 21:13+0200\n"
+"PO-Revision-Date: 2023-03-28 21:13+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: index.php\n"
 "X-Poedit-SearchPath-1: credits.php\n"
@@ -61,36 +61,40 @@ msgstr ""
 msgid "Artwork:"
 msgstr ""
 
-#: index.php:14
+#: index.php:11
 msgid ""
 "<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
 "shooting game competition, first held in 2020 and held every year since. It "
 "is organised by the Touhou gameplay community worldwide."
 msgstr ""
 
-#: index.php:18
+#: index.php:15
 msgid ""
 "Three teams duke it out on Lunatic and Extra mode, playing on live streams "
 "and playing both high score and survival."
 msgstr ""
 
-#: index.php:21
+#: index.php:18
 msgid "See below for official communication channels."
 msgstr ""
 
-#: index.php:30
+#: index.php:21
+msgid "TWC Starts In:"
+msgstr ""
+
+#: index.php:27
 msgid "TWC English Commentary Stream"
 msgstr ""
 
-#: index.php:34
+#: index.php:31
 msgid "TWC Japanese Commentary Stream"
 msgstr ""
 
-#: index.php:38
+#: index.php:35
 msgid "Official TWC YouTube Channel"
 msgstr ""
 
-#: index.php:42
+#: index.php:39
 msgid "Official TWC Twitter"
 msgstr ""
 
@@ -102,7 +106,7 @@ msgstr ""
 msgid ")"
 msgstr ""
 
-#: php/table_func.php:47
+#: php/table_func.php:57
 msgid "Exhibition Matches"
 msgstr ""
 
@@ -330,13 +334,13 @@ msgstr ""
 msgid "Past Results"
 msgstr ""
 
-#: results.php:15 schedule.php:14
+#: results.php:15
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
 msgstr ""
 
-#: results.php:18 schedule.php:17
+#: results.php:18
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
@@ -346,65 +350,101 @@ msgstr ""
 msgid "Contents"
 msgstr ""
 
-#: results.php:27 results.php:77
+#: results.php:27
+msgid "Show Results"
+msgstr ""
+
+#: results.php:28
+msgid "Hide Results"
+msgstr ""
+
+#: results.php:30 results.php:79 results.php:129
 msgid "Final tally:"
 msgstr ""
 
-#: results.php:30 results.php:69 results.php:80
-msgid "Flag of Japan"
+#: results.php:33 results.php:64
+msgid "Team Rose"
 msgstr ""
 
-#: results.php:31 results.php:81
-msgid "Team Japan: "
+#: results.php:34
+msgid "Team Rose: "
 msgstr ""
 
-#: results.php:31 results.php:35 results.php:39 results.php:81 results.php:85
-#: results.php:89
+#: results.php:34 results.php:38 results.php:42 results.php:83 results.php:87
+#: results.php:91 results.php:133 results.php:137 results.php:141
 msgid " points"
 msgstr ""
 
-#: results.php:34 results.php:65 results.php:88
-msgid "Flag of the P.R.C."
+#: results.php:37 results.php:68
+msgid "Team Heart"
 msgstr ""
 
-#: results.php:35 results.php:89
-msgid "Team China: "
+#: results.php:38
+msgid "Team Heart: "
 msgstr ""
 
-#: results.php:38 results.php:61 results.php:84
-msgid "Earth"
+#: results.php:41 results.php:72
+msgid "Team Mind"
 msgstr ""
 
-#: results.php:39 results.php:85
-msgid "Team West: "
+#: results.php:42
+msgid "Team Mind: "
 msgstr ""
 
-#: results.php:45 results.php:95 schedule.php:25
+#: results.php:48 results.php:97 results.php:147
 msgid "Date / Time"
 msgstr ""
 
-#: results.php:46 results.php:96 schedule.php:26 twcscore.php:68
+#: results.php:49 results.php:98 results.php:148 twcscore.php:68
 msgid "Category"
 msgstr ""
 
-#: results.php:47 results.php:97 schedule.php:27
+#: results.php:50 results.php:99 results.php:149
 msgid "Players"
 msgstr ""
 
-#: results.php:48 results.php:98 schedule.php:28
+#: results.php:51 results.php:100 results.php:150
 msgid "Reset Time<br>(minutes)"
 msgstr ""
 
-#: results.php:49 results.php:99 schedule.php:29 schedule.php:32
+#: results.php:52 results.php:101 results.php:151
 msgid "Results"
 msgstr ""
 
-#: results.php:50 results.php:100 schedule.php:30 schedule.php:33
+#: results.php:53 results.php:102 results.php:152
 msgid "Points"
 msgstr ""
 
-#: results.php:75 results.php:112
+#: results.php:82 results.php:121 results.php:132
+msgid "Flag of Japan"
+msgstr ""
+
+#: results.php:83 results.php:133
+msgid "Team Japan: "
+msgstr ""
+
+#: results.php:86 results.php:117 results.php:140
+msgid "Flag of the P.R.C."
+msgstr ""
+
+#: results.php:87 results.php:141
+msgid "Team China: "
+msgstr ""
+
+#: results.php:90 results.php:113 results.php:136
+msgid "Earth"
+msgstr ""
+
+#: results.php:91 results.php:137
+msgid "Team West: "
+msgstr ""
+
+#: results.php:127 results.php:164
 msgid "Game Over"
+msgstr ""
+
+#: results.php:165 rules.php:95
+msgid "Back to Top"
 msgstr ""
 
 #: rules.php:2 rules.php:12
@@ -453,7 +493,7 @@ msgid ""
 "winner."
 msgstr ""
 
-#: rules.php:27 twcscore.php:2
+#: rules.php:27 twcscore.php:2 twcscore.php:101 twcscore.php:104
 msgid "TWCScore"
 msgstr ""
 
@@ -704,20 +744,12 @@ msgid ""
 "pdf\">here</a>. Currently, it is only available in the English language."
 msgstr ""
 
-#: rules.php:95
-msgid "Back to Top"
-msgstr ""
-
 #: schedule.php:2 schedule.php:13
 msgid "Schedule"
 msgstr ""
 
-#: schedule.php:20
-msgid "Show Results"
-msgstr ""
-
-#: schedule.php:21
-msgid "Hide Results"
+#: schedule.php:14
+msgid "Coming soon!"
 msgstr ""
 
 #: twcscore.php:12
@@ -815,63 +847,71 @@ msgid "Misses"
 msgstr ""
 
 #: twcscore.php:95
+msgid "Input score"
+msgstr ""
+
+#: twcscore.php:98 twcscore.php:103
 msgid "Score"
 msgstr ""
 
-#: twcscore.php:101
+#: twcscore.php:110
 msgid "Gold medals"
 msgstr ""
 
-#: twcscore.php:109
+#: twcscore.php:118
 msgid "Difficulty"
 msgstr ""
 
-#: twcscore.php:118
+#: twcscore.php:127
 msgid "Final Stage"
 msgstr ""
 
-#: twcscore.php:120
+#: twcscore.php:129
 msgid "FinalA"
 msgstr ""
 
-#: twcscore.php:121
+#: twcscore.php:130
 msgid "FinalB"
 msgstr ""
 
-#: twcscore.php:127
+#: twcscore.php:136
 msgid "Please fill out the game"
 msgstr ""
 
-#: twcscore.php:128
+#: twcscore.php:137
 msgid "Please fill out the shottype"
 msgstr ""
 
-#: twcscore.php:129
+#: twcscore.php:138
 msgid "Please fill out the miss count"
 msgstr ""
 
-#: twcscore.php:130
+#: twcscore.php:139
 msgid "Please fill out the score"
 msgstr ""
 
-#: twcscore.php:131
+#: twcscore.php:140
 msgid "Please fill out the Final Stage"
 msgstr ""
 
-#: twcscore.php:132
+#: twcscore.php:141
 msgid "Please fill out the gold medals"
 msgstr ""
 
-#: twcscore.php:133
+#: twcscore.php:142
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
 msgstr ""
 
-#: twcscore.php:137
+#: twcscore.php:146
 msgid "Calculate"
 msgstr ""
 
-#: twcscore.php:143
+#: twcscore.php:152
 msgid "TWCScore:"
+msgstr ""
+
+#: twcscore.php:153
+msgid "Score:"
 msgstr ""
