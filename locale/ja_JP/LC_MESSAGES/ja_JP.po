@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-06-13 20:08+0200\n"
-"PO-Revision-Date: 2022-06-13 20:10+0200\n"
+"POT-Creation-Date: 2023-03-28 21:12+0200\n"
+"PO-Revision-Date: 2023-03-28 21:28+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: index.php\n"
 "X-Poedit-SearchPath-1: credits.php\n"
@@ -61,7 +61,7 @@ msgstr "：スペイン語"
 msgid "Artwork:"
 msgstr ""
 
-#: index.php:14
+#: index.php:11
 msgid ""
 "<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
 "shooting game competition, first held in 2020 and held every year since. It "
@@ -71,7 +71,7 @@ msgstr ""
 "開催されている東方シューティングゲーム(以下STG)の国際大会です。世界中の東方"
 "ゲームプレイコミュニティによって主催されています。"
 
-#: index.php:18
+#: index.php:15
 msgid ""
 "Three teams duke it out on Lunatic and Extra mode, playing on live streams "
 "and playing both high score and survival."
@@ -79,23 +79,27 @@ msgstr ""
 "各試合は3チームのオンライン同時並走により行われ、難易度Lunatic、Extraのスコア"
 "アタック部門やサバイバル部門で競い合います。"
 
-#: index.php:21
+#: index.php:18
 msgid "See below for official communication channels."
 msgstr "公式なコミュニケーションチャネルは以下からご参照ください。"
 
-#: index.php:30
+#: index.php:21
+msgid "TWC Starts In:"
+msgstr "TWC開催まで："
+
+#: index.php:27
 msgid "TWC English Commentary Stream"
 msgstr "英語解説付き配信チャンネル"
 
-#: index.php:34
+#: index.php:31
 msgid "TWC Japanese Commentary Stream"
 msgstr "日本語解説付き配信チャンネル"
 
-#: index.php:38
+#: index.php:35
 msgid "Official TWC YouTube Channel"
 msgstr "公式YouTubeチャンネル"
 
-#: index.php:42
+#: index.php:39
 msgid "Official TWC Twitter"
 msgstr "公式ツイッター"
 
@@ -107,7 +111,7 @@ msgstr "（"
 msgid ")"
 msgstr "）"
 
-#: php/table_func.php:47
+#: php/table_func.php:57
 msgid "Exhibition Matches"
 msgstr "エキシビション"
 
@@ -335,7 +339,7 @@ msgstr "妖夢E"
 msgid "Past Results"
 msgstr "過去の試合結果"
 
-#: results.php:15 schedule.php:14
+#: results.php:15
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
@@ -343,7 +347,7 @@ msgstr ""
 "表示されているタイムゾーンは<strong id=\"timezone\">UTC+0000（協定世界時）</"
 "strong>です。"
 
-#: results.php:18 schedule.php:17
+#: results.php:18
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
@@ -353,66 +357,114 @@ msgstr ""
 msgid "Contents"
 msgstr "内容"
 
-#: results.php:27 results.php:77
+#: results.php:27
+msgid "Show Results"
+msgstr "試合結果を表示"
+
+#: results.php:28
+msgid "Hide Results"
+msgstr "試合結果を非表示"
+
+#: results.php:30 results.php:79 results.php:129
 msgid "Final tally:"
 msgstr "最終獲得ポイント："
 
-#: results.php:30 results.php:69 results.php:80
-msgid "Flag of Japan"
-msgstr "日本の国旗"
+#: results.php:33 results.php:64
+#, fuzzy
+#| msgid "Team West: "
+msgid "Team Rose"
+msgstr "西洋チーム："
 
-#: results.php:31 results.php:81
-msgid "Team Japan: "
-msgstr "日本チーム："
+#: results.php:34
+#, fuzzy
+#| msgid "Team West: "
+msgid "Team Rose: "
+msgstr "西洋チーム："
 
-#: results.php:31 results.php:35 results.php:39 results.php:81 results.php:85
-#: results.php:89
+#: results.php:34 results.php:38 results.php:42 results.php:83 results.php:87
+#: results.php:91 results.php:133 results.php:137 results.php:141
 msgid " points"
 msgstr "ポイント"
 
-#: results.php:34 results.php:65 results.php:88
-msgid "Flag of the P.R.C."
-msgstr "中華人民共和国の国旗"
-
-#: results.php:35 results.php:89
-msgid "Team China: "
-msgstr "中国チーム："
-
-#: results.php:38 results.php:61 results.php:84
-msgid "Earth"
-msgstr "地球"
-
-#: results.php:39 results.php:85
-msgid "Team West: "
+#: results.php:37 results.php:68
+#, fuzzy
+#| msgid "Team West: "
+msgid "Team Heart"
 msgstr "西洋チーム："
 
-#: results.php:45 results.php:95 schedule.php:25
+#: results.php:38
+#, fuzzy
+#| msgid "Team West: "
+msgid "Team Heart: "
+msgstr "西洋チーム："
+
+#: results.php:41 results.php:72
+#, fuzzy
+#| msgid "Team China: "
+msgid "Team Mind"
+msgstr "中国チーム："
+
+#: results.php:42
+#, fuzzy
+#| msgid "Team China: "
+msgid "Team Mind: "
+msgstr "中国チーム："
+
+#: results.php:48 results.php:97 results.php:147
 msgid "Date / Time"
 msgstr "日付と時間"
 
-#: results.php:46 results.php:96 schedule.php:26 twcscore.php:68
+#: results.php:49 results.php:98 results.php:148 twcscore.php:68
 msgid "Category"
 msgstr "カテゴリー"
 
-#: results.php:47 results.php:97 schedule.php:27
+#: results.php:50 results.php:99 results.php:149
 msgid "Players"
 msgstr "プレイヤー"
 
-#: results.php:48 results.php:98 schedule.php:28
+#: results.php:51 results.php:100 results.php:150
 msgid "Reset Time<br>(minutes)"
 msgstr "リセットのタイマー<br>（分）"
 
-#: results.php:49 results.php:99 schedule.php:29 schedule.php:32
+#: results.php:52 results.php:101 results.php:151
 msgid "Results"
 msgstr "業績"
 
-#: results.php:50 results.php:100 schedule.php:30 schedule.php:33
+#: results.php:53 results.php:102 results.php:152
 msgid "Points"
 msgstr "ポイント"
 
-#: results.php:75 results.php:112
+#: results.php:82 results.php:121 results.php:132
+msgid "Flag of Japan"
+msgstr "日本の国旗"
+
+#: results.php:83 results.php:133
+msgid "Team Japan: "
+msgstr "日本チーム："
+
+#: results.php:86 results.php:117 results.php:140
+msgid "Flag of the P.R.C."
+msgstr "中華人民共和国の国旗"
+
+#: results.php:87 results.php:141
+msgid "Team China: "
+msgstr "中国チーム："
+
+#: results.php:90 results.php:113 results.php:136
+msgid "Earth"
+msgstr "地球"
+
+#: results.php:91 results.php:137
+msgid "Team West: "
+msgstr "西洋チーム："
+
+#: results.php:127 results.php:164
 msgid "Game Over"
 msgstr ""
+
+#: results.php:165 rules.php:95
+msgid "Back to Top"
+msgstr "上に帰る"
 
 #: rules.php:2 rules.php:12
 msgid "Rules"
@@ -468,7 +520,7 @@ msgid ""
 "winner."
 msgstr "全試合終了後、獲得ポイントの多い順に順位が決定されます。"
 
-#: rules.php:27 twcscore.php:2
+#: rules.php:27 twcscore.php:2 twcscore.php:101 twcscore.php:104
 msgid "TWCScore"
 msgstr "TWCScore"
 
@@ -769,21 +821,13 @@ msgstr ""
 "公式ルール全文は<a href=\"assets/TWC_Handbook.pdf\">こちら</a>にありますが、"
 "現在英語のみとなっています。"
 
-#: rules.php:95
-msgid "Back to Top"
-msgstr "上に帰る"
-
 #: schedule.php:2 schedule.php:13
 msgid "Schedule"
 msgstr "スケジュール"
 
-#: schedule.php:20
-msgid "Show Results"
-msgstr "試合結果を表示"
-
-#: schedule.php:21
-msgid "Hide Results"
-msgstr "試合結果を非表示"
+#: schedule.php:14
+msgid "Coming soon!"
+msgstr "今しばらくお待ち下さい。"
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -882,66 +926,74 @@ msgid "Misses"
 msgstr "ミス"
 
 #: twcscore.php:95
+msgid "Input score"
+msgstr "入力のスコア"
+
+#: twcscore.php:98 twcscore.php:103
 msgid "Score"
 msgstr "スコア"
 
-#: twcscore.php:101
+#: twcscore.php:110
 msgid "Gold medals"
 msgstr "金メダル"
 
-#: twcscore.php:109
+#: twcscore.php:118
 msgid "Difficulty"
 msgstr "難易度"
 
-#: twcscore.php:118
+#: twcscore.php:127
 msgid "Final Stage"
 msgstr "ルート"
 
-#: twcscore.php:120
+#: twcscore.php:129
 msgid "FinalA"
 msgstr "Aルート"
 
-#: twcscore.php:121
+#: twcscore.php:130
 msgid "FinalB"
 msgstr "Bルート"
 
-#: twcscore.php:127
+#: twcscore.php:136
 msgid "Please fill out the game"
 msgstr "ゲームを記入してください"
 
-#: twcscore.php:128
+#: twcscore.php:137
 msgid "Please fill out the shottype"
 msgstr "キャラを記入してください"
 
-#: twcscore.php:129
+#: twcscore.php:138
 msgid "Please fill out the miss count"
 msgstr "ミス回数を記入してください"
 
-#: twcscore.php:130
+#: twcscore.php:139
 msgid "Please fill out the score"
 msgstr "スコアを記入してください"
 
-#: twcscore.php:131
+#: twcscore.php:140
 msgid "Please fill out the Final Stage"
 msgstr "ルートを記入してください"
 
-#: twcscore.php:132
+#: twcscore.php:141
 msgid "Please fill out the gold medals"
 msgstr "金メダルを記入してください"
 
-#: twcscore.php:133
+#: twcscore.php:142
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
 msgstr ""
 
-#: twcscore.php:137
+#: twcscore.php:146
 msgid "Calculate"
 msgstr "計算する"
 
-#: twcscore.php:143
+#: twcscore.php:152
 msgid "TWCScore:"
 msgstr "TWCScore："
+
+#: twcscore.php:153
+msgid "Score:"
+msgstr "スコア："
 
 #~ msgid "ReimuC"
 #~ msgstr "霊夢C"
@@ -956,12 +1008,6 @@ msgstr "TWCScore："
 #~ "ん。ただし、全てのラストスペルを出現させ取得し、かつ、ノーミスノーボムを達"
 #~ "成した場合にのみ、より高いTWCScoreが与えられます（TWCScore計算機のFull-SC"
 #~ "欄を参照）。"
-
-#~ msgid "TWC Starts In:"
-#~ msgstr "TWC開催まで："
-
-#~ msgid "Coming soon!"
-#~ msgstr "今しばらくお待ち下さい。"
 
 #~ msgid "Touhou 6"
 #~ msgstr "東方紅魔郷　～ the Embodiment of Scarlet Devil."

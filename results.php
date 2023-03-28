@@ -20,11 +20,61 @@
     ?></p>
     <h2 class="contents"><?php echo _('Contents') ?></h2>
     <div class="contents">
+        <p><a href="#2022">2022</a></p>
         <p><a href="#2021">2021</a></p>
         <p><a href="#2020">2020</a></p>
     </div>
     <p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
     <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>
+    <h2 id="2022">TWC 2022</h2>
+    <p><?php echo _('Final tally:') ?></p>
+    <ol>
+        <li>
+            <img src="assets/icons/rose.png" alt="<?php echo _('Team Rose') ?>">
+            <strong><?php echo _('Team Rose: ') ?>33<?php echo _(' points') ?></strong>
+        </li>
+        <li>
+            <img src="assets/icons/heart.png" alt="<?php echo _('Team Heart') ?>">
+            <?php echo _('Team Heart: ') ?>29<?php echo _(' points') ?>
+        </li>
+        <li>
+            <img src="assets/icons/mind.png" alt="<?php echo _('Team Mind') ?>">
+            <?php echo _('Team Mind: ') ?>28<?php echo _(' points') ?>
+        </li>
+    </ol>
+    <table class="schedule_table spoiler">
+        <thead>
+            <tr>
+                <th rowspan="3"><?php echo _('Date / Time') ?></th>
+                <th rowspan="3"><?php echo _('Category') ?></th>
+                <th rowspan="3"><?php echo _('Players') ?></th>
+                <th rowspan="3"><?php echo _('Reset Time<br>(minutes)') ?></th>
+                <th rowspan="3"><?php echo _('Results') ?></th>
+                <th rowspan="3"><?php echo _('Points') ?></th>
+            </tr>
+        </thead>
+        <tbody id="schedule_tbody"><?php
+            $json = file_get_contents('past/schedule_2022.json');
+            $schedule_2022 = json_decode($json, true);
+            $json = file_get_contents('past/results_2022.json');
+            $results_2022 = json_decode($json, true);
+            $teams_2022 = array(
+                (object) [
+                    'name' => 'Rose',
+                    'image' => '<img src="assets/icons/rose.png" alt="' . _('Team Rose') . '">'
+                ],
+                (object) [
+                    'name' => 'Heart',
+                    'image' => '<img src="assets/icons/heart.png" alt="' . _('Team Heart') . '">'
+                ],
+                (object) [
+                    'name' => 'Mind',
+                    'image' => '<img src="assets/icons/mind.png" alt="' . _('Team Mind') . '">'
+                ]
+            );
+            print_schedule($schedule_2022, $results_2022, $teams_2022);
+        ?></tbody>
+    </table>
     <h2 id="2021">TWC 2021</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol>
@@ -72,7 +122,7 @@
                 ]
             );
             print_schedule($schedule_2021, $results_2021, $teams_2021);
-        ?></tbod`y`>
+        ?></tbody>
     </table>
     <p class="spoiler">* <?php echo _('Game Over') ?></p>
     <h2 id="2020">TWC 2020</h2>

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-06-13 20:11+0200\n"
-"PO-Revision-Date: 2022-06-13 20:11+0200\n"
+"POT-Creation-Date: 2023-03-28 21:12+0200\n"
+"PO-Revision-Date: 2023-03-28 21:29+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: index.php\n"
 "X-Poedit-SearchPath-1: credits.php\n"
@@ -61,7 +61,7 @@ msgstr "：西班牙语"
 msgid "Artwork:"
 msgstr ""
 
-#: index.php:14
+#: index.php:11
 msgid ""
 "<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
 "shooting game competition, first held in 2020 and held every year since. It "
@@ -70,7 +70,7 @@ msgstr ""
 "<strong>东方世界杯（TWC）</strong>是自2020年开始每年一度举行的世界性东方"
 "Project大赛。比赛由各个东方Project游戏社区共同举办。"
 
-#: index.php:18
+#: index.php:15
 msgid ""
 "Three teams duke it out on Lunatic and Extra mode, playing on live streams "
 "and playing both high score and survival."
@@ -78,23 +78,27 @@ msgstr ""
 "选手分为三组，以直播的形式决一高下。比赛项目包括Extra难度打分以及Lunatic难度"
 "的打分与避弹。"
 
-#: index.php:21
+#: index.php:18
 msgid "See below for official communication channels."
 msgstr "官方频道详见以下链接。"
 
-#: index.php:30
+#: index.php:21
+msgid "TWC Starts In:"
+msgstr "TWC开幕日期："
+
+#: index.php:27
 msgid "TWC English Commentary Stream"
 msgstr "TWC英文解说"
 
-#: index.php:34
+#: index.php:31
 msgid "TWC Japanese Commentary Stream"
 msgstr "TWC日语解说"
 
-#: index.php:38
+#: index.php:35
 msgid "Official TWC YouTube Channel"
 msgstr "TWC官方YouTube频道"
 
-#: index.php:42
+#: index.php:39
 msgid "Official TWC Twitter"
 msgstr "TWC官方推特"
 
@@ -106,7 +110,7 @@ msgstr "（"
 msgid ")"
 msgstr "）"
 
-#: php/table_func.php:47
+#: php/table_func.php:57
 msgid "Exhibition Matches"
 msgstr ""
 
@@ -334,7 +338,7 @@ msgstr "妖梦鹰"
 msgid "Past Results"
 msgstr ""
 
-#: results.php:15 schedule.php:14
+#: results.php:15
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
@@ -342,7 +346,7 @@ msgstr ""
 "我们检测到您的时区是 <strong id=\"timezone\">UTC+0000（协调世界时）</"
 "strong>。"
 
-#: results.php:18 schedule.php:17
+#: results.php:18
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
@@ -354,66 +358,114 @@ msgstr ""
 msgid "Contents"
 msgstr "内容"
 
-#: results.php:27 results.php:77
+#: results.php:27
+msgid "Show Results"
+msgstr "显示结果"
+
+#: results.php:28
+msgid "Hide Results"
+msgstr "隐藏结果"
+
+#: results.php:30 results.php:79 results.php:129
 msgid "Final tally:"
 msgstr ""
 
-#: results.php:30 results.php:69 results.php:80
-msgid "Flag of Japan"
-msgstr "日本国旗"
+#: results.php:33 results.php:64
+#, fuzzy
+#| msgid "Team West: "
+msgid "Team Rose"
+msgstr "西方团队："
 
-#: results.php:31 results.php:81
-msgid "Team Japan: "
-msgstr "日本团队："
+#: results.php:34
+#, fuzzy
+#| msgid "Team West: "
+msgid "Team Rose: "
+msgstr "西方团队："
 
-#: results.php:31 results.php:35 results.php:39 results.php:81 results.php:85
-#: results.php:89
+#: results.php:34 results.php:38 results.php:42 results.php:83 results.php:87
+#: results.php:91 results.php:133 results.php:137 results.php:141
 msgid " points"
 msgstr "总分"
 
-#: results.php:34 results.php:65 results.php:88
-msgid "Flag of the P.R.C."
-msgstr "中国国旗"
-
-#: results.php:35 results.php:89
-msgid "Team China: "
-msgstr "中国团队："
-
-#: results.php:38 results.php:61 results.php:84
-msgid "Earth"
-msgstr "地球"
-
-#: results.php:39 results.php:85
-msgid "Team West: "
+#: results.php:37 results.php:68
+#, fuzzy
+#| msgid "Team West: "
+msgid "Team Heart"
 msgstr "西方团队："
 
-#: results.php:45 results.php:95 schedule.php:25
+#: results.php:38
+#, fuzzy
+#| msgid "Team West: "
+msgid "Team Heart: "
+msgstr "西方团队："
+
+#: results.php:41 results.php:72
+#, fuzzy
+#| msgid "Team China: "
+msgid "Team Mind"
+msgstr "中国团队："
+
+#: results.php:42
+#, fuzzy
+#| msgid "Team China: "
+msgid "Team Mind: "
+msgstr "中国团队："
+
+#: results.php:48 results.php:97 results.php:147
 msgid "Date / Time"
 msgstr "日期和时间"
 
-#: results.php:46 results.php:96 schedule.php:26 twcscore.php:68
+#: results.php:49 results.php:98 results.php:148 twcscore.php:68
 msgid "Category"
 msgstr "项目"
 
-#: results.php:47 results.php:97 schedule.php:27
+#: results.php:50 results.php:99 results.php:149
 msgid "Players"
 msgstr "玩家"
 
-#: results.php:48 results.php:98 schedule.php:28
+#: results.php:51 results.php:100 results.php:150
 msgid "Reset Time<br>(minutes)"
 msgstr "Reset Time<br>（分钟）"
 
-#: results.php:49 results.php:99 schedule.php:29 schedule.php:32
+#: results.php:52 results.php:101 results.php:151
 msgid "Results"
 msgstr "结果"
 
-#: results.php:50 results.php:100 schedule.php:30 schedule.php:33
+#: results.php:53 results.php:102 results.php:152
 msgid "Points"
 msgstr "总分"
 
-#: results.php:75 results.php:112
+#: results.php:82 results.php:121 results.php:132
+msgid "Flag of Japan"
+msgstr "日本国旗"
+
+#: results.php:83 results.php:133
+msgid "Team Japan: "
+msgstr "日本团队："
+
+#: results.php:86 results.php:117 results.php:140
+msgid "Flag of the P.R.C."
+msgstr "中国国旗"
+
+#: results.php:87 results.php:141
+msgid "Team China: "
+msgstr "中国团队："
+
+#: results.php:90 results.php:113 results.php:136
+msgid "Earth"
+msgstr "地球"
+
+#: results.php:91 results.php:137
+msgid "Team West: "
+msgstr "西方团队："
+
+#: results.php:127 results.php:164
 msgid "Game Over"
 msgstr ""
+
+#: results.php:165 rules.php:95
+msgid "Back to Top"
+msgstr "回到顶部"
 
 #: rules.php:2 rules.php:12
 msgid "Rules"
@@ -462,7 +514,7 @@ msgid ""
 "winner."
 msgstr "世界杯结束时总分最高的队伍获得胜利。"
 
-#: rules.php:27 twcscore.php:2
+#: rules.php:27 twcscore.php:2 twcscore.php:101 twcscore.php:104
 msgid "TWCScore"
 msgstr "TWCScore"
 
@@ -734,21 +786,13 @@ msgstr ""
 "完整的TWC规则可以在 <a href=\"assets/TWC_Handbook.pdf\">这里</a>被找到。目前"
 "仅提供英文版。"
 
-#: rules.php:95
-msgid "Back to Top"
-msgstr "回到顶部"
-
 #: schedule.php:2 schedule.php:13
 msgid "Schedule"
 msgstr "时间表"
 
-#: schedule.php:20
-msgid "Show Results"
-msgstr "显示结果"
-
-#: schedule.php:21
-msgid "Hide Results"
-msgstr "隐藏结果"
+#: schedule.php:14
+msgid "Coming soon!"
+msgstr "敬请期待！"
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -845,54 +889,58 @@ msgid "Misses"
 msgstr "被弹数"
 
 #: twcscore.php:95
+msgid "Input score"
+msgstr "分数为输入"
+
+#: twcscore.php:98 twcscore.php:103
 msgid "Score"
 msgstr "分数"
 
-#: twcscore.php:101
+#: twcscore.php:110
 msgid "Gold medals"
 msgstr "金牌"
 
-#: twcscore.php:109
+#: twcscore.php:118
 msgid "Difficulty"
 msgstr "难度"
 
-#: twcscore.php:118
+#: twcscore.php:127
 msgid "Final Stage"
 msgstr "路线"
 
-#: twcscore.php:120
+#: twcscore.php:129
 msgid "FinalA"
 msgstr "路线A"
 
-#: twcscore.php:121
+#: twcscore.php:130
 msgid "FinalB"
 msgstr "路线B"
 
-#: twcscore.php:127
+#: twcscore.php:136
 msgid "Please fill out the game"
 msgstr "请输入游戏"
 
-#: twcscore.php:128
+#: twcscore.php:137
 msgid "Please fill out the shottype"
 msgstr "请输入机体"
 
-#: twcscore.php:129
+#: twcscore.php:138
 msgid "Please fill out the miss count"
 msgstr "请输入miss数"
 
-#: twcscore.php:130
+#: twcscore.php:139
 msgid "Please fill out the score"
 msgstr "请输入分数"
 
-#: twcscore.php:131
+#: twcscore.php:140
 msgid "Please fill out the Final Stage"
 msgstr "请输入路线"
 
-#: twcscore.php:132
+#: twcscore.php:141
 msgid "Please fill out the gold medals"
 msgstr "请输入金牌数"
 
-#: twcscore.php:133
+#: twcscore.php:142
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
@@ -900,13 +948,17 @@ msgstr ""
 "内部错误，请联系<a href=“https://twitter.com/32thc” target=“_blank”>32th "
 "System</a>"
 
-#: twcscore.php:137
+#: twcscore.php:146
 msgid "Calculate"
 msgstr "计算"
 
-#: twcscore.php:143
+#: twcscore.php:152
 msgid "TWCScore:"
 msgstr "TWCScore："
+
+#: twcscore.php:153
+msgid "Score:"
+msgstr "分数："
 
 #~ msgid "ReimuC"
 #~ msgstr "灵梦C"
@@ -918,12 +970,6 @@ msgstr "TWCScore："
 #~ "bonus (NN + FS)."
 #~ msgstr ""
 #~ "LSC被弹不算1 miss。积分只在LNN的情况下才考虑全卡，LNNFS会获得额外积分。"
-
-#~ msgid "TWC Starts In:"
-#~ msgstr "TWC开幕日期："
-
-#~ msgid "Coming soon!"
-#~ msgstr "敬请期待！"
 
 #~ msgid "Touhou 6"
 #~ msgstr "红魔乡"
