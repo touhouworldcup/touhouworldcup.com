@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-03-28 21:57+0200\n"
-"PO-Revision-Date: 2023-03-28 21:57+0200\n"
+"PO-Revision-Date: 2023-04-08 20:36+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -68,8 +68,8 @@ msgid ""
 "is organised by the Touhou gameplay community worldwide."
 msgstr ""
 "<strong>東方ワールドカップ（TWC）</strong> は、2020年に初開催され、その後毎年"
-"開催されている東方シューティングゲーム(以下STG)の国際大会です。世界中の東方"
-"ゲームプレイコミュニティによって主催されています。"
+"開催されている東方シューティングゲーム(以下STG)の国際大会です。世界中の東方プ"
+"レイヤーコミュニテによって主催されています。"
 
 #: index.php:15
 msgid ""
@@ -81,7 +81,7 @@ msgstr ""
 
 #: index.php:18
 msgid "See below for official communication channels."
-msgstr "公式なコミュニケーションチャネルは以下からご参照ください。"
+msgstr "公式チャンネルは以下からご参照ください。"
 
 #: index.php:21
 msgid "TWC Starts In:"
@@ -92,8 +92,8 @@ msgid ""
 "<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" target=\"_blank\">Sign up "
 "here!</a>"
 msgstr ""
-"<a href=\"https://forms.gle/V4K8X2BMKzf8Ji7PA\" target=\"_blank\">ここに参加"
-"申請</a>"
+"<a href=\"https://forms.gle/V4K8X2BMKzf8Ji7PA\" target=\"_blank\">参加申請は"
+"こちら</a>"
 
 #: index.php:28
 msgid "TWC English Commentary Stream"
