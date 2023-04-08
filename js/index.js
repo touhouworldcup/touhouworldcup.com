@@ -7,7 +7,7 @@ function _(letter) {
 
     return ({
         "d ": "日",
-        "h ": "时",
+        "h ": "時間",
         "m ": "分",
         "s": "秒"
     }[letter]);
