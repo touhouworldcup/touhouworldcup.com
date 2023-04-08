@@ -305,7 +305,6 @@ window.onload = () => {
 
     const change_inputscore = () => {
         let is = get_name(inputscore);
-        console.log(is);
 
         if (is === "ingame") {
             score_label.style.display = "inline";   
