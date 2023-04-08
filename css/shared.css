@@ -4,7 +4,7 @@ html {
 body {
 	margin: 0;
     font-family: sans-serif;
-    background: url('/assets/twc_bg.jpg') left no-repeat fixed;
+    background: url('/assets/twc_bg.jpg') center no-repeat fixed;
     background-size: cover;
 }
 * {
