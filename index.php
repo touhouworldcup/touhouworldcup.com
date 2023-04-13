@@ -31,6 +31,10 @@
             <img class="thumbnail" src="/assets/jpyt.png" alt="TWC Japanese stream" width=400 height=256>
             <span class="title large"><img class="icon" src="/assets/icons/youtube-icon.png" alt="YouTube icon" width=64 height=64> <?php echo _('TWC Japanese Commentary Stream') ?></span>
         </a></div>
+        <div class="card"><a href="https://live.bilibili.com/51792" class="card_link" target="_blank">
+            <img class="thumbnail" src="/assets/cnbili.png" alt="TWC Chinese stream" width=400 height=256>
+            <span class="title large"><img class="icon" src="/assets/icons/bilibili-icon.png" alt="Bilibili icon" width=64 height=64> <?php echo _('TWC Chinese Commentary Stream') ?></span>
+        </a></div>
         <div class="card"><a href="https://www.youtube.com/c/TouhouWorldCup" class="card_link" target="_blank">
             <img class="thumbnail" src="/assets/youtube.png" alt="TWC YouTube channel" width=400 height=256>
             <span class="title large"><img class="icon" src="/assets/icons/youtube-icon.png" alt="YouTube icon" width=64 height=64> <?php echo _('Official TWC YouTube Channel') ?></span>
