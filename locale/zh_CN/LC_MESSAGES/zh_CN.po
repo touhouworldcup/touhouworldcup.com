@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-03-28 21:57+0200\n"
-"PO-Revision-Date: 2023-03-30 19:01+0200\n"
+"PO-Revision-Date: 2023-04-13 20:26+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -67,16 +67,16 @@ msgid ""
 "shooting game competition, first held in 2020 and held every year since. It "
 "is organised by the Touhou gameplay community worldwide."
 msgstr ""
-"<strong>东方世界杯（TWC）</strong>是自2020年开始每年一度举行的世界性东方"
-"Project大赛。比赛由各个东方Project游戏社区共同举办。"
+"<strong>东方世界杯（TWC）</strong>是自2020年开始一年一度的世界性东方Project大"
+"赛。比赛由各个东方Project游戏社区共同举办。"
 
 #: index.php:15
 msgid ""
 "Three teams duke it out on Lunatic and Extra mode, playing on live streams "
 "and playing both high score and survival."
 msgstr ""
-"选手分为三组，以直播的形式决一高下。比赛项目包括Extra难度打分以及Lunatic难度"
-"的打分与避弹。"
+"选手分为三组，以直播的形式决一高下。比赛项目包括Lunatic难度的打分与避弹以及"
+"xtra难度打分。"
 
 #: index.php:18
 msgid "See below for official communication channels."
@@ -120,7 +120,7 @@ msgstr "）"
 
 #: php/table_func.php:57
 msgid "Exhibition Matches"
-msgstr ""
+msgstr "表演赛"
 
 #: php/translations.php:2
 msgid "ReimuA"
@@ -344,7 +344,7 @@ msgstr "妖梦鹰"
 
 #: results.php:2 results.php:13
 msgid "Past Results"
-msgstr ""
+msgstr "以往成绩"
 
 #: results.php:15
 msgid ""
@@ -364,7 +364,7 @@ msgstr ""
 
 #: results.php:21
 msgid "Contents"
-msgstr "内容"
+msgstr "目录"
 
 #: results.php:27
 msgid "Show Results"
@@ -376,7 +376,7 @@ msgstr "隐藏结果"
 
 #: results.php:30 results.php:79 results.php:129
 msgid "Final tally:"
-msgstr ""
+msgstr "最终计分："
 
 #: results.php:33 results.php:64
 #, fuzzy
@@ -433,7 +433,7 @@ msgstr "玩家"
 
 #: results.php:51 results.php:100 results.php:150
 msgid "Reset Time<br>(minutes)"
-msgstr "Reset Time<br>（分钟）"
+msgstr "推把时间<br>（分钟）"
 
 #: results.php:52 results.php:101 results.php:151
 msgid "Results"
@@ -469,7 +469,7 @@ msgstr "西方团队："
 
 #: results.php:127 results.php:164
 msgid "Game Over"
-msgstr ""
+msgstr "结束"
 
 #: results.php:165 rules.php:95
 msgid "Back to Top"
@@ -494,15 +494,15 @@ msgstr ""
 
 #: rules.php:17
 msgid "1st place - 2 points"
-msgstr "冠军：2总分(避免负分歧义)"
+msgstr "冠军：2分（避免负分歧义）"
 
 #: rules.php:18
 msgid "2nd place - 1 point"
-msgstr "亚军：1总分"
+msgstr "亚军：1分"
 
 #: rules.php:19
 msgid "3rd place - 0 points"
-msgstr "季军：0总分"
+msgstr "季军：0分"
 
 #: rules.php:21
 msgid ""
@@ -571,7 +571,7 @@ msgstr ""
 msgid ""
 "Players can start as many credits as they want while the Reset Timer is "
 "counting down."
-msgstr " "
+msgstr "选手可以在重置“计时器倒计时”之前进行任意次数的积分。"
 
 #: rules.php:36
 msgid ""
@@ -814,7 +814,7 @@ msgstr "此网页需要JavaScript"
 msgid ""
 "Use this page to calculate TWCScore for any particular run. TWCScore is "
 "subject to change."
-msgstr "TWC计算器。TWCScore 可能随时做出变动。"
+msgstr "TWC的分数计算器。TWCScore计算方式可能随时做出变动。"
 
 #: twcscore.php:16
 msgid "Game"
@@ -898,7 +898,7 @@ msgstr "被弹数"
 
 #: twcscore.php:95
 msgid "Input score"
-msgstr "分数为输入"
+msgstr "输入"
 
 #: twcscore.php:98 twcscore.php:103
 msgid "Score"
