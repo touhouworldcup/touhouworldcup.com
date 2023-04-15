@@ -113,7 +113,7 @@ window.onload = () => {
 				th128_medal_w.style.display = "none";
 			}
 
-			if (game_name === "th13") {
+			if (game_name === "th11" || game_name === "th13") {
 				fullspell_w.style.display = "inline";
 			} else {
 				fullspell_w.style.display = "none";
@@ -189,7 +189,7 @@ window.onload = () => {
 
 		const get_full_spell = () => {
             let game_name = get_name(game_sel);
-			if (game_name === "th13" && fullspell.checked) {
+			if ((game_name === "th11" || game_name === "th13") && fullspell.checked) {
 				return 1;
 			} else {
 				return 0;
