@@ -14,8 +14,8 @@ iscore.get_survival = (game, shot, miss, FS, end) => {
 
 	if (game === "th08") {
 		iscore_val = iscore_survival_table["th08"][end][shot];
-	} else if (game === "th13") {
-		iscore_val = iscore_survival_table["th13"][shot][FS];
+	} else if (game === "th11" || game === "th13") {
+		iscore_val = iscore_survival_table[game][shot][FS];
 	} else {
 		iscore_val = iscore_survival_table[game][shot];
 	}
