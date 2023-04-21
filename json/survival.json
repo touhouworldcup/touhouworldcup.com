@@ -9,38 +9,38 @@
         "ReimuA": 9,
         "ReimuB": 8,
         "MarisaA": 14,
-        "MarisaB": 17,
+        "MarisaB": 15,
         "SakuyaA": 10,
         "SakuyaB": 8
     },
     "th08": {
         "6A": {
-            "ReimuYukari": 15,
+            "ReimuYukari": 14,
             "MarisaAlice": 15,
-            "SakuyaRemilia": 15,
-            "YoumuYuyuko": 15,
-            "Reimu": 26,
+            "SakuyaRemilia": 16,
+            "YoumuYuyuko": 16,
+            "Reimu": 42,
             "Yukari": 18,
-            "Marisa": 25,
-            "Alice": 45,
-            "Sakuya": 45,
-            "Remilia": 21,
-            "Youmu": 15,
-            "Yuyuko": 29
+            "Marisa": 29,
+            "Alice": 64,
+            "Sakuya": 64,
+            "Remilia": 20,
+            "Youmu": 16,
+            "Yuyuko": 50
         },
         "6B": {
-            "ReimuYukari": 19,
-            "MarisaAlice": 19,
-            "SakuyaRemilia": 22,
-            "YoumuYuyuko": 22,
-            "Reimu": 32,
+            "ReimuYukari": 18,
+            "MarisaAlice": 18,
+            "SakuyaRemilia": 20,
+            "YoumuYuyuko": 20,
+            "Reimu": 72,
             "Yukari": 23,
-            "Marisa": 30,
-            "Alice": 48,
-            "Sakuya": 50,
+            "Marisa": 38,
+            "Alice": 76,
+            "Sakuya": 84,
             "Remilia": 26,
             "Youmu": 20,
-            "Yuyuko": 29
+            "Yuyuko": 57
         }
     },
     "th10": {
@@ -112,17 +112,17 @@
         "SakuyaB": 100
     },
     "th15": {
-        "Reimu": 30,
+        "Reimu": 32,
         "Marisa": 80,
-        "Sanae": 60,
-        "Reisen": 60
+        "Sanae": 64,
+        "Reisen": 80
     },
     "th16": {
-        "ReimuSpring": 34,
+        "ReimuSpring": 36,
         "CirnoSpring": 40,
         "AyaSpring": 50,
         "MarisaSpring": 34,
-        "ReimuSummer": 34,
+        "ReimuSummer": 36,
         "CirnoSummer": 41,
         "AyaSummer": 50,
         "MarisaSummer": 34,
@@ -147,9 +147,9 @@
         "YoumuEagle": 18
     },
     "th18": {
-        "Reimu": 22,
-        "Marisa": 44,
-        "Sakuya": 11,
-        "Sanae": 22
+        "Reimu": 40,
+        "Marisa": 48,
+        "Sakuya": 18,
+        "Sanae": 24
     }
 }
