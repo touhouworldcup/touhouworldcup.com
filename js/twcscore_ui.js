@@ -216,6 +216,7 @@ window.onload = () => {
 			if (rt === "surv") {
 				if (game_name === "th128") {
 					iscore_val = iscore.get_th128_survival(
+                        shottype_name,
 						get_element_val(th128_medals, "medals", "number"),
 						get_element_val(i_misses, "miss", "number")
 					);

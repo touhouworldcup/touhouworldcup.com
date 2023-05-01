@@ -27,8 +27,10 @@ iscore.get_survival = (game, shot, miss, FS, end) => {
 	return miss > 5 ? 0 : iscore_val;
 }
 
-iscore.get_th128_survival = (medals, miss) => {
-	return medals * 1.5 - miss;
+iscore.get_th128_survival = (route, medals, miss) => {
+	const d = iscore_survival_table["th128"][route];
+
+	return Math.round((medals * d - miss) * 10) / 10;
 }
 
 iscore.get_scoring = (game, shot, score) => {
