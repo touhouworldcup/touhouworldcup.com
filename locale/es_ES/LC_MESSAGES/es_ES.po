@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-04-13 21:27+0200\n"
-"PO-Revision-Date: 2023-04-13 21:27+0200\n"
+"POT-Creation-Date: 2023-05-02 19:16+0200\n"
+"PO-Revision-Date: 2023-05-02 19:17+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -87,14 +87,6 @@ msgstr "Los canales oficiales de comunicación se encuentran abajo."
 #: index.php:21
 msgid "TWC Starts In:"
 msgstr "TWC Comienza en:"
-
-#: index.php:23
-msgid ""
-"<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" target=\"_blank\">Sign up "
-"here!</a>"
-msgstr ""
-"<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" "
-"target=\"_blank\">¡Inscribirse aquí!</a>"
 
 #: index.php:28
 msgid "TWC English Commentary Stream"
@@ -427,7 +419,7 @@ msgstr "Equipo de China: "
 msgid "Date / Time"
 msgstr "Fecha / Hora"
 
-#: results.php:49 results.php:98 results.php:148 twcscore.php:68
+#: results.php:49 results.php:98 results.php:148 twcscore.php:71
 msgid "Category"
 msgstr "Categoría"
 
@@ -530,7 +522,7 @@ msgid ""
 msgstr ""
 "El equipo que tenga más puntos al final del Touhou World Cup es el ganador."
 
-#: rules.php:27 twcscore.php:2 twcscore.php:101 twcscore.php:104
+#: rules.php:27 twcscore.php:2 twcscore.php:104 twcscore.php:107
 msgid "TWCScore"
 msgstr "TWCScore"
 
@@ -878,138 +870,142 @@ msgstr ""
 "TWCScore están sujetos a cambio."
 
 #: twcscore.php:16
+msgid "Click here to see all rubrics."
+msgstr "Haga clic aquí para ver todas las rúbricas."
+
+#: twcscore.php:19
 msgid "Game"
 msgstr "Juego"
 
-#: twcscore.php:19
+#: twcscore.php:22
 msgid "Touhou 6: Embodiment of Scarlet Devil"
 msgstr "Touhou 6: Embodiment of Scarlet Devil"
 
-#: twcscore.php:21
+#: twcscore.php:24
 msgid "Touhou 7: Perfect Cherry Blossom"
 msgstr "Touhou 7: Perfect Cherry Blossom"
 
-#: twcscore.php:23
+#: twcscore.php:26
 msgid "Touhou 8: Imperishable Night"
 msgstr "Touhou 8: Imperishable Night"
 
-#: twcscore.php:25
+#: twcscore.php:28
 msgid "Touhou 9: Phantasmagoria of Flower View"
 msgstr "Touhou 9: Phantasmagoria of Flower View"
 
-#: twcscore.php:27
+#: twcscore.php:30
 msgid "Touhou 10: Mountain of Faith"
 msgstr "Touhou 10: Mountain of Faith"
 
-#: twcscore.php:29
+#: twcscore.php:32
 msgid "Touhou 11: Subterranean Animism"
 msgstr "Touhou 11: Subterranean Aminism"
 
-#: twcscore.php:31
+#: twcscore.php:34
 msgid "Touhou 12: Undefined Fantastic Object"
 msgstr "Touhou 12: Undefined Fantastic Object"
 
-#: twcscore.php:33
+#: twcscore.php:36
 msgid "Touhou 12.8: Great Fairy Wars"
 msgstr "Touhou 12.8: Great Fairy Wars"
 
-#: twcscore.php:35
+#: twcscore.php:38
 msgid "Touhou 13: Ten Desires"
 msgstr "Touhou 13: Ten Desires"
 
-#: twcscore.php:37
+#: twcscore.php:40
 msgid "Touhou 14: Double Dealing Character"
 msgstr "Touhou 14: Double Dealing Character"
 
-#: twcscore.php:39
+#: twcscore.php:42
 msgid "Touhou 15: Legacy of Lunatic Kingdom"
 msgstr "Touhou 15: Legacy of Lunatic Kingdom"
 
-#: twcscore.php:41
+#: twcscore.php:44
 msgid "Touhou 16: Hidden Star in Four Seasons"
 msgstr "Touhou 16: Hidden Star in Four Seasons"
 
-#: twcscore.php:43
+#: twcscore.php:46
 msgid "Touhou 17: Wily Beast and Weakest Creature"
 msgstr "Touhou 17: Wily Beast and Weakest Creature"
 
-#: twcscore.php:45
+#: twcscore.php:48
 msgid "Touhou 18: Unconnected Marketeers"
 msgstr "Touhou 18: Unconnected Marketeers"
 
-#: twcscore.php:49
+#: twcscore.php:52
 msgid "Shottype / Route"
 msgstr "Tipo de Disparo / Ruta"
 
-#: twcscore.php:71 twcscore.php:72
+#: twcscore.php:74 twcscore.php:75
 msgid "Survival"
 msgstr "Supervivencia"
 
-#: twcscore.php:74 twcscore.php:75
+#: twcscore.php:77 twcscore.php:78
 msgid "Scoring"
 msgstr "Puntuación"
 
-#: twcscore.php:81
+#: twcscore.php:84
 msgid "Full Spell"
 msgstr "Spell Completa"
 
-#: twcscore.php:87
+#: twcscore.php:90
 msgid "Misses"
 msgstr "Muertes"
 
-#: twcscore.php:95
+#: twcscore.php:98
 msgid "Input score"
 msgstr "Puntuación de entrada"
 
-#: twcscore.php:98 twcscore.php:103
+#: twcscore.php:101 twcscore.php:106
 msgid "Score"
 msgstr "Puntuación"
 
-#: twcscore.php:110
+#: twcscore.php:113
 msgid "Gold medals"
 msgstr "Medallas de Oro"
 
-#: twcscore.php:118
+#: twcscore.php:121
 msgid "Difficulty"
 msgstr "Dificultad"
 
-#: twcscore.php:127
+#: twcscore.php:130
 msgid "Final Stage"
 msgstr "Nivel Final"
 
-#: twcscore.php:129
+#: twcscore.php:132
 msgid "FinalA"
 msgstr "FinalA"
 
-#: twcscore.php:130
+#: twcscore.php:133
 msgid "FinalB"
 msgstr "FinalB"
 
-#: twcscore.php:136
+#: twcscore.php:139
 msgid "Please fill out the game"
 msgstr "Por favor llene el juego"
 
-#: twcscore.php:137
+#: twcscore.php:140
 msgid "Please fill out the shottype"
 msgstr "Por favor llene el tipo de disparo"
 
-#: twcscore.php:138
+#: twcscore.php:141
 msgid "Please fill out the miss count"
 msgstr "Por favor llene el contador de muertes"
 
-#: twcscore.php:139
+#: twcscore.php:142
 msgid "Please fill out the score"
 msgstr "Por favor llene la puntuación"
 
-#: twcscore.php:140
+#: twcscore.php:143
 msgid "Please fill out the Final Stage"
 msgstr "Por favor llene el Nivel Final"
 
-#: twcscore.php:141
+#: twcscore.php:144
 msgid "Please fill out the gold medals"
 msgstr "Por favor llene las medallas de oro"
 
-#: twcscore.php:142
+#: twcscore.php:145
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
@@ -1018,17 +1014,24 @@ msgstr ""
 "contacte <a href=\"https://twitter.com/32thc\" target=\"_blank\">32th "
 "System</a>"
 
-#: twcscore.php:146
+#: twcscore.php:149
 msgid "Calculate"
 msgstr "Calcular"
 
-#: twcscore.php:152
+#: twcscore.php:155
 msgid "TWCScore:"
 msgstr "TWCScore:"
 
-#: twcscore.php:153
+#: twcscore.php:156
 msgid "Score:"
 msgstr "Puntuación:"
+
+#~ msgid ""
+#~ "<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" target=\"_blank\">Sign up "
+#~ "here!</a>"
+#~ msgstr ""
+#~ "<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" "
+#~ "target=\"_blank\">¡Inscribirse aquí!</a>"
 
 #~ msgid "This page lists the results of past years of Touhou World Cup."
 #~ msgstr ""
