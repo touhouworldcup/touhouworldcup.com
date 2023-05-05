@@ -12,6 +12,9 @@
 	<h1><?php echo _('TWCScore Calculator') ?></h1>
 	<noscript><h2><?php echo _('This page requires JavaScript') ?></h2></noscript>
     <p><?php echo _('Use this page to calculate TWCScore for any particular run. TWCScore is subject to change.') ?></p>
+	<p><a href='https://docs.google.com/spreadsheets/d/e/2PACX-1vS97uPEhPc7Ys2LU9QZ2C5NBDTrcqOkCR9mixhs3yDt3zUSxIfNDAXENp8QzEsrFaLZI8wEt35nfLox/pubhtml?gid=161008384&amp;amp;single=true&amp;amp;widget=true&amp;amp;headers=false' target='_blank'>
+		<?php echo _('Click here to see all rubrics.') ?>
+	</a></p>
 	<form id="calc-iscore">
 	<label for="games"><?php echo _('Game') ?></label><br>
 	<fieldset name="games" id="games">
