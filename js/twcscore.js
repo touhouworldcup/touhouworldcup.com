@@ -55,7 +55,7 @@ iscore.get_scoring = (game, shot, score) => {
 
 	const rubric = iscore_scoring_table[game][shot];
     const iscore = Math.pow(rubric["a"], score / 100000000) * rubric["b"] + rubric["c"];
-	return iscore.toFixed(3);
+	return Math.max(iscore.toFixed(3), 0);
 }
 
 iscore.get_scoring_reverse = (game, shot, iscore) => {
