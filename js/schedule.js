@@ -114,8 +114,9 @@ function init() {
     document.getElementById("timezone").innerHTML = getClientTimeZone();
 
     if (location.pathname == "/schedule") {
-        convertDateTimes("/json/schedule_new.json");
+        convertDateTimes("/json/schedule.json");
     } else {
+        convertDateTimes("/past/schedule_2022.json");
         convertDateTimes("/past/schedule_2021.json");
         convertDateTimes("/past/schedule_2020.json");
     }
