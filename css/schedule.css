@@ -97,6 +97,9 @@ input[type=button] {
     top: 100%;
     max-width: 100px;
 }
+#schedule_tbody_2022 .bonus_match img {
+    display: none;
+}
 @media only screen and (max-width: 1000px) {
     main {
         overflow-x: auto;
