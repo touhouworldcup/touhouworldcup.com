@@ -64,12 +64,12 @@
                     'image' => '<img src="assets/icons/rose.png" alt="' . _('Team Rose') . '">'
                 ],
                 (object) [
-                    'name' => 'Heart',
-                    'image' => '<img src="assets/icons/heart.png" alt="' . _('Team Heart') . '">'
-                ],
-                (object) [
                     'name' => 'Mind',
                     'image' => '<img src="assets/icons/mind.png" alt="' . _('Team Mind') . '">'
+                ],
+                (object) [
+                    'name' => 'Heart',
+                    'image' => '<img src="assets/icons/heart.png" alt="' . _('Team Heart') . '">'
                 ]
             );
             print_schedule($schedule_2022, $results_2022, $teams_2022);
