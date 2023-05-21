@@ -51,12 +51,12 @@ function format_points(array $results, array $bonus_matches, string $key) {
 }
 function print_schedule(array $schedule, array $results, array $teams) {
     global $lang;
-    $bonus_matches = array('1584273600', '1620558000', '1620567000');
+    $bonus_matches = array('1584273600', '1620558000', '1620567000', '1657980000', '1658062800');
     foreach ($schedule as $key => $match) {
-        if ($key == '1584273600' || $key == '1620558000') {
+        if ($key == '1584273600' || $key == '1620558000' || $key == '1657980000') {
             echo '<tr><td class="bonus" colspan="6"><strong>' . _('Exhibition Matches') . '</strong></td></tr>';
         }
-        echo '<tr>';
+        echo '<tr' . (in_array($key, $bonus_matches) ? ' class="bonus_match"' : '') . '>';
         echo '<td id="' . $key . '_date">' . gmdate(get_date_format($lang), $key) . '</td>';
         echo '<td class="' . preg_split('/ /', $match['category'])[0] . '">' . $match['category'] . '</td><td>';
         foreach ($match['players'] as $index => $player) {

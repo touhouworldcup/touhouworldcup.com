@@ -53,7 +53,7 @@
                 <th rowspan="3"><?php echo _('Points') ?></th>
             </tr>
         </thead>
-        <tbody id="schedule_tbody"><?php
+        <tbody id="schedule_tbody_2022"><?php
             $json = file_get_contents('past/schedule_2022.json');
             $schedule_2022 = json_decode($json, true);
             $json = file_get_contents('past/results_2022.json');
@@ -102,7 +102,7 @@
                 <th rowspan="3"><?php echo _('Points') ?></th>
             </tr>
         </thead>
-        <tbody id="schedule_tbody"><?php
+        <tbody id="schedule_tbody_2021"><?php
             $json = file_get_contents('past/schedule_2021.json');
             $schedule_2021 = json_decode($json, true);
             $json = file_get_contents('past/results_2021.json');
@@ -152,7 +152,7 @@
                 <th rowspan="3"><?php echo _('Points') ?></th>
             </tr>
         </thead>
-        <tbody><?php
+        <tbody id="schedule_tbody_2020"><?php
             $json = file_get_contents('past/schedule_2020.json');
             $schedule_2020 = json_decode($json, true);
             $json = file_get_contents('past/results_2020.json');
