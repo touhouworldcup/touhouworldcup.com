@@ -58,7 +58,7 @@ input[type=button] {
 	color: #000;
 }
 .highlight {
-    background: rgba(128, 128, 0, 0.5);
+    background: rgba(143, 37, 130, 0.5);
 }
 .spoiler, #spoiler_ol {
     display: none;
