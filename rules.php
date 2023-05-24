@@ -91,7 +91,7 @@
     </ul>
     <hr>
     <h2><?php echo _('Full Official Rules') ?></h2>
-    <p><?php echo _('The full official rulebook can be found <a href="assets/TWC_Handbook.pdf">here</a>. Currently, it is only available in the English language.') ?></p>
+    <p><?php echo _('The full official rulebook can be found <a href="assets/TWC_Handbook.pdf" target="_blank">here</a>. Currently, it is only available in the English language.') ?></p>
     <p><a href="#top"><?php echo _('Back to Top') ?></a></p>
 	</main>
 </body>
