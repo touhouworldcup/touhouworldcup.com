@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-05-02 19:16+0200\n"
-"PO-Revision-Date: 2023-05-02 19:17+0200\n"
+"POT-Creation-Date: 2023-05-24 19:42+0200\n"
+"PO-Revision-Date: 2023-05-24 19:42+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -340,11 +340,29 @@ msgstr "YoumuNutria"
 msgid "YoumuEagle"
 msgstr "YoumuÁguila"
 
+#: php/translations.php:58
+#, fuzzy
+#| msgid "Team West: "
+msgid "Team Spirit"
+msgstr "Equipo del Occidente: "
+
+#: php/translations.php:59
+#, fuzzy
+#| msgid "Team West: "
+msgid "Team Lotus"
+msgstr "Equipo del Occidente: "
+
+#: php/translations.php:60
+#, fuzzy
+#| msgid "Team West: "
+msgid "Team Harmony"
+msgstr "Equipo del Occidente: "
+
 #: results.php:2 results.php:13
 msgid "Past Results"
 msgstr "Resultados Pasados"
 
-#: results.php:15
+#: results.php:15 schedule.php:15
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
@@ -352,7 +370,7 @@ msgstr ""
 "Tu zona horaria fue detectada como <strong id=\"timezone\">UTC+0000 "
 "(Coordinated Universal Time)</strong>."
 
-#: results.php:18
+#: results.php:18 schedule.php:18
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
@@ -362,11 +380,11 @@ msgstr "El Horario de Verano (DST) es considerado de manera automática."
 msgid "Contents"
 msgstr "Contenido"
 
-#: results.php:27
+#: results.php:27 schedule.php:22
 msgid "Show Results"
 msgstr "Mostrar Resultados"
 
-#: results.php:28
+#: results.php:28 schedule.php:23
 msgid "Hide Results"
 msgstr "Ocultar Resultados"
 
@@ -391,7 +409,7 @@ msgstr "Equipo del Occidente: "
 msgid " points"
 msgstr " puntos"
 
-#: results.php:37 results.php:68
+#: results.php:37 results.php:72
 #, fuzzy
 #| msgid "Team West: "
 msgid "Team Heart"
@@ -403,7 +421,7 @@ msgstr "Equipo del Occidente: "
 msgid "Team Heart: "
 msgstr "Equipo del Occidente: "
 
-#: results.php:41 results.php:72
+#: results.php:41 results.php:68
 #, fuzzy
 #| msgid "Team China: "
 msgid "Team Mind"
@@ -415,27 +433,30 @@ msgstr "Equipo de China: "
 msgid "Team Mind: "
 msgstr "Equipo de China: "
 
-#: results.php:48 results.php:97 results.php:147
+#: results.php:48 results.php:97 results.php:147 schedule.php:29
 msgid "Date / Time"
 msgstr "Fecha / Hora"
 
-#: results.php:49 results.php:98 results.php:148 twcscore.php:71
+#: results.php:49 results.php:98 results.php:148 schedule.php:30
+#: twcscore.php:71
 msgid "Category"
 msgstr "Categoría"
 
-#: results.php:50 results.php:99 results.php:149
+#: results.php:50 results.php:99 results.php:149 schedule.php:31
 msgid "Players"
 msgstr "Jugadores"
 
-#: results.php:51 results.php:100 results.php:150
+#: results.php:51 results.php:100 results.php:150 schedule.php:32
 msgid "Reset Time<br>(minutes)"
 msgstr "Temporizador de Reinicio<br>(minutos)"
 
-#: results.php:52 results.php:101 results.php:151
+#: results.php:52 results.php:101 results.php:151 schedule.php:33
+#: schedule.php:36
 msgid "Results"
 msgstr "Resultados"
 
-#: results.php:53 results.php:102 results.php:152
+#: results.php:53 results.php:102 results.php:152 schedule.php:34
+#: schedule.php:37
 msgid "Points"
 msgstr "Puntos"
 
@@ -838,20 +859,23 @@ msgstr "Reglas Oficiales Completas"
 
 #: rules.php:94
 msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook."
-"pdf\">here</a>. Currently, it is only available in the English language."
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf\" "
+"target=\"_blank\">here</a>. Currently, it is only available in the English "
+"language."
 msgstr ""
 "El libro oficial de reglas completas lo puedes encontrar <a href=\"assets/"
-"TWC_Handbook.pdf\">aquí</a>. Por el momento, solo se encuentra en el idioma "
-"inglés."
+"TWC_Handbook.pdf\" target=\"_blank\">aquí</a>. Por el momento, solo se "
+"encuentra en el idioma inglés."
 
 #: schedule.php:2 schedule.php:13
 msgid "Schedule"
 msgstr "Horario"
 
-#: schedule.php:14
-msgid "Coming soon!"
-msgstr "¡Muy pronto!"
+#: schedule.php:65
+#, fuzzy
+#| msgid "Team West: "
+msgid "Team "
+msgstr "Equipo del Occidente: "
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -1025,6 +1049,9 @@ msgstr "TWCScore:"
 #: twcscore.php:156
 msgid "Score:"
 msgstr "Puntuación:"
+
+#~ msgid "Coming soon!"
+#~ msgstr "¡Muy pronto!"
 
 #~ msgid ""
 #~ "<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" target=\"_blank\">Sign up "

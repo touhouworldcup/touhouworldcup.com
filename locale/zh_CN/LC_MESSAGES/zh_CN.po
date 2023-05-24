@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-05-02 19:07+0200\n"
-"PO-Revision-Date: 2023-05-05 09:50+0200\n"
+"POT-Creation-Date: 2023-05-24 21:28+0200\n"
+"PO-Revision-Date: 2023-05-24 21:29+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -338,11 +338,26 @@ msgstr "妖梦獭"
 msgid "YoumuEagle"
 msgstr "妖梦鹰"
 
+#: php/translations.php:58
+#| msgid "Team West: "
+msgid "Team Spirit"
+msgstr ""
+
+#: php/translations.php:59
+#| msgid "Team West: "
+msgid "Team Lotus"
+msgstr ""
+
+#: php/translations.php:60
+#| msgid "Team West: "
+msgid "Team Harmony"
+msgstr ""
+
 #: results.php:2 results.php:13
 msgid "Past Results"
 msgstr "以往成绩"
 
-#: results.php:15
+#: results.php:15 schedule.php:15
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
@@ -350,7 +365,7 @@ msgstr ""
 "我们检测到您的时区是 <strong id=\"timezone\">UTC+0000（协调世界时）</"
 "strong>。"
 
-#: results.php:18
+#: results.php:18 schedule.php:18
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
@@ -362,11 +377,11 @@ msgstr ""
 msgid "Contents"
 msgstr "目录"
 
-#: results.php:27
+#: results.php:27 schedule.php:22
 msgid "Show Results"
 msgstr "显示结果"
 
-#: results.php:28
+#: results.php:28 schedule.php:23
 msgid "Hide Results"
 msgstr "隐藏结果"
 
@@ -375,67 +390,64 @@ msgid "Final tally:"
 msgstr "最终计分："
 
 #: results.php:33 results.php:64
-#, fuzzy
 #| msgid "Team West: "
 msgid "Team Rose"
-msgstr "西方团队："
+msgstr ""
 
 #: results.php:34
-#, fuzzy
 #| msgid "Team West: "
 msgid "Team Rose: "
-msgstr "西方团队："
+msgstr ""
 
 #: results.php:34 results.php:38 results.php:42 results.php:83 results.php:87
 #: results.php:91 results.php:133 results.php:137 results.php:141
 msgid " points"
 msgstr "总分"
 
-#: results.php:37 results.php:68
-#, fuzzy
+#: results.php:37 results.php:72
 #| msgid "Team West: "
 msgid "Team Heart"
-msgstr "西方团队："
+msgstr ""
 
 #: results.php:38
-#, fuzzy
 #| msgid "Team West: "
 msgid "Team Heart: "
-msgstr "西方团队："
+msgstr ""
 
-#: results.php:41 results.php:72
-#, fuzzy
+#: results.php:41 results.php:68
 #| msgid "Team China: "
 msgid "Team Mind"
-msgstr "中国团队："
+msgstr ""
 
 #: results.php:42
-#, fuzzy
 #| msgid "Team China: "
 msgid "Team Mind: "
-msgstr "中国团队："
+msgstr ""
 
-#: results.php:48 results.php:97 results.php:147
+#: results.php:48 results.php:97 results.php:147 schedule.php:29
 msgid "Date / Time"
 msgstr "日期和时间"
 
-#: results.php:49 results.php:98 results.php:148 twcscore.php:71
+#: results.php:49 results.php:98 results.php:148 schedule.php:30
+#: twcscore.php:71
 msgid "Category"
 msgstr "项目"
 
-#: results.php:50 results.php:99 results.php:149
+#: results.php:50 results.php:99 results.php:149 schedule.php:31
 msgid "Players"
 msgstr "玩家"
 
-#: results.php:51 results.php:100 results.php:150
+#: results.php:51 results.php:100 results.php:150 schedule.php:32
 msgid "Reset Time<br>(minutes)"
 msgstr "推把时间<br>（分钟）"
 
-#: results.php:52 results.php:101 results.php:151
+#: results.php:52 results.php:101 results.php:151 schedule.php:33
+#: schedule.php:36
 msgid "Results"
 msgstr "结果"
 
-#: results.php:53 results.php:102 results.php:152
+#: results.php:53 results.php:102 results.php:152 schedule.php:34
+#: schedule.php:37
 msgid "Points"
 msgstr "总分"
 
@@ -784,19 +796,22 @@ msgstr "TWC规则完整版"
 
 #: rules.php:94
 msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook."
-"pdf\">here</a>. Currently, it is only available in the English language."
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf\" "
+"target=\"_blank\">here</a>. Currently, it is only available in the English "
+"language."
 msgstr ""
-"完整的TWC规则可以在 <a href=\"assets/TWC_Handbook.pdf\">这里</a>被找到。目前"
-"仅提供英文版。"
+"完整的TWC规则可以在 <a href=\"assets/TWC_Handbook.pdf\" target=\"_blank\">这"
+"里</a>被找到。目前仅提供英文版。"
 
 #: schedule.php:2 schedule.php:13
 msgid "Schedule"
 msgstr "时间表"
 
-#: schedule.php:14
-msgid "Coming soon!"
-msgstr "敬请期待！"
+#: schedule.php:65
+#, fuzzy
+#| msgid "Team West: "
+msgid "Team "
+msgstr "西方团队："
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -967,6 +982,9 @@ msgstr "TWCScore："
 #: twcscore.php:156
 msgid "Score:"
 msgstr "分数："
+
+#~ msgid "Coming soon!"
+#~ msgstr "敬请期待！"
 
 #~ msgid ""
 #~ "<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" target=\"_blank\">Sign up "

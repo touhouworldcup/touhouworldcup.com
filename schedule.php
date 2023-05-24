@@ -62,7 +62,7 @@
                         $team = $teams[$index];
                     }
                     if (!empty($team)) {
-                        echo '<span class="team"><img src="assets/icons/' . $team . '.png" alt="' . ucfirst($team) . '"><span class="tooltip">Team ' . ucfirst($team) . '</span></span> ' . $player . '<br>';
+                        echo '<span class="team"><img src="assets/icons/' . $team . '.png" alt="' . ucfirst($team) . '"><span class="tooltip">' . _('Team ' . ucfirst($team)) . '</span></span> ' . $player . '<br>';
                     } else {
                         echo $player . '<br>';
                     }

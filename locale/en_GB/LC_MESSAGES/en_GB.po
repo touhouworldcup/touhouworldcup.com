@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-05-02 19:08+0200\n"
-"PO-Revision-Date: 2023-05-02 19:08+0200\n"
+"POT-Creation-Date: 2023-05-24 19:40+0200\n"
+"PO-Revision-Date: 2023-05-24 19:40+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -334,17 +334,29 @@ msgstr ""
 msgid "YoumuEagle"
 msgstr ""
 
+#: php/translations.php:58
+msgid "Team Spirit"
+msgstr ""
+
+#: php/translations.php:59
+msgid "Team Lotus"
+msgstr ""
+
+#: php/translations.php:60
+msgid "Team Harmony"
+msgstr ""
+
 #: results.php:2 results.php:13
 msgid "Past Results"
 msgstr ""
 
-#: results.php:15
+#: results.php:15 schedule.php:15
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
 msgstr ""
 
-#: results.php:18
+#: results.php:18 schedule.php:18
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
@@ -354,11 +366,11 @@ msgstr ""
 msgid "Contents"
 msgstr ""
 
-#: results.php:27
+#: results.php:27 schedule.php:22
 msgid "Show Results"
 msgstr ""
 
-#: results.php:28
+#: results.php:28 schedule.php:23
 msgid "Hide Results"
 msgstr ""
 
@@ -379,7 +391,7 @@ msgstr ""
 msgid " points"
 msgstr ""
 
-#: results.php:37 results.php:68
+#: results.php:37 results.php:72
 msgid "Team Heart"
 msgstr ""
 
@@ -387,7 +399,7 @@ msgstr ""
 msgid "Team Heart: "
 msgstr ""
 
-#: results.php:41 results.php:72
+#: results.php:41 results.php:68
 msgid "Team Mind"
 msgstr ""
 
@@ -395,27 +407,30 @@ msgstr ""
 msgid "Team Mind: "
 msgstr ""
 
-#: results.php:48 results.php:97 results.php:147
+#: results.php:48 results.php:97 results.php:147 schedule.php:29
 msgid "Date / Time"
 msgstr ""
 
-#: results.php:49 results.php:98 results.php:148 twcscore.php:71
+#: results.php:49 results.php:98 results.php:148 schedule.php:30
+#: twcscore.php:71
 msgid "Category"
 msgstr ""
 
-#: results.php:50 results.php:99 results.php:149
+#: results.php:50 results.php:99 results.php:149 schedule.php:31
 msgid "Players"
 msgstr ""
 
-#: results.php:51 results.php:100 results.php:150
+#: results.php:51 results.php:100 results.php:150 schedule.php:32
 msgid "Reset Time<br>(minutes)"
 msgstr ""
 
-#: results.php:52 results.php:101 results.php:151
+#: results.php:52 results.php:101 results.php:151 schedule.php:33
+#: schedule.php:36
 msgid "Results"
 msgstr ""
 
-#: results.php:53 results.php:102 results.php:152
+#: results.php:53 results.php:102 results.php:152 schedule.php:34
+#: schedule.php:37
 msgid "Points"
 msgstr ""
 
@@ -744,16 +759,17 @@ msgstr ""
 
 #: rules.php:94
 msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook."
-"pdf\">here</a>. Currently, it is only available in the English language."
+"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf\" "
+"target=\"_blank\">here</a>. Currently, it is only available in the English "
+"language."
 msgstr ""
 
 #: schedule.php:2 schedule.php:13
 msgid "Schedule"
 msgstr ""
 
-#: schedule.php:14
-msgid "Coming soon!"
+#: schedule.php:65
+msgid "Team "
 msgstr ""
 
 #: twcscore.php:12

@@ -55,4 +55,7 @@ echo _('MarisaEagle');
 echo _('YoumuWolf');
 echo _('YoumuOtter');
 echo _('YoumuEagle');
+echo _('Team Spirit');
+echo _('Team Lotus');
+echo _('Team Harmony');
 ?>
