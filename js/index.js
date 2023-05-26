@@ -48,7 +48,7 @@ function formatTime(timeLeft) {
 }
 
 function updateCountdowns() {
-    let date = Date.UTC("2023", "4", "27", "11", "0", "0");
+    let date = Date.UTC("2023", "4", "27", "12", "0", "0");
     let now = new Date().getTime();
     let timeLeft = date - now;
     document.getElementById("countdown_start").innerHTML = formatTime(timeLeft);
