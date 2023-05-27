@@ -1,1 +1,42 @@
-{}
+{
+    "1685188800": [
+        {
+            "shot": "Reimu",
+            "score": "2M",
+            "twcscore": 8,
+            "points": 1
+        },
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "Reisen",
+            "score": "2M",
+            "twcscore": 20,
+            "points": 2
+        }
+    ],
+    "1685199600": [
+        {
+            "shot": "Sanae",
+            "score": "2M",
+            "twcscore": 6.25,
+            "points": 1
+        },
+        {
+            "shot": "Youmu",
+            "score": "1M",
+            "twcscore": 4,
+            "points": 0
+        },
+        {
+            "shot": "Reimu",
+            "score": "LNNNFS",
+            "twcscore": 12,
+            "points": 2
+        }
+    ]
+}
