@@ -18,10 +18,8 @@
             echo _('Daylight Saving Time (also known as Summer Time or DST) is taken into account automatically.');
         }
     ?></p>
-    <!--
     <p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
     <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>
-    -->
     <ol id="spoiler_ol"></ol>
     <table class="schedule_table">
         <thead>
