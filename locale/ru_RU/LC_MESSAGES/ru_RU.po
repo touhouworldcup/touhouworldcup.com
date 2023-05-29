@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-05-24 19:41+0200\n"
-"PO-Revision-Date: 2023-05-24 19:41+0200\n"
+"POT-Creation-Date: 2023-05-28 22:03+0200\n"
+"PO-Revision-Date: 2023-05-28 22:04+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -381,17 +381,17 @@ msgstr "Переход на летнее время также учитан ав
 msgid "Contents"
 msgstr "Содержание"
 
-#: results.php:27 schedule.php:22
+#: results.php:27 schedule.php:21
 msgid "Show Results"
 msgstr "Показать Результаты"
 
-#: results.php:28 schedule.php:23
+#: results.php:28 schedule.php:22
 msgid "Hide Results"
 msgstr "Скрыть Результаты"
 
 #: results.php:30 results.php:79 results.php:129
 msgid "Final tally:"
-msgstr "Финальный очков:"
+msgstr "Итоговый счет:"
 
 #: results.php:33 results.php:64
 #, fuzzy
@@ -434,30 +434,30 @@ msgstr "Команда Китай: "
 msgid "Team Mind: "
 msgstr "Команда Китай: "
 
-#: results.php:48 results.php:97 results.php:147 schedule.php:29
+#: results.php:48 results.php:97 results.php:147 schedule.php:27
 msgid "Date / Time"
 msgstr "Дата / Время"
 
-#: results.php:49 results.php:98 results.php:148 schedule.php:30
+#: results.php:49 results.php:98 results.php:148 schedule.php:28
 #: twcscore.php:71
 msgid "Category"
 msgstr "Категория"
 
-#: results.php:50 results.php:99 results.php:149 schedule.php:31
+#: results.php:50 results.php:99 results.php:149 schedule.php:29
 msgid "Players"
 msgstr "Игроки"
 
-#: results.php:51 results.php:100 results.php:150 schedule.php:32
+#: results.php:51 results.php:100 results.php:150 schedule.php:30
 msgid "Reset Time<br>(minutes)"
 msgstr "Время на рестарт<br>(минут)"
 
-#: results.php:52 results.php:101 results.php:151 schedule.php:33
-#: schedule.php:36
+#: results.php:52 results.php:101 results.php:151 schedule.php:31
+#: schedule.php:34
 msgid "Results"
 msgstr "Результаты"
 
-#: results.php:53 results.php:102 results.php:152 schedule.php:34
-#: schedule.php:37
+#: results.php:53 results.php:102 results.php:152 schedule.php:32
+#: schedule.php:35
 msgid "Points"
 msgstr "Очков"
 
@@ -868,7 +868,7 @@ msgstr ""
 msgid "Schedule"
 msgstr "Расписание"
 
-#: schedule.php:65
+#: schedule.php:63
 #, fuzzy
 #| msgid "Team West: "
 msgid "Team "
