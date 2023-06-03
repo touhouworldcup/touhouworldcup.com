@@ -197,15 +197,6 @@
         ],
         "reset": 80
     },
-    "1689404400": {
-        "category": "TH128 Lunatic Scoring",
-        "players": [
-            "-",
-            "Dagoth",
-            "ギョウちゃん (gyouchan)"
-        ],
-        "reset": 70
-    },
     "1689490800": {
         "category": "TH18 Lunatic Survival",
         "players": [
@@ -241,6 +232,15 @@
             "int"
         ],
         "reset": 60
+    },
+    "1690095600": {
+        "category": "TH128 Lunatic Scoring",
+        "players": [
+            "-",
+            "Dagoth",
+            "ギョウちゃん (gyouchan)"
+        ],
+        "reset": 70
     },
     "1690108200": {
         "category": "TH14 Lunatic Survival",
