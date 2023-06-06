@@ -18,7 +18,7 @@
         echo _('See below for official communication channels.');
     ?></p>
     <div id="countdowns">
-        <h2><?php echo _('TWC Starts In:') ?></h2>
+        <h2><?php //echo _('TWC Starts In:') ?></h2>
         <p class="large"><span id="countdown_start"></span></p>
         <!--<p class="huge"><?php //echo _('<a href="https://forms.gle/CfCrPn71xXXjA3Kt5" target="_blank">Sign up here!</a>') ?></p>-->
     </div>
