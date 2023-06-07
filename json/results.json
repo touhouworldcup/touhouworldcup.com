@@ -58,5 +58,45 @@
             "twcscore": 18,
             "points": 2
         }
+    ],
+    "1685790000": [
+        {
+            "shot": "Yukari",
+            "score": "3M",
+            "twcscore": 2.875,
+            "points": 0
+        },
+        {
+            "shot": "Yukari",
+            "score": "1M",
+            "twcscore": 11.5,
+            "points": 2
+        },
+        {
+            "shot": "YoumuYuyuko",
+            "score": "1M",
+            "twcscore": 10,
+            "points": 1
+        }
+    ],
+    "1685880000": [
+        {
+            "shot": "ReimuSummer",
+            "score": 4205156260,
+            "twcscore": 85.557,
+            "points": 1
+        },
+        {
+            "shot": "AyaAutumn",
+            "score": 9390055030,
+            "twcscore": 88.073,
+            "points": 2
+        },
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        }
     ]
 }
