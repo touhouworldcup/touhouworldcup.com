@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-06-08 21:33+0200\n"
-"PO-Revision-Date: 2023-06-08 21:34+0200\n"
+"POT-Creation-Date: 2023-06-08 21:43+0200\n"
+"PO-Revision-Date: 2023-06-08 21:44+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -477,7 +477,7 @@ msgstr "西洋チーム："
 msgid "Game Over"
 msgstr ""
 
-#: results.php:165 rules.php:97
+#: results.php:165 rules.php:101
 msgid "Back to Top"
 msgstr "上に帰る"
 
@@ -661,7 +661,7 @@ msgstr ""
 
 #: rules.php:51
 msgid "Touhou 11"
-msgstr "東方星蓮船　～ Undefined Fantastic Object."
+msgstr "東方地霊殿　～ Subterranean Animism."
 
 #: rules.php:52
 msgid ""
@@ -838,13 +838,8 @@ msgid "Full Official Rules"
 msgstr "公式ルール全文"
 
 #: rules.php:96
-msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf\" "
-"target=\"_blank\">here</a>. Currently, it is only available in the English "
-"language."
+msgid "The full official rulebook can be found here:"
 msgstr ""
-"公式ルール全文は<a href=\"assets/TWC_Handbook.pdf\" target=\"_blank\">こちら"
-"</a>にありますが、現在英語のみとなっています。"
 
 #: schedule.php:2 schedule.php:13
 msgid "Schedule"
@@ -1025,6 +1020,14 @@ msgstr "TWCScore："
 #: twcscore.php:156
 msgid "Score:"
 msgstr "スコア："
+
+#~ msgid ""
+#~ "The full official rulebook can be found <a href=\"assets/TWC_Handbook."
+#~ "pdf\" target=\"_blank\">here</a>. Currently, it is only available in the "
+#~ "English language."
+#~ msgstr ""
+#~ "公式ルール全文は<a href=\"assets/TWC_Handbook.pdf\" target=\"_blank\">こち"
+#~ "ら</a>にありますが、現在英語のみとなっています。"
 
 #~ msgid "TWC Starts In:"
 #~ msgstr "TWC開催まで："
