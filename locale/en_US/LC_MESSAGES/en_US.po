@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-05-24 19:41+0200\n"
-"PO-Revision-Date: 2023-05-24 19:41+0200\n"
+"POT-Creation-Date: 2023-06-08 21:32+0200\n"
+"PO-Revision-Date: 2023-06-08 21:32+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -79,10 +79,6 @@ msgstr ""
 
 #: index.php:18
 msgid "See below for official communication channels."
-msgstr ""
-
-#: index.php:21
-msgid "TWC Starts In:"
 msgstr ""
 
 #: index.php:28
@@ -369,11 +365,11 @@ msgstr ""
 msgid "Contents"
 msgstr ""
 
-#: results.php:27 schedule.php:22
+#: results.php:27 schedule.php:21
 msgid "Show Results"
 msgstr ""
 
-#: results.php:28 schedule.php:23
+#: results.php:28 schedule.php:22
 msgid "Hide Results"
 msgstr ""
 
@@ -410,30 +406,30 @@ msgstr ""
 msgid "Team Mind: "
 msgstr ""
 
-#: results.php:48 results.php:97 results.php:147 schedule.php:29
+#: results.php:48 results.php:97 results.php:147 schedule.php:27
 msgid "Date / Time"
 msgstr ""
 
-#: results.php:49 results.php:98 results.php:148 schedule.php:30
+#: results.php:49 results.php:98 results.php:148 schedule.php:28
 #: twcscore.php:71
 msgid "Category"
 msgstr ""
 
-#: results.php:50 results.php:99 results.php:149 schedule.php:31
+#: results.php:50 results.php:99 results.php:149 schedule.php:29
 msgid "Players"
 msgstr ""
 
-#: results.php:51 results.php:100 results.php:150 schedule.php:32
+#: results.php:51 results.php:100 results.php:150 schedule.php:30
 msgid "Reset Time<br>(minutes)"
 msgstr ""
 
-#: results.php:52 results.php:101 results.php:151 schedule.php:33
-#: schedule.php:36
+#: results.php:52 results.php:101 results.php:151 schedule.php:31
+#: schedule.php:34
 msgid "Results"
 msgstr ""
 
-#: results.php:53 results.php:102 results.php:152 schedule.php:34
-#: schedule.php:37
+#: results.php:53 results.php:102 results.php:152 schedule.php:32
+#: schedule.php:35
 msgid "Points"
 msgstr ""
 
@@ -465,7 +461,7 @@ msgstr ""
 msgid "Game Over"
 msgstr ""
 
-#: results.php:165 rules.php:95
+#: results.php:165 rules.php:97
 msgid "Back to Top"
 msgstr ""
 
@@ -614,46 +610,54 @@ msgstr ""
 #: rules.php:49
 msgid ""
 "Last Spell: Getting hit during a Last Spell is considered a death. Not "
-"meeting the time orb requirement in Stage 1-5 is also considered a death. "
-"Timing out a Last Spell is <strong>not</strong> considered a death. Failing "
-"any number of Kaguya's Last Spells counts as 1 death, even if the player "
-"dies more than once."
+"meeting the time orb requirement in Stage 1-5 is also considered a death."
+"<br>Timing out a Last Spell is <strong>not</strong> considered a death."
 msgstr ""
 
 #: rules.php:51
-msgid "Touhou 12"
+msgid "Touhou 11"
 msgstr ""
 
 #: rules.php:52
+msgid ""
+"There is a TWCScore Bonus for a credit that captures all spellcards and "
+"finishes with zero deaths."
+msgstr ""
+
+#: rules.php:53
+msgid "Touhou 12"
+msgstr ""
+
+#: rules.php:54
 msgid ""
 "UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens "
 "is allowed and does not count as a death."
 msgstr ""
 
-#: rules.php:53
+#: rules.php:55
 msgid "Touhou 13"
 msgstr ""
 
-#: rules.php:54
+#: rules.php:56
 msgid ""
 "Trance: A manually activated trance is considered two deaths."
 "<br>Additionally, there is a TWCScore Bonus for a credit that captures all "
 "spellcards and finishes with zero deaths."
 msgstr ""
 
-#: rules.php:56
+#: rules.php:58
 msgid "Touhou 16"
 msgstr ""
 
-#: rules.php:57
+#: rules.php:59
 msgid "Season Release: Releasing your season gauge is considered two deaths."
 msgstr ""
 
-#: rules.php:58
+#: rules.php:60
 msgid "Touhou 17"
 msgstr ""
 
-#: rules.php:59
+#: rules.php:61
 msgid ""
 "Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal "
 "tokens during roar mode) is considered 2 deaths. Breaking a Beserk Roar by "
@@ -662,43 +666,43 @@ msgid ""
 "considered one death."
 msgstr ""
 
-#: rules.php:62
+#: rules.php:64
 msgid "Touhou 18"
 msgstr ""
 
-#: rules.php:63
+#: rules.php:65
 msgid ""
 "Cards: Players are not allowed to use cards.<br>Additionally, the players "
 "are only allowed to buy \"Money Comes and Goes On its Own\" from the card "
 "shop between stages."
 msgstr ""
 
-#: rules.php:66
+#: rules.php:68
 msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
 msgstr ""
 
-#: rules.php:67
+#: rules.php:69
 msgid "Scoring Categories"
 msgstr ""
 
-#: rules.php:68
+#: rules.php:70
 msgid ""
 "In Scoring Categories the players will try to finish the game while gaining "
 "the highest score possible. They can die, bomb and use any other mechanics "
 "as much as they want."
 msgstr ""
 
-#: rules.php:70
+#: rules.php:72
 msgid "Some extra details about Scoring Categories:"
 msgstr ""
 
-#: rules.php:72
+#: rules.php:74
 msgid ""
 "Unlike previous years of TWC, there is now no penalty to TWCScore if a "
 "player Game Overs in a Scoring Category."
 msgstr ""
 
-#: rules.php:73
+#: rules.php:75
 msgid ""
 "In Touhou 17 and Touhou 18, it is possible to reach the maximum value the "
 "score counter can display, known as a counterstop. If this happens, we will "
@@ -706,7 +710,7 @@ msgid ""
 "removal patches."
 msgstr ""
 
-#: rules.php:75
+#: rules.php:77
 msgid ""
 "In Touhou 12, the score counter will display the player's score incorrectly "
 "if the score reaches a high enough value. However, if this happens, the game "
@@ -714,53 +718,53 @@ msgid ""
 "and that value will be used instead."
 msgstr ""
 
-#: rules.php:80
+#: rules.php:82
 msgid "Allowed Game Mods"
 msgstr ""
 
-#: rules.php:81
+#: rules.php:83
 msgid "Vpatch is allowed for all applicable games."
 msgstr ""
 
-#: rules.php:82
+#: rules.php:84
 msgid ""
 "thprac can be used for practice during a match, but all cheats must be "
 "disabled when performing credits."
 msgstr ""
 
-#: rules.php:83
+#: rules.php:85
 msgid "Counterstop Removal Patches and Scorebug Patches are allowed."
 msgstr ""
 
-#: rules.php:84
+#: rules.php:86
 msgid "Visual, Audio and Translation patches are not allowed."
 msgstr ""
 
-#: rules.php:86
+#: rules.php:88
 msgid "Other Rules"
 msgstr ""
 
-#: rules.php:88
+#: rules.php:90
 msgid ""
 "Players must stream their gameplay while playing their match, without "
 "covering any HUD or gameplay elements."
 msgstr ""
 
-#: rules.php:89
+#: rules.php:91
 msgid ""
 "The replay file of each player's best performing credit must be submitted to "
 "the TWC Committee at the end of a match."
 msgstr ""
 
-#: rules.php:90
+#: rules.php:92
 msgid "Please hide the ending when you reach the end of the game."
 msgstr ""
 
-#: rules.php:93
+#: rules.php:95
 msgid "Full Official Rules"
 msgstr ""
 
-#: rules.php:94
+#: rules.php:96
 msgid ""
 "The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf\" "
 "target=\"_blank\">here</a>. Currently, it is only available in the English "
@@ -771,7 +775,7 @@ msgstr ""
 msgid "Schedule"
 msgstr ""
 
-#: schedule.php:65
+#: schedule.php:63
 msgid "Team "
 msgstr ""
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-05-24 21:28+0200\n"
-"PO-Revision-Date: 2023-05-24 21:29+0200\n"
+"POT-Creation-Date: 2023-06-08 21:35+0200\n"
+"PO-Revision-Date: 2023-06-08 21:35+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -81,10 +81,6 @@ msgstr ""
 #: index.php:18
 msgid "See below for official communication channels."
 msgstr "官方频道详见以下链接。"
-
-#: index.php:21
-msgid "TWC Starts In:"
-msgstr "TWC开幕日期："
 
 #: index.php:28
 msgid "TWC English Commentary Stream"
@@ -339,17 +335,14 @@ msgid "YoumuEagle"
 msgstr "妖梦鹰"
 
 #: php/translations.php:58
-#| msgid "Team West: "
 msgid "Team Spirit"
 msgstr ""
 
 #: php/translations.php:59
-#| msgid "Team West: "
 msgid "Team Lotus"
 msgstr ""
 
 #: php/translations.php:60
-#| msgid "Team West: "
 msgid "Team Harmony"
 msgstr ""
 
@@ -377,11 +370,11 @@ msgstr ""
 msgid "Contents"
 msgstr "目录"
 
-#: results.php:27 schedule.php:22
+#: results.php:27 schedule.php:21
 msgid "Show Results"
 msgstr "显示结果"
 
-#: results.php:28 schedule.php:23
+#: results.php:28 schedule.php:22
 msgid "Hide Results"
 msgstr "隐藏结果"
 
@@ -390,12 +383,10 @@ msgid "Final tally:"
 msgstr "最终计分："
 
 #: results.php:33 results.php:64
-#| msgid "Team West: "
 msgid "Team Rose"
 msgstr ""
 
 #: results.php:34
-#| msgid "Team West: "
 msgid "Team Rose: "
 msgstr ""
 
@@ -405,49 +396,45 @@ msgid " points"
 msgstr "总分"
 
 #: results.php:37 results.php:72
-#| msgid "Team West: "
 msgid "Team Heart"
 msgstr ""
 
 #: results.php:38
-#| msgid "Team West: "
 msgid "Team Heart: "
 msgstr ""
 
 #: results.php:41 results.php:68
-#| msgid "Team China: "
 msgid "Team Mind"
 msgstr ""
 
 #: results.php:42
-#| msgid "Team China: "
 msgid "Team Mind: "
 msgstr ""
 
-#: results.php:48 results.php:97 results.php:147 schedule.php:29
+#: results.php:48 results.php:97 results.php:147 schedule.php:27
 msgid "Date / Time"
 msgstr "日期和时间"
 
-#: results.php:49 results.php:98 results.php:148 schedule.php:30
+#: results.php:49 results.php:98 results.php:148 schedule.php:28
 #: twcscore.php:71
 msgid "Category"
 msgstr "项目"
 
-#: results.php:50 results.php:99 results.php:149 schedule.php:31
+#: results.php:50 results.php:99 results.php:149 schedule.php:29
 msgid "Players"
 msgstr "玩家"
 
-#: results.php:51 results.php:100 results.php:150 schedule.php:32
+#: results.php:51 results.php:100 results.php:150 schedule.php:30
 msgid "Reset Time<br>(minutes)"
 msgstr "推把时间<br>（分钟）"
 
-#: results.php:52 results.php:101 results.php:151 schedule.php:33
-#: schedule.php:36
+#: results.php:52 results.php:101 results.php:151 schedule.php:31
+#: schedule.php:34
 msgid "Results"
 msgstr "结果"
 
-#: results.php:53 results.php:102 results.php:152 schedule.php:34
-#: schedule.php:37
+#: results.php:53 results.php:102 results.php:152 schedule.php:32
+#: schedule.php:35
 msgid "Points"
 msgstr "总分"
 
@@ -479,7 +466,7 @@ msgstr "西方团队："
 msgid "Game Over"
 msgstr "结束"
 
-#: results.php:165 rules.php:95
+#: results.php:165 rules.php:97
 msgid "Back to Top"
 msgstr "回到顶部"
 
@@ -637,29 +624,37 @@ msgstr "永夜抄"
 #: rules.php:49
 msgid ""
 "Last Spell: Getting hit during a Last Spell is considered a death. Not "
-"meeting the time orb requirement in Stage 1-5 is also considered a death. "
-"Timing out a Last Spell is <strong>not</strong> considered a death. Failing "
-"any number of Kaguya's Last Spells counts as 1 death, even if the player "
-"dies more than once."
+"meeting the time orb requirement in Stage 1-5 is also considered a death."
+"<br>Timing out a Last Spell is <strong>not</strong> considered a death."
 msgstr ""
 "LSC：玩家在LSC内中弹、因为没有达到每面的刻符数要求而未能解锁LSC均算作1miss。"
-"未击破并全避LSC不算作miss。6B面的5枚LSC中，不论中弹几次都只算作1miss。"
+"未击破并全避LSC不算作miss。"
 
 #: rules.php:51
+msgid "Touhou 11"
+msgstr "地灵殿"
+
+#: rules.php:52
+msgid ""
+"There is a TWCScore Bonus for a credit that captures all spellcards and "
+"finishes with zero deaths."
+msgstr "如果玩家LNN的基础上收取全卡，会获得额外的TWCScore。"
+
+#: rules.php:53
 msgid "Touhou 12"
 msgstr "星莲船"
 
-#: rules.php:52
+#: rules.php:54
 msgid ""
 "UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens "
 "is allowed and does not count as a death."
 msgstr "开碟算1 miss。收碟碎片不影响miss数。"
 
-#: rules.php:53
+#: rules.php:55
 msgid "Touhou 13"
 msgstr "神灵庙"
 
-#: rules.php:54
+#: rules.php:56
 msgid ""
 "Trance: A manually activated trance is considered two deaths."
 "<br>Additionally, there is a TWCScore Bonus for a credit that captures all "
@@ -668,19 +663,19 @@ msgstr ""
 "灵界：手动开灵界计作2 miss。如果玩家LNN的基础上收取全卡，会获得额外的"
 "TWCScore。"
 
-#: rules.php:56
+#: rules.php:58
 msgid "Touhou 16"
 msgstr "天空璋"
 
-#: rules.php:57
+#: rules.php:59
 msgid "Season Release: Releasing your season gauge is considered two deaths."
 msgstr "季节释放算2 miss。"
 
-#: rules.php:58
+#: rules.php:60
 msgid "Touhou 17"
 msgstr "鬼形兽"
 
-#: rules.php:59
+#: rules.php:61
 msgid ""
 "Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal "
 "tokens during roar mode) is considered 2 deaths. Breaking a Beserk Roar by "
@@ -691,43 +686,43 @@ msgstr ""
 "开暴走（吃了3个以上同样的动物灵）算2 miss。开正常hyper不算1 miss。灵击，无论"
 "主动还是被动，都算1 miss。"
 
-#: rules.php:62
+#: rules.php:64
 msgid "Touhou 18"
 msgstr "虹龙洞"
 
-#: rules.php:63
+#: rules.php:65
 msgid ""
 "Cards: Players are not allowed to use cards.<br>Additionally, the players "
 "are only allowed to buy \"Money Comes and Goes On its Own\" from the card "
 "shop between stages."
 msgstr "卡牌：选手不得使用任何卡牌。关底商店中只能购买【财富流至门前来】。"
 
-#: rules.php:66
+#: rules.php:68
 msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
 msgstr "<em>【财富流至门前来】</em>"
 
-#: rules.php:67
+#: rules.php:69
 msgid "Scoring Categories"
 msgstr "打分项目"
 
-#: rules.php:68
+#: rules.php:70
 msgid ""
 "In Scoring Categories the players will try to finish the game while gaining "
 "the highest score possible. They can die, bomb and use any other mechanics "
 "as much as they want."
 msgstr "打分项目中，选手需要利用所有游戏提供的机制尽可能地在游戏中获得高分。"
 
-#: rules.php:70
+#: rules.php:72
 msgid "Some extra details about Scoring Categories:"
 msgstr "关于打分项目的附加规则："
 
-#: rules.php:72
+#: rules.php:74
 msgid ""
 "Unlike previous years of TWC, there is now no penalty to TWCScore if a "
 "player Game Overs in a Scoring Category."
 msgstr "与前届TWC不同，选手疮痍时的分数同样可以用于计算TWCScore。"
 
-#: rules.php:73
+#: rules.php:75
 msgid ""
 "In Touhou 17 and Touhou 18, it is possible to reach the maximum value the "
 "score counter can display, known as a counterstop. If this happens, we will "
@@ -737,7 +732,7 @@ msgstr ""
 "鬼形兽与天空璋中爆分的场合，选手的真实分数将被用于计算TWCScore。真实分数可以"
 "用爆分修复补丁显示。"
 
-#: rules.php:75
+#: rules.php:77
 msgid ""
 "In Touhou 12, the score counter will display the player's score incorrectly "
 "if the score reaches a high enough value. However, if this happens, the game "
@@ -747,54 +742,54 @@ msgstr ""
 "星莲船中，分数在超过2,147,483,640后无法正常显示。但玩家的真实分数仍然会被游戏"
 "记录，并将作为TWCScore的计算依据。"
 
-#: rules.php:80
+#: rules.php:82
 msgid "Allowed Game Mods"
 msgstr "可使用的游戏修改工具"
 
-#: rules.php:81
+#: rules.php:83
 msgid "Vpatch is allowed for all applicable games."
 msgstr "所有的VPatch都可以使用。"
 
-#: rules.php:82
+#: rules.php:84
 msgid ""
 "thprac can be used for practice during a match, but all cheats must be "
 "disabled when performing credits."
 msgstr ""
 "可以在比赛途中使用Thprac进行练习，但实战时不能使用thprac提供的任何功能。"
 
-#: rules.php:83
+#: rules.php:85
 msgid "Counterstop Removal Patches and Scorebug Patches are allowed."
 msgstr "爆分（以及分数bug）补丁。"
 
-#: rules.php:84
+#: rules.php:86
 msgid "Visual, Audio and Translation patches are not allowed."
 msgstr "不能使用汉化版以及各类魔改（包括但不限于BGM，背景，以及立绘）。"
 
-#: rules.php:86
+#: rules.php:88
 msgid "Other Rules"
 msgstr "其他规则"
 
-#: rules.php:88
+#: rules.php:90
 msgid ""
 "Players must stream their gameplay while playing their match, without "
 "covering any HUD or gameplay elements."
 msgstr "选手必须直播比赛全程，不得遮挡游戏画面以及其现实的任何数值。"
 
-#: rules.php:89
+#: rules.php:91
 msgid ""
 "The replay file of each player's best performing credit must be submitted to "
 "the TWC Committee at the end of a match."
 msgstr "选手在赛后必须向组委会提交成绩所对应的replay。"
 
-#: rules.php:90
+#: rules.php:92
 msgid "Please hide the ending when you reach the end of the game."
 msgstr "请不要显示通关时的结局画面。"
 
-#: rules.php:93
+#: rules.php:95
 msgid "Full Official Rules"
 msgstr "TWC规则完整版"
 
-#: rules.php:94
+#: rules.php:96
 msgid ""
 "The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf\" "
 "target=\"_blank\">here</a>. Currently, it is only available in the English "
@@ -807,7 +802,7 @@ msgstr ""
 msgid "Schedule"
 msgstr "时间表"
 
-#: schedule.php:65
+#: schedule.php:63
 #, fuzzy
 #| msgid "Team West: "
 msgid "Team "
@@ -983,6 +978,9 @@ msgstr "TWCScore："
 msgid "Score:"
 msgstr "分数："
 
+#~ msgid "TWC Starts In:"
+#~ msgstr "TWC开幕日期："
+
 #~ msgid "Coming soon!"
 #~ msgstr "敬请期待！"
 
@@ -1009,9 +1007,6 @@ msgstr "分数："
 
 #~ msgid "Touhou 10"
 #~ msgstr "风神录"
-
-#~ msgid "Touhou 11"
-#~ msgstr "地灵殿"
 
 #~ msgid "Touhou 12.8"
 #~ msgstr "妖精大战争"
