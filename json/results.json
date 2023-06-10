@@ -98,5 +98,25 @@
             "twcscore": 0,
             "points": 0
         }
+    ],
+    "1686373200": [
+        {
+            "shot": "MarisaA",
+            "score": 3232985020,
+            "twcscore": 59.117,
+            "points": 2
+        },
+        {
+            "shot": "MarisaA",
+            "score": 1751461750,
+            "twcscore": 3.955,
+            "points": 0
+        },
+        {
+            "shot": "SanaeA",
+            "score": 3022105590,
+            "twcscore": 58.963,
+            "points": 1
+        }
     ]
 }
