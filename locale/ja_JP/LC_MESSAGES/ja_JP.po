@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2023-06-11 11:25+0200\n"
-"PO-Revision-Date: 2023-06-11 11:38+0200\n"
+"PO-Revision-Date: 2023-06-11 12:12+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -122,7 +122,7 @@ msgstr ""
 
 #: js/index.js:69
 msgid "Next Match:"
-msgstr "次試合："
+msgstr "次の試合："
 
 #: js/index.js:93
 msgid "TWC Starts In:"
