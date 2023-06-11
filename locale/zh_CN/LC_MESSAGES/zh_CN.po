@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-06-08 21:35+0200\n"
-"PO-Revision-Date: 2023-06-08 21:35+0200\n"
+"POT-Creation-Date: 2023-06-11 11:27+0200\n"
+"PO-Revision-Date: 2023-06-11 11:36+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -20,6 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-5: php/translations.php\n"
 "X-Poedit-SearchPath-6: results.php\n"
 "X-Poedit-SearchPath-7: php/table_func.php\n"
+"X-Poedit-SearchPath-8: js/index.js\n"
 
 #: credits.php:2 credits.php:12
 msgid "Credits"
@@ -101,6 +102,30 @@ msgstr "TWC官方YouTube频道"
 #: index.php:44
 msgid "Official TWC Twitter"
 msgstr "TWC官方推特"
+
+#: js/index.js:60
+msgid "d "
+msgstr ""
+
+#: js/index.js:60
+msgid "h "
+msgstr ""
+
+#: js/index.js:60
+msgid "m "
+msgstr ""
+
+#: js/index.js:60
+msgid "s"
+msgstr ""
+
+#: js/index.js:69
+msgid "Next Match:"
+msgstr "下场比赛："
+
+#: js/index.js:93
+msgid "TWC Starts In:"
+msgstr "TWC开幕日期："
 
 #: php/table_func.php:24
 msgid " ("
@@ -466,7 +491,7 @@ msgstr "西方团队："
 msgid "Game Over"
 msgstr "结束"
 
-#: results.php:165 rules.php:97
+#: results.php:165 rules.php:101
 msgid "Back to Top"
 msgstr "回到顶部"
 
@@ -790,13 +815,8 @@ msgid "Full Official Rules"
 msgstr "TWC规则完整版"
 
 #: rules.php:96
-msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf\" "
-"target=\"_blank\">here</a>. Currently, it is only available in the English "
-"language."
-msgstr ""
-"完整的TWC规则可以在 <a href=\"assets/TWC_Handbook.pdf\" target=\"_blank\">这"
-"里</a>被找到。目前仅提供英文版。"
+msgid "The full official rulebook can be found here:"
+msgstr "完整的TWC规则可以在这里被找到："
 
 #: schedule.php:2 schedule.php:13
 msgid "Schedule"
@@ -978,8 +998,13 @@ msgstr "TWCScore："
 msgid "Score:"
 msgstr "分数："
 
-#~ msgid "TWC Starts In:"
-#~ msgstr "TWC开幕日期："
+#~ msgid ""
+#~ "The full official rulebook can be found <a href=\"assets/TWC_Handbook."
+#~ "pdf\" target=\"_blank\">here</a>. Currently, it is only available in the "
+#~ "English language."
+#~ msgstr ""
+#~ "完整的TWC规则可以在 <a href=\"assets/TWC_Handbook.pdf\" target=\"_blank\">"
+#~ "这里</a>被找到。目前仅提供英文版。"
 
 #~ msgid "Coming soon!"
 #~ msgstr "敬请期待！"

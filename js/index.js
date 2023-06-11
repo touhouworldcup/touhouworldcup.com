@@ -1,4 +1,6 @@
-let language = "en-GB", step = setInterval(updateCountdowns, 1000);
+let language = "en-GB";
+let step = setInterval(countdownToStart, 1000);
+let schedule;
 
 function _(letter) {
     if (language != "ja-JP" && language != "zh-CN") {
@@ -39,6 +41,17 @@ function getCookie(name) {
     return "";
 }
 
+function sendXHR(type, url, data, callback) {
+    const newXHR = new XMLHttpRequest() || new window.ActiveXObject("Microsoft.XMLHTTP");
+    newXHR.open(type, url, true);
+    newXHR.send(data);
+    newXHR.onreadystatechange = function () {
+        if (this.status === 200 && this.readyState === 4) {
+            callback(this.response);
+        }
+    };
+}
+
 function formatTime(timeLeft) {
     let days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
     let hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -47,16 +60,37 @@ function formatTime(timeLeft) {
     return days + _("d ") + hours + _("h ") + minutes + _("m ") + seconds + _("s");
 }
 
-function updateCountdowns() {
-    let date = Date.UTC("2023", "4", "27", "12", "0", "0");
-    let now = new Date().getTime();
-    let timeLeft = date - now;
-    document.getElementById("countdown_start").innerHTML = formatTime(timeLeft);
+function getNextMatch() {
+    const now = Math.round(new Date().getTime() / 1000);
+
+    for (const unix in schedule) {
+        if (unix > now) {
+            const timeLeft = unix - now;
+            document.getElementById("countdown_title_match").style.display = "block";
+            document.getElementById("countdown_start").innerHTML = formatTime(timeLeft * 1000);
+            return;
+        }
+    }
+
+    document.getElementById("countdown_start").innerHTML = "";
+    document.getElementById("countdown_title_match").style.display = "none";
+    clearInterval(step);
+}
+
+function countdownToStart() {
+    const date = Date.UTC("2023", "4", "27", "12", "0", "0");
+    const now = new Date().getTime();
+    const timeLeft = date - now;
 
     if (timeLeft < 0) {
-        document.getElementById("countdown_start").innerHTML = "";
         clearInterval(step);
+        step = setInterval(getNextMatch, 1000);
+        getNextMatch();
+        return;
     }
+
+    document.getElementById("countdown_title_start").style.display = "block";
+    document.getElementById("countdown_start").innerHTML = formatTime(timeLeft);
 }
 
 function init() {
@@ -74,7 +108,10 @@ function init() {
         language = "es-ES";
     }
 
-    updateCountdowns();
+    sendXHR("GET", "/json/schedule.json", null, function (response) {
+        schedule = JSON.parse(response);
+        countdownToStart();
+    });
 }
 
 window.addEventListener("DOMContentLoaded", init, false);

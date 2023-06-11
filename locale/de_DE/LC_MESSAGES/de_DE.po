@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-06-08 21:31+0200\n"
-"PO-Revision-Date: 2023-06-08 21:32+0200\n"
+"POT-Creation-Date: 2023-06-11 11:21+0200\n"
+"PO-Revision-Date: 2023-06-11 11:21+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -20,6 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-5: php/translations.php\n"
 "X-Poedit-SearchPath-6: results.php\n"
 "X-Poedit-SearchPath-7: php/table_func.php\n"
+"X-Poedit-SearchPath-8: js/index.js\n"
 
 #: credits.php:2 credits.php:12
 msgid "Credits"
@@ -103,6 +104,30 @@ msgstr "Offizieller TWC YouTube-Kanal"
 #: index.php:44
 msgid "Official TWC Twitter"
 msgstr "Offizieller TWC-Twitter"
+
+#: js/index.js:60
+msgid "d "
+msgstr ""
+
+#: js/index.js:60
+msgid "h "
+msgstr ""
+
+#: js/index.js:60
+msgid "m "
+msgstr ""
+
+#: js/index.js:60
+msgid "s"
+msgstr ""
+
+#: js/index.js:69
+msgid "Next Match:"
+msgstr "Nächstes Match:"
+
+#: js/index.js:93
+msgid "TWC Starts In:"
+msgstr "TWC startet in:"
 
 #: php/table_func.php:24
 msgid " ("
@@ -468,7 +493,7 @@ msgstr ""
 msgid "Game Over"
 msgstr ""
 
-#: results.php:165 rules.php:97
+#: results.php:165 rules.php:101
 msgid "Back to Top"
 msgstr "Zurück zum Anfang"
 
@@ -848,14 +873,8 @@ msgid "Full Official Rules"
 msgstr "Vollständige offizielle Regeln"
 
 #: rules.php:96
-msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf\" "
-"target=\"_blank\">here</a>. Currently, it is only available in the English "
-"language."
-msgstr ""
-"Das vollständige offizielle Regelwerk ist <a href=\"assets/TWC_Handbook."
-"pdf\" target=\"_blank\">hier</a> zu finden. Derzeit ist es nur in englischer "
-"Sprache verfügbar."
+msgid "The full official rulebook can be found here:"
+msgstr "Das vollständige offizielle Regelwerk ist hier zu finden:"
 
 #: schedule.php:2 schedule.php:13
 msgid "Schedule"
@@ -1038,8 +1057,14 @@ msgstr ""
 msgid "Score:"
 msgstr "Punktanzahl:"
 
-#~ msgid "TWC Starts In:"
-#~ msgstr "TWC startet in:"
+#~ msgid ""
+#~ "The full official rulebook can be found <a href=\"assets/TWC_Handbook."
+#~ "pdf\" target=\"_blank\">here</a>. Currently, it is only available in the "
+#~ "English language."
+#~ msgstr ""
+#~ "Das vollständige offizielle Regelwerk ist <a href=\"assets/TWC_Handbook."
+#~ "pdf\" target=\"_blank\">hier</a> zu finden. Derzeit ist es nur in "
+#~ "englischer Sprache verfügbar."
 
 #~ msgid "Coming soon!"
 #~ msgstr "Kommt bald!"

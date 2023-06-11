@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-06-08 21:32+0200\n"
-"PO-Revision-Date: 2023-06-08 21:32+0200\n"
+"POT-Creation-Date: 2023-06-11 11:22+0200\n"
+"PO-Revision-Date: 2023-06-11 11:22+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -20,6 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-5: php/translations.php\n"
 "X-Poedit-SearchPath-6: results.php\n"
 "X-Poedit-SearchPath-7: php/table_func.php\n"
+"X-Poedit-SearchPath-8: js/index.js\n"
 
 #: credits.php:2 credits.php:12
 msgid "Credits"
@@ -96,6 +97,30 @@ msgstr ""
 
 #: index.php:44
 msgid "Official TWC Twitter"
+msgstr ""
+
+#: js/index.js:60
+msgid "d "
+msgstr ""
+
+#: js/index.js:60
+msgid "h "
+msgstr ""
+
+#: js/index.js:60
+msgid "m "
+msgstr ""
+
+#: js/index.js:60
+msgid "s"
+msgstr ""
+
+#: js/index.js:69
+msgid "Next Match:"
+msgstr ""
+
+#: js/index.js:93
+msgid "TWC Starts In:"
 msgstr ""
 
 #: php/table_func.php:24
@@ -458,7 +483,7 @@ msgstr ""
 msgid "Game Over"
 msgstr ""
 
-#: results.php:165 rules.php:97
+#: results.php:165 rules.php:101
 msgid "Back to Top"
 msgstr ""
 
@@ -762,10 +787,7 @@ msgid "Full Official Rules"
 msgstr ""
 
 #: rules.php:96
-msgid ""
-"The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf\" "
-"target=\"_blank\">here</a>. Currently, it is only available in the English "
-"language."
+msgid "The full official rulebook can be found here:"
 msgstr ""
 
 #: schedule.php:2 schedule.php:13

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-06-08 21:43+0200\n"
-"PO-Revision-Date: 2023-06-08 21:44+0200\n"
+"POT-Creation-Date: 2023-06-11 11:25+0200\n"
+"PO-Revision-Date: 2023-06-11 11:38+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -20,6 +20,7 @@ msgstr ""
 "X-Poedit-SearchPath-5: php/translations.php\n"
 "X-Poedit-SearchPath-6: results.php\n"
 "X-Poedit-SearchPath-7: php/table_func.php\n"
+"X-Poedit-SearchPath-8: js/index.js\n"
 
 #: credits.php:2 credits.php:12
 msgid "Credits"
@@ -102,6 +103,30 @@ msgstr "公式YouTubeチャンネル"
 #: index.php:44
 msgid "Official TWC Twitter"
 msgstr "公式ツイッター"
+
+#: js/index.js:60
+msgid "d "
+msgstr ""
+
+#: js/index.js:60
+msgid "h "
+msgstr ""
+
+#: js/index.js:60
+msgid "m "
+msgstr ""
+
+#: js/index.js:60
+msgid "s"
+msgstr ""
+
+#: js/index.js:69
+msgid "Next Match:"
+msgstr "次試合："
+
+#: js/index.js:93
+msgid "TWC Starts In:"
+msgstr "TWC開催まで："
 
 #: php/table_func.php:24
 msgid " ("
@@ -839,7 +864,7 @@ msgstr "公式ルール全文"
 
 #: rules.php:96
 msgid "The full official rulebook can be found here:"
-msgstr ""
+msgstr "公式ルール全文はこちらにあります："
 
 #: schedule.php:2 schedule.php:13
 msgid "Schedule"
@@ -1028,9 +1053,6 @@ msgstr "スコア："
 #~ msgstr ""
 #~ "公式ルール全文は<a href=\"assets/TWC_Handbook.pdf\" target=\"_blank\">こち"
 #~ "ら</a>にありますが、現在英語のみとなっています。"
-
-#~ msgid "TWC Starts In:"
-#~ msgstr "TWC開催まで："
 
 #~ msgid "Coming soon!"
 #~ msgstr "今しばらくお待ち下さい。"

@@ -52,6 +52,9 @@ iframe {
     font-family: serif;
     font-size: 48px;
 }
+#countdown_title_start, #countdown_title_match {
+    display: none;
+}
 #cards {
     text-align: center;
 }
