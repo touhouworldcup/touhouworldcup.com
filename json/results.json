@@ -118,5 +118,25 @@
             "twcscore": 58.963,
             "points": 1
         }
+    ],
+    "1686481200": [
+        {
+            "shot": "ReimuB",
+            "score": "3M",
+            "twcscore": 1.125,
+            "points": 0.5
+        },
+        {
+            "shot": "ReimuB",
+            "score": "LNN",
+            "twcscore": 9,
+            "points": 2
+        },
+        {
+            "shot": "ReimuB",
+            "score": "3M",
+            "twcscore": 1.125,
+            "points": 0.5
+        }
     ]
 }
