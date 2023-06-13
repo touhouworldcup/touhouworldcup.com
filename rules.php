@@ -52,6 +52,10 @@
                 <p><?php echo _('There is a TWCScore Bonus for a credit that captures all spellcards and finishes with zero deaths.') ?></p>
             <h4><?php echo _('Touhou 12') ?></h4>
                 <p><?php echo _('UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens is allowed and does not count as a death.') ?></p>
+            <h4><?php echo _('Touhou 12.8') ?></h4>
+                <p><?php echo _('TWCScore works differently for this category specifically. Players are allowed to use the freeze mechanic freely with no penalty.' .
+                'All credits start at 0 TWCScore, and for each gold medal obtained, varying TWCScore is awarded based on the route. ' .
+                'Furthermore, each miss will incur a loss of 1 TWCScore. This category has no upper limit on miss count, and a game over results in a 50 TWCScore penalty.') ?></p>
             <h4><?php echo _('Touhou 13') ?></h4>
                 <p><?php echo _('Trance: A manually activated trance is considered two deaths.<br>' .
                 'Additionally, there is a TWCScore Bonus for a credit that captures all spellcards and finishes with zero deaths.') ?></p>
@@ -62,8 +66,14 @@
                 'Breaking a Beserk Roar by touching a bullet gives no extra punishment. However, breaking either a Beserk Roar or a Standard Roar ' .
                 'by pressing the bomb key will always be considered one death.') ?></p>
             <h4><?php echo _('Touhou 18') ?></h4>
-                <p><?php echo _('Cards: Players are not allowed to use cards.<br>' .
-                'Additionally, the players are only allowed to buy "Money Comes and Goes On its Own" from the card shop between stages.') ?></p>
+                <p><?php echo _('Only four ability cards are allowed to be equipped, used or activated at any time. These are:') ?></p>
+                <ul>
+                    <li><?php echo _('Money Comes and Goes On its Own') ?></li>
+                    <li><?php echo _('Fragmented Life Card') ?></li>
+                    <li><?php echo _('Fragmented Spell Card') ?></li>
+                    <li><?php echo _('Ringo-Brand Dango') ?></li>
+                </ul>
+                <p><?php echo _('Additionally, the players are only allowed to buy "Money Comes and Goes On its Own" from the card shop between stages.') ?></p>
                 <img src='assets/moneycard.png' alt='Money Comes and Goes On its Own card' width=96 height=120>
                 <p><?php echo _('<em>The "Money Comes and Goes On its Own" card.</em>') ?></p>
         <h3><?php echo _('Scoring Categories') ?></h3>
@@ -77,6 +87,9 @@
                 <li><?php echo _('In Touhou 12, the score counter will display the player\'s score incorrectly if the score reaches a high enough value. ' .
                 'However, if this happens, the game will still record the player\'s score correctly on ' .
                 'the high score leaderboard and that value will be used instead.') ?></li>
+                <li><?php echo _('In Touhou 18, the "Market Manip." option from thprac is allowed for use. ' .
+                'However, credits that directly use Market Manipulation are considered invalid. Market Manipulation can be performed both before and during the match. ' .
+                'This rule is subject to change depending on dialogue with players.') ?></li>
             </ul>
     <hr>
     <h2><?php echo _('Allowed Game Mods') ?></h2>

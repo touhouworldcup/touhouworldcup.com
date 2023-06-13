@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-06-11 11:25+0200\n"
-"PO-Revision-Date: 2023-06-11 12:12+0200\n"
+"POT-Creation-Date: 2023-06-13 20:20+0200\n"
+"PO-Revision-Date: 2023-06-13 20:21+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -84,23 +84,31 @@ msgstr ""
 msgid "See below for official communication channels."
 msgstr "公式チャンネルは以下からご参照ください。"
 
-#: index.php:28
+#: index.php:21
+msgid "TWC Starts In:"
+msgstr "TWC開催まで："
+
+#: index.php:22
+msgid "Next Match:"
+msgstr "次の試合："
+
+#: index.php:29
 msgid "TWC English Commentary Stream"
 msgstr "英語解説付き配信チャンネル"
 
-#: index.php:32
+#: index.php:33
 msgid "TWC Japanese Commentary Stream"
 msgstr "日本語解説付き配信チャンネル"
 
-#: index.php:36
+#: index.php:37
 msgid "TWC Chinese Commentary Stream"
 msgstr "中国語解説付き配信チャンネル"
 
-#: index.php:40
+#: index.php:41
 msgid "Official TWC YouTube Channel"
 msgstr "公式YouTubeチャンネル"
 
-#: index.php:44
+#: index.php:45
 msgid "Official TWC Twitter"
 msgstr "公式ツイッター"
 
@@ -119,14 +127,6 @@ msgstr ""
 #: js/index.js:60
 msgid "s"
 msgstr ""
-
-#: js/index.js:69
-msgid "Next Match:"
-msgstr "次の試合："
-
-#: js/index.js:93
-msgid "TWC Starts In:"
-msgstr "TWC開催まで："
 
 #: php/table_func.php:24
 msgid " ("
@@ -502,7 +502,7 @@ msgstr "西洋チーム："
 msgid "Game Over"
 msgstr ""
 
-#: results.php:165 rules.php:101
+#: results.php:165 rules.php:114
 msgid "Back to Top"
 msgstr "上に帰る"
 
@@ -521,8 +521,8 @@ msgstr "各チームのプレイヤーが同時に対戦します。"
 #: rules.php:15
 msgid "For every match, each player can earn points for their team:"
 msgstr ""
-"各試合の順位によって各チームはポイントを獲得します。各試合の順位はTWCScore"
-"（TWCScoreについての欄を参照）の高い順に決定されます。獲得ポイントは以下の通"
+"各試合の順位によって各チームはポイントを獲得します。各試合の順位はTWCスコア"
+"（TWCスコアについての欄を参照）の高い順に決定されます。獲得ポイントは以下の通"
 "りです。"
 
 #: rules.php:17
@@ -550,9 +550,9 @@ msgid ""
 "If multiple players have the same TWCScore at the end of a match, they are "
 "considered tied and their points will be split equally."
 msgstr ""
-"また、複数のチームが同じTWCScoreを獲得した場合は、チームへの獲得ポイントを分"
-"け合います（例：２チームが同じISCOREを獲得し１位となった場合、トータル３ポイ"
-"ントを分け合い1.5ポイントずつを獲得します）"
+"また、複数のチームが同じTWCスコアを獲得した場合は、チームへの獲得ポイントを分"
+"け合います（例：２チームが同じTWCスコアを獲得し１位となった場合、トータル３ポ"
+"イントを分け合い1.5ポイントずつを獲得します）"
 
 #: rules.php:25
 msgid ""
@@ -562,7 +562,7 @@ msgstr "全試合終了後、獲得ポイントの多い順に順位が決定さ
 
 #: rules.php:27 twcscore.php:2 twcscore.php:104 twcscore.php:107
 msgid "TWCScore"
-msgstr "TWCScore"
+msgstr "TWCスコア"
 
 #: rules.php:28
 msgid ""
@@ -570,31 +570,33 @@ msgid ""
 "href=\"twcscore\">TWCScore Calculator</a>. This is a scoring metric which "
 "compensates for differences in shot type performance so that there is a "
 "point of comparison between credits in a category."
-msgstr "各試合で獲得するTWCScoreはTWCScore計算機により定められます。"
+msgstr ""
+"各試合で獲得するTWCスコアは<a href=\"twcscore\">TWCスコア計算機</a>により定め"
+"られます。"
 
 #: rules.php:29
 msgid ""
 "The TWCScore of credits is used to determine player ranking at the end of a "
 "match, with each player's best performing credit being used."
 msgstr ""
-"走者のクレジットの結果（TWCScore）は、試合終了時のプレイヤーランキングを決定"
-"するために使用され、各プレイヤーの最も良いクレジットが採用されます。"
+"プレイヤーのクレジットの結果（TWCスコア）は、試合終了時のプレイヤーランキング"
+"を決定するために使用され、各プレイヤーの最も良いクレジットが採用されます。"
 
 #: rules.php:30
 msgid ""
 "For Survival Categories, each shot type starts with a prescribed TWCScore "
 "with this value being cut in half every time the player dies."
 msgstr ""
-"サバイバルカテゴリでは、各ショットタイプが規定のTWCScoreで始まり、プレイヤー"
-"が被弾するたびに半分になります。"
+"サバイバル部門では、各機体に規定のTWCスコアが設けられ、プレイヤーが被弾するた"
+"びに半分になります。"
 
 #: rules.php:31
 msgid ""
 "For Scoring Categories, TWCScore increases exponentially as the player's in-"
 "game score increases."
 msgstr ""
-"スコアリングカテゴリの場合では、TWCScoreはプレイヤーのゲーム内スコアが増加す"
-"るにつれて指数関数的に増加します。"
+"スコアアタック部門の場合では、TWCスコアはプレイヤーのゲーム内スコアが増加する"
+"につれて指数関数的に増加します。"
 
 #: rules.php:33
 msgid "Reset Timer"
@@ -605,8 +607,8 @@ msgid ""
 "Each Category has a Reset Timer which counts down as the match progresses, "
 "this shows the time in which a player can start a new credit."
 msgstr ""
-"各カテゴリーにはリセットタイマーがあり、試合の進行に応じてカウントダウンさ"
-"れ、新しいクレジットを開始できる時間が表示されます。"
+"各部門にはリセットタイマーがあり、試合の進行に応じてカウントダウンされ、新し"
+"いクレジットを開始できる時間が表示されます。"
 
 #: rules.php:35
 msgid ""
@@ -621,8 +623,8 @@ msgid ""
 "When the timer reaches zero, the players cannot start any new credits, but "
 "they can finish a credit already in progress."
 msgstr ""
-"タイマーがゼロになると、プレイヤーは新しいクレジットを開始することはできませ"
-"んが、すでに進行中のクレジットを完走することはできます。"
+"タイマーがゼロになると、プレイヤーは新しいクレジットを開始することができなく"
+"なりますが、すでに進行中のクレジットを完走することはできます。"
 
 #: rules.php:38
 msgid "Gameplay Rules"
@@ -630,7 +632,7 @@ msgstr "ゲームプレイにおいてのルール"
 
 #: rules.php:39
 msgid "Survival Categories"
-msgstr "サバイバルカテゴリについて"
+msgstr "サバイバル部門について"
 
 #: rules.php:40
 msgid ""
@@ -638,15 +640,15 @@ msgid ""
 "They can only die a maximum of five times and are not allowed to use bombs "
 "or any other in game mechanics to help them."
 msgstr ""
-"サバイバルカテゴリーでは、プレイヤーは出来るだけ被弾せずゲームをクリアするこ"
-"とを目指します。最大5回までしか被弾することができず、また、ボムやゲーム内サブ"
-"システムを使って被弾を回避することは許されません。"
+"サバイバル部門では、プレイヤーは出来るだけ被弾せずゲームをクリアすることを目"
+"指します。6回以上の被弾でTWCスコアは0となり、またボムやゲーム内サブシステムを"
+"使った場合はペナルティが発生します。以下はサバイバル部門についての詳細です。"
 
 #: rules.php:42
 msgid ""
 "Here is a quick breakdown of how different game mechanics affect Survival "
 "Categories:"
-msgstr "サバイバルカテゴリでの各作品においての簡単な説明です。"
+msgstr "以下はサバイバル部門についての詳細です。"
 
 #: rules.php:43
 msgid "All Touhou Games"
@@ -654,7 +656,7 @@ msgstr "すべての作品共通"
 
 #: rules.php:44
 msgid "Bombs: Bombing at anytime is considered two deaths."
-msgstr "ボム：1⃣ボム使用あたり２被弾扱いとなります。"
+msgstr "1ボム使用につき2被弾扱いとなります。"
 
 #: rules.php:45
 msgid "Touhou 7"
@@ -666,8 +668,10 @@ msgid ""
 "considered two deaths. However, running into a bullet while a border is "
 "active will only count as one death."
 msgstr ""
-"森羅結界：ボムキー押下による霊撃は２被弾扱いですが、被弾による霊撃は１被弾扱"
-"いとなります。"
+"森羅結界発動時のボムキー押下による霊撃は2被弾扱いですが、被弾による霊撃は1被"
+"弾扱いとなります。被弾中の森羅結界発動による「喰らい霊撃バグ」を引き起こした"
+"場合、1被弾として扱われます。この状態における次の被弾についても1被弾として扱"
+"われます。"
 
 #: rules.php:48
 msgid "Touhou 8"
@@ -679,10 +683,9 @@ msgid ""
 "meeting the time orb requirement in Stage 1-5 is also considered a death."
 "<br>Timing out a Last Spell is <strong>not</strong> considered a death."
 msgstr ""
-"ラストスペルについて：ラストスペルでの被弾は、１被弾とカウントされます。ス"
-"テージ５までのラストスペルを出現させることが出来なかった場合、１つのラストス"
-"ペルあたり１被弾とカウントされます。ラストスペルがタイムアウトした場合は被弾"
-"とカウントされません。"
+"ラストスペルでの被弾は1被弾として扱われます。ステージ５までのラストスペルを出"
+"現させることが出来なかった場合、1つのラストスペルあたり1被弾として扱われま"
+"す。ラストスペルがタイムアウトした場合は被弾に含まれません。"
 
 #: rules.php:51
 msgid "Touhou 11"
@@ -693,8 +696,8 @@ msgid ""
 "There is a TWCScore Bonus for a credit that captures all spellcards and "
 "finishes with zero deaths."
 msgstr ""
-"全スペルカードを取得し、かつ、ノーミスノーボムを達成した場合にのみ、より高い"
-"TWCScoreが与えられます（TWCScore計算機のFull-SC欄を参照）。"
+"全スペルカードを取得し、かつノーミスノーボムを達成した場合にのみ、一部の機体"
+"はより高いTWCスコアが与えられます（TWCスコア計算機のFull-SC欄を参照）。"
 
 #: rules.php:53
 msgid "Touhou 12"
@@ -705,36 +708,55 @@ msgid ""
 "UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens "
 "is allowed and does not count as a death."
 msgstr ""
-"サバイバルマッチではUFOの召喚を被弾として扱います。ただし、ベントラーの取得は"
-"ISCOREに影響を与えません。"
+"UFOの召喚を1被弾として扱います。ただし、ベントラーの取得はTWCスコアに影響を与"
+"えません。"
 
 #: rules.php:55
+msgid "Touhou 12.8"
+msgstr "妖精大戦争　～ 東方三月精"
+
+#: rules.php:56
+msgid ""
+"TWCScore works differently for this category specifically. Players are "
+"allowed to use the freeze mechanic freely with no penalty.All credits start "
+"at 0 TWCScore, and for each gold medal obtained, varying TWCScore is awarded "
+"based on the route. Furthermore, each miss will incur a loss of 1 TWCScore. "
+"This category has no upper limit on miss count, and a game over results in a "
+"50 TWCScore penalty."
+msgstr ""
+"この部門ではプレイヤーは他作品と違う条件下で競います。プレイヤーはこおりパ"
+"ワーを弾幕に対して追加ペナルティなしに無制限に使用することができます。全ての"
+"クレジットでTWCスコアは0から開始し、金メダル1つにつき、ルートに応じたTWCスコ"
+"アを獲得できます。また、1被弾につきTWCスコアを1失います。この部門においては被"
+"弾数に上限はありませんが、満身創痍した場合TWCスコアを50失います。"
+
+#: rules.php:59
 msgid "Touhou 13"
 msgstr "東方神霊廟　～ Ten Desires."
 
-#: rules.php:56
+#: rules.php:60
 msgid ""
 "Trance: A manually activated trance is considered two deaths."
 "<br>Additionally, there is a TWCScore Bonus for a credit that captures all "
 "spellcards and finishes with zero deaths."
 msgstr ""
-"任意トランスはサバイバルマッチでは２被弾として扱われます。また、全スペルカー"
-"ドを取得し、かつ、ノーミスノーボムを達成した場合にのみ、より高いTWCScoreが与"
-"えられます（TWCScore計算機のFull-SC欄を参照）。"
+"任意トランスは2被弾として扱われます。また、全スペルカードを取得し、かつノーミ"
+"スノーボムを達成した場合にのみ、より高いTWCスコアが与えられます（TWCスコア計"
+"算機のFull-SC欄を参照）。"
 
-#: rules.php:58
+#: rules.php:62
 msgid "Touhou 16"
 msgstr "東方天空璋　～ Hidden Star in Four Seasons."
 
-#: rules.php:59
+#: rules.php:63
 msgid "Season Release: Releasing your season gauge is considered two deaths."
-msgstr "サバイバルマッチにおいて、季節解放は２被弾として扱われます。"
+msgstr "季節解放は2被弾として扱われます。"
 
-#: rules.php:60
+#: rules.php:64
 msgid "Touhou 17"
 msgstr "東方鬼形獣 ～ Wily Beast and Weakest Creature."
 
-#: rules.php:61
+#: rules.php:65
 msgid ""
 "Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal "
 "tokens during roar mode) is considered 2 deaths. Breaking a Beserk Roar by "
@@ -742,52 +764,73 @@ msgid ""
 "Beserk Roar or a Standard Roar by pressing the bomb key will always be "
 "considered one death."
 msgstr ""
-"同種の動物霊を３個以上集めることで発動する暴走ロアリングはサバイバルマッチで"
-"は２被弾として扱われます。また、ロアリング中の霊撃（ボムボタン押下または被弾"
-"によるもの）はサバイバルマッチでは１被弾として扱われます。"
+"同種の動物霊を3個以上集めることで発動する暴走ロアリングは2被弾として扱われま"
+"す。ただし、暴走ロアリング中のボムキー押下による霊撃に追加のペナルティは発生"
+"しません。また、通常ロアリングの発動にペナルティは発生しませんが、通常ロアリ"
+"ング中のボムキー押下による霊撃は2被弾として扱われます。通常ロアリング、暴走ロ"
+"アリングともに発動中の被弾に関しては1被弾として扱われます。"
 
-#: rules.php:64
+#: rules.php:68
 msgid "Touhou 18"
 msgstr "東方虹龍洞　～ Unconnected Marketeers."
 
-#: rules.php:65
+#: rules.php:69
 msgid ""
-"Cards: Players are not allowed to use cards.<br>Additionally, the players "
-"are only allowed to buy \"Money Comes and Goes On its Own\" from the card "
-"shop between stages."
-msgstr ""
-"カードの使用：カードの使用は認められていません。<br>ステージ間のショップでは"
-"「勝手に天下の回り物」(ナズーリンカード)の購入が許可されます。"
+"Only four ability cards are allowed to be equipped, used or activated at any "
+"time. These are:"
+msgstr "4種類のアビリティカードの使用のみが常時許可されます。"
 
-#: rules.php:68
+#: rules.php:71
+msgid "Money Comes and Goes On its Own"
+msgstr "勝手に天下の回り物"
+
+#: rules.php:72
+msgid "Fragmented Life Card"
+msgstr "欠けた命のカード"
+
+#: rules.php:73
+msgid "Fragmented Spell Card"
+msgstr "欠けたスペルのカード"
+
+#: rules.php:74
+msgid "Ringo-Brand Dango"
+msgstr "鈴瑚印の団子"
+
+#: rules.php:76
+msgid ""
+"Additionally, the players are only allowed to buy \"Money Comes and Goes On "
+"its Own\" from the card shop between stages."
+msgstr "ステージ間のショップでは「勝手に天下の回り物」のみ購入できます。"
+
+#: rules.php:78
 msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
 msgstr "<em>「勝手に天下の回り物」</em>"
 
-#: rules.php:69
+#: rules.php:79
 msgid "Scoring Categories"
-msgstr "スコアリングカテゴリについて"
+msgstr "スコアアタック部門について"
 
-#: rules.php:70
+#: rules.php:80
 msgid ""
 "In Scoring Categories the players will try to finish the game while gaining "
 "the highest score possible. They can die, bomb and use any other mechanics "
 "as much as they want."
 msgstr ""
-"スコアリングカテゴリでは、プレイヤーはより高いスコアを獲得することを目指しま"
-"す。\n"
-"被弾、ボムの使用、サブシステムなどを自由に使用することが出来ます。"
+"スコアアタック部門では、プレイヤーはより高いスコアを獲得することを目指しま"
+"す。プレイヤーは 被弾、ボムの使用、サブシステムなどを自由に使用することが出来"
+"ます。"
 
-#: rules.php:72
+#: rules.php:82
 msgid "Some extra details about Scoring Categories:"
-msgstr "スコアリングカテゴリについての詳細。"
+msgstr "以下はスコアアタック部門についての詳細です。"
 
-#: rules.php:74
+#: rules.php:84
 msgid ""
 "Unlike previous years of TWC, there is now no penalty to TWCScore if a "
 "player Game Overs in a Scoring Category."
-msgstr "昨年までのTWCと違い、満身創痍にペナルティーが無くなりました。"
+msgstr "満身創痍にペナルティは発生しません。"
 
-#: rules.php:75
+#: rules.php:85
 msgid ""
 "In Touhou 17 and Touhou 18, it is possible to reach the maximum value the "
 "score counter can display, known as a counterstop. If this happens, we will "
@@ -795,50 +838,60 @@ msgid ""
 "removal patches."
 msgstr ""
 "東方鬼形獣、東方虹龍洞において、いわゆるスコアの「カンスト」が起きた場合、カ"
-"ウンターストップ解除パッチにより\n"
-"「本来のスコア」が競技に適用されます。"
+"ウンターストップ解除パッチにより 「本来のスコア」が競技に適用されます。"
 
-#: rules.php:77
+#: rules.php:87
 msgid ""
 "In Touhou 12, the score counter will display the player's score incorrectly "
 "if the score reaches a high enough value. However, if this happens, the game "
 "will still record the player's score correctly on the high score leaderboard "
 "and that value will be used instead."
 msgstr ""
-"東方星蓮船ではスコアが一定以上になるとスコアカウンターが正常に機能しなくなり"
-"ます。（いわゆるスコアバグ）\n"
-"しかしリーダーボードでは正しいスコアが表記されるため、そのスコアが採用されま"
-"す。"
+"東方星蓮船ではスコアが一定以上になるとスコア表記が正常に機能しなくなります"
+"（いわゆるスコアバグ）。しかしリーダーボードでは正しいスコアが表記されるた"
+"め、そのスコアが採用されます。"
 
-#: rules.php:82
+#: rules.php:90
+msgid ""
+"In Touhou 18, the \"Market Manip.\" option from thprac is allowed for use. "
+"However, credits that directly use Market Manipulation are considered "
+"invalid. Market Manipulation can be performed both before and during the "
+"match. This rule is subject to change depending on dialogue with players."
+msgstr ""
+"東方虹龍洞では、thprac のオプション「市場操作」の使用が許可されますが、市場操"
+"作を直接行ったクレジットは無効とされます。具体的には、試合前、試合中にかかわ"
+"らず、市場操作を行うことができます。特にこの規定は、プレイヤーとの対話によ"
+"り、変更される可能性があります。"
+
+#: rules.php:95
 msgid "Allowed Game Mods"
 msgstr "許可されているゲーム改変ツール"
 
-#: rules.php:83
+#: rules.php:96
 msgid "Vpatch is allowed for all applicable games."
-msgstr "パッチの使用は許可されています。"
+msgstr "Vパッチの使用は許可されています。"
 
-#: rules.php:84
+#: rules.php:97
 msgid ""
 "thprac can be used for practice during a match, but all cheats must be "
 "disabled when performing credits."
 msgstr ""
 "試合中の練習のためにプラクティスツール（thprac等）を使用することは許可されて"
-"いますが、プラクティスツールを用いたプレイは無効とします。"
+"いますが、プラクティスツールの機能を用いたプレイは無効とします。"
 
-#: rules.php:85
+#: rules.php:98
 msgid "Counterstop Removal Patches and Scorebug Patches are allowed."
 msgstr "カウンターストップ解除パッチ、スコアバグ回避パッチは許可されます。"
 
-#: rules.php:86
+#: rules.php:99
 msgid "Visual, Audio and Translation patches are not allowed."
 msgstr "ゲーム画面改変、音声改変、翻訳パッチは許可されません。"
 
-#: rules.php:88
+#: rules.php:101
 msgid "Other Rules"
 msgstr "その他のルール"
 
-#: rules.php:90
+#: rules.php:103
 msgid ""
 "Players must stream their gameplay while playing their match, without "
 "covering any HUD or gameplay elements."
@@ -846,23 +899,23 @@ msgstr ""
 "プレイヤーはプレイ中のゲーム画面を配信しなければなりません。ゲーム画面をその"
 "まま配信し、形を変えたり切り取りをしないでください。"
 
-#: rules.php:91
+#: rules.php:104
 msgid ""
 "The replay file of each player's best performing credit must be submitted to "
 "the TWC Committee at the end of a match."
 msgstr ""
-"試合終了後、各プレイヤーはベストパフォーマンスのリプレイファイルをTWC運営に提"
-"出すること。"
+"試合終了後、各プレイヤーはTWCスコアが最も高いクレジットのリプレイファイルを"
+"TWC委員会に提出してください。"
 
-#: rules.php:92
+#: rules.php:105
 msgid "Please hide the ending when you reach the end of the game."
 msgstr "クリア後のエンディングは必ず隠してください。"
 
-#: rules.php:95
+#: rules.php:108
 msgid "Full Official Rules"
 msgstr "公式ルール全文"
 
-#: rules.php:96
+#: rules.php:109
 msgid "The full official rulebook can be found here:"
 msgstr "公式ルール全文はこちらにあります："
 
@@ -878,7 +931,7 @@ msgstr "西洋チーム："
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
-msgstr "TWCScore計算機"
+msgstr "TWCスコア計算機"
 
 #: twcscore.php:13
 msgid "This page requires JavaScript"
@@ -894,7 +947,7 @@ msgstr ""
 
 #: twcscore.php:16
 msgid "Click here to see all rubrics."
-msgstr "ここをクリックすると、TWCScoreの全パラメーターが表示されます。"
+msgstr "ここをクリックすると、TWCスコアの全パラメーターが表示されます。"
 
 #: twcscore.php:19
 msgid "Game"
@@ -1040,7 +1093,7 @@ msgstr "計算する"
 
 #: twcscore.php:155
 msgid "TWCScore:"
-msgstr "TWCScore："
+msgstr "TWCスコア："
 
 #: twcscore.php:156
 msgid "Score:"
@@ -1083,9 +1136,6 @@ msgstr "スコア："
 
 #~ msgid "Touhou 10"
 #~ msgstr "東方星蓮船　～ Undefined Fantastic Object."
-
-#~ msgid "Touhou 12.8"
-#~ msgstr "妖精大戦争　～ 東方三月精"
 
 #~ msgid "Touhou 14"
 #~ msgstr "東方星蓮船　～ Undefined Fantastic Object."
