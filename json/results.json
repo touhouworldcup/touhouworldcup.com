@@ -138,5 +138,25 @@
             "twcscore": 1.125,
             "points": 0.5
         }
+    ],
+    "1687003200": [
+        {
+            "shot": "SakuyaB",
+            "score": 2278993730,
+            "twcscore": 29.67,
+            "points": 1
+        },
+        {
+            "shot": "ReimuA",
+            "score": 1722978370,
+            "twcscore": 91.01,
+            "points": 2
+        },
+        {
+            "shot": "SakuyaA",
+            "score": 1397859870,
+            "twcscore": 5.884,
+            "points": 0
+        }
     ]
 }
