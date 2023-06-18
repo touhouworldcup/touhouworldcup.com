@@ -158,5 +158,25 @@
             "twcscore": 5.884,
             "points": 0
         }
+    ],
+    "1687095000": [
+        {
+            "shot": "ReimuB",
+            "score": 684018390,
+            "twcscore": 61.768,
+            "points": 2
+        },
+        {
+            "shot": "ReimuB",
+            "score": 644700670,
+            "twcscore": 36.407,
+            "points": 1
+        },
+        {
+            "shot": "MarisaB",
+            "score": 477688980,
+            "twcscore": 4.651,
+            "points": 0
+        }
     ]
 }
