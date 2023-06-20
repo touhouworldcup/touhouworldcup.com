@@ -71,10 +71,10 @@
 	<label for="runtype"><?php echo _('Category') ?></label><br>
     <fieldset name="runtype" id="runtype">
         <label id="survival" class="float">
-    		<input type="radio" id="input_surv" name="runtype" value="surv"><img class="cover" src="assets/surv.png" width=100 height=100 alt="<?php echo _('Survival') ?>"><br>
+    		<input type="radio" id="input_surv" name="runtype" value="surv"><img class="cover" src="assets/surv_icon.png" width=100 height=100 alt="<?php echo _('Survival') ?>"><br>
             <label class="pointer" for="input_surv"><?php echo _('Survival') ?></label>
         </label><label id="scoring" class="float">
-    		<input type="radio" id="input_score" name="runtype" value="score"><img class="cover" src="assets/score.png" width=100 height=100 alt="<?php echo _('Scoring') ?>"><br>
+    		<input type="radio" id="input_score" name="runtype" value="score"><img class="cover" src="assets/score_icon.png" width=100 height=100 alt="<?php echo _('Scoring') ?>"><br>
             <label class="pointer" for="input_score"><?php echo _('Scoring') ?></label>
         </label>
 	</fieldset>

@@ -59,6 +59,10 @@ button {
     display: none;
     color: red;
 }
+#survival .cover, #scoring .cover {
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+}
 .game {
     display: none;
 }
