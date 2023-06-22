@@ -40,6 +40,7 @@ window.onload = () => {
         "th06": true,
         "th07": true,
         "th08": true,
+        "th09": true,
         "th11": true,
         "th13": true,
         "th14": true
