@@ -1,7 +1,7 @@
 <?php
     $title = 'Index';
     $description = 'Main page of the official Touhou World Cup website';
-    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2022 competition, scoring, survival, tournament';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, competition, scoring, survival, tournament';
 ?>
 
 <!DOCTYPE html>
