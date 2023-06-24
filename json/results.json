@@ -178,5 +178,45 @@
             "twcscore": 4.651,
             "points": 0
         }
+    ],
+    "1687600800": [
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "Tewi",
+            "score": 112911390,
+            "twcscore": 5.199,
+            "points": 2
+        },
+        {
+            "shot": "Medicine",
+            "score": 126032680,
+            "twcscore": 3.408,
+            "points": 1
+        }
+    ],
+    "1687606200": [
+        {
+            "shot": "ReimuA",
+            "score": 870794810,
+            "twcscore": 2.887,
+            "points": 0
+        },
+        {
+            "shot": "ReimuA",
+            "score": 1108249020,
+            "twcscore": 31.554,
+            "points": 1
+        },
+        {
+            "shot": "MarisaA",
+            "score": 1102766980,
+            "twcscore": 33.676,
+            "points": 2
+        }
     ]
 }
