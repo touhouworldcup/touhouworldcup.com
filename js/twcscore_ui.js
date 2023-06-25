@@ -40,6 +40,7 @@ window.onload = () => {
         "th06": true,
         "th07": true,
         "th08": true,
+        "th09": true,
         "th11": true,
         "th13": true,
         "th14": true
@@ -142,6 +143,29 @@ window.onload = () => {
             game_runtype_specific_opts(selected_game);
         }
 	}
+
+    const diff_selected = () => {
+        const aya = document.getElementById("th09Aya");
+        const medicine = document.getElementById("th09Medicine");
+
+        if (aya && medicine) {
+            const diff = diff_sel.value;
+            const display = diff == "Extra" ? "inline-block": "none";
+
+            aya.style.display = display;
+            medicine.style.display = display;
+
+            const shot_name = get_shot_name();
+
+            if (diff == "Lunatic" && (shot_name == "Aya" || shot_name == "Medicine")) {
+                const radio_buttons = document.getElementById("th09").querySelectorAll("input");
+
+                for (const radio_button of radio_buttons) {
+                    radio_button.checked = false;
+                }
+            }
+        }
+    }
 
 	const get_element_val = (element, error, type) => {
 		if (typeof(element) != "object") {
@@ -328,6 +352,7 @@ window.onload = () => {
     i_gold_minus.addEventListener("click", adjust_medal_count, false);
     submit.addEventListener("click", calc_iscore, false);
     game_sel.addEventListener("change", game_selected, false);
+    diff_sel.addEventListener("change", diff_selected, false);
     runtype.addEventListener("change", change_runtype, false);
     inputscore.addEventListener("change", change_inputscore, false);
     runtype.value = "";
@@ -339,6 +364,7 @@ window.onload = () => {
     th08_opts.style.display = "none";
     th128_medal_w.style.display = "none";
     game_selected();
+    diff_selected();
     change_runtype();
     change_inputscore();
 }
