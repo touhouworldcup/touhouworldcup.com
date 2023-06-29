@@ -145,11 +145,18 @@ window.onload = () => {
 	}
 
     const diff_selected = () => {
+        const diff = diff_sel.value;
+
+        if (get_name(game_sel) == "th08" && diff === "Lunatic") {
+            th08_opts.style.display = "inline";
+        } else {
+            th08_opts.style.display = "none";
+        }
+
         const aya = document.getElementById("th09Aya");
         const medicine = document.getElementById("th09Medicine");
 
         if (aya && medicine) {
-            const diff = diff_sel.value;
             const display = diff == "Extra" ? "inline-block": "none";
 
             aya.style.display = display;
