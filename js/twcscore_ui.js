@@ -130,13 +130,13 @@ window.onload = () => {
             document.getElementById(game_name).style.display = "none";
         }
 
-        let selected_game = get_name(game_sel);
+        const selected_game = get_name(game_sel);
 
         if (selected_game) {
             document.getElementById(selected_game).disabled = false;
             document.getElementById(selected_game).style.display = "block";
 
-            if (selected_game === "th08") {
+            if (selected_game === "th08" && diff_sel.value === "Lunatic") {
                 th08_opts.style.display = "inline";
             }
 
