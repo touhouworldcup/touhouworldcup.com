@@ -258,5 +258,45 @@
             "twcscore": 14.446,
             "points": 0
         }
+    ],
+    "1688211000": [
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "ReimuB",
+            "score": 1153284500,
+            "twcscore": 0.668,
+            "points": 1
+        },
+        {
+            "shot": "ReimuB",
+            "score": 1253910350,
+            "twcscore": 2.358,
+            "points": 2
+        }
+    ],
+    "1688220000": [
+        {
+            "shot": "MarisaB",
+            "score": 1181935880,
+            "twcscore": 4.686,
+            "points": 1
+        },
+        {
+            "shot": "MarisaB",
+            "score": 1172185000,
+            "twcscore": 3.512,
+            "points": 0
+        },
+        {
+            "shot": "MarisaA",
+            "score": 748680850,
+            "twcscore": 18.892,
+            "points": 2
+        }
     ]
 }
