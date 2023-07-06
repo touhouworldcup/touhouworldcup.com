@@ -298,5 +298,45 @@
             "twcscore": 18.892,
             "points": 2
         }
+    ],
+    "1688295600": [
+        {
+            "shot": "ReimuB",
+            "score": "2M",
+            "twcscore": 2,
+            "points": 0
+        },
+        {
+            "shot": "SakuyaB",
+            "score": "LNNN",
+            "twcscore": 8,
+            "points": 2
+        },
+        {
+            "shot": "MarisaB",
+            "score": "2M",
+            "twcscore": 3.75,
+            "points": 1
+        }
+    ],
+    "1688306400": [
+        {
+            "shot": "ReimuA",
+            "score": "1M",
+            "twcscore": 9,
+            "points": 1.5
+        },
+        {
+            "shot": "ReimuA",
+            "score": "1M",
+            "twcscore": 9,
+            "points": 1.5
+        },
+        {
+            "shot": "ReimuB",
+            "score": "2M",
+            "twcscore": 3.25,
+            "points": 0
+        }
     ]
 }
