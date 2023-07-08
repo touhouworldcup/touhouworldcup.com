@@ -338,5 +338,25 @@
             "twcscore": 3.25,
             "points": 0
         }
+    ],
+    "1688749200": [
+        {
+            "shot": "ReimuB",
+            "score": "4M",
+            "twcscore": 1.25,
+            "points": 1
+        },
+        {
+            "shot": "MarisaB",
+            "score": "3M",
+            "twcscore": 3.75,
+            "points": 2
+        },
+        {
+            "shot": "ReimuB",
+            "score": "5M",
+            "twcscore": 0.625,
+            "points": 0
+        }
     ]
 }
