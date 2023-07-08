@@ -358,5 +358,19 @@
             "twcscore": 0.625,
             "points": 0
         }
-    ]
+    ],
+	"1688824800": [
+		{
+            "shot": "MarisaO",
+            "score": 11275012750,
+            "twcscore": 62.901,
+            "points": 0
+        },
+		{
+            "shot": "YoumuE",
+            "score": 8773852570,
+            "twcscore": 174.265,
+            "points": 0
+        }
+	]
 }
