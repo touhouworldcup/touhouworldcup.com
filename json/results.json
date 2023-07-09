@@ -398,5 +398,25 @@
             "twcscore": 76.872,
             "points": 2
         }
+    ],
+    "1688904000": [
+        {
+            "shot": "MarisaA",
+            "score": "1M",
+            "twcscore": 6,
+            "points": 1
+        },
+		{
+            "shot": "MarisaC",
+            "score": "2M",
+            "twcscore": 6.5,
+            "points": 2
+        },
+		{
+            "shot": "ReimuA",
+            "score": "1M",
+            "twcscore": 4.5,
+            "points": 0
+        }
     ]
 }
