@@ -18,6 +18,7 @@
             echo _('Daylight Saving Time (also known as Summer Time or DST) is taken into account automatically.');
         }
     ?></p>
+    <p><?php echo _('For scoring runs, "(WR)" indicates that the given run broke the world record at the time of the match.')?></p>
     <h2 class="contents"><?php echo _('Contents') ?></h2>
     <div class="contents">
         <p><a href="#2022">2022</a></p>

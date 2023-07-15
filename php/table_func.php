@@ -14,6 +14,9 @@ function format_results(array $results, array $bonus_matches, string $key) {
             $formatted .= $result['score'];
         } else { // scoring
             $formatted .= number_format($result['score'], 0, '.', ',');
+            if ($result['wr'] ?? false) {
+                $formatted .= ' (WR)';
+            }
         }
         if (isset($result['gameover'])) {
             $formatted .= '*';

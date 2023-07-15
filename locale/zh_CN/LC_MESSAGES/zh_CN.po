@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-06-13 20:21+0200\n"
-"PO-Revision-Date: 2023-06-13 20:21+0200\n"
+"POT-Creation-Date: 2023-07-14 22:53-0700\n"
+"PO-Revision-Date: 2023-07-14 22:55-0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: index.php\n"
 "X-Poedit-SearchPath-1: credits.php\n"
@@ -127,15 +127,15 @@ msgstr ""
 msgid "s"
 msgstr ""
 
-#: php/table_func.php:24
+#: php/table_func.php:27
 msgid " ("
 msgstr "（"
 
-#: php/table_func.php:26
+#: php/table_func.php:29
 msgid ")"
 msgstr "）"
 
-#: php/table_func.php:57
+#: php/table_func.php:60
 msgid "Exhibition Matches"
 msgstr "表演赛"
 
@@ -391,107 +391,113 @@ msgstr ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
 
-#: results.php:21
+#: results.php:21 schedule.php:21
+msgid ""
+"For scoring runs, \"(WR)\" indicates that the given run broke the world "
+"record at the time of the match."
+msgstr "打分项目里，\"(WR)\"表示该成绩是打破了比赛当时的世界记录"
+
+#: results.php:22
 msgid "Contents"
 msgstr "目录"
 
-#: results.php:27 schedule.php:21
+#: results.php:28 schedule.php:22
 msgid "Show Results"
 msgstr "显示结果"
 
-#: results.php:28 schedule.php:22
+#: results.php:29 schedule.php:23
 msgid "Hide Results"
 msgstr "隐藏结果"
 
-#: results.php:30 results.php:79 results.php:129
+#: results.php:31 results.php:80 results.php:130
 msgid "Final tally:"
 msgstr "最终计分："
 
-#: results.php:33 results.php:64
+#: results.php:34 results.php:65
 msgid "Team Rose"
 msgstr ""
 
-#: results.php:34
+#: results.php:35
 msgid "Team Rose: "
 msgstr ""
 
-#: results.php:34 results.php:38 results.php:42 results.php:83 results.php:87
-#: results.php:91 results.php:133 results.php:137 results.php:141
+#: results.php:35 results.php:39 results.php:43 results.php:84 results.php:88
+#: results.php:92 results.php:134 results.php:138 results.php:142
 msgid " points"
 msgstr "总分"
 
-#: results.php:37 results.php:72
+#: results.php:38 results.php:73
 msgid "Team Heart"
 msgstr ""
 
-#: results.php:38
+#: results.php:39
 msgid "Team Heart: "
 msgstr ""
 
-#: results.php:41 results.php:68
+#: results.php:42 results.php:69
 msgid "Team Mind"
 msgstr ""
 
-#: results.php:42
+#: results.php:43
 msgid "Team Mind: "
 msgstr ""
 
-#: results.php:48 results.php:97 results.php:147 schedule.php:27
+#: results.php:49 results.php:98 results.php:148 schedule.php:28
 msgid "Date / Time"
 msgstr "日期和时间"
 
-#: results.php:49 results.php:98 results.php:148 schedule.php:28
+#: results.php:50 results.php:99 results.php:149 schedule.php:29
 #: twcscore.php:71
 msgid "Category"
 msgstr "项目"
 
-#: results.php:50 results.php:99 results.php:149 schedule.php:29
+#: results.php:51 results.php:100 results.php:150 schedule.php:30
 msgid "Players"
 msgstr "玩家"
 
-#: results.php:51 results.php:100 results.php:150 schedule.php:30
+#: results.php:52 results.php:101 results.php:151 schedule.php:31
 msgid "Reset Time<br>(minutes)"
 msgstr "推把时间<br>（分钟）"
 
-#: results.php:52 results.php:101 results.php:151 schedule.php:31
-#: schedule.php:34
+#: results.php:53 results.php:102 results.php:152 schedule.php:32
+#: schedule.php:35
 msgid "Results"
 msgstr "结果"
 
-#: results.php:53 results.php:102 results.php:152 schedule.php:32
-#: schedule.php:35
+#: results.php:54 results.php:103 results.php:153 schedule.php:33
+#: schedule.php:36
 msgid "Points"
 msgstr "总分"
 
-#: results.php:82 results.php:121 results.php:132
+#: results.php:83 results.php:122 results.php:133
 msgid "Flag of Japan"
 msgstr "日本国旗"
 
-#: results.php:83 results.php:133
+#: results.php:84 results.php:134
 msgid "Team Japan: "
 msgstr "日本团队："
 
-#: results.php:86 results.php:117 results.php:140
+#: results.php:87 results.php:118 results.php:141
 msgid "Flag of the P.R.C."
 msgstr "中国国旗"
 
-#: results.php:87 results.php:141
+#: results.php:88 results.php:142
 msgid "Team China: "
 msgstr "中国团队："
 
-#: results.php:90 results.php:113 results.php:136
+#: results.php:91 results.php:114 results.php:137
 msgid "Earth"
 msgstr "地球"
 
-#: results.php:91 results.php:137
+#: results.php:92 results.php:138
 msgid "Team West: "
 msgstr "西方团队："
 
-#: results.php:127 results.php:164
+#: results.php:128 results.php:165
 msgid "Game Over"
 msgstr "结束"
 
-#: results.php:165 rules.php:114
+#: results.php:166 rules.php:114
 msgid "Back to Top"
 msgstr "回到顶部"
 
@@ -872,7 +878,7 @@ msgstr "完整的TWC规则可以在这里被找到："
 msgid "Schedule"
 msgstr "时间表"
 
-#: schedule.php:63
+#: schedule.php:64
 #, fuzzy
 #| msgid "Team West: "
 msgid "Team "
