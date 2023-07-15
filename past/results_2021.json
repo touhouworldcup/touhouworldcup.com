@@ -24,7 +24,8 @@
             "shot": "MarisaOtter",
             "score": 11982030340,
             "twcscore": 147.7,
-            "points": 2
+            "points": 2,
+            "wr": true
         },
         {
             "shot": "",
@@ -520,7 +521,8 @@
             "shot": "Marisa",
             "score": 2639609600,
             "twcscore": 35.98,
-            "points": 2
+            "points": 2,
+            "wr": true
         }
     ],
     "1620457200": [
