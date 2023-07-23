@@ -498,5 +498,25 @@
             "twcscore": 8.5,
             "points": 0
         }
+    ],
+    "1690027200": [
+        {
+            "shot": "MarisaB",
+            "score": 623155640,
+            "twcscore": 12.498,
+            "points": 1
+        },
+        {
+            "shot": "MarisaB",
+            "score": 619413060,
+            "twcscore": 11.442,
+            "points": 0
+        },
+        {
+            "shot": "ReimuA",
+            "score": 610884120,
+            "twcscore": 22.836,
+            "points": 2
+        }
     ]
 }
