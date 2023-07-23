@@ -518,5 +518,25 @@
             "twcscore": 22.836,
             "points": 2
         }
+    ],
+    "1690095600": [
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "C2",
+            "score": 105329960,
+            "twcscore": 41.092,
+            "points": 2
+        },
+        {
+            "shot": "C1",
+            "score": 96143240,
+            "twcscore": 36.187,
+            "points": 1
+        }
     ]
 }
