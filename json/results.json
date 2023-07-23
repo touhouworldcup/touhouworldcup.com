@@ -458,5 +458,25 @@
             "twcscore": 1.5,
             "points": 1
         }
+    ],
+    "1689512400": [
+        {
+            "shot": "ReimuA",
+            "score": 4873177990,
+            "twcscore": 56.211,
+            "points": 1
+        },
+        {
+            "shot": "ReimuA",
+            "score": 4963049600,
+            "twcscore": 78.605,
+            "points": 2
+        },
+        {
+            "shot": "MarisaB",
+            "score": 4316653530,
+            "twcscore": 25.668,
+            "points": 0
+        }
     ]
 }
