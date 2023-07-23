@@ -418,5 +418,25 @@
             "twcscore": 4.5,
             "points": 0
         }
+    ],
+    "1689393600": [
+        {
+            "shot": "MarisaWinter",
+            "score": "4M",
+            "twcscore": 0.75,
+            "points": 1
+        },
+		{
+            "shot": "MarisaSpring",
+            "score": "LNNN",
+            "twcscore": 34,
+            "points": 2
+        },
+		{
+            "shot": "ReimuAutumn",
+            "score": "5M",
+            "twcscore": 0.313,
+            "points": 0
+        }
     ]
 }
