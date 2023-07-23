@@ -478,5 +478,25 @@
             "twcscore": 25.668,
             "points": 0
         }
+    ],
+    "1690016400": [
+        {
+            "shot": "B2",
+            "score": "1M 6G",
+            "twcscore": 15.8,
+            "points": 2
+        },
+        {
+            "shot": "C1",
+            "score": "5M 4G",
+            "twcscore": 13,
+            "points": 1
+        },
+        {
+            "shot": "A1",
+            "score": "2M 7G",
+            "twcscore": 8.5,
+            "points": 0
+        }
     ]
 }
