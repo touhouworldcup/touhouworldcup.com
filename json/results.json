@@ -438,5 +438,25 @@
             "twcscore": 0.313,
             "points": 0
         }
+    ],
+    "1689490800": [
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "Reimu",
+            "score": "3M",
+            "twcscore": 5,
+            "points": 2
+        },
+        {
+            "shot": "Sanae",
+            "score": "4M",
+            "twcscore": 1.5,
+            "points": 1
+        }
     ]
 }
