@@ -140,7 +140,7 @@
                 <h4>TH128 Lunatic Survival</h4>
             </div>
         </div>
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 砕氷 <a href="https://twitter.com/CreepingBarrett "><img src="/assets/icons/twitter-icon.png"></img></a> <a href="https://www.pixiv.net/en/users/9337602
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 砕氷 <a href="https://twitter.com/CreepingBarrett"><img src="/assets/icons/twitter-icon.png"></img></a> <a href="https://www.pixiv.net/en/users/9337602
 "><img src="/assets/icons/pixiv-icon.png"></img></a></h2>
         <div>
             <div class="illustration">
