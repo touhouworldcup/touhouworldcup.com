@@ -441,16 +441,16 @@
     ],
     "1689490800": [
         {
-            "shot": "",
-            "score": "",
-            "twcscore": 0,
-            "points": 0
-        },
-        {
             "shot": "Reimu",
             "score": "3M",
             "twcscore": 5,
             "points": 2
+        },
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
         },
         {
             "shot": "Sanae",
