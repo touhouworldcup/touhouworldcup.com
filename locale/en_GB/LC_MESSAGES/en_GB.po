@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-06-11 11:22+0200\n"
-"PO-Revision-Date: 2023-06-11 11:22+0200\n"
+"POT-Creation-Date: 2023-07-28 18:14+0200\n"
+"PO-Revision-Date: 2023-07-28 18:14+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.2\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: index.php\n"
 "X-Poedit-SearchPath-1: credits.php\n"
@@ -79,23 +79,31 @@ msgstr ""
 msgid "See below for official communication channels."
 msgstr ""
 
-#: index.php:28
+#: index.php:21
+msgid "TWC Starts In:"
+msgstr ""
+
+#: index.php:22
+msgid "Next Match:"
+msgstr ""
+
+#: index.php:29
 msgid "TWC English Commentary Stream"
 msgstr ""
 
-#: index.php:32
+#: index.php:33
 msgid "TWC Japanese Commentary Stream"
 msgstr ""
 
-#: index.php:36
+#: index.php:37
 msgid "TWC Chinese Commentary Stream"
 msgstr ""
 
-#: index.php:40
+#: index.php:41
 msgid "Official TWC YouTube Channel"
 msgstr ""
 
-#: index.php:44
+#: index.php:45
 msgid "Official TWC Twitter"
 msgstr ""
 
@@ -113,14 +121,6 @@ msgstr ""
 
 #: js/index.js:60
 msgid "s"
-msgstr ""
-
-#: js/index.js:69
-msgid "Next Match:"
-msgstr ""
-
-#: js/index.js:93
-msgid "TWC Starts In:"
 msgstr ""
 
 #: php/table_func.php:24
@@ -483,7 +483,7 @@ msgstr ""
 msgid "Game Over"
 msgstr ""
 
-#: results.php:165 rules.php:101
+#: results.php:165 rules.php:114
 msgid "Back to Top"
 msgstr ""
 
@@ -657,29 +657,43 @@ msgid ""
 msgstr ""
 
 #: rules.php:55
-msgid "Touhou 13"
+msgid "Touhou 12.8"
 msgstr ""
 
 #: rules.php:56
+msgid ""
+"TWCScore works differently for this category specifically. Players are "
+"allowed to use the freeze mechanic freely with no penalty.All credits start "
+"at 0 TWCScore, and for each gold medal obtained, varying TWCScore is awarded "
+"based on the route. Furthermore, each miss will incur a loss of 1 TWCScore. "
+"This category has no upper limit on miss count, and a game over results in a "
+"50 TWCScore penalty."
+msgstr ""
+
+#: rules.php:59
+msgid "Touhou 13"
+msgstr ""
+
+#: rules.php:60
 msgid ""
 "Trance: A manually activated trance is considered two deaths."
 "<br>Additionally, there is a TWCScore Bonus for a credit that captures all "
 "spellcards and finishes with zero deaths."
 msgstr ""
 
-#: rules.php:58
+#: rules.php:62
 msgid "Touhou 16"
 msgstr ""
 
-#: rules.php:59
+#: rules.php:63
 msgid "Season Release: Releasing your season gauge is considered two deaths."
 msgstr ""
 
-#: rules.php:60
+#: rules.php:64
 msgid "Touhou 17"
 msgstr ""
 
-#: rules.php:61
+#: rules.php:65
 msgid ""
 "Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal "
 "tokens during roar mode) is considered 2 deaths. Breaking a Beserk Roar by "
@@ -688,43 +702,64 @@ msgid ""
 "considered one death."
 msgstr ""
 
-#: rules.php:64
+#: rules.php:68
 msgid "Touhou 18"
 msgstr ""
 
-#: rules.php:65
+#: rules.php:69
 msgid ""
-"Cards: Players are not allowed to use cards.<br>Additionally, the players "
-"are only allowed to buy \"Money Comes and Goes On its Own\" from the card "
-"shop between stages."
+"Only four ability cards are allowed to be equipped, used or activated at any "
+"time. These are:"
 msgstr ""
 
-#: rules.php:68
+#: rules.php:71
+msgid "Money Comes and Goes On its Own"
+msgstr ""
+
+#: rules.php:72
+msgid "Fragmented Life Card"
+msgstr ""
+
+#: rules.php:73
+msgid "Fragmented Spell Card"
+msgstr ""
+
+#: rules.php:74
+msgid "Ringo-Brand Dango"
+msgstr ""
+
+#: rules.php:76
+msgid ""
+"Additionally, the players are only allowed to buy \"Money Comes and Goes On "
+"its Own\" from the card shop between stages."
+msgstr ""
+
+#: rules.php:78
 msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
 msgstr ""
 
-#: rules.php:69
+#: rules.php:79
 msgid "Scoring Categories"
 msgstr ""
 
-#: rules.php:70
+#: rules.php:80
 msgid ""
 "In Scoring Categories the players will try to finish the game while gaining "
 "the highest score possible. They can die, bomb and use any other mechanics "
 "as much as they want."
 msgstr ""
 
-#: rules.php:72
+#: rules.php:82
 msgid "Some extra details about Scoring Categories:"
 msgstr ""
 
-#: rules.php:74
+#: rules.php:84
 msgid ""
 "Unlike previous years of TWC, there is now no penalty to TWCScore if a "
 "player Game Overs in a Scoring Category."
 msgstr ""
 
-#: rules.php:75
+#: rules.php:85
 msgid ""
 "In Touhou 17 and Touhou 18, it is possible to reach the maximum value the "
 "score counter can display, known as a counterstop. If this happens, we will "
@@ -732,7 +767,7 @@ msgid ""
 "removal patches."
 msgstr ""
 
-#: rules.php:77
+#: rules.php:87
 msgid ""
 "In Touhou 12, the score counter will display the player's score incorrectly "
 "if the score reaches a high enough value. However, if this happens, the game "
@@ -740,53 +775,61 @@ msgid ""
 "and that value will be used instead."
 msgstr ""
 
-#: rules.php:82
+#: rules.php:90
+msgid ""
+"In Touhou 18, the \"Market Manip.\" option from thprac is allowed for use. "
+"However, credits that directly use Market Manipulation are considered "
+"invalid. Market Manipulation can be performed both before and during the "
+"match. This rule is subject to change depending on dialogue with players."
+msgstr ""
+
+#: rules.php:95
 msgid "Allowed Game Mods"
 msgstr ""
 
-#: rules.php:83
+#: rules.php:96
 msgid "Vpatch is allowed for all applicable games."
 msgstr ""
 
-#: rules.php:84
+#: rules.php:97
 msgid ""
 "thprac can be used for practice during a match, but all cheats must be "
 "disabled when performing credits."
 msgstr ""
 
-#: rules.php:85
+#: rules.php:98
 msgid "Counterstop Removal Patches and Scorebug Patches are allowed."
 msgstr ""
 
-#: rules.php:86
+#: rules.php:99
 msgid "Visual, Audio and Translation patches are not allowed."
 msgstr ""
 
-#: rules.php:88
+#: rules.php:101
 msgid "Other Rules"
 msgstr ""
 
-#: rules.php:90
+#: rules.php:103
 msgid ""
 "Players must stream their gameplay while playing their match, without "
 "covering any HUD or gameplay elements."
 msgstr ""
 
-#: rules.php:91
+#: rules.php:104
 msgid ""
 "The replay file of each player's best performing credit must be submitted to "
 "the TWC Committee at the end of a match."
 msgstr ""
 
-#: rules.php:92
+#: rules.php:105
 msgid "Please hide the ending when you reach the end of the game."
 msgstr ""
 
-#: rules.php:95
+#: rules.php:108
 msgid "Full Official Rules"
 msgstr ""
 
-#: rules.php:96
+#: rules.php:109
 msgid "The full official rulebook can be found here:"
 msgstr ""
 
