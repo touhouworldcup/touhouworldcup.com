@@ -125,8 +125,8 @@
         <h2><a class="expander" onclick="art_hide(this)">⮟</a> trisector <a href="https://twitter.com/tris3ctor"><img src="/assets/icons/twitter-icon.png"></img></a></h2>
         <div>
             <div class="illustration">
-                <img src="/assets/art/th06_scoring.png"></img>
-                <h4>TH06 Lunatic Scoring</h4>
+                <img src="/assets/art/th06_survival.png"></img>
+                <h4>TH06 Lunatic Survival</h4>
             </div>
         </div>
         <h2><a class="expander" onclick="art_hide(this)">⮟</a> yeashie <a href="https://twitter.com/danmaku_stg"><img src="/assets/icons/twitter-icon.png"></img></a></h2>
