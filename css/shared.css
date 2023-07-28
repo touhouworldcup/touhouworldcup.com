@@ -19,13 +19,12 @@ select {
 }
 main {
     margin: 0px auto 0px auto;
-    background-color: #222;
+    background-color: rgba(34, 34, 34, 0.9);
     box-shadow: 4px 4px 4px 2px #888;
   	-webkit-box-shadow: 4px 4px 4px 2px #888;
     max-width: 100%;
     min-width: 50%;
     padding: 15px;
-    opacity: 0.9;
 }
 h1 {
     margin-top: 64px;

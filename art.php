@@ -110,6 +110,10 @@
         <h2><a class="expander" onclick="art_hide(this)">⮟</a> sleepymausu <a href="https://twitter.com/sleepymausu"><img src="/assets/icons/twitter-icon.png"></img></a></h2>
         <div>
             <div class="illustration">
+                <img src="/assets/art/th07_survival.png"></img>
+                <h4>TH07 Lunatic Survival</h4>
+            </div>
+            <div class="illustration">
                 <img src="/assets/art/th09_scoring.png"></img>
                 <h4>TH09 Lunatic Scoring</h4>
             </div>
