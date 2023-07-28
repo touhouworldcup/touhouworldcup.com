@@ -31,6 +31,10 @@
                 <h4>TH06 Extra Scoring</h4>
             </div>
             <div class="illustration">
+                <img src="/assets/art/th11_scoring.png"></img>
+                <h4>TH11 Lunatic Scoring</h4>
+            </div>
+            <div class="illustration">
                 <img src="/assets/art/th128_scoring.png"></img>
                 <h4>TH128 Lunatic Scoring</h4>
             </div>
