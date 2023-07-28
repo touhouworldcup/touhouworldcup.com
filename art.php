@@ -15,7 +15,7 @@
             <div class="collab illustration">
                 <img src="/assets/art/th08_survival.png"></img>
                 <h4>TH08 Lunatic Survival</h4>
-                <?php echo _("Created by:") ?> Aqwa, DJThunderHeart and trisector
+                <?php echo _("Created by:") ?> Aqwa, DJThunderHeart, trisector
             </div>
         </div>
         <hr>
