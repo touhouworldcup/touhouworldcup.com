@@ -1,5 +1,5 @@
 <?php
-    $title = _('Art works');
+    $title = _('Artworks');
     $description = 'Official artworks commissioned by TWC staff';
     $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2022 competition, scoring, survival, tournament, fan-art, art';
     include_once 'php/locale.php';
@@ -9,13 +9,13 @@
 <body>
 	<?php include_once 'php/body.php' ?>
 	<main>
-        <h1>Art</h1>
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Collaborative works</h2>
+        <h1><?php echo _("Artworks") ?></h1>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> <?php echo _("Collaborative works") ?></h2>
         <div>
             <div class="collab illustration">
                 <img src="/assets/art/th08_survival.png"></img>
                 <h4>TH08 Lunatic Survival</h4>
-                Created by: Aqwa, DJThunderHeart and trisector
+                <?php echo _("Created by:") ?> Aqwa, DJThunderHeart and trisector
             </div>
         </div>
         <hr>
