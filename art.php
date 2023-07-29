@@ -85,6 +85,10 @@
         <h2><a class="expander" onclick="art_hide(this)">⮟</a> Muzilana <a href="https://twitter.com/muzilana1"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://www.pixiv.net/en/users/32090790"><img src="/assets/icons/pixiv-icon.png"></img></a></h2>
         <div>
             <div class="illustration">
+                <img src="/assets/art/th14_survival.png"></img>
+                <h4>TH14 Lunatic Survival</h4>
+            </div>
+            <div class="illustration">
                 <img src="/assets/art/th14_scoring_ex.png"></img>
                 <h4>TH14 Extra Scoring</h4>
             </div>
