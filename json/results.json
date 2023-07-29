@@ -558,5 +558,25 @@
             "twcscore": 75,
             "points": 2
         }
+    ],
+    "1690637400": [
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "Youmu",
+            "score": 6741555500,
+            "twcscore": 99.23,
+            "points": 1
+        },
+        {
+            "shot": "Youmu",
+            "score": 6737118660,
+            "twcscore": 98.416,
+            "points": 2
+        }
     ]
 }
