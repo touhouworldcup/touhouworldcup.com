@@ -538,5 +538,25 @@
             "twcscore": 36.187,
             "points": 1
         }
+    ],
+    "1690626600": [
+        {
+            "shot": "MarisaA",
+            "score": "2M",
+            "twcscore": 37.5,
+            "points": 1
+        },
+        {
+            "shot": "",
+            "score": "DNF",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "MarisaA",
+            "score": "1M",
+            "twcscore": 75,
+            "points": 2
+        }
     ]
 }
