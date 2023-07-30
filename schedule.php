@@ -42,7 +42,7 @@
             $json = file_get_contents('json/results.json');
             $results = json_decode($json, true);
             $teams = array('spirit', 'lotus', 'harmony');
-            $bonus_matches = array();
+            $bonus_matches = array("1691312400", "1691323200");
             $highlight = false;
             foreach ($schedule as $key => $match) {
                 if (!$highlight && $key >= time()) {
