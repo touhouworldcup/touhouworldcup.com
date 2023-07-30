@@ -277,6 +277,24 @@
             "-"
         ],
         "reset": 120
+    },
+    "1691312400": {
+        "category": "TH143 All Scenes No-Item",
+        "players": [
+            "kiricat",
+            "jwrmiso",
+            "msm_smtn"
+        ],
+        "reset": 90
+    },
+    "1691323200": {
+        "category": "Bingo Match",
+        "players": [
+            "yukidango",
+            "yeashie Skywars",
+            "Borealis"
+        ],
+        "reset": 105
     }
 }
 
