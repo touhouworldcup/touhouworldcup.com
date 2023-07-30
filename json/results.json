@@ -598,5 +598,25 @@
             "twcscore": 14.503,
             "points": 1
         }
+    ],
+    "1690693200": [
+        {
+            "shot": "Sakuya",
+            "score": 6655515100,
+            "twcscore": 2.455,
+            "points": 1
+        },
+        {
+            "shot": "Sanae",
+            "score": 10232229400,
+            "twcscore": 28.394,
+            "points": 2
+        },
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        }
     ]
 }
