@@ -578,5 +578,25 @@
             "twcscore": 98.416,
             "points": 2
         }
+    ],
+    "1690650000": [
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
+        },
+        {
+            "shot": "Reimu",
+            "score": 2482870880,
+            "twcscore": 15.818,
+            "points": 2
+        },
+        {
+            "shot": "YoumuYuyuko",
+            "score": 2787876460,
+            "twcscore": 14.503,
+            "points": 1
+        }
     ]
 }
