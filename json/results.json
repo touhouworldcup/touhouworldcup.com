@@ -561,12 +561,6 @@
     ],
     "1690637400": [
         {
-            "shot": "",
-            "score": "",
-            "twcscore": 0,
-            "points": 0
-        },
-        {
             "shot": "Youmu",
             "score": 6741555500,
             "twcscore": 99.23,
@@ -577,20 +571,26 @@
             "score": 6737118660,
             "twcscore": 98.416,
             "points": 2
-        }
-    ],
-    "1690650000": [
+        },
         {
             "shot": "",
             "score": "",
             "twcscore": 0,
             "points": 0
-        },
+        }
+    ],
+    "1690650000": [
         {
             "shot": "Reimu",
             "score": 2482870880,
             "twcscore": 15.818,
             "points": 2
+        },
+        {
+            "shot": "",
+            "score": "",
+            "twcscore": 0,
+            "points": 0
         },
         {
             "shot": "YoumuYuyuko",
