@@ -10,6 +10,10 @@
 	<?php include_once 'php/body.php' ?>
 	<main>
         <h1><?php echo _("Artworks") ?></h1>
+        <div class="illustration">
+            <img src="/assets/art/Final_Illustration.png"></img>
+            <h4>2023: Final Illustration</h4>
+        </div>
         <h2><a class="expander" onclick="art_hide(this)">⮟</a> <?php echo _("Collaborative works") ?></h2>
         <div>
             <div class="collab illustration">
