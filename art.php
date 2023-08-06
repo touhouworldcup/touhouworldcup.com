@@ -92,6 +92,10 @@
                 <img src="/assets/art/th14_scoring_ex.png"></img>
                 <h4>TH14 Extra Scoring</h4>
             </div>
+            <div class="illustration">
+                <img src="/assets/art/th15_survival.png"></img>
+                <h4>TH15 Lunatic Survival</h4>
+            </div>
         </div>
         <h2><a class="expander" onclick="art_hide(this)">⮟</a> Oligarchomp <a href="https://twitter.com/oligarchomp"><img src="/assets/icons/twitter-icon.png"></img></a></h2>
         <div>
