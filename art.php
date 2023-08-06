@@ -93,7 +93,7 @@
                 <h4>TH14 Extra Scoring</h4>
             </div>
             <div class="illustration">
-                <img src="/assets/art/th15_survival.png"></img>
+                <img src="/assets/art/th15_survival.jpg"></img>
                 <h4>TH15 Lunatic Survival</h4>
             </div>
         </div>
