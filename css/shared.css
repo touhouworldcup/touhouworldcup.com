@@ -141,7 +141,7 @@ td {
 	display: none;
 }
 .header .menu-btn:checked ~ #main_list {
-	max-height: 350px;
+	max-height: 400px;
 }
 .header .lang-btn:checked ~ #lang_list {
     max-height: 400px;
