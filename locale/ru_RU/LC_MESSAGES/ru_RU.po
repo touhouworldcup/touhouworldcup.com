@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-07-28 18:15+0200\n"
-"PO-Revision-Date: 2023-07-28 18:15+0200\n"
+"POT-Creation-Date: 2023-08-10 19:54+0200\n"
+"PO-Revision-Date: 2023-08-10 19:57+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -138,7 +138,7 @@ msgstr ""
 msgid ")"
 msgstr ""
 
-#: php/table_func.php:57
+#: php/table_func.php:61
 msgid "Exhibition Matches"
 msgstr ""
 
@@ -235,150 +235,152 @@ msgid "Tewi"
 msgstr "Теви"
 
 #: php/translations.php:26
+msgid "Aya"
+msgstr "Ая"
+
+#: php/translations.php:27
+msgid "Medicine"
+msgstr "Медисин"
+
+#: php/translations.php:28
 msgid "Yuuka"
 msgstr "Юка"
 
-#: php/translations.php:27
+#: php/translations.php:29
 msgid "Komachi"
 msgstr "Комачи"
 
-#: php/translations.php:28
+#: php/translations.php:30
 msgid "Eiki"
 msgstr "Эйки"
 
-#: php/translations.php:29
+#: php/translations.php:31
 msgid "MarisaC"
 msgstr "МарисаС"
 
-#: php/translations.php:30
+#: php/translations.php:32
 msgid "SanaeA"
 msgstr "СанаэА"
 
-#: php/translations.php:31
+#: php/translations.php:33
 msgid "SanaeB"
 msgstr "СанаэБ"
 
-#: php/translations.php:32
+#: php/translations.php:34
 msgid "Sanae"
 msgstr "Санаэ"
 
-#: php/translations.php:33
+#: php/translations.php:35
 msgid "ReimuSpring"
 msgstr "РеймуВесна"
 
-#: php/translations.php:34
+#: php/translations.php:36
 msgid "CirnoSpring"
 msgstr "ЧирноВесна"
 
-#: php/translations.php:35
+#: php/translations.php:37
 msgid "AyaSpring"
 msgstr "АяВесна"
 
-#: php/translations.php:36
+#: php/translations.php:38
 msgid "MarisaSpring"
 msgstr "МарисаВесна"
 
-#: php/translations.php:37
+#: php/translations.php:39
 msgid "ReimuSummer"
 msgstr "РеймуЛето"
 
-#: php/translations.php:38
+#: php/translations.php:40
 msgid "CirnoSummer"
 msgstr "ЧирноЛето"
 
-#: php/translations.php:39
+#: php/translations.php:41
 msgid "AyaSummer"
 msgstr "АяЛето"
 
-#: php/translations.php:40
+#: php/translations.php:42
 msgid "MarisaSummer"
 msgstr "МарисаЛето"
 
-#: php/translations.php:41
+#: php/translations.php:43
 msgid "ReimuAutumn"
 msgstr "РеймуОсень"
 
-#: php/translations.php:42
+#: php/translations.php:44
 msgid "CirnoAutumn"
 msgstr "ЧирноОсень"
 
-#: php/translations.php:43
+#: php/translations.php:45
 msgid "AyaAutumn"
 msgstr "АяОсень"
 
-#: php/translations.php:44
+#: php/translations.php:46
 msgid "MarisaAutumn"
 msgstr "МарисаОсень"
 
-#: php/translations.php:45
+#: php/translations.php:47
 msgid "ReimuWinter"
 msgstr "РеймуЗима"
 
-#: php/translations.php:46
+#: php/translations.php:48
 msgid "CirnoWinter"
 msgstr "ЧирноЗима"
 
-#: php/translations.php:47
+#: php/translations.php:49
 msgid "AyaWinter"
 msgstr "АяЗима"
 
-#: php/translations.php:48
+#: php/translations.php:50
 msgid "MarisaWinter"
 msgstr "МарисаЗима"
 
-#: php/translations.php:49
+#: php/translations.php:51
 msgid "ReimuWolf"
 msgstr "РеймуВолк"
 
-#: php/translations.php:50
+#: php/translations.php:52
 msgid "ReimuOtter"
 msgstr "РеймуВыдра"
 
-#: php/translations.php:51
+#: php/translations.php:53
 msgid "ReimuEagle"
 msgstr "РеймуОрёл"
 
-#: php/translations.php:52
+#: php/translations.php:54
 msgid "MarisaWolf"
 msgstr "МарисаВолк"
 
-#: php/translations.php:53
+#: php/translations.php:55
 msgid "MarisaOtter"
 msgstr "МарисаВыдра"
 
-#: php/translations.php:54
+#: php/translations.php:56
 msgid "MarisaEagle"
 msgstr "МарисаОрёл"
 
-#: php/translations.php:55
+#: php/translations.php:57
 msgid "YoumuWolf"
 msgstr "ЁмуВолк"
 
-#: php/translations.php:56
+#: php/translations.php:58
 msgid "YoumuOtter"
 msgstr "ЁмуВыдра"
 
-#: php/translations.php:57
+#: php/translations.php:59
 msgid "YoumuEagle"
 msgstr "ЁмуОрёл"
 
-#: php/translations.php:58
-#, fuzzy
-#| msgid "Team West: "
+#: php/translations.php:60 results.php:38 results.php:65 schedule.php:47
 msgid "Team Spirit"
-msgstr "Команда Запада: "
+msgstr "Команда Дух"
 
-#: php/translations.php:59
-#, fuzzy
-#| msgid "Team West: "
+#: php/translations.php:61 results.php:34 results.php:69 schedule.php:51
 msgid "Team Lotus"
-msgstr "Команда Запада: "
+msgstr "Команда Лотос: "
 
-#: php/translations.php:60
-#, fuzzy
-#| msgid "Team West: "
+#: php/translations.php:62 results.php:42 results.php:73 schedule.php:55
 msgid "Team Harmony"
-msgstr "Команда Запада: "
+msgstr "Команда Гармония: "
 
 #: results.php:2 results.php:13
 msgid "Past Results"
@@ -402,115 +404,119 @@ msgstr "Переход на летнее время также учитан ав
 msgid "Contents"
 msgstr "Содержание"
 
-#: results.php:27 schedule.php:21
+#: results.php:28 schedule.php:21
 msgid "Show Results"
 msgstr "Показать Результаты"
 
-#: results.php:28 schedule.php:22
+#: results.php:29 schedule.php:22
 msgid "Hide Results"
 msgstr "Скрыть Результаты"
 
-#: results.php:30 results.php:79 results.php:129
+#: results.php:31 results.php:80 results.php:129 results.php:179
 msgid "Final tally:"
 msgstr "Итоговый счет:"
 
-#: results.php:33 results.php:64
-#, fuzzy
-#| msgid "Team West: "
-msgid "Team Rose"
-msgstr "Команда Запада: "
+#: results.php:35
+msgid "Team Lotus: "
+msgstr "Команда Лотос: "
 
-#: results.php:34
-#, fuzzy
-#| msgid "Team West: "
-msgid "Team Rose: "
-msgstr "Команда Запада: "
-
-#: results.php:34 results.php:38 results.php:42 results.php:83 results.php:87
-#: results.php:91 results.php:133 results.php:137 results.php:141
+#: results.php:35 results.php:39 results.php:43 results.php:84 results.php:88
+#: results.php:92 results.php:133 results.php:137 results.php:141
+#: results.php:183 results.php:187 results.php:191
 msgid " points"
 msgstr " очков"
 
-#: results.php:37 results.php:72
-#, fuzzy
-#| msgid "Team West: "
-msgid "Team Heart"
-msgstr "Команда Запада: "
+#: results.php:39
+msgid "Team Spirit: "
+msgstr "Команда Дух: "
 
-#: results.php:38
-#, fuzzy
-#| msgid "Team West: "
-msgid "Team Heart: "
-msgstr "Команда Запада: "
+#: results.php:43
+msgid "Team Harmony: "
+msgstr "Команда Гармония: "
 
-#: results.php:41 results.php:68
-#, fuzzy
-#| msgid "Team China: "
-msgid "Team Mind"
-msgstr "Команда Китай: "
-
-#: results.php:42
-#, fuzzy
-#| msgid "Team China: "
-msgid "Team Mind: "
-msgstr "Команда Китай: "
-
-#: results.php:48 results.php:97 results.php:147 schedule.php:27
+#: results.php:49 results.php:98 results.php:147 results.php:197
+#: schedule.php:27
 msgid "Date / Time"
 msgstr "Дата / Время"
 
-#: results.php:49 results.php:98 results.php:148 schedule.php:28
-#: twcscore.php:71
+#: results.php:50 results.php:99 results.php:148 results.php:198
+#: schedule.php:28 twcscore.php:71
 msgid "Category"
 msgstr "Категория"
 
-#: results.php:50 results.php:99 results.php:149 schedule.php:29
+#: results.php:51 results.php:100 results.php:149 results.php:199
+#: schedule.php:29
 msgid "Players"
 msgstr "Игроки"
 
-#: results.php:51 results.php:100 results.php:150 schedule.php:30
+#: results.php:52 results.php:101 results.php:150 results.php:200
+#: schedule.php:30
 msgid "Reset Time<br>(minutes)"
 msgstr "Время на рестарт<br>(минут)"
 
-#: results.php:52 results.php:101 results.php:151 schedule.php:31
-#: schedule.php:34
+#: results.php:53 results.php:102 results.php:151 results.php:201
+#: schedule.php:31 schedule.php:34
 msgid "Results"
 msgstr "Результаты"
 
-#: results.php:53 results.php:102 results.php:152 schedule.php:32
-#: schedule.php:35
+#: results.php:54 results.php:103 results.php:152 results.php:202
+#: schedule.php:32 schedule.php:35
 msgid "Points"
 msgstr "Очков"
 
-#: results.php:82 results.php:121 results.php:132
+#: results.php:83 results.php:114
+msgid "Team Rose"
+msgstr "Команда Роза: "
+
+#: results.php:84
+msgid "Team Rose: "
+msgstr "Команда Роза: "
+
+#: results.php:87 results.php:122
+msgid "Team Heart"
+msgstr "Команда Сердце: "
+
+#: results.php:88
+msgid "Team Heart: "
+msgstr "Команда Сердце: "
+
+#: results.php:91 results.php:118
+msgid "Team Mind"
+msgstr "Команда Разум: "
+
+#: results.php:92
+msgid "Team Mind: "
+msgstr "Команда Разум: "
+
+#: results.php:132 results.php:171 results.php:182
 msgid "Flag of Japan"
 msgstr "Флаг Японии"
 
-#: results.php:83 results.php:133
+#: results.php:133 results.php:183
 msgid "Team Japan: "
 msgstr "Команда Япония: "
 
-#: results.php:86 results.php:117 results.php:140
+#: results.php:136 results.php:167 results.php:190
 msgid "Flag of the P.R.C."
 msgstr "Флаг Китая"
 
-#: results.php:87 results.php:141
+#: results.php:137 results.php:191
 msgid "Team China: "
 msgstr "Команда Китай: "
 
-#: results.php:90 results.php:113 results.php:136
+#: results.php:140 results.php:163 results.php:186
 msgid "Earth"
 msgstr "Земля"
 
-#: results.php:91 results.php:137
+#: results.php:141 results.php:187
 msgid "Team West: "
 msgstr "Команда Запада: "
 
-#: results.php:127 results.php:164
+#: results.php:177 results.php:214
 msgid "Game Over"
 msgstr ""
 
-#: results.php:165 rules.php:114
+#: results.php:215 rules.php:114
 msgid "Back to Top"
 msgstr "Наверх"
 
@@ -787,10 +793,8 @@ msgid ""
 msgstr ""
 
 #: rules.php:71
-#, fuzzy
-#| msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
 msgid "Money Comes and Goes On its Own"
-msgstr "<em>Карта «Гуляющее по миру добро».</em>"
+msgstr ""
 
 #: rules.php:72
 msgid "Fragmented Life Card"
@@ -940,12 +944,6 @@ msgstr "Полный официальный свод правил можно н�
 #: schedule.php:2 schedule.php:13
 msgid "Schedule"
 msgstr "Расписание"
-
-#: schedule.php:63
-#, fuzzy
-#| msgid "Team West: "
-msgid "Team "
-msgstr "Команда Запада: "
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -1118,6 +1116,11 @@ msgstr "TWCScore:"
 #: twcscore.php:156
 msgid "Score:"
 msgstr "Счёт:"
+
+#, fuzzy
+#~| msgid "Team West: "
+#~ msgid "Team "
+#~ msgstr "Команда Запада: "
 
 #~ msgid ""
 #~ "The full official rulebook can be found <a href=\"assets/TWC_Handbook."

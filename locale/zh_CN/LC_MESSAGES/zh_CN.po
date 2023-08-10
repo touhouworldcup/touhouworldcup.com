@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-07-28 18:15+0200\n"
-"PO-Revision-Date: 2023-07-28 18:15+0200\n"
+"POT-Creation-Date: 2023-08-10 19:57+0200\n"
+"PO-Revision-Date: 2023-08-10 20:08+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -135,7 +135,7 @@ msgstr "（"
 msgid ")"
 msgstr "）"
 
-#: php/table_func.php:57
+#: php/table_func.php:61
 msgid "Exhibition Matches"
 msgstr "表演赛"
 
@@ -232,144 +232,152 @@ msgid "Tewi"
 msgstr "帝"
 
 #: php/translations.php:26
+msgid "Aya"
+msgstr "文"
+
+#: php/translations.php:27
+msgid "Medicine"
+msgstr "梅蒂薪"
+
+#: php/translations.php:28
 msgid "Yuuka"
 msgstr "幽香"
 
-#: php/translations.php:27
+#: php/translations.php:29
 msgid "Komachi"
 msgstr "小町"
 
-#: php/translations.php:28
+#: php/translations.php:30
 msgid "Eiki"
 msgstr "映姬"
 
-#: php/translations.php:29
+#: php/translations.php:31
 msgid "MarisaC"
 msgstr "魔理沙C"
 
-#: php/translations.php:30
+#: php/translations.php:32
 msgid "SanaeA"
 msgstr "早苗A"
 
-#: php/translations.php:31
+#: php/translations.php:33
 msgid "SanaeB"
 msgstr "早苗B"
 
-#: php/translations.php:32
+#: php/translations.php:34
 msgid "Sanae"
 msgstr "早苗"
 
-#: php/translations.php:33
+#: php/translations.php:35
 msgid "ReimuSpring"
 msgstr "灵梦春"
 
-#: php/translations.php:34
+#: php/translations.php:36
 msgid "CirnoSpring"
 msgstr "琪露诺春"
 
-#: php/translations.php:35
+#: php/translations.php:37
 msgid "AyaSpring"
 msgstr "文春"
 
-#: php/translations.php:36
+#: php/translations.php:38
 msgid "MarisaSpring"
 msgstr "魔理沙春"
 
-#: php/translations.php:37
+#: php/translations.php:39
 msgid "ReimuSummer"
 msgstr "灵梦夏"
 
-#: php/translations.php:38
+#: php/translations.php:40
 msgid "CirnoSummer"
 msgstr "琪露诺夏"
 
-#: php/translations.php:39
+#: php/translations.php:41
 msgid "AyaSummer"
 msgstr "文夏"
 
-#: php/translations.php:40
+#: php/translations.php:42
 msgid "MarisaSummer"
 msgstr "魔理沙夏"
 
-#: php/translations.php:41
+#: php/translations.php:43
 msgid "ReimuAutumn"
 msgstr "灵梦秋"
 
-#: php/translations.php:42
+#: php/translations.php:44
 msgid "CirnoAutumn"
 msgstr "琪露诺秋"
 
-#: php/translations.php:43
+#: php/translations.php:45
 msgid "AyaAutumn"
 msgstr "文秋"
 
-#: php/translations.php:44
+#: php/translations.php:46
 msgid "MarisaAutumn"
 msgstr "魔理沙秋"
 
-#: php/translations.php:45
+#: php/translations.php:47
 msgid "ReimuWinter"
 msgstr "灵梦冬"
 
-#: php/translations.php:46
+#: php/translations.php:48
 msgid "CirnoWinter"
 msgstr "琪露诺冬"
 
-#: php/translations.php:47
+#: php/translations.php:49
 msgid "AyaWinter"
 msgstr "文冬"
 
-#: php/translations.php:48
+#: php/translations.php:50
 msgid "MarisaWinter"
 msgstr "魔理沙冬"
 
-#: php/translations.php:49
+#: php/translations.php:51
 msgid "ReimuWolf"
 msgstr "灵梦狼"
 
-#: php/translations.php:50
+#: php/translations.php:52
 msgid "ReimuOtter"
 msgstr "灵梦獭"
 
-#: php/translations.php:51
+#: php/translations.php:53
 msgid "ReimuEagle"
 msgstr "灵梦鹰"
 
-#: php/translations.php:52
+#: php/translations.php:54
 msgid "MarisaWolf"
 msgstr "魔理沙狼"
 
-#: php/translations.php:53
+#: php/translations.php:55
 msgid "MarisaOtter"
 msgstr "魔理沙獭"
 
-#: php/translations.php:54
+#: php/translations.php:56
 msgid "MarisaEagle"
 msgstr "魔理沙鹰"
 
-#: php/translations.php:55
+#: php/translations.php:57
 msgid "YoumuWolf"
 msgstr "妖梦狼"
 
-#: php/translations.php:56
+#: php/translations.php:58
 msgid "YoumuOtter"
 msgstr "妖梦獭"
 
-#: php/translations.php:57
+#: php/translations.php:59
 msgid "YoumuEagle"
 msgstr "妖梦鹰"
 
-#: php/translations.php:58
+#: php/translations.php:60 results.php:38 results.php:65 schedule.php:47
 msgid "Team Spirit"
-msgstr ""
+msgstr "精神团队"
 
-#: php/translations.php:59
+#: php/translations.php:61 results.php:34 results.php:69 schedule.php:51
 msgid "Team Lotus"
-msgstr ""
+msgstr "莲花团队"
 
-#: php/translations.php:60
+#: php/translations.php:62 results.php:42 results.php:73 schedule.php:55
 msgid "Team Harmony"
-msgstr ""
+msgstr "和谐团队"
 
 #: results.php:2 results.php:13
 msgid "Past Results"
@@ -395,103 +403,119 @@ msgstr ""
 msgid "Contents"
 msgstr "目录"
 
-#: results.php:27 schedule.php:21
+#: results.php:28 schedule.php:21
 msgid "Show Results"
 msgstr "显示结果"
 
-#: results.php:28 schedule.php:22
+#: results.php:29 schedule.php:22
 msgid "Hide Results"
 msgstr "隐藏结果"
 
-#: results.php:30 results.php:79 results.php:129
+#: results.php:31 results.php:80 results.php:129 results.php:179
 msgid "Final tally:"
 msgstr "最终计分："
 
-#: results.php:33 results.php:64
-msgid "Team Rose"
-msgstr ""
+#: results.php:35
+msgid "Team Lotus: "
+msgstr "莲花团队："
 
-#: results.php:34
-msgid "Team Rose: "
-msgstr ""
-
-#: results.php:34 results.php:38 results.php:42 results.php:83 results.php:87
-#: results.php:91 results.php:133 results.php:137 results.php:141
+#: results.php:35 results.php:39 results.php:43 results.php:84 results.php:88
+#: results.php:92 results.php:133 results.php:137 results.php:141
+#: results.php:183 results.php:187 results.php:191
 msgid " points"
 msgstr "总分"
 
-#: results.php:37 results.php:72
-msgid "Team Heart"
-msgstr ""
+#: results.php:39
+msgid "Team Spirit: "
+msgstr "精神团队："
 
-#: results.php:38
-msgid "Team Heart: "
-msgstr ""
+#: results.php:43
+msgid "Team Harmony: "
+msgstr "和谐团队："
 
-#: results.php:41 results.php:68
-msgid "Team Mind"
-msgstr ""
-
-#: results.php:42
-msgid "Team Mind: "
-msgstr ""
-
-#: results.php:48 results.php:97 results.php:147 schedule.php:27
+#: results.php:49 results.php:98 results.php:147 results.php:197
+#: schedule.php:27
 msgid "Date / Time"
 msgstr "日期和时间"
 
-#: results.php:49 results.php:98 results.php:148 schedule.php:28
-#: twcscore.php:71
+#: results.php:50 results.php:99 results.php:148 results.php:198
+#: schedule.php:28 twcscore.php:71
 msgid "Category"
 msgstr "项目"
 
-#: results.php:50 results.php:99 results.php:149 schedule.php:29
+#: results.php:51 results.php:100 results.php:149 results.php:199
+#: schedule.php:29
 msgid "Players"
 msgstr "玩家"
 
-#: results.php:51 results.php:100 results.php:150 schedule.php:30
+#: results.php:52 results.php:101 results.php:150 results.php:200
+#: schedule.php:30
 msgid "Reset Time<br>(minutes)"
 msgstr "推把时间<br>（分钟）"
 
-#: results.php:52 results.php:101 results.php:151 schedule.php:31
-#: schedule.php:34
+#: results.php:53 results.php:102 results.php:151 results.php:201
+#: schedule.php:31 schedule.php:34
 msgid "Results"
 msgstr "结果"
 
-#: results.php:53 results.php:102 results.php:152 schedule.php:32
-#: schedule.php:35
+#: results.php:54 results.php:103 results.php:152 results.php:202
+#: schedule.php:32 schedule.php:35
 msgid "Points"
 msgstr "总分"
 
-#: results.php:82 results.php:121 results.php:132
+#: results.php:83 results.php:114
+msgid "Team Rose"
+msgstr "玫瑰团队"
+
+#: results.php:84
+msgid "Team Rose: "
+msgstr "玫瑰团队："
+
+#: results.php:87 results.php:122
+msgid "Team Heart"
+msgstr "心团队"
+
+#: results.php:88
+msgid "Team Heart: "
+msgstr "心团队："
+
+#: results.php:91 results.php:118
+msgid "Team Mind"
+msgstr "头脑团队"
+
+#: results.php:92
+msgid "Team Mind: "
+msgstr "头脑团队："
+
+#: results.php:132 results.php:171 results.php:182
 msgid "Flag of Japan"
 msgstr "日本国旗"
 
-#: results.php:83 results.php:133
+#: results.php:133 results.php:183
 msgid "Team Japan: "
 msgstr "日本团队："
 
-#: results.php:86 results.php:117 results.php:140
+#: results.php:136 results.php:167 results.php:190
 msgid "Flag of the P.R.C."
 msgstr "中国国旗"
 
-#: results.php:87 results.php:141
+#: results.php:137 results.php:191
 msgid "Team China: "
 msgstr "中国团队："
 
-#: results.php:90 results.php:113 results.php:136
+#: results.php:140 results.php:163 results.php:186
 msgid "Earth"
 msgstr "地球"
 
-#: results.php:91 results.php:137
+#: results.php:141 results.php:187
 msgid "Team West: "
 msgstr "西方团队："
 
-#: results.php:127 results.php:164
+#: results.php:177 results.php:214
 msgid "Game Over"
 msgstr "结束"
 
-#: results.php:165 rules.php:114
+#: results.php:215 rules.php:114
 msgid "Back to Top"
 msgstr "回到顶部"
 
@@ -736,10 +760,8 @@ msgid ""
 msgstr ""
 
 #: rules.php:71
-#, fuzzy
-#| msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
 msgid "Money Comes and Goes On its Own"
-msgstr "<em>【财富流至门前来】</em>"
+msgstr "财富流至门前来"
 
 #: rules.php:72
 msgid "Fragmented Life Card"
@@ -871,12 +893,6 @@ msgstr "完整的TWC规则可以在这里被找到："
 #: schedule.php:2 schedule.php:13
 msgid "Schedule"
 msgstr "时间表"
-
-#: schedule.php:63
-#, fuzzy
-#| msgid "Team West: "
-msgid "Team "
-msgstr "西方团队："
 
 #: twcscore.php:12
 msgid "TWCScore Calculator"
@@ -1047,6 +1063,11 @@ msgstr "TWCScore："
 #: twcscore.php:156
 msgid "Score:"
 msgstr "分数："
+
+#, fuzzy
+#~| msgid "Team West: "
+#~ msgid "Team "
+#~ msgstr "西方团队："
 
 #~ msgid ""
 #~ "The full official rulebook can be found <a href=\"assets/TWC_Handbook."
@@ -1359,12 +1380,6 @@ msgstr "分数："
 
 #~ msgid "GhostTeam"
 #~ msgstr "幽冥组"
-
-#~ msgid "Aya"
-#~ msgstr "文"
-
-#~ msgid "Medicine"
-#~ msgstr "梅蒂薪"
 
 #~ msgid "Hatate"
 #~ msgstr "羽立"

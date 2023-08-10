@@ -23,6 +23,8 @@ echo _('Cirno');
 echo _('Lyrica');
 echo _('Mystia');
 echo _('Tewi');
+echo _('Aya');
+echo _('Medicine');
 echo _('Yuuka');
 echo _('Komachi');
 echo _('Eiki');

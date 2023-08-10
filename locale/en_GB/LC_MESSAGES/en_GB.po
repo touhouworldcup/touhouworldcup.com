@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-07-28 18:14+0200\n"
-"PO-Revision-Date: 2023-07-28 18:14+0200\n"
+"POT-Creation-Date: 2023-08-10 19:49+0200\n"
+"PO-Revision-Date: 2023-08-10 19:49+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -131,7 +131,7 @@ msgstr ""
 msgid ")"
 msgstr ""
 
-#: php/table_func.php:57
+#: php/table_func.php:61
 msgid "Exhibition Matches"
 msgstr ""
 
@@ -228,142 +228,150 @@ msgid "Tewi"
 msgstr ""
 
 #: php/translations.php:26
-msgid "Yuuka"
+msgid "Aya"
 msgstr ""
 
 #: php/translations.php:27
-msgid "Komachi"
+msgid "Medicine"
 msgstr ""
 
 #: php/translations.php:28
-msgid "Eiki"
+msgid "Yuuka"
 msgstr ""
 
 #: php/translations.php:29
-msgid "MarisaC"
+msgid "Komachi"
 msgstr ""
 
 #: php/translations.php:30
-msgid "SanaeA"
+msgid "Eiki"
 msgstr ""
 
 #: php/translations.php:31
-msgid "SanaeB"
+msgid "MarisaC"
 msgstr ""
 
 #: php/translations.php:32
-msgid "Sanae"
+msgid "SanaeA"
 msgstr ""
 
 #: php/translations.php:33
-msgid "ReimuSpring"
+msgid "SanaeB"
 msgstr ""
 
 #: php/translations.php:34
-msgid "CirnoSpring"
+msgid "Sanae"
 msgstr ""
 
 #: php/translations.php:35
-msgid "AyaSpring"
+msgid "ReimuSpring"
 msgstr ""
 
 #: php/translations.php:36
-msgid "MarisaSpring"
+msgid "CirnoSpring"
 msgstr ""
 
 #: php/translations.php:37
-msgid "ReimuSummer"
+msgid "AyaSpring"
 msgstr ""
 
 #: php/translations.php:38
-msgid "CirnoSummer"
+msgid "MarisaSpring"
 msgstr ""
 
 #: php/translations.php:39
-msgid "AyaSummer"
+msgid "ReimuSummer"
 msgstr ""
 
 #: php/translations.php:40
-msgid "MarisaSummer"
+msgid "CirnoSummer"
 msgstr ""
 
 #: php/translations.php:41
-msgid "ReimuAutumn"
+msgid "AyaSummer"
 msgstr ""
 
 #: php/translations.php:42
-msgid "CirnoAutumn"
+msgid "MarisaSummer"
 msgstr ""
 
 #: php/translations.php:43
-msgid "AyaAutumn"
+msgid "ReimuAutumn"
 msgstr ""
 
 #: php/translations.php:44
-msgid "MarisaAutumn"
+msgid "CirnoAutumn"
 msgstr ""
 
 #: php/translations.php:45
-msgid "ReimuWinter"
+msgid "AyaAutumn"
 msgstr ""
 
 #: php/translations.php:46
-msgid "CirnoWinter"
+msgid "MarisaAutumn"
 msgstr ""
 
 #: php/translations.php:47
-msgid "AyaWinter"
+msgid "ReimuWinter"
 msgstr ""
 
 #: php/translations.php:48
-msgid "MarisaWinter"
+msgid "CirnoWinter"
 msgstr ""
 
 #: php/translations.php:49
-msgid "ReimuWolf"
+msgid "AyaWinter"
 msgstr ""
 
 #: php/translations.php:50
-msgid "ReimuOtter"
+msgid "MarisaWinter"
 msgstr ""
 
 #: php/translations.php:51
-msgid "ReimuEagle"
+msgid "ReimuWolf"
 msgstr ""
 
 #: php/translations.php:52
-msgid "MarisaWolf"
+msgid "ReimuOtter"
 msgstr ""
 
 #: php/translations.php:53
-msgid "MarisaOtter"
+msgid "ReimuEagle"
 msgstr ""
 
 #: php/translations.php:54
-msgid "MarisaEagle"
+msgid "MarisaWolf"
 msgstr ""
 
 #: php/translations.php:55
-msgid "YoumuWolf"
+msgid "MarisaOtter"
 msgstr ""
 
 #: php/translations.php:56
-msgid "YoumuOtter"
+msgid "MarisaEagle"
 msgstr ""
 
 #: php/translations.php:57
-msgid "YoumuEagle"
+msgid "YoumuWolf"
 msgstr ""
 
 #: php/translations.php:58
-msgid "Team Spirit"
+msgid "YoumuOtter"
 msgstr ""
 
 #: php/translations.php:59
+msgid "YoumuEagle"
+msgstr ""
+
+#: php/translations.php:60 results.php:38 results.php:65 schedule.php:47
+msgid "Team Spirit"
+msgstr ""
+
+#: php/translations.php:61 results.php:34 results.php:69 schedule.php:51
 msgid "Team Lotus"
 msgstr ""
 
-#: php/translations.php:60
+#: php/translations.php:62 results.php:42 results.php:73 schedule.php:55
 msgid "Team Harmony"
 msgstr ""
 
@@ -387,103 +395,119 @@ msgstr ""
 msgid "Contents"
 msgstr ""
 
-#: results.php:27 schedule.php:21
+#: results.php:28 schedule.php:21
 msgid "Show Results"
 msgstr ""
 
-#: results.php:28 schedule.php:22
+#: results.php:29 schedule.php:22
 msgid "Hide Results"
 msgstr ""
 
-#: results.php:30 results.php:79 results.php:129
+#: results.php:31 results.php:80 results.php:129 results.php:179
 msgid "Final tally:"
 msgstr ""
 
-#: results.php:33 results.php:64
-msgid "Team Rose"
+#: results.php:35
+msgid "Team Lotus: "
 msgstr ""
 
-#: results.php:34
-msgid "Team Rose: "
-msgstr ""
-
-#: results.php:34 results.php:38 results.php:42 results.php:83 results.php:87
-#: results.php:91 results.php:133 results.php:137 results.php:141
+#: results.php:35 results.php:39 results.php:43 results.php:84 results.php:88
+#: results.php:92 results.php:133 results.php:137 results.php:141
+#: results.php:183 results.php:187 results.php:191
 msgid " points"
 msgstr ""
 
-#: results.php:37 results.php:72
-msgid "Team Heart"
+#: results.php:39
+msgid "Team Spirit: "
 msgstr ""
 
-#: results.php:38
-msgid "Team Heart: "
+#: results.php:43
+msgid "Team Harmony: "
 msgstr ""
 
-#: results.php:41 results.php:68
-msgid "Team Mind"
-msgstr ""
-
-#: results.php:42
-msgid "Team Mind: "
-msgstr ""
-
-#: results.php:48 results.php:97 results.php:147 schedule.php:27
+#: results.php:49 results.php:98 results.php:147 results.php:197
+#: schedule.php:27
 msgid "Date / Time"
 msgstr ""
 
-#: results.php:49 results.php:98 results.php:148 schedule.php:28
-#: twcscore.php:71
+#: results.php:50 results.php:99 results.php:148 results.php:198
+#: schedule.php:28 twcscore.php:71
 msgid "Category"
 msgstr ""
 
-#: results.php:50 results.php:99 results.php:149 schedule.php:29
+#: results.php:51 results.php:100 results.php:149 results.php:199
+#: schedule.php:29
 msgid "Players"
 msgstr ""
 
-#: results.php:51 results.php:100 results.php:150 schedule.php:30
+#: results.php:52 results.php:101 results.php:150 results.php:200
+#: schedule.php:30
 msgid "Reset Time<br>(minutes)"
 msgstr ""
 
-#: results.php:52 results.php:101 results.php:151 schedule.php:31
-#: schedule.php:34
+#: results.php:53 results.php:102 results.php:151 results.php:201
+#: schedule.php:31 schedule.php:34
 msgid "Results"
 msgstr ""
 
-#: results.php:53 results.php:102 results.php:152 schedule.php:32
-#: schedule.php:35
+#: results.php:54 results.php:103 results.php:152 results.php:202
+#: schedule.php:32 schedule.php:35
 msgid "Points"
 msgstr ""
 
-#: results.php:82 results.php:121 results.php:132
+#: results.php:83 results.php:114
+msgid "Team Rose"
+msgstr ""
+
+#: results.php:84
+msgid "Team Rose: "
+msgstr ""
+
+#: results.php:87 results.php:122
+msgid "Team Heart"
+msgstr ""
+
+#: results.php:88
+msgid "Team Heart: "
+msgstr ""
+
+#: results.php:91 results.php:118
+msgid "Team Mind"
+msgstr ""
+
+#: results.php:92
+msgid "Team Mind: "
+msgstr ""
+
+#: results.php:132 results.php:171 results.php:182
 msgid "Flag of Japan"
 msgstr ""
 
-#: results.php:83 results.php:133
+#: results.php:133 results.php:183
 msgid "Team Japan: "
 msgstr ""
 
-#: results.php:86 results.php:117 results.php:140
+#: results.php:136 results.php:167 results.php:190
 msgid "Flag of the P.R.C."
 msgstr ""
 
-#: results.php:87 results.php:141
+#: results.php:137 results.php:191
 msgid "Team China: "
 msgstr ""
 
-#: results.php:90 results.php:113 results.php:136
+#: results.php:140 results.php:163 results.php:186
 msgid "Earth"
 msgstr ""
 
-#: results.php:91 results.php:137
+#: results.php:141 results.php:187
 msgid "Team West: "
 msgstr ""
 
-#: results.php:127 results.php:164
+#: results.php:177 results.php:214
 msgid "Game Over"
 msgstr ""
 
-#: results.php:165 rules.php:114
+#: results.php:215 rules.php:114
 msgid "Back to Top"
 msgstr ""
 
@@ -835,10 +859,6 @@ msgstr ""
 
 #: schedule.php:2 schedule.php:13
 msgid "Schedule"
-msgstr ""
-
-#: schedule.php:63
-msgid "Team "
 msgstr ""
 
 #: twcscore.php:12
