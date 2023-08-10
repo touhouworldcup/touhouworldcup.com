@@ -1,7 +1,7 @@
 <?php
     $title = _('Past Results');
     $description = 'Touhou World Cup results from past years';
-    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2022 competition, scoring, survival, tournament';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2023 competition, scoring, survival, tournament';
     include_once 'php/locale.php';
     include_once 'php/head.php';
     include_once 'php/table_func.php';
@@ -20,12 +20,62 @@
     ?></p>
     <h2 class="contents"><?php echo _('Contents') ?></h2>
     <div class="contents">
+        <p><a href="#2023">2023</a></p>
         <p><a href="#2022">2022</a></p>
         <p><a href="#2021">2021</a></p>
         <p><a href="#2020">2020</a></p>
     </div>
     <p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
     <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>
+    <h2 id="2023">TWC 2023</h2>
+    <p><?php echo _('Final tally:') ?></p>
+    <ol>
+        <li>
+            <img src="assets/icons/lotus.png" alt="<?php echo _('Team Lotus') ?>">
+            <strong><?php echo _('Team Lotus: ') ?>36.5<?php echo _(' points') ?></strong>
+        </li>
+        <li>
+            <img src="assets/icons/spirit.png" alt="<?php echo _('Team Spirit') ?>">
+            <?php echo _('Team Spirit: ') ?>29<?php echo _(' points') ?>
+        </li>
+        <li>
+            <img src="assets/icons/harmony.png" alt="<?php echo _('Team Harmony') ?>">
+            <?php echo _('Team Harmony: ') ?>27.5<?php echo _(' points') ?>
+        </li>
+    </ol>
+    <table class="schedule_table spoiler">
+        <thead>
+            <tr>
+                <th rowspan="3"><?php echo _('Date / Time') ?></th>
+                <th rowspan="3"><?php echo _('Category') ?></th>
+                <th rowspan="3"><?php echo _('Players') ?></th>
+                <th rowspan="3"><?php echo _('Reset Time<br>(minutes)') ?></th>
+                <th rowspan="3"><?php echo _('Results') ?></th>
+                <th rowspan="3"><?php echo _('Points') ?></th>
+            </tr>
+        </thead>
+        <tbody id="schedule_tbody_2023"><?php
+            $json = file_get_contents('past/schedule_2023.json');
+            $schedule_2023 = json_decode($json, true);
+            $json = file_get_contents('past/results_2023.json');
+            $results_2023 = json_decode($json, true);
+            $teams_2023 = array(
+                (object) [
+                    'name' => 'Spirit',
+                    'image' => '<img src="assets/icons/spirit.png" alt="' . _('Team Spirit') . '">'
+                ],
+                (object) [
+                    'name' => 'Lotus',
+                    'image' => '<img src="assets/icons/lotus.png" alt="' . _('Team Lotus') . '">'
+                ],
+                (object) [
+                    'name' => 'Harmony',
+                    'image' => '<img src="assets/icons/harmony.png" alt="' . _('Team Harmony') . '">'
+                ]
+            );
+            print_schedule($schedule_2023, $results_2023, $teams_2023);
+        ?></tbody>
+    </table>
     <h2 id="2022">TWC 2022</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol>

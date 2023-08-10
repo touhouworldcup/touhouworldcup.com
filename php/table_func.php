@@ -50,13 +50,22 @@ function format_points(array $results, array $bonus_matches, string $key) {
     return $formatted;
 }
 function print_schedule(array $schedule, array $results, array $teams) {
+    if (sizeof($schedule) == 0) {
+        return;
+    }
     global $lang;
-    $bonus_matches = array('1584273600', '1620558000', '1620567000', '1657980000', '1658062800');
+    $highlight = false;
+    $bonus_matches = array('1584273600', '1620558000', '1620567000', '1657980000', '1658062800', '1691312400', '1691323200');
     foreach ($schedule as $key => $match) {
-        if ($key == '1584273600' || $key == '1620558000' || $key == '1657980000') {
+        if ($key == '1584273600' || $key == '1620558000' || $key == '1657980000' || $key == '1691312400') {
             echo '<tr><td class="bonus" colspan="6"><strong>' . _('Exhibition Matches') . '</strong></td></tr>';
         }
-        echo '<tr' . (in_array($key, $bonus_matches) ? ' class="bonus_match"' : '') . '>';
+        if (!$highlight && $key >= time()) {
+            echo '<tr' . (in_array($key, $bonus_matches) ? ' class="bonus_match"' : '') . ' class="highlight">';
+            $highlight = true;
+        } else {
+            echo '<tr' . (in_array($key, $bonus_matches) ? ' class="bonus_match"' : '') . '>';
+        }
         echo '<td id="' . $key . '_date">' . gmdate(get_date_format($lang), $key) . '</td>';
         echo '<td class="' . preg_split('/ /', $match['category'])[0] . '">' . $match['category'] . '</td><td>';
         foreach ($match['players'] as $index => $player) {
@@ -65,14 +74,14 @@ function print_schedule(array $schedule, array $results, array $teams) {
         }
         echo '</td><td>' . ($match['reset'] === 0 ? 'N/A' : $match['reset']) . '</td>';
         if (array_key_exists($key, $results)) {
-            echo '<td>' . format_results($results, $bonus_matches, $key) . '</td>';
+            echo '<td class="spoiler">' . format_results($results, $bonus_matches, $key) . '</td>';
             if (!in_array($key, $bonus_matches)) {
-                echo '<td>' . format_points($results, $bonus_matches, $key) . '</td>';
+                echo '<td class="spoiler">' . format_points($results, $bonus_matches, $key) . '</td>';
             } else {
-                echo '<td>&nbsp;</td>';
+                echo '<td class="spoiler">&nbsp;</td>';
             }
         } else {
-            echo '<td>&nbsp;</td><td>&nbsp;</td>';
+            echo '<td class="spoiler">&nbsp;</td><td class="spoiler">&nbsp;</td>';
         }
         echo '</tr>';
     }

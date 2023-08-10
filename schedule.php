@@ -1,7 +1,7 @@
 <?php
     $title = _('Schedule');
     $description = 'Order and time at which Touhou World Cup matches will happen';
-    $keywords = 'touhou, touhou project, 東方, 东方, world cup, touhou world cup, twc, 2022 competition, scoring, survival, tournament, schedule, timetable';
+    $keywords = 'touhou, touhou project, 東方, 东方, world cup, touhou world cup, twc, 2023 competition, scoring, survival, tournament, schedule, timetable';
     include_once 'php/locale.php';
     include_once 'php/head.php';
     include_once 'php/table_func.php';
@@ -18,8 +18,8 @@
             echo _('Daylight Saving Time (also known as Summer Time or DST) is taken into account automatically.');
         }
     ?></p>
-    <p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
-    <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>
+    <!--<p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
+    <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>-->
     <ol id="spoiler_ol"></ol>
     <table class="schedule_table">
         <thead>
@@ -36,48 +36,28 @@
                 </noscript>
             </tr>
         </thead>
-        <tbody><?php
+        <tbody id="schedule_tbody"><?php
             $json = file_get_contents('json/schedule.json');
             $schedule = json_decode($json, true);
             $json = file_get_contents('json/results.json');
             $results = json_decode($json, true);
-            $teams = array('spirit', 'lotus', 'harmony');
-            $bonus_matches = array("1691312400", "1691323200");
-            $highlight = false;
-            foreach ($schedule as $key => $match) {
-                if (!$highlight && $key >= time()) {
-                    echo '<tr class="highlight">';
-                    $highlight = true;
-                } else {
-                    echo '<tr>';
-                }
-                echo '<td id="' . $key . '_date">' . gmdate(get_date_format($lang), $key) . '</td>';
-                echo '<td class="' . preg_split('/ /', $match['category'])[0] . '">' . $match['category'] . '</td><td>';
-                foreach ($match['players'] as $index => $player) {
-                    if(in_array($key, $bonus_matches)) {
-                        $team = "";
-                    } else {
-                        $team = $teams[$index];
-                    }
-                    if (!empty($team)) {
-                        echo '<span class="team"><img src="assets/icons/' . $team . '.png" alt="' . ucfirst($team) . '"><span class="tooltip">' . _('Team ' . ucfirst($team)) . '</span></span> ' . $player . '<br>';
-                    } else {
-                        echo $player . '<br>';
-                    }
-                }
-                echo '</td><td>' . ($match['reset'] === 0 ? 'N/A' : $match['reset']) . '</td>';
-                if (array_key_exists($key, $results)) {
-                    echo '<td class="spoiler">' . format_results($results, $bonus_matches, $key) . '</td><td class="spoiler">' . format_points($results, $bonus_matches, $key) . '</td>';
-                    echo '<noscript><td>' . format_results($results, $bonus_matches, $key) . '</td><td>' . format_points($results, $bonus_matches, $key) . '</td></noscript>';
-                } else {
-                    echo '<td class="spoiler">&nbsp;</td><td class="spoiler">&nbsp;</td>';
-                    echo '<noscript><td>&nbsp;</td><td>&nbsp;</td></noscript>';
-                }
-                echo '</tr>';
-            }
+            $teams = array(
+                (object) [
+                    'name' => 'Spirit',
+                    'image' => '<img src="assets/icons/spirit.png" alt="' . _('Team Spirit') . '">'
+                ],
+                (object) [
+                    'name' => 'Lotus',
+                    'image' => '<img src="assets/icons/lotus.png" alt="' . _('Team Lotus') . '">'
+                ],
+                (object) [
+                    'name' => 'Harmony',
+                    'image' => '<img src="assets/icons/harmony.png" alt="' . _('Team Harmony') . '">'
+                ]
+            );
+            print_schedule($schedule, $results, $teams);
         ?></tbody>
     </table>
     </main>
 </body>
 </html>
-
