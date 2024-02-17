@@ -215,79 +215,93 @@ window.onload = () => {
         }
     }
 
-	const calc_iscore = (event) => {
+    const get_full_spell = () => {
+        if (fullspell.checked) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+
+    const calc_iscore = (data, rt, is, game_name) => {
+        let iscore_val;
+
+        if (rt === "surv") {
+            const miss = get_element_val(i_misses, "miss", "number");
+
+            if (game_name === "th128") {
+                const medals = get_element_val(th128_medals, "medals", "number");
+                iscore_val = iscore.calc_th128_survival(data, medals, miss);
+            } else {
+                const FS = get_full_spell();
+                iscore_val = iscore.calc_survival(data, miss, FS);
+            }
+        } else { // scoring
+            if (is === "ingame") {
+                const score = get_element_val(i_score, "score", "string");
+                iscore_val = iscore.calc_scoring(data, score);
+            } else { // "twc"
+                const score = get_element_val(i_score, "score", "float");
+                iscore_val = iscore.calc_scoring_reverse(data, score);
+                iscore_val = sep(iscore_val);
+            }
+        }
+
+        return iscore_val;
+    }
+
+	const get_iscore_from_db = (event) => {
 		event.preventDefault();
 
-		const get_full_spell = () => {
-            let game_name = get_name(game_sel);
-			if ((game_name === "th11" || game_name === "th13") && fullspell.checked) {
-				return 1;
-			} else {
-				return 0;
-			}
-		}
-
-		const rt = get_name(runtype);
-        const is = get_name(inputscore);
-		let iscore_val = 0;
-
 		try {
-            let game_name = get_name(game_sel), shottype_name = get_shot_name();
+            const rt = get_name(runtype);
+            const is = get_name(inputscore);
+            let game_name = get_name(game_sel);
+            let iscore_val = 0;
 
             if (game_name === "") {
                 handle_error("game");
                 return;
             }
 
+            let shottype_name = get_shot_name();
+
             if (shottype_name === "") {
                 handle_error("shottype");
                 return;
             }
 
-			if (rt === "surv") {
-				if (game_name === "th128") {
-					iscore_val = iscore.get_th128_survival(
-                        shottype_name,
-						get_element_val(th128_medals, "medals", "number"),
-						get_element_val(i_misses, "miss", "number")
-					);
-				} else {
-					iscore_val = iscore.get_survival(
-						game_name,
-						shottype_name,
-						get_element_val(i_misses, "miss", "number"),
-						get_full_spell(),
-						get_element_val(th08_end, "", "string")
-					);
-				}
+            const xhr = new XMLHttpRequest();
+            let url = `/php/db.php?rt=${rt}&game=${game_name}&shot=${shottype_name}`;
 
-			} else if (rt === "score") {
-				if (diff_sel.value === "Extra") {
-					game_name = game_name + "ex";
-				}
+            if (rt === "score") {
+                url += `&diff=${diff_sel.value}`;
+            }
 
-                if (is === "ingame") {
-                    iscore_val = iscore.get_scoring(
-                        game_name,
-                        shottype_name,
-                        get_element_val(i_score, "score", "string")
-                    );
-                } else { // inputscore.value === "twc"
-                    iscore_val = iscore.get_scoring_reverse(
-                        game_name,
-                        shottype_name,
-                        get_element_val(i_score, "score", "float")
-                    );
-                    iscore_val = sep(iscore_val);
+            if (rt === "surv" && game_name === "th08") {
+                url += `&route=${get_element_val(th08_end, "", "string")}`;
+            }
+
+            xhr.open('GET', url);
+            xhr.onreadystatechange = function () {
+                if (this.readyState === 4) {
+                    if (this.status === 200) {
+                        const data = this.response.split(',');
+                        iscore_val = calc_iscore(data, rt, is, game_name);
+                    } else {
+                        iscore_val = 0;
+                    }
+
+                    iscore_final.innerText = iscore_val.toString();
+                    window.scrollTo(0, document.body.scrollHeight);
+                    clear_errors();
                 }
-			}
-            clear_errors();
+            }
+
+            xhr.send();
 		} catch (error) {
 			handle_error(error);
 		}
-
-		iscore_final.innerText = iscore_val.toString();
-        window.scrollTo(0, document.body.scrollHeight);
 	}
 
     const adjust_miss_count = (event) => {
@@ -314,7 +328,7 @@ window.onload = () => {
 
     const key_press = (event) => {
         if (event.key && event.key == "Enter") {
-            calc_iscore(event);
+            get_iscore_from_db(event);
         }
     }
 
@@ -357,13 +371,13 @@ window.onload = () => {
     i_minus.addEventListener("click", adjust_miss_count, false);
     i_gold_plus.addEventListener("click", adjust_medal_count, false);
     i_gold_minus.addEventListener("click", adjust_medal_count, false);
-    submit.addEventListener("click", calc_iscore, false);
+    submit.addEventListener("click", get_iscore_from_db, false);
     game_sel.addEventListener("change", game_selected, false);
     diff_sel.addEventListener("change", diff_selected, false);
     runtype.addEventListener("change", change_runtype, false);
     inputscore.addEventListener("change", change_inputscore, false);
     runtype.value = "";
-    document.getElementById("calc-iscore").addEventListener("submit", calc_iscore);
+    document.getElementById("calc-iscore").addEventListener("submit", get_iscore_from_db);
     fullspell_w.style.display = "none";
     surv_opts.style.display = "none";
     score_opts.style.display = "none";
