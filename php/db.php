@@ -6,10 +6,10 @@
 
     function get_survival(mysqli $db, string $game, string $shot, string $route = 'NULL') {
         if ($game == 'th08') { 
-            $statement = mysqli_prepare('SELECT MaxScore, FullSpellBonus, BaseScore FROM Survival WHERE Game = ? AND Route = ? AND Shottype = ?');
+            $statement = mysqli_prepare($db, 'SELECT MaxScore, FullSpellBonus, BaseScore FROM Survival WHERE Game = ? AND Route = ? AND Shottype = ?');
             $statement->bind_param('sss', $game, $route, $shot);
         } else {
-            $statement = mysqli_prepare('SELECT MaxScore, FullSpellBonus, BaseScore FROM Survival WHERE Game = ? AND Route IS NULL AND Shottype = ?');
+            $statement = mysqli_prepare($db, 'SELECT MaxScore, FullSpellBonus, BaseScore FROM Survival WHERE Game = ? AND Route IS NULL AND Shottype = ?');
             $statement->bind_param('ss', $game, $shot);
         }
 
@@ -24,7 +24,7 @@
     }
 
     function get_scoring(mysqli $db, string $game, string $diff, string $shot) {
-        $statement = mysqli_prepare('SELECT A, B, C FROM Scoring WHERE Game = ? AND Difficulty = ? AND Shottype = ?');
+        $statement = mysqli_prepare($db, 'SELECT A, B, C FROM Scoring WHERE Game = ? AND Difficulty = ? AND Shottype = ?');
         $statement->bind_param('sss', $game, $diff, $shot);
         $statement->execute();
         $result = $statement->get_result();
