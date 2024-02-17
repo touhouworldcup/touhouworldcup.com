@@ -2,7 +2,6 @@ const iscore = {};
 
 // Calculates the amount of TWCScore for a given survival run (except GFW; see below)
 iscore.calc_survival = (data, miss, FS) => {
-	console.log(data);
 	const max_score = parseInt(data["MaxScore"]);
 	const full_spell_bonus = parseInt(data["FullSpellBonus"]);
 
@@ -25,14 +24,12 @@ iscore.calc_survival = (data, miss, FS) => {
 
 // Calculates the amount of TWCScore for a given GFW survival run
 iscore.calc_th128_survival = (data, medals, miss) => {
-	console.log(data);
 	const d = parseInt(data["BaseScore"]);
 	return Math.round((medals * d - miss) * 10) / 10;
 }
 
 // Calculates the amount of TWCScore for a given score run
 iscore.calc_scoring = (rubric, score) => {
-	console.log(rubric);
 	const a = parseFloat(rubric.A);
 	const b = parseFloat(rubric.B);
 	const c = parseFloat(rubric.C);
@@ -61,7 +58,6 @@ iscore.calc_scoring = (rubric, score) => {
 
 // Calculates the score of a given score run based on what its TWCScore was
 iscore.calc_scoring_reverse = (rubric, iscore) => {
-	console.log(rubric);
 	const a = parseFloat(rubric.A);
 	const b = parseFloat(rubric.B);
 	const c = parseFloat(rubric.C);
