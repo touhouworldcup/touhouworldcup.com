@@ -19,7 +19,7 @@
         if ($row = $result->fetch_assoc()) {
             return json_encode($row);
         } else {
-            return '0,0,0'; // data error
+            return '{}'; // data error
         }
     }
 
@@ -32,7 +32,7 @@
         if ($row = $result->fetch_assoc()) {
             return json_encode($row);
         } else {
-            return '0,0,0'; // data error
+            return '{}'; // data error
         }
     }
 
