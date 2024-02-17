@@ -287,6 +287,7 @@ window.onload = () => {
                 if (this.readyState === 4) {
                     if (this.status === 200) {
                         const data = JSON.parse(data);
+                        console.log(data);
                         iscore_val = calc_iscore(data, rt, is, game_name);
                     } else {
                         iscore_val = 0;
