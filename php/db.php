@@ -36,7 +36,7 @@
         }
     }
 
-    $db = mysqli_connect('localhost', 'twc_admin', 'test', 'twc');
+    $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('../pw'), 'twc');
 
     if ($db->connect_error) {
         die('Database connection failed: ' . $db->connect_error);
