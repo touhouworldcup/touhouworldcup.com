@@ -160,7 +160,5 @@
 	</form>
 	</main>
     <input id="shots_json" type="hidden" value='<?php echo file_get_contents('json/shots.json') ?>'>
-    <input id="scoring_json" type="hidden" value='<?php echo file_get_contents('json/scoring.json') ?>'>
-    <input id="survival_json" type="hidden" value='<?php echo file_get_contents('json/survival.json') ?>'>
 </body>
 </html>
