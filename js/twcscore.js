@@ -2,8 +2,8 @@ const iscore = {};
 
 // Calculates the amount of TWCScore for a given survival run (except GFW; see below)
 iscore.calc_survival = (data, miss, FS) => {
-	const max_score = parseInt(data[0]);
-	const full_spell_bonus = parseInt(data[1]);
+	const max_score = parseInt(data["MaxScore"]);
+	const full_spell_bonus = parseInt(data["FullSpellBonus"]);
 
 	if (miss) {
         FS = 0;
@@ -24,15 +24,15 @@ iscore.calc_survival = (data, miss, FS) => {
 
 // Calculates the amount of TWCScore for a given GFW survival run
 iscore.calc_th128_survival = (data, medals, miss) => {
-	const d = parseInt(data[0]);
+	const d = parseInt(data["BaseScore"]);
 	return Math.round((medals * d - miss) * 10) / 10;
 }
 
 // Calculates the amount of TWCScore for a given score run
 iscore.calc_scoring = (rubric, score) => {
-	const a = parseFloat(rubric[0]);
-	const b = parseFloat(rubric[1]);
-	const c = parseFloat(rubric[2]);
+	const a = parseFloat(rubric.A);
+	const b = parseFloat(rubric.B);
+	const c = parseFloat(rubric.C);
 	const lnum_suff = {
 		"m": 1000000,
 		"b": 1000000000,
@@ -58,9 +58,9 @@ iscore.calc_scoring = (rubric, score) => {
 
 // Calculates the score of a given score run based on what its TWCScore was
 iscore.calc_scoring_reverse = (rubric, iscore) => {
-	const a = parseFloat(rubric[0]);
-	const b = parseFloat(rubric[1]);
-	const c = parseFloat(rubric[2]);
+	const a = parseFloat(rubric.A);
+	const b = parseFloat(rubric.B);
+	const c = parseFloat(rubric.C);
     let score = Math.round(Math.log((iscore - c) / b) / Math.log(a) * 100000000);
 	return score;
 }

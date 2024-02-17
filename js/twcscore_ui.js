@@ -286,7 +286,7 @@ window.onload = () => {
             xhr.onreadystatechange = function () {
                 if (this.readyState === 4) {
                     if (this.status === 200) {
-                        const data = this.response.split(',');
+                        const data = JSON.parse(data);
                         iscore_val = calc_iscore(data, rt, is, game_name);
                     } else {
                         iscore_val = 0;
