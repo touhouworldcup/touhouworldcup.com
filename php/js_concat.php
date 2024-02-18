@@ -13,16 +13,6 @@ if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) {
 $page = empty($_GET['page']) ? 'index' : $_GET['page'];
 $min = (!is_localhost($_SERVER['REMOTE_ADDR']) ? '-min' : '');
 $path = '../js/' . $page . $min . '.js';
-if (is_localhost($_SERVER['REMOTE_ADDR'])) {
-    if (!file_exists('../config.json')) {
-        die('config.json not found!');
-    }
-    $config = json_decode(file_get_contents('../config.json'));
-    echo 'const auth_token = "' . $config->auth_token . '";';
-    echo 'let db_url = {};';
-    echo 'db_url["score"] = "https://app.nocodb.com/api/v2/tables/' . $config->scoring_table . '/records?viewId=' . $config->scoring_view . '&limit=200&shuffle=0&offset=0&where=";';
-    echo 'db_url["surv"] = "https://app.nocodb.com/api/v2/tables/' . $config->surv_table . '/records?viewId=' . $config->surv_view . '&limit=200&shuffle=0&offset=0&where=";';
-}
 echo file_exists($path) ? file_get_contents($path) : '';
 if ($page == 'twcscore') {
     echo file_get_contents('../js/twcscore_ui' . $min . '.js');
