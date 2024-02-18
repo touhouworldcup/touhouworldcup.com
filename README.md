@@ -14,16 +14,6 @@ First, clone the repository in whatever way you prefer and navigate to its direc
 git clone https://github.com/touhouworldcup/touhouworldcup.com.git
 cd touhouworldcup.com
 ```
-Create a `config.json` file like so:
-```
-{
-    "auth_token": "",
-    "scoring_table": "",
-    "surv_table": "",
-    "scoring_view": "",
-    "surv_view": ""
-}  
-```
 Then, run the PHP development server.
 ```
 php -S 127.0.0.1:8000
