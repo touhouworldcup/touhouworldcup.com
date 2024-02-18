@@ -13,18 +13,6 @@ function get_date_format(string $lang) {
     }
 }
 
-/*function get_date_format(string $lang) {
-    switch ($lang) {
-        case 'en_US': return '%A, %B %e, %Y, %H:%M:%S';
-        case 'ja_JP': return '%Y年%B%e日%A, %H:%M:%S';
-        case 'zh_CN': return '%Y年%B%e日%A, %H:%M:%S';
-        case 'ru_RU': return '%A, %e %B %Y года, %H:%M:%S';
-        case 'de_DE': return '%A, %e. %B %Y, %H:%M:%S Uhr';
-        case 'es_ES': return '%A %e de %B de %Y, %H:%M:%S';
-        default: return '%A, %e %B %Y, %H:%M:%S';
-    }
-}*/
-
 function query_string() {
     if (isset($_SERVER['QUERY_STRING'])) {
         $query = preg_split('/=/', $_SERVER['QUERY_STRING']);
