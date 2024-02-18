@@ -60,31 +60,26 @@ function getClientTimeZone() {
     return "UTC" + new Date().toString().split("GMT")[1];
 }
 
-function sendXHR(type, url, data, callback) {
-    const newXHR = new XMLHttpRequest() || new window.ActiveXObject("Microsoft.XMLHTTP");
-    newXHR.open(type, url, true);
-    newXHR.send(data);
-    newXHR.onreadystatechange = function () {
-        if (this.status === 200 && this.readyState === 4) {
-            callback(this.response);
-        }
-    };
-}
-
-function toDateString(unix) {
-    const date = new Date(Number(unix) * 1000);
+function toDateString(dateTime) {
+    const date = new Date(dateTime);
     return date.toLocaleString(language, {"dateStyle": "full"}) + ", " + date.toLocaleTimeString(language);
 }
 
-function convertDateTimes(json) {
-    sendXHR("GET", json, null, function (response) {
-        const schedule = JSON.parse(response);
+function convertDateTimes(year) {
+    const loop = true;
+    let index = 0;
 
-        for (const unix in schedule) {
-            const dateString = toDateString(unix);
-            document.getElementById(unix + "_date").innerHTML = "<td class='noborders'>" + dateString + "</td>";
+    while (loop) {
+        const dateElement = document.getElementById(`date_${year}_${index}`);
+
+        if (!dateElement) {
+            break;
         }
-    });
+
+        const dateString = toDateString(dateElement.innerHTML + " UTC");
+        dateElement.innerHTML = `<td class='noborders'>${dateString}</td>`;
+        index++;
+    }
 }
 
 function init() {
@@ -116,9 +111,10 @@ function init() {
     if (location.pathname == "/schedule") {
         convertDateTimes("/json/schedule.json");
     } else {
-        convertDateTimes("/past/schedule_2022.json");
-        convertDateTimes("/past/schedule_2021.json");
-        convertDateTimes("/past/schedule_2020.json");
+        convertDateTimes("2023");
+        convertDateTimes("2022");
+        convertDateTimes("2021");
+        convertDateTimes("2020");
     }
 }
 

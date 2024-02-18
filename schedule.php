@@ -5,6 +5,7 @@
     include_once 'php/locale.php';
     include_once 'php/head.php';
     include_once 'php/table_func.php';
+    include_once 'php/db.php';
 ?>
 
 <body>
@@ -37,9 +38,10 @@
             </tr>
         </thead>
         <tbody id="schedule_tbody"><?php
-            $json = file_get_contents('json/schedule.json');
+            $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
+            $json = get_schedule($db, '2024');
             $schedule = json_decode($json, true);
-            $json = file_get_contents('json/results.json');
+            $json = file_get_contents('json/results.json', true);
             $results = json_decode($json, true);
             $teams = array(
                 (object) [
@@ -55,7 +57,7 @@
                     'image' => '<img src="assets/icons/harmony.png" alt="' . _('Team Harmony') . '">'
                 ]
             );
-            print_schedule($schedule, $results, $teams);
+            print_schedule($schedule, $results, $teams, '2024');
         ?></tbody>
     </table>
     </main>

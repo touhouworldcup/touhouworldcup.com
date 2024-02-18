@@ -36,13 +36,21 @@
         }
     }
 
+    function get_schedule(mysqli $db, string $year) {
+        $statement = mysqli_prepare($db, 'SELECT * FROM `Schedule ' . $year . '`');
+        $statement->execute();
+        $result = $statement->get_result();
+        for ($rows = array (); $row = $result->fetch_assoc(); $rows[] = $row);
+        return json_encode($rows);
+    }
+
     if (file_exists('../.pw')) {
         $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('../.pw'), 'twc');
 
         if ($db->connect_error) {
             die('Database connection failed: ' . $db->connect_error);
         }
-    
+
         if (!empty($_GET['rt']) && $_GET['rt'] == 'surv') {
             if (!empty($_GET['route'])) {
                 echo get_survival($db, $_GET['game'], $_GET['shot'], $_GET['route']);

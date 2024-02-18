@@ -49,7 +49,7 @@ function format_points(array $results, array $bonus_matches, string $key) {
     }
     return $formatted;
 }
-function print_schedule(array $schedule, array $results, array $teams) {
+function print_schedule(array $schedule, array $results, array $teams, string $year) {
     if (sizeof($schedule) == 0) {
         return;
     }
@@ -57,22 +57,22 @@ function print_schedule(array $schedule, array $results, array $teams) {
     $highlight = false;
     $bonus_matches = array('1584273600', '1620558000', '1620567000', '1657980000', '1658062800', '1691312400', '1691323200');
     foreach ($schedule as $key => $match) {
-        if ($key == '1584273600' || $key == '1620558000' || $key == '1657980000' || $key == '1691312400') {
+        /*if ($key == '1584273600' || $key == '1620558000' || $key == '1657980000' || $key == '1691312400') {
             echo '<tr><td class="bonus" colspan="6"><strong>' . _('Exhibition Matches') . '</strong></td></tr>';
-        }
-        if (!$highlight && $key >= time()) {
+        }*/
+        /*if (!$highlight && $key >= time()) {
             echo '<tr' . (in_array($key, $bonus_matches) ? ' class="bonus_match"' : '') . ' class="highlight">';
             $highlight = true;
-        } else {
+        } else {*/
             echo '<tr' . (in_array($key, $bonus_matches) ? ' class="bonus_match"' : '') . '>';
+        //}
+        echo '<td id="date_' . $year . '_' . $key . '">' . date_format(date_create($match['Date__UTC_']), get_date_format($lang)) . '</td>';
+        echo '<td class="' . preg_split('/ /', $match['Category'])[0] . '">' . $match['Category'] . '</td><td>';
+        for ($i = 1; $i <= 3; $i++) {
+            $team = $teams[$i - 1];
+            echo '<span class="team">' . $team->image . '<span class="tooltip">Team ' . $team->name . '</span></span> ' . $match['Player_' . $i] . '<br>';
         }
-        echo '<td id="' . $key . '_date">' . gmdate(get_date_format($lang), $key) . '</td>';
-        echo '<td class="' . preg_split('/ /', $match['category'])[0] . '">' . $match['category'] . '</td><td>';
-        foreach ($match['players'] as $index => $player) {
-            $team = $teams[$index];
-            echo '<span class="team">' . $team->image . '<span class="tooltip">Team ' . $team->name . '</span></span> ' . $player . '<br>';
-        }
-        echo '</td><td>' . ($match['reset'] === 0 ? 'N/A' : $match['reset']) . '</td>';
+        echo '</td><td>' . ($match['ResetTime'] === 0 ? 'N/A' : $match['ResetTime']) . '</td>';
         if (array_key_exists($key, $results)) {
             echo '<td class="spoiler">' . format_results($results, $bonus_matches, $key) . '</td>';
             if (!in_array($key, $bonus_matches)) {

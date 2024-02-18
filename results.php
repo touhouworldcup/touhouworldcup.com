@@ -5,6 +5,7 @@
     include_once 'php/locale.php';
     include_once 'php/head.php';
     include_once 'php/table_func.php';
+    include_once 'php/db.php';
 ?>
 
 <body>
@@ -55,7 +56,8 @@
             </tr>
         </thead>
         <tbody id="schedule_tbody_2023"><?php
-            $json = file_get_contents('past/schedule_2023.json');
+            $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
+            $json = get_schedule($db, '2023');
             $schedule_2023 = json_decode($json, true);
             $json = file_get_contents('past/results_2023.json');
             $results_2023 = json_decode($json, true);
@@ -73,7 +75,7 @@
                     'image' => '<img src="assets/icons/harmony.png" alt="' . _('Team Harmony') . '">'
                 ]
             );
-            print_schedule($schedule_2023, $results_2023, $teams_2023);
+            print_schedule($schedule_2023, $results_2023, $teams_2023, '2023');
         ?></tbody>
     </table>
     <h2 id="2022">TWC 2022</h2>
@@ -104,7 +106,8 @@
             </tr>
         </thead>
         <tbody id="schedule_tbody_2022"><?php
-            $json = file_get_contents('past/schedule_2022.json');
+            $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
+            $json = get_schedule($db, '2022');
             $schedule_2022 = json_decode($json, true);
             $json = file_get_contents('past/results_2022.json');
             $results_2022 = json_decode($json, true);
@@ -122,7 +125,7 @@
                     'image' => '<img src="assets/icons/heart.png" alt="' . _('Team Heart') . '">'
                 ]
             );
-            print_schedule($schedule_2022, $results_2022, $teams_2022);
+            print_schedule($schedule_2022, $results_2022, $teams_2022, '2022');
         ?></tbody>
     </table>
     <h2 id="2021">TWC 2021</h2>
@@ -153,7 +156,8 @@
             </tr>
         </thead>
         <tbody id="schedule_tbody_2021"><?php
-            $json = file_get_contents('past/schedule_2021.json');
+            $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
+            $json = get_schedule($db, '2021');
             $schedule_2021 = json_decode($json, true);
             $json = file_get_contents('past/results_2021.json');
             $results_2021 = json_decode($json, true);
@@ -171,7 +175,7 @@
                     'image' => '<img src="assets/icons/japan_16px.png" alt="' . _('Flag of Japan') . '">'
                 ]
             );
-            print_schedule($schedule_2021, $results_2021, $teams_2021);
+            print_schedule($schedule_2021, $results_2021, $teams_2021, '2021');
         ?></tbody>
     </table>
     <p class="spoiler">* <?php echo _('Game Over') ?></p>
@@ -203,12 +207,13 @@
             </tr>
         </thead>
         <tbody id="schedule_tbody_2020"><?php
-            $json = file_get_contents('past/schedule_2020.json');
+            $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
+            $json = get_schedule($db, '2020');
             $schedule_2020 = json_decode($json, true);
             $json = file_get_contents('past/results_2020.json');
             $results_2020 = json_decode($json, true);
             $teams_2020 = $teams_2021;
-            print_schedule($schedule_2020, $results_2020, $teams_2020);
+            print_schedule($schedule_2020, $results_2020, $teams_2020, '2020');
         ?></tbody>
     </table>
     <p class="spoiler">* <?php echo _('Game Over') ?></p>
