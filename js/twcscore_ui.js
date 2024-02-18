@@ -1,4 +1,4 @@
-/*global iscore*/
+/*global iscore auth_token db_url*/
 window.onload = () => {
     const games    = ["th06", "th07", "th08", "th09", "th10", "th11", "th12", "th128", "th13", "th14", "th15", "th16", "th17", "th18"];
 	const diff_w   = document.getElementById("diff_w");
@@ -223,7 +223,8 @@ window.onload = () => {
         }
     }
 
-    const calc_iscore = (data, rt, is, game_name) => {
+    const calc_iscore = (data, rt, game_name) => {
+        const is = get_name(inputscore);
         let iscore_val;
 
         if (rt === "surv") {
@@ -250,14 +251,81 @@ window.onload = () => {
         return iscore_val;
     }
 
+    const fetch_iscore_data_local = (rt, game_name, shottype_name) => {
+        let url = `${db_url[rt]}(Game,eq,${game_name})~and(Shottype,eq,${shottype_name})`;
+        iscore_final.innerText = "...";
+        window.scrollTo(0, document.body.scrollHeight);
+
+        if (rt === "score") {
+            url += `~and(Difficulty,eq,${diff_sel.value})`;
+        }
+
+        if (rt === "surv" && game_name === "th08") {
+            const route = get_element_val(th08_end, "", "string");
+            url += `~and(Route,eq,${route})`;
+        }
+
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', url);
+        xhr.setRequestHeader("xc-auth", auth_token);
+        xhr.onreadystatechange = function () {
+            if (this.readyState === 4) {
+                let iscore_val = 0;
+
+                if (this.status === 200) {
+                    const data = JSON.parse(this.response);
+
+                    if (data.list && data.list[0]) {
+                        const rubric = data.list[0];
+                        iscore_val = calc_iscore(rubric, rt, game_name);
+                    }
+                }
+
+                iscore_final.innerText = iscore_val.toString();
+                clear_errors();
+            }
+        }
+
+        xhr.send();
+    }
+
+    const fetch_iscore_data = (rt, game_name, shottype_name) => {
+        let url = `/php/db.php?rt=${rt}&game=${game_name}&shot=${shottype_name}`;
+
+        if (rt === "score") {
+            url += `&diff=${diff_sel.value}`;
+        }
+
+        if (rt === "surv" && game_name === "th08") {
+            url += `&route=${get_element_val(th08_end, "", "string")}`;
+        }
+
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', url);
+        xhr.onreadystatechange = function () {
+            if (this.readyState === 4) {
+                let iscore_val = 0;
+
+                if (this.status === 200) {
+                    const data = JSON.parse(this.response);
+                    iscore_val = calc_iscore(data, rt, game_name);
+                }
+
+                iscore_final.innerText = iscore_val.toString();
+                window.scrollTo(0, document.body.scrollHeight);
+                clear_errors();
+            }
+        }
+
+        xhr.send();
+    }
+
 	const get_iscore_from_db = (event) => {
 		event.preventDefault();
 
 		try {
             const rt = get_name(runtype);
-            const is = get_name(inputscore);
             let game_name = get_name(game_sel);
-            let iscore_val = 0;
 
             if (game_name === "") {
                 handle_error("game");
@@ -271,34 +339,11 @@ window.onload = () => {
                 return;
             }
 
-            const xhr = new XMLHttpRequest();
-            let url = `/php/db.php?rt=${rt}&game=${game_name}&shot=${shottype_name}`;
-
-            if (rt === "score") {
-                url += `&diff=${diff_sel.value}`;
+            if (location.host.includes("localhost")) {
+                fetch_iscore_data_local(rt, game_name, shottype_name);
+            } else { // live
+                fetch_iscore_data(rt, game_name, shottype_name);
             }
-
-            if (rt === "surv" && game_name === "th08") {
-                url += `&route=${get_element_val(th08_end, "", "string")}`;
-            }
-
-            xhr.open('GET', url);
-            xhr.onreadystatechange = function () {
-                if (this.readyState === 4) {
-                    if (this.status === 200) {
-                        const data = JSON.parse(this.response);
-                        iscore_val = calc_iscore(data, rt, is, game_name);
-                    } else {
-                        iscore_val = 0;
-                    }
-
-                    iscore_final.innerText = iscore_val.toString();
-                    window.scrollTo(0, document.body.scrollHeight);
-                    clear_errors();
-                }
-            }
-
-            xhr.send();
 		} catch (error) {
 			handle_error(error);
 		}
@@ -366,6 +411,11 @@ window.onload = () => {
     }
 
     document.body.addEventListener("keypress", key_press, false);
+
+    if (!i_score) {
+        return;
+    }
+
     i_score.addEventListener("keypress", key_down, false);
     i_plus.addEventListener("click", adjust_miss_count, false);
     i_minus.addEventListener("click", adjust_miss_count, false);
