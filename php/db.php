@@ -36,19 +36,21 @@
         }
     }
 
-    $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('../pw'), 'twc');
+    if (file_exists('../.pw')) {
+        $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('../.pw'), 'twc');
 
-    if ($db->connect_error) {
-        die('Database connection failed: ' . $db->connect_error);
-    }
-
-    if (!empty($_GET['rt']) && $_GET['rt'] == 'surv') {
-        if (!empty($_GET['route'])) {
-            echo get_survival($db, $_GET['game'], $_GET['shot'], $_GET['route']);
-        } else {
-            echo get_survival($db, $_GET['game'], $_GET['shot']);
+        if ($db->connect_error) {
+            die('Database connection failed: ' . $db->connect_error);
         }
-    } else {
-        echo get_scoring($db, $_GET['game'], $_GET['diff'], $_GET['shot']);
+    
+        if (!empty($_GET['rt']) && $_GET['rt'] == 'surv') {
+            if (!empty($_GET['route'])) {
+                echo get_survival($db, $_GET['game'], $_GET['shot'], $_GET['route']);
+            } else {
+                echo get_survival($db, $_GET['game'], $_GET['shot']);
+            }
+        } else {
+            echo get_scoring($db, $_GET['game'], $_GET['diff'], $_GET['shot']);
+        }
     }
 ?>
