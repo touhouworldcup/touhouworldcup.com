@@ -7,7 +7,7 @@ Prerequisites:
 
 Required PHP modules:
 * gettext
-* sqlite3
+* mysqli
 
 First, clone the repository in whatever way you prefer and navigate to its directory.
 ```
