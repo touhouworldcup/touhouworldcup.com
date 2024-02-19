@@ -59,7 +59,7 @@
             $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
             $json = get_schedule($db, '2023');
             $schedule_2023 = json_decode($json, true);
-            $json = file_get_contents('past/results_2023.json');
+            $json = get_results($db, '2023');
             $results_2023 = json_decode($json, true);
             $teams_2023 = array(
                 (object) [
@@ -109,7 +109,7 @@
             $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
             $json = get_schedule($db, '2022');
             $schedule_2022 = json_decode($json, true);
-            $json = file_get_contents('past/results_2022.json');
+            $json = get_results($db, '2022');
             $results_2022 = json_decode($json, true);
             $teams_2022 = array(
                 (object) [
@@ -159,7 +159,7 @@
             $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
             $json = get_schedule($db, '2021');
             $schedule_2021 = json_decode($json, true);
-            $json = file_get_contents('past/results_2021.json');
+            $json = get_results($db, '2021');
             $results_2021 = json_decode($json, true);
             $teams_2021 = array(
                 (object) [
@@ -210,7 +210,7 @@
             $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
             $json = get_schedule($db, '2020');
             $schedule_2020 = json_decode($json, true);
-            $json = file_get_contents('past/results_2020.json');
+            $json = get_results($db, '2020');
             $results_2020 = json_decode($json, true);
             $teams_2020 = $teams_2021;
             print_schedule($schedule_2020, $results_2020, $teams_2020, '2020');

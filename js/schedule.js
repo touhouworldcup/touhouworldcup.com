@@ -109,7 +109,7 @@ function init() {
     document.getElementById("timezone").innerHTML = getClientTimeZone();
 
     if (location.pathname == "/schedule") {
-        convertDateTimes("/json/schedule.json");
+        convertDateTimes("2024");
     } else {
         convertDateTimes("2023");
         convertDateTimes("2022");
