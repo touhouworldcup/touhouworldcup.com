@@ -52,6 +52,14 @@
         return json_encode($rows);
     }
 
+    function get_teams(mysqli $db, string $year) {
+        $statement = mysqli_prepare($db, 'SELECT * FROM `Teams ' . $year . '`');
+        $statement->execute();
+        $result = $statement->get_result();
+        for ($rows = array (); $row = $result->fetch_assoc(); $rows[] = $row);
+        return json_encode($rows);
+    }
+
     if (file_exists('../.pw')) {
         $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('../.pw'), 'twc');
 

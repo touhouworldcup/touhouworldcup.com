@@ -158,7 +158,7 @@ function print_schedule(array $schedule, array $results, array $teams, string $y
         echo '<td class="' . preg_split('/ /', $match['Category'])[0] . '">' . $match['Category'] . '</td><td>';
         for ($i = 1; $i <= 3; $i++) {
             $team = $teams[$i - 1];
-            echo '<span class="team">' . $team->image . '<span class="tooltip">Team ' . $team->name . '</span></span> ' . $match['Player_' . $i] . '<br>';
+            echo '<span class="team"><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '"><span class="tooltip">' . _('Team ' . $team['Name']) . '</span></span> ' . $match['Player_' . $i] . '<br>';
         }
         echo '</td><td>' . ($match['ResetTime'] === 0 ? 'N/A' : $match['ResetTime']) . '</td>';
         if (array_key_exists($key, $results)) {
