@@ -6,22 +6,28 @@
     include_once 'php/head.php';
     include_once 'php/table_func.php';
     include_once 'php/db.php';
+    $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
+    $json = get_schedule($db, '2024');
+    $schedule = json_decode($json, true);
 ?>
 
 <body>
     <?php include_once 'php/body.php' ?>
     <main>
-    <h1><?php echo _('Schedule') ?></h1>
-    <!--<p><?php //echo _('Coming soon!') ?></p>-->
-    <p><?php echo _('Your time zone was detected as <strong id="timezone">UTC+0000 (Coordinated Universal Time)</strong>.') ?></p>
+    <h1><?php echo _('Schedule'); ?></h1>
+    <p><?php if (count($schedule) === 0) echo _('Coming soon!') ?></p>
+    <p><?php if (count($schedule) > 0) echo _('Your time zone was detected as <strong id="timezone">UTC+0000 (Coordinated Universal Time)</strong>.') ?></p>
     <p><?php
-        if ($lang == 'en_GB' || $lang == 'en_US' || $lang == 'de_DE' || $lang == 'es_ES') {
+        if (count($schedule) > 0 && ($lang == 'en_GB' || $lang == 'en_US' || $lang == 'de_DE' || $lang == 'es_ES')) {
             echo _('Daylight Saving Time (also known as Summer Time or DST) is taken into account automatically.');
         }
+        if (count($schedule) > 0) {
+            echo '<p><input type="button" id="show_results" value="' . _('Show Results') . '"></p>';
+            echo '<p><input type="button" id="hide_results" value="' . _('Hide Results') . '"></p>';
+        }
     ?></p>
-    <!--<p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
-    <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>-->
     <ol id="spoiler_ol"></ol>
+    <?php if (count($schedule) === 0) die() ?>
     <table class="schedule_table">
         <thead>
             <tr>
@@ -38,25 +44,10 @@
             </tr>
         </thead>
         <tbody id="schedule_tbody"><?php
-            $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
-            $json = get_schedule($db, '2024');
-            $schedule = json_decode($json, true);
-            $json = file_get_contents('json/results.json', true);
+            $json = get_results($db, '2024');
             $results = json_decode($json, true);
-            $teams = array(
-                (object) [
-                    'name' => 'Spirit',
-                    'image' => '<img src="assets/icons/spirit.png" alt="' . _('Team Spirit') . '">'
-                ],
-                (object) [
-                    'name' => 'Lotus',
-                    'image' => '<img src="assets/icons/lotus.png" alt="' . _('Team Lotus') . '">'
-                ],
-                (object) [
-                    'name' => 'Harmony',
-                    'image' => '<img src="assets/icons/harmony.png" alt="' . _('Team Harmony') . '">'
-                ]
-            );
+            $json = get_teams($db, '2024');
+            $teams = json_decode($json, true);
             print_schedule($schedule, $results, $teams, '2024');
         ?></tbody>
     </table>

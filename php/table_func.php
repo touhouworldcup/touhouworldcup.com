@@ -157,6 +157,10 @@ function print_schedule(array $schedule, array $results, array $teams, string $y
         echo '<td id="date_' . $year . '_' . $key . '">' . date_format(date_create($match['Date__UTC_']), get_date_format($lang)) . '</td>';
         echo '<td class="' . preg_split('/ /', $match['Category'])[0] . '">' . $match['Category'] . '</td><td>';
         for ($i = 1; $i <= 3; $i++) {
+            if (empty($teams)) {
+                echo $match['Player_' . $i]. '<br>';
+                continue;
+            }
             $team = $teams[$i - 1];
             echo '<span class="team"><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '"><span class="tooltip">' . _('Team ' . $team['Name']) . '</span></span> ' . $match['Player_' . $i] . '<br>';
         }
