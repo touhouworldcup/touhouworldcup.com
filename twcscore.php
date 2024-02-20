@@ -4,6 +4,13 @@
     $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2023 competition, scoring, survival, tournament, iscore, score, calculator';
     include_once 'php/locale.php';
     include_once 'php/head.php';
+    try {
+        $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
+    } catch (Exception $e) {
+        $_GET['error'] = 503;
+        include_once 'php/error.php';
+        die();
+    }
 ?>
 
 <body>

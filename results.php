@@ -6,6 +6,13 @@
     include_once 'php/head.php';
     include_once 'php/table_func.php';
     include_once 'php/db.php';
+    try {
+        $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
+    } catch (Exception $e) {
+        $_GET['error'] = 503;
+        include_once 'php/error.php';
+        die();
+    }
 ?>
 
 <body>
@@ -31,7 +38,6 @@
     <h2 id="2023">TWC 2023</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol><?php
-        $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
         $json = get_teams($db, '2023');
         $teams_2023 = json_decode($json, true);
         $index = 0;

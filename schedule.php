@@ -6,7 +6,13 @@
     include_once 'php/head.php';
     include_once 'php/table_func.php';
     include_once 'php/db.php';
-    $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
+    try {
+        $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
+    } catch (Exception $e) {
+        $_GET['error'] = 503;
+        include_once 'php/error.php';
+        die();
+    }
     $json = get_schedule($db, '2024');
     $schedule = json_decode($json, true);
 ?>
