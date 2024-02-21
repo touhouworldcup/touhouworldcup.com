@@ -7,7 +7,7 @@
     include_once 'php/table_func.php';
     include_once 'php/db.php';
     try {
-        $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
+        $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc_archive');
     } catch (Exception $e) {
         $_GET['error'] = 503;
         include_once 'php/error.php';
@@ -118,7 +118,6 @@
     <h2 id="2021">TWC 2021</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol><?php
-        $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
         $json = get_teams($db, '2021');
         $teams_2021 = json_decode($json, true);
         $index = 0;
@@ -149,13 +148,10 @@
             </tr>
         </thead>
         <tbody id="schedule_tbody_2021"><?php
-            $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
             $json = get_schedule($db, '2021');
             $schedule_2021 = json_decode($json, true);
             $json = get_results($db, '2021');
             $results_2021 = json_decode($json, true);
-            $json = get_teams($db, '2021');
-            $teams_2021 = json_decode($json, true);
             print_schedule($schedule_2021, $results_2021, $teams_2021, '2021');
         ?></tbody>
     </table>
@@ -163,7 +159,6 @@
     <h2 id="2020">TWC 2020</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol><?php
-        $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
         $json = get_teams($db, '2020');
         $teams_2020 = json_decode($json, true);
         $index = 0;
@@ -194,13 +189,10 @@
             </tr>
         </thead>
         <tbody id="schedule_tbody_2020"><?php
-            $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
             $json = get_schedule($db, '2020');
             $schedule_2020 = json_decode($json, true);
             $json = get_results($db, '2020');
             $results_2020 = json_decode($json, true);
-            $json = get_teams($db, '2020');
-            $teams_2020 = json_decode($json, true);
             print_schedule($schedule_2020, $results_2020, $teams_2020, '2020');
         ?></tbody>
     </table>
