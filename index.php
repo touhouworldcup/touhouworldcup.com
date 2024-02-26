@@ -44,6 +44,10 @@
             <img class="thumbnail" src="/assets/twitter.png" alt="TWC Twitter account" width=400 height=256>
             <span class="title large"><img class="icon" src="/assets/icons/twitter-icon.png" alt="Twitter icon" width=64 height=64> <?php echo _('Official TWC Twitter') ?></span>
         </a></div>
+        <div class="card"><a href="https://twitter.com/https://twitter.com/TWC_JP" class="card_link" target="_blank">
+            <img class="thumbnail" src="/assets/jptw.png" alt="TWC Japanese Twitter account" width=400 height=256>
+            <span class="title large"><img class="icon" src="/assets/icons/twitter-icon.png" alt="Twitter icon" width=64 height=64> <?php echo _('TWC Japanese Twitter') ?></span>
+        </a></div>
     </div>
     <!--
     <a class="twitter-timeline" data-width="300" data-height="500" data-dnt="true" data-theme="light" href="https://twitter.com/touhouworldcup?ref_src=twsrc%5Etfw">Tweets by touhouworldcup</a>
