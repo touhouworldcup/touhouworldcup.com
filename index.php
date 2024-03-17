@@ -57,7 +57,7 @@
         <a class="language_small" href="/?hl=de">Deutsch</a>
         <a class="language_small" href="/?hl=es">Español</a>
     </p>
-    <p class="bottom">Touhou World Cup 2023</p>
+    <p class="bottom">Touhou World Cup 2024</p>
 	</main>
 </body>
 </html>
