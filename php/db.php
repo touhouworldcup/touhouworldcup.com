@@ -24,7 +24,7 @@
     }
 
     function get_survival_th128(mysqli $db, string $game, string $shot) {
-        $statement = mysqli_prepare($db, 'SELECT `GFW A`, `GFW B`, `GFW C` FROM `Survival Rubrics` WHERE Game = ? AND Route IS NULL AND Shottype = ?');
+        $statement = mysqli_prepare($db, 'SELECT GFW_A, GFW_B, GFW_C FROM `Survival Rubrics` WHERE Game = ? AND Shottype = ?');
         $statement->bind_param('ss', $game, $shot);
         $statement->execute();
         $result = $statement->get_result();
