@@ -108,8 +108,8 @@
     <h2><?php echo _('Full Official Rules') ?></h2>
     <p><?php echo _('The full official rulebook can be found here:') ?></p>
     <ul class="style-none">
-        <li>English: <a href="assets/TWC_Handbook.pdf" target="_blank">TWC_Handbook.pdf</a></li>
-        <li>日本語: <a href="assets/TWC_Handbook_JP.pdf" target="_blank">TWC_Handbook-JP.pdf</a></li>
+        <li>English: <a href="https://docs.google.com/document/d/e/2PACX-1vTATjRLhS3tTXoyp1NtoSVVsehDgVm22QZxBOCCnrXWVpzycXxz6Y4NDh7rX850ihByJ3-LUDrL24HU/pub" target="_blank">TWC Handbook</a></li>
+        <li>日本語: <a href="assets/TWC_Handbook_JP.pdf" target="_blank">TWC_Handbook_JP.pdf</a></li>
     </ul>
     <p><a href="#top"><?php echo _('Back to Top') ?></a></p>
 	</main>
