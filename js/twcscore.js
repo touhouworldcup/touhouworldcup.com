@@ -21,9 +21,9 @@ iscore.calc_survival = (rubric, miss, FS) => {
 
 // Calculates the amount of TWCScore for a given GFW survival run
 iscore.calc_th128_survival = (rubric, medals, miss) => {
-	const a = parseFloat(rubric["MaxScore"]);
-	const b = parseFloat(rubric["FullSpellBonus"]);
-	const c = parseFloat(rubric["GFWThirdValue"]);
+	const a = parseFloat(rubric["GFW A"]);
+	const b = parseFloat(rubric["GFW B"]);
+	const c = parseFloat(rubric["GFW C"]);
 	return b * Math.pow(a, medals) + c - 2 * miss;
 	
 }

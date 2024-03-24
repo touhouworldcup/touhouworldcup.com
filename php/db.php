@@ -23,6 +23,19 @@
         }
     }
 
+    function get_survival_th128(mysqli $db, string $game, string $shot) {
+        $statement = mysqli_prepare($db, 'SELECT `GFW A`, `GFW B`, `GFW C` FROM `Survival Rubrics` WHERE Game = ? AND Route IS NULL AND Shottype = ?');
+        $statement->bind_param('ss', $game, $shot);
+        $statement->execute();
+        $result = $statement->get_result();
+
+        if ($row = $result->fetch_assoc()) {
+            return json_encode($row);
+        } else {
+            return '{}'; // data error
+        }
+    }
+
     function get_scoring(mysqli $db, string $game, string $diff, string $shot) {
         $statement = mysqli_prepare($db, 'SELECT A, B, C FROM `Scoring Rubrics` WHERE Game = ? AND Difficulty = ? AND Shottype = ?');
         $statement->bind_param('sss', $game, $diff, $shot);
@@ -70,6 +83,8 @@
         if (!empty($_GET['rt']) && $_GET['rt'] == 'surv') {
             if (!empty($_GET['route'])) {
                 echo get_survival($db, $_GET['game'], $_GET['shot'], $_GET['route']);
+            } else if ($_GET['game'] == 'th128') {
+                echo get_survival_th128($db, $_GET['game'], $_GET['shot']);
             } else {
                 echo get_survival($db, $_GET['game'], $_GET['shot']);
             }
