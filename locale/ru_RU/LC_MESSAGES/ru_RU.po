@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-08-10 19:54+0200\n"
-"PO-Revision-Date: 2023-08-10 19:57+0200\n"
+"POT-Creation-Date: 2024-03-24 15:31+0100\n"
+"PO-Revision-Date: 2024-03-24 15:33+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.2\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: index.php\n"
 "X-Poedit-SearchPath-1: credits.php\n"
@@ -134,13 +134,18 @@ msgstr ""
 msgid " ("
 msgstr ""
 
-#: php/table_func.php:26
+#: php/table_func.php:29
 msgid ")"
 msgstr ""
 
-#: php/table_func.php:61
+#: php/table_func.php:149
 msgid "Exhibition Matches"
 msgstr ""
+
+#: php/table_func.php:165 results.php:48 results.php:88 results.php:128
+#: results.php:169
+msgid "Team "
+msgstr "Команда "
 
 #: php/translations.php:2
 msgid "ReimuA"
@@ -370,23 +375,23 @@ msgstr "ЁмуВыдра"
 msgid "YoumuEagle"
 msgstr "ЁмуОрёл"
 
-#: php/translations.php:60 results.php:38 results.php:65 schedule.php:47
+#: php/translations.php:60
 msgid "Team Spirit"
 msgstr "Команда Дух"
 
-#: php/translations.php:61 results.php:34 results.php:69 schedule.php:51
+#: php/translations.php:61
 msgid "Team Lotus"
 msgstr "Команда Лотос: "
 
-#: php/translations.php:62 results.php:42 results.php:73 schedule.php:55
+#: php/translations.php:62
 msgid "Team Harmony"
 msgstr "Команда Гармония: "
 
-#: results.php:2 results.php:13
+#: results.php:2 results.php:21
 msgid "Past Results"
 msgstr "Прошлые Результаты"
 
-#: results.php:15 schedule.php:15
+#: results.php:23 schedule.php:25
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
@@ -394,129 +399,67 @@ msgstr ""
 "Ваш часовой пояс: <strong id=\"timezone\">UTC+0000 (Всемирное "
 "координированное время)</strong>."
 
-#: results.php:18 schedule.php:18
+#: results.php:26 schedule.php:28
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
 msgstr "Переход на летнее время также учитан автоматически."
 
-#: results.php:21
+#: results.php:29
 msgid "Contents"
 msgstr "Содержание"
 
-#: results.php:28 schedule.php:21
+#: results.php:36 schedule.php:31
 msgid "Show Results"
 msgstr "Показать Результаты"
 
-#: results.php:29 schedule.php:22
+#: results.php:37 schedule.php:32
 msgid "Hide Results"
 msgstr "Скрыть Результаты"
 
-#: results.php:31 results.php:80 results.php:129 results.php:179
+#: results.php:39 results.php:79 results.php:119 results.php:160
 msgid "Final tally:"
 msgstr "Итоговый счет:"
 
-#: results.php:35
-msgid "Team Lotus: "
-msgstr "Команда Лотос: "
-
-#: results.php:35 results.php:39 results.php:43 results.php:84 results.php:88
-#: results.php:92 results.php:133 results.php:137 results.php:141
-#: results.php:183 results.php:187 results.php:191
+#: results.php:48 results.php:88 results.php:128 results.php:169
 msgid " points"
 msgstr " очков"
 
-#: results.php:39
-msgid "Team Spirit: "
-msgstr "Команда Дух: "
-
-#: results.php:43
-msgid "Team Harmony: "
-msgstr "Команда Гармония: "
-
-#: results.php:49 results.php:98 results.php:147 results.php:197
-#: schedule.php:27
+#: results.php:62 results.php:102 results.php:142 results.php:183
+#: schedule.php:40
 msgid "Date / Time"
 msgstr "Дата / Время"
 
-#: results.php:50 results.php:99 results.php:148 results.php:198
-#: schedule.php:28 twcscore.php:71
+#: results.php:63 results.php:103 results.php:143 results.php:184
+#: schedule.php:41 twcscore.php:81
 msgid "Category"
 msgstr "Категория"
 
-#: results.php:51 results.php:100 results.php:149 results.php:199
-#: schedule.php:29
+#: results.php:64 results.php:104 results.php:144 results.php:185
+#: schedule.php:42
 msgid "Players"
 msgstr "Игроки"
 
-#: results.php:52 results.php:101 results.php:150 results.php:200
-#: schedule.php:30
+#: results.php:65 results.php:105 results.php:145 results.php:186
+#: schedule.php:43
 msgid "Reset Time<br>(minutes)"
 msgstr "Время на рестарт<br>(минут)"
 
-#: results.php:53 results.php:102 results.php:151 results.php:201
-#: schedule.php:31 schedule.php:34
+#: results.php:66 results.php:106 results.php:146 results.php:187
+#: schedule.php:44 schedule.php:47
 msgid "Results"
 msgstr "Результаты"
 
-#: results.php:54 results.php:103 results.php:152 results.php:202
-#: schedule.php:32 schedule.php:35
+#: results.php:67 results.php:107 results.php:147 results.php:188
+#: schedule.php:45 schedule.php:48
 msgid "Points"
 msgstr "Очков"
 
-#: results.php:83 results.php:114
-msgid "Team Rose"
-msgstr "Команда Роза: "
-
-#: results.php:84
-msgid "Team Rose: "
-msgstr "Команда Роза: "
-
-#: results.php:87 results.php:122
-msgid "Team Heart"
-msgstr "Команда Сердце: "
-
-#: results.php:88
-msgid "Team Heart: "
-msgstr "Команда Сердце: "
-
-#: results.php:91 results.php:118
-msgid "Team Mind"
-msgstr "Команда Разум: "
-
-#: results.php:92
-msgid "Team Mind: "
-msgstr "Команда Разум: "
-
-#: results.php:132 results.php:171 results.php:182
-msgid "Flag of Japan"
-msgstr "Флаг Японии"
-
-#: results.php:133 results.php:183
-msgid "Team Japan: "
-msgstr "Команда Япония: "
-
-#: results.php:136 results.php:167 results.php:190
-msgid "Flag of the P.R.C."
-msgstr "Флаг Китая"
-
-#: results.php:137 results.php:191
-msgid "Team China: "
-msgstr "Команда Китай: "
-
-#: results.php:140 results.php:163 results.php:186
-msgid "Earth"
-msgstr "Земля"
-
-#: results.php:141 results.php:187
-msgid "Team West: "
-msgstr "Команда Запада: "
-
-#: results.php:177 results.php:214
+#: results.php:158 results.php:199
 msgid "Game Over"
 msgstr ""
 
-#: results.php:215 rules.php:114
+#: results.php:200 rules.php:114
 msgid "Back to Top"
 msgstr "Наверх"
 
@@ -572,7 +515,7 @@ msgstr ""
 "Команда, набравшая наибольшее количество очков к концу Touhou World Cup, "
 "становится победителем."
 
-#: rules.php:27 twcscore.php:2 twcscore.php:104 twcscore.php:107
+#: rules.php:27 twcscore.php:2 twcscore.php:114 twcscore.php:117
 msgid "TWCScore"
 msgstr "TWCScore"
 
@@ -809,18 +752,12 @@ msgid "Ringo-Brand Dango"
 msgstr ""
 
 #: rules.php:76
-#, fuzzy
-#| msgid ""
-#| "Cards: Players are not allowed to use cards.<br>Additionally, the players "
-#| "are only allowed to buy \"Money Comes and Goes On its Own\" from the card "
-#| "shop between stages."
 msgid ""
 "Additionally, the players are only allowed to buy \"Money Comes and Goes On "
 "its Own\" from the card shop between stages."
 msgstr ""
-"Карты: Игрокам не разрешается использовать карты.<br>Кроме того, игрокам "
-"разрешено покупать только «Гуляющее по миру добро» в карточном магазине "
-"между уровнями."
+"Кроме того, игрокам разрешено покупать только «Гуляющее по миру добро» в "
+"карточном магазине между уровнями."
 
 #: rules.php:78
 msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
@@ -941,19 +878,23 @@ msgstr "Полные официальные правила"
 msgid "The full official rulebook can be found here:"
 msgstr "Полный официальный свод правил можно найти здесь:"
 
-#: schedule.php:2 schedule.php:13
+#: schedule.php:2 schedule.php:23
 msgid "Schedule"
 msgstr "Расписание"
 
-#: twcscore.php:12
+#: schedule.php:24
+msgid "Coming soon!"
+msgstr "Скоро будет!"
+
+#: twcscore.php:19
 msgid "TWCScore Calculator"
 msgstr "TWCScore Калькулятор"
 
-#: twcscore.php:13
+#: twcscore.php:20
 msgid "This page requires JavaScript"
 msgstr "Эта веб-страница требует JavaScript"
 
-#: twcscore.php:14
+#: twcscore.php:21
 msgid ""
 "Use this page to calculate TWCScore for any particular run. TWCScore is "
 "subject to change."
@@ -961,143 +902,147 @@ msgstr ""
 "Используйте эту страницу для расчета TWCScore для любого конкретного забега. "
 "Расчёт TWCScore может быть изменен."
 
-#: twcscore.php:16
-msgid "Click here to see all rubrics."
-msgstr "Вы можете нажать чтобы увидеть все способы оцениваний."
+#: twcscore.php:23
+msgid "Click here to see the survival rubrics."
+msgstr "Вы можете нажать чтобы увидеть все способы оцениваний скоринг."
 
-#: twcscore.php:19
+#: twcscore.php:26
+msgid "Click here to see the scoring rubrics."
+msgstr "Вы можете нажать чтобы увидеть все способы оцениваний выживание."
+
+#: twcscore.php:29
 msgid "Game"
 msgstr "Игра"
 
-#: twcscore.php:22
+#: twcscore.php:32
 msgid "Touhou 6: Embodiment of Scarlet Devil"
 msgstr "Touhou 6: Embodiment of Scarlet Devil"
 
-#: twcscore.php:24
+#: twcscore.php:34
 msgid "Touhou 7: Perfect Cherry Blossom"
 msgstr "Touhou 7: Perfect Cherry Blossom"
 
-#: twcscore.php:26
+#: twcscore.php:36
 msgid "Touhou 8: Imperishable Night"
 msgstr "Touhou 8: Imperishable Night"
 
-#: twcscore.php:28
+#: twcscore.php:38
 msgid "Touhou 9: Phantasmagoria of Flower View"
 msgstr "Touhou 9: Phantasmagoria of Flower View"
 
-#: twcscore.php:30
+#: twcscore.php:40
 msgid "Touhou 10: Mountain of Faith"
 msgstr "Touhou 10: Mountain of Faith"
 
-#: twcscore.php:32
+#: twcscore.php:42
 msgid "Touhou 11: Subterranean Animism"
 msgstr "Touhou 11: Subterranean Aminism"
 
-#: twcscore.php:34
+#: twcscore.php:44
 msgid "Touhou 12: Undefined Fantastic Object"
 msgstr "Touhou 12: Undefined Fantastic Object"
 
-#: twcscore.php:36
+#: twcscore.php:46
 msgid "Touhou 12.8: Great Fairy Wars"
 msgstr "Touhou 12.8: Great Fairy Wars"
 
-#: twcscore.php:38
+#: twcscore.php:48
 msgid "Touhou 13: Ten Desires"
 msgstr "Touhou 13: Ten Desires"
 
-#: twcscore.php:40
+#: twcscore.php:50
 msgid "Touhou 14: Double Dealing Character"
 msgstr "Touhou 14: Double Dealing Character"
 
-#: twcscore.php:42
+#: twcscore.php:52
 msgid "Touhou 15: Legacy of Lunatic Kingdom"
 msgstr "Touhou 15: Legacy of Lunatic Kingdom"
 
-#: twcscore.php:44
+#: twcscore.php:54
 msgid "Touhou 16: Hidden Star in Four Seasons"
 msgstr "Touhou 16: Hidden Star in Four Seasons"
 
-#: twcscore.php:46
+#: twcscore.php:56
 msgid "Touhou 17: Wily Beast and Weakest Creature"
 msgstr "Touhou 17: Wily Beast and Weakest Creature"
 
-#: twcscore.php:48
+#: twcscore.php:58
 msgid "Touhou 18: Unconnected Marketeers"
 msgstr "Touhou 18: Unconnected Marketeers"
 
-#: twcscore.php:52
+#: twcscore.php:62
 msgid "Shottype / Route"
 msgstr "Шоттип / Раут"
 
-#: twcscore.php:74 twcscore.php:75
+#: twcscore.php:84 twcscore.php:85
 msgid "Survival"
 msgstr "Выживание"
 
-#: twcscore.php:77 twcscore.php:78
+#: twcscore.php:87 twcscore.php:88
 msgid "Scoring"
 msgstr "Скоринг"
 
-#: twcscore.php:84
+#: twcscore.php:94
 msgid "Full Spell"
 msgstr "Фул Спелл"
 
-#: twcscore.php:90
+#: twcscore.php:100
 msgid "Misses"
 msgstr "Промахи"
 
-#: twcscore.php:98
+#: twcscore.php:108
 msgid "Input score"
 msgstr "Счет для ввода"
 
-#: twcscore.php:101 twcscore.php:106
+#: twcscore.php:111 twcscore.php:116
 msgid "Score"
 msgstr "Счёт"
 
-#: twcscore.php:113
+#: twcscore.php:123
 msgid "Gold medals"
 msgstr "Золотые медали"
 
-#: twcscore.php:121
+#: twcscore.php:131
 msgid "Difficulty"
 msgstr "Уровень сложности"
 
-#: twcscore.php:130
+#: twcscore.php:140
 msgid "Final Stage"
 msgstr "Финальный уровень"
 
-#: twcscore.php:132
+#: twcscore.php:142
 msgid "FinalA"
 msgstr "ФиналА"
 
-#: twcscore.php:133
+#: twcscore.php:143
 msgid "FinalB"
 msgstr "ФиналБ"
 
-#: twcscore.php:139
+#: twcscore.php:149
 msgid "Please fill out the game"
 msgstr "Пожалуйста, укажите игру"
 
-#: twcscore.php:140
+#: twcscore.php:150
 msgid "Please fill out the shottype"
 msgstr "Пожалуйста, укажите шоттип"
 
-#: twcscore.php:141
+#: twcscore.php:151
 msgid "Please fill out the miss count"
 msgstr "Пожалуйста, укажите количество промахов"
 
-#: twcscore.php:142
+#: twcscore.php:152
 msgid "Please fill out the score"
 msgstr "Пожалуйста, укажите счёт"
 
-#: twcscore.php:143
+#: twcscore.php:153
 msgid "Please fill out the Final Stage"
 msgstr "Пожалуйста, укажите финальный уровень"
 
-#: twcscore.php:144
+#: twcscore.php:154
 msgid "Please fill out the gold medals"
 msgstr "Пожалуйста, укажите золотые медали"
 
-#: twcscore.php:145
+#: twcscore.php:155
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
@@ -1105,21 +1050,61 @@ msgstr ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
 
-#: twcscore.php:149
+#: twcscore.php:159
 msgid "Calculate"
 msgstr "Рассчитать"
 
-#: twcscore.php:155
+#: twcscore.php:165
 msgid "TWCScore:"
 msgstr "TWCScore:"
 
-#: twcscore.php:156
+#: twcscore.php:166
 msgid "Score:"
 msgstr "Счёт:"
 
-#, fuzzy
-#~| msgid "Team West: "
-#~ msgid "Team "
+#~ msgid "Team Lotus: "
+#~ msgstr "Команда Лотос: "
+
+#~ msgid "Team Spirit: "
+#~ msgstr "Команда Дух: "
+
+#~ msgid "Team Harmony: "
+#~ msgstr "Команда Гармония: "
+
+#~ msgid "Team Rose"
+#~ msgstr "Команда Роза: "
+
+#~ msgid "Team Rose: "
+#~ msgstr "Команда Роза: "
+
+#~ msgid "Team Heart"
+#~ msgstr "Команда Сердце: "
+
+#~ msgid "Team Heart: "
+#~ msgstr "Команда Сердце: "
+
+#~ msgid "Team Mind"
+#~ msgstr "Команда Разум: "
+
+#~ msgid "Team Mind: "
+#~ msgstr "Команда Разум: "
+
+#~ msgid "Flag of Japan"
+#~ msgstr "Флаг Японии"
+
+#~ msgid "Team Japan: "
+#~ msgstr "Команда Япония: "
+
+#~ msgid "Flag of the P.R.C."
+#~ msgstr "Флаг Китая"
+
+#~ msgid "Team China: "
+#~ msgstr "Команда Китай: "
+
+#~ msgid "Earth"
+#~ msgstr "Земля"
+
+#~ msgid "Team West: "
 #~ msgstr "Команда Запада: "
 
 #~ msgid ""
@@ -1130,9 +1115,6 @@ msgstr "Счёт:"
 #~ "Полный официальный свод правил можно найти <a href=\"assets/TWC_Handbook."
 #~ "pdf\" target=\"_blank\">здесь</a>. В настоящее время он доступен только "
 #~ "на английском языке."
-
-#~ msgid "Coming soon!"
-#~ msgstr "Скоро будет!"
 
 #~ msgid ""
 #~ "<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" target=\"_blank\">Sign up "

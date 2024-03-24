@@ -19,8 +19,11 @@
 	<h1><?php echo _('TWCScore Calculator') ?></h1>
 	<noscript><h2><?php echo _('This page requires JavaScript') ?></h2></noscript>
     <p><?php echo _('Use this page to calculate TWCScore for any particular run. TWCScore is subject to change.') ?></p>
-	<p><a href='https://docs.google.com/spreadsheets/d/e/2PACX-1vS97uPEhPc7Ys2LU9QZ2C5NBDTrcqOkCR9mixhs3yDt3zUSxIfNDAXENp8QzEsrFaLZI8wEt35nfLox/pubhtml?gid=161008384&amp;amp;single=true&amp;amp;widget=true&amp;amp;headers=false' target='_blank'>
-		<?php echo _('Click here to see all rubrics.') ?>
+	<p><a href='https://wl7c2u3z.nocodb.com/#/nc/view/6f1043ed-0429-4711-b953-2d78c5488a08' target='_blank'>
+		<?php echo _('Click here to see the survival rubrics.') ?>
+	</a></p>
+	<p><a href='https://wl7c2u3z.nocodb.com/#/nc/view/56b777ec-265d-4978-8455-09c2ddebb24d' target='_blank'>
+		<?php echo _('Click here to see the scoring rubrics.') ?>
 	</a></p>
 	<form id="calc-iscore">
 	<label for="games"><?php echo _('Game') ?></label><br>

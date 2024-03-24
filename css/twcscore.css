@@ -43,6 +43,7 @@ label.pointer {
 }
 label.float {
     float: left;
+    margin-right: 5px;
 }
 button {
     font-size: 22px;
