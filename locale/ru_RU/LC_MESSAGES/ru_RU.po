@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-03-24 15:31+0100\n"
-"PO-Revision-Date: 2024-03-24 15:33+0100\n"
+"POT-Creation-Date: 2024-03-24 16:57+0100\n"
+"PO-Revision-Date: 2024-03-24 16:58+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -376,14 +376,78 @@ msgid "YoumuEagle"
 msgstr "ЁмуОрёл"
 
 #: php/translations.php:60
+msgid "Ran"
+msgstr "Ран"
+
+#: php/translations.php:61
+msgid "Aunn"
+msgstr "Аун"
+
+#: php/translations.php:62
+msgid "Nazrin"
+msgstr "Назрин"
+
+#: php/translations.php:63
+msgid "Seiran"
+msgstr "Сейран"
+
+#: php/translations.php:64
+msgid "Rin"
+msgstr "Рин"
+
+#: php/translations.php:65
+msgid "Tsukasa"
+msgstr "Цукаса"
+
+#: php/translations.php:66
+msgid "Mamizou"
+msgstr "Мамидзо"
+
+#: php/translations.php:67
+msgid "Yachie"
+msgstr "Ятиэ"
+
+#: php/translations.php:68
+msgid "Saki"
+msgstr "Саки"
+
+#: php/translations.php:69
+msgid "Yuuma"
+msgstr "Юма"
+
+#: php/translations.php:70
+msgid "Suika"
+msgstr "Суйка"
+
+#: php/translations.php:71
+msgid "Biten"
+msgstr "Битэн"
+
+#: php/translations.php:72
+msgid "Enoko"
+msgstr "Эноко"
+
+#: php/translations.php:73
+msgid "Chiyari"
+msgstr "Тияри"
+
+#: php/translations.php:74
+msgid "Hisami"
+msgstr "Хисами"
+
+#: php/translations.php:75
+msgid "Zanmu"
+msgstr "Дзамму"
+
+#: php/translations.php:76
 msgid "Team Spirit"
 msgstr "Команда Дух"
 
-#: php/translations.php:61
+#: php/translations.php:77
 msgid "Team Lotus"
 msgstr "Команда Лотос: "
 
-#: php/translations.php:62
+#: php/translations.php:78
 msgid "Team Harmony"
 msgstr "Команда Гармония: "
 

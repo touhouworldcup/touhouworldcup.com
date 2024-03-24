@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-03-24 15:29+0100\n"
-"PO-Revision-Date: 2024-03-24 15:31+0100\n"
+"POT-Creation-Date: 2024-03-24 16:55+0100\n"
+"PO-Revision-Date: 2024-03-24 16:56+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -374,14 +374,78 @@ msgid "YoumuEagle"
 msgstr "妖夢E"
 
 #: php/translations.php:60
+msgid "Ran"
+msgstr "藍"
+
+#: php/translations.php:61
+msgid "Aunn"
+msgstr "あうん"
+
+#: php/translations.php:62
+msgid "Nazrin"
+msgstr "ナズーリン"
+
+#: php/translations.php:63
+msgid "Seiran"
+msgstr "清蘭"
+
+#: php/translations.php:64
+msgid "Rin"
+msgstr "燐"
+
+#: php/translations.php:65
+msgid "Tsukasa"
+msgstr "典"
+
+#: php/translations.php:66
+msgid "Mamizou"
+msgstr "マミゾウ"
+
+#: php/translations.php:67
+msgid "Yachie"
+msgstr "八千慧"
+
+#: php/translations.php:68
+msgid "Saki"
+msgstr "早鬼"
+
+#: php/translations.php:69
+msgid "Yuuma"
+msgstr "尤魔"
+
+#: php/translations.php:70
+msgid "Suika"
+msgstr "萃香"
+
+#: php/translations.php:71
+msgid "Biten"
+msgstr "美天"
+
+#: php/translations.php:72
+msgid "Enoko"
+msgstr "慧ノ子"
+
+#: php/translations.php:73
+msgid "Chiyari"
+msgstr "ちやり"
+
+#: php/translations.php:74
+msgid "Hisami"
+msgstr "日狭美"
+
+#: php/translations.php:75
+msgid "Zanmu"
+msgstr "残無"
+
+#: php/translations.php:76
 msgid "Team Spirit"
 msgstr "チーム霊"
 
-#: php/translations.php:61
+#: php/translations.php:77
 msgid "Team Lotus"
 msgstr "チーム蓮"
 
-#: php/translations.php:62
+#: php/translations.php:78
 msgid "Team Harmony"
 msgstr "チーム和"
 
@@ -1398,9 +1462,6 @@ msgstr "スコア："
 
 #~ msgid "Rikako"
 #~ msgstr "理香子"
-
-#~ msgid "Chiyuri"
-#~ msgstr "ちゆり"
 
 #~ msgid "Yumemi"
 #~ msgstr "夢美"
