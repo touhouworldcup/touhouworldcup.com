@@ -56,6 +56,8 @@
     		<input type="radio" name="games" value="th17"><span id="cover_th17" class="cover" width=100 height=100 title="<?php echo _('Touhou 17: Wily Beast and Weakest Creature') ?>"></span>
         </label><label>
     		<input type="radio" name="games" value="th18"><span id="cover_th18" class="cover" width=100 height=100 title="<?php echo _('Touhou 18: Unconnected Marketeers') ?>"></span>
+        </label><label>
+    		<input type="radio" name="games" value="th19"><span id="cover_th19" class="cover" width=100 height=100 title="<?php echo _('Touhou 19: Unfinished Dream of All Living Ghost') ?>"></span>
         </label>
 	</fieldset><br><br>
 

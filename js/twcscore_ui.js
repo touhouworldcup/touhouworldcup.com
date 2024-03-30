@@ -1,6 +1,6 @@
 /*global iscore*/
 window.onload = () => {
-    const games    = ["th06", "th07", "th08", "th09", "th10", "th11", "th12", "th128", "th13", "th14", "th15", "th16", "th17", "th18"];
+    const games    = ["th06", "th07", "th08", "th09", "th10", "th11", "th12", "th128", "th13", "th14", "th15", "th16", "th17", "th18", "th19"];
 	const diff_w   = document.getElementById("diff_w");
 	const runtype  = document.getElementById("runtype");
 	const inputscore  = document.getElementById("inputscore");
