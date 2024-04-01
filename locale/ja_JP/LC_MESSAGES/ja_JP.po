@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-03-30 22:37+0100\n"
-"PO-Revision-Date: 2024-03-30 22:37+0100\n"
+"POT-Creation-Date: 2024-04-01 21:09+0200\n"
+"PO-Revision-Date: 2024-04-01 21:12+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -567,7 +567,7 @@ msgid ""
 "winner."
 msgstr "全試合終了後、獲得ポイントの多い順に順位が決定されます。"
 
-#: rules.php:27 twcscore.php:2 twcscore.php:116 twcscore.php:119
+#: rules.php:27 twcscore.php:2 twcscore.php:117 twcscore.php:120
 msgid "TWCScore"
 msgstr "TWCスコア"
 
@@ -1042,73 +1042,81 @@ msgstr "フルスぺカ"
 msgid "Misses"
 msgstr "ミス"
 
-#: twcscore.php:110
+#: twcscore.php:103
+msgid "Remaining lives"
+msgstr "残機"
+
+#: twcscore.php:111
 msgid "Input score"
 msgstr "入力のスコア"
 
-#: twcscore.php:113 twcscore.php:118
+#: twcscore.php:114 twcscore.php:119
 msgid "Score"
 msgstr "スコア"
 
-#: twcscore.php:125
+#: twcscore.php:126
+msgid "Duration of Stage 9 Round 1 (seconds)"
+msgstr "最終ステージ1R目の試合時間(秒)"
+
+#: twcscore.php:132
 msgid "Gold medals"
 msgstr "金メダル"
 
-#: twcscore.php:133
+#: twcscore.php:140
 msgid "Difficulty"
 msgstr "難易度"
 
-#: twcscore.php:142
+#: twcscore.php:149
 msgid "Final Stage"
 msgstr "ルート"
 
-#: twcscore.php:144
+#: twcscore.php:151
 msgid "FinalA"
 msgstr "Aルート"
 
-#: twcscore.php:145
+#: twcscore.php:152
 msgid "FinalB"
 msgstr "Bルート"
 
-#: twcscore.php:151
+#: twcscore.php:158
 msgid "Please fill out the game"
 msgstr "ゲームを記入してください"
 
-#: twcscore.php:152
+#: twcscore.php:159
 msgid "Please fill out the shottype"
 msgstr "キャラを記入してください"
 
-#: twcscore.php:153
+#: twcscore.php:160
 msgid "Please fill out the miss count"
 msgstr "ミス回数を記入してください"
 
-#: twcscore.php:154
+#: twcscore.php:161
 msgid "Please fill out the score"
 msgstr "スコアを記入してください"
 
-#: twcscore.php:155
+#: twcscore.php:162
 msgid "Please fill out the Final Stage"
 msgstr "ルートを記入してください"
 
-#: twcscore.php:156
+#: twcscore.php:163
 msgid "Please fill out the gold medals"
 msgstr "金メダルを記入してください"
 
-#: twcscore.php:157
+#: twcscore.php:164
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
 msgstr ""
 
-#: twcscore.php:161
+#: twcscore.php:168
 msgid "Calculate"
 msgstr "計算する"
 
-#: twcscore.php:167
+#: twcscore.php:174
 msgid "TWCScore:"
 msgstr "TWCスコア："
 
-#: twcscore.php:168
+#: twcscore.php:175
 msgid "Score:"
 msgstr "スコア："
 

@@ -19,6 +19,22 @@ iscore.calc_survival = (rubric, miss, FS) => {
 	return miss > 5 ? 0 : iscore_val;
 }
 
+// Calculates the amount of TWCScore for a given PoFV survival run
+iscore.calc_th09_survival = (rubric, s9_r1_duration, remaining) => {
+	let iscore_val = rubric["MaxScore"];
+
+	if (remaining == 7) {
+		iscore_val = rubric["FullSpellBonus"];
+	} else {
+		for (let i = 6; i > remaining; i--) {
+			iscore_val /= 2;
+		}
+	}
+
+	iscore_val += 0.02 * Math.min(s9_r1_duration, 0);
+	return remaining < 2 ? 0 : iscore_val;
+}
+
 // Calculates the amount of TWCScore for a given GFW survival run
 iscore.calc_th128_survival = (rubric, medals, miss) => {
 	const a = parseFloat(rubric["GFW_A"]);

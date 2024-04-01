@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-03-24 15:27+0100\n"
-"PO-Revision-Date: 2024-03-24 15:27+0100\n"
+"POT-Creation-Date: 2024-04-01 21:13+0200\n"
+"PO-Revision-Date: 2024-04-01 21:13+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -372,15 +372,67 @@ msgid "YoumuEagle"
 msgstr ""
 
 #: php/translations.php:60
-msgid "Team Spirit"
+msgid "Ran"
 msgstr ""
 
 #: php/translations.php:61
-msgid "Team Lotus"
+msgid "Aunn"
 msgstr ""
 
 #: php/translations.php:62
-msgid "Team Harmony"
+msgid "Nazrin"
+msgstr ""
+
+#: php/translations.php:63
+msgid "Seiran"
+msgstr ""
+
+#: php/translations.php:64
+msgid "Rin"
+msgstr ""
+
+#: php/translations.php:65
+msgid "Tsukasa"
+msgstr ""
+
+#: php/translations.php:66
+msgid "Mamizou"
+msgstr ""
+
+#: php/translations.php:67
+msgid "Yachie"
+msgstr ""
+
+#: php/translations.php:68
+msgid "Saki"
+msgstr ""
+
+#: php/translations.php:69
+msgid "Yuuma"
+msgstr ""
+
+#: php/translations.php:70
+msgid "Suika"
+msgstr ""
+
+#: php/translations.php:71
+msgid "Biten"
+msgstr ""
+
+#: php/translations.php:72
+msgid "Enoko"
+msgstr ""
+
+#: php/translations.php:73
+msgid "Chiyari"
+msgstr ""
+
+#: php/translations.php:74
+msgid "Hisami"
+msgstr ""
+
+#: php/translations.php:75
+msgid "Zanmu"
 msgstr ""
 
 #: results.php:2 results.php:21
@@ -425,7 +477,7 @@ msgid "Date / Time"
 msgstr ""
 
 #: results.php:63 results.php:103 results.php:143 results.php:184
-#: schedule.php:41 twcscore.php:81
+#: schedule.php:41 twcscore.php:83
 msgid "Category"
 msgstr ""
 
@@ -503,7 +555,7 @@ msgid ""
 "winner."
 msgstr ""
 
-#: rules.php:27 twcscore.php:2 twcscore.php:114 twcscore.php:117
+#: rules.php:27 twcscore.php:2 twcscore.php:117 twcscore.php:120
 msgid "TWCScore"
 msgstr ""
 
@@ -893,92 +945,104 @@ msgstr ""
 msgid "Touhou 18: Unconnected Marketeers"
 msgstr ""
 
-#: twcscore.php:62
+#: twcscore.php:60
+msgid "Touhou 19: Unfinished Dream of All Living Ghost"
+msgstr ""
+
+#: twcscore.php:64
 msgid "Shottype / Route"
 msgstr ""
 
-#: twcscore.php:84 twcscore.php:85
+#: twcscore.php:86 twcscore.php:87
 msgid "Survival"
 msgstr ""
 
-#: twcscore.php:87 twcscore.php:88
+#: twcscore.php:89 twcscore.php:90
 msgid "Scoring"
 msgstr ""
 
-#: twcscore.php:94
+#: twcscore.php:96
 msgid "Full Spell"
 msgstr ""
 
-#: twcscore.php:100
+#: twcscore.php:102
 msgid "Misses"
 msgstr ""
 
-#: twcscore.php:108
+#: twcscore.php:103
+msgid "Remaining lives"
+msgstr ""
+
+#: twcscore.php:111
 msgid "Input score"
 msgstr ""
 
-#: twcscore.php:111 twcscore.php:116
+#: twcscore.php:114 twcscore.php:119
 msgid "Score"
 msgstr ""
 
-#: twcscore.php:123
+#: twcscore.php:126
+msgid "Duration of Stage 9 Round 1 (seconds)"
+msgstr ""
+
+#: twcscore.php:132
 msgid "Gold medals"
 msgstr ""
 
-#: twcscore.php:131
+#: twcscore.php:140
 msgid "Difficulty"
 msgstr ""
 
-#: twcscore.php:140
+#: twcscore.php:149
 msgid "Final Stage"
 msgstr ""
 
-#: twcscore.php:142
+#: twcscore.php:151
 msgid "FinalA"
 msgstr ""
 
-#: twcscore.php:143
+#: twcscore.php:152
 msgid "FinalB"
 msgstr ""
 
-#: twcscore.php:149
+#: twcscore.php:158
 msgid "Please fill out the game"
 msgstr ""
 
-#: twcscore.php:150
+#: twcscore.php:159
 msgid "Please fill out the shottype"
 msgstr ""
 
-#: twcscore.php:151
+#: twcscore.php:160
 msgid "Please fill out the miss count"
 msgstr ""
 
-#: twcscore.php:152
+#: twcscore.php:161
 msgid "Please fill out the score"
 msgstr ""
 
-#: twcscore.php:153
+#: twcscore.php:162
 msgid "Please fill out the Final Stage"
 msgstr ""
 
-#: twcscore.php:154
+#: twcscore.php:163
 msgid "Please fill out the gold medals"
 msgstr ""
 
-#: twcscore.php:155
+#: twcscore.php:164
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
 msgstr ""
 
-#: twcscore.php:159
+#: twcscore.php:168
 msgid "Calculate"
 msgstr ""
 
-#: twcscore.php:165
+#: twcscore.php:174
 msgid "TWCScore:"
 msgstr ""
 
-#: twcscore.php:166
+#: twcscore.php:175
 msgid "Score:"
 msgstr ""

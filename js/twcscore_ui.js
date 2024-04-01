@@ -12,6 +12,8 @@ window.onload = () => {
 
 	const th08_opts      = document.getElementById("th08_opts");
 	const th08_end       = document.getElementById("th08_end");
+    const th09_s9r1      = document.getElementById("th09_s9r1");
+	const th09_s9r1_w  = document.getElementById("th09_s9r1_w");
 	const th128_medals   = document.getElementById("th128_medals");
 	const th128_medal_w  = document.getElementById("th128_medal_w");
 	const fullspell_w    = document.getElementById("fullspell_w");
@@ -19,6 +21,8 @@ window.onload = () => {
     const shot_sels      = document.getElementsByName("shottype");
 
 	const i_misses     = document.getElementById("misscount");
+	const i_misses_l   = document.getElementById("misscount_l");
+    const remaining_l  = document.getElementById("remaining_l");
 	const i_plus       = document.getElementById("plus");
 	const i_minus      = document.getElementById("minus");
 	const i_score      = document.getElementById("score");
@@ -27,9 +31,6 @@ window.onload = () => {
 
     const submit       = document.getElementById("submit");
 	const iscore_final = document.getElementById("twcscore_final");
-
-    const survival     = document.getElementById("survival");
-    const scoring      = document.getElementById("input_score");
 
 	const score_label  = document.getElementById("score_label");
 	const score_label_alt  = document.getElementById("score_label_alt");
@@ -85,17 +86,9 @@ window.onload = () => {
         let selected_game = get_name(game_sel);
         let rt = get_name(runtype);
 
-        if (selected_game === "th09") {
-            survival.style.display = "none";
-            surv_opts.style.display = "none";
-            score_opts.style.display = "inline";
-            scoring.checked = true;
-        } else {
-            survival.style.display = "inline";
-        }
-
 		if (rt === "score") {
 			fullspell_w.style.display = "none";
+			th09_s9r1_w.style.display = "none";
 			th128_medal_w.style.display = "none";
 
 			if (game_has_ex[selected_game]) {
@@ -108,7 +101,17 @@ window.onload = () => {
 			diff_sel.value = "Lunatic";
 			diff_w.style.display = "none";
 
-			if (selected_game === "th128") {
+			if (selected_game === "th09") {
+				th09_s9r1_w.style.display = "inline";
+                remaining_l.style.display = "inline";
+                i_misses_l.style.display = "none";
+            } else {
+				th09_s9r1_w.style.display = "none";
+                remaining_l.style.display = "none";
+                i_misses_l.style.display = "inline";
+            }
+
+            if (selected_game === "th128") {
 				th128_medal_w.style.display = "inline";
 			} else {
 				th128_medal_w.style.display = "none";
@@ -230,7 +233,10 @@ window.onload = () => {
         if (rt === "surv") {
             const miss = get_element_val(i_misses, "miss", "number");
 
-            if (game_name === "th128") {
+            if (game_name == "th09") {
+                const s9_r1_duration = get_element_val(th09_s9r1, "s9r1", "number");
+                iscore_val = iscore.calc_th09_survival(data, s9_r1_duration, miss);
+            } else if (game_name === "th128") {
                 const medals = get_element_val(th128_medals, "medals", "number");
                 iscore_val = iscore.calc_th128_survival(data, medals, miss);
             } else {
@@ -312,6 +318,10 @@ window.onload = () => {
 
     const adjust_miss_count = (event) => {
         if (event.target.id === "plus") {
+            if (get_name(game_sel) === "th09" && i_misses.value === '7') {
+                return;
+            }
+
             i_misses.value = parseInt(i_misses.value) + 1;
         } else {
             i_misses.value = (i_misses.value == 0 ? 0 : i_misses.value - 1);
@@ -394,6 +404,8 @@ window.onload = () => {
     score_opts.style.display = "none";
     diff_w.style.display = "none";
     th08_opts.style.display = "none";
+    remaining_l.style.display = "none";
+    th09_s9r1_w.style.display = "none";
     th128_medal_w.style.display = "none";
     game_selected();
     diff_selected();

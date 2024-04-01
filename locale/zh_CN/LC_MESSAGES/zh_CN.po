@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-03-30 22:37+0100\n"
-"PO-Revision-Date: 2024-03-30 22:38+0100\n"
+"POT-Creation-Date: 2024-04-01 21:27+0200\n"
+"PO-Revision-Date: 2024-04-01 21:31+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -561,7 +561,7 @@ msgid ""
 "winner."
 msgstr "世界杯结束时总分最高的队伍获得胜利。"
 
-#: rules.php:27 twcscore.php:2 twcscore.php:116 twcscore.php:119
+#: rules.php:27 twcscore.php:2 twcscore.php:117 twcscore.php:120
 msgid "TWCScore"
 msgstr "TWCScore"
 
@@ -994,59 +994,67 @@ msgstr "FS"
 msgid "Misses"
 msgstr "被弹数"
 
-#: twcscore.php:110
+#: twcscore.php:103
+msgid "Remaining lives"
+msgstr "其余的生命"
+
+#: twcscore.php:111
 msgid "Input score"
 msgstr "输入"
 
-#: twcscore.php:113 twcscore.php:118
+#: twcscore.php:114 twcscore.php:119
 msgid "Score"
 msgstr "分数"
 
-#: twcscore.php:125
+#: twcscore.php:126
+msgid "Duration of Stage 9 Round 1 (seconds)"
+msgstr "最后一阶段1R比赛时间（秒）"
+
+#: twcscore.php:132
 msgid "Gold medals"
 msgstr "金牌"
 
-#: twcscore.php:133
+#: twcscore.php:140
 msgid "Difficulty"
 msgstr "难度"
 
-#: twcscore.php:142
+#: twcscore.php:149
 msgid "Final Stage"
 msgstr "路线"
 
-#: twcscore.php:144
+#: twcscore.php:151
 msgid "FinalA"
 msgstr "路线A"
 
-#: twcscore.php:145
+#: twcscore.php:152
 msgid "FinalB"
 msgstr "路线B"
 
-#: twcscore.php:151
+#: twcscore.php:158
 msgid "Please fill out the game"
 msgstr "请输入游戏"
 
-#: twcscore.php:152
+#: twcscore.php:159
 msgid "Please fill out the shottype"
 msgstr "请输入机体"
 
-#: twcscore.php:153
+#: twcscore.php:160
 msgid "Please fill out the miss count"
 msgstr "请输入miss数"
 
-#: twcscore.php:154
+#: twcscore.php:161
 msgid "Please fill out the score"
 msgstr "请输入分数"
 
-#: twcscore.php:155
+#: twcscore.php:162
 msgid "Please fill out the Final Stage"
 msgstr "请输入路线"
 
-#: twcscore.php:156
+#: twcscore.php:163
 msgid "Please fill out the gold medals"
 msgstr "请输入金牌数"
 
-#: twcscore.php:157
+#: twcscore.php:164
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
@@ -1054,15 +1062,15 @@ msgstr ""
 "内部错误，请联系<a href=“https://twitter.com/32thc” target=“_blank”>32th "
 "System</a>"
 
-#: twcscore.php:161
+#: twcscore.php:168
 msgid "Calculate"
 msgstr "计算"
 
-#: twcscore.php:167
+#: twcscore.php:174
 msgid "TWCScore:"
 msgstr "TWCScore："
 
-#: twcscore.php:168
+#: twcscore.php:175
 msgid "Score:"
 msgstr "分数："
 

@@ -99,7 +99,8 @@
 
 	<span id="surv_opts">
 		<br><br>
-        <label for="misscount"><?php echo _('Misses') ?></label><br>
+        <label for="misscount" id="misscount_l"><?php echo _('Misses') ?></label>
+        <label for="misscount" id="remaining_l"><?php echo _('Remaining lives') ?></label><br>
         <input type="button" id="minus" value="-">
 		<input type="number" id="misscount" name="misscount" value=0 readonly>
         <input type="button" id="plus" value="+">
@@ -118,6 +119,12 @@
 		<label id="score_label" for="score"><?php echo _('Score') ?></label>
 		<label id="score_label_alt" for="score"><?php echo _('TWCScore') ?></label><br>
 		<input type="text" id="score" name="score">
+	</span>
+
+	<span id="th09_s9r1_w">
+		<br><br>
+        <label for="th09_s9r1" id="th09_s9r1_l"><?php echo _('Duration of Stage 9 Round 1 (seconds)') ?></label><br>
+		<input type="number" id="th09_s9r1" name="th09_s9r1" value=0>
 	</span>
 
 	<span id="th128_medal_w">
