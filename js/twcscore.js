@@ -24,14 +24,14 @@ iscore.calc_th09_survival = (rubric, s9_r1_duration, remaining) => {
 	let iscore_val = rubric["MaxScore"];
 
 	if (remaining == 7) {
-		iscore_val = rubric["FullSpellBonus"];
+		iscore_val += rubric["FullSpellBonus"];
 	} else {
 		for (let i = 6; i > remaining; i--) {
 			iscore_val /= 2;
 		}
 	}
 
-	iscore_val += 0.02 * Math.min(s9_r1_duration, 0);
+	iscore_val += 0.02 * Math.max(s9_r1_duration, 0);
 	return remaining < 2 ? 0 : iscore_val;
 }
 
