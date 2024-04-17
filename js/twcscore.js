@@ -40,7 +40,7 @@ iscore.calc_th128_survival = (rubric, medals, miss) => {
 	const a = parseFloat(rubric["GFW_A"]);
 	const b = parseFloat(rubric["GFW_B"]);
 	const c = parseFloat(rubric["GFW_C"]);
-	const iscore = b * Math.pow(a, medals) + c - 2 * miss;
+	const iscore = b * Math.pow(a, medals) + c - Math.pow(2, miss);
 	return Math.max(iscore.toFixed(3), 0);
 }
 
