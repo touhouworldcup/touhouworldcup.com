@@ -48,6 +48,9 @@
             <h4><?php echo _('Touhou 8') ?></h4>
                 <p><?php echo _('Last Spell: Getting hit during a Last Spell is considered a death. Not meeting the time orb requirement in Stage 1-5 is also considered a death.<br>' .
                 'Timing out a Last Spell is <strong>not</strong> considered a death.') ?></p>
+            <h4><?php echo _('Touhou 9') ?></h4>
+                <p><?php echo _('Card Attack and Quick Card Attack: No penalty will be given for invoking any Card Attack and Quick Card Attack.<br>' .
+                'No penalty will be given for getting hit on non-last lives.') ?></p>
             <h4><?php echo _('Touhou 11') ?></h4>
                 <p><?php echo _('There is a TWCScore Bonus for a credit that captures all spellcards and finishes with zero deaths.') ?></p>
             <h4><?php echo _('Touhou 12') ?></h4>
