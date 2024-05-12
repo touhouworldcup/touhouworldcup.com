@@ -137,7 +137,24 @@ function format_points(array $result, string $year) {
         $formatted .= '<br class="mobile_br"><br class="mobile_br">';
     }*/
 }
-function print_schedule(array $schedule, array $results, array $teams, string $year) {
+function get_icon(string $link) {
+    if (strpos($link, 'twitch') !== false) {
+        return '<img src="/assets/icons/twitch-icon-small.png" alt="Twitch icon">';
+    }
+    else if (strpos($link, 'twitter') !== false) {
+        return '<img src="/assets/icons/twitter-icon-small.png" alt="Twitter icon">';
+    }
+    else if (strpos($link, 'youtube') !== false) {
+        return '<img src="/assets/icons/youtube-icon-small.png" alt="YouTube icon">';
+    }
+    else if (strpos($link, 'bilibili') !== false) {
+        return '<img src="/assets/icons/bilibili-icon-small.png" alt="Bilibili icon">';
+    }
+    else {
+        return '<img src="/assets/icons/globe-icon-small.png" alt="Globe with meridians icon">';
+    }
+}
+function print_schedule(array $schedule, array $results, array $teams, string $year, array $players) {
     if (count($schedule) == 0) {
         return;
     }
@@ -157,12 +174,21 @@ function print_schedule(array $schedule, array $results, array $teams, string $y
         echo '<td id="date_' . $year . '_' . $key . '">' . date_format(date_create($match['Date__UTC_']), get_date_format($lang)) . '</td>';
         echo '<td class="' . preg_split('/ /', $match['Category'])[0] . '">' . $match['Category'] . '</td><td>';
         for ($i = 1; $i <= 3; $i++) {
+            $player = $match['Player_' . $i];
             if (empty($teams)) {
-                echo $match['Player_' . $i]. '<br>';
+                echo $player . '<br>';
                 continue;
             }
             $team = $teams[$i - 1];
-            echo '<span class="team"><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '"><span class="tooltip">' . _('Team ' . $team['Name']) . '</span></span> ' . $match['Player_' . $i] . '<br>';
+            echo '<span class="team"><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '" class="team_icon"><span class="tooltip">' . _('Team ' . $team['Name']) . '</span></span> ' . $player;
+            $key = array_search($player, array_column($players, 'Name'));
+            if (!empty($players) && $key !== false && $players[$key]['DisplayStream'] === 1) {
+                echo ' <a href="' . $players[$key]['Stream'] . '">' . get_icon($players[$key]['Stream']) . '</a>';
+            }
+            if (!empty($players) && $key !== false && !empty($players[$key]['Social'])) {
+                echo ' <a href="' . $players[$key]['Social'] . '">' . get_icon($players[$key]['Social']) . '</a>';
+            }
+            echo '<br>';
         }
         echo '</td><td>' . ($match['ResetTime'] === 0 ? 'N/A' : $match['ResetTime']) . '</td>';
         if (array_key_exists($key, $results)) {

@@ -22,18 +22,16 @@
     <main>
     <h1><?php echo _('Schedule'); ?></h1>
     <p><?php if (count($schedule) === 0) echo _('Coming soon!') ?></p>
-    <p><?php if (count($schedule) > 0) echo _('Your time zone was detected as <strong id="timezone">UTC+0000 (Coordinated Universal Time)</strong>.') ?></p>
+    <?php if (count($schedule) === 0) die() ?>
+    <p><?php echo _('Your time zone was detected as <strong id="timezone">UTC+0000 (Coordinated Universal Time)</strong>.') ?></p>
     <p><?php
-        if (count($schedule) > 0 && ($lang == 'en_GB' || $lang == 'en_US' || $lang == 'de_DE' || $lang == 'es_ES')) {
+        if ($lang == 'en_GB' || $lang == 'en_US' || $lang == 'de_DE' || $lang == 'es_ES') {
             echo _('Daylight Saving Time (also known as Summer Time or DST) is taken into account automatically.');
         }
-        if (count($schedule) > 0) {
-            echo '<p><input type="button" id="show_results" value="' . _('Show Results') . '"></p>';
-            echo '<p><input type="button" id="hide_results" value="' . _('Hide Results') . '"></p>';
-        }
+        echo '<p><input type="button" id="show_results" value="' . _('Show Results') . '"></p>';
+        echo '<p><input type="button" id="hide_results" value="' . _('Hide Results') . '"></p>';
     ?></p>
     <ol id="spoiler_ol"></ol>
-    <?php if (count($schedule) === 0) die() ?>
     <table class="schedule_table">
         <thead>
             <tr>
@@ -54,7 +52,9 @@
             $results = json_decode($json, true);
             $json = get_teams($db, '2024');
             $teams = json_decode($json, true);
-            print_schedule($schedule, $results, $teams, '2024');
+            $json = get_players($db);
+            $players = json_decode($json, true);
+            print_schedule($schedule, $results, $teams, '2024', $players);
         ?></tbody>
     </table>
     </main>

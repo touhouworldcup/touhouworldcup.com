@@ -73,6 +73,14 @@
         return json_encode($rows);
     }
 
+    function get_players(mysqli $db) {
+        $statement = mysqli_prepare($db, 'SELECT * FROM `Players`');
+        $statement->execute();
+        $result = $statement->get_result();
+        for ($rows = array (); $row = $result->fetch_assoc(); $rows[] = $row);
+        return json_encode($rows);
+    }
+
     if (file_exists('../.pw')) {
         $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('../.pw'), 'twc');
 
