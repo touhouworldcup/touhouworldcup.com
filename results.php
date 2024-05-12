@@ -72,7 +72,7 @@
             $schedule_2023 = json_decode($json, true);
             $json = get_results($db, '2023');
             $results_2023 = json_decode($json, true);
-            print_schedule($schedule_2023, $results_2023, $teams_2023, '2023');
+            print_schedule($schedule_2023, $results_2023, $teams_2023, '2023', []);
         ?></tbody>
     </table>
     <h2 id="2022">TWC 2022</h2>
@@ -112,7 +112,7 @@
             $schedule_2022 = json_decode($json, true);
             $json = get_results($db, '2022');
             $results_2022 = json_decode($json, true);
-            print_schedule($schedule_2022, $results_2022, $teams_2022, '2022');
+            print_schedule($schedule_2022, $results_2022, $teams_2022, '2022', []);
         ?></tbody>
     </table>
     <h2 id="2021">TWC 2021</h2>
@@ -152,7 +152,7 @@
             $schedule_2021 = json_decode($json, true);
             $json = get_results($db, '2021');
             $results_2021 = json_decode($json, true);
-            print_schedule($schedule_2021, $results_2021, $teams_2021, '2021');
+            print_schedule($schedule_2021, $results_2021, $teams_2021, '2021', []);
         ?></tbody>
     </table>
     <p class="spoiler">* <?php echo _('Game Over') ?></p>
@@ -193,7 +193,7 @@
             $schedule_2020 = json_decode($json, true);
             $json = get_results($db, '2020');
             $results_2020 = json_decode($json, true);
-            print_schedule($schedule_2020, $results_2020, $teams_2020, '2020');
+            print_schedule($schedule_2020, $results_2020, $teams_2020, '2020', []);
         ?></tbody>
     </table>
     <p class="spoiler">* <?php echo _('Game Over') ?></p>
