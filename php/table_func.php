@@ -181,12 +181,12 @@ function print_schedule(array $schedule, array $results, array $teams, string $y
             }
             $team = $teams[$i - 1];
             echo '<span class="team"><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '" class="team_icon"><span class="tooltip">' . _('Team ' . $team['Name']) . '</span></span> ' . $player;
-            $key = array_search($player, array_column($players, 'Name'));
-            if (!empty($players) && $key !== false && $players[$key]['DisplayStream'] === 1) {
-                echo ' <a href="' . $players[$key]['Stream'] . '">' . get_icon($players[$key]['Stream']) . '</a>';
+            $player_key = array_search($player, array_column($players, 'Name'));
+            if (!empty($players) && $player_key !== false && $players[$player_key]['DisplayStream'] === 1) {
+                echo ' <a href="' . $players[$player_key]['Stream'] . '">' . get_icon($players[$player_key]['Stream']) . '</a>';
             }
-            if (!empty($players) && $key !== false && !empty($players[$key]['Social'])) {
-                echo ' <a href="' . $players[$key]['Social'] . '">' . get_icon($players[$key]['Social']) . '</a>';
+            if (!empty($players) && $player_key !== false && !empty($players[$player_key]['Social'])) {
+                echo ' <a href="' . $players[$player_key]['Social'] . '">' . get_icon($players[$player_key]['Social']) . '</a>';
             }
             echo '<br>';
         }
