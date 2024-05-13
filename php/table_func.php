@@ -184,13 +184,26 @@ function print_schedule(array $schedule, array $results, array $teams, string $y
                 continue;
             }
             $team = $teams[$i - 1];
-            echo '<span class="team"><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '" class="team_icon"><span class="tooltip">' . _('Team ' . $team['Name']) . '</span></span> ' . $player;
+            echo '<span class="team"><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '" class="team_icon"><span class="tooltip">' . _('Team ' . $team['Name']) . '</span></span> ';
             $player_key = array_search($player, array_column($players, 'Name'));
-            if (!empty($players) && $player_key !== false && $players[$player_key]['DisplayStream'] === 1) {
-                echo ' <a href="' . $players[$player_key]['Stream'] . '">' . get_icon($players[$player_key]['Stream']) . '</a>';
-            }
-            if (!empty($players) && $player_key !== false && !empty($players[$player_key]['Social'])) {
-                echo ' <a href="' . $players[$player_key]['Social'] . '">' . get_icon($players[$player_key]['Social']) . '</a>';
+            if (!empty($players) && $player_key !== false) {
+                if ($lang == 'ja_JP' && !empty($players[$player_key]['JapaneseName'])) {
+                    echo $players[$player_key]['JapaneseName'];
+                }
+                else if ($lang == 'zh_CN' && !empty($players[$player_key]['ChineseName'])) {
+                    echo $players[$player_key]['ChineseName'];
+                }
+                else {
+                    echo $player;
+                }
+                if ($players[$player_key]['DisplayStream'] === 1) {
+                    echo ' <a href="' . $players[$player_key]['Stream'] . '">' . get_icon($players[$player_key]['Stream']) . '</a>';
+                }
+                if (!empty($players[$player_key]['Social'])) {
+                    echo ' <a href="' . $players[$player_key]['Social'] . '">' . get_icon($players[$player_key]['Social']) . '</a>';
+                }
+            } else if ($player == '-') {
+                echo $player;
             }
             echo '<br>';
         }
