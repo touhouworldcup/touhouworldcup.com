@@ -78,7 +78,7 @@ function getNextMatch() {
 }
 
 function countdownToStart() {
-    const date = Date.UTC("2023", "4", "27", "12", "0", "0");
+    const date = Date.UTC("2024", "4", "18", "7", "0", "0");
     const now = new Date().getTime();
     const timeLeft = date - now;
 
