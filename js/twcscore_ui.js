@@ -82,6 +82,30 @@ window.onload = () => {
         return sel ? get_name(sel) : "";
     }
 
+    const toggle_aya_medicine = () => {
+        const aya = document.getElementById("th09Aya");
+        const medicine = document.getElementById("th09Medicine");
+
+        if (aya && medicine) {
+            const diff = diff_sel.value;
+            const rt = get_name(runtype);
+            const display = diff == "Extra" || rt == "surv" ? "inline-block": "none";
+
+            aya.style.display = display;
+            medicine.style.display = display;
+
+            const shot_name = get_shot_name();
+
+            if (diff == "Lunatic" && rt == "score" && (shot_name == "Aya" || shot_name == "Medicine")) {
+                const radio_buttons = document.getElementById("th09").querySelectorAll("input");
+
+                for (const radio_button of radio_buttons) {
+                    radio_button.checked = false;
+                }
+            }
+        }
+    }
+
 	const game_runtype_specific_opts = (game_name) => {
         let selected_game = get_name(game_sel);
         let rt = get_name(runtype);
@@ -123,6 +147,8 @@ window.onload = () => {
 				fullspell_w.style.display = "none";
 			}
 		}
+
+        toggle_aya_medicine();
 	}
 
 	const game_selected = () => {
@@ -156,25 +182,7 @@ window.onload = () => {
             th08_opts.style.display = "none";
         }
 
-        const aya = document.getElementById("th09Aya");
-        const medicine = document.getElementById("th09Medicine");
-
-        if (aya && medicine) {
-            const display = diff == "Extra" ? "inline-block": "none";
-
-            aya.style.display = display;
-            medicine.style.display = display;
-
-            const shot_name = get_shot_name();
-
-            if (diff == "Lunatic" && (shot_name == "Aya" || shot_name == "Medicine")) {
-                const radio_buttons = document.getElementById("th09").querySelectorAll("input");
-
-                for (const radio_button of radio_buttons) {
-                    radio_button.checked = false;
-                }
-            }
-        }
+        toggle_aya_medicine();
     }
 
 	const get_element_val = (element, error, type) => {
