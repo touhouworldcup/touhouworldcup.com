@@ -202,7 +202,7 @@ function print_schedule(array $schedule, array $results, array $teams, string $y
                 if (!empty($players[$player_key]['Social'])) {
                     echo ' <a href="' . $players[$player_key]['Social'] . '">' . get_icon($players[$player_key]['Social']) . '</a>';
                 }
-            } else if ($player == '-') {
+            } else {
                 echo $player;
             }
             echo '<br>';
