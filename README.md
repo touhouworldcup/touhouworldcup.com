@@ -16,7 +16,7 @@ git clone https://github.com/touhouworldcup/touhouworldcup.com.git
 cd touhouworldcup.com
 ```
 Make sure [MariaDB](https://mariadb.org/) is running on your system. You may refer to their website for more information.
-Create a user called `twc_admin` and store the password in the `.pw` file provided in the repository.
+Create a user called `twc_admin` and store the password in a file named `.pw` in the website root directory.
 Run the following command to import the tables.
 ```
 mariadb -u root -p twc < init.sql
@@ -26,6 +26,7 @@ For the archived TWC results from past years, run the following command.
 mariadb -u root -p twc_archive < init_archive.sql
 ```
 For testing, you can use any tool to modify the data as you desire.
+
 Then, run the PHP development server.
 ```
 php -S 127.0.0.1:8000
