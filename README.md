@@ -25,7 +25,7 @@ For the archived TWC results from past years, run the following command.
 ```
 mariadb -u root -p twc_archive < init_archive.sql
 ```
-For testing, you can use any tool to modify the exdata as you desire.
+For testing, you can use any tool to modify the data as you desire.
 Then, run the PHP development server.
 ```
 php -S 127.0.0.1:8000
