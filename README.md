@@ -4,6 +4,7 @@ This is the repository for touhouworldcup.com, the official Touhou World Cup web
 ## How to run
 Prerequisites:
 * PHP (version 8 or newer)
+* MariaDB
 
 Required PHP modules:
 * gettext
@@ -14,6 +15,17 @@ First, clone the repository in whatever way you prefer and navigate to its direc
 git clone https://github.com/touhouworldcup/touhouworldcup.com.git
 cd touhouworldcup.com
 ```
+Make sure [MariaDB](https://mariadb.org/) is running on your system. You may refer to their website for more information.
+Create a user called `twc_admin` and store the password in the `.pw` file provided in the repository.
+Run the following command to import the tables.
+```
+mariadb -u root -p twc < init.sql
+```
+For the archived TWC results from past years, run the following command.
+```
+mariadb -u root -p twc_archive < init_archive.sql
+```
+For testing, you can use any tool to modify the exdata as you desire.
 Then, run the PHP development server.
 ```
 php -S 127.0.0.1:8000
