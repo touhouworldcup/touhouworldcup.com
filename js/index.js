@@ -104,7 +104,6 @@ function init() {
     const scheduleJSON = document.getElementById("schedule").value;
 
     if (scheduleJSON !== "") {
-        console.log(scheduleJSON);
         schedule = JSON.parse(scheduleJSON);
         countdownToStart();
     }

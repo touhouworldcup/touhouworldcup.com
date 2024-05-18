@@ -69,7 +69,7 @@
         <a class="language_small" href="/?hl=es">Español</a>
     </p>
     <p class="bottom">Touhou World Cup 2024</p>
-    <input id="schedule" type="hidden" value='<?php echo $schedule_json ?>'>
+    <input id="schedule" type="hidden" value='<?php echo str_replace("'", "`", $schedule_json) ?>'>
 	</main>
 </body>
 </html>
