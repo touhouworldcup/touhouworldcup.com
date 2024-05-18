@@ -103,7 +103,11 @@ function init() {
 
     const scheduleJSON = document.getElementById("schedule").value;
 
-    if (scheduleJSON !== "") {
+    if (scheduleJSON === "" && localStorage.hasOwnProperty("schedule")) {
+        schedule = JSON.parse(localStorage.getItem("schedule"));
+        countdownToStart();
+    } else if (scheduleJSON !== "") {
+        localStorage.setItem("schedule", scheduleJSON);
         schedule = JSON.parse(scheduleJSON);
         countdownToStart();
     }
