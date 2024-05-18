@@ -1,6 +1,13 @@
 <?php
     include_once 'php/locale.php';
     include_once 'php/head.php';
+    include_once 'php/db.php';
+    try {
+        $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
+        $schedule_json = get_schedule($db, '2024');
+    } catch (Exception $e) {
+        // do nothing
+    }
 ?>
 
 <body>
@@ -62,6 +69,7 @@
         <a class="language_small" href="/?hl=es">Español</a>
     </p>
     <p class="bottom">Touhou World Cup 2024</p>
+    <input id="schedule" type="hidden" value='<?php echo $schedule_json ?>'>
 	</main>
 </body>
 </html>
