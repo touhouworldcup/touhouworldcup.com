@@ -6,7 +6,7 @@
         $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
         $schedule_json = get_schedule($db, '2024');
     } catch (Exception $e) {
-        // do nothing
+        $schedule_json = '';
     }
 ?>
 
