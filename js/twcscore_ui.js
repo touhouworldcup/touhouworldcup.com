@@ -107,15 +107,15 @@ window.onload = () => {
     }
 
 	const game_runtype_specific_opts = (game_name) => {
-        let selected_game = get_name(game_sel);
-        let rt = get_name(runtype);
+        const rt = get_name(runtype);
 
 		if (rt === "score") {
 			fullspell_w.style.display = "none";
+            th08_opts.style.display = "none";
 			th09_s9r1_w.style.display = "none";
 			th128_medal_w.style.display = "none";
 
-			if (game_has_ex[selected_game]) {
+			if (game_has_ex[game_name]) {
 				diff_w.style.display = "inline";
 			} else {
 				diff_sel.value = "Lunatic";
@@ -125,7 +125,13 @@ window.onload = () => {
 			diff_sel.value = "Lunatic";
 			diff_w.style.display = "none";
 
-			if (selected_game === "th09") {
+            if (game_name === "th08") {
+                th08_opts.style.display = "inline";
+            } else {
+                th08_opts.style.display = "none";
+            }
+
+            if (game_name === "th09") {
 				th09_s9r1_w.style.display = "inline";
                 remaining_l.style.display = "inline";
                 i_misses_l.style.display = "none";
@@ -135,7 +141,7 @@ window.onload = () => {
                 i_misses_l.style.display = "inline";
             }
 
-            if (selected_game === "th128") {
+            if (game_name === "th128") {
 				th128_medal_w.style.display = "inline";
 			} else {
 				th128_medal_w.style.display = "none";
@@ -152,8 +158,6 @@ window.onload = () => {
 	}
 
 	const game_selected = () => {
-		th08_opts.style.display = "none";
-
         for (const game_name of games) {
             document.getElementById(game_name).disabled = true;
             document.getElementById(game_name).style.display = "none";
@@ -165,23 +169,11 @@ window.onload = () => {
             document.getElementById(selected_game).disabled = false;
             document.getElementById(selected_game).style.display = "block";
 
-            if (selected_game === "th08" && diff_sel.value === "Lunatic") {
-                th08_opts.style.display = "inline";
-            }
-
             game_runtype_specific_opts(selected_game);
         }
 	}
 
     const diff_selected = () => {
-        const diff = diff_sel.value;
-
-        if (get_name(game_sel) == "th08" && diff === "Lunatic") {
-            th08_opts.style.display = "inline";
-        } else {
-            th08_opts.style.display = "none";
-        }
-
         toggle_aya_medicine();
     }
 
