@@ -39,6 +39,16 @@ function format_points(array $result, string $year) {
     $twcscore = [$result['P1_TWCScore'], $result['P2_TWCScore'], $result['P3_TWCScore']];
     $two_player_2020_penalty = 0;
 
+    // 2021 2021 two winning players 1.5 -> 1 edge case
+    if ($result['P1_Shottype'] == 'YoumuEagle') {
+        return '<strong>1</strong><br>0<br><strong>1</strong>';
+    }
+
+    // 2021 all three players 0 TWCScore -> raw score tiebreaker edge case
+    if ($result['P1_Result'] == '833419540') {
+        return '0<br><strong>2</strong><br>1';
+    }
+
     // check for bonus match
     if ($twcscore[0] == 0 && $twcscore[1] == 0 && $twcscore[2] == 0) {
         return '0<br>0<br>0<br class="mobile_br"><br class="mobile_br">';
@@ -48,9 +58,6 @@ function format_points(array $result, string $year) {
     if ($twcscore[0] == $twcscore[1] && $twcscore[1] == $twcscore[2]) {
         return '<strong>1</strong><br><strong>1</strong><br><strong>1</strong>';
     }
-
-    // TODO edge case: 2021 two winning players 1.5 -> 1
-    // TODO edge case: 2021 all three players 0 TWCScore -> raw score tiebreaker
 
     // 2020 two-player match edge case
     if ($year == '2020') {
