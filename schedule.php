@@ -15,6 +15,12 @@
     }
     $json = get_schedule($db, '2024');
     $schedule = json_decode($json, true);
+    uasort($schedule, function ($a, $b) {
+        if (empty($b['Date__UTC_'])) {
+            return false;
+        }
+        return $a['Date__UTC_'] > $b['Date__UTC_'];
+    });
 ?>
 
 <body>
