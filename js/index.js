@@ -67,7 +67,7 @@ function getNextMatch() {
         } else if (unix <= now && matchEnd > now) {
             document.getElementById("countdown_start").innerHTML = "";
             document.getElementById("countdown_title_match").style.display = "none";
-            document.getElementById("ongoing_match").style.display = "block";
+            document.getElementById("current_match").style.display = "block";
             document.getElementById("match_category").innerHTML = match["Category"];
             return;
         }
@@ -75,7 +75,7 @@ function getNextMatch() {
 
     document.getElementById("match_category").innerHTML = "";
     document.getElementById("countdown_start").innerHTML = "";
-    document.getElementById("ongoing_match").style.display = "none";
+    document.getElementById("current_match").style.display = "none";
     document.getElementById("countdown_title_match").style.display = "none";
     clearInterval(step);
 }
