@@ -55,6 +55,10 @@ iframe {
 #countdown_title_start, #countdown_title_match {
     display: none;
 }
+#match_category {
+    color: #19f;
+    text-decoration: underline;
+}
 #cards {
     text-align: center;
 }

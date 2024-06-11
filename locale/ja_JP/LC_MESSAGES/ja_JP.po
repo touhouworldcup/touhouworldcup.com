@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-05-17 23:25+0200\n"
-"PO-Revision-Date: 2024-05-17 23:26+0200\n"
+"POT-Creation-Date: 2024-06-11 20:23+0200\n"
+"PO-Revision-Date: 2024-06-11 20:24+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -62,7 +62,7 @@ msgstr "：スペイン語"
 msgid "Artwork:"
 msgstr "作品："
 
-#: index.php:11
+#: index.php:18
 msgid ""
 "<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
 "shooting game competition, first held in 2020 and held every year since. It "
@@ -72,7 +72,7 @@ msgstr ""
 "開催されている東方シューティングゲーム(以下STG)の国際大会です。世界中の東方プ"
 "レイヤーコミュニテによって主催されています。"
 
-#: index.php:15
+#: index.php:22
 msgid ""
 "Three teams duke it out on Lunatic and Extra mode, playing on live streams "
 "and playing both high score and survival."
@@ -80,55 +80,63 @@ msgstr ""
 "各試合は3チームのオンライン同時並走により行われ、難易度Lunatic、Extraのスコア"
 "アタック部門やサバイバル部門で競い合います。"
 
-#: index.php:18
+#: index.php:25
 msgid "See below for official communication channels."
 msgstr "公式チャンネルは以下からご参照ください。"
 
-#: index.php:21
+#: index.php:28
 msgid "TWC Starts In:"
 msgstr "TWC開催まで："
 
-#: index.php:22
+#: index.php:29
 msgid "Next Match:"
 msgstr "次の試合："
 
-#: index.php:29
+#: index.php:31
+msgid ""
+"Currently ongoing: <a class=\"match_link\" href=\"https://twitch.tv/"
+"touhou_replay_showcase\" target=\"_blank\">"
+msgstr ""
+"現在進行中：<a class=\"match_link\" href=\"https://www.youtube.com/channel/"
+"UCfF3O4wo0YxppTZGmtTGDwg\" target=\"_blank\">"
+
+#: index.php:37
 msgid "TWC English Commentary Stream"
 msgstr "英語解説付き配信チャンネル"
 
-#: index.php:33
+#: index.php:41
 msgid "TWC Japanese Commentary Stream"
 msgstr "日本語解説付き配信チャンネル"
 
-#: index.php:37
+#: index.php:45
 msgid "TWC Chinese Commentary Stream"
 msgstr "中国語解説付き配信チャンネル"
 
-#: index.php:41
+#: index.php:49
 msgid "Official TWC YouTube Channel"
 msgstr "公式YouTubeチャンネル"
 
-#: index.php:45
+#: index.php:53
 msgid "Official TWC Twitter"
 msgstr "公式ツイッター"
 
-#: index.php:49
+#: index.php:57
 msgid "TWC Japanese Twitter"
 msgstr "日本のツイッター"
 
-#: js/index.js:60
+#: js/index.js:49
 msgid "d "
 msgstr ""
 
-#: js/index.js:60
+#: js/index.js:49
 msgid "h "
 msgstr ""
 
-#: js/index.js:60
+#: js/index.js:49
 msgid "m "
 msgstr ""
 
-#: js/index.js:60
+#: js/index.js:49
 msgid "s"
 msgstr ""
 
@@ -140,12 +148,12 @@ msgstr "（"
 msgid ")"
 msgstr "）"
 
-#: php/table_func.php:166
+#: php/table_func.php:173
 msgid "Exhibition Matches"
 msgstr "エキシビション"
 
-#: php/table_func.php:187 results.php:48 results.php:88 results.php:128
-#: results.php:169
+#: php/table_func.php:194 results.php:51 results.php:94 results.php:137
+#: results.php:181
 msgid "Team "
 msgstr ""
 
@@ -445,7 +453,7 @@ msgstr "残無"
 msgid "Past Results"
 msgstr "過去の試合結果"
 
-#: results.php:23 schedule.php:26
+#: results.php:23 schedule.php:32
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
@@ -453,7 +461,7 @@ msgstr ""
 "表示されているタイムゾーンは<strong id=\"timezone\">UTC+0000（協定世界時）</"
 "strong>です。"
 
-#: results.php:26 schedule.php:29
+#: results.php:26 schedule.php:35
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
@@ -463,57 +471,57 @@ msgstr ""
 msgid "Contents"
 msgstr "内容"
 
-#: results.php:36 schedule.php:31
+#: results.php:36 schedule.php:37
 msgid "Show Results"
 msgstr "試合結果を表示"
 
-#: results.php:37 schedule.php:32
+#: results.php:37 schedule.php:38
 msgid "Hide Results"
 msgstr "試合結果を非表示"
 
-#: results.php:39 results.php:79 results.php:119 results.php:160
+#: results.php:39 results.php:82 results.php:125 results.php:169
 msgid "Final tally:"
 msgstr "最終獲得ポイント："
 
-#: results.php:48 results.php:88 results.php:128 results.php:169
+#: results.php:51 results.php:94 results.php:137 results.php:181
 msgid " points"
 msgstr "ポイント"
 
-#: results.php:62 results.php:102 results.php:142 results.php:183
-#: schedule.php:38
+#: results.php:65 results.php:108 results.php:151 results.php:195
+#: schedule.php:44
 msgid "Date / Time"
 msgstr "日付と時間"
 
-#: results.php:63 results.php:103 results.php:143 results.php:184
-#: schedule.php:39 twcscore.php:83
+#: results.php:66 results.php:109 results.php:152 results.php:196
+#: schedule.php:45 twcscore.php:83
 msgid "Category"
 msgstr "カテゴリー"
 
-#: results.php:64 results.php:104 results.php:144 results.php:185
-#: schedule.php:40
+#: results.php:67 results.php:110 results.php:153 results.php:197
+#: schedule.php:46
 msgid "Players"
 msgstr "プレイヤー"
 
-#: results.php:65 results.php:105 results.php:145 results.php:186
-#: schedule.php:41
+#: results.php:68 results.php:111 results.php:154 results.php:198
+#: schedule.php:47
 msgid "Reset Time<br>(minutes)"
 msgstr "リセットのタイマー<br>（分）"
 
-#: results.php:66 results.php:106 results.php:146 results.php:187
-#: schedule.php:42 schedule.php:45
+#: results.php:69 results.php:112 results.php:155 results.php:199
+#: schedule.php:48 schedule.php:51
 msgid "Results"
 msgstr "業績"
 
-#: results.php:67 results.php:107 results.php:147 results.php:188
-#: schedule.php:43 schedule.php:46
+#: results.php:70 results.php:113 results.php:156 results.php:200
+#: schedule.php:49 schedule.php:52
 msgid "Points"
 msgstr "ポイント"
 
-#: results.php:158 results.php:199
+#: results.php:167 results.php:211
 msgid "Game Over"
 msgstr ""
 
-#: results.php:200 rules.php:127
+#: results.php:212 rules.php:127
 msgid "Back to Top"
 msgstr "上に帰る"
 
@@ -987,11 +995,11 @@ msgstr "公式ルール全文"
 msgid "The full official rulebook can be found here:"
 msgstr "公式ルール全文はこちらにあります："
 
-#: schedule.php:2 schedule.php:23
+#: schedule.php:2 schedule.php:29
 msgid "Schedule"
 msgstr "スケジュール"
 
-#: schedule.php:24
+#: schedule.php:30
 msgid "Coming soon!"
 msgstr "今しばらくお待ち下さい。"
 

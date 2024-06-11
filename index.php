@@ -27,7 +27,8 @@
     <div id="countdowns">
         <h2 id="countdown_title_start"><?php echo _('TWC Starts In:') ?></h2>
         <h2 id="countdown_title_match"><?php echo _('Next Match:') ?></h2>
-        <p class="large"><span id="countdown_start"></span></p>
+        <p id="countdown" class="large"><span id="countdown_start"></span></p>
+        <h2 id="ongoing_match"><?php echo _('Currently ongoing: <a class="match_link" href="https://twitch.tv/touhou_replay_showcase" target="_blank">')?><span id="match_category"></span></a></h2>
         <!--<p class="huge"><?php //echo _('<a href="https://forms.gle/CfCrPn71xXXjA3Kt5" target="_blank">Sign up here!</a>') ?></p>-->
     </div>
     <div id="cards">
