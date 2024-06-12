@@ -35,6 +35,10 @@ function format_results(array $result, bool $is_bonus) {
     return $formatted;
 }
 function format_points(array $result, string $year) {
+    if (empty($result['P1_Shottype']) && empty($result['P2_Shottype']) && empty($result['P3_Shottype'])) {
+        return '';
+    }
+
     $formatted = '';
     $points = [0, 0, 0];
     $indices = [0, 1, 2];
