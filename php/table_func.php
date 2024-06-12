@@ -1,6 +1,9 @@
 <?php
 function format_results(array $result, bool $is_bonus) {
     $formatted = '';
+    if (empty($result['P1_Shottype']) && empty($result['P2_Shottype']) && empty($result['P3_Shottype'])) {
+        return '';
+    }
     for ($i = 1; $i <= 3; $i++) {
         $formatted .= ($i > 1 ? '<br>' : '');
         if (empty($result['P' . $i . '_Shottype']) && empty($result['P' . $i . '_Result']) && intval($result['P' . $i . '_TWCScore']) === 0) {
