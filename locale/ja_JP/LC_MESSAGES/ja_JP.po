@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-06-11 20:23+0200\n"
-"PO-Revision-Date: 2024-06-11 20:24+0200\n"
+"POT-Creation-Date: 2024-06-15 16:18+0200\n"
+"PO-Revision-Date: 2024-06-15 16:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -97,8 +97,8 @@ msgid ""
 "Currently ongoing: <a class=\"match_link\" href=\"https://twitch.tv/"
 "touhou_replay_showcase\" target=\"_blank\">"
 msgstr ""
-"現在進行中：<a class=\"match_link\" href=\"https://www.youtube.com/channel/"
-"UCfF3O4wo0YxppTZGmtTGDwg\" target=\"_blank\">"
+"現在進行中：<a class=\"match_link\" href=\"https://www.youtube.com/@TWC_JP/"
+"live\" target=\"_blank\">"
 
 #: index.php:37
 msgid "TWC English Commentary Stream"
@@ -140,19 +140,19 @@ msgstr ""
 msgid "s"
 msgstr ""
 
-#: php/table_func.php:24
+#: php/table_func.php:27
 msgid " ("
 msgstr "（"
 
-#: php/table_func.php:29
+#: php/table_func.php:32
 msgid ")"
 msgstr "）"
 
-#: php/table_func.php:173
+#: php/table_func.php:180
 msgid "Exhibition Matches"
 msgstr "エキシビション"
 
-#: php/table_func.php:194 results.php:51 results.php:94 results.php:137
+#: php/table_func.php:201 results.php:51 results.php:94 results.php:137
 #: results.php:181
 msgid "Team "
 msgstr ""
