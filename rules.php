@@ -10,6 +10,13 @@
 	<?php include_once 'php/body.php' ?>
 	<main>
 	<h1 id='rules'><?php echo _('Rules') ?></h1>
+    <h2><?php echo _('Full Official Rules') ?></h2>
+    <p><?php echo _('The full official rulebook can be found here:') ?></p>
+    <ul class="style-none">
+        <li>English: <a href="https://docs.google.com/document/d/e/2PACX-1vTATjRLhS3tTXoyp1NtoSVVsehDgVm22QZxBOCCnrXWVpzycXxz6Y4NDh7rX850ihByJ3-LUDrL24HU/pub" target="_blank">TWC Handbook</a></li>
+        <li>日本語: <a href="assets/TWC_Handbook_JP.pdf" target="_blank">TWC_Handbook_JP.pdf</a></li>
+    </ul>
+    <hr>
     <h2><?php echo _('Format') ?></h2>
         <p><?php echo _('The players from each team will play against each other simultaneously.') ?></p>
         <p><?php echo _('For every match, each player can earn points for their team:') ?></p>
@@ -116,13 +123,6 @@
         <li><?php echo _('Players must stream their gameplay while playing their match, without covering any HUD or gameplay elements.') ?></li>
         <li><?php echo _('The replay file of each player\'s best performing credit must be submitted to the TWC Committee at the end of a match.') ?></li>
         <li><?php echo _('Please hide the ending when you reach the end of the game.') ?></li>
-    </ul>
-    <hr>
-    <h2><?php echo _('Full Official Rules') ?></h2>
-    <p><?php echo _('The full official rulebook can be found here:') ?></p>
-    <ul class="style-none">
-        <li>English: <a href="https://docs.google.com/document/d/e/2PACX-1vTATjRLhS3tTXoyp1NtoSVVsehDgVm22QZxBOCCnrXWVpzycXxz6Y4NDh7rX850ihByJ3-LUDrL24HU/pub" target="_blank">TWC Handbook</a></li>
-        <li>日本語: <a href="assets/TWC_Handbook_JP.pdf" target="_blank">TWC_Handbook_JP.pdf</a></li>
     </ul>
     <p><a href="#top"><?php echo _('Back to Top') ?></a></p>
 	</main>

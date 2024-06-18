@@ -44,7 +44,8 @@ window.onload = () => {
         "th09": true,
         "th11": true,
         "th13": true,
-        "th14": true
+        "th14": true,
+        "th16": true
 	}
 
     const sep = (number) => {
