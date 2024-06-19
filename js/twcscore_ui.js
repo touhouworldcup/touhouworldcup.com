@@ -18,6 +18,7 @@ window.onload = () => {
 	const th128_medal_w  = document.getElementById("th128_medal_w");
 	const fullspell_w    = document.getElementById("fullspell_w");
 	const fullspell      = document.getElementById("fullspell");
+	const phantasm      = document.getElementById("phantasm");
     const shot_sels      = document.getElementsByName("shottype");
 
 	const i_misses     = document.getElementById("misscount");
@@ -42,6 +43,7 @@ window.onload = () => {
         "th07": true,
         "th08": true,
         "th09": true,
+        "th10": true,
         "th11": true,
         "th13": true,
         "th14": true,
@@ -83,7 +85,7 @@ window.onload = () => {
         return sel ? get_name(sel) : "";
     }
 
-    const toggle_aya_medicine = () => {
+    const toggle_aya_medicine_phantasm = (game_name) => {
         const aya = document.getElementById("th09Aya");
         const medicine = document.getElementById("th09Medicine");
 
@@ -105,10 +107,15 @@ window.onload = () => {
                 }
             }
         }
+
+        if (game_name !== "th07" && diff_sel.value === "Phantasm") {
+            diff_sel.value = "Extra";
+        }
     }
 
 	const game_runtype_specific_opts = (game_name) => {
         const rt = get_name(runtype);
+        phantasm.style.display = "none";
 
 		if (rt === "score") {
 			fullspell_w.style.display = "none";
@@ -118,6 +125,9 @@ window.onload = () => {
 
 			if (game_has_ex[game_name]) {
 				diff_w.style.display = "inline";
+                if (game_name === "th07") {
+                    phantasm.style.display = "inline";
+                }
 			} else {
 				diff_sel.value = "Lunatic";
 				diff_w.style.display = "none";
@@ -155,7 +165,7 @@ window.onload = () => {
 			}
 		}
 
-        toggle_aya_medicine();
+        toggle_aya_medicine_phantasm(game_name);
 	}
 
 	const game_selected = () => {
@@ -175,7 +185,8 @@ window.onload = () => {
 	}
 
     const diff_selected = () => {
-        toggle_aya_medicine();
+        const game_name = get_name(game_sel);
+        toggle_aya_medicine_phantasm(game_name);
     }
 
 	const get_element_val = (element, error, type) => {

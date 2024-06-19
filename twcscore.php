@@ -141,6 +141,7 @@
 	<select name="diff" id="diff">
 		<option value="Lunatic">Lunatic</option>
 		<option value="Extra">Extra</option>
+		<option id="phantasm" value="Phantasm">Phantasm</option>
 	</select>
 	</span>
 
