@@ -57,6 +57,10 @@ window.onload = () => {
     const get_shot_sel = () => {
         for (let sel of shot_sels) {
             if (sel.id == get_name(game_sel)) {
+                if (sel.id === "th16" && diff_sel.value === "Extra") {
+                    return document.getElementById("th16ex");
+                }
+
                 return document.getElementById(sel.id);
             }
         }
@@ -169,6 +173,9 @@ window.onload = () => {
 	}
 
 	const game_selected = () => {
+        document.getElementById("th16ex").disabled = true;
+        document.getElementById("th16ex").style.display = "none";
+
         for (const game_name of games) {
             document.getElementById(game_name).disabled = true;
             document.getElementById(game_name).style.display = "none";
@@ -185,8 +192,26 @@ window.onload = () => {
 	}
 
     const diff_selected = () => {
-        const game_name = get_name(game_sel);
-        toggle_aya_medicine_phantasm(game_name);
+        const selected_game = get_name(game_sel);
+        toggle_aya_medicine_phantasm(selected_game);
+
+        if (selected_game === "th16" && diff_sel.value === "Extra") {
+            for (const game_name of games) {
+                document.getElementById(game_name).disabled = true;
+                document.getElementById(game_name).style.display = "none";
+            }
+
+            document.getElementById("th16ex").disabled = false;
+            document.getElementById("th16ex").style.display = "block";
+        } else {
+            document.getElementById("th16ex").disabled = true;
+            document.getElementById("th16ex").style.display = "none";
+
+            if (selected_game === "th16" && diff_sel.value !== "Extra") {
+                document.getElementById("th16").disabled = false;
+                document.getElementById("th16").style.display = "block";
+            }
+        }
     }
 
 	const get_element_val = (element, error, type) => {

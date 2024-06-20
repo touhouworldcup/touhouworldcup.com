@@ -78,7 +78,14 @@
             }
             echo '</fieldset>';
         }
-    ?><br><br>
+    ?>
+	<fieldset name="shottype" id="th16ex" class="game">
+		<label><input type="radio" name="shottype" value="Reimu"><span id="th16ReimuExtra" class="shottype" title="<?php echo _('Reimu'); ?>"></span></label>
+		<label><input type="radio" name="shottype" value="Cirno"><span id="th16CirnoExtra" class="shottype" title="<?php echo _('Cirno'); ?>"></span></label>
+		<label><input type="radio" name="shottype" value="Aya"><span id="th16AyaExtra" class="shottype" title="<?php echo _('Aya'); ?>"></span></label>
+		<label><input type="radio" name="shottype" value="Marisa"><span id="th16MarisaExtra" class="shottype" title="<?php echo _('Marisa'); ?>"></span></label>
+	</fieldset>
+	<br><br>
 
 	<label for="runtype"><?php echo _('Category') ?></label><br>
     <fieldset name="runtype" id="runtype">
