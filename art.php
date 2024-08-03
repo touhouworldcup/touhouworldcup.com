@@ -428,15 +428,6 @@
         <h2><a class="expander" onclick="art_hide(this)">⮟</a> あずまよりこ</h2>
         <div>
             <div class="illustration">
-                <img src="/static/art/2024/sa lnb.png"></img>
-                <h4>TH11 Lunatic Survival</h4>
-            </div>
-        </div>
-        </div>
-        
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> あずまよりこ</h2>
-        <div>
-            <div class="illustration">
                 <img src="/static/art/2024/um lnb.png"></img>
                 <h4>TH18 Lunatic Survival</h4>
             </div>
