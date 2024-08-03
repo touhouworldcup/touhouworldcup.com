@@ -1,7 +1,7 @@
 <?php
     $title = _('Artworks');
     $description = 'Official artworks commissioned by TWC staff';
-    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2023 competition, scoring, survival, tournament, fan-art, art';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2024, competition, scoring, survival, tournament, fan-art, art';
     include_once 'php/locale.php';
     include_once 'php/head.php';
 ?>

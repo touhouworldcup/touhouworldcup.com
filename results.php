@@ -1,7 +1,7 @@
 <?php
     $title = _('Past Results');
     $description = 'Touhou World Cup results from past years';
-    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2023 competition, scoring, survival, tournament';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2024, competition, scoring, survival, tournament';
     include_once 'php/locale.php';
     include_once 'php/head.php';
     include_once 'php/table_func.php';

@@ -1,7 +1,7 @@
 <?php
     $title = _('Schedule');
     $description = 'Order and time at which Touhou World Cup matches will happen';
-    $keywords = 'touhou, touhou project, 東方, 东方, world cup, touhou world cup, twc, 2023 competition, scoring, survival, tournament, schedule, timetable';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2024, competition, scoring, survival, tournament, schedule, timetable';
     include_once 'php/locale.php';
     include_once 'php/head.php';
     include_once 'php/table_func.php';
@@ -63,7 +63,6 @@
             print_schedule($schedule, $results, $teams, '2024', $players);
         ?></tbody>
     </table>
-    <input id="schedule" type="hidden" value='<?php echo str_replace("'", "`", $schedule_json) ?>'>
     </main>
 </body>
 </html>
