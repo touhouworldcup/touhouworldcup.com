@@ -49,6 +49,13 @@ input[type=button] {
     background-color: #23fcb1;
     color: #000;
 }
+.TH19 {
+    background-color: #f0e68c;
+    color: #000;
+}
+.TH143 {
+    background-color: #8844c2;
+}
 .Extra {
     background-color: #ff00ff;
     color: #000;
@@ -97,7 +104,9 @@ input[type=button] {
     top: 100%;
     max-width: 100px;
 }
-#schedule_tbody_2022 .bonus_match img {
+#schedule_tbody .bonus_match .team_icon,
+#schedule_tbody_2022 .bonus_match .team_icon,
+#schedule_tbody_2023 .bonus_match .team_icon {
     display: none;
 }
 @media only screen and (max-width: 1000px) {

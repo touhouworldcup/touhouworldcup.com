@@ -1,6 +1,6 @@
 let language = "en-GB";
 let step = setInterval(countdownToStart, 1000);
-let schedule;
+let schedule = [];
 
 function _(letter) {
     if (language != "ja-JP" && language != "zh-CN") {
@@ -41,17 +41,6 @@ function getCookie(name) {
     return "";
 }
 
-function sendXHR(type, url, data, callback) {
-    const newXHR = new XMLHttpRequest() || new window.ActiveXObject("Microsoft.XMLHTTP");
-    newXHR.open(type, url, true);
-    newXHR.send(data);
-    newXHR.onreadystatechange = function () {
-        if (this.status === 200 && this.readyState === 4) {
-            callback(this.response);
-        }
-    };
-}
-
 function formatTime(timeLeft) {
     let days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
     let hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -63,22 +52,36 @@ function formatTime(timeLeft) {
 function getNextMatch() {
     const now = Math.round(new Date().getTime() / 1000);
 
-    for (const unix in schedule) {
+    for (const match of schedule) {
+        const time = match["Date__UTC_"];
+        const date = new Date(time);
+        const unix = (date.getTime() - date.getTimezoneOffset() * 60 * 1000) / 1000;
+        const resetTime = match["ResetTime"] * 60; // seconds
+        const matchEnd = unix + resetTime;
+
         if (unix > now) {
             const timeLeft = unix - now;
             document.getElementById("countdown_title_match").style.display = "block";
             document.getElementById("countdown_start").innerHTML = formatTime(timeLeft * 1000);
             return;
+        } else if (unix <= now && matchEnd > now) {
+            document.getElementById("countdown_start").innerHTML = "";
+            document.getElementById("countdown_title_match").style.display = "none";
+            document.getElementById("current_match").style.display = "block";
+            document.getElementById("match_category").innerHTML = match["Category"];
+            return;
         }
     }
 
+    document.getElementById("match_category").innerHTML = "";
     document.getElementById("countdown_start").innerHTML = "";
+    document.getElementById("current_match").style.display = "none";
     document.getElementById("countdown_title_match").style.display = "none";
     clearInterval(step);
 }
 
 function countdownToStart() {
-    const date = Date.UTC("2023", "4", "27", "12", "0", "0");
+    const date = Date.UTC("2024", "4", "18", "7", "0", "0");
     const now = new Date().getTime();
     const timeLeft = date - now;
 
@@ -108,10 +111,16 @@ function init() {
         language = "es-ES";
     }
 
-    sendXHR("GET", "/json/schedule.json", null, function (response) {
-        schedule = JSON.parse(response);
+    const scheduleJSON = document.getElementById("schedule").value;
+
+    if (scheduleJSON === "" && localStorage.hasOwnProperty("schedule")) {
+        schedule = JSON.parse(localStorage.getItem("schedule"));
         countdownToStart();
-    });
+    } else if (scheduleJSON !== "") {
+        localStorage.setItem("schedule", scheduleJSON);
+        schedule = JSON.parse(scheduleJSON);
+        countdownToStart();
+    }
 }
 
 window.addEventListener("DOMContentLoaded", init, false);

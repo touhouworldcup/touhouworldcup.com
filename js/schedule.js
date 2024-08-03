@@ -1,4 +1,6 @@
 let language = "en-GB";
+let step = setInterval(getNextMatch, 1000);
+let schedule = [];
 
 function getCookie(name) {
     const decodedCookies = decodeURIComponent(document.cookie);
@@ -60,31 +62,78 @@ function getClientTimeZone() {
     return "UTC" + new Date().toString().split("GMT")[1];
 }
 
-function sendXHR(type, url, data, callback) {
-    const newXHR = new XMLHttpRequest() || new window.ActiveXObject("Microsoft.XMLHTTP");
-    newXHR.open(type, url, true);
-    newXHR.send(data);
-    newXHR.onreadystatechange = function () {
-        if (this.status === 200 && this.readyState === 4) {
-            callback(this.response);
-        }
-    };
-}
-
-function toDateString(unix) {
-    const date = new Date(Number(unix) * 1000);
+function toDateString(dateTime) {
+    const date = new Date(dateTime);
     return date.toLocaleString(language, {"dateStyle": "full"}) + ", " + date.toLocaleTimeString(language);
 }
 
-function convertDateTimes(json) {
-    sendXHR("GET", json, null, function (response) {
-        const schedule = JSON.parse(response);
+function convertDateTimes(year) {
+    const loop = true;
+    let index = 0;
 
-        for (const unix in schedule) {
-            const dateString = toDateString(unix);
-            document.getElementById(unix + "_date").innerHTML = "<td class='noborders'>" + dateString + "</td>";
+    while (loop) {
+        const dateElement = document.getElementById(`date_${year}_${index}`);
+
+        if (!dateElement) {
+            break;
         }
-    });
+
+        const dateString = toDateString(dateElement.innerHTML + " UTC");
+        dateElement.innerHTML = `<td class='noborders'>${dateString}</td>`;
+        index++;
+    }
+}
+
+function _(letter) {
+    if (language != "ja-JP" && language != "zh-CN") {
+        return letter;
+    }
+
+    return ({
+        "d ": "日",
+        "h ": "時間",
+        "m ": "分",
+        "s": "秒"
+    }[letter]);
+}
+
+function formatTime(timeLeft) {
+    let days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+    return days + _("d ") + hours + _("h ") + minutes + _("m ") + seconds + _("s");
+}
+
+function getNextMatch() {
+    const now = Math.round(new Date().getTime() / 1000);
+
+    for (const match of schedule) {
+        const time = match["Date__UTC_"];
+        const date = new Date(time);
+        const unix = (date.getTime() - date.getTimezoneOffset() * 60 * 1000) / 1000;
+        const resetTime = match["ResetTime"] * 60; // seconds
+        const matchEnd = unix + resetTime;
+
+        if (unix > now) {
+            const timeLeft = unix - now;
+            document.getElementById("countdown_title_match").style.display = "block";
+            document.getElementById("countdown_start").innerHTML = formatTime(timeLeft * 1000);
+            return;
+        } else if (unix <= now && matchEnd > now) {
+            document.getElementById("countdown_start").innerHTML = "";
+            document.getElementById("countdown_title_match").style.display = "none";
+            document.getElementById("current_match").style.display = "block";
+            document.getElementById("match_category").innerHTML = match["Category"];
+            return;
+        }
+    }
+
+    document.getElementById("match_category").innerHTML = "";
+    document.getElementById("countdown_start").innerHTML = "";
+    document.getElementById("current_match").style.display = "none";
+    document.getElementById("countdown_title_match").style.display = "none";
+    clearInterval(step);
 }
 
 function init() {
@@ -114,11 +163,23 @@ function init() {
     document.getElementById("timezone").innerHTML = getClientTimeZone();
 
     if (location.pathname == "/schedule") {
-        convertDateTimes("/json/schedule.json");
+        convertDateTimes("2024");
     } else {
-        convertDateTimes("/past/schedule_2022.json");
-        convertDateTimes("/past/schedule_2021.json");
-        convertDateTimes("/past/schedule_2020.json");
+        convertDateTimes("2023");
+        convertDateTimes("2022");
+        convertDateTimes("2021");
+        convertDateTimes("2020");
+    }
+
+    const scheduleJSON = document.getElementById("schedule").value;
+
+    if (scheduleJSON === "" && localStorage.hasOwnProperty("schedule")) {
+        schedule = JSON.parse(localStorage.getItem("schedule"));
+        getNextMatch();
+    } else if (scheduleJSON !== "") {
+        localStorage.setItem("schedule", scheduleJSON);
+        schedule = JSON.parse(scheduleJSON);
+        getNextMatch();
     }
 }
 

@@ -1,0 +1,29 @@
+h2 img {
+    max-height: 1em;
+}
+
+.illustration {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.illustration h4 {
+    margin-bottom: 0;
+}
+
+.illustration img {
+    width: 100%;
+}
+
+.expander {
+    cursor: pointer;
+    color: white;
+}
+
+.art_past {
+    display: none;
+}
+
+main {
+    max-width: 1050px;
+}

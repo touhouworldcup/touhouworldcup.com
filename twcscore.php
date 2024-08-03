@@ -1,9 +1,16 @@
 <?php
     $title = _('TWCScore');
     $description = 'A calculator for the official points system used to judge how good a Touhou World Cup run is';
-    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2022 competition, scoring, survival, tournament, iscore, score, calculator';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2023 competition, scoring, survival, tournament, iscore, score, calculator';
     include_once 'php/locale.php';
     include_once 'php/head.php';
+    try {
+        $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
+    } catch (Exception $e) {
+        $_GET['error'] = 503;
+        include_once 'php/error.php';
+        die();
+    }
 ?>
 
 <body>
@@ -12,8 +19,11 @@
 	<h1><?php echo _('TWCScore Calculator') ?></h1>
 	<noscript><h2><?php echo _('This page requires JavaScript') ?></h2></noscript>
     <p><?php echo _('Use this page to calculate TWCScore for any particular run. TWCScore is subject to change.') ?></p>
-	<p><a href='https://docs.google.com/spreadsheets/d/e/2PACX-1vS97uPEhPc7Ys2LU9QZ2C5NBDTrcqOkCR9mixhs3yDt3zUSxIfNDAXENp8QzEsrFaLZI8wEt35nfLox/pubhtml?gid=161008384&amp;amp;single=true&amp;amp;widget=true&amp;amp;headers=false' target='_blank'>
-		<?php echo _('Click here to see all rubrics.') ?>
+	<p><a href='https://wl7c2u3z.nocodb.com/#/nc/view/21e12de7-d9a3-4a65-8b41-94b4288991d0' target='_blank'>
+		<?php echo _('Click here to see the survival rubrics.') ?>
+	</a></p>
+	<p><a href='https://wl7c2u3z.nocodb.com/#/nc/view/4525b5ee-87ae-41da-a056-b63f6014eeb3' target='_blank'>
+		<?php echo _('Click here to see the scoring rubrics.') ?>
 	</a></p>
 	<form id="calc-iscore">
 	<label for="games"><?php echo _('Game') ?></label><br>
@@ -46,6 +56,8 @@
     		<input type="radio" name="games" value="th17"><span id="cover_th17" class="cover" width=100 height=100 title="<?php echo _('Touhou 17: Wily Beast and Weakest Creature') ?>"></span>
         </label><label>
     		<input type="radio" name="games" value="th18"><span id="cover_th18" class="cover" width=100 height=100 title="<?php echo _('Touhou 18: Unconnected Marketeers') ?>"></span>
+        </label><label>
+    		<input type="radio" name="games" value="th19"><span id="cover_th19" class="cover" width=100 height=100 title="<?php echo _('Touhou 19: Unfinished Dream of All Living Ghost') ?>"></span>
         </label>
 	</fieldset><br><br>
 
@@ -66,7 +78,14 @@
             }
             echo '</fieldset>';
         }
-    ?><br><br>
+    ?>
+	<fieldset name="shottype" id="th16ex" class="game">
+		<label><input type="radio" name="shottype" value="Reimu"><span id="th16ReimuExtra" class="shottype" title="<?php echo _('Reimu'); ?>"></span></label>
+		<label><input type="radio" name="shottype" value="Cirno"><span id="th16CirnoExtra" class="shottype" title="<?php echo _('Cirno'); ?>"></span></label>
+		<label><input type="radio" name="shottype" value="Aya"><span id="th16AyaExtra" class="shottype" title="<?php echo _('Aya'); ?>"></span></label>
+		<label><input type="radio" name="shottype" value="Marisa"><span id="th16MarisaExtra" class="shottype" title="<?php echo _('Marisa'); ?>"></span></label>
+	</fieldset>
+	<br><br>
 
 	<label for="runtype"><?php echo _('Category') ?></label><br>
     <fieldset name="runtype" id="runtype">
@@ -87,7 +106,8 @@
 
 	<span id="surv_opts">
 		<br><br>
-        <label for="misscount"><?php echo _('Misses') ?></label><br>
+        <label for="misscount" id="misscount_l"><?php echo _('Misses') ?></label>
+        <label for="misscount" id="remaining_l"><?php echo _('Remaining lives') ?></label><br>
         <input type="button" id="minus" value="-">
 		<input type="number" id="misscount" name="misscount" value=0 readonly>
         <input type="button" id="plus" value="+">
@@ -108,6 +128,12 @@
 		<input type="text" id="score" name="score">
 	</span>
 
+	<span id="th09_s9r1_w">
+		<br><br>
+        <label for="th09_s9r1" id="th09_s9r1_l"><?php echo _('Duration of Stage 9 Round 1 (seconds)') ?></label><br>
+		<input type="number" id="th09_s9r1" name="th09_s9r1" value=0>
+	</span>
+
 	<span id="th128_medal_w">
 		<br><br>
         <label for="th128_medals" id="th128_medal_l"><?php echo _('Gold medals') ?></label><br>
@@ -122,6 +148,7 @@
 	<select name="diff" id="diff">
 		<option value="Lunatic">Lunatic</option>
 		<option value="Extra">Extra</option>
+		<option id="phantasm" value="Phantasm">Phantasm</option>
 	</select>
 	</span>
 
@@ -160,7 +187,5 @@
 	</form>
 	</main>
     <input id="shots_json" type="hidden" value='<?php echo file_get_contents('json/shots.json') ?>'>
-    <input id="scoring_json" type="hidden" value='<?php echo file_get_contents('json/scoring.json') ?>'>
-    <input id="survival_json" type="hidden" value='<?php echo file_get_contents('json/survival.json') ?>'>
 </body>
 </html>

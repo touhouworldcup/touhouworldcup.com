@@ -1,7 +1,7 @@
 <?php
     $title = _('Rules');
     $description = 'The rules that all Touhou World Cup players have to abide by';
-    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2022 competition, scoring, survival, tournament, rules';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2023 competition, scoring, survival, tournament, rules';
     include_once 'php/locale.php';
     include_once 'php/head.php';
 ?>
@@ -10,6 +10,13 @@
 	<?php include_once 'php/body.php' ?>
 	<main>
 	<h1 id='rules'><?php echo _('Rules') ?></h1>
+    <h2><?php echo _('Full Official Rules') ?></h2>
+    <p><?php echo _('The full official rulebook can be found here:') ?></p>
+    <ul class="style-none">
+        <li>English: <a href="https://docs.google.com/document/d/e/2PACX-1vTATjRLhS3tTXoyp1NtoSVVsehDgVm22QZxBOCCnrXWVpzycXxz6Y4NDh7rX850ihByJ3-LUDrL24HU/pub" target="_blank">TWC Handbook</a></li>
+        <li>日本語: <a href="assets/TWC_Handbook_JP.pdf" target="_blank">TWC_Handbook_JP.pdf</a></li>
+    </ul>
+    <hr>
     <h2><?php echo _('Format') ?></h2>
         <p><?php echo _('The players from each team will play against each other simultaneously.') ?></p>
         <p><?php echo _('For every match, each player can earn points for their team:') ?></p>
@@ -48,14 +55,24 @@
             <h4><?php echo _('Touhou 8') ?></h4>
                 <p><?php echo _('Last Spell: Getting hit during a Last Spell is considered a death. Not meeting the time orb requirement in Stage 1-5 is also considered a death.<br>' .
                 'Timing out a Last Spell is <strong>not</strong> considered a death.') ?></p>
+            <h4><?php echo _('Touhou 9') ?></h4>
+                <p><?php echo _('This category is played under different conditions to all other Survival Categories in TWC. ' .
+                'The goal of a player performing a credit in Phantasmagoria of Flower View Lunatic Survival is to maximize the number of remaining lives at the end of the credit. ' .
+                'Each Shot Type will be assigned a TWCScore by the TWCScore Rubric according to the number of remaining lives.<br>' .
+                'TWCScore of this category can be regarded as substituting "7 - the number of remaining lives" for the "the number of misses" in the formula of other Survival Categories in TWC, ' .
+                'with the exception that a bonus of [0.02 * the duration (in seconds) of Stage 9 first round] is added at the end of a credit. ' .
+                'An additional TWCScore bonus will be applied when there are 7 remaining lives. Any credit that ends with less than 2 lives remaining will always attain a TWCScore of zero.') ?></p>
             <h4><?php echo _('Touhou 11') ?></h4>
                 <p><?php echo _('There is a TWCScore Bonus for a credit that captures all spellcards and finishes with zero deaths.') ?></p>
             <h4><?php echo _('Touhou 12') ?></h4>
                 <p><?php echo _('UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens is allowed and does not count as a death.') ?></p>
             <h4><?php echo _('Touhou 12.8') ?></h4>
-                <p><?php echo _('TWCScore works differently for this category specifically. Players are allowed to use the freeze mechanic freely with no penalty.' .
-                'All credits start at 0 TWCScore, and for each gold medal obtained, varying TWCScore is awarded based on the route. ' .
-                'Furthermore, each miss will incur a loss of 1 TWCScore. This category has no upper limit on miss count, and a game over results in a 50 TWCScore penalty.') ?></p>
+                <p><?php echo _('This category is played under different conditions to all other Survival Categories in TWC. ' .
+                'The goal of a player performing a credit in Great Fairy Wars Lunatic Survival is to play through the game on Lunatic difficulty while avoiding all enemy attacks and gaining gold medals from spell cards. ' .
+                'Gold medals are attained by capturing spell cards without using Ice Power or a Perfect Freeze. ' .
+                'TWCScore increases exponentially by the number of gold medals captured by the player and is lost depending on the number of misses. The parameters of this exponential gain are different for each route. ' .
+                'The number of misses in a Great Fairy Wars Lunatic Survival credit does not affect the validity of the credit in any form. ' .
+                'However, any otherwise valid credit in a match of Great Fairy Wars Lunatic Survival which ends in a Game Over will always attain a TWCScore of -50.') ?></p>
             <h4><?php echo _('Touhou 13') ?></h4>
                 <p><?php echo _('Trance: A manually activated trance is considered two deaths.<br>' .
                 'Additionally, there is a TWCScore Bonus for a credit that captures all spellcards and finishes with zero deaths.') ?></p>
@@ -76,12 +93,15 @@
                 <p><?php echo _('Additionally, the players are only allowed to buy "Money Comes and Goes On its Own" from the card shop between stages.') ?></p>
                 <img src='assets/moneycard.png' alt='Money Comes and Goes On its Own card' width=96 height=120>
                 <p><?php echo _('<em>The "Money Comes and Goes On its Own" card.</em>') ?></p>
+            <h4><?php echo _('Touhou 19') ?></h4>
+                <p><?php echo _('Players will incur no penalty for taking a hit with a shield active. Players will also incur no penalty for regenerating their shield by using their gauge.') ?></p>
         <h3><?php echo _('Scoring Categories') ?></h3>
             <p><?php echo _('In Scoring Categories the players will try to finish the game while gaining the highest score possible. ' .
             'They can die, bomb and use any other mechanics as much as they want.') ?></p>
             <p><?php echo _('Some extra details about Scoring Categories:') ?></p>
             <ul>
                 <li><?php echo _('Unlike previous years of TWC, there is now no penalty to TWCScore if a player Game Overs in a Scoring Category.') ?></li>
+                <li><?php echo _('Players of the Phantasmagoria of Flower View Lunatic Scoring category are not allowed to select Aya or Medicine.') ?></li>
                 <li><?php echo _('In Touhou 17 and Touhou 18, it is possible to reach the maximum value the score counter can display, known as a counterstop. ' .
                 'If this happens, we will use the player\'s "True Score" which can be determined by using counterstop removal patches.') ?></li>
                 <li><?php echo _('In Touhou 12, the score counter will display the player\'s score incorrectly if the score reaches a high enough value. ' .
@@ -103,13 +123,6 @@
         <li><?php echo _('Players must stream their gameplay while playing their match, without covering any HUD or gameplay elements.') ?></li>
         <li><?php echo _('The replay file of each player\'s best performing credit must be submitted to the TWC Committee at the end of a match.') ?></li>
         <li><?php echo _('Please hide the ending when you reach the end of the game.') ?></li>
-    </ul>
-    <hr>
-    <h2><?php echo _('Full Official Rules') ?></h2>
-    <p><?php echo _('The full official rulebook can be found here:') ?></p>
-    <ul class="style-none">
-        <li>English: <a href="assets/TWC_Handbook.pdf" target="_blank">TWC_Handbook.pdf</a></li>
-        <li>日本語: <a href="assets/TWC_Handbook_JP.pdf" target="_blank">TWC_Handbook-JP.pdf</a></li>
     </ul>
     <p><a href="#top"><?php echo _('Back to Top') ?></a></p>
 	</main>

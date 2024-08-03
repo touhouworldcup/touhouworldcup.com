@@ -3,5 +3,8 @@
 *-min.css
 *-min.js
 
+# Static files
+static/
+
 # Development
 .history/
