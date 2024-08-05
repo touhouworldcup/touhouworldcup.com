@@ -17,7 +17,7 @@
         </div>
 
         <h2 id="2024">TWC 2024</h2>
-        <h2 id="2024"><a class="expander" onclick="art_hide(this)">⮟</a> <?php echo _("Collaborative works") ?></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> <?php echo _("Collaborative works") ?></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/ddc scoring.png">
@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Addamelech <a href="https://twitter.com/addamelech"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://www.pixiv.net/en/users/2570621"><img src="/assets/icons/pixiv-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Addamelech <a href="https://twitter.com/addamelech"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/en/users/2570621"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/TD Extra Scoring.png">
@@ -42,7 +42,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> TurboOven9000 <a href="https://www.tumblr.com/turbooven9000"><img src="/assets/icons/tumblr-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> TurboOven9000 <a href="https://www.tumblr.com/turbooven9000"><img src="/assets/icons/tumblr-icon.png" alt="Tumblr icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/UFO Lunatic Survival.png">
@@ -62,7 +62,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Ciel-9</h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Ciel-9 <a href="https://twitter.com/Cirnolover9"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/EoSD Extra Scoring.png">
@@ -86,7 +86,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Redler Red7 <a href="https://twitter.com/redlerred7"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://redlerred7.tumblr.com/"><img src="/assets/icons/tumblr-icon.png"></a> <a href="https://pixiv.me/redlerred7"><img src="/assets/icons/pixiv-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Redler Red7 <a href="https://twitter.com/redlerred7"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://redlerred7.tumblr.com/"><img src="/assets/icons/tumblr-icon.png" alt="Tumblr icon"></a> <a href="https://pixiv.me/redlerred7"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/DDC Lunatic Survival.png">
@@ -98,7 +98,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Starmanz <a href="https://twitter.com/Its_a_Starman"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Starmanz <a href="https://twitter.com/Its_a_Starman"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/WBaWC Lunatic Survival.png">
@@ -110,7 +110,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 砕氷 <a href="https://twitter.com/CreepingBarrett"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://www.pixiv.net/en/users/9337602"><img src="/assets/icons/pixiv-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 砕氷 <a href="https://twitter.com/CreepingBarrett"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/en/users/9337602"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/TD Lunatic Survival.png">
@@ -146,7 +146,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Muzilana <a href="https://twitter.com/muzilana1"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://www.pixiv.net/en/users/32090790"><img src="/assets/icons/pixiv-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Muzilana <a href="https://twitter.com/muzilana1"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/en/users/32090790"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/HSiFS Lunatic Survival.png">
@@ -158,7 +158,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Skywalker2016GD <a href="https://twitter.com/Skywalker2016GD"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Skywalker2016GD <a href="https://twitter.com/Skywalker2016GD"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/TD Lunatic Scoring.png">
@@ -170,7 +170,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> スライス蛸足 <a href="https://twitter.com/S_tako_"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> スライス蛸足 <a href="https://twitter.com/S_tako_"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/IN Lunatic Survival.png">
@@ -182,7 +182,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> はらぴょん <a href="https://twitter.com/harapyon9711"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> はらぴょん <a href="https://twitter.com/harapyon9711"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/PoFV Lunatic Scoring.png">
@@ -194,7 +194,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> こがらし <a href="https://x.com/chiyonosuki"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://www.pixiv.net/users/28927093"><img src="/assets/icons/pixiv-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> こがらし <a href="https://x.com/chiyonosuki"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/28927093"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/MoF Lunatic Survival.png">
@@ -206,7 +206,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> OmegaOof</h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> OmegaOof <a href="https://www.pixiv.net/en/users/64677321"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/LoLK Lunatic Scoring.png">
@@ -218,7 +218,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> せい <a href="https://twitter.com/nonorieo__"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> せい <a href="https://twitter.com/nonorieo__"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/GFW Lunatic Scoring.png">
@@ -226,7 +226,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> りんり <a href="https://twitter.com/pachurinri"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> りんり <a href="https://twitter.com/pachurinri"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/PCB Lunatic Survival.png">
@@ -238,7 +238,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Sachisu <a href="https://twitter.com/sachisudesu"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Sachisu <a href="https://twitter.com/sachisudesu"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/SA Lunatic Survival.png">
@@ -250,7 +250,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> hrm <a href="https://twitter.com/hrm_wata"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://www.pixiv.net/users/1526168"><img src="/assets/icons/pixiv-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> hrm <a href="https://twitter.com/hrm_wata"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/1526168"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/PCB Extra Scoring.png">
@@ -262,7 +262,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> mero</h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> mero <a href="https://merort.tumblr.com/"><img src="/assets/icons/tumblr-icon.png" alt="Tumblr icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/DDC Extra Scoring.png">
@@ -274,7 +274,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> indigo <a href="https://twitter.com/IKuroto"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> indigo <a href="https://twitter.com/IKuroto"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/PCB Phantasm Scoring.png">
@@ -286,7 +286,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> うめ <a href="https://twitter.com/umebitansan"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://www.pixiv.net/users/72729141"><img src="/assets/icons/pixiv-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> うめ <a href="https://twitter.com/umebitansan"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/72729141"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/UM Lunatic Survival.png">
@@ -298,7 +298,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 松本岡 <a href="https://twitter.com/kan10na2"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://www.pixiv.net/users/33532818"><img src="/assets/icons/pixiv-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 松本岡 <a href="https://twitter.com/kan10na2"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/33532818"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/SA Extra Scoring.png">
@@ -318,7 +318,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 鈴奈神楽</h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 鈴奈神楽 <a href="https://x.com/Suzuna_Kagura"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/UDoALG Lunatic Survival.png">
@@ -330,7 +330,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 陽菜  <a href="https://twitter.com/tukudani_2005"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 陽菜 <a href="https://twitter.com/tukudani_2005"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/MoF Extra Scoring.png">
@@ -342,7 +342,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> yeashie <a href="https://twitter.com/danmaku_stg"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> yeashie <a href="https://twitter.com/danmaku_stg"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/GFW Lunatic Survival.png">
@@ -350,7 +350,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> ふぇぶりゅう</h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> ふぇぶりゅう <a href="https://twitter.com/MppjU"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/15053330"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/EoSD Lunatic Survival.png">
@@ -362,7 +362,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 桃里 <a href="https://x.com/210marisa"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://www.pixiv.net/users/13691788"><img src="/assets/icons/pixiv-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 桃里 <a href="https://x.com/210marisa"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/13691788"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/PoFV Lunatic Survival.png">
@@ -374,7 +374,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> seri <a href="https://twitter.com/serichii4"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> seri <a href="https://twitter.com/serichii4"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/MoF Lunatic Scoring.png">
@@ -386,7 +386,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Nill-Milan</h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> Nill-Milan <a href="https://twitter.com/Nill_Milan"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/DDC Lunatic Scoring.png">
@@ -398,7 +398,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> らかさぁ <a href="https://twitter.com/rakasa0923"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> らかさぁ <a href="https://twitter.com/rakasa0923"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/sa ex.png">
@@ -406,7 +406,7 @@
             </div>
         </div>
         
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> あずまよりこ <a href="https://x.com/AzumaYoriko"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://www.pixiv.net/users/37450350"><img src="/assets/icons/pixiv-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> あずまよりこ <a href="https://x.com/AzumaYoriko"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/37450350"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/um lnb.png">
@@ -428,7 +428,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_show(this)">⮞</a> Addamelech <a href="https://twitter.com/addamelech"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://www.pixiv.net/en/users/2570621"><img src="/assets/icons/pixiv-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_show(this)">⮞</a> Addamelech <a href="https://twitter.com/addamelech"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/en/users/2570621"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div class="art_past">
             <div class="illustration">
                 <img src="/static/art/2023/th06_scoring.png">
@@ -448,7 +448,7 @@
             </div>
         </div>
         
-        <h2><a class="expander" onclick="art_show(this)">⮞</a> Aqwa <a href="https://twitter.com/aqwwa58"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://aqwwa58.tumblr.com/"><img src="/assets/icons/tumblr-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_show(this)">⮞</a> Aqwa <a href="https://twitter.com/aqwwa58"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://aqwwa58.tumblr.com/"><img src="/assets/icons/tumblr-icon.png" alt="Tumblr icon"></a></h2>
         <div class="art_past">
             <div class="illustration">
                 <img src="/static/art/2023/th07_scoring.png">
@@ -475,7 +475,7 @@
                 <h4>TH14 Lunatic Scoring</h4>
             </div>
         </div>
-        <!--<h2><a class="expander" onclick="art_show(this)">⮞</a> daisymels <a href="https://twitter.com/daisymels"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://daisymels.tumblr.com/"><img src="/assets/icons/tumblr-icon.png"></a></h2>
+        <!--<h2><a class="expander" onclick="art_show(this)">⮞</a> daisymels <a href="https://twitter.com/daisymels"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://daisymels.tumblr.com/"><img src="/assets/icons/tumblr-icon.png" alt="Tumblr icon"></a></h2>
         <div>
             
         </div>-->
@@ -490,7 +490,7 @@
                 <h4>TH18 Lunatic Survival</h4>
             </div>
         </div>
-        <h2><a class="expander" onclick="art_show(this)">⮞</a> Muzilana <a href="https://twitter.com/muzilana1"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://www.pixiv.net/en/users/32090790"><img src="/assets/icons/pixiv-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_show(this)">⮞</a> Muzilana <a href="https://twitter.com/muzilana1"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/en/users/32090790"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div class="art_past">
             <div class="illustration">
                 <img src="/static/art/2023/th14_survival.png">
@@ -505,14 +505,14 @@
                 <h4>TH15 Lunatic Survival</h4>
             </div>
         </div>
-        <h2><a class="expander" onclick="art_show(this)">⮞</a> Oligarchomp <a href="https://twitter.com/oligarchomp"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_show(this)">⮞</a> Oligarchomp <a href="https://twitter.com/oligarchomp"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div class="art_past">
             <div class="illustration">
                 <img src="/static/art/2023/th11_scoring_ex.png">
                 <h4>TH11 Extra Scoring</h3>
             </div>
         </div>
-        <h2><a class="expander" onclick="art_show(this)">⮞</a> pisangmolen <a href="https://twitter.com/314smol"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_show(this)">⮞</a> pisangmolen <a href="https://twitter.com/314smol"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div class="art_past">
             <div class="illustration">
                 <img src="/static/art/2023/th07_scoring_ex.png">
@@ -527,7 +527,7 @@
                 <h4>TH13 Lunatic Scoring</h4>
             </div>
         </div>
-        <h2><a class="expander" onclick="art_show(this)">⮞</a> sleepymausu <a href="https://twitter.com/sleepymausu"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_show(this)">⮞</a> sleepymausu <a href="https://twitter.com/sleepymausu"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div class="art_past">
             <div class="illustration">
                 <img src="/static/art/2023/th07_survival.png">
@@ -550,7 +550,7 @@
                 <h4>TH16 Lunatic Scoring</h4>
             </div>
         </div>
-        <h2><a class="expander" onclick="art_show(this)">⮞</a> trisector <a href="https://twitter.com/tris3ctor"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_show(this)">⮞</a> trisector <a href="https://twitter.com/tris3ctor"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div class="art_past">
             <div class="illustration">
                 <img src="/static/art/2023/th06_survival.png">
@@ -561,7 +561,7 @@
                 <h4>TH08 Lunatic Scoring</h4>
             </div>
         </div>
-        <h2><a class="expander" onclick="art_show(this)">⮞</a> yeashie <a href="https://twitter.com/danmaku_stg"><img src="/assets/icons/twitter-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_show(this)">⮞</a> yeashie <a href="https://twitter.com/danmaku_stg"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div class="art_past">
             <div class="illustration">
                 <img src="/static/art/2023/th128_survival.png">
@@ -572,7 +572,7 @@
                 <h4>TH18 Lunatic Scoring</h4>
             </div>
         </div>
-        <h2><a class="expander" onclick="art_show(this)">⮞</a> 砕氷 <a href="https://twitter.com/CreepingBarrett"><img src="/assets/icons/twitter-icon.png"></a> <a href="https://www.pixiv.net/en/users/9337602"><img src="/assets/icons/pixiv-icon.png"></a></h2>
+        <h2><a class="expander" onclick="art_show(this)">⮞</a> 砕氷 <a href="https://twitter.com/CreepingBarrett"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/en/users/9337602"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div class="art_past">
             <div class="illustration">
                 <img src="/static/art/2023/th17_scoring.png">
