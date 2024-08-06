@@ -194,7 +194,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> こがらし <a href="https://x.com/chiyonosuki"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/28927093"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> こがらし <a href="https://twitter.com/chiyonosuki"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/28927093"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/MoF Lunatic Survival.png">
@@ -318,7 +318,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 鈴奈神楽 <a href="https://x.com/Suzuna_Kagura"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 鈴奈神楽 <a href="https://twitter.com/Suzuna_Kagura"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/UDoALG Lunatic Survival.png">
@@ -362,7 +362,7 @@
             </div>
         </div>
 
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 桃里 <a href="https://x.com/210marisa"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/13691788"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> 桃里 <a href="https://twitter.com/210marisa"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/13691788"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/PoFV Lunatic Survival.png">
@@ -406,7 +406,7 @@
             </div>
         </div>
         
-        <h2><a class="expander" onclick="art_hide(this)">⮟</a> あずまよりこ <a href="https://x.com/AzumaYoriko"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/37450350"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
+        <h2><a class="expander" onclick="art_hide(this)">⮟</a> あずまよりこ <a href="https://twitter.com/AzumaYoriko"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/37450350"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
                 <img src="/static/art/2024/um lnb.png">
