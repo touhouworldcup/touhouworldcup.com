@@ -28,6 +28,7 @@
     ?></p>
     <h2 class="contents"><?php echo _('Contents') ?></h2>
     <div class="contents">
+        <p><a href="#2024">2024</a></p>
         <p><a href="#2023">2023</a></p>
         <p><a href="#2022">2022</a></p>
         <p><a href="#2021">2021</a></p>
@@ -35,6 +36,49 @@
     </div>
     <p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
     <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>
+    <h2 id="2024">TWC 2024</h2>
+    <p><?php echo _('Final tally:') ?></p>
+    <ol><?php
+        $json = get_teams($db, '2024');
+        $teams_2024 = json_decode($json, true);
+        $index = 0;
+        $max_index = 0;
+        $max_points = 0;
+        $teams = array();
+        uasort($teams_2024, function ($a, $b) {
+            return $a['Points'] < $b['Points'];
+        });
+        foreach ($teams_2024 as $team) {
+            array_push($teams, '<li><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
+            if ($team['Points'] > $max_points) {
+                $max_points = $team['Points'];
+                $max_index = $index;
+            }
+            $index++;
+        }
+        $teams[$max_index] = str_replace('">', '"><strong>', $teams[$max_index]);
+        $teams[$max_index] = str_replace('</li>', '</strong></li>', $teams[$max_index]);
+        echo implode($teams);
+    ?></ol>
+    <table class="schedule_table spoiler">
+        <thead>
+            <tr>
+                <th rowspan="3"><?php echo _('Date / Time') ?></th>
+                <th rowspan="3"><?php echo _('Category') ?></th>
+                <th rowspan="3"><?php echo _('Players') ?></th>
+                <th rowspan="3"><?php echo _('Reset Time<br>(minutes)') ?></th>
+                <th rowspan="3"><?php echo _('Results') ?></th>
+                <th rowspan="3"><?php echo _('Points') ?></th>
+            </tr>
+        </thead>
+        <tbody id="schedule_tbody_2024"><?php
+            $json = get_schedule($db, '2024');
+            $schedule_2024 = json_decode($json, true);
+            $json = get_results($db, '2024');
+            $results_2024 = json_decode($json, true);
+            print_schedule($schedule_2024, $results_2024, $teams_2024, '2024', []);
+        ?></tbody>
+    </table>
     <h2 id="2023">TWC 2023</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol><?php

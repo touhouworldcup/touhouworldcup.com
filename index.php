@@ -30,6 +30,7 @@
         <p id="countdown" class="large"><span id="countdown_start"></span></p>
         <h2 id="current_match"><?php echo _('Currently ongoing: <a class="match_link" href="https://twitch.tv/touhou_replay_showcase" target="_blank">')?><span id="match_category"></span></a></h2>
         <!--<p class="huge"><?php //echo _('<a href="https://forms.gle/CfCrPn71xXXjA3Kt5" target="_blank">Sign up here!</a>') ?></p>-->
+        <p class="huge"><?php echo _('Touhou World Cup 2024 has ended. Go to the <a href="/results">Past Results page</a> to see the results.') ?></p>
     </div>
     <div id="cards">
         <div class="card"><a href="https://www.twitch.tv/touhou_replay_showcase" class="card_link" target="_blank">
