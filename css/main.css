@@ -70,6 +70,9 @@ iframe {
     flex-direction: row;
 }
 @media only screen and (max-width: 1850px) {
+    #cards {
+        flex-direction: column;
+    }
     .card {
         width: 300px;
     }
