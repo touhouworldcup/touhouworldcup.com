@@ -57,7 +57,7 @@
                 'Timing out a Last Spell is <strong>not</strong> considered a death.') ?></p>
             <h4><?php echo _('Touhou 9') ?></h4>
                 <p><?php echo _('This category is played under different conditions to all other Survival Categories in TWC. ' .
-                'The goal of a player performing a credit in Phantasmagoria of Flower View Lunatic Survival is to maximize the number of remaining lives at the end of the credit. ' .
+                'The goal of a player performing a credit in Phantasmagoria of Flower View Lunatic Survival is to maximise the number of remaining lives at the end of the credit. ' .
                 'Each Shot Type will be assigned a TWCScore by the TWCScore Rubric according to the number of remaining lives.<br>' .
                 'TWCScore of this category can be regarded as substituting "7 - the number of remaining lives" for the "the number of misses" in the formula of other Survival Categories in TWC, ' .
                 'with the exception that a bonus of [0.02 * the duration (in seconds) of Stage 9 first round] is added at the end of a credit. ' .
@@ -80,7 +80,7 @@
                 <p><?php echo _('Season Release: Releasing your season gauge is considered two deaths.') ?></p>
             <h4><?php echo _('Touhou 17') ?></h4>
                 <p><?php echo _('Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal tokens during roar mode) is considered 2 deaths. ' .
-                'Breaking a Beserk Roar by touching a bullet gives no extra punishment. However, breaking either a Beserk Roar or a Standard Roar ' .
+                'Breaking a Berserk Roar by touching a bullet gives no extra punishment. However, breaking either a Berserk Roar or a Standard Roar ' .
                 'by pressing the bomb key will always be considered one death.') ?></p>
             <h4><?php echo _('Touhou 18') ?></h4>
                 <p><?php echo _('Only four ability cards are allowed to be equipped, used or activated at any time. These are:') ?></p>

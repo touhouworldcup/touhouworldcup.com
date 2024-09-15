@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-08-13 21:24+0200\n"
-"PO-Revision-Date: 2024-08-13 21:25+0200\n"
+"POT-Creation-Date: 2024-09-15 17:38+0200\n"
+"PO-Revision-Date: 2024-09-15 17:38+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -101,7 +101,7 @@ msgstr ""
 "Actualmente en curso: <a class=\"match_link\" href=\"https://twitch.tv/"
 "touhou_replay_showcase\" target=\"_blank\">"
 
-#: index.php:33
+#: index.php:32
 msgid ""
 "Touhou World Cup 2024 has ended. Go to the <a href=\"/results\">Past Results "
 "page</a> to see the results."
@@ -109,29 +109,45 @@ msgstr ""
 "Touhou World Cup 2024 ha terminado. Vaya a <a href=\"/results\">la página de "
 "resultados pasados</a> para ver los resultados."
 
+#: index.php:36
+msgid "Live Streams"
+msgstr "Live streams"
+
 #: index.php:38
-msgid "TWC English Commentary Stream"
-msgstr "Stream de los comentarios del TWC en inglés"
+msgid "English Commentary Stream"
+msgstr "Stream de los comentarios en inglés"
 
-#: index.php:42
-msgid "TWC Japanese Commentary Stream"
-msgstr "Stream de los comentarios del TWC en japonés"
+#: index.php:41
+msgid "Japanese Commentary Stream"
+msgstr "Stream de los comentarios en japonés"
 
-#: index.php:46
-msgid "TWC Chinese Commentary Stream"
-msgstr "Stream de los comentarios del TWC en chino"
+#: index.php:44
+msgid "Chinese Commentary Stream"
+msgstr "Stream de los comentarios en chino"
+
+#: index.php:48
+msgid "Social Media"
+msgstr "Medios sociales"
 
 #: index.php:50
-msgid "Official TWC YouTube Channel"
-msgstr "Canal oficial de YouTube de TWC"
+msgid "English Twitter"
+msgstr "Twitter inglés"
 
-#: index.php:54
-msgid "Official TWC Twitter"
-msgstr "Twitter oficial de TWC"
+#: index.php:53
+msgid "Japanese Twitter"
+msgstr "Twitter japonés"
 
-#: index.php:58
-msgid "TWC Japanese Twitter"
-msgstr "Twitter japonés de TWC"
+#: index.php:57
+msgid "Videos"
+msgstr ""
+
+#: index.php:59
+msgid "English YouTube Channel"
+msgstr "Canal inglés de YouTube"
+
+#: index.php:62
+msgid "Japanese YouTube Channel"
+msgstr "Canal japonés de YouTube"
 
 #: js/index.js:49
 msgid "d "
@@ -730,16 +746,14 @@ msgstr ""
 "se considera como una muerte."
 
 #: rules.php:58
-#, fuzzy
-#| msgid "Touhou 7"
 msgid "Touhou 9"
-msgstr "Touhou 7"
+msgstr "Touhou 9"
 
 #: rules.php:59
 msgid ""
 "This category is played under different conditions to all other Survival "
 "Categories in TWC. The goal of a player performing a credit in "
-"Phantasmagoria of Flower View Lunatic Survival is to maximize the number of "
+"Phantasmagoria of Flower View Lunatic Survival is to maximise the number of "
 "remaining lives at the end of the credit. Each Shot Type will be assigned a "
 "TWCScore by the TWCScore Rubric according to the number of remaining lives."
 "<br>TWCScore of this category can be regarded as substituting \"7 - the "
@@ -826,9 +840,9 @@ msgstr "Touhou 17"
 #: rules.php:82
 msgid ""
 "Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal "
-"tokens during roar mode) is considered 2 deaths. Breaking a Beserk Roar by "
+"tokens during roar mode) is considered 2 deaths. Breaking a Berserk Roar by "
 "touching a bullet gives no extra punishment. However, breaking either a "
-"Beserk Roar or a Standard Roar by pressing the bomb key will always be "
+"Berserk Roar or a Standard Roar by pressing the bomb key will always be "
 "considered one death."
 msgstr ""
 "Espíritus Animales: Canalizar un Rugido Furioso (3 o más de los mismos "
@@ -876,10 +890,8 @@ msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
 msgstr "<em>La carta \"El Dinero viene cuando le conviene\".</em>"
 
 #: rules.php:96
-#, fuzzy
-#| msgid "Touhou 11"
 msgid "Touhou 19"
-msgstr "Touhou 11"
+msgstr "Touhou 19"
 
 #: rules.php:97
 msgid ""
@@ -1198,6 +1210,12 @@ msgstr "TWCScore:"
 #: twcscore.php:183
 msgid "Score:"
 msgstr "Puntuación:"
+
+#~ msgid "VODs"
+#~ msgstr "VBDs"
+
+#~ msgid "Official TWC Twitter"
+#~ msgstr "Twitter oficial de TWC"
 
 #~ msgid "Team Spirit"
 #~ msgstr "Equipo del Espíritu"

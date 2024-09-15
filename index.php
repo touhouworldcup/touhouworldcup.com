@@ -29,38 +29,40 @@
         <h2 id="countdown_title_match"><?php echo _('Next Match:') ?></h2>
         <p id="countdown" class="large"><span id="countdown_start"></span></p>
         <h2 id="current_match"><?php echo _('Currently ongoing: <a class="match_link" href="https://twitch.tv/touhou_replay_showcase" target="_blank">')?><span id="match_category"></span></a></h2>
-        <!--<p class="huge"><?php //echo _('<a href="https://forms.gle/CfCrPn71xXXjA3Kt5" target="_blank">Sign up here!</a>') ?></p>-->
         <p class="huge"><?php echo _('Touhou World Cup 2024 has ended. Go to the <a href="/results">Past Results page</a> to see the results.') ?></p>
     </div>
     <div id="cards">
-        <div class="card"><a href="https://www.twitch.tv/touhou_replay_showcase" class="card_link" target="_blank">
-            <img class="thumbnail" src="/assets/twitch.png" alt="TWC Twitch stream" width=400 height=256>
-            <span class="title large"><img class="icon" src="/assets/icons/twitch-icon.png" alt="Twitch icon" width=64 height=64> <?php echo _('TWC English Commentary Stream') ?></span>
-        </a></div>
-        <div class="card"><a href="https://www.youtube.com/@TWC_JP/live" class="card_link" target="_blank">
-            <img class="thumbnail" src="/assets/jpyt.png" alt="TWC Japanese stream" width=400 height=256>
-            <span class="title large"><img class="icon" src="/assets/icons/youtube-icon.png" alt="YouTube icon" width=64 height=64> <?php echo _('TWC Japanese Commentary Stream') ?></span>
-        </a></div>
-        <div class="card"><a href="https://live.bilibili.com/51792" class="card_link" target="_blank">
-            <img class="thumbnail" src="/assets/cnbili.png" alt="TWC Chinese stream" width=400 height=256>
-            <span class="title large"><img class="icon" src="/assets/icons/bilibili-icon.png" alt="Bilibili icon" width=64 height=64> <?php echo _('TWC Chinese Commentary Stream') ?></span>
-        </a></div>
-        <div class="card"><a href="https://www.youtube.com/c/TouhouWorldCup" class="card_link" target="_blank">
-            <img class="thumbnail" src="/assets/youtube.png" alt="TWC YouTube channel" width=400 height=256>
-            <span class="title large"><img class="icon" src="/assets/icons/youtube-icon.png" alt="YouTube icon" width=64 height=64> <?php echo _('Official TWC YouTube Channel') ?></span>
-        </a></div>
-        <div class="card"><a href="https://twitter.com/touhouworldcup" class="card_link" target="_blank">
-            <img class="thumbnail" src="/assets/twitter.png" alt="TWC Twitter account" width=400 height=256>
-            <span class="title large"><img class="icon" src="/assets/icons/twitter-icon.png" alt="Twitter icon" width=64 height=64> <?php echo _('Official TWC Twitter') ?></span>
-        </a></div>
-        <div class="card"><a href="https://twitter.com/TWC_JP" class="card_link" target="_blank">
-            <img class="thumbnail" src="/assets/jptw.png" alt="TWC Japanese Twitter account" width=400 height=256>
-            <span class="title large"><img class="icon" src="/assets/icons/twitter-icon.png" alt="Twitter icon" width=64 height=64> <?php echo _('TWC Japanese Twitter') ?></span>
-        </a></div>
+        <div class="cards_inner">
+            <h2><?php echo _('Live Streams') ?></h2>
+            <div class="card"><a href="https://www.twitch.tv/touhou_replay_showcase" class="card_link" target="_blank">
+                <span class="title large"><img class="icon" src="/assets/icons/twitch-icon.png" alt="Twitch icon" width=64 height=64> <?php echo _('English Commentary Stream') ?></span>
+            </a></div>
+            <div class="card"><a href="https://www.youtube.com/@TWC_JP/live" class="card_link" target="_blank">
+                <span class="title large"><img class="icon" src="/assets/icons/youtube-icon.png" alt="YouTube icon" width=64 height=64> <?php echo _('Japanese Commentary Stream') ?></span>
+            </a></div>
+            <div class="card"><a href="https://live.bilibili.com/51792" class="card_link" target="_blank">
+                <span class="title large"><img class="icon" src="/assets/icons/bilibili-icon.png" alt="Bilibili icon" width=64 height=64> <?php echo _('Chinese Commentary Stream') ?></span>
+            </a></div>
+        </div>
+        <div cclass="cards_inner">
+        <h2><?php echo _('Social Media') ?></h2>
+            <div class="card"><a href="https://twitter.com/touhouworldcup" class="card_link" target="_blank">
+                <span class="title large"><img class="icon" src="/assets/icons/twitter-icon.png" alt="Twitter icon" width=64 height=64> <?php echo _('English Twitter') ?></span>
+            </a></div>
+            <div class="card"><a href="https://twitter.com/TWC_JP" class="card_link" target="_blank">
+                <span class="title large"><img class="icon" src="/assets/icons/twitter-icon.png" alt="Twitter icon" width=64 height=64> <?php echo _('Japanese Twitter') ?></span>
+            </a></div>
+        </div>
+        <div class="cards_inner">
+        <h2><?php echo _('Videos') ?></h2>
+            <div class="card"><a href="https://www.youtube.com/c/TouhouWorldCup" class="card_link" target="_blank">
+                <span class="title large"><img class="icon" src="/assets/icons/youtube-icon.png" alt="YouTube icon" width=64 height=64> <?php echo _('English YouTube Channel') ?></span>
+            </a></div>
+            <div class="card"><a href="https://www.youtube.com/@TWC_JP/streams" class="card_link" target="_blank">
+                <span class="title large"><img class="icon" src="/assets/icons/youtube-icon.png" alt="YouTube icon" width=64 height=64> <?php echo _('Japanese YouTube Channel') ?></span>
+            </a></div>
+        </div>
     </div>
-    <!--
-    <a class="twitter-timeline" data-width="300" data-height="500" data-dnt="true" data-theme="light" href="https://twitter.com/touhouworldcup?ref_src=twsrc%5Etfw">Tweets by touhouworldcup</a>
-    -->
     <p class="bottom">
         <a class="language_small" href="/?hl=en-gb">English (UK)</a>
         <a class="language_small" href="/?hl=en-us">English (US)</a>
