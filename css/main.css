@@ -13,7 +13,7 @@ iframe {
   	-webkit-box-shadow: 2px 2px 2px 1px #888;
     margin: 0px auto 25px auto;
     display: inline-block;
-    width: 400px;
+    width: 320px;
 }
 .card:hover {
     background-color: #555;
@@ -81,7 +81,7 @@ iframe {
         margin-right: 0px;
     }
 }
-@media only screen and (max-width: 1350px) {
+@media only screen and not (min-width: 1050px) {
     #cards {
         flex-direction: column;
     }
