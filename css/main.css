@@ -12,7 +12,7 @@ iframe {
     box-shadow: 2px 2px 2px 1px #888;
   	-webkit-box-shadow: 2px 2px 2px 1px #888;
     margin: 0px auto 25px auto;
-    display: inline-block;
+    display: block;
     width: 320px;
 }
 .card:hover {
