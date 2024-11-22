@@ -28,7 +28,10 @@
     <main>
     <h1><?php echo _('Schedule'); ?></h1>
     <p><?php if (count($schedule) === 0) echo _('Coming soon!') ?></p>
-    <?php if (count($schedule) === 0) die() ?>
+    <?php if (count($schedule) === 0) {
+        echo '</main></body></html>';
+        die();
+    } ?>
     <p><?php echo _('Your time zone was detected as <strong id="timezone">UTC+0000 (Coordinated Universal Time)</strong>.') ?></p>
     <p><?php
         if ($lang == 'en_GB' || $lang == 'en_US' || $lang == 'de_DE' || $lang == 'es_ES') {

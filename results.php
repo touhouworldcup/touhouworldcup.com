@@ -63,12 +63,12 @@
     <table class="schedule_table spoiler">
         <thead>
             <tr>
-                <th rowspan="3"><?php echo _('Date / Time') ?></th>
-                <th rowspan="3"><?php echo _('Category') ?></th>
-                <th rowspan="3"><?php echo _('Players') ?></th>
-                <th rowspan="3"><?php echo _('Reset Time<br>(minutes)') ?></th>
-                <th rowspan="3"><?php echo _('Results') ?></th>
-                <th rowspan="3"><?php echo _('Points') ?></th>
+                <th><?php echo _('Date / Time') ?></th>
+                <th><?php echo _('Category') ?></th>
+                <th><?php echo _('Players') ?></th>
+                <th><?php echo _('Reset Time<br>(minutes)') ?></th>
+                <th><?php echo _('Results') ?></th>
+                <th><?php echo _('Points') ?></th>
             </tr>
         </thead>
         <tbody id="schedule_tbody_2024"><?php
@@ -106,12 +106,12 @@
     <table class="schedule_table spoiler">
         <thead>
             <tr>
-                <th rowspan="3"><?php echo _('Date / Time') ?></th>
-                <th rowspan="3"><?php echo _('Category') ?></th>
-                <th rowspan="3"><?php echo _('Players') ?></th>
-                <th rowspan="3"><?php echo _('Reset Time<br>(minutes)') ?></th>
-                <th rowspan="3"><?php echo _('Results') ?></th>
-                <th rowspan="3"><?php echo _('Points') ?></th>
+                <th><?php echo _('Date / Time') ?></th>
+                <th><?php echo _('Category') ?></th>
+                <th><?php echo _('Players') ?></th>
+                <th><?php echo _('Reset Time<br>(minutes)') ?></th>
+                <th><?php echo _('Results') ?></th>
+                <th><?php echo _('Points') ?></th>
             </tr>
         </thead>
         <tbody id="schedule_tbody_2023"><?php
@@ -149,12 +149,12 @@
     <table class="schedule_table spoiler">
         <thead>
             <tr>
-                <th rowspan="3"><?php echo _('Date / Time') ?></th>
-                <th rowspan="3"><?php echo _('Category') ?></th>
-                <th rowspan="3"><?php echo _('Players') ?></th>
-                <th rowspan="3"><?php echo _('Reset Time<br>(minutes)') ?></th>
-                <th rowspan="3"><?php echo _('Results') ?></th>
-                <th rowspan="3"><?php echo _('Points') ?></th>
+                <th><?php echo _('Date / Time') ?></th>
+                <th><?php echo _('Category') ?></th>
+                <th><?php echo _('Players') ?></th>
+                <th><?php echo _('Reset Time<br>(minutes)') ?></th>
+                <th><?php echo _('Results') ?></th>
+                <th><?php echo _('Points') ?></th>
             </tr>
         </thead>
         <tbody id="schedule_tbody_2022"><?php
@@ -192,12 +192,12 @@
     <table class="schedule_table spoiler">
         <thead>
             <tr>
-                <th rowspan="3"><?php echo _('Date / Time') ?></th>
-                <th rowspan="3"><?php echo _('Category') ?></th>
-                <th rowspan="3"><?php echo _('Players') ?></th>
-                <th rowspan="3"><?php echo _('Reset Time<br>(minutes)') ?></th>
-                <th rowspan="3"><?php echo _('Results') ?></th>
-                <th rowspan="3"><?php echo _('Points') ?></th>
+                <th><?php echo _('Date / Time') ?></th>
+                <th><?php echo _('Category') ?></th>
+                <th><?php echo _('Players') ?></th>
+                <th><?php echo _('Reset Time<br>(minutes)') ?></th>
+                <th><?php echo _('Results') ?></th>
+                <th><?php echo _('Points') ?></th>
             </tr>
         </thead>
         <tbody id="schedule_tbody_2021"><?php
@@ -236,12 +236,12 @@
     <table class="schedule_table spoiler">
         <thead>
             <tr>
-                <th rowspan="3"><?php echo _('Date / Time') ?></th>
-                <th rowspan="3"><?php echo _('Category') ?></th>
-                <th rowspan="3"><?php echo _('Players') ?></th>
-                <th rowspan="3"><?php echo _('Reset Time<br>(minutes)') ?></th>
-                <th rowspan="3"><?php echo _('Results') ?></th>
-                <th rowspan="3"><?php echo _('Points') ?></th>
+                <th><?php echo _('Date / Time') ?></th>
+                <th><?php echo _('Category') ?></th>
+                <th><?php echo _('Players') ?></th>
+                <th><?php echo _('Reset Time<br>(minutes)') ?></th>
+                <th><?php echo _('Results') ?></th>
+                <th><?php echo _('Points') ?></th>
             </tr>
         </thead>
         <tbody id="schedule_tbody_2020"><?php

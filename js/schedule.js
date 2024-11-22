@@ -1,6 +1,7 @@
 let language = "en-GB";
 let step = setInterval(getNextMatch, 1000);
 let schedule = [];
+let scheduleElement;
 
 function getCookie(name) {
     const decodedCookies = decodeURIComponent(document.cookie);
@@ -106,6 +107,11 @@ function formatTime(timeLeft) {
 }
 
 function getNextMatch() {
+    if (!scheduleElement) {
+        clearInterval(step);
+        return;
+    }
+
     const now = Math.round(new Date().getTime() / 1000);
 
     for (const match of schedule) {
@@ -171,15 +177,19 @@ function init() {
         convertDateTimes("2020");
     }
 
-    const scheduleJSON = document.getElementById("schedule").value;
+    scheduleElement = document.getElementById("schedule");
 
-    if (scheduleJSON === "" && localStorage.hasOwnProperty("schedule")) {
-        schedule = JSON.parse(localStorage.getItem("schedule"));
-        getNextMatch();
-    } else if (scheduleJSON !== "") {
-        localStorage.setItem("schedule", scheduleJSON);
-        schedule = JSON.parse(scheduleJSON);
-        getNextMatch();
+    if (scheduleElement) {
+        const scheduleJSON = scheduleElement.value;
+
+        if (scheduleJSON === "" && localStorage.hasOwnProperty("schedule") !== "undefined") {
+            schedule = JSON.parse(localStorage.getItem("schedule"));
+            getNextMatch();
+        } else if (scheduleJSON !== "") {
+            localStorage.setItem("schedule", scheduleJSON);
+            schedule = JSON.parse(scheduleJSON);
+            getNextMatch();
+        }
     }
 }
 

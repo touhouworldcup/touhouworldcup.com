@@ -44,7 +44,7 @@
                 <span class="title large"><img class="icon" src="/assets/icons/bilibili-icon.png" alt="Bilibili icon" width=64 height=64> <?php echo _('Chinese Commentary Stream') ?></span>
             </a></div>
         </div>
-        <div cclass="cards_inner">
+        <div class="cards_inner">
         <h2><?php echo _('Social Media') ?></h2>
             <div class="card"><a href="https://twitter.com/touhouworldcup" class="card_link" target="_blank">
                 <span class="title large"><img class="icon" src="/assets/icons/twitter-icon.png" alt="Twitter icon" width=64 height=64> <?php echo _('English Twitter') ?></span>
