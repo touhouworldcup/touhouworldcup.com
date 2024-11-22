@@ -33,7 +33,7 @@
         <h2><a class="expander" onclick="art_hide(this)">⮟</a> Addamelech <a href="https://twitter.com/addamelech"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/en/users/2570621"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
-                <img src="/static/art/2024/TD Extra_Scoring.png">
+                <img src="/static/art/2024/TD_Extra_Scoring.png">
                 <h4>TH13 Extra Scoring</h4>
             </div>
             <div class="illustration">
@@ -49,7 +49,7 @@
                 <h4>TH12 Lunatic Survival</h4>
             </div>
             <div class="illustration">
-                <img src="/static/art/2024/HSiFS Extra_Scoring.png">
+                <img src="/static/art/2024/HSiFS_Extra_Scoring.png">
                 <h4>TH16 Extra Scoring</h4>
             </div>
             <div class="illustration">
@@ -65,7 +65,7 @@
         <h2><a class="expander" onclick="art_hide(this)">⮟</a> Ciel-9 <a href="https://twitter.com/Cirnolover9"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
-                <img src="/static/art/2024/EoSD Extra_Scoring.png">
+                <img src="/static/art/2024/EoSD_Extra_Scoring.png">
                 <h4>TH06 Extra Scoring</h4>
             </div>
             <div class="illustration">
@@ -253,7 +253,7 @@
         <h2><a class="expander" onclick="art_hide(this)">⮟</a> hrm <a href="https://twitter.com/hrm_wata"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/1526168"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
-                <img src="/static/art/2024/PCB Extra_Scoring.png">
+                <img src="/static/art/2024/PCB_Extra_Scoring.png">
                 <h4>TH07 Extra Scoring</h4>
             </div>
             <div class="illustration">
@@ -265,7 +265,7 @@
         <h2><a class="expander" onclick="art_hide(this)">⮟</a> mero <a href="https://merort.tumblr.com/"><img src="/assets/icons/tumblr-icon.png" alt="Tumblr icon"></a></h2>
         <div>
             <div class="illustration">
-                <img src="/static/art/2024/DDC Extra_Scoring.png">
+                <img src="/static/art/2024/DDC_Extra_Scoring.png">
                 <h4>TH14 Extra Scoring</h4>
             </div>
             <div class="illustration">
@@ -301,7 +301,7 @@
         <h2><a class="expander" onclick="art_hide(this)">⮟</a> 松本岡 <a href="https://twitter.com/kan10na2"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://www.pixiv.net/users/33532818"><img src="/assets/icons/pixiv-icon.png" alt="Pixiv icon"></a></h2>
         <div>
             <div class="illustration">
-                <img src="/static/art/2024/SA Extra_Scoring.png">
+                <img src="/static/art/2024/SA_Extra_Scoring.png">
                 <h4>TH11 Extra Scoring</h4>
             </div>
             <div class="illustration">
@@ -333,7 +333,7 @@
         <h2><a class="expander" onclick="art_hide(this)">⮟</a> 陽菜 <a href="https://twitter.com/tukudani_2005"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div>
             <div class="illustration">
-                <img src="/static/art/2024/MoF Extra_Scoring.png">
+                <img src="/static/art/2024/MoF_Extra_Scoring.png">
                 <h4>TH10 Extra Scoring</h4>
             </div>
             <div class="illustration">
