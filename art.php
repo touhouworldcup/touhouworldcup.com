@@ -509,18 +509,18 @@
         <div class="art_past">
             <div class="illustration">
                 <img src="/static/art/2023/th11_scoring_ex.png">
-                <h4>TH11 Extra Scoring</h3>
+                <h4>TH11 Extra Scoring</h4>
             </div>
         </div>
         <h2><a class="expander" onclick="art_show(this)">⮞</a> pisangmolen <a href="https://twitter.com/314smol"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a></h2>
         <div class="art_past">
             <div class="illustration">
                 <img src="/static/art/2023/th07_scoring_ex.png">
-                <h4>TH07 Extra Scoring</h3>
+                <h4>TH07 Extra Scoring</h4>
             </div>
             <div class="illustration">
                 <img src="/static/art/2023/th08_scoring_ex.png">
-                <h4>TH08 Extra Scoring</h3>
+                <h4>TH08 Extra Scoring</h4>
             </div>
             <div class="illustration">
                 <img src="/static/art/2023/th13_scoring.png">
