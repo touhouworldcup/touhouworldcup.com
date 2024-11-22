@@ -166,7 +166,9 @@ function init() {
         showButton.style.display = "inline";
     }
     
-    document.getElementById("timezone").innerHTML = getClientTimeZone();
+    if (document.getElementById("timezone")) {
+        document.getElementById("timezone").innerHTML = getClientTimeZone();
+    }
 
     if (location.pathname == "/schedule") {
         convertDateTimes("2024");
