@@ -41,6 +41,9 @@ iframe {
     Number is (330 / 2) - 3 */
     width: 163px !important;
 }
+.card_link_split_left {
+    margin-left: -1px;
+}
 .card_link_split_right {
     margin-right: -1px;
 }
