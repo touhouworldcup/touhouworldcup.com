@@ -39,7 +39,13 @@ iframe {
 .card_link_split {
     /* For some reason, using a value just 1px bigger makes it stack and clip into the card below.
     Number is (330 / 2) - 3 */
-    width: 162px !important;
+    width: 163px !important;
+}
+.card_link_split_left {
+    margin-left: -1px;
+}
+.card_link_split_right {
+    margin-right: -1px;
 }
 .title {
     display: flex;
@@ -102,6 +108,13 @@ iframe {
     .card_link_split {
         width: 100% !important;
         display: block;
+    }
+
+    .card_link_split_left {
+        margin-left: 0;
+    }
+    .card_link_split_right {
+        margin-right: 0;
     }
 
 }
