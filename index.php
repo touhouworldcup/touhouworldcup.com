@@ -46,12 +46,22 @@
         </div>
         <div class="cards_inner">
         <h2><?php echo _('Social Media') ?></h2>
-            <div class="card"><a href="https://twitter.com/touhouworldcup" class="card_link" target="_blank">
-                <span class="title large"><img class="icon" src="/assets/icons/twitter-icon.png" alt="Twitter icon" width=64 height=64> <?php echo _('English Twitter') ?></span>
-            </a></div>
-            <div class="card"><a href="https://twitter.com/TWC_JP" class="card_link" target="_blank">
-                <span class="title large"><img class="icon" src="/assets/icons/twitter-icon.png" alt="Twitter icon" width=64 height=64> <?php echo _('Japanese Twitter') ?></span>
-            </a></div>
+            <div class="card">
+                <a href="https://bsky.app/profile/touhouworldcup.com" class="card_link_split card_link" target="_blank">
+                    <span class="title large"><img class="icon" src="/assets/icons/bluesky-icon.png" alt="Bluesky icon" width=64 height=64> <?php echo _('English Bluesky') ?></span>
+                </a>
+                <a href="https://twitter.com/touhouworldcup" class="card_link_split card_link" target="_blank">
+                    <span class="title large"><img class="icon" src="/assets/icons/twitter-icon.png" alt="Twitter icon" width=64 height=64> <?php echo _('English Twitter') ?></span>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://bsky.app/profile/jp.touhouworldcup.com" class="card_link_split card_link" target="_blank">
+                    <span class="title large"><img class="icon" src="/assets/icons/bluesky-icon.png" alt="Bluesky icon" width=64 height=64> <?php echo _('Japanese Bluesky') ?></span>
+                </a>
+                <a href="https://twitter.com/TWC_JP" class="card_link_split card_link" target="_blank">
+                    <span class="title large"><img class="icon" src="/assets/icons/twitter-icon.png" alt="Bluesky icon" width=64 height=64> <?php echo _('Japanese Twitter') ?></span>
+                </a>
+            </div>
         </div>
         <div class="cards_inner">
         <h2><?php echo _('Videos') ?></h2>
