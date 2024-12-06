@@ -66,10 +66,10 @@
                 </a>
             </div>
             <div class="card">
-                <a href="https://bsky.app/profile/poboundaries.bsky.social" class="card_link_split card_link_split_left card_link" target="_blank">
+                <a href="https://bsky.app/profile/pofboundaries.bsky.social" class="card_link_split card_link_split_left card_link" target="_blank">
                     <span class="title large"><img class="icon" src="/assets/icons/bluesky-icon.png" alt="Bluesky icon" width=64 height=64> <?php echo _('Spanish Bluesky') ?></span>
                 </a>
-                <a href="https://twitter.com/PoBoundaries" class="card_link_split card_link_split_right card_link" target="_blank">
+                <a href="https://twitter.com/POfBoundaries" class="card_link_split card_link_split_right card_link" target="_blank">
                     <span class="title large"><img class="icon" src="/assets/icons/twitter-icon.png" alt="Bluesky icon" width=64 height=64> <?php echo _('Spanish Twitter') ?></span>
                 </a>
             </div>
