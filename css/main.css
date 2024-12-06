@@ -13,6 +13,7 @@ iframe {
   	-webkit-box-shadow: 2px 2px 2px 1px #888;
     margin: 0px auto 25px auto;
     display: block;
+    /* Absolute limit. Any wider and the site layout breaks */
     width: 330px;
 }
 .card_link:hover {
