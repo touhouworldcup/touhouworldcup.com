@@ -50,7 +50,7 @@
         <div class="cards_inner">
         <h2><?php echo _('Social Media') ?></h2>
             <div class="card">
-                <a href="https://bsky.app/profile/touhouworldcup.com" class="card_link_split card_link_split_left card_link" target="_blank">
+                <a href="https://bsky.app/profile/touhouworldcup.com" class="card_link_split card_link" target="_blank">
                     <span class="title large"><img class="icon" src="/assets/icons/bluesky-icon.png" alt="Bluesky icon" width=64 height=64> <?php echo _('English Bluesky') ?></span>
                 </a>
                 <a href="https://twitter.com/touhouworldcup" class="card_link_split card_link_split_right card_link" target="_blank">
@@ -58,7 +58,7 @@
                 </a>
             </div>
             <div class="card">
-                <a href="https://bsky.app/profile/jp.touhouworldcup.com" class="card_link_split card_link_split_left card_link" target="_blank">
+                <a href="https://bsky.app/profile/jp.touhouworldcup.com" class="card_link_split card_link" target="_blank">
                     <span class="title large"><img class="icon" src="/assets/icons/bluesky-icon.png" alt="Bluesky icon" width=64 height=64> <?php echo _('Japanese Bluesky') ?></span>
                 </a>
                 <a href="https://twitter.com/TWC_JP" class="card_link_split card_link_split_right card_link" target="_blank">
@@ -66,7 +66,7 @@
                 </a>
             </div>
             <div class="card">
-                <a href="https://bsky.app/profile/poboundaries.bsky.social" class="card_link_split card_link_split_left card_link" target="_blank">
+                <a href="https://bsky.app/profile/poboundaries.bsky.social" class="card_link_split card_link" target="_blank">
                     <span class="title large"><img class="icon" src="/assets/icons/bluesky-icon.png" alt="Bluesky icon" width=64 height=64> <?php echo _('Spanish Bluesky') ?></span>
                 </a>
                 <a href="https://twitter.com/PoBoundaries" class="card_link_split card_link_split_right card_link" target="_blank">
