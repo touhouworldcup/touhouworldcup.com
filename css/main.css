@@ -15,6 +15,7 @@ iframe {
     display: block;
     /* Absolute limit. Any wider and the site layout breaks */
     width: 330px;
+    overflow: hidden;
 }
 .card_link:hover {
     background-color: #555;
