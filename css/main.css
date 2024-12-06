@@ -13,7 +13,7 @@ iframe {
   	-webkit-box-shadow: 2px 2px 2px 1px #888;
     margin: 0px auto 25px auto;
     display: block;
-    width: 320px;
+    width: 330px;
 }
 .card_link:hover {
     background-color: #555;
@@ -37,8 +37,8 @@ iframe {
 }
 .card_link_split {
     /* For some reason, using a value just 1px bigger makes it stack and clip into the card below.
-    Number is (320 / 2) - 3 */
-    width: 157px !important;
+    Number is (330 / 2) - 3 */
+    width: 162px !important;
 }
 .title {
     display: flex;
