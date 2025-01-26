@@ -13,12 +13,17 @@ iframe {
   	-webkit-box-shadow: 2px 2px 2px 1px #888;
     margin: 0px auto 25px auto;
     display: block;
-    width: 320px;
+    /* Absolute limit. Any wider and the site layout breaks */
+    width: 330px;
+    overflow: hidden;
 }
-.card:hover {
+.card_link:hover {
     background-color: #555;
+}
+
+.card:hover {
     box-shadow: 6px 6px 6px 3px #888;
-  	-webkit-box-shadow: 6px 6px 6px 3px #888;
+    -webkit-box-shadow: 6px 6px 6px 3px #888;
 }
 .bottom {
     text-align: center;
@@ -30,6 +35,18 @@ iframe {
     display: inline-block;
     width: 100%;
     height: 100%;
+    border-radius: 5px;
+}
+.card_link_split {
+    /* For some reason, using a value just 1px bigger makes it stack and clip into the card below.
+    Number is (330 / 2) - 3 */
+    width: 163px !important;
+}
+.card_link_split_left {
+    margin-left: -1px;
+}
+.card_link_split_right {
+    margin-right: -1px;
 }
 .title {
     display: flex;
@@ -47,7 +64,7 @@ iframe {
     font-size: 32px;
 }
 .icon {
-    margin-right: 15px;
+    margin-right: 4px;
 }
 #countdowns {
     padding: 20px 0px 20px 0px;
@@ -88,6 +105,19 @@ iframe {
     .card {
         width: 300px;
     }
+
+    .card_link_split {
+        width: 100% !important;
+        display: block;
+    }
+
+    .card_link_split_left {
+        margin-left: 0;
+    }
+    .card_link_split_right {
+        margin-right: 0;
+    }
+
 }
 @media only screen and (max-width: 750px) {
     .card {
