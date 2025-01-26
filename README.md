@@ -29,8 +29,11 @@ For testing, you can use any tool to modify the data as you desire.
 
 Then, run the PHP development server.
 ```
-php -S 127.0.0.1:8000
+php -S 127.0.0.1:8000 router.php
 ```
 Connect to `http://127.0.0.1:8000` using your browser. You can also specify a port other than 8000.
+The router.php file must be specified for site navigation to work.
 
 If you want, you can use a Web server such as [Apache](https://apache.org/) or [Nginx](https://nginx.org/) to host the site.
+
+To update the translations after the locale files have been altered, restart the PHP development server.
