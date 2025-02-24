@@ -16,8 +16,8 @@ window.onload = () => {
 	const th09_s9r1_w  = document.getElementById("th09_s9r1_w");
 	const th128_medals   = document.getElementById("th128_medals");
 	const th128_medal_w  = document.getElementById("th128_medal_w");
-	const fullspell_w    = document.getElementById("fullspell_w");
-	const fullspell      = document.getElementById("fullspell");
+    const challengebonus_w = document.getElementById("challengebonus_w");
+    const challengebonus = document.getElementById("challengebonus");
 	const phantasm      = document.getElementById("phantasm");
     const shot_sels      = document.getElementsByName("shottype");
 
@@ -122,7 +122,7 @@ window.onload = () => {
         phantasm.style.display = "none";
 
 		if (rt === "score") {
-			fullspell_w.style.display = "none";
+			challengebonus_w.style.display = "none";
             th08_opts.style.display = "none";
 			th09_s9r1_w.style.display = "none";
 			th128_medal_w.style.display = "none";
@@ -162,10 +162,10 @@ window.onload = () => {
 				th128_medal_w.style.display = "none";
 			}
 
-			if (game_name === "th11" || game_name === "th13") {
-				fullspell_w.style.display = "inline";
+            if (game_name === "th11" || game_name === "th13" || game_name === "th14") {
+				challengebonus_w.style.display = "inline";
 			} else {
-				fullspell_w.style.display = "none";
+				challengebonus_w.style.display = "none";
 			}
 		}
 
@@ -255,8 +255,8 @@ window.onload = () => {
         }
     }
 
-    const get_full_spell = () => {
-        if (fullspell.checked) {
+    const get_challenge_bonus = () => {
+        if (challengebonus.checked) {
             return 1;
         } else {
             return 0;
@@ -277,8 +277,8 @@ window.onload = () => {
                 const medals = get_element_val(th128_medals, "medals", "number");
                 iscore_val = iscore.calc_th128_survival(data, medals, miss);
             } else {
-                const FS = get_full_spell();
-                iscore_val = iscore.calc_survival(data, miss, FS);
+                const CB = get_challenge_bonus();
+                iscore_val = iscore.calc_survival(data, miss, CB);
             }
         } else { // scoring
             if (is === "ingame") {
@@ -436,7 +436,7 @@ window.onload = () => {
     inputscore.addEventListener("change", change_inputscore, false);
     runtype.value = "";
     document.getElementById("calc-iscore").addEventListener("submit", get_iscore_from_db);
-    fullspell_w.style.display = "none";
+    challengebonus_w.style.display = "none";
     surv_opts.style.display = "none";
     score_opts.style.display = "none";
     diff_w.style.display = "none";
