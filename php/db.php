@@ -6,10 +6,10 @@
 
     function get_survival(mysqli $db, string $game, string $shot, string $route = 'NULL') {
         if ($game == 'th08') { 
-            $statement = mysqli_prepare($db, 'SELECT MaxScore, ChallengeBonus FROM `Survival Rubrics` WHERE Game = ? AND Route = ? AND Shottype = ?');
+            $statement = mysqli_prepare($db, 'SELECT MaxScore, ChallengeBonus, RateOfDecay FROM `Survival Rubrics` WHERE Game = ? AND Route = ? AND Shottype = ?');
             $statement->bind_param('sss', $game, $route, $shot);
         } else {
-            $statement = mysqli_prepare($db, 'SELECT MaxScore, ChallengeBonus FROM `Survival Rubrics` WHERE Game = ? AND Route IS NULL AND Shottype = ?');
+            $statement = mysqli_prepare($db, 'SELECT MaxScore, ChallengeBonus, RateOfDecay FROM `Survival Rubrics` WHERE Game = ? AND Route IS NULL AND Shottype = ?');
             $statement->bind_param('ss', $game, $shot);
         }
 
