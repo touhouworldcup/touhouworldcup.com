@@ -16,8 +16,8 @@ window.onload = () => {
 	const th09_s9r1_w  = document.getElementById("th09_s9r1_w");
 	const th128_medals   = document.getElementById("th128_medals");
 	const th128_medal_w  = document.getElementById("th128_medal_w");
-    const challengebonus_w = document.getElementById("challengebonus_w");
-    const challengebonus = document.getElementById("challengebonus");
+	const challengebonus_w = document.getElementById("challengebonus_w");
+	const challengebonus = document.getElementById("challengebonus");
 	const phantasm      = document.getElementById("phantasm");
     const shot_sels      = document.getElementsByName("shottype");
 
@@ -162,7 +162,7 @@ window.onload = () => {
 				th128_medal_w.style.display = "none";
 			}
 
-            if (game_name === "th11" || game_name === "th13" || game_name === "th14") {
+			if (game_name === "th11" || game_name === "th13" || game_name === "th14") {
 				challengebonus_w.style.display = "inline";
 			} else {
 				challengebonus_w.style.display = "none";
