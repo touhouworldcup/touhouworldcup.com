@@ -1130,8 +1130,8 @@ msgid "Scoring"
 msgstr "稼ぎ"
 
 #: twcscore.php:103
-msgid "Full Spell"
-msgstr "フルスぺカ"
+msgid "Challenge Bonus"
+msgstr "チャレンジボーナス"
 
 #: twcscore.php:109
 msgid "Misses"

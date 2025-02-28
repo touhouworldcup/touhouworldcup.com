@@ -1051,7 +1051,7 @@ msgid "Scoring"
 msgstr ""
 
 #: twcscore.php:103
-msgid "Full Spell"
+msgid "Challenge Bonus"
 msgstr ""
 
 #: twcscore.php:109

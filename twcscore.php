@@ -98,10 +98,10 @@
         </label>
 	</fieldset>
 
-	<span id="fullspell_w">
+	<span id="challengebonus_w">
 		<br><br>
-		<label for="fullspell"><?php echo _('Full Spell') ?></label>
-		<input name="fullspell" type="checkbox" id="fullspell">
+		<label for="challengebonus"><?php echo _('Challenge Bonus') ?></label>
+		<input name="challengebonus" type="checkbox" id="challengebonus">
 	</span>
 
 	<span id="surv_opts">

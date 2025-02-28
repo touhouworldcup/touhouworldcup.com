@@ -1068,8 +1068,8 @@ msgid "Scoring"
 msgstr "打分"
 
 #: twcscore.php:103
-msgid "Full Spell"
-msgstr "FS"
+msgid "Challenge Bonus"
+msgstr ""
 
 #: twcscore.php:109
 msgid "Misses"

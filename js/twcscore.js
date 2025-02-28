@@ -1,20 +1,15 @@
 const iscore = {};
 
 // Calculates the amount of TWCScore for a given survival run (except GFW; see below)
-iscore.calc_survival = (rubric, miss, FS) => {
-	if (miss) {
-        FS = 0;
-    }
-
+iscore.calc_survival = (rubric, miss, CB) => {
 	let iscore_val = rubric["MaxScore"];
 
-	if (FS) {
-		iscore_val += rubric["FullSpellBonus"];
+	if (CB) {
+		iscore_val += rubric["ChallengeBonus"];
 	}
 
-	for (let i = 0; i < miss; i++) {
-		iscore_val /= 2;
-	}
+	rate_of_decay = Math.round(rubric["RateOfDecay"] * 100);
+	iscore_val = iscore_val * rate_of_decay**miss / 100**miss;
 
 	return miss > 5 ? 0 : iscore_val;
 }
@@ -24,11 +19,10 @@ iscore.calc_th09_survival = (rubric, s9_r1_duration, remaining) => {
 	let iscore_val = rubric["MaxScore"];
 
 	if (remaining == 7) {
-		iscore_val += rubric["FullSpellBonus"];
+		iscore_val += rubric["ChallengeBonus"];
 	} else {
-		for (let i = 6; i > remaining; i--) {
-			iscore_val /= 2;
-		}
+		rate_of_decay = Math.round(rubric["RateOfDecay"] * 100);
+		iscore_val = iscore_val * rate_of_decay ** (6 - remaining) / 100 ** (6 - remaining);
 	}
 
 	iscore_val += 0.02 * Math.max(s9_r1_duration, 0);
