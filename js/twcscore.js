@@ -22,7 +22,7 @@ iscore.calc_th09_survival = (rubric, s9_r1_duration, remaining) => {
 		iscore_val += rubric["ChallengeBonus"];
 	} else {
 		rate_of_decay = Math.round(rubric["RateOfDecay"] * 100);
-		score_val = iscore_val * rate_of_decay ** miss / 100 ** miss;
+		iscore_val = iscore_val * rate_of_decay ** (6 - remaining) / 100 ** (6 - remaining);
 	}
 
 	iscore_val += 0.02 * Math.max(s9_r1_duration, 0);
