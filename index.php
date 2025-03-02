@@ -29,7 +29,7 @@
         <h2 id="countdown_title_match"><?php echo _('Next Match:') ?></h2>
         <p id="countdown" class="large"><span id="countdown_start"></span></p>
         <h2 id="current_match"><?php echo _('Currently ongoing: <a class="match_link" href="https://twitch.tv/touhou_replay_showcase" target="_blank">')?><span id="match_category"></span></a></h2>
-        <p class="huge"><?php echo _('Touhou World Cup 2024 has ended. Go to the <a href="/results">Past Results page</a> to see the results.') ?></p>
+        <p class="huge"><?php echo _('Touhou World Cup 2025 will start on May 17th.') ?></p>
     </div>
     <div id="cards">
         <div class="cards_inner">
@@ -96,7 +96,7 @@
         <a class="language_small" href="/?hl=de">Deutsch</a>
         <a class="language_small" href="/?hl=es">Español</a>
     </p>
-    <p class="bottom">Touhou World Cup 2024</p>
+    <p class="bottom">Touhou World Cup 2025</p>
     <input id="schedule" type="hidden" value='<?php echo str_replace("'", "`", $schedule_json) ?>'>
 	</main>
 </body>
