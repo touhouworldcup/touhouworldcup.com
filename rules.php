@@ -96,11 +96,10 @@
             <h4><?php echo _('Touhou 19') ?></h4>
                 <p><?php echo _('Players will incur no penalty for taking a hit with a shield active. Players will also incur no penalty for regenerating their shield by using their gauge.') ?></p>
         <h3><?php echo _('Scoring Categories') ?></h3>
-            <p><?php echo _('In Scoring Categories the players will try to finish the game while gaining the highest score possible. ' .
-            'They can die, bomb and use any other mechanics as much as they want.') ?></p>
+            <p><?php echo _('The goal of a player performing a credit in any scoring category is to play through a given Touhou Game while attaining the highest score possible through use of the scoring mechanics of each individual Touhou Game.') ?></p>
             <p><?php echo _('Some extra details about Scoring Categories:') ?></p>
             <ul>
-                <li><?php echo _('Unlike previous years of TWC, there is now no penalty to TWCScore if a player Game Overs in a Scoring Category.') ?></li>
+                <li><?php echo _('There is now no penalty to TWCScore if a player Game Overs in a Scoring Category.') ?></li>
                 <li><?php echo _('Players of the Phantasmagoria of Flower View Lunatic Scoring category are not allowed to select Aya or Medicine.') ?></li>
                 <li><?php echo _('In Touhou 17 and Touhou 18, it is possible to reach the maximum value the score counter can display, known as a counterstop. ' .
                 'If this happens, we will use the player\'s "True Score" which can be determined by using counterstop removal patches.') ?></li>
