@@ -224,7 +224,7 @@ td {
     padding-left: 15px;
     padding-right: 15px;
 }
-@media (min-width: 1100px) {
+@media (min-width: 1050px) {
     main {
         margin-top: 20px;
         max-width: fit-content;
