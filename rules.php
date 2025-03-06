@@ -1,7 +1,7 @@
 <?php
     $title = _('Rules');
     $description = 'The rules that all Touhou World Cup players have to abide by';
-    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2024, competition, scoring, survival, tournament, rules';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2025, competition, scoring, survival, tournament, rules';
     include_once 'php/locale.php';
     include_once 'php/head.php';
 ?>
