@@ -1,7 +1,7 @@
 <?php
     $title = _('Schedule');
     $description = 'Order and time at which Touhou World Cup matches will happen';
-    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2024, competition, scoring, survival, tournament, schedule, timetable';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2025, competition, scoring, survival, tournament, schedule, timetable';
     include_once 'php/locale.php';
     include_once 'php/head.php';
     include_once 'php/table_func.php';
@@ -13,7 +13,7 @@
         include_once 'php/error.php';
         die();
     }
-    $json = get_schedule($db, '2024');
+    $json = get_schedule($db, '2025');
     $schedule = json_decode($json, true);
     uasort($schedule, function ($a, $b) {
         if (empty($b['Date__UTC_'])) {
@@ -57,13 +57,13 @@
             </tr>
         </thead>
         <tbody id="schedule_tbody"><?php
-            $json = get_results($db, '2024');
+            $json = get_results($db, '2025');
             $results = json_decode($json, true);
-            $json = get_teams($db, '2024');
+            $json = get_teams($db, '2025');
             $teams = json_decode($json, true);
             $json = get_players($db);
             $players = json_decode($json, true);
-            print_schedule($schedule, $results, $teams, '2024', $players);
+            print_schedule($schedule, $results, $teams, '2025', $players);
         ?></tbody>
     </table>
     </main>

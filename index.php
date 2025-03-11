@@ -4,7 +4,7 @@
     include_once 'php/db.php';
     try {
         $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
-        $schedule_json = get_schedule($db, '2024');
+        $schedule_json = get_schedule($db, '2025');
     } catch (Exception $e) {
         $schedule_json = '';
     }

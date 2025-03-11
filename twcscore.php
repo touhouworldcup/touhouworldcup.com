@@ -1,7 +1,7 @@
 <?php
     $title = _('TWCScore');
     $description = 'A calculator for the official points system used to judge how good a Touhou World Cup run is';
-    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2024, competition, scoring, survival, tournament, iscore, score, calculator';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2025, competition, scoring, survival, tournament, iscore, score, calculator';
     include_once 'php/locale.php';
     include_once 'php/head.php';
     try {
