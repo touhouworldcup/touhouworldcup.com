@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2024-09-15 17:39+0200\n"
-"PO-Revision-Date: 2024-09-15 17:39+0200\n"
+"PO-Revision-Date: 2025-03-11 21:59+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: index.php\n"
 "X-Poedit-SearchPath-1: credits.php\n"
@@ -64,18 +64,18 @@ msgstr ""
 
 #: index.php:18
 msgid ""
-"<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
-"shooting game competition, first held in 2020 and held every year since. It "
-"is organised by the Touhou gameplay community worldwide."
+"<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou shooting game "
+"competition, first held in 2020 and held every year since. It is organised by the Touhou gameplay "
+"community worldwide."
 msgstr ""
-"<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
-"shooting game competition, first held in 2020 and held every year since. It "
-"is organized by the Touhou gameplay community worldwide."
+"<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou shooting game "
+"competition, first held in 2020 and held every year since. It is organized by the Touhou gameplay "
+"community worldwide."
 
 #: index.php:22
 msgid ""
-"Three teams duke it out on Lunatic and Extra mode, playing on live streams "
-"and playing both high score and survival."
+"Three teams duke it out on Lunatic and Extra mode, playing on live streams and playing both high "
+"score and survival."
 msgstr ""
 
 #: index.php:25
@@ -92,14 +92,14 @@ msgstr ""
 
 #: index.php:31
 msgid ""
-"Currently ongoing: <a class=\"match_link\" href=\"https://twitch.tv/"
-"touhou_replay_showcase\" target=\"_blank\">"
+"Currently ongoing: <a class=\"match_link\" href=\"https://twitch.tv/touhou_replay_showcase\" "
+"target=\"_blank\">"
 msgstr ""
 
 #: index.php:32
 msgid ""
-"Touhou World Cup 2024 has ended. Go to the <a href=\"/results\">Past Results "
-"page</a> to see the results."
+"Touhou World Cup 2024 has ended. Go to the <a href=\"/results\">Past Results page</a> to see the "
+"results."
 msgstr ""
 
 #: index.php:36
@@ -170,8 +170,8 @@ msgstr ""
 msgid "Exhibition Matches"
 msgstr ""
 
-#: php/table_func.php:201 results.php:52 results.php:95 results.php:138
-#: results.php:181 results.php:225
+#: php/table_func.php:201 results.php:52 results.php:95 results.php:138 results.php:181
+#: results.php:225
 msgid "Team "
 msgstr ""
 
@@ -473,14 +473,12 @@ msgstr ""
 
 #: results.php:23 schedule.php:32
 msgid ""
-"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
-"Universal Time)</strong>."
+"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated Universal Time)</"
+"strong>."
 msgstr ""
 
 #: results.php:26 schedule.php:35
-msgid ""
-"Daylight Saving Time (also known as Summer Time or DST) is taken into "
-"account automatically."
+msgid "Daylight Saving Time (also known as Summer Time or DST) is taken into account automatically."
 msgstr ""
 
 #: results.php:29
@@ -495,43 +493,38 @@ msgstr ""
 msgid "Hide Results"
 msgstr ""
 
-#: results.php:40 results.php:83 results.php:126 results.php:169
-#: results.php:213
+#: results.php:40 results.php:83 results.php:126 results.php:169 results.php:213
 msgid "Final tally:"
 msgstr ""
 
-#: results.php:52 results.php:95 results.php:138 results.php:181
-#: results.php:225
+#: results.php:52 results.php:95 results.php:138 results.php:181 results.php:225
 msgid " points"
 msgstr ""
 
-#: results.php:66 results.php:109 results.php:152 results.php:195
-#: results.php:239 schedule.php:44
+#: results.php:66 results.php:109 results.php:152 results.php:195 results.php:239 schedule.php:44
 msgid "Date / Time"
 msgstr ""
 
-#: results.php:67 results.php:110 results.php:153 results.php:196
-#: results.php:240 schedule.php:45 twcscore.php:90
+#: results.php:67 results.php:110 results.php:153 results.php:196 results.php:240 schedule.php:45
+#: twcscore.php:90
 msgid "Category"
 msgstr ""
 
-#: results.php:68 results.php:111 results.php:154 results.php:197
-#: results.php:241 schedule.php:46
+#: results.php:68 results.php:111 results.php:154 results.php:197 results.php:241 schedule.php:46
 msgid "Players"
 msgstr ""
 
-#: results.php:69 results.php:112 results.php:155 results.php:198
-#: results.php:242 schedule.php:47
+#: results.php:69 results.php:112 results.php:155 results.php:198 results.php:242 schedule.php:47
 msgid "Reset Time<br>(minutes)"
 msgstr ""
 
-#: results.php:70 results.php:113 results.php:156 results.php:199
-#: results.php:243 schedule.php:48 schedule.php:51
+#: results.php:70 results.php:113 results.php:156 results.php:199 results.php:243 schedule.php:48
+#: schedule.php:51
 msgid "Results"
 msgstr ""
 
-#: results.php:71 results.php:114 results.php:157 results.php:200
-#: results.php:244 schedule.php:49 schedule.php:52
+#: results.php:71 results.php:114 results.php:157 results.php:200 results.php:244 schedule.php:49
+#: schedule.php:52
 msgid "Points"
 msgstr ""
 
@@ -580,21 +573,17 @@ msgid "3rd place - 0 points"
 msgstr ""
 
 #: rules.php:28
-msgid ""
-"In 2-team matches, the first place will gain 2 points and second place will "
-"gain 1 point."
+msgid "In 2-team matches, the first place will gain 2 points and second place will gain 1 point."
 msgstr ""
 
 #: rules.php:30
 msgid ""
-"If multiple players have the same TWCScore at the end of a match, they are "
-"considered tied and their points will be split equally."
+"If multiple players have the same TWCScore at the end of a match, they are considered tied and "
+"their points will be split equally."
 msgstr ""
 
 #: rules.php:32
-msgid ""
-"Whichever team has the most points at the end of Touhou World Cup is the "
-"winner."
+msgid "Whichever team has the most points at the end of Touhou World Cup is the winner."
 msgstr ""
 
 #: rules.php:34 twcscore.php:2 twcscore.php:124 twcscore.php:127
@@ -603,28 +592,26 @@ msgstr ""
 
 #: rules.php:35
 msgid ""
-"The quality of credits is calculated through the <a "
-"href=\"twcscore\">TWCScore Calculator</a>. This is a scoring metric which "
-"compensates for differences in shot type performance so that there is a "
-"point of comparison between credits in a category."
+"The quality of credits is calculated through the <a href=\"twcscore\">TWCScore Calculator</a>. "
+"This is a scoring metric which compensates for differences in shot type performance so that there "
+"is a point of comparison between credits in a category."
 msgstr ""
 
 #: rules.php:36
 msgid ""
-"The TWCScore of credits is used to determine player ranking at the end of a "
-"match, with each player's best performing credit being used."
+"The TWCScore of credits is used to determine player ranking at the end of a match, with each "
+"player's best performing credit being used."
 msgstr ""
 
 #: rules.php:37
 msgid ""
-"For Survival Categories, each shot type starts with a prescribed TWCScore "
-"with this value being cut in half every time the player dies."
+"For Survival Categories, each shot type starts with a prescribed TWCScore with this value being "
+"cut in half every time the player dies."
 msgstr ""
 
 #: rules.php:38
 msgid ""
-"For Scoring Categories, TWCScore increases exponentially as the player's in-"
-"game score increases."
+"For Scoring Categories, TWCScore increases exponentially as the player's in-game score increases."
 msgstr ""
 
 #: rules.php:40
@@ -633,20 +620,18 @@ msgstr ""
 
 #: rules.php:41
 msgid ""
-"Each Category has a Reset Timer which counts down as the match progresses, "
-"this shows the time in which a player can start a new credit."
+"Each Category has a Reset Timer which counts down as the match progresses, this shows the time in "
+"which a player can start a new credit."
 msgstr ""
 
 #: rules.php:42
-msgid ""
-"Players can start as many credits as they want while the Reset Timer is "
-"counting down."
+msgid "Players can start as many credits as they want while the Reset Timer is counting down."
 msgstr ""
 
 #: rules.php:43
 msgid ""
-"When the timer reaches zero, the players cannot start any new credits, but "
-"they can finish a credit already in progress."
+"When the timer reaches zero, the players cannot start any new credits, but they can finish a "
+"credit already in progress."
 msgstr ""
 
 #: rules.php:45
@@ -659,15 +644,12 @@ msgstr ""
 
 #: rules.php:47
 msgid ""
-"In Survival Categories, players will try to finish the game without dying. "
-"They can only die a maximum of five times and are not allowed to use bombs "
-"or any other in game mechanics to help them."
+"In Survival Categories, players will try to finish the game without dying. They can only die a "
+"maximum of five times and are not allowed to use bombs or any other in game mechanics to help them."
 msgstr ""
 
 #: rules.php:49
-msgid ""
-"Here is a quick breakdown of how different game mechanics affect Survival "
-"Categories:"
+msgid "Here is a quick breakdown of how different game mechanics affect Survival Categories:"
 msgstr ""
 
 #: rules.php:50
@@ -684,9 +666,8 @@ msgstr ""
 
 #: rules.php:53
 msgid ""
-"Supernatural Border: Breaking a border manually by pressing the bomb key is "
-"considered two deaths. However, running into a bullet while a border is "
-"active will only count as one death."
+"Supernatural Border: Breaking a border manually by pressing the bomb key is considered two deaths. "
+"However, running into a bullet while a border is active will only count as one death."
 msgstr ""
 
 #: rules.php:55
@@ -695,9 +676,9 @@ msgstr ""
 
 #: rules.php:56
 msgid ""
-"Last Spell: Getting hit during a Last Spell is considered a death. Not "
-"meeting the time orb requirement in Stage 1-5 is also considered a death."
-"<br>Timing out a Last Spell is <strong>not</strong> considered a death."
+"Last Spell: Getting hit during a Last Spell is considered a death. Not meeting the time orb "
+"requirement in Stage 1-5 is also considered a death.<br>Timing out a Last Spell is <strong>not</"
+"strong> considered a death."
 msgstr ""
 
 #: rules.php:58
@@ -706,31 +687,25 @@ msgstr ""
 
 #: rules.php:59
 msgid ""
-"This category is played under different conditions to all other Survival "
-"Categories in TWC. The goal of a player performing a credit in "
-"Phantasmagoria of Flower View Lunatic Survival is to maximise the number of "
-"remaining lives at the end of the credit. Each Shot Type will be assigned a "
-"TWCScore by the TWCScore Rubric according to the number of remaining lives."
-"<br>TWCScore of this category can be regarded as substituting \"7 - the "
-"number of remaining lives\" for the \"the number of misses\" in the formula "
-"of other Survival Categories in TWC, with the exception that a bonus of "
-"[0.02 * the duration (in seconds) of Stage 9 first round] is added at the "
-"end of a credit. An additional TWCScore bonus will be applied when there are "
-"7 remaining lives. Any credit that ends with less than 2 lives remaining "
-"will always attain a TWCScore of zero."
+"This category is played under different conditions to all other Survival Categories in TWC. The "
+"goal of a player performing a credit in Phantasmagoria of Flower View Lunatic Survival is to "
+"maximise the number of remaining lives at the end of the credit. Each Shot Type will be assigned a "
+"TWCScore by the TWCScore Rubric according to the number of remaining lives.<br>TWCScore of this "
+"category can be regarded as substituting \"7 - the number of remaining lives\" for the \"the "
+"number of misses\" in the formula of other Survival Categories in TWC, with the exception that a "
+"bonus of [0.02 * the duration (in seconds) of Stage 9 first round] is added at the end of a "
+"credit. An additional TWCScore bonus will be applied when there are 7 remaining lives. Any credit "
+"that ends with less than 2 lives remaining will always attain a TWCScore of zero."
 msgstr ""
-"This category is played under different conditions to all other Survival "
-"Categories in TWC. The goal of a player performing a credit in "
-"Phantasmagoria of Flower View Lunatic Survival is to maximize the number of "
-"remaining lives at the end of the credit. Each Shot Type will be assigned a "
-"TWCScore by the TWCScore Rubric according to the number of remaining lives."
-"<br>TWCScore of this category can be regarded as substituting \"7 - the "
-"number of remaining lives\" for the \"the number of misses\" in the formula "
-"of other Survival Categories in TWC, with the exception that a bonus of "
-"[0.02 * the duration (in seconds) of Stage 9 first round] is added at the "
-"end of a credit. An additional TWCScore bonus will be applied when there are "
-"7 remaining lives. Any credit that ends with less than 2 lives remaining "
-"will always attain a TWCScore of zero."
+"This category is played under different conditions to all other Survival Categories in TWC. The "
+"goal of a player performing a credit in Phantasmagoria of Flower View Lunatic Survival is to "
+"maximize the number of remaining lives at the end of the credit. Each Shot Type will be assigned a "
+"TWCScore by the TWCScore Rubric according to the number of remaining lives.<br>TWCScore of this "
+"category can be regarded as substituting \"7 - the number of remaining lives\" for the \"the "
+"number of misses\" in the formula of other Survival Categories in TWC, with the exception that a "
+"bonus of [0.02 * the duration (in seconds) of Stage 9 first round] is added at the end of a "
+"credit. An additional TWCScore bonus will be applied when there are 7 remaining lives. Any credit "
+"that ends with less than 2 lives remaining will always attain a TWCScore of zero."
 
 #: rules.php:65
 msgid "Touhou 11"
@@ -738,8 +713,7 @@ msgstr ""
 
 #: rules.php:66
 msgid ""
-"There is a TWCScore Bonus for a credit that captures all spellcards and "
-"finishes with zero deaths."
+"There is a TWCScore Bonus for a credit that captures all spellcards and finishes with zero deaths."
 msgstr ""
 
 #: rules.php:67
@@ -748,8 +722,8 @@ msgstr ""
 
 #: rules.php:68
 msgid ""
-"UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens "
-"is allowed and does not count as a death."
+"UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens is allowed and does "
+"not count as a death."
 msgstr ""
 
 #: rules.php:69
@@ -758,18 +732,15 @@ msgstr ""
 
 #: rules.php:70
 msgid ""
-"This category is played under different conditions to all other Survival "
-"Categories in TWC. The goal of a player performing a credit in Great Fairy "
-"Wars Lunatic Survival is to play through the game on Lunatic difficulty "
-"while avoiding all enemy attacks and gaining gold medals from spell cards. "
-"Gold medals are attained by capturing spell cards without using Ice Power or "
-"a Perfect Freeze. TWCScore increases exponentially by the number of gold "
-"medals captured by the player and is lost depending on the number of misses. "
-"The parameters of this exponential gain are different for each route. The "
-"number of misses in a Great Fairy Wars Lunatic Survival credit does not "
-"affect the validity of the credit in any form. However, any otherwise valid "
-"credit in a match of Great Fairy Wars Lunatic Survival which ends in a Game "
-"Over will always attain a TWCScore of -50."
+"This category is played under different conditions to all other Survival Categories in TWC. The "
+"goal of a player performing a credit in Great Fairy Wars Lunatic Survival is to play through the "
+"game on Lunatic difficulty while avoiding all enemy attacks and gaining gold medals from spell "
+"cards. Gold medals are attained by capturing spell cards without using Ice Power or a Perfect "
+"Freeze. TWCScore increases exponentially by the number of gold medals captured by the player and "
+"is lost depending on the number of misses. The parameters of this exponential gain are different "
+"for each route. The number of misses in a Great Fairy Wars Lunatic Survival credit does not affect "
+"the validity of the credit in any form. However, any otherwise valid credit in a match of Great "
+"Fairy Wars Lunatic Survival which ends in a Game Over will always attain a TWCScore of -50."
 msgstr ""
 
 #: rules.php:76
@@ -778,9 +749,8 @@ msgstr ""
 
 #: rules.php:77
 msgid ""
-"Trance: A manually activated trance is considered two deaths."
-"<br>Additionally, there is a TWCScore Bonus for a credit that captures all "
-"spellcards and finishes with zero deaths."
+"Trance: A manually activated trance is considered two deaths.<br>Additionally, there is a TWCScore "
+"Bonus for a credit that captures all spellcards and finishes with zero deaths."
 msgstr ""
 
 #: rules.php:79
@@ -797,10 +767,9 @@ msgstr ""
 
 #: rules.php:82
 msgid ""
-"Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal "
-"tokens during roar mode) is considered 2 deaths. Breaking a Berserk Roar by "
-"touching a bullet gives no extra punishment. However, breaking either a "
-"Berserk Roar or a Standard Roar by pressing the bomb key will always be "
+"Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal tokens during roar mode) "
+"is considered 2 deaths. Breaking a Berserk Roar by touching a bullet gives no extra punishment. "
+"However, breaking either a Berserk Roar or a Standard Roar by pressing the bomb key will always be "
 "considered one death."
 msgstr ""
 
@@ -809,9 +778,7 @@ msgid "Touhou 18"
 msgstr ""
 
 #: rules.php:86
-msgid ""
-"Only four ability cards are allowed to be equipped, used or activated at any "
-"time. These are:"
+msgid "Only four ability cards are allowed to be equipped, used or activated at any time. These are:"
 msgstr ""
 
 #: rules.php:88
@@ -832,8 +799,8 @@ msgstr ""
 
 #: rules.php:93
 msgid ""
-"Additionally, the players are only allowed to buy \"Money Comes and Goes On "
-"its Own\" from the card shop between stages."
+"Additionally, the players are only allowed to buy \"Money Comes and Goes On its Own\" from the "
+"card shop between stages."
 msgstr ""
 
 #: rules.php:95
@@ -846,9 +813,8 @@ msgstr ""
 
 #: rules.php:97
 msgid ""
-"Players will incur no penalty for taking a hit with a shield active. Players "
-"will also incur no penalty for regenerating their shield by using their "
-"gauge."
+"Players will incur no penalty for taking a hit with a shield active. Players will also incur no "
+"penalty for regenerating their shield by using their gauge."
 msgstr ""
 
 #: rules.php:98
@@ -857,9 +823,8 @@ msgstr ""
 
 #: rules.php:99
 msgid ""
-"In Scoring Categories the players will try to finish the game while gaining "
-"the highest score possible. They can die, bomb and use any other mechanics "
-"as much as they want."
+"In Scoring Categories the players will try to finish the game while gaining the highest score "
+"possible. They can die, bomb and use any other mechanics as much as they want."
 msgstr ""
 
 #: rules.php:101
@@ -868,38 +833,35 @@ msgstr ""
 
 #: rules.php:103
 msgid ""
-"Unlike previous years of TWC, there is now no penalty to TWCScore if a "
-"player Game Overs in a Scoring Category."
+"Unlike previous years of TWC, there is now no penalty to TWCScore if a player Game Overs in a "
+"Scoring Category."
 msgstr ""
 
 #: rules.php:104
 msgid ""
-"Players of the Phantasmagoria of Flower View Lunatic Scoring category are "
-"not allowed to select Aya or Medicine."
+"Players of the Phantasmagoria of Flower View Lunatic Scoring category are not allowed to select "
+"Aya or Medicine."
 msgstr ""
 
 #: rules.php:105
 msgid ""
-"In Touhou 17 and Touhou 18, it is possible to reach the maximum value the "
-"score counter can display, known as a counterstop. If this happens, we will "
-"use the player's \"True Score\" which can be determined by using counterstop "
-"removal patches."
+"In Touhou 17 and Touhou 18, it is possible to reach the maximum value the score counter can "
+"display, known as a counterstop. If this happens, we will use the player's \"True Score\" which "
+"can be determined by using counterstop removal patches."
 msgstr ""
 
 #: rules.php:107
 msgid ""
-"In Touhou 12, the score counter will display the player's score incorrectly "
-"if the score reaches a high enough value. However, if this happens, the game "
-"will still record the player's score correctly on the high score leaderboard "
-"and that value will be used instead."
+"In Touhou 12, the score counter will display the player's score incorrectly if the score reaches a "
+"high enough value. However, if this happens, the game will still record the player's score "
+"correctly on the high score leaderboard and that value will be used instead."
 msgstr ""
 
 #: rules.php:110
 msgid ""
-"In Touhou 18, the \"Market Manip.\" option from thprac is allowed for use. "
-"However, credits that directly use Market Manipulation are considered "
-"invalid. Market Manipulation can be performed both before and during the "
-"match. This rule is subject to change depending on dialogue with players."
+"In Touhou 18, the \"Market Manip.\" option from thprac is allowed for use. However, credits that "
+"directly use Market Manipulation are considered invalid. Market Manipulation can be performed both "
+"before and during the match. This rule is subject to change depending on dialogue with players."
 msgstr ""
 
 #: rules.php:115
@@ -912,8 +874,8 @@ msgstr ""
 
 #: rules.php:117
 msgid ""
-"thprac can be used for practice during a match, but all cheats must be "
-"disabled when performing credits."
+"thprac can be used for practice during a match, but all cheats must be disabled when performing "
+"credits."
 msgstr ""
 
 #: rules.php:118
@@ -930,14 +892,14 @@ msgstr ""
 
 #: rules.php:123
 msgid ""
-"Players must stream their gameplay while playing their match, without "
-"covering any HUD or gameplay elements."
+"Players must stream their gameplay while playing their match, without covering any HUD or gameplay "
+"elements."
 msgstr ""
 
 #: rules.php:124
 msgid ""
-"The replay file of each player's best performing credit must be submitted to "
-"the TWC Committee at the end of a match."
+"The replay file of each player's best performing credit must be submitted to the TWC Committee at "
+"the end of a match."
 msgstr ""
 
 #: rules.php:125
@@ -961,9 +923,7 @@ msgid "This page requires JavaScript"
 msgstr ""
 
 #: twcscore.php:21
-msgid ""
-"Use this page to calculate TWCScore for any particular run. TWCScore is "
-"subject to change."
+msgid "Use this page to calculate TWCScore for any particular run. TWCScore is subject to change."
 msgstr ""
 
 #: twcscore.php:23
@@ -1120,8 +1080,8 @@ msgstr ""
 
 #: twcscore.php:172
 msgid ""
-"FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
-"<a href=\"https://bsky.app/profile/maribelhearn42.bsky.social\" target=\"_blank\">Maribel Hearn</a>"
+"FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact <a href=\"https://"
+"bsky.app/profile/maribelhearn42.bsky.social\" target=\"_blank\">Maribel Hearn</a>"
 msgstr ""
 
 #: twcscore.php:176
