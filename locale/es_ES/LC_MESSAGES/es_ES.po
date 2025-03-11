@@ -1193,11 +1193,11 @@ msgstr "Por favor llene las medallas de oro"
 #: twcscore.php:172
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
-"<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
+"<a href=\"https://bsky.app/profile/maribelhearn42.bsky.social\" target=\"_blank\">Maribel Hearn</a>"
 msgstr ""
 "ERROR FATAL: tipo erróneo para \"element\" en get_element_val. Por favor "
-"contacte <a href=\"https://twitter.com/32thc\" target=\"_blank\">32th "
-"System</a>"
+"contacte <a href=\"https://bsky.app/profile/maribelhearn42.bsky.social\" target=\"_blank\">Maribel "
+"Hearn</a>"
 
 #: twcscore.php:176
 msgid "Calculate"

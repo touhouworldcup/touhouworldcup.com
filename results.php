@@ -46,7 +46,7 @@
         $max_points = 0;
         $teams = array();
         uasort($teams_2024, function ($a, $b) {
-            return $a['Points'] < $b['Points'];
+            return $a['Points'] < $b['Points'] ? 1 : -1;
         });
         foreach ($teams_2024 as $team) {
             array_push($teams, '<li><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
@@ -89,7 +89,7 @@
         $max_points = 0;
         $teams = array();
         uasort($teams_2023, function ($a, $b) {
-            return $a['Points'] < $b['Points'];
+            return $a['Points'] < $b['Points'] ? 1 : -1;
         });
         foreach ($teams_2023 as $team) {
             array_push($teams, '<li><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
@@ -132,7 +132,7 @@
         $max_points = 0;
         $teams = array();
         uasort($teams_2022, function ($a, $b) {
-            return $a['Points'] < $b['Points'];
+            return $a['Points'] < $b['Points'] ? 1 : -1;
         });
         foreach ($teams_2022 as $team) {
             array_push($teams, '<li><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
@@ -175,7 +175,7 @@
         $max_points = 0;
         $teams = array();
         uasort($teams_2021, function ($a, $b) {
-            return $a['Points'] < $b['Points'];
+            return $a['Points'] < $b['Points'] ? 1 : -1;
         });
         foreach ($teams_2021 as $team) {
             array_push($teams, '<li><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
@@ -219,7 +219,7 @@
         $max_points = 0;
         $teams = array();
         uasort($teams_2020, function ($a, $b) {
-            return $a['Points'] < $b['Points'];
+            return $a['Points'] < $b['Points'] ? 1 : -1;
         });
         foreach ($teams_2020 as $team) {
             array_push($teams, '<li><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');

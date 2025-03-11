@@ -14,7 +14,7 @@
 	<p><?php echo _('Developed by:') ?></p>
     <ul class="list">
         <li><a href="https://www.youtube.com/channel/UChyVpooBi31k3xPbWYsoq3w" target="_blank">32th System</a></li>
-        <li><a href="https://twitter.com/MaribelHearn42" target="_blank">Maribel Hearn</a></li>
+        <li><a href="https://bsky.app/profile/maribelhearn42.bsky.social" target="_blank">Maribel Hearn</a></li>
     </ul>
 	<p><?php echo _('Translated by:') ?></p>
     <ul class="list">

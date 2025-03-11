@@ -170,7 +170,7 @@
             <p id="error_final"><?php echo _('Please fill out the Final Stage') ?></p>
             <p id="error_medals"><?php echo _('Please fill out the gold medals') ?></p>
             <p id="error_fatal"><?php echo _('FATAL ERROR: wrong type for "element" in get_element_val. ' .
-                    'Please contact <a href="https://twitter.com/32thc" target="_blank">32th System</a>') ?></p>
+                    'Please contact <a href="https://bsky.app/profile/maribelhearn42.bsky.social" target="_blank">Maribel Hearn</a>') ?></p>
         </div>
 		<br>
 		<input id="submit" type="button" value="<?php echo _('Calculate') ?>">

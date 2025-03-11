@@ -1200,7 +1200,7 @@ msgstr "金メダルを記入してください"
 #: twcscore.php:172
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
-"<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
+"<a href=\"https://bsky.app/profile/maribelhearn42.bsky.social\" target=\"_blank\">Maribel Hearn</a>"
 msgstr ""
 
 #: twcscore.php:176
