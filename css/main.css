@@ -98,7 +98,7 @@ iframe {
         margin-right: 0px;
     }
 }
-@media only screen and not (min-width: 1100px) {
+@media only screen and not (min-width: 1050px) {
     #cards {
         flex-direction: column;
     }

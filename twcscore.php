@@ -1,7 +1,7 @@
 <?php
     $title = _('TWCScore');
     $description = 'A calculator for the official points system used to judge how good a Touhou World Cup run is';
-    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2024, competition, scoring, survival, tournament, iscore, score, calculator';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2025, competition, scoring, survival, tournament, iscore, score, calculator';
     include_once 'php/locale.php';
     include_once 'php/head.php';
     try {
@@ -170,7 +170,7 @@
             <p id="error_final"><?php echo _('Please fill out the Final Stage') ?></p>
             <p id="error_medals"><?php echo _('Please fill out the gold medals') ?></p>
             <p id="error_fatal"><?php echo _('FATAL ERROR: wrong type for "element" in get_element_val. ' .
-                    'Please contact <a href="https://twitter.com/32thc" target="_blank">32th System</a>') ?></p>
+                    'Please contact <a href="https://bsky.app/profile/maribelhearn42.bsky.social" target="_blank">Maribel Hearn</a>') ?></p>
         </div>
 		<br>
 		<input id="submit" type="button" value="<?php echo _('Calculate') ?>">

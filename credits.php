@@ -1,7 +1,7 @@
 <?php
     $title = _('Credits');
     $description = 'Credits to the creators of this website';
-    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2024, competition, scoring, survival, tournament';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2025, competition, scoring, survival, tournament';
     include_once 'php/locale.php';
     include_once 'php/head.php';
 ?>
@@ -14,7 +14,7 @@
 	<p><?php echo _('Developed by:') ?></p>
     <ul class="list">
         <li><a href="https://www.youtube.com/channel/UChyVpooBi31k3xPbWYsoq3w" target="_blank">32th System</a></li>
-        <li><a href="https://twitter.com/MaribelHearn42" target="_blank">Maribel Hearn</a></li>
+        <li><a href="https://bsky.app/profile/maribelhearn42.bsky.social" target="_blank">Maribel Hearn</a></li>
     </ul>
 	<p><?php echo _('Translated by:') ?></p>
     <ul class="list">

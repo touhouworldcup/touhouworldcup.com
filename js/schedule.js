@@ -171,8 +171,9 @@ function init() {
     }
 
     if (location.pathname == "/schedule") {
-        convertDateTimes("2024");
+        convertDateTimes("2025");
     } else {
+        convertDateTimes("2024");
         convertDateTimes("2023");
         convertDateTimes("2022");
         convertDateTimes("2021");

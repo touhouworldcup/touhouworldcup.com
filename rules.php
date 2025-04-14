@@ -1,7 +1,7 @@
 <?php
     $title = _('Rules');
     $description = 'The rules that all Touhou World Cup players have to abide by';
-    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2024, competition, scoring, survival, tournament, rules';
+    $keywords = 'touhou, touhou project, 東方, 东方, Тохо, world cup, touhou world cup, twc, 2025, competition, scoring, survival, tournament, rules';
     include_once 'php/locale.php';
     include_once 'php/head.php';
 ?>
@@ -13,7 +13,7 @@
     <h2><?php echo _('Full Official Rules') ?></h2>
     <p><?php echo _('The full official rulebook can be found here:') ?></p>
     <ul class="style-none">
-        <li>English: <a href="https://docs.google.com/document/d/e/2PACX-1vTATjRLhS3tTXoyp1NtoSVVsehDgVm22QZxBOCCnrXWVpzycXxz6Y4NDh7rX850ihByJ3-LUDrL24HU/pub" target="_blank">TWC Handbook</a></li>
+        <li>English: <a href="https://docs.google.com/document/d/e/2PACX-1vQrmgcwhgKARoUnk5BPE0Oyv4fAgHilZs1pUa1RQJtm0X_z93L8eI0lNt1Y-iZQK3v4_Ab9vx1HzpkN/pub" target="_blank">TWC Handbook</a></li>
         <li>日本語: <a href="assets/TWC_Handbook_JP.pdf" target="_blank">TWC_Handbook_JP.pdf</a></li>
     </ul>
     <hr>
@@ -104,11 +104,10 @@
             <h4><?php echo _('Touhou 19') ?></h4>
                 <p><?php echo _('Players will incur no penalty for taking a hit with a shield active. Players will also incur no penalty for regenerating their shield by using their gauge.') ?></p>
         <h3><?php echo _('Scoring Categories') ?></h3>
-            <p><?php echo _('In Scoring Categories the players will try to finish the game while gaining the highest score possible. ' .
-            'They can die, bomb and use any other mechanics as much as they want.') ?></p>
+            <p><?php echo _('The goal of a player performing a credit in any scoring category is to play through a given Touhou Game while attaining the highest score possible through use of the scoring mechanics of each individual Touhou Game.') ?></p>
             <p><?php echo _('Some extra details about Scoring Categories:') ?></p>
             <ul>
-                <li><?php echo _('Unlike previous years of TWC, there is now no penalty to TWCScore if a player Game Overs in a Scoring Category.') ?></li>
+                <li><?php echo _('There is now no penalty to TWCScore if a player Game Overs in a Scoring Category.') ?></li>
                 <li><?php echo _('Players of the Phantasmagoria of Flower View Lunatic Scoring category are not allowed to select Aya or Medicine.') ?></li>
                 <li><?php echo _('In Touhou 17 and Touhou 18, it is possible to reach the maximum value the score counter can display, known as a counterstop. ' .
                 'If this happens, we will use the player\'s "True Score" which can be determined by using counterstop removal patches.') ?></li>

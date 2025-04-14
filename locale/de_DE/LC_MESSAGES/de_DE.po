@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2024-09-15 17:38+0200\n"
-"PO-Revision-Date: 2024-09-15 17:38+0200\n"
+"PO-Revision-Date: 2025-03-11 21:59+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: index.php\n"
 "X-Poedit-SearchPath-1: credits.php\n"
@@ -64,22 +64,21 @@ msgstr "Kunstwerk:"
 
 #: index.php:18
 msgid ""
-"<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou "
-"shooting game competition, first held in 2020 and held every year since. It "
-"is organised by the Touhou gameplay community worldwide."
+"<strong>Touhou World Cup (TWC)</strong> is an annual international Touhou shooting game competition, "
+"first held in 2020 and held every year since. It is organised by the Touhou gameplay community "
+"worldwide."
 msgstr ""
-"Der <strong>Touhou World Cup (TWC)</strong> ist ein jährlich stattfindender "
-"internationaler Touhou-Shooter-Wettbewerb, der erstmals im Jahr 2020 "
-"organisiert wurde. Er wird von der internationaler Spielergemeinschaft "
-"organisiert."
+"Der <strong>Touhou World Cup (TWC)</strong> ist ein jährlich stattfindender internationaler Touhou-"
+"Shooter-Wettbewerb, der erstmals im Jahr 2020 organisiert wurde. Er wird von der internationaler "
+"Spielergemeinschaft organisiert."
 
 #: index.php:22
 msgid ""
-"Three teams duke it out on Lunatic and Extra mode, playing on live streams "
-"and playing both high score and survival."
+"Three teams duke it out on Lunatic and Extra mode, playing on live streams and playing both high "
+"score and survival."
 msgstr ""
-"Drei Teams treten im Lunatic- und im Extra-Modus gegeneinander an, wobei sie "
-"in einem Livestream spielen und sowohl Scoring als auch Survival spielen."
+"Drei Teams treten im Lunatic- und im Extra-Modus gegeneinander an, wobei sie in einem Livestream "
+"spielen und sowohl Scoring als auch Survival spielen."
 
 #: index.php:25
 msgid "See below for official communication channels."
@@ -95,19 +94,19 @@ msgstr "Nächstes Match:"
 
 #: index.php:31
 msgid ""
-"Currently ongoing: <a class=\"match_link\" href=\"https://twitch.tv/"
-"touhou_replay_showcase\" target=\"_blank\">"
+"Currently ongoing: <a class=\"match_link\" href=\"https://twitch.tv/touhou_replay_showcase\" "
+"target=\"_blank\">"
 msgstr ""
-"Derzeit laufend: <a class=\"match_link\" href=\"https://twitch.tv/"
-"touhou_replay_showcase\" target=\"_blank\">"
+"Derzeit laufend: <a class=\"match_link\" href=\"https://twitch.tv/touhou_replay_showcase\" "
+"target=\"_blank\">"
 
 #: index.php:32
 msgid ""
-"Touhou World Cup 2024 has ended. Go to the <a href=\"/results\">Past Results "
-"page</a> to see the results."
+"Touhou World Cup 2024 has ended. Go to the <a href=\"/results\">Past Results page</a> to see the "
+"results."
 msgstr ""
-"Touhou World Cup 2024 ist vorbei. Die Ergebnisse können auf <a href=\"/"
-"results\">dieser Seite</a> betrachtet werden."
+"Touhou World Cup 2024 ist vorbei. Die Ergebnisse können auf <a href=\"/results\">dieser Seite</a> "
+"betrachtet werden."
 
 #: index.php:36
 msgid "Live Streams"
@@ -177,8 +176,7 @@ msgstr ""
 msgid "Exhibition Matches"
 msgstr ""
 
-#: php/table_func.php:201 results.php:52 results.php:95 results.php:138
-#: results.php:181 results.php:225
+#: php/table_func.php:201 results.php:52 results.php:95 results.php:138 results.php:181 results.php:225
 msgid "Team "
 msgstr ""
 
@@ -480,19 +478,14 @@ msgstr "Vergangene Ergebnisse"
 
 #: results.php:23 schedule.php:32
 msgid ""
-"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
-"Universal Time)</strong>."
+"Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated Universal Time)</strong>."
 msgstr ""
-"Deine Zeitzone wurde als <strong id=\"timezone\">UTC+0000 (Koordinierte "
-"Weltzeit)</strong> erkannt."
+"Deine Zeitzone wurde als <strong id=\"timezone\">UTC+0000 (Koordinierte Weltzeit)</strong> erkannt."
 
 #: results.php:26 schedule.php:35
-msgid ""
-"Daylight Saving Time (also known as Summer Time or DST) is taken into "
-"account automatically."
+msgid "Daylight Saving Time (also known as Summer Time or DST) is taken into account automatically."
 msgstr ""
-"Die Sommerzeit (auch bekannt als Daylight Saving Time oder DST) wird "
-"automatisch berücksichtigt."
+"Die Sommerzeit (auch bekannt als Daylight Saving Time oder DST) wird automatisch berücksichtigt."
 
 #: results.php:29
 msgid "Contents"
@@ -506,43 +499,38 @@ msgstr "Ergebnisse anzeigen"
 msgid "Hide Results"
 msgstr "Ergebnisse verstecken"
 
-#: results.php:40 results.php:83 results.php:126 results.php:169
-#: results.php:213
+#: results.php:40 results.php:83 results.php:126 results.php:169 results.php:213
 msgid "Final tally:"
 msgstr "Endzahlen:"
 
-#: results.php:52 results.php:95 results.php:138 results.php:181
-#: results.php:225
+#: results.php:52 results.php:95 results.php:138 results.php:181 results.php:225
 msgid " points"
 msgstr " Punkte"
 
-#: results.php:66 results.php:109 results.php:152 results.php:195
-#: results.php:239 schedule.php:44
+#: results.php:66 results.php:109 results.php:152 results.php:195 results.php:239 schedule.php:44
 msgid "Date / Time"
 msgstr "Datum / Uhrzeit"
 
-#: results.php:67 results.php:110 results.php:153 results.php:196
-#: results.php:240 schedule.php:45 twcscore.php:90
+#: results.php:67 results.php:110 results.php:153 results.php:196 results.php:240 schedule.php:45
+#: twcscore.php:90
 msgid "Category"
 msgstr "Kategorie"
 
-#: results.php:68 results.php:111 results.php:154 results.php:197
-#: results.php:241 schedule.php:46
+#: results.php:68 results.php:111 results.php:154 results.php:197 results.php:241 schedule.php:46
 msgid "Players"
 msgstr "Spieler"
 
-#: results.php:69 results.php:112 results.php:155 results.php:198
-#: results.php:242 schedule.php:47
+#: results.php:69 results.php:112 results.php:155 results.php:198 results.php:242 schedule.php:47
 msgid "Reset Time<br>(minutes)"
 msgstr "Reset-Zeit<br>(Minuten)"
 
-#: results.php:70 results.php:113 results.php:156 results.php:199
-#: results.php:243 schedule.php:48 schedule.php:51
+#: results.php:70 results.php:113 results.php:156 results.php:199 results.php:243 schedule.php:48
+#: schedule.php:51
 msgid "Results"
 msgstr "Ergebnisse"
 
-#: results.php:71 results.php:114 results.php:157 results.php:200
-#: results.php:244 schedule.php:49 schedule.php:52
+#: results.php:71 results.php:114 results.php:157 results.php:200 results.php:244 schedule.php:49
+#: schedule.php:52
 msgid "Points"
 msgstr "Punkte"
 
@@ -577,8 +565,8 @@ msgstr "Die Spieler der Teams spielen gleichzeitig gegeneinander."
 #: rules.php:22
 msgid "For every match, each player can earn points for their team:"
 msgstr ""
-"Für jedes Match kann jedes Team Punkte sammeln. Die Rangliste basiert "
-"darauf, wer die meisten Punkte hat:"
+"Für jedes Match kann jedes Team Punkte sammeln. Die Rangliste basiert darauf, wer die meisten Punkte "
+"hat:"
 
 #: rules.php:24
 msgid "1st place - 2 points"
@@ -593,28 +581,20 @@ msgid "3rd place - 0 points"
 msgstr "3. Platz - 0 Punkte"
 
 #: rules.php:28
-msgid ""
-"In 2-team matches, the first place will gain 2 points and second place will "
-"gain 1 point."
-msgstr ""
-"Bei Spielen mit 2 Teams erhalten die Erstplatzierten 2 Punkte und die "
-"Zweitplatzierten 1 Punkt."
+msgid "In 2-team matches, the first place will gain 2 points and second place will gain 1 point."
+msgstr "Bei Spielen mit 2 Teams erhalten die Erstplatzierten 2 Punkte und die Zweitplatzierten 1 Punkt."
 
 #: rules.php:30
 msgid ""
-"If multiple players have the same TWCScore at the end of a match, they are "
-"considered tied and their points will be split equally."
+"If multiple players have the same TWCScore at the end of a match, they are considered tied and their "
+"points will be split equally."
 msgstr ""
-"Wenn mehrere Spieler am Ende eines Matches den gleichen TWCScore haben gilt "
-"dies als Gleichstand und die Punkte werden gleichmäßig aufgeteilt."
+"Wenn mehrere Spieler am Ende eines Matches den gleichen TWCScore haben gilt dies als Gleichstand und "
+"die Punkte werden gleichmäßig aufgeteilt."
 
 #: rules.php:32
-msgid ""
-"Whichever team has the most points at the end of Touhou World Cup is the "
-"winner."
-msgstr ""
-"Das Team, welches am Ende des Touhou World Cups die meisten Punkte hat, ist "
-"der Sieger."
+msgid "Whichever team has the most points at the end of Touhou World Cup is the winner."
+msgstr "Das Team, welches am Ende des Touhou World Cups die meisten Punkte hat, ist der Sieger."
 
 #: rules.php:34 twcscore.php:2 twcscore.php:124 twcscore.php:127
 msgid "TWCScore"
@@ -622,24 +602,21 @@ msgstr ""
 
 #: rules.php:35
 msgid ""
-"The quality of credits is calculated through the <a "
-"href=\"twcscore\">TWCScore Calculator</a>. This is a scoring metric which "
-"compensates for differences in shot type performance so that there is a "
+"The quality of credits is calculated through the <a href=\"twcscore\">TWCScore Calculator</a>. This "
+"is a scoring metric which compensates for differences in shot type performance so that there is a "
 "point of comparison between credits in a category."
 msgstr ""
-"Die Qualität der Credits wird mit Hilfe des <a href=\"twcscore\">TWCScore-"
-"Rechners</a> berechnet. Dabei handelt es sich um eine Bewertungsmetrik, die "
-"Unterschiede in der Shot Type Performance ausgleicht, sodass es einen "
-"Vergleich zwischen den Credits in einer Kategorie gibt."
+"Die Qualität der Credits wird mit Hilfe des <a href=\"twcscore\">TWCScore-Rechners</a> berechnet. "
+"Dabei handelt es sich um eine Bewertungsmetrik, die Unterschiede in der Shot Type Performance "
+"ausgleicht, sodass es einen Vergleich zwischen den Credits in einer Kategorie gibt."
 
 #: rules.php:36
 msgid ""
-"The TWCScore of credits is used to determine player ranking at the end of a "
-"match, with each player's best performing credit being used."
+"The TWCScore of credits is used to determine player ranking at the end of a match, with each player's "
+"best performing credit being used."
 msgstr ""
-"Der TWCScore der Credits wird verwendet, um die Rangfolge der Spieler am "
-"Ende eines Matches zu bestimmen, wobei der beste Credit eines jeden Spielers "
-"verwendet wird."
+"Der TWCScore der Credits wird verwendet, um die Rangfolge der Spieler am Ende eines Matches zu "
+"bestimmen, wobei der beste Credit eines jeden Spielers verwendet wird."
 
 #: rules.php:37
 msgid ""
@@ -650,11 +627,8 @@ msgstr ""
 
 #: rules.php:38
 msgid ""
-"For Scoring Categories, TWCScore increases exponentially as the player's in-"
-"game score increases."
-msgstr ""
-"Bei den Scoring-Kategorien steigt der TWCScore exponentiell mit dem "
-"Spielstand des Spielers an."
+"For Scoring Categories, TWCScore increases exponentially as the player's in-game score increases."
+msgstr "Bei den Scoring-Kategorien steigt der TWCScore exponentiell mit dem Spielstand des Spielers an."
 
 #: rules.php:40
 msgid "Reset Timer"
@@ -662,28 +636,24 @@ msgstr "Reset-Timer"
 
 #: rules.php:41
 msgid ""
-"Each Category has a Reset Timer which counts down as the match progresses, "
-"this shows the time in which a player can start a new credit."
+"Each Category has a Reset Timer which counts down as the match progresses, this shows the time in "
+"which a player can start a new credit."
 msgstr ""
-"Jede Kategorie verfügt über einen Reset-Timer, der im Laufe des Spiels "
-"herunterzählt und die Zeit anzeigt, in der ein Spieler einen neuen Credit "
-"beginnen kann."
+"Jede Kategorie verfügt über einen Reset-Timer, der im Laufe des Spiels herunterzählt und die Zeit "
+"anzeigt, in der ein Spieler einen neuen Credit beginnen kann."
 
 #: rules.php:42
-msgid ""
-"Players can start as many credits as they want while the Reset Timer is "
-"counting down."
+msgid "Players can start as many credits as they want while the Reset Timer is counting down."
 msgstr ""
-"Die Spieler können so viele Credits starten wie sie wollen während der Reset-"
-"Timer herunterzählt."
+"Die Spieler können so viele Credits starten wie sie wollen während der Reset-Timer herunterzählt."
 
 #: rules.php:43
 msgid ""
-"When the timer reaches zero, the players cannot start any new credits, but "
-"they can finish a credit already in progress."
+"When the timer reaches zero, the players cannot start any new credits, but they can finish a credit "
+"already in progress."
 msgstr ""
-"Wenn der Timer ausläuft können die Spieler keine neuen Credits beginnen, "
-"aber sie können einen bereits angefangenen Credit beenden."
+"Wenn der Timer ausläuft können die Spieler keine neuen Credits beginnen, aber sie können einen "
+"bereits angefangenen Credit beenden."
 
 #: rules.php:45
 msgid "Gameplay Rules"
@@ -695,21 +665,18 @@ msgstr "Survival-Kategorien"
 
 #: rules.php:47
 msgid ""
-"In Survival Categories, players will try to finish the game without dying. "
-"They can only die a maximum of five times and are not allowed to use bombs "
-"or any other in game mechanics to help them."
+"In Survival Categories, players will try to finish the game without dying. They can only die a "
+"maximum of five times and are not allowed to use bombs or any other in game mechanics to help them."
 msgstr ""
-"In den Survival-Kategorien versuchen die Spieler das Spiel zu beenden ohne "
-"zu sterben. Sie können maximal fünf Mal sterben und dürfen keine Bomben oder "
-"andere Spielmechaniken verwenden um ihnen zu helfen."
+"In den Survival-Kategorien versuchen die Spieler das Spiel zu beenden ohne zu sterben. Sie können "
+"maximal fünf Mal sterben und dürfen keine Bomben oder andere Spielmechaniken verwenden um ihnen zu "
+"helfen."
 
 #: rules.php:49
-msgid ""
-"Here is a quick breakdown of how different game mechanics affect Survival "
-"Categories:"
+msgid "Here is a quick breakdown of how different game mechanics affect Survival Categories:"
 msgstr ""
-"Hier ist eine kurze Übersicht darüber wie sich die verschiedenen "
-"Spielmechaniken auf die Survival-Kategorien auswirken:"
+"Hier ist eine kurze Übersicht darüber wie sich die verschiedenen Spielmechaniken auf die Survival-"
+"Kategorien auswirken:"
 
 #: rules.php:50
 msgid "All Touhou Games"
@@ -717,9 +684,7 @@ msgstr "Alle Touhou-Spiele"
 
 #: rules.php:51
 msgid "Bombs: Bombing at anytime is considered two deaths."
-msgstr ""
-"Bomben: Das Verwenden einer Bombe zu einem beliebigen Zeitpunkt gilt als "
-"zwei Tode."
+msgstr "Bomben: Das Verwenden einer Bombe zu einem beliebigen Zeitpunkt gilt als zwei Tode."
 
 #: rules.php:52
 msgid "Touhou 7"
@@ -727,13 +692,12 @@ msgstr ""
 
 #: rules.php:53
 msgid ""
-"Supernatural Border: Breaking a border manually by pressing the bomb key is "
-"considered two deaths. However, running into a bullet while a border is "
-"active will only count as one death."
+"Supernatural Border: Breaking a border manually by pressing the bomb key is considered two deaths. "
+"However, running into a bullet while a border is active will only count as one death."
 msgstr ""
-"Supernatural Border: Das manuelle Durchbrechen einer Border durch Drücken "
-"der Bombentaste wird als zwei Tode gewertet. Wenn du jedoch von einer Bullet "
-"berührt wirst, während eine Border aktiv ist, zählt dies nur als ein Tod."
+"Supernatural Border: Das manuelle Durchbrechen einer Border durch Drücken der Bombentaste wird als "
+"zwei Tode gewertet. Wenn du jedoch von einer Bullet berührt wirst, während eine Border aktiv ist, "
+"zählt dies nur als ein Tod."
 
 #: rules.php:55
 msgid "Touhou 8"
@@ -741,14 +705,13 @@ msgstr ""
 
 #: rules.php:56
 msgid ""
-"Last Spell: Getting hit during a Last Spell is considered a death. Not "
-"meeting the time orb requirement in Stage 1-5 is also considered a death."
-"<br>Timing out a Last Spell is <strong>not</strong> considered a death."
+"Last Spell: Getting hit during a Last Spell is considered a death. Not meeting the time orb "
+"requirement in Stage 1-5 is also considered a death.<br>Timing out a Last Spell is <strong>not</"
+"strong> considered a death."
 msgstr ""
-"Last Spell: Ein Treffer während eines Last Spells gilt als Tod. Das "
-"Nichterreichen des Time Orb-Limits in Stage 1-5 wird ebenfalls als Tod "
-"gewertet. Das Überschreiten der Zeit eines Last Spells wird <strong>nicht</"
-"strong> als Tod gewertet."
+"Last Spell: Ein Treffer während eines Last Spells gilt als Tod. Das Nichterreichen des Time Orb-"
+"Limits in Stage 1-5 wird ebenfalls als Tod gewertet. Das Überschreiten der Zeit eines Last Spells "
+"wird <strong>nicht</strong> als Tod gewertet."
 
 #: rules.php:58
 msgid "Touhou 9"
@@ -812,12 +775,11 @@ msgstr ""
 
 #: rules.php:68
 msgid ""
-"UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens "
-"is allowed and does not count as a death."
+"UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens is allowed and does not "
+"count as a death."
 msgstr ""
-"Das Summonen eines UFOs wird in Survival-Runs als Tod gewertet. Das "
-"Einsammeln von Tokens hat jedoch keinen Einfluss auf die Punktzahl in "
-"Survival-Runs."
+"Das Summonen eines UFOs wird in Survival-Runs als Tod gewertet. Das Einsammeln von Tokens hat jedoch "
+"keinen Einfluss auf die Punktzahl in Survival-Runs."
 
 #: rules.php:69
 msgid "Touhou 12.8"
@@ -825,18 +787,15 @@ msgstr ""
 
 #: rules.php:70
 msgid ""
-"This category is played under different conditions to all other Survival "
-"Categories in TWC. The goal of a player performing a credit in Great Fairy "
-"Wars Lunatic Survival is to play through the game on Lunatic difficulty "
-"while avoiding all enemy attacks and gaining gold medals from spell cards. "
-"Gold medals are attained by capturing spell cards without using Ice Power or "
-"a Perfect Freeze. TWCScore increases exponentially by the number of gold "
-"medals captured by the player and is lost depending on the number of misses. "
-"The parameters of this exponential gain are different for each route. The "
-"number of misses in a Great Fairy Wars Lunatic Survival credit does not "
-"affect the validity of the credit in any form. However, any otherwise valid "
-"credit in a match of Great Fairy Wars Lunatic Survival which ends in a Game "
-"Over will always attain a TWCScore of -50."
+"This category is played under different conditions to all other Survival Categories in TWC. The goal "
+"of a player performing a credit in Great Fairy Wars Lunatic Survival is to play through the game on "
+"Lunatic difficulty while avoiding all enemy attacks and gaining gold medals from spell cards. Gold "
+"medals are attained by capturing spell cards without using Ice Power or a Perfect Freeze. TWCScore "
+"increases exponentially by the number of gold medals captured by the player and is lost depending on "
+"the number of misses. The parameters of this exponential gain are different for each route. The "
+"number of misses in a Great Fairy Wars Lunatic Survival credit does not affect the validity of the "
+"credit in any form. However, any otherwise valid credit in a match of Great Fairy Wars Lunatic "
+"Survival which ends in a Game Over will always attain a TWCScore of -50."
 msgstr ""
 
 #: rules.php:76
@@ -868,9 +827,7 @@ msgstr ""
 
 #: rules.php:80
 msgid "Season Release: Releasing your season gauge is considered two deaths."
-msgstr ""
-"Das Verwenden eines Season-Releases wird bei Survival-Runs als 2 Tode "
-"gewertet."
+msgstr "Das Verwenden eines Season-Releases wird bei Survival-Runs als 2 Tode gewertet."
 
 #: rules.php:81
 msgid "Touhou 17"
@@ -878,25 +835,21 @@ msgstr ""
 
 #: rules.php:82
 msgid ""
-"Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal "
-"tokens during roar mode) is considered 2 deaths. Breaking a Berserk Roar by "
-"touching a bullet gives no extra punishment. However, breaking either a "
-"Berserk Roar or a Standard Roar by pressing the bomb key will always be "
-"considered one death."
+"Animal Spirits: Channeling a Berserk Roar (3 or more of the same animal tokens during roar mode) is "
+"considered 2 deaths. Breaking a Berserk Roar by touching a bullet gives no extra punishment. However, "
+"breaking either a Berserk Roar or a Standard Roar by pressing the bomb key will always be considered "
+"one death."
 msgstr ""
-"Einen Berserk Roar zu verwenden (3 oder mehr gleiche Animal-Tokens im Roar-"
-"Modus) gilt in Survival-Runs als 2 Tode. Das Brechen deines Roars (Bomben "
-"oder Berühren einer Bullet im Roar-Modus) wird als Tod in Survival-Runs "
-"gewertet."
+"Einen Berserk Roar zu verwenden (3 oder mehr gleiche Animal-Tokens im Roar-Modus) gilt in Survival-"
+"Runs als 2 Tode. Das Brechen deines Roars (Bomben oder Berühren einer Bullet im Roar-Modus) wird als "
+"Tod in Survival-Runs gewertet."
 
 #: rules.php:85
 msgid "Touhou 18"
 msgstr ""
 
 #: rules.php:86
-msgid ""
-"Only four ability cards are allowed to be equipped, used or activated at any "
-"time. These are:"
+msgid "Only four ability cards are allowed to be equipped, used or activated at any time. These are:"
 msgstr ""
 
 #: rules.php:88
@@ -917,11 +870,11 @@ msgstr ""
 
 #: rules.php:93
 msgid ""
-"Additionally, the players are only allowed to buy \"Money Comes and Goes On "
-"its Own\" from the card shop between stages."
+"Additionally, the players are only allowed to buy \"Money Comes and Goes On its Own\" from the card "
+"shop between stages."
 msgstr ""
-"Außerdem dürfen die Spieler zwischen den Stages nur \"Money Comes and Goes "
-"On its Own\" im Kartenshop kaufen."
+"Außerdem dürfen die Spieler zwischen den Stages nur \"Money Comes and Goes On its Own\" im Kartenshop "
+"kaufen."
 
 #: rules.php:95
 msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
@@ -933,9 +886,8 @@ msgstr ""
 
 #: rules.php:97
 msgid ""
-"Players will incur no penalty for taking a hit with a shield active. Players "
-"will also incur no penalty for regenerating their shield by using their "
-"gauge."
+"Players will incur no penalty for taking a hit with a shield active. Players will also incur no "
+"penalty for regenerating their shield by using their gauge."
 msgstr ""
 
 #: rules.php:98
@@ -944,13 +896,12 @@ msgstr "Scoring-Kategorien"
 
 #: rules.php:99
 msgid ""
-"In Scoring Categories the players will try to finish the game while gaining "
-"the highest score possible. They can die, bomb and use any other mechanics "
-"as much as they want."
+"In Scoring Categories the players will try to finish the game while gaining the highest score "
+"possible. They can die, bomb and use any other mechanics as much as they want."
 msgstr ""
-"In den Scoring-Kategorien versuchen die Spieler das Spiel zu beenden und "
-"dabei eine höchstmögliche Punktzahl zu erreichen. Sie können sterben, Bomben "
-"verwenden und alle anderen Mechaniken nach Belieben verwenden."
+"In den Scoring-Kategorien versuchen die Spieler das Spiel zu beenden und dabei eine höchstmögliche "
+"Punktzahl zu erreichen. Sie können sterben, Bomben verwenden und alle anderen Mechaniken nach "
+"Belieben verwenden."
 
 #: rules.php:101
 msgid "Some extra details about Scoring Categories:"
@@ -958,48 +909,43 @@ msgstr "Einige zusätzliche Details zu den Scoring-Kategorien:"
 
 #: rules.php:103
 msgid ""
-"Unlike previous years of TWC, there is now no penalty to TWCScore if a "
-"player Game Overs in a Scoring Category."
+"Unlike previous years of TWC, there is now no penalty to TWCScore if a player Game Overs in a Scoring "
+"Category."
 msgstr ""
-"Im Gegensatz zu früheren TWC-Jahren gibt es jetzt keine Strafe mehr auf den "
-"TWCScore wenn ein Spieler in einer Scoring-Kategorie \"Game Over\" geht."
+"Im Gegensatz zu früheren TWC-Jahren gibt es jetzt keine Strafe mehr auf den TWCScore wenn ein Spieler "
+"in einer Scoring-Kategorie \"Game Over\" geht."
 
 #: rules.php:104
 msgid ""
-"Players of the Phantasmagoria of Flower View Lunatic Scoring category are "
-"not allowed to select Aya or Medicine."
+"Players of the Phantasmagoria of Flower View Lunatic Scoring category are not allowed to select Aya "
+"or Medicine."
 msgstr ""
 
 #: rules.php:105
 msgid ""
-"In Touhou 17 and Touhou 18, it is possible to reach the maximum value the "
-"score counter can display, known as a counterstop. If this happens, we will "
-"use the player's \"True Score\" which can be determined by using counterstop "
-"removal patches."
+"In Touhou 17 and Touhou 18, it is possible to reach the maximum value the score counter can display, "
+"known as a counterstop. If this happens, we will use the player's \"True Score\" which can be "
+"determined by using counterstop removal patches."
 msgstr ""
-"In Touhou 17 und Touhou 18 ist es möglich den Maximalwert zu erreichen, den "
-"der Punktezähler anzeigen kann. Dies wird \"Counterstop\" genannt. In diesem "
-"Fall wird der \"wahre Punktestand\" des Spielers verwendet, der mit Hilfe "
-"von Patches zur Entfernung des \"Counterstops\" ermittelt werden kann."
+"In Touhou 17 und Touhou 18 ist es möglich den Maximalwert zu erreichen, den der Punktezähler anzeigen "
+"kann. Dies wird \"Counterstop\" genannt. In diesem Fall wird der \"wahre Punktestand\" des Spielers "
+"verwendet, der mit Hilfe von Patches zur Entfernung des \"Counterstops\" ermittelt werden kann."
 
 #: rules.php:107
 msgid ""
-"In Touhou 12, the score counter will display the player's score incorrectly "
-"if the score reaches a high enough value. However, if this happens, the game "
-"will still record the player's score correctly on the high score leaderboard "
-"and that value will be used instead."
+"In Touhou 12, the score counter will display the player's score incorrectly if the score reaches a "
+"high enough value. However, if this happens, the game will still record the player's score correctly "
+"on the high score leaderboard and that value will be used instead."
 msgstr ""
-"In Touhou 12 zeigt der Punktezähler den Punktestand des Spielers falsch an "
-"wenn dieser einen ausreichend hohen Wert erreicht. In diesem Fall zeigt das "
-"Spiel die Punktzahl des Spielers in der Highscore-Rangliste dennoch korrekt "
-"an und dieser Wert wird stattdessen verwendet."
+"In Touhou 12 zeigt der Punktezähler den Punktestand des Spielers falsch an wenn dieser einen "
+"ausreichend hohen Wert erreicht. In diesem Fall zeigt das Spiel die Punktzahl des Spielers in der "
+"Highscore-Rangliste dennoch korrekt an und dieser Wert wird stattdessen verwendet."
 
 #: rules.php:110
 msgid ""
-"In Touhou 18, the \"Market Manip.\" option from thprac is allowed for use. "
-"However, credits that directly use Market Manipulation are considered "
-"invalid. Market Manipulation can be performed both before and during the "
-"match. This rule is subject to change depending on dialogue with players."
+"In Touhou 18, the \"Market Manip.\" option from thprac is allowed for use. However, credits that "
+"directly use Market Manipulation are considered invalid. Market Manipulation can be performed both "
+"before and during the match. This rule is subject to change depending on dialogue with players."
 msgstr ""
 
 #: rules.php:115
@@ -1012,11 +958,11 @@ msgstr "Vpatch ist für alle anwendbaren Spiele erlaubt."
 
 #: rules.php:117
 msgid ""
-"thprac can be used for practice during a match, but all cheats must be "
-"disabled when performing credits."
+"thprac can be used for practice during a match, but all cheats must be disabled when performing "
+"credits."
 msgstr ""
-"thprac kann während eines Matches zum Üben verwendet werden, aber alle "
-"Cheats müssen während den Credits deaktiviert werden."
+"thprac kann während eines Matches zum Üben verwendet werden, aber alle Cheats müssen während den "
+"Credits deaktiviert werden."
 
 #: rules.php:118
 msgid "Counterstop Removal Patches and Scorebug Patches are allowed."
@@ -1032,19 +978,19 @@ msgstr "Andere Regeln"
 
 #: rules.php:123
 msgid ""
-"Players must stream their gameplay while playing their match, without "
-"covering any HUD or gameplay elements."
+"Players must stream their gameplay while playing their match, without covering any HUD or gameplay "
+"elements."
 msgstr ""
-"Die Spieler müssen ihr Spiel streamen während sie ihr Match spielen ohne "
-"dabei das HUD oder Gameplay-Elemente zu verdecken."
+"Die Spieler müssen ihr Spiel streamen während sie ihr Match spielen ohne dabei das HUD oder Gameplay-"
+"Elemente zu verdecken."
 
 #: rules.php:124
 msgid ""
-"The replay file of each player's best performing credit must be submitted to "
-"the TWC Committee at the end of a match."
+"The replay file of each player's best performing credit must be submitted to the TWC Committee at the "
+"end of a match."
 msgstr ""
-"Die Replay-Datei des besten Credits eines jeden Spielers muss dem TWC-"
-"Komitee am Ende eines Matches zugesendet werden."
+"Die Replay-Datei des besten Credits eines jeden Spielers muss dem TWC-Komitee am Ende eines Matches "
+"zugesendet werden."
 
 #: rules.php:125
 msgid "Please hide the ending when you reach the end of the game."
@@ -1067,12 +1013,10 @@ msgid "This page requires JavaScript"
 msgstr "Diese Website benötigt JavaScript"
 
 #: twcscore.php:21
-msgid ""
-"Use this page to calculate TWCScore for any particular run. TWCScore is "
-"subject to change."
+msgid "Use this page to calculate TWCScore for any particular run. TWCScore is subject to change."
 msgstr ""
-"Auf dieser Seite kannst du den TWCScore für einen bestimmten Run berechnen. "
-"Der TWCScore kann sich zukünftig noch ändern."
+"Auf dieser Seite kannst du den TWCScore für einen bestimmten Run berechnen. Der TWCScore kann sich "
+"zukünftig noch ändern."
 
 #: twcscore.php:23
 msgid "Click here to see the survival rubrics."
@@ -1228,12 +1172,11 @@ msgstr "Bitte fülle die Goldmedaillen aus"
 
 #: twcscore.php:172
 msgid ""
-"FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
-"<a href=\"https://twitter.com/32thc\" target=\"_blank\">32th System</a>"
+"FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact <a href=\"https://bsky.app/"
+"profile/maribelhearn42.bsky.social\" target=\"_blank\">Maribel Hearn</a>"
 msgstr ""
-"FATAL ERROR: wrong type for \"element\" in get_element_val. Bitte "
-"kontaktiere <a href=\"https://twitter.com/32thc\" target=\"_blank\">32th "
-"System</a>"
+"FATAL ERROR: wrong type for \"element\" in get_element_val. Bitte kontaktiere <a href=\"https://"
+"bsky.app/profile/maribelhearn42.bsky.social\" target=\"_blank\">Maribel Hearn</a>"
 
 #: twcscore.php:176
 msgid "Calculate"
@@ -1284,38 +1227,27 @@ msgstr "Punktanzahl:"
 #~ msgstr "Erde"
 
 #~ msgid ""
-#~ "The full official rulebook can be found <a href=\"assets/TWC_Handbook."
-#~ "pdf\" target=\"_blank\">here</a>. Currently, it is only available in the "
-#~ "English language."
+#~ "The full official rulebook can be found <a href=\"assets/TWC_Handbook.pdf\" "
+#~ "target=\"_blank\">here</a>. Currently, it is only available in the English language."
 #~ msgstr ""
-#~ "Das vollständige offizielle Regelwerk ist <a href=\"assets/TWC_Handbook."
-#~ "pdf\" target=\"_blank\">hier</a> zu finden. Derzeit ist es nur in "
-#~ "englischer Sprache verfügbar."
+#~ "Das vollständige offizielle Regelwerk ist <a href=\"assets/TWC_Handbook.pdf\" "
+#~ "target=\"_blank\">hier</a> zu finden. Derzeit ist es nur in englischer Sprache verfügbar."
 
-#~ msgid ""
-#~ "<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" target=\"_blank\">Sign up "
-#~ "here!</a>"
-#~ msgstr ""
-#~ "<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" target=\"_blank\">Hier "
-#~ "einschreiben!</a>"
+#~ msgid "<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" target=\"_blank\">Sign up here!</a>"
+#~ msgstr "<a href=\"https://forms.gle/CfCrPn71xXXjA3Kt5\" target=\"_blank\">Hier einschreiben!</a>"
 
 #~ msgid "This page lists the results of past years of Touhou World Cup."
-#~ msgstr ""
-#~ "Diese Seite listet die Ergebnisse der vergangenen Jahre der Touhou World "
-#~ "Cup auf."
+#~ msgstr "Diese Seite listet die Ergebnisse der vergangenen Jahre der Touhou World Cup auf."
 
 #~ msgid ""
-#~ "Last Spell: Getting hit during a Last Spell is <strong>not</strong> "
-#~ "considered a death in survival runs. However, never dying or bombing and "
-#~ "capturing every Spell Card, including Last Spells, awards a TWCScore "
-#~ "bonus (NN + FS)."
+#~ "Last Spell: Getting hit during a Last Spell is <strong>not</strong> considered a death in survival "
+#~ "runs. However, never dying or bombing and capturing every Spell Card, including Last Spells, "
+#~ "awards a TWCScore bonus (NN + FS)."
 #~ msgstr ""
-#~ "Während eines Last Spells getroffen zu werden, gilt in Survival-Runs "
-#~ "<strong>nicht</strong> als Tod. Allerdings gibt TWCScore in diesem Spiel "
-#~ "einen höheren Basiswert für Runs, bei denen man alle Spells schafft (was "
-#~ "das Freischalten und Schaffen <strong>jedes</strong> Last Spells "
-#~ "beinhaltet) <strong>und</strong> bei denen man nicht stirbt/bombt (NN + "
-#~ "FS)."
+#~ "Während eines Last Spells getroffen zu werden, gilt in Survival-Runs <strong>nicht</strong> als "
+#~ "Tod. Allerdings gibt TWCScore in diesem Spiel einen höheren Basiswert für Runs, bei denen man alle "
+#~ "Spells schafft (was das Freischalten und Schaffen <strong>jedes</strong> Last Spells beinhaltet) "
+#~ "<strong>und</strong> bei denen man nicht stirbt/bombt (NN + FS)."
 
 #~ msgid "Language"
 #~ msgstr "Sprache"
@@ -1336,14 +1268,11 @@ msgstr "Punktanzahl:"
 #~ msgstr "Flagge von Spanien"
 
 #~ msgid "Last Spell: Getting hit during a Last Spell is considered a death."
-#~ msgstr ""
-#~ "Last Spell: Ein Treffer während eines Last Spells wird als Tod gewertet."
+#~ msgstr "Last Spell: Ein Treffer während eines Last Spells wird als Tod gewertet."
 
 #~ msgid ""
-#~ "The TWCScore of a credit can be calculated using the <a "
-#~ "href=\"twcscore\">TWCScore Calculator</a>."
-#~ msgstr ""
-#~ "Die Punkte basieren auf dem <a href=\"twcscore\">TWCScore-Rechner</a>."
+#~ "The TWCScore of a credit can be calculated using the <a href=\"twcscore\">TWCScore Calculator</a>."
+#~ msgstr "Die Punkte basieren auf dem <a href=\"twcscore\">TWCScore-Rechner</a>."
 
 #~ msgid "Chinese commentary stream 1 (Bilibili)"
 #~ msgstr "Chinesischer Kommentar-Stream 1 (Bilibili)"
@@ -1358,30 +1287,27 @@ msgstr "Punktanzahl:"
 #~ msgstr "Russischer Kommentar-Stream (Twitch)"
 
 #~ msgid ""
-#~ "If multiple players have the exact same amount of ISCORE, their points "
-#~ "will be split equally. This also means that, if multiple players have the "
-#~ "highest ISCORE, the match ends in a tie."
+#~ "If multiple players have the exact same amount of ISCORE, their points will be split equally. This "
+#~ "also means that, if multiple players have the highest ISCORE, the match ends in a tie."
 #~ msgstr ""
-#~ "Wenn mehrere Spieler die exakt gleiche Anzahl an ISCORE haben, werden "
-#~ "ihre Punkte gleichmäßig aufgeteilt. Das bedeutet auch, dass, wenn mehrere "
-#~ "Spieler den höchsten ISCORE haben, das Spiel unentschieden endet."
+#~ "Wenn mehrere Spieler die exakt gleiche Anzahl an ISCORE haben, werden ihre Punkte gleichmäßig "
+#~ "aufgeteilt. Das bedeutet auch, dass, wenn mehrere Spieler den höchsten ISCORE haben, das Spiel "
+#~ "unentschieden endet."
 
-#~ msgid ""
-#~ "At the end of the World Cup, the teams will be ranked based on has the "
-#~ "most points."
+#~ msgid "At the end of the World Cup, the teams will be ranked based on has the most points."
 #~ msgstr ""
-#~ "Am Ende des Weltcups werden die Teams nach den meisten Punkten geordnet "
-#~ "in die Rangliste aufgenommen."
+#~ "Am Ende des Weltcups werden die Teams nach den meisten Punkten geordnet in die Rangliste "
+#~ "aufgenommen."
 
 #~ msgid "Calculating Points"
 #~ msgstr "Berechnung der Punkte"
 
 #~ msgid ""
-#~ "Score matches are calculated based on the ISCORE formula. Survival "
-#~ "matches (except for GFW) are calculated as follows:"
+#~ "Score matches are calculated based on the ISCORE formula. Survival matches (except for GFW) are "
+#~ "calculated as follows:"
 #~ msgstr ""
-#~ "Score-Matches werden auf der Grundlage der ISCORE-Formel berechnet. "
-#~ "Survival Matches (außer GFW) werden wie folgt berechnet:"
+#~ "Score-Matches werden auf der Grundlage der ISCORE-Formel berechnet. Survival Matches (außer GFW) "
+#~ "werden wie folgt berechnet:"
 
 #~ msgid "(ISCORE No Miss No Bomb Score) / 2 ^ (deaths)"
 #~ msgstr "(ISCORE No Miss No Bomb Score) / 2 ^ (Tode)"
@@ -1390,14 +1316,13 @@ msgstr "Punktanzahl:"
 #~ msgstr "In Survival-Runs werden Bomben als 2 Tode gewertet."
 
 #~ msgid ""
-#~ "ISCORE is a scoring metric that compensates for the differences in "
-#~ "performance between shot types and categories. The formulas used can be "
-#~ "found in the ISCORE rubric with the calculator linked above."
+#~ "ISCORE is a scoring metric that compensates for the differences in performance between shot types "
+#~ "and categories. The formulas used can be found in the ISCORE rubric with the calculator linked "
+#~ "above."
 #~ msgstr ""
-#~ "ISCORE ist ein Bewertungsmaßstab, der die Leistungsunterschiede zwischen "
-#~ "den einzelnen Shot Types und Kategorien ausgleicht. Die verwendeten "
-#~ "Formeln sind in der ISCORE-Rubrik mit dem oben verlinkten Rechner zu "
-#~ "finden."
+#~ "ISCORE ist ein Bewertungsmaßstab, der die Leistungsunterschiede zwischen den einzelnen Shot Types "
+#~ "und Kategorien ausgleicht. Die verwendeten Formeln sind in der ISCORE-Rubrik mit dem oben "
+#~ "verlinkten Rechner zu finden."
 
 #~ msgid "Game-specific Concerns"
 #~ msgstr "Spielspezifische Anmerkungen"
@@ -1406,100 +1331,85 @@ msgstr "Punktanzahl:"
 #~ msgstr "Ein Border Break wird bei Survival-Runs als Tod angesehen."
 
 #~ msgid "The survival formula for this game is (gold medals*1.5)-(deaths)."
-#~ msgstr ""
-#~ "Die Survival-Formel für dieses Spiel lautet (Goldmedaillen*1,5)-(Tode)."
+#~ msgstr "Die Survival-Formel für dieses Spiel lautet (Goldmedaillen*1,5)-(Tode)."
 
 #~ msgid ""
-#~ "A manual trance is considered 2 deaths in survival runs. ISCORE gives a "
-#~ "higher base value in this game to runs that capture all spells AND does "
-#~ "not die/bomb (NN + Full-SC)."
+#~ "A manual trance is considered 2 deaths in survival runs. ISCORE gives a higher base value in this "
+#~ "game to runs that capture all spells AND does not die/bomb (NN + Full-SC)."
 #~ msgstr ""
-#~ "Ein manueller Trance wird bei Survival-Runs als 2 Tode gewertet. ISCORE "
-#~ "gibt in diesem Spiel einen höheren Basiswert für Runs, die alle Spells "
-#~ "schaffen UND nicht sterben/bomben (NN + Full-SC)."
+#~ "Ein manueller Trance wird bei Survival-Runs als 2 Tode gewertet. ISCORE gibt in diesem Spiel einen "
+#~ "höheren Basiswert für Runs, die alle Spells schaffen UND nicht sterben/bomben (NN + Full-SC)."
 
 #~ msgid "All runs in both survival/score have to be done in Legacy Mode."
-#~ msgstr ""
-#~ "Alle Runs in Survival/Scoring müssen im Legacy-Modus durchgespielt werden."
+#~ msgstr "Alle Runs in Survival/Scoring müssen im Legacy-Modus durchgespielt werden."
 
 #~ msgid "Use of Third Party Software &amp; Material"
 #~ msgstr "Verwendung von Software von Dritten &amp; Material"
 
 #~ msgid ""
-#~ "Vsync patch is allowed. Practice patches (such as thprac) are allowed, "
-#~ "but all practice cheats have to be disabled for the runs."
+#~ "Vsync patch is allowed. Practice patches (such as thprac) are allowed, but all practice cheats "
+#~ "have to be disabled for the runs."
 #~ msgstr ""
-#~ "Vsync Patch ist erlaubt. Übungspatches (wie thprac) sind erlaubt, aber "
-#~ "alle Übungs-Cheats müssen für die Runs deaktiviert werden."
+#~ "Vsync Patch ist erlaubt. Übungspatches (wie thprac) sind erlaubt, aber alle Übungs-Cheats müssen "
+#~ "für die Runs deaktiviert werden."
 
 #~ msgid ""
-#~ "Visual patches (e.g. hitbox patch) are prohibited. Translation patches "
-#~ "are allowed but discouraged. Audio patches/background music is allowed "
-#~ "but no copyrighted material."
+#~ "Visual patches (e.g. hitbox patch) are prohibited. Translation patches are allowed but "
+#~ "discouraged. Audio patches/background music is allowed but no copyrighted material."
 #~ msgstr ""
-#~ "Visuelle Patches (z. B. Hitbox Patch) sind verboten. Übersetzungspatches "
-#~ "sind erlaubt, aber nicht erwünscht. Audio Patches/Hintergrundmusik sind "
-#~ "erlaubt, aber kein urheberrechtlich geschütztes Material."
+#~ "Visuelle Patches (z. B. Hitbox Patch) sind verboten. Übersetzungspatches sind erlaubt, aber nicht "
+#~ "erwünscht. Audio Patches/Hintergrundmusik sind erlaubt, aber kein urheberrechtlich geschütztes "
+#~ "Material."
 
 #~ msgid ""
-#~ "<li>Runs only count from the moment the timer has started.</"
-#~ "li><li>Players can start as many runs as they want during the match. When "
-#~ "the timer has finished on stream, no new runs can be started anymore.</"
-#~ "li><li>A clear is always better than a gameover, no matter the score "
-#~ "difference.</li><li>The players have to stream their gameplay. Just "
-#~ "stream game footage: no overlay that shapes/crops the stream.</"
-#~ "li><li>Streamers are allowed to have elements (images, input displays, "
-#~ "cameras, etc.) on top of their game. However, the gameplay window, as "
-#~ "well as all information on the player's HUD, has to be visible at all "
-#~ "times.</li><li>Finished runs need their replays saved.</li><li>Please "
-#~ "hide the story ending when your run finishes.</li>"
+#~ "<li>Runs only count from the moment the timer has started.</li><li>Players can start as many runs "
+#~ "as they want during the match. When the timer has finished on stream, no new runs can be started "
+#~ "anymore.</li><li>A clear is always better than a gameover, no matter the score difference.</"
+#~ "li><li>The players have to stream their gameplay. Just stream game footage: no overlay that shapes/"
+#~ "crops the stream.</li><li>Streamers are allowed to have elements (images, input displays, cameras, "
+#~ "etc.) on top of their game. However, the gameplay window, as well as all information on the "
+#~ "player's HUD, has to be visible at all times.</li><li>Finished runs need their replays saved.</"
+#~ "li><li>Please hide the story ending when your run finishes.</li>"
 #~ msgstr ""
-#~ "<li>Runs werden nur ab dem Zeitpunkt gezählt, an dem der Timer gestartet "
-#~ "wurde.</li><li>Die Spieler können während des Matches so viele Runs "
-#~ "starten, wie sie wollen. Wenn der Timer im Stream abgelaufen ist, können "
-#~ "keine neuen Runs mehr gestartet werden.</li><li>Ein voller Run ist immer "
-#~ "besser als ein Game Over, egal wie groß der Punkteunterschied ist.</"
-#~ "li><li>Die Spieler müssen ihr Spiel streamen. Nur das Spiel streamen: "
-#~ "kein Overlay, das den Stream formt/beschneidet.</li><li>Streamer dürfen "
-#~ "Elemente (Bilder, Input Displays, Kameras usw.) über ihr Spiel legen. Das "
-#~ "Gameplay-Fenster sowie alle Informationen auf dem HUD des Spielers müssen "
-#~ "jedoch jederzeit sichtbar sein.</li><li>Beendete Runs müssen als Replay "
-#~ "gespeichert werden.</li><li>Bitte verstecke das Story-Ende, wenn dein Run "
-#~ "beendet ist.</li>"
+#~ "<li>Runs werden nur ab dem Zeitpunkt gezählt, an dem der Timer gestartet wurde.</li><li>Die "
+#~ "Spieler können während des Matches so viele Runs starten, wie sie wollen. Wenn der Timer im Stream "
+#~ "abgelaufen ist, können keine neuen Runs mehr gestartet werden.</li><li>Ein voller Run ist immer "
+#~ "besser als ein Game Over, egal wie groß der Punkteunterschied ist.</li><li>Die Spieler müssen ihr "
+#~ "Spiel streamen. Nur das Spiel streamen: kein Overlay, das den Stream formt/beschneidet.</"
+#~ "li><li>Streamer dürfen Elemente (Bilder, Input Displays, Kameras usw.) über ihr Spiel legen. Das "
+#~ "Gameplay-Fenster sowie alle Informationen auf dem HUD des Spielers müssen jedoch jederzeit "
+#~ "sichtbar sein.</li><li>Beendete Runs müssen als Replay gespeichert werden.</li><li>Bitte verstecke "
+#~ "das Story-Ende, wenn dein Run beendet ist.</li>"
 
 #~ msgid ""
-#~ "The points are based on the <a href=\"https://www.isndes.com/jf\">ISCORE "
-#~ "calculator</a> (see the \"About ISCORE\" link in the top right after "
-#~ "changing to English via the language icon, fourth from the right)."
+#~ "The points are based on the <a href=\"https://www.isndes.com/jf\">ISCORE calculator</a> (see the "
+#~ "\"About ISCORE\" link in the top right after changing to English via the language icon, fourth "
+#~ "from the right)."
 #~ msgstr ""
-#~ "Die Punkte basieren auf dem <a href=\"https://www.isndes.com/jf\">ISCORE-"
-#~ "Rechner</a> (siehe den Link \"About ISCORE\" oben rechts, nachdem du über "
-#~ "das Sprachsymbol (viertes von rechts) zu Englisch gewechselt hast)."
+#~ "Die Punkte basieren auf dem <a href=\"https://www.isndes.com/jf\">ISCORE-Rechner</a> (siehe den "
+#~ "Link \"About ISCORE\" oben rechts, nachdem du über das Sprachsymbol (viertes von rechts) zu "
+#~ "Englisch gewechselt hast)."
 
 #~ msgid ""
-#~ "An accurate list of Touhou world records, updated every so often. Note "
-#~ "that the player ranking at the bottom does not take into account how "
-#~ "strong specific records are, only numbers. The list does not include "
-#~ "scene games as of now."
+#~ "An accurate list of Touhou world records, updated every so often. Note that the player ranking at "
+#~ "the bottom does not take into account how strong specific records are, only numbers. The list does "
+#~ "not include scene games as of now."
 #~ msgstr ""
-#~ "Eine genaue Liste der Touhou-Weltrekorde, die von Zeit zu Zeit "
-#~ "aktualisiert wird. Beachte, dass das Spieler-Ranking am Ende nicht "
-#~ "berücksichtigt, wie gut bestimmte Rekorde sind, sondern nur Zahlen. Die "
-#~ "Liste enthält derzeit keine Szenen-Spiele."
+#~ "Eine genaue Liste der Touhou-Weltrekorde, die von Zeit zu Zeit aktualisiert wird. Beachte, dass "
+#~ "das Spieler-Ranking am Ende nicht berücksichtigt, wie gut bestimmte Rekorde sind, sondern nur "
+#~ "Zahlen. Die Liste enthält derzeit keine Szenen-Spiele."
+
+#~ msgid "Click a score to download the corresponding replay, if there is one available. "
+#~ msgstr ""
+#~ "Klicke auf Eine Punktanzahl, um das entsprechende Replay herunterzuladen, sofern eines verfügbar "
+#~ "ist. "
 
 #~ msgid ""
-#~ "Click a score to download the corresponding replay, if there is one "
-#~ "available. "
+#~ "The replays provided are <strong>not</strong> meant to be reuploaded to any replay uploading "
+#~ "services."
 #~ msgstr ""
-#~ "Klicke auf Eine Punktanzahl, um das entsprechende Replay herunterzuladen, "
-#~ "sofern eines verfügbar ist. "
-
-#~ msgid ""
-#~ "The replays provided are <strong>not</strong> meant to be reuploaded to "
-#~ "any replay uploading services."
-#~ msgstr ""
-#~ "Die zur Verfügung gestellten Replays sind <strong>nicht</strong> dafür "
-#~ "gedacht, auf irgendwelche Replay-Upload-Dienste hochgeladen zu werden."
+#~ "Die zur Verfügung gestellten Replays sind <strong>nicht</strong> dafür gedacht, auf irgendwelche "
+#~ "Replay-Upload-Dienste hochgeladen zu werden."
 
 #~ msgid "Overall Records"
 #~ msgstr "Gesamtrekorde"
@@ -1532,9 +1442,7 @@ msgstr "Punktanzahl:"
 #~ msgstr "Klick auf ein Spielcover, um die Liste der Weltrekorde anzuzeigen."
 
 #~ msgid "Choose a player name from the menu below to show their WRs."
-#~ msgstr ""
-#~ "Wähle einen Spielernamen aus dem unten stehenden Menü, um die WRs "
-#~ "anzuzeigen."
+#~ msgstr "Wähle einen Spielernamen aus dem unten stehenden Menü, um die WRs anzuzeigen."
 
 #~ msgid "No. of WRs"
 #~ msgstr "Anzahl WRs"
