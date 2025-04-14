@@ -34,7 +34,7 @@
     <h2><?php echo _('TWCScore') ?></h2>
         <p><?php echo _('The quality of credits is calculated through the <a href="twcscore">TWCScore Calculator</a>. This is a scoring metric which compensates for differences in shot type performance so that there is a point of comparison between credits in a category.') ?></p>
         <p><?php echo _('The TWCScore of credits is used to determine player ranking at the end of a match, with each player\'s best performing credit being used.') ?></p>
-        <p><?php echo _('For Survival Categories, each shot type starts with a prescribed TWCScore with this value being cut in half every time the player dies.') ?></p>
+        <p><?php echo _('For Survival Categories, each shot type starts with an initial TWCScore with this value being multiplied by a Rate of Decay between 0 and 1 for every miss the player accrues. Usually the rate is set to 0.5, but a few exceptions exist (e.g. UM Reimu).') ?></p>
         <p><?php echo _('For Scoring Categories, TWCScore increases exponentially as the player\'s in-game score increases.') ?></p>
     <hr>
     <h2><?php echo _('Reset Timer') ?></h2>
@@ -57,13 +57,19 @@
                 'Timing out a Last Spell is <strong>not</strong> considered a death.') ?></p>
             <h4><?php echo _('Touhou 9') ?></h4>
                 <p><?php echo _('This category is played under different conditions to all other Survival Categories in TWC. ' .
-                'The goal of a player performing a credit in Phantasmagoria of Flower View Lunatic Survival is to maximise the number of remaining lives at the end of the credit. ' .
-                'Each Shot Type will be assigned a TWCScore by the TWCScore Rubric according to the number of remaining lives.<br>' .
+                'There are two scoring methods in this category, and which one will be used will be decided by dialogue with players.') ?></p>
+                <h4><?php echo _('Plan A (based on the number of remaining lives)') ?></h4>
+                <p><?php echo _('Each Shot Type will be assigned a TWCScore by the TWCScore Rubric according to the number of remaining lives. ' .
                 'TWCScore of this category can be regarded as substituting "7 - the number of remaining lives" for the "the number of misses" in the formula of other Survival Categories in TWC, ' .
                 'with the exception that a bonus of [0.02 * the duration (in seconds) of Stage 9 first round] is added at the end of a credit. ' .
                 'An additional TWCScore bonus will be applied when there are 7 remaining lives. Any credit that ends with less than 2 lives remaining will always attain a TWCScore of zero.') ?></p>
+                <h4><?php echo _('Plan B (based on the number of rounds you lost)') ?></h4>
+                <p><?php echo _('Each Shot Type will be assigned a TWCScore by the TWCScore Rubric according to the number of rounds you lost. ' .
+                'TWCScore of this category can be regarded as substituting "the number of rounds you lost" for the "the number of misses" in the formula of other Survival Categories in TWC, ' .
+                'with the exception that a bonus of [0.02 * the duration (in seconds) of Stage 9 first round] is added at the end of a credit. ' . 
+                'An additional TWCScore bonus will be applied when you never lose any rounds. Any credit which accrues more than 5 rounds lost total will always attain a TWCScore of zero.') ?></p>
             <h4><?php echo _('Touhou 11') ?></h4>
-                <p><?php echo _('There is a TWCScore Bonus for a credit that captures all spellcards and finishes with zero deaths.') ?></p>
+                <p><?php echo _('For some shottypes, capturing Cat Sign "Vengeful Cat Spirit\'s Erratic Step" (Stage 5 midspell) will award a Challenge Bonus that is added to the initial TWCScore and is subject to the same score reduction from misses.') ?></p>
             <h4><?php echo _('Touhou 12') ?></h4>
                 <p><?php echo _('UFOs: Summoning a UFO is considered a death. However, collecting UFO tokens is allowed and does not count as a death.') ?></p>
             <h4><?php echo _('Touhou 12.8') ?></h4>
@@ -75,7 +81,9 @@
                 'However, any otherwise valid credit in a match of Great Fairy Wars Lunatic Survival which ends in a Game Over will always attain a TWCScore of -50.') ?></p>
             <h4><?php echo _('Touhou 13') ?></h4>
                 <p><?php echo _('Trance: A manually activated trance is considered two deaths.<br>' .
-                'Additionally, there is a TWCScore Bonus for a credit that captures all spellcards and finishes with zero deaths.') ?></p>
+                'Capturing Desire Sign "Score Desire Eater" (Yoshika\'s last spell) will award a Challenge Bonus that is added to the initial TWCScore and is subject to the same score reduction from misses.') ?></p>
+            <h4><?php echo _('Touhou 14') ?></h4>
+                <p><?php echo _('For some shottypes, capturing Fang Sign "Moonlit Canine Teeth" (Stage 3 midspell) will award a Challenge Bonus that is added to the initial TWCScore and is subject to the same score reduction from misses.') ?></p>
             <h4><?php echo _('Touhou 16') ?></h4>
                 <p><?php echo _('Season Release: Releasing your season gauge is considered two deaths.') ?></p>
             <h4><?php echo _('Touhou 17') ?></h4>
