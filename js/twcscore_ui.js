@@ -49,6 +49,12 @@ window.onload = () => {
         "th14": true,
         "th16": true
 	}
+    const game_has_cb = {
+        "th11": true,
+        "th13": true,
+        "th14": true,
+        "th19": true,
+    }
 
     const sep = (number) => {
         return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
@@ -162,7 +168,7 @@ window.onload = () => {
 				th128_medal_w.style.display = "none";
 			}
 
-			if (game_name === "th11" || game_name === "th13" || game_name === "th14") {
+			if (game_has_cb[game_name]) {
 				challengebonus_w.style.display = "inline";
 			} else {
 				challengebonus_w.style.display = "none";
