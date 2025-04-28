@@ -68,7 +68,23 @@ function toDateString(dateTime) {
     return date.toLocaleString(language, {"dateStyle": "full"}) + ", " + date.toLocaleTimeString(language);
 }
 
-function convertDateTimes(year) {
+function convertDateTimes() {
+    const schedule = document.getElementById("schedule_tbody");
+    const rows = schedule.getElementsByTagName("tr");
+
+    for (const row of rows) {
+        const dateElement = row.firstChild;
+
+        if (!dateElement.id.startsWith("date")) {
+            continue;
+        }
+
+        const dateString = toDateString(dateElement.innerHTML + " UTC");
+        dateElement.innerHTML = `<td class='noborders'>${dateString}</td>`;
+    }
+}
+
+function convertPastDateTimes(year) {
     const loop = true;
     let index = 0;
 
@@ -171,13 +187,13 @@ function init() {
     }
 
     if (location.pathname == "/schedule") {
-        convertDateTimes("2025");
+        convertDateTimes();
     } else {
-        convertDateTimes("2024");
-        convertDateTimes("2023");
-        convertDateTimes("2022");
-        convertDateTimes("2021");
-        convertDateTimes("2020");
+        convertPastDateTimes("2024");
+        convertPastDateTimes("2023");
+        convertPastDateTimes("2022");
+        convertPastDateTimes("2021");
+        convertPastDateTimes("2020");
     }
 
     scheduleElement = document.getElementById("schedule");
