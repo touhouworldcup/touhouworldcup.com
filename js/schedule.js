@@ -92,7 +92,7 @@ function convertPastDateTimes(year) {
         const dateElement = document.getElementById(`date_${year}_${index}`);
 
         if (!dateElement) {
-            continue;
+            break;
         }
 
         const dateString = toDateString(dateElement.innerHTML + " UTC");

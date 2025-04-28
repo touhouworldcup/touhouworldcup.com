@@ -17,7 +17,7 @@ echo file_exists($path) ? file_get_contents($path) : '';
 if ($page == 'twcscore') {
     echo file_get_contents('../js/twcscore_ui' . $min . '.js');
 } else if ($page == 'results') {
-    echo file_get_contents('../js/schedule.js');
+    echo file_get_contents('../js/schedule-min.js');
 }
 echo ';function close_menu(){menu.checked=false;lang.checked=false}' .
 'function menu_func(event){if(menu_checked){menu_checked=false;return;}menu_checked=true;lang_checked=false;event.stopPropagation()}' .
