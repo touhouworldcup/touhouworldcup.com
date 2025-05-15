@@ -48,6 +48,7 @@ window.onload = () => {
         "th12": true,
         "th13": true,
         "th14": true,
+        "th15": true,
         "th16": true,
         "th18": true
 	}
@@ -98,27 +99,29 @@ window.onload = () => {
     }
 
     const toggle_aya_medicine_phantasm = (game_name) => {
-        const aya = document.getElementById("th09Aya");
-        const medicine = document.getElementById("th09Medicine");
+        // Commented out due to the approval of aya and 'medicine' usage in 2025
 
-        if (aya && medicine) {
-            const diff = diff_sel.value;
-            const rt = get_name(runtype);
-            const display = diff == "Extra" || rt == "surv" ? "inline-block": "none";
+        // const aya = document.getElementById("th09Aya");
+        // const medicine = document.getElementById("th09Medicine");
 
-            aya.style.display = display;
-            medicine.style.display = display;
+        // if (aya && medicine) {
+        //     const diff = diff_sel.value;
+        //     const rt = get_name(runtype);
+        //     const display = diff == "Extra" || rt == "surv" ? "inline-block": "none";
 
-            const shot_name = get_shot_name();
+        //     aya.style.display = display;
+        //     medicine.style.display = display;
 
-            if (diff == "Lunatic" && rt == "score" && (shot_name == "Aya" || shot_name == "Medicine")) {
-                const radio_buttons = document.getElementById("th09").querySelectorAll("input");
+        //     const shot_name = get_shot_name();
 
-                for (const radio_button of radio_buttons) {
-                    radio_button.checked = false;
-                }
-            }
-        }
+        //     if (diff == "Lunatic" && rt == "score" && (shot_name == "Aya" || shot_name == "Medicine")) {
+        //         const radio_buttons = document.getElementById("th09").querySelectorAll("input");
+
+        //         for (const radio_button of radio_buttons) {
+        //             radio_button.checked = false;
+        //         }
+        //     }
+        // }
 
         if (game_name !== "th07" && diff_sel.value === "Phantasm") {
             diff_sel.value = "Extra";
