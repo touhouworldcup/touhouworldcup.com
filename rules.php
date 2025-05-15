@@ -57,17 +57,11 @@
                 'Timing out a Last Spell is <strong>not</strong> considered a death.') ?></p>
             <h4><?php echo _('Touhou 9') ?></h4>
                 <p><?php echo _('This category is played under different conditions to all other Survival Categories in TWC. ' .
-                'There are two scoring methods in this category, and which one will be used will be decided by dialogue with players.') ?></p>
-                <h4><?php echo _('Plan A (based on the number of remaining lives)') ?></h4>
-                <p><?php echo _('Each Shot Type will be assigned a TWCScore by the TWCScore Rubric according to the number of remaining lives. ' .
+                'The goal of a player performing a credit in Phantasmagoria of Flower View Lunatic Survival is to maximise the number of remaining lives at the end of the credit. ' .
+                'Each Shot Type will be assigned a TWCScore by the TWCScore Rubric according to the number of remaining lives.<br>' .
                 'TWCScore of this category can be regarded as substituting "7 - the number of remaining lives" for the "the number of misses" in the formula of other Survival Categories in TWC, ' .
                 'with the exception that a bonus of [0.02 * the duration (in seconds) of Stage 9 first round] is added at the end of a credit. ' .
                 'An additional TWCScore bonus will be applied when there are 7 remaining lives. Any credit that ends with less than 2 lives remaining will always attain a TWCScore of zero.') ?></p>
-                <h4><?php echo _('Plan B (based on the number of rounds you lost)') ?></h4>
-                <p><?php echo _('Each Shot Type will be assigned a TWCScore by the TWCScore Rubric according to the number of rounds you lost. ' .
-                'TWCScore of this category can be regarded as substituting "the number of rounds you lost" for the "the number of misses" in the formula of other Survival Categories in TWC, ' .
-                'with the exception that a bonus of [0.02 * the duration (in seconds) of Stage 9 first round] is added at the end of a credit. ' . 
-                'An additional TWCScore bonus will be applied when you never lose any rounds. Any credit which accrues more than 5 rounds lost total will always attain a TWCScore of zero.') ?></p>
             <h4><?php echo _('Touhou 11') ?></h4>
                 <p><?php echo _('For some shottypes, capturing Cat Sign "Vengeful Cat Spirit\'s Erratic Step" (Stage 5 midspell) will award a Challenge Bonus that is added to the initial TWCScore and is subject to the same score reduction from misses.') ?></p>
             <h4><?php echo _('Touhou 12') ?></h4>
@@ -108,7 +102,8 @@
             <p><?php echo _('Some extra details about Scoring Categories:') ?></p>
             <ul>
                 <li><?php echo _('There is now no penalty to TWCScore if a player Game Overs in a Scoring Category.') ?></li>
-                <li><?php echo _('Players of the Phantasmagoria of Flower View Lunatic Scoring category are not allowed to select Aya or Medicine.') ?></li>
+                <li><?php echo _('Players participating in the Phantasmagoria of Flower View Lunatic Scoring category are ' .
+                'prohibited from using Aya or Medicine until there are only 70 minutes remaining in the reset time.') ?></li>
                 <li><?php echo _('In Touhou 17 and Touhou 18, it is possible to reach the maximum value the score counter can display, known as a counterstop. ' .
                 'If this happens, we will use the player\'s "True Score" which can be determined by using counterstop removal patches.') ?></li>
                 <li><?php echo _('In Touhou 12, the score counter will display the player\'s score incorrectly if the score reaches a high enough value. ' .
