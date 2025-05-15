@@ -801,6 +801,10 @@ msgstr ""
 "の追加のTWCスコアもミスによる減少を受けます。"
 
 #: rules.php
+msgid "Touhou 14"
+msgstr "東方輝針城　～ Double Dealing Character."
+
+#: rules.php
 msgid ""
 "For some shottypes, capturing Fang Sign \"Moonlit Canine Teeth\" (Stage 3 "
 "midspell) will award a Challenge Bonus that is added to the initial TWCScore "
@@ -1265,9 +1269,6 @@ msgstr "スコア："
 
 #~ msgid "Touhou 10"
 #~ msgstr "東方風神録　～ Mountain of Faith."
-
-#~ msgid "Touhou 14"
-#~ msgstr "東方輝針城　～ Double Dealing Character."
 
 #~ msgid "Touhou 15"
 #~ msgstr "東方紺珠伝　～ Legacy of Lunatic Kingdom."

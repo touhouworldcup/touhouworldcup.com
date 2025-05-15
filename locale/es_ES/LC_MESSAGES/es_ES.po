@@ -786,6 +786,10 @@ msgid ""
 msgstr ""
 
 #: rules.php
+msgid "Touhou 14"
+msgstr "Touhou 14"
+
+#: rules.php
 msgid ""
 "For some shottypes, capturing Fang Sign \"Moonlit Canine Teeth\" (Stage 3 "
 "midspell) will award a Challenge Bonus that is added to the initial TWCScore "
@@ -1249,9 +1253,6 @@ msgstr "Puntuación:"
 
 #~ msgid "Touhou 10"
 #~ msgstr "Touhou 10"
-
-#~ msgid "Touhou 14"
-#~ msgstr "Touhou 14"
 
 #~ msgid "Touhou 15"
 #~ msgstr "Touhou 15"
