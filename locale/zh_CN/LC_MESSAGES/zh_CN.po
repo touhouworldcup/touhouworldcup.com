@@ -696,43 +696,15 @@ msgstr "花映塚"
 
 #: rules.php
 msgid ""
-"This category is played under different conditions to all other Survival "
-"Categories in TWC. There are two scoring methods in this category, and "
-"which one will be used will be decided by dialogue with players."
-msgstr ""
-
-#: rules.php
-msgid "Plan A (based on the number of remaining lives)"
-msgstr ""
-
-#: rules.php
-msgid ""
-"Each Shot Type will be assigned a "
-"TWCScore by the TWCScore Rubric according to the number of remaining lives."
-"<br>TWCScore of this category can be regarded as substituting \"7 - the "
-"number of remaining lives\" for the \"the number of misses\" in the formula "
-"of other Survival Categories in TWC, with the exception that a bonus of "
-"[0.02 * the duration (in seconds) of Stage 9 first round] is added at the "
-"end of a credit. An additional TWCScore bonus will be applied when there are "
-"7 remaining lives. Any credit that ends with less than 2 lives remaining "
-"will always attain a TWCScore of zero."
-msgstr ""
-
-#: rules.php
-msgid "Plan B (based on the number of rounds you lost)"
-msgstr ""
-
-#: rules.php
-msgid ""
-"Each Shot Type will be assigned a "
-"TWCScore by the TWCScore Rubric according to the number of rounds you lost. "
-"TWCScore of this category can be regarded as substituting \"the number of "
-"rounds you lost\" for the \"the number of misses\" in the formula "
-"of other Survival Categories in TWC, with the exception that a bonus of "
-"[0.02 * the duration (in seconds) of Stage 9 first round] is added at the "
-"end of a credit. An additional TWCScore bonus will be applied when you never "
-"lose any rounds. Any credit which accrues more than 5 rounds lost total "
-"will always attain a TWCScore of zero."
+"This category is played under different conditions to all other Survival Categories in TWC. The "
+"goal of a player performing a credit in Phantasmagoria of Flower View Lunatic Survival is to "
+"maximise the number of remaining lives at the end of the credit. Each Shot Type will be assigned a "
+"TWCScore by the TWCScore Rubric according to the number of remaining lives.<br>TWCScore of this "
+"category can be regarded as substituting \"7 - the number of remaining lives\" for the \"the "
+"number of misses\" in the formula of other Survival Categories in TWC, with the exception that a "
+"bonus of [0.02 * the duration (in seconds) of Stage 9 first round] is added at the end of a "
+"credit. An additional TWCScore bonus will be applied when there are 7 remaining lives. Any credit "
+"that ends with less than 2 lives remaining will always attain a TWCScore of zero."
 msgstr ""
 
 #: rules.php:65
@@ -783,10 +755,6 @@ msgid ""
 "<br>Capturing Desire Sign \"Score Desire Eater\" (Yoshika's last spell) "
 "will award a Challenge Bonus that is added to the initial TWCScore and "
 "is subject to the same score reduction from misses."
-msgstr ""
-
-#: rules.php
-msgid "Touhou 14"
 msgstr ""
 
 #: rules.php
@@ -866,26 +834,24 @@ msgstr ""
 msgid "Scoring Categories"
 msgstr "打分项目"
 
-#: rules.php:99
+#: rules.php
 msgid ""
-"In Scoring Categories the players will try to finish the game while gaining the highest score "
-"possible. They can die, bomb and use any other mechanics as much as they want."
+"The goal of a player performing a credit in any scoring category is to play through a given Touhou "
+"Game while attaining the highest score possible through use of the scoring mechanics of each individual Touhou Game."
 msgstr "打分项目中，选手需要利用所有游戏提供的机制尽可能地在游戏中获得高分。"
 
 #: rules.php:101
 msgid "Some extra details about Scoring Categories:"
 msgstr "关于打分项目的附加规则："
 
-#: rules.php:103
+#: rules.php
 msgid ""
-"Unlike previous years of TWC, there is now no penalty to TWCScore if a player Game Overs in a "
-"Scoring Category."
+"There is now no penalty to TWCScore if a player Game Overs in a Scoring Category."
 msgstr "与前届TWC不同，选手疮痍时的分数同样可以用于计算TWCScore。"
 
 #: rules.php:104
 msgid ""
-"Players of the Phantasmagoria of Flower View Lunatic Scoring category are not allowed to select "
-"Aya or Medicine."
+"Players participating in the Phantasmagoria of Flower View Lunatic Scoring category are prohibited from using Aya or Medicine until there are only 70 minutes remaining in the reset time."
 msgstr ""
 
 #: rules.php:105
