@@ -3,16 +3,25 @@ let step = setInterval(countdownToStart, 1000);
 let schedule = [];
 
 function _(letter) {
-    if (language != "ja-JP" && language != "zh-CN") {
-        return letter;
+    if (language == "ja-JP") {
+        return ({
+            "d ": "日",
+            "h ": "時間",
+            "m ": "分",
+            "s": "秒"
+        }[letter]);
     }
 
-    return ({
-        "d ": "日",
-        "h ": "時間",
-        "m ": "分",
-        "s": "秒"
-    }[letter]);
+    if (language == "zh-CN") {
+        return ({
+            "d ": "天",
+            "h ": "小时",
+            "m ": "分",
+            "s": "秒"
+        }[letter]);
+    }
+
+    return letter;
 }
 
 function getCookie(name) {
