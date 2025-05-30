@@ -6,5 +6,9 @@
 # Static files
 static/
 
+# Database settings
+.host
+.pw
+
 # Development
 .history/

@@ -82,7 +82,7 @@
     }
 
     if (file_exists('../.pw')) {
-		$db_host = file_exists('.db_host') ? file_get_contents('.db_host') : 'localhost';
+		$db_host = file_exists('.host') ? file_get_contents('.host') : 'localhost';
         $db = mysqli_connect($db_host, 'twc_admin', file_get_contents('../.pw'), 'twc');
 
         if ($db->connect_error) {
