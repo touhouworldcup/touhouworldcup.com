@@ -3,7 +3,8 @@
     include_once 'php/head.php';
     include_once 'php/db.php';
     try {
-        $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc');
+		$db_host = file_exists('.db_host') ? file_get_contents('.db_host') : 'localhost';
+        $db = mysqli_connect($db_host, 'twc_admin', file_get_contents('.pw'), 'twc');
         $schedule_json = get_schedule($db, '2025');
     } catch (Exception $e) {
         $schedule_json = '';
@@ -29,7 +30,7 @@
         <h2 id="countdown_title_match"><?php echo _('Next Match:') ?></h2>
         <p id="countdown" class="large"><span id="countdown_start"></span></p>
         <h2 id="current_match"><?php echo _('Currently ongoing: <a class="match_link" href="https://twitch.tv/touhou_replay_showcase" target="_blank">')?><span id="match_category"></span></a></h2>
-        <!-- <p class="huge"><?php echo _('Touhou World Cup 2025 will start on May 17th.') ?></p> -->
+        <!-- <p class="huge"><?php //echo _('Touhou World Cup 2025 will start on May 17th.') ?></p> -->
     </div>
     <div id="cards">
         <div class="cards_inner">

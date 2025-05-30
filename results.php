@@ -7,11 +7,12 @@
     include_once 'php/table_func.php';
     include_once 'php/db.php';
     try {
-        $db = mysqli_connect('localhost', 'twc_admin', file_get_contents('.pw'), 'twc_archive');
+		$db_host = file_exists('.db_host') ? file_get_contents('.db_host') : 'localhost';
+        $db = mysqli_connect($db_host, 'twc_admin', file_get_contents('.pw'), 'twc_archive');
     } catch (Exception $e) {
         $_GET['error'] = 503;
         include_once 'php/error.php';
-        die();
+        die($e);
     }
 ?>
 
