@@ -9,6 +9,7 @@ apt-get install -y sudo curl wget nano locales
 rm -rf /var/lib/apt/lists/*
 a2enmod rewrite
 a2enmod headers
+mv /usr/lib/etc/php/php.ini-production /usr/lib/etc/php.ini
 EOF
 
 # Copy over the Apache configuration
