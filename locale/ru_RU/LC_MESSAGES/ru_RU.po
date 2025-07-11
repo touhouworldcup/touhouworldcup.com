@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2025-05-31 15:36+0200\n"
-"PO-Revision-Date: 2025-05-31 15:38+0200\n"
+"PO-Revision-Date: 2025-07-11 23:08+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -1062,11 +1062,11 @@ msgstr ""
 
 #: twcscore.php:24
 msgid "Click here to see the survival rubrics."
-msgstr "Вы можете нажать чтобы увидеть все способы оцениваний скоринг."
+msgstr "Вы можете нажать чтобы увидеть все способы оцениваний выживание."
 
 #: twcscore.php:27
 msgid "Click here to see the scoring rubrics."
-msgstr "Вы можете нажать чтобы увидеть все способы оцениваний выживание."
+msgstr "Вы можете нажать чтобы увидеть все способы оцениваний скоринг."
 
 #: twcscore.php:30
 msgid "Game"
