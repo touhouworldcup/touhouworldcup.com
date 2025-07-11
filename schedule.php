@@ -20,7 +20,7 @@
         if (empty($b['Date__UTC_'])) {
             return false;
         }
-        return $a['Date__UTC_'] > $b['Date__UTC_'] ? 1 : -1;
+        return $a['Date__UTC_'] > $b['Date__UTC_'] ? -1 : 1;
     });
 ?>
 
