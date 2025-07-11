@@ -81,10 +81,9 @@
         return json_encode($rows);
     }
 
-    if (file_exists('../.pw')) {
-		$db_host = file_exists('.host') ? file_get_contents('.host') : 'localhost';
-		$db_host = file_exists('../.host') ? file_get_contents('../.host') : $db_host;
-        $db = mysqli_connect($db_host, 'twc_admin', file_get_contents('../.pw'), 'twc');
+    if (getenv('DB_PASSWORD')) {
+		$db_host = getenv('DB_HOST') ? getenv('DB_HOST') : 'localhost';
+        $db = mysqli_connect($db_host, 'twc_admin', getenv('DB_PASSWORD'), 'twc');
 
         if ($db->connect_error) {
             die('Database connection failed: ' . $db->connect_error);
@@ -98,7 +97,7 @@
             } else {
                 echo get_survival($db, $_GET['game'], $_GET['shot']);
             }
-        } else {
+        } else if (!empty($_GET['game'])) {
             echo get_scoring($db, $_GET['game'], $_GET['diff'], $_GET['shot']);
         }
     }

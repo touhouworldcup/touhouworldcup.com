@@ -3,8 +3,8 @@
     include_once 'php/head.php';
     include_once 'php/db.php';
     try {
-		$db_host = file_exists('.host') ? file_get_contents('.host') : 'localhost';
-        $db = mysqli_connect($db_host, 'twc_admin', file_get_contents('.pw'), 'twc');
+		$db_host = getenv('DB_HOST') ? getenv('DB_HOST') : 'localhost';
+        $db = mysqli_connect($db_host, 'twc_admin', getenv('DB_PASSWORD'), 'twc');
         $schedule_json = get_schedule($db, '2025');
     } catch (Exception $e) {
         $schedule_json = '';

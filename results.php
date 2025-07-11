@@ -7,8 +7,8 @@
     include_once 'php/table_func.php';
     include_once 'php/db.php';
     try {
-		$db_host = file_exists('.host') ? file_get_contents('.host') : 'localhost';
-        $db = mysqli_connect($db_host, 'twc_admin', file_get_contents('.pw'), 'twc_archive');
+		$db_host = getenv('DB_HOST') ? getenv('DB_HOST') : 'localhost';
+        $db = mysqli_connect($db_host, 'twc_admin', getenv('DB_PASSWORD'), 'twc_archive');
     } catch (Exception $e) {
         $_GET['error'] = 503;
         include_once 'php/error.php';
@@ -57,8 +57,10 @@
             }
             $index++;
         }
-        $teams[$max_index] = str_replace('">', '"><strong>', $teams[$max_index]);
-        $teams[$max_index] = str_replace('</li>', '</strong></li>', $teams[$max_index]);
+        if (array_key_exists($max_index, $teams)) {
+            $teams[$max_index] = str_replace('">', '"><strong>', $teams[$max_index]);
+            $teams[$max_index] = str_replace('</li>', '</strong></li>', $teams[$max_index]);
+        }
         echo implode($teams);
     ?></ol>
     <table class="schedule_table spoiler">

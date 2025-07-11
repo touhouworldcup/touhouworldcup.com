@@ -1,14 +1,14 @@
-# Minified files
+# minified files
 *-min.json
 *-min.css
 *-min.js
 
-# Static files
+# static files
 static/
 
-# Database settings
-.host
-.pw
+# environment
+.env*
+!.env.template
 
-# Development
+# dev
 .history/
