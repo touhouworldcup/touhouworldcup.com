@@ -104,6 +104,10 @@ input[type=button] {
     top: 100%;
     max-width: 100px;
 }
+.favicon {
+    width: 16px;
+    height: 16px;
+}
 #schedule_tbody .bonus_match .team_icon,
 #schedule_tbody_2022 .bonus_match .team_icon,
 #schedule_tbody_2023 .bonus_match .team_icon {

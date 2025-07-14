@@ -37,7 +37,7 @@
     </div>
     <p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
     <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>
-    <h2 id="2024">TWC 2024</h2>
+    <h2 id="2024"><img class="favicon" src="/assets/legacy/favicon_2024.ico" alt="2024 favicon"> TWC 2024</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol><?php
         $json = get_teams($db, '2024');
@@ -82,7 +82,7 @@
             print_schedule($schedule_2024, $results_2024, $teams_2024, '2024', []);
         ?></tbody>
     </table>
-    <h2 id="2023">TWC 2023</h2>
+    <h2 id="2023"><img class="favicon" src="/assets/legacy/favicon_2023.ico" alt="2023 favicon"> TWC 2023</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol><?php
         $json = get_teams($db, '2023');
@@ -125,7 +125,7 @@
             print_schedule($schedule_2023, $results_2023, $teams_2023, '2023', []);
         ?></tbody>
     </table>
-    <h2 id="2022">TWC 2022</h2>
+    <h2 id="2022"><img class="favicon" src="/assets/legacy/favicon_2022.ico" alt="2022 favicon"> TWC 2022</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol><?php
         $json = get_teams($db, '2022');
@@ -168,7 +168,7 @@
             print_schedule($schedule_2022, $results_2022, $teams_2022, '2022', []);
         ?></tbody>
     </table>
-    <h2 id="2021">TWC 2021</h2>
+    <h2 id="2021"><img class="favicon" src="/assets/legacy/favicon_2021.ico" alt="2021 favicon"> TWC 2021</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol><?php
         $json = get_teams($db, '2021');
@@ -212,7 +212,7 @@
         ?></tbody>
     </table>
     <p class="spoiler">* <?php echo _('Game Over') ?></p>
-    <h2 id="2020">TWC 2020</h2>
+    <h2 id="2020"><img class="favicon" src="/assets/legacy/favicon_2020.ico" alt="2020 favicon"> TWC 2020</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol><?php
         $json = get_teams($db, '2020');
