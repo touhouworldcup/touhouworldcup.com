@@ -71,7 +71,7 @@ iscore.calc_scoring_reverse = (rubric, iscore) => {
 	const a = parseFloat(rubric.A);
 	const b = parseFloat(rubric.B);
 	const c = parseFloat(rubric.C);
-    let score = Math.round(Math.log((iscore - c) / b) / Math.log(a) * 100000000);
+    let score = Math.round(Math.log((iscore - c) / b) / Math.log(a) * 10000000) * 10;
 	return score;
 }
 
