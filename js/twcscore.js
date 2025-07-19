@@ -72,6 +72,11 @@ iscore.calc_scoring_reverse = (rubric, iscore) => {
 	const b = parseFloat(rubric.B);
 	const c = parseFloat(rubric.C);
     let score = Math.round(Math.log((iscore - c) / b) / Math.log(a) * 10000000) * 10;
+
+	if (isNaN(score)) {
+		score = 0;
+	}
+
 	return score;
 }
 
