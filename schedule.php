@@ -12,7 +12,7 @@
     } catch (Exception $e) {
         $_GET['error'] = 503;
         include_once 'php/error.php';
-        die($e);
+        die();
     }
     $json = get_schedule($db, '2025');
     $schedule = json_decode($json, true);

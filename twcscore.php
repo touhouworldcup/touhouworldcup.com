@@ -10,7 +10,7 @@
     } catch (Exception $e) {
         $_GET['error'] = 503;
         include_once 'php/error.php';
-        die($e);
+        die();
     }
 ?>
 

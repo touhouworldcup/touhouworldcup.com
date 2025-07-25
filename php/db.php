@@ -81,12 +81,14 @@
         return json_encode($rows);
     }
 
-    if (getenv('DB_PASSWORD')) {
+    if (sizeof($_GET) > 0) {
 		$db_host = getenv('DB_HOST') ? getenv('DB_HOST') : 'localhost';
         $db = mysqli_connect($db_host, 'twc_admin', getenv('DB_PASSWORD'), 'twc');
 
         if ($db->connect_error) {
-            die('Database connection failed: ' . $db->connect_error);
+            $_GET['error'] = 503;
+            include_once('php/error.php');
+            die();
         }
 
         if (!empty($_GET['rt']) && $_GET['rt'] == 'surv') {
