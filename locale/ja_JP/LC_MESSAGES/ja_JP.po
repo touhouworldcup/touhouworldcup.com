@@ -82,7 +82,7 @@ msgstr ""
 
 #: index.php:26
 msgid "See below for official communication channels."
-msgstr "公式チャンネルは以下からご参照ください。"
+msgstr "チャンネルは以下からご参照ください。"
 
 #: index.php:29
 msgid "TWC Starts In:"
@@ -102,67 +102,67 @@ msgstr ""
 
 #: index.php:37
 msgid "Live Streams"
-msgstr "配信"
+msgstr "Live Streams"
 
 #: index.php:39
 msgid "English Commentary Stream"
-msgstr "英語解説付き配信チャンネル"
+msgstr "Twitch(英語)"
 
 #: index.php:42
 msgid "Japanese Commentary Stream"
-msgstr "日本語解説付き配信チャンネル"
+msgstr "YouTube(日本語)"
 
 #: index.php:45
 msgid "Spanish Commentary Stream"
-msgstr "スペイン語解説付き配信チャンネル"
+msgstr "YouTube(スペイン語)"
 
 #: index.php:48
 msgid "Chinese Commentary Stream"
-msgstr "中国語解説付き配信チャンネル"
+msgstr "bilibili(中国語)"
 
 #: index.php:52
 msgid "Social Media"
-msgstr "ソーシャルメディア"
+msgstr "SNS"
 
 #: index.php:55
 msgid "English Bluesky"
-msgstr "英語のブルースキー"
+msgstr "Bluesky<br>(英語)"
 
 #: index.php:58
 msgid "English Twitter"
-msgstr "英語のツイッター"
+msgstr "Twitter<br>(英語)"
 
 #: index.php:63
 msgid "Japanese Bluesky"
-msgstr "日本のブルースキー"
+msgstr "Bluesky<br>(日本語)"
 
 #: index.php:66
 msgid "Japanese Twitter"
-msgstr "日本のツイッター"
+msgstr "Twitter<br>(日本語)"
 
 #: index.php:71
 msgid "Spanish Bluesky"
-msgstr "スペインのブルースキー"
+msgstr "Bluesky<br>(スペイン語)"
 
 #: index.php:74
 msgid "Spanish Twitter"
-msgstr "スペインのツイッター"
+msgstr "Twitter<br>(スペイン語)"
 
 #: index.php:79
 msgid "Videos"
-msgstr "ビデオ"
+msgstr "Archives"
 
 #: index.php:81
 msgid "English YouTube Channel"
-msgstr "英語のYouTubeチャンネル"
+msgstr "YouTube(英語)"
 
 #: index.php:84
 msgid "Japanese YouTube Channel"
-msgstr "日本のYouTubeチャンネル"
+msgstr "YouTube(日本語)"
 
 #: index.php:87
 msgid "Spanish YouTube Channel"
-msgstr "スペインのYouTubeチャンネル"
+msgstr "YouTube(スペイン語)"
 
 #: js/index.js:58
 msgid "d "
@@ -488,6 +488,10 @@ msgstr "日狭美"
 #: php/translations.php:75
 msgid "Zanmu"
 msgstr "残無"
+
+#: php/translations.php:76
+msgid "ReimuC"
+msgstr "霊夢C"
 
 #: results.php:2 results.php:22
 msgid "Past Results"
@@ -1339,9 +1343,6 @@ msgstr "スコア："
 #~ msgstr ""
 #~ "<a href=\"https://forms.gle/V4K8X2BMKzf8Ji7PA\" target=\"_blank\">参加申請"
 #~ "はこちら</a>"
-
-#~ msgid "ReimuC"
-#~ msgstr "霊夢C"
 
 #~ msgid ""
 #~ "Last Spell: Getting hit during a Last Spell is <strong>not</strong> "
