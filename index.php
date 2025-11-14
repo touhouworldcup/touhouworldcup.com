@@ -38,7 +38,7 @@
             <div class="card"><a href="https://www.twitch.tv/touhou_replay_showcase" class="card_link" target="_blank">
                 <span class="title large"><img class="icon" src="/assets/icons/twitch-icon.png" alt="Twitch icon" width=64 height=64> <?php echo _('English Commentary Stream') ?></span>
             </a></div>
-            <div class="card"><a href="https://www.youtube.com/@TWC_JP/live" class="card_link" target="_blank">
+            <div class="card"><a href="https://www.youtube.com/@TWC_JP/featured" class="card_link" target="_blank">
                 <span class="title large"><img class="icon" src="/assets/icons/youtube-icon.png" alt="YouTube icon" width=64 height=64> <?php echo _('Japanese Commentary Stream') ?></span>
             </a></div>
             <div class="card"><a href="https://www.youtube.com/@ParadiseofBoundaries/live" class="card_link" target="_blank">

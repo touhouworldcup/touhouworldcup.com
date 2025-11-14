@@ -14,7 +14,7 @@
     <p><?php echo _('The full official rulebook can be found here:') ?></p>
     <ul class="style-none">
         <li>English: <a href="https://docs.google.com/document/d/e/2PACX-1vQrmgcwhgKARoUnk5BPE0Oyv4fAgHilZs1pUa1RQJtm0X_z93L8eI0lNt1Y-iZQK3v4_Ab9vx1HzpkN/pub" target="_blank">TWC Handbook</a></li>
-        <li>日本語: <a href="assets/TWC_Handbook_JP.pdf" target="_blank">TWC_Handbook_JP.pdf</a></li>
+        <li>日本語: <a href="https://drive.google.com/file/d/1LaTvJzkxoJhDFWXQxE52CKH592B38QH8/view?usp=drive_link" target="_blank">TWC_Handbook_JP(pdf)</a></li>
     </ul>
     <hr>
     <h2><?php echo _('Format') ?></h2>

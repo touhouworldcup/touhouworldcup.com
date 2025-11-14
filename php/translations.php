@@ -73,4 +73,5 @@ echo _('Enoko');
 echo _('Chiyari');
 echo _('Hisami');
 echo _('Zanmu');
+echo _('ReimuC');
 ?>
