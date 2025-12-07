@@ -5,6 +5,9 @@
     include_once 'php/locale.php';
     include_once 'php/head.php';
 
+    // 4:3 thumbnail_size = (500, 375)
+    // 16:9 thumbnail_size = (640, 360)
+
     $end_cards_2024 = [
         ["TH06 Lunatic Survival", "EoSD_Lunatic_Survival.png", "ふぇぶりゅう", [["twitter", "https://twitter.com/MppjU"], ["pixiv", "https://www.pixiv.net/users/15053330"]]],
         ["TH06 Lunatic Scoring", "EoSD_Lunatic_Scoring.png", "らかさぁ, あずまよりこ", []],
@@ -113,24 +116,35 @@
         ["2023: Final Illustration", "Final_Illustration.png", "", []],
     ];
 
+    /**
+     * Renders an array of artworks as HTML gallery items.
+     * 
+     * original img: png or jpg
+     * thumbnail img: jpg
+     *
+     * @param array $artworks The array of artworks to display in the gallery.
+     * Each artwork is expected to be in the format: [Title, Filename, Author, (Optional) Links Array].
+     * @param string $img_dir The base path to the image directory.
+     * @param bool $is_hide Whether to defer image loading (lazy loading) by setting src to empty.
+     */
     function render_gallery($artworks, $img_dir, $is_hide) {
         foreach ($artworks as $art) {
             $title = $art[0];
             $file = $art[1];
             $author = $art[2];
             $links = isset($art[3]) ? $art[3] : [];
-            $data_src = $img_dir . '/thumbnails/' . htmlspecialchars($file);
+            $data_src = $img_dir . '/thumbnails/' . str_replace('.png', '.jpg', $file);
             $img_src = $is_hide ? "" : $data_src;
 
             echo '<div class="illustration">';
-            echo '<img src="' . $img_src . '"data-src="' . $data_src . '" alt="' . htmlspecialchars($title) . '" onclick="openModal(\'' . $img_dir . '/originals/' . htmlspecialchars($file) . '\')">';
-            echo '<h4>' . htmlspecialchars($title) . '</h4>';
+            echo '<img src="' . $img_src . '"data-src="' . $data_src . '" alt="' . $title . '" onclick="openModal(\'' . $img_dir . '/originals/' . $file . '\')">';
+            echo '<h4>' . $title . '</h4>';
             if ($author) {
                 echo '<div class="author-info">';
-                echo 'Created by: <span class="author-name">' . htmlspecialchars($author);
+                echo 'Created by: <span class="author-name">' . $author;
                 foreach ($links as $link) {
                     $icon = '/assets/icons/' . $link[0] . '-icon.png';
-                    echo '<a href="' . htmlspecialchars($link[1]) . '" target="_blank" class="social-link">';
+                    echo '<a href="' . $link[1] . '" target="_blank" class="social-link">';
                     echo '<img src="' . $icon . '" alt="' . ucfirst($link[0]) . ' icon">';
                     echo '</a>';
                 }
@@ -149,7 +163,7 @@
         <div class="contents">
             <p><a href="#2024-end-cards">2024 End Cards</a></p>
             <p><a href="#2024-final">2024 Final Collab Illustrations</a></p>
-            <p><a href="#2023-end-cards">2023</a></p>
+            <p><a href="#2023-end-cards">2023 End Cards</a></p>
         </div>
 
         <h2 id="2024-end-cards"><a class="expander" onclick="art_hide(this)">⮟</a> 2024 End Cards</h2>
@@ -157,12 +171,12 @@
             <?php render_gallery($end_cards_2024, '/static/art/2024_end_cards', false);?>
         </div>
 
-        <h2 id="2024-final"><a class="expander" onclick="art_hide(this)">⮟</a> TWC 2024 Final Collab Illustrations</h2>
-        <div class="thumbnail-gallery two-cols">
-            <?php render_gallery($final_2024, '/static/art/2024_final_collab_illustrations', false);?>
+        <h2 id="2024-final"><a class="expander" onclick="art_show(this)">⮞</a> TWC 2024 Final Collab Illustrations</h2>
+        <div class="thumbnail-gallery two-cols art-past">
+            <?php render_gallery($final_2024, '/static/art/2024_final_collab_illustrations', true);?>
         </div>
 
-        <h2 id="2023-end-cards"><a class="expander" onclick="art_show(this)">⮞</a> 2023</h2>
+        <h2 id="2023-end-cards"><a class="expander" onclick="art_show(this)">⮞</a> 2023 End Cards</h2>
         <div class="thumbnail-gallery three-cols art-past">
             <?php render_gallery($end_cards_2023, '/static/art/2023_end_cards', true);?>
         </div>

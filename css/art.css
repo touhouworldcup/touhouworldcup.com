@@ -11,6 +11,7 @@ h2 img {
 .illustration {
     padding: 1em;
     margin-bottom: 1em;
+    font-size: 1.1em
 }
 
 .illustration h4 {
@@ -42,9 +43,7 @@ h2 img {
 }
 
 .author-name {
-    font-family: inherit;
     line-height: 1;
-    vertical-align: middle;
     display: flex;
     align-items: center;
     gap: 0.3em;
@@ -54,7 +53,7 @@ h2 img {
 }
 
 .social-link img {
-    height: 1em;
+    height: 1.3em;
 }
 
 .expander {
