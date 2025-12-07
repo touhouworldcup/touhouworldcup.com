@@ -34,6 +34,20 @@ h2 img {
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    .thumbnail-gallery.three-cols .illustration,
+    .thumbnail-gallery.two-cols .illustration {
+        flex: 0 0 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .thumbnail-gallery.three-cols .illustration{
+        flex: 0 0 calc(50% - 10px);
+        box-sizing: border-box;
+    }
+}
+
 .author-info {
     display: inline-flex;
     align-items: baseline;
