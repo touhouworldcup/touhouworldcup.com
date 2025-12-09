@@ -92,7 +92,7 @@
         ["TH08 Lunatic Survival", "th08_survival.png", "Aqwa, DJThunderHeart, trisector", []],
         ["TH08 Lunatic Scoring", "th08_scoring.png", "trisector", [["twitter", "https://twitter.com/tris3ctor"]]],
         ["TH08 Extra Scoring", "th08_scoring_ex.png", "pisangmolen", [["twitter", "https://twitter.com/314smol"]]],
-        ["TH09 Lunatic Scoring", "th09_scoring.png", "sleepymausu", [["twitter", "https://twitter.com/sleepymausu"]]],
+        ["TH09 Extra Scoring", "th09_scoring.png", "sleepymausu", [["twitter", "https://twitter.com/sleepymausu"]]],
         ["TH10 Lunatic Survival", "th10_survival.png", "sleepymausu", [["twitter", "https://twitter.com/sleepymausu"]]],
         ["TH10 Lunatic Scoring", "th10_scoring.png", "Aqwa", [["twitter", "https://twitter.com/aqwwa58"], ["tumblr", "https://aqwwa58.tumblr.com/"]]],
         ["TH11 Lunatic Survival", "th11_survival.png", "Aqwa", [["twitter", "https://twitter.com/aqwwa58"], ["tumblr", "https://aqwwa58.tumblr.com/"]]],
@@ -166,17 +166,17 @@
             <p><a href="#2023-end-cards">2023 End Cards</a></p>
         </div>
 
-        <h2 id="2024-end-cards"><a class="expander" onclick="art_hide(this)">⮟</a> 2024 End Cards</h2>
+        <h2 id="2024-end-cards"><a class="expander" onclick="art_hide(this)">▼</a> 2024 End Cards</h2>
         <div class="thumbnail-gallery three-cols">
             <?php render_gallery($end_cards_2024, '/static/art/2024_end_cards', false);?>
         </div>
 
-        <h2 id="2024-final"><a class="expander" onclick="art_show(this)">⮞</a> TWC 2024 Final Collab Illustrations</h2>
+        <h2 id="2024-final"><a class="expander" onclick="art_show(this)">▶</a> TWC 2024 Final Collab Illustrations</h2>
         <div class="thumbnail-gallery two-cols art-past">
             <?php render_gallery($final_2024, '/static/art/2024_final_collab_illustrations', true);?>
         </div>
 
-        <h2 id="2023-end-cards"><a class="expander" onclick="art_show(this)">⮞</a> 2023 End Cards</h2>
+        <h2 id="2023-end-cards"><a class="expander" onclick="art_show(this)">▶</a> 2023 End Cards</h2>
         <div class="thumbnail-gallery three-cols art-past">
             <?php render_gallery($end_cards_2023, '/static/art/2023_end_cards', true);?>
         </div>
