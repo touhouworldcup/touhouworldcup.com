@@ -214,17 +214,17 @@
             <p><a href="#2023-end-cards">2023 End Cards</a></p>
         </div>
 
-        <h2 id="2024-end-cards"><a class="expander" onclick="art_hide(this)">▾</a> 2024 End Cards</h2>
+        <h2 id="2024-end-cards"><a class="expander" onclick="art_hide(this)">▾2024 End Cards</a></h2>
         <div class="thumbnail-gallery three-cols">
             <?php render_gallery($end_cards_2024, '/static/art/2024_end_cards', false);?>
         </div>
 
-        <h2 id="2024-final"><a class="expander" onclick="art_show(this)">▸</a> TWC 2024 Final Collab Illustrations</h2>
+        <h2 id="2024-final"><a class="expander" onclick="art_show(this)">▸TWC 2024 Final Collab Illustrations</a></h2>
         <div class="thumbnail-gallery two-cols art-past">
             <?php render_gallery($final_2024, '/static/art/2024_final_collab_illustrations', true);?>
         </div>
 
-        <h2 id="2023-end-cards"><a class="expander" onclick="art_show(this)">▸</a> 2023 End Cards</h2>
+        <h2 id="2023-end-cards"><a class="expander" onclick="art_show(this)">▸2023 End Cards</a></h2>
         <div class="thumbnail-gallery three-cols art-past">
             <?php render_gallery($end_cards_2023, '/static/art/2023_end_cards', true);?>
         </div>
