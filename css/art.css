@@ -48,22 +48,15 @@ h2 img {
     }
 }
 
-.author-info {
-    display: inline-flex;
-    align-items: baseline;
-    gap: 0.4em;
-    flex-wrap: wrap;
-    min-width: 0;
+.artist-info {
+    display: block;
 }
 
-.author-name {
+.artist-name {
     line-height: 1;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 0.3em;
-    word-break: break-all;
-    max-width: 100%;
-    min-width: 0;
 }
 
 .social-link img {
