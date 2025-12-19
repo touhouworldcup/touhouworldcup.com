@@ -321,7 +321,7 @@ CREATE TABLE `Teams 2020` (
 
 LOCK TABLES `Teams 2020` WRITE;
 /*!40000 ALTER TABLE `Teams 2020` DISABLE KEYS */;
-INSERT INTO `Teams 2020` VALUES (1,'West','2024-02-21 19:19:23','2024-02-21 19:19:48','usxycrwh4v0r0t28','usxycrwh4v0r0t28','https://touhouworldcup.com/assets/icons/earth_16px.png',13.00),(2,'China','2024-02-21 19:19:23','2024-02-21 19:20:11','usxycrwh4v0r0t28','usxycrwh4v0r0t28','https://touhouworldcup.com/assets/icons/china_16px.png',12.50),(3,'Japan','2024-02-21 19:19:24','2024-02-21 19:20:23','usxycrwh4v0r0t28','usxycrwh4v0r0t28','https://touhouworldcup.com/assets/icons/japan_16px.png',22.50);
+INSERT INTO `Teams 2020` VALUES (1,'West','2024-02-21 19:19:23','2024-02-21 19:19:48','usxycrwh4v0r0t28','usxycrwh4v0r0t28','earth',13.00),(2,'China','2024-02-21 19:19:23','2024-02-21 19:20:11','usxycrwh4v0r0t28','usxycrwh4v0r0t28','china',12.50),(3,'Japan','2024-02-21 19:19:24','2024-02-21 19:20:23','usxycrwh4v0r0t28','usxycrwh4v0r0t28','japan',22.50);
 /*!40000 ALTER TABLE `Teams 2020` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -351,7 +351,7 @@ CREATE TABLE `Teams 2021` (
 
 LOCK TABLES `Teams 2021` WRITE;
 /*!40000 ALTER TABLE `Teams 2021` DISABLE KEYS */;
-INSERT INTO `Teams 2021` VALUES (1,'West','2024-02-21 18:50:19','2024-02-21 19:21:58','usxycrwh4v0r0t28','usxycrwh4v0r0t28',23.00,'https://touhouworldcup.com/assets/icons/earth_16px.png'),(2,'China','2024-02-21 18:50:19','2024-02-21 19:21:58','usxycrwh4v0r0t28','usxycrwh4v0r0t28',29.00,'https://touhouworldcup.com/assets/icons/china_16px.png'),(3,'Japan','2024-02-21 18:50:20','2024-02-21 19:21:58','usxycrwh4v0r0t28','usxycrwh4v0r0t28',32.00,'https://touhouworldcup.com/assets/icons/japan_16px.png');
+INSERT INTO `Teams 2021` VALUES (1,'West','2024-02-21 18:50:19','2024-02-21 19:21:58','usxycrwh4v0r0t28','usxycrwh4v0r0t28',23.00,'earth'),(2,'China','2024-02-21 18:50:19','2024-02-21 19:21:58','usxycrwh4v0r0t28','usxycrwh4v0r0t28',29.00,'china'),(3,'Japan','2024-02-21 18:50:20','2024-02-21 19:21:58','usxycrwh4v0r0t28','usxycrwh4v0r0t28',32.00,'japan');
 /*!40000 ALTER TABLE `Teams 2021` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -381,7 +381,7 @@ CREATE TABLE `Teams 2022` (
 
 LOCK TABLES `Teams 2022` WRITE;
 /*!40000 ALTER TABLE `Teams 2022` DISABLE KEYS */;
-INSERT INTO `Teams 2022` VALUES (1,'Rose','2024-02-21 18:50:41','2024-02-21 19:24:11','usxycrwh4v0r0t28','usxycrwh4v0r0t28',33.00,'https://touhouworldcup.com/assets/icons/rose.png'),(2,'Heart','2024-02-21 18:50:42','2024-02-21 19:24:25','usxycrwh4v0r0t28','usxycrwh4v0r0t28',29.00,'https://touhouworldcup.com/assets/icons/heart.png'),(3,'Mind','2024-02-21 18:50:43','2024-02-21 19:26:04','usxycrwh4v0r0t28','usxycrwh4v0r0t28',28.00,'https://touhouworldcup.com/assets/icons/mind.png');
+INSERT INTO `Teams 2022` VALUES (1,'Rose','2024-02-21 18:50:41','2024-02-21 19:24:11','usxycrwh4v0r0t28','usxycrwh4v0r0t28',33.00,'rose'),(2,'Heart','2024-02-21 18:50:42','2024-02-21 19:24:25','usxycrwh4v0r0t28','usxycrwh4v0r0t28',29.00,'heart'),(3,'Mind','2024-02-21 18:50:43','2024-02-21 19:26:04','usxycrwh4v0r0t28','usxycrwh4v0r0t28',28.00,'mind');
 /*!40000 ALTER TABLE `Teams 2022` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -411,7 +411,7 @@ CREATE TABLE `Teams 2023` (
 
 LOCK TABLES `Teams 2023` WRITE;
 /*!40000 ALTER TABLE `Teams 2023` DISABLE KEYS */;
-INSERT INTO `Teams 2023` VALUES (1,'Lotus','2024-02-21 18:50:46','2024-02-21 19:27:06','usxycrwh4v0r0t28','usxycrwh4v0r0t28',36.50,'https://touhouworldcup.com/assets/icons/lotus.png'),(2,'Spirit','2024-02-21 18:50:46','2024-02-21 19:27:14','usxycrwh4v0r0t28','usxycrwh4v0r0t28',29.00,'https://touhouworldcup.com/assets/icons/spirit.png'),(3,'Harmony','2024-02-21 18:50:47','2024-02-21 19:27:22','usxycrwh4v0r0t28','usxycrwh4v0r0t28',27.50,'https://touhouworldcup.com/assets/icons/harmony.png');
+INSERT INTO `Teams 2023` VALUES (1,'Lotus','2024-02-21 18:50:46','2024-02-21 19:27:06','usxycrwh4v0r0t28','usxycrwh4v0r0t28',36.50,'lotus'),(2,'Spirit','2024-02-21 18:50:46','2024-02-21 19:27:14','usxycrwh4v0r0t28','usxycrwh4v0r0t28',29.00,'spirit'),(3,'Harmony','2024-02-21 18:50:47','2024-02-21 19:27:22','usxycrwh4v0r0t28','usxycrwh4v0r0t28',27.50,'harmony');
 /*!40000 ALTER TABLE `Teams 2023` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

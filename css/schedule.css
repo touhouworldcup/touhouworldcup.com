@@ -115,9 +115,10 @@ input[type=button] {
     width: 16px;
     height: 16px;
 }
-#schedule_tbody .bonus_match .team_icon,
-#schedule_tbody_2022 .bonus_match .team_icon,
-#schedule_tbody_2023 .bonus_match .team_icon {
+#schedule_tbody .bonus_match .icon16,
+#schedule_tbody_2022 .bonus_match .icon16,
+#schedule_tbody_2023 .bonus_match .icon16,
+#schedule_tbody_2024 .bonus_match .icon16 {
     display: none;
 }
 @media only screen and (max-width: 1000px) {

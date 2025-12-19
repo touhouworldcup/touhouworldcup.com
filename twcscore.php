@@ -30,35 +30,35 @@
 	<span><?php echo _('Game') ?></span><br>
 	<fieldset name="games" id="games">
         <label>
-    		<input type="radio" name="games" value="th06"><span id="cover_th06" class="cover" title="<?php echo _('Touhou 6: Embodiment of Scarlet Devil') ?>"></span>
+    		<input type="radio" name="games" value="th06"><img id="cover_th06" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 6: Embodiment of Scarlet Devil') ?>" width=100 height=100>
         </label><label>
-    		<input type="radio" name="games" value="th07"><span id="cover_th07" class="cover" title="<?php echo _('Touhou 7: Perfect Cherry Blossom') ?>"></span>
+    		<input type="radio" name="games" value="th07"><img id="cover_th07" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 7: Perfect Cherry Blossom') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th08"><span id="cover_th08" class="cover" title="<?php echo _('Touhou 8: Imperishable Night') ?>"></span>
+    		<input type="radio" name="games" value="th08"><img id="cover_th08" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 8: Imperishable Night') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th09"><span id="cover_th09" class="cover" title="<?php echo _('Touhou 9: Phantasmagoria of Flower View') ?>"></span>
+    		<input type="radio" name="games" value="th09"><img id="cover_th09" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 9: Phantasmagoria of Flower View') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th10"><span id="cover_th10" class="cover" title="<?php echo _('Touhou 10: Mountain of Faith') ?>"></span>
+    		<input type="radio" name="games" value="th10"><img id="cover_th10" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 10: Mountain of Faith') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th11"><span id="cover_th11" class="cover" title="<?php echo _('Touhou 11: Subterranean Animism') ?>"></span>
+    		<input type="radio" name="games" value="th11"><img id="cover_th11" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 11: Subterranean Animism') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th12"><span id="cover_th12" class="cover" title="<?php echo _('Touhou 12: Undefined Fantastic Object') ?>"></span>
+    		<input type="radio" name="games" value="th12"><img id="cover_th12" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 12: Undefined Fantastic Object') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th128"><span id="cover_th128" class="cover" title="<?php echo _('Touhou 12.8: Great Fairy Wars') ?>"></span>
+    		<input type="radio" name="games" value="th128"><img id="cover_th128" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 12.8: Great Fairy Wars') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th13"><span id="cover_th13" class="cover" title="<?php echo _('Touhou 13: Ten Desires') ?>"></span>
+    		<input type="radio" name="games" value="th13"><img id="cover_th13" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 13: Ten Desires') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th14"><span id="cover_th14" class="cover" title="<?php echo _('Touhou 14: Double Dealing Character') ?>"></span>
+    		<input type="radio" name="games" value="th14"><img id="cover_th14" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 14: Double Dealing Character') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th15"><span id="cover_th15" class="cover" title="<?php echo _('Touhou 15: Legacy of Lunatic Kingdom') ?>"></span>
+    		<input type="radio" name="games" value="th15"><img id="cover_th15" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 15: Legacy of Lunatic Kingdom') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th16"><span id="cover_th16" class="cover" title="<?php echo _('Touhou 16: Hidden Star in Four Seasons') ?>"></span>
+    		<input type="radio" name="games" value="th16"><img id="cover_th16" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 16: Hidden Star in Four Seasons') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th17"><span id="cover_th17" class="cover" title="<?php echo _('Touhou 17: Wily Beast and Weakest Creature') ?>"></span>
+    		<input type="radio" name="games" value="th17"><img id="cover_th17" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 17: Wily Beast and Weakest Creature') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th18"><span id="cover_th18" class="cover" title="<?php echo _('Touhou 18: Unconnected Marketeers') ?>"></span>
+    		<input type="radio" name="games" value="th18"><img id="cover_th18" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 18: Unconnected Marketeers') ?>"></span>
         </label><label>
-    		<input type="radio" name="games" value="th19"><span id="cover_th19" class="cover" title="<?php echo _('Touhou 19: Unfinished Dream of All Living Ghost') ?>"></span>
+    		<input type="radio" name="games" value="th19"><img id="cover_th19" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 19: Unfinished Dream of All Living Ghost') ?>"></span>
         </label>
 	</fieldset><br><br>
 
@@ -71,20 +71,20 @@
             echo '<fieldset name="shottype" id="' . $game . '" class="game">';
             foreach ($shots as $key => $shot) {
                 if ($checked) {
-                    echo '<label><input type="radio" name="shottype" value="' . $shot . '"><span id="' . $game . $shot . '" class="shottype" title="' . _($shot) . '"></span></label>';
+                    echo '<label><input type="radio" name="shottype" value="' . $shot . '"><img id="' . $game . $shot . '" class="shottype" src="/assets/shots_sheet.png" title="' . _($shot) . '" alt="' . _($shot) . '" width=100 height=100></span></label>';
                     $checked = false;
                     continue;
                 }
-                echo '<label><input type="radio" name="shottype" value="' . $shot . '"><span id="' . $game . $shot . '" class="shottype" title="' . _($shot) . '"></span></label>';
+                echo '<label><input type="radio" name="shottype" value="' . $shot . '"><img id="' . $game . $shot . '" class="shottype" src="/assets/shots_sheet.png" title="' . _($shot) . '" alt="' . _($shot) . '" width=100 height=100></span></label>';
             }
             echo '</fieldset>';
         }
     ?>
 	<fieldset name="shottype" id="th16ex" class="game">
-		<label><input type="radio" name="shottype" value="Reimu"><span id="th16ReimuExtra" class="shottype" title="<?php echo _('Reimu'); ?>"></span></label>
-		<label><input type="radio" name="shottype" value="Cirno"><span id="th16CirnoExtra" class="shottype" title="<?php echo _('Cirno'); ?>"></span></label>
-		<label><input type="radio" name="shottype" value="Aya"><span id="th16AyaExtra" class="shottype" title="<?php echo _('Aya'); ?>"></span></label>
-		<label><input type="radio" name="shottype" value="Marisa"><span id="th16MarisaExtra" class="shottype" title="<?php echo _('Marisa'); ?>"></span></label>
+		<label><input type="radio" name="shottype" value="Reimu"><img id="th16ReimuExtra" class="shottype" src="/assets/shots_sheet.png" title="<?php echo _('Reimu'); ?>" alt="<?php echo _('Reimu') ?>" width=100 height=100></span></label>
+		<label><input type="radio" name="shottype" value="Cirno"><img id="th16CirnoExtra" class="shottype" src="/assets/shots_sheet.png" title="<?php echo _('Cirno'); ?>" alt="<?php echo _('Cirno') ?>" width=100 height=100></span></label>
+		<label><input type="radio" name="shottype" value="Aya"><img id="th16AyaExtra" class="shottype" src="/assets/shots_sheet.png" title="<?php echo _('Aya'); ?>" alt="<?php echo _('Aya') ?>" width=100 height=100></span></label>
+		<label><input type="radio" name="shottype" value="Marisa"><img id="th16MarisaExtra" class="shottype" src="/assets/shots_sheet.png" title="<?php echo _('Marisa'); ?>" alt="<?php echo _('Marisa') ?>" width=100 height=100></span></label>
 	</fieldset>
 	<br><br>
 

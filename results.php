@@ -50,7 +50,7 @@
             return $a['Points'] < $b['Points'] ? 1 : -1;
         });
         foreach ($teams_2024 as $team) {
-            array_push($teams, '<li><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
+            array_push($teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
             if ($team['Points'] > $max_points) {
                 $max_points = $team['Points'];
                 $max_index = $index;
@@ -95,7 +95,7 @@
             return $a['Points'] < $b['Points'] ? 1 : -1;
         });
         foreach ($teams_2023 as $team) {
-            array_push($teams, '<li><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
+            array_push($teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
             if ($team['Points'] > $max_points) {
                 $max_points = $team['Points'];
                 $max_index = $index;
@@ -138,7 +138,7 @@
             return $a['Points'] < $b['Points'] ? 1 : -1;
         });
         foreach ($teams_2022 as $team) {
-            array_push($teams, '<li><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
+            array_push($teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
             if ($team['Points'] > $max_points) {
                 $max_points = $team['Points'];
                 $max_index = $index;
@@ -181,7 +181,7 @@
             return $a['Points'] < $b['Points'] ? 1 : -1;
         });
         foreach ($teams_2021 as $team) {
-            array_push($teams, '<li><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
+            array_push($teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
             if ($team['Points'] > $max_points) {
                 $max_points = $team['Points'];
                 $max_index = $index;
@@ -225,7 +225,7 @@
             return $a['Points'] < $b['Points'] ? 1 : -1;
         });
         foreach ($teams_2020 as $team) {
-            array_push($teams, '<li><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
+            array_push($teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
             if ($team['Points'] > $max_points) {
                 $max_points = $team['Points'];
                 $max_index = $index;

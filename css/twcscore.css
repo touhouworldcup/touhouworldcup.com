@@ -67,18 +67,11 @@ button {
 #phantasm, .game {
     display: none;
 }
-.cover {
-    background-image: url('../assets/games_sheet.jpg');
-}
-.shottype {
-    background-image: url('../assets/shots_sheet.png');
-}
 .shottype, .cover {
-    display: inline-block;
-    height: 100px;
     width: 100px;
-}
-.cover, .shottype {
+    height: 100px;
+    aspect-ratio: auto 100 / 100;
+    object-fit: none;
     opacity: 0.7;
 }
 .cover:hover, .shottype:hover {

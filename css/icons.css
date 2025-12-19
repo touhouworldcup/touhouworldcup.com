@@ -1,0 +1,179 @@
+.icon64 {
+    width: 64px;
+    height: 64px;
+    aspect-ratio: auto 64 / 64;
+    object-fit: none;
+
+    &.bilibili {
+        object-position: 0px 0px;
+    }
+
+    &.bluesky {
+        object-position: -64px 0px;
+    }
+
+    &.forms {
+        object-position: -128px 0px;
+    }
+
+    &.twitch {
+        object-position: -192px 0px;
+    }
+
+    &.twitter {
+        object-position: -256px 0px;
+    }
+
+    &.youtube {
+        object-position: -320px 0px;
+    }
+}
+
+.icon48 {
+    width: 48px;
+    height: 48px;
+    aspect-ratio: auto 48 / 48;
+    object-fit: none;
+
+    &.uk {
+        object-position: 0px 0px;
+    }
+
+    &.us {
+        object-position: -48px 0px;
+    }
+
+    &.japan {
+        object-position: -96px 0px;
+    }
+
+    &.china {
+        object-position: -144px 0px;
+    }
+
+    &.russia {
+        object-position: -192px 0px;
+    }
+
+    &.germany {
+        object-position: -240px 0px;
+    }
+
+    &.spain {
+        object-position: -288px 0px;
+    }
+
+    &.lang {
+        object-position: -336px 0px;
+    }
+}
+
+.icon24 {
+    width: 24px;
+    height: 24px;
+    aspect-ratio: auto 24 / 24;
+    object-fit: none;
+
+    &.twitter {
+        object-position: 0px 0px;
+    }
+
+    &.pixiv {
+        object-position: -24px 0px;
+    }
+
+    &.tumblr {
+        object-position: -48px 0px;
+    }
+
+    &.linktree {
+        object-position: -72px 0px;
+    }
+}
+
+.icon16 {
+    width: 16px;
+    height: 16px;
+    aspect-ratio: auto 16 / 16;
+    object-fit: none;
+
+    &.globe {
+        object-position: 0px 0px;
+    }
+
+    &.twitch {
+        object-position: -16px 0px;
+    }
+
+    &.twitter {
+        object-position: -32px 0px;
+    }
+
+    &.youtube {
+        object-position: -48px 0px;
+    }
+
+    &.bilibili {
+        object-position: -64px 0px;
+    }
+
+    &.west {
+        object-position: -80px 0px;
+    }
+
+    &.china {
+        object-position: -96px 0px;
+    }
+
+    &.japan {
+        object-position: -112px 0px;
+    }
+
+    &.rose {
+        object-position: -128px 0px;
+    }
+
+    &.heart {
+        object-position: -144px 0px;
+    }
+
+    &.mind {
+        object-position: -160px 0px;
+    }
+
+    &.lotus {
+        object-position: -176px 0px;
+    }
+
+    &.spirit {
+        object-position: -192px 0px;
+    }
+
+    &.harmony {
+        object-position: -208px 0px;
+    }
+
+    &.star {
+        object-position: -224px 0px;
+    }
+
+    &.luna {
+        object-position: -240px 0px;
+    }
+
+    &.sunny {
+        object-position: -256px 0px;
+    }
+
+    &.aya {
+        object-position: -272px 0px;
+    }
+
+    &.hatate {
+        object-position: -288px 0px;
+    }
+
+    &.momiji {
+        object-position: -304px 0px;
+    }
+}

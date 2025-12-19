@@ -153,19 +153,19 @@ function format_points(array $result, string $year) {
 }
 function get_icon(string $link) {
     if (strpos($link, 'twitch') !== false) {
-        return '<img src="/assets/icons/twitch-icon-small.png" alt="Twitch icon">';
+        return '<img class="icon16 twitch" src="/assets/icons/icon_sheet_16.png" alt="Twitch icon">';
     }
     else if (strpos($link, 'twitter') !== false) {
-        return '<img src="/assets/icons/twitter-icon-small.png" alt="Twitter icon">';
+        return '<img class="icon16 twitter" src="/assets/icons/icon_sheet_16.png" alt="Twitter icon">';
     }
     else if (strpos($link, 'youtube') !== false) {
-        return '<img src="/assets/icons/youtube-icon-small.png" alt="YouTube icon">';
+        return '<img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">';
     }
     else if (strpos($link, 'bilibili') !== false) {
-        return '<img src="/assets/icons/bilibili-icon-small.png" alt="Bilibili icon">';
+        return '<img class="icon16 bilibili" src="/assets/icons/icon_sheet_16.png" alt="Bilibili icon">';
     }
     else {
-        return '<img src="/assets/icons/globe-icon-small.png" alt="Globe with meridians icon">';
+        return '<img class="icon16 globe" src="/assets/icons/icon_sheet_16.png" alt="Globe with meridians icon">';
     }
 }
 function print_schedule(array $schedule, array $results, array $teams, string $year, array $players) {
@@ -198,7 +198,7 @@ function print_schedule(array $schedule, array $results, array $teams, string $y
                 continue;
             }
             $team = $teams[$i - 1];
-            echo '<span class="team"><img src="' . $team['Icon'] . '" alt="' . _('Team ' . $team['Name']) . '" class="team_icon"><span class="tooltip">' . _('Team ' . $team['Name']) . '</span></span> ';
+            echo '<span class="team"><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"><span class="tooltip">' . _('Team ' . $team['Name']) . '</span></span> ';
             $player_key = array_search($player, array_column($players, 'Name'));
             if (!empty($players) && $player_key !== false) {
                 if ($lang == 'ja_JP' && !empty($players[$player_key]['JapaneseName'])) {
