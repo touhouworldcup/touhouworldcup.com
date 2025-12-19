@@ -219,7 +219,7 @@
             <?php render_gallery($end_cards_2024, '/static/art/2024_end_cards', false);?>
         </div>
 
-        <h2 id="2024-final"><a class="expander" onclick="art_show(this)">▸TWC 2024 Final Collab Illustrations</a></h2>
+        <h2 id="2024-final"><a class="expander" onclick="art_show(this)">▸2024 Final Collab Illustrations</a></h2>
         <div class="thumbnail-gallery two-cols art-past">
             <?php render_gallery($final_2024, '/static/art/2024_final_collab_illustrations', true);?>
         </div>
