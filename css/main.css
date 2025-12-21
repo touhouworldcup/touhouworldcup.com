@@ -63,7 +63,7 @@ iframe {
 .huge {
     font-size: 32px;
 }
-.icon {
+.icon64 {
     margin-right: 4px;
 }
 #countdowns {
@@ -94,7 +94,7 @@ iframe {
     .large {
         font-size: 16px;
     }
-    .icon {
+    .icon64 {
         margin-right: 0px;
     }
 }

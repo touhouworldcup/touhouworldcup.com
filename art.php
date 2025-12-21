@@ -245,7 +245,7 @@
             $img_src = $is_hide ? "" : $data_src;
 
             echo '<div class="illustration">';
-            echo '<img src="' . $img_src . '"data-src="' . $data_src . '" alt="' . $title . '" onclick="openModal(\'' . $img_dir . '/originals/' . $file . '\')">';
+            echo '<img class="art" src="' . $img_src . '"data-src="' . $data_src . '" alt="' . $title . '" onclick="openModal(\'' . $img_dir . '/originals/' . $file . '\')">';
             echo '<h4>' . $title . '</h4>';
 
             if (!empty($artist_names)) {
@@ -255,9 +255,9 @@
                     $links = isset($artist_links[$artist_name]) ? $artist_links[$artist_name] : [];
                     $artist_html = '<span class="artist-name">' . $artist_name;
                     foreach ($links as $link) {
-                        $icon = '/assets/icons/' . $link[0] . '-icon.png';
+                        $icon = '/assets/icons/icon_sheet_24.png';
                         $artist_html .= '<a href="' . $link[1] . '" target="_blank" class="social-link">';
-                        $artist_html .= '<img src="' . $icon . '" alt="' . ucfirst($link[0]) . ' icon">';
+                        $artist_html .= '<img class="icon24 ' . $link[0] . '" src="' . $icon . '" alt="' . ucfirst($link[0]) . ' icon" width=24 height=24>';
                         $artist_html .= '</a>';
                     }
                     $artist_html .= '</span>';

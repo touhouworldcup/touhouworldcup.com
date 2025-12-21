@@ -19,7 +19,7 @@ h2 img {
     margin-bottom: 0;
 }
 
-.illustration img {
+.illustration .art {
     width: 100%;
     cursor: pointer;
 }
