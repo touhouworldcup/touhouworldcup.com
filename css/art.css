@@ -86,9 +86,16 @@ h2 img {
 }
 
 .modal img {
+    display: none;
     max-width: 90%;
     max-height: 90%;
     cursor: pointer;
+}
+
+.modal video {
+    display: none;
+    max-width: 90%;
+    max-height: 90%;
 }
 
 .modal-close {

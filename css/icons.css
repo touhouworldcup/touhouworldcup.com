@@ -89,6 +89,10 @@
     &.linktree {
         object-position: -72px 0px;
     }
+
+    &.bluesky {
+        object-position: -96px 0px;
+    }
 }
 
 .icon16 {

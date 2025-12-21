@@ -1258,6 +1258,94 @@ msgstr "TWCスコア："
 msgid "Score:"
 msgstr "スコア："
 
+#: art.php
+msgid "Embryo's Dream"
+msgstr "胎児の夢"
+
+#: art.php
+msgid "Cat Sign \"Vengeful Cat Spirit's Erratic Step\""
+msgstr "猫符「怨霊猫乱歩」"
+
+#: art.php
+msgid "Music Sign \"Double Score\""
+msgstr "楽符「ダブルスコア」"
+
+#: art.php
+msgid "Direction Sign \"Kimontonkou\""
+msgstr "方符「奇門遁甲」"
+
+#: art.php
+msgid "\"The Seven Issun-Boshi\""
+msgstr "「七人の一寸法師」"
+
+#: art.php
+msgid "Sphere Sign \"Yin-Yang God Sphere\""
+msgstr "玉符「陰陽神玉」"
+
+#: art.php
+msgid "Scarlet Sign \"Scarlet Meister\""
+msgstr "紅符「スカーレットマイスタ」"
+
+#: art.php
+msgid "\"Scarlet Gensokyou\""
+msgstr "「紅色の幻想郷」"
+
+#: art.php
+msgid "Judgement \"Last Judgement\""
+msgstr "審判「ラストジャッジメント」"
+
+#: art.php
+msgid "\"Blue Lady Show\""
+msgstr "「ブルーレディショー」"
+
+#: art.php
+msgid "Border Sign \"Boundary of Wave and Particle\""
+msgstr "境符「波と粒の境界」"
+
+#: art.php
+msgid "Explosion Sign \"Peta Flare\""
+msgstr "爆符「ペタフレア」"
+
+#: art.php
+msgid "\"Divine Virtues of Wind God\""
+msgstr "「風神様の神徳」"
+
+#: art.php
+msgid "Deadly Dance \"Law of Mortality\""
+msgstr "亡舞「生者必滅の理ー魔境ー」"
+
+#: art.php
+msgid "Native God \"Red Frogs of Houei 4\""
+msgstr "土着神「宝永四年の赤蛙」"
+
+#: art.php
+msgid "Circular \"Circle Creature\""
+msgstr "円形「サークルクリーチャー」"
+
+#: art.php
+msgid "Taboo \"Kagome Kagome\""
+msgstr "禁忌「カゴメカゴメ」"
+
+#: art.php
+msgid "Big Centipede \"Dragon Eater\""
+msgstr "大蜈蚣「ドラゴンイーター」"
+
+#: art.php
+msgid "Dust Sign \"Karabitsu Upheaval\""
+msgstr "塵符「唐櫃大返し」"
+
+#: art.php
+msgid "Team Tech \"Fairy Overdrive\""
+msgstr "協力技「フェアリーオーバードライブ」"
+
+#: art.php
+msgid "Reaction \"Youkai Polygraph\""
+msgstr "反応「妖怪ポリグラフ」"
+
+#: art.php
+msgid "Art"
+msgstr "ギャラリー"
+
 #~ msgid ""
 #~ "Touhou World Cup 2024 has ended. Go to the <a href=\"/results\">Past "
 #~ "Results page</a> to see the results."
