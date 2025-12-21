@@ -10,43 +10,63 @@
 
     $artist_links = [
         "Addamelech" => [["twitter", "https://twitter.com/addamelech"], ["pixiv", "https://www.pixiv.net/en/users/2570621"]],
+        "Aniiue" => [["twitter", "https://twitter.com/NotGiorno4"]],
         "Aqwa" => [["twitter", "https://twitter.com/aqwwa58"], ["tumblr", "https://aqwwa58.tumblr.com/"]],
-        "daisymels" => [["twitter", "https://twitter.com/daisymels"], ["tumblr", "https://daisymels.tumblr.com/"]],
         "Ciel-9" => [["twitter", "https://twitter.com/Cirnolover9"]],
+        "daisymels" => [["twitter", "https://twitter.com/daisymels"], ["tumblr", "https://daisymels.tumblr.com/"]],
         "DJThunderHeart" => [["linktree", "https://linktr.ee/djthunderheart"]],
         "hrm" => [["twitter", "https://twitter.com/hrm_wata"], ["pixiv", "https://www.pixiv.net/users/1526168"]],
         "indigo" => [["twitter", "https://twitter.com/IKuroto"]],
+        "Kosuka" => [["twitter", "https://twitter.com/K0suka"]],
+        "Lwiizi" => [["twitter", "https://twitter.com/lwiiizi"]],
         "mero" => [["tumblr", "https://merort.tumblr.com/"]],
         "Muzilana" => [["twitter", "https://twitter.com/muzilana1"], ["pixiv", "https://www.pixiv.net/en/users/32090790"]],
         "Nill-Milan" => [["twitter", "https://twitter.com/Nill_Milan"]],
+        "Ohako" => [["twitter", "https://twitter.com/OhakoMiv"], ["pixiv", "https://www.pixiv.net/users/14258934"]],
         "Oligarchomp" => [["twitter", "https://twitter.com/oligarchomp"]],
         "OmegaOof" => [["pixiv", "https://www.pixiv.net/en/users/64677321"]],
         "pisangmolen" => [["twitter", "https://twitter.com/314smol"]],
-        "Redler Red7" => [["twitter", "https://twitter.com/redlerred7"], ["tumblr", "https://redlerred7.tumblr.com/"], ["pixiv", "https://pixiv.me/redlerred7"]],
+        "Quoastli" => [["bluesky", "https://bsky.app/profile/qoastli.bsky.social"]],
+        "RedlerRed7" => [["twitter", "https://twitter.com/redlerred7"], ["tumblr", "https://redlerred7.tumblr.com/"], ["pixiv", "https://pixiv.me/redlerred7"]],
         "Sachisu" => [["twitter", "https://twitter.com/sachisudesu"]],
+        "SanneSakura" => [["bluesky", "https://bsky.app/profile/sakurasanne.bsky.social"]],
         "seri" => [["twitter", "https://twitter.com/serichii4"]],
         "Skywalker2016GD" => [["twitter", "https://twitter.com/Skywalker2016GD"]],
         "sleepymausu" => [["twitter", "https://twitter.com/sleepymausu"]],
-        "Starmanz" => [["twitter", "https://twitter.com/Its_a_Starman"]],
+        "Sowako" => [["twitter", "https://twitter.com/Sowakodelama"]],
+        "Starmanz" => [["twitter", "https://twitter.com/Its_a_Starman"], ["pixiv", "https://www.pixiv.net/users/115667958"]],
+        "TESM" => [["twitter", "https://twitter.com/MH67679768"]],
         "trisector" => [["twitter", "https://twitter.com/tris3ctor"]],
-        "TurboOven9000" => [["tumblr", "https://www.tumblr.com/turbooven9000"]],
         "TurboMaya9000" => [["tumblr", "https://www.tumblr.com/turbooven9000"]],
-        "WErty" => [],
+        "TurboOven9000" => [["tumblr", "https://www.tumblr.com/turbooven9000"]],
+        "WErty" => [["twitter", "https://twitter.com/qwr7y"]],
         "yeashie" => [["twitter", "https://twitter.com/danmaku_stg"]],
         "あずまよりこ" => [["twitter", "https://twitter.com/AzumaYoriko"], ["pixiv", "https://www.pixiv.net/users/37450350"]],
+        "イロドリほたる" => [["twitter", "https://twitter.com/peconeko1"]],
         "うめ" => [["twitter", "https://twitter.com/umebitansan"], ["pixiv", "https://www.pixiv.net/users/72729141"]],
+        "えーじーてぃー" => [],
+        "オノ･コーヘイ" => [["twitter", "https://twitter.com/AXE_Empty"], ["pixiv", "https://www.pixiv.net/users/1891612"]],
+        "おみず" => [["twitter", "https://twitter.com/dedicated_water"], ["pixiv", "https://www.pixiv.net/users/35059004"]],
         "こがらし" => [["twitter", "https://twitter.com/chiyonosuki"], ["pixiv", "https://www.pixiv.net/users/28927093"]],
+        "しぐれに" => [["twitter", "https://twitter.com/reni_Eremit"], ["pixiv", "https://www.pixiv.net/users/117765131"]],
         "スライス蛸足" => [["twitter", "https://twitter.com/S_tako_"]],
         "せい" => [["twitter", "https://twitter.com/nonorieo__"]],
-        "はらぴょん" => [["twitter", "https://twitter.com/harapyon9711"]],
+        "とっとこ避太郎" => [["twitter", "https://twitter.com/yoketarou137_5"]],
+        "のけん" => [["twitter", "https://twitter.com/Shi_mtmt"], ["pixiv", "https://www.pixiv.net/users/29441975"]],
+        "はらぴょん" => [["twitter", "https://twitter.com/harapyon9711_d"], ["pixiv", "https://www.pixiv.net/users/44095496"]],
+        "ひまじん" => [["twitter", "https://twitter.com/HIMAJIN_TOUHOU"]],
         "ふぇぶりゅう" => [["twitter", "https://twitter.com/MppjU"], ["pixiv", "https://www.pixiv.net/users/15053330"]],
+        "めえきち" => [["twitter", "https://twitter.com/irastodake"]],
         "らかさぁ" => [["twitter", "https://twitter.com/rakasa0923"]],
         "りんり" => [["twitter", "https://twitter.com/pachurinri"]],
         "松本岡" => [["twitter", "https://twitter.com/kan10na2"], ["pixiv", "https://www.pixiv.net/users/33532818"]],
         "桃里" => [["twitter", "https://twitter.com/210marisa"], ["pixiv", "https://www.pixiv.net/users/13691788"]],
         "砕氷" => [["twitter", "https://twitter.com/CreepingBarrett"], ["pixiv", "https://www.pixiv.net/en/users/9337602"]],
-        "陽菜" => [["twitter", "https://twitter.com/tukudani_2005"]],
         "鈴奈神楽" => [["twitter", "https://twitter.com/Suzuna_Kagura"]],
+        "白犬" => [["twitter", "https://twitter.com/shiro0221_"], ["pixiv", "https://www.pixiv.net/users/99345932"]],
+        "藍雪" => [["twitter", "https://twitter.com/bluesnow_stg"]],
+        "暇人" => [["twitter", "https://twitter.com/mizudanngo822"], ["pixiv", "https://www.pixiv.net/users/14028304"]],
+        "缶詰" => [["twitter", "https://twitter.com/galaxykanzume"], ["pixiv", "https://www.pixiv.net/users/45538890"]],
     ];
 
     $end_cards_2025 = [
@@ -54,7 +74,7 @@
         ["TH06 Lunatic Scoring", "TH06_Lunatic_Scoring.png", ["白犬"]],
         ["TH06 Extra Scoring", "TH06_Extra_Scoring.png", ["ひまじん"]],
         ["TH07 Lunatic Survival", "TH07_Lunatic_Survival.png", ["TurboMaya9000"]],
-        ["TH07 Lunatic Scoring", "TH07_Lunatic_Scoring.png", ["Lwiizi"]],
+        ["TH07 Lunatic Scoring (video)", "TH07_Lunatic_Scoring.mp4", ["Lwiizi"]],
         ["TH07 Extra Scoring", "TH07_Extra_Scoring.png", ["hrm"]],
         ["TH08 Lunatic Survival", "TH08_Lunatic_Survival.png", ["えーじーてぃー"]],
         ["TH08 Lunatic Scoring", "TH08_Lunatic_Scoring.png", ["Kosuka"]],
@@ -71,20 +91,20 @@
         ["TH12 Lunatic Scoring", "TH12_Lunatic_Scoring.png", ["SanneSakura"]],
         ["TH12 Extra Scoring", "TH12_Extra_Scoring.png", ["Ohako"]],
         ["TH128 Lunatic Survival", "TH128_Lunatic_Survival.png", ["めえきち"]],
-        ["TH128 Lunatic Scoring", "TH128_Lunatic_Scoring.png", ["breezyleaf"]],
-        ["TH13 Lunatic Survival", "TH13_Lunatic_Survival.png", ["つくだに"]],
+        ["TH128 Lunatic Scoring", "TH128_Lunatic_Scoring.png", ["Quoastli"]],
+        ["TH13 Lunatic Survival", "TH13_Lunatic_Survival.png", ["しぐれに"]],
         ["TH13 Lunatic Scoring", "TH13_Lunatic_Scoring.png", ["イロドリほたる"]],
         ["TH14 Lunatic Survival", "TH14_Lunatic_Survival.png", ["オノ･コーヘイ"]],
-        ["TH14 Lunatic Scoring", "TH14_Lunatic_Scoring.png", ["Redlerred7"]],
+        ["TH14 Lunatic Scoring", "TH14_Lunatic_Scoring.png", ["RedlerRed7"]],
         ["TH14 Extra Scoring", "TH14_Extra_Scoring.png", ["はらぴょん"]],
         ["TH15 Lunatic Survival", "TH15_Lunatic_Survival.png", ["暇人"]],
         ["TH15 Lunatic Scoring", "TH15_Lunatic_Scoring.png", ["Addamelech"]],
-        ["TH15 Extra Scoring", "TH15_Extra_Scoring.png", ["omegaOof"]],
+        ["TH15 Extra Scoring", "TH15_Extra_Scoring.png", ["OmegaOof"]],
         ["TH16 Lunatic Survival", "TH16_Lunatic_Survival.png", ["缶詰"]],
         ["TH16 Lunatic Scoring", "TH16_Lunatic_Scoring_A.png", ["のけん"]],
         ["TH16 Lunatic Scoring", "TH16_Lunatic_Scoring_B.png", ["藍雪"]],
         ["TH17 Lunatic Survival", "TH17_Lunatic_Survival.png", ["Sachisu"]],
-        ["TH17 Lunatic Scoring", "TH17_Lunatic_Scoring.png", ["Werty"]],
+        ["TH17 Lunatic Scoring", "TH17_Lunatic_Scoring.png", ["WErty"]],
         ["TH18 Lunatic Survival", "TH18_Lunatic_Survival.png", ["あずまよりこ"]],
         ["TH18 Extra Scoring", "TH18_Extra_Scoring.png", ["Starmanz"]],
         ["TH19 Lunatic Survival", "TH19_Lunatic_Survival.png", ["鈴奈神楽"]],
@@ -93,25 +113,25 @@
     $final_2025 = [
         ["Embryo's Dream", "1.png", ["暇人"]],
         ["Cat Sign \"Vengeful Cat Spirit's Erratic Step\"", "2.png", ["桃里"]],
-        ["Music Sign \"Double Score\"", "3.png", ["Redlerred7"]],
+        ["Music Sign \"Double Score\"", "3.png", ["RedlerRed7"]],
         ["Direction Sign \"Kimontonkou\"", "4.png", ["Lwiizi"]],
         ["\"The Seven Issun-Boshi\"", "5.png", ["Quoastli"]],
-        ["Sphere Sign \"Yin-Yang God Sphere\"", "6.png", ["つくだに", "あずまよりこ"]],
-        ["Scarlet Sign \"Scarlet Meister\"", "7.png", ["Niiue"]],
+        ["Sphere Sign \"Yin-Yang God Sphere\"", "6.png", ["しぐれに", "あずまよりこ"]],
+        ["Scarlet Sign \"Scarlet Meister\"", "7.png", ["Aniiue"]],
         ["\"Scarlet Gensokyou\"", "8.png", ["ひまじん"]],
         ["Judgement \"Last Judgement\"", "9.png", ["スライス蛸足"]],
         ["\"Blue Lady Show\"", "10.png", ["Starmanz"]],
         ["Border Sign \"Boundary of Wave and Particle\"", "11.png", ["砕氷"]],
         ["Explosion Sign \"Peta Flare\"", "12.png", ["はらぴょん"]],
         ["\"Divine Virtues of Wind God\"", "13.png", ["SanneSakura"]],
-        ["Deadly Dance \"Law of Mortality\"", "14.png", ["AGT"]],
+        ["Deadly Dance \"Law of Mortality\"", "14.png", ["えーじーてぃー"]],
         ["Native God \"Red Frogs of Houei 4\"", "15.png", ["Sowako"]],
         ["Circular \"Circle Creature\"", "16.png", ["鈴奈神楽"]],
-        ["Taboo \"Kagome Kagome\"", "17.png", ["TurboOven9000"]],
+        ["Taboo \"Kagome Kagome\"", "17.png", ["TurboMaya9000"]],
         ["Big Centipede \"Dragon Eater\"", "18.png", ["hrm"]],
         ["Dust Sign \"Karabitsu Upheaval\"", "19.png", ["Ciel-9"]],
-        ["Team Tech \"Fairy Overdrive\"", "20.png", ["Skywalker2006"]],
-        ["Reaction \"Youkai Polygraph\"", "21.png", ["sachisu"]]
+        ["Team Tech \"Fairy Overdrive\"", "20.png", ["Skywalker2016GD"]],
+        ["Reaction \"Youkai Polygraph\"", "21.png", ["Sachisu"]]
     ];
 
     $end_cards_2024 = [
@@ -128,7 +148,7 @@
         ["TH09 Lunatic Scoring", "PoFV_Lunatic_Scoring.png", ["はらぴょん"]],
         ["TH10 Lunatic Survival", "MoF_Lunatic_Survival.png", ["こがらし"]],
         ["TH10 Lunatic Scoring", "MoF_Lunatic_Scoring.png", ["seri"]],
-        ["TH10 Extra Scoring", "MoF_Extra_Scoring.png",  ["陽菜"]],
+        ["TH10 Extra Scoring", "MoF_Extra_Scoring.png",  ["しぐれに"]],
         ["TH11 Lunatic Survival", "SA_Lunatic_Survival.png", ["Sachisu"]],
         ["TH11 Extra Scoring", "SA_Extra_Scoring.png", ["松本岡"]],
         ["TH12 Lunatic Survival", "UFO_Lunatic_Survival.png", ["TurboOven9000"]],
@@ -138,7 +158,7 @@
         ["TH13 Lunatic Survival", "TD_Lunatic_Survival.png", ["砕氷"]],
         ["TH13 Lunatic Scoring", "TD_Lunatic_Scoring.png", ["Skywalker2016GD"]],
         ["TH13 Extra Scoring", "TD_Extra_Scoring.png", ["Addamelech"]],
-        ["TH14 Lunatic Survival", "DDC_Lunatic_Survival.png", ["Redler Red7"]],
+        ["TH14 Lunatic Survival", "DDC_Lunatic_Survival.png", ["RedlerRed7"]],
         ["TH14 Lunatic Scoring", "DDC_Lunatic_Scoring.png", ["Nill-Milan"]],
         ["TH14 Extra Scoring", "DDC_Extra_Scoring.png", ["mero"]],
         ["TH15 Lunatic Survival", "LoLK_Lunatic_Survival.png", ["松本岡"]],
@@ -162,9 +182,9 @@
         ["TH08 Lunatic Survival", "in_lnb.png", ["砕氷"]],
         ["TH08 Lunatic Scoring", "in_scoring.png", ["りんり"]],
         ["TH09 Lunatic Survival", "pofv_lnb.png", ["Ciel-9"]],
-        ["TH09 Lunatic Scoring", "pofv_scoring.png", ["陽菜"]],
+        ["TH09 Lunatic Scoring", "pofv_scoring.png", ["しぐれに"]],
         ["TH10 Lunatic Survival", "mof_lnb.png", ["こがらし"]],
-        ["TH10 Lunatic Scoring", "mof_scoring.png", ["Redler Red7"]],
+        ["TH10 Lunatic Scoring", "mof_scoring.png", ["RedlerRed7"]],
         ["TH10 Extra Scoring", "mof_ex.png", ["Addamelech"]],
         ["TH11 Lunatic Survival", "sa_lnb.png", ["桃里"]],
         ["TH11 Extra Scoring", "sa_ex.png", ["らかさぁ"]],
@@ -241,7 +261,7 @@
             $title = _($art[0]);
             $file = $art[1];
             $artist_names = $art[2];
-            $data_src = $img_dir . '/thumbnails/' . str_replace('.png', '.jpg', $file);
+            $data_src = $img_dir . '/thumbnails/' . pathinfo($file)['filename'] . '.jpg';
             $img_src = $is_hide ? "" : $data_src;
 
             echo '<div class="illustration">';
@@ -308,16 +328,13 @@
         <div class="thumbnail-gallery three-cols art-past">
             <?php render_gallery($end_cards_2023, '/static/art/2023_end_cards', true);?>
         </div>
-        <!--<h2><a class="expander" onclick="art_show(this)">⮞</a> daisymels <a href="https://twitter.com/daisymels"><img src="/assets/icons/twitter-icon.png" alt="Twitter icon"></a> <a href="https://daisymels.tumblr.com/"><img src="/assets/icons/tumblr-icon.png" alt="Tumblr icon"></a></h2>
-        <div>
-            
-        </div>-->
 	</main>
 
     <!-- Modal structure -->
-    <div id="imageModal" class="modal" onclick="closeModal()">
+    <div id="modal" class="modal" onclick="closeModal()">
         <span class="modal-close">&times;</span>
-        <img id="modalImage" src="" alt="">
+        <img id="modalImage" src="">
+        <video id="modalVideo" src="" controls></video>
     </div>
 
 </body>

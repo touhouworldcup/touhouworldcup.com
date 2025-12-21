@@ -1342,6 +1342,10 @@ msgstr "協力技「フェアリーオーバードライブ」"
 msgid "Reaction \"Youkai Polygraph\""
 msgstr "反応「妖怪ポリグラフ」"
 
+#: art.php
+msgid "Art"
+msgstr "ギャラリー"
+
 #~ msgid ""
 #~ "Touhou World Cup 2024 has ended. Go to the <a href=\"/results\">Past "
 #~ "Results page</a> to see the results."
