@@ -45,10 +45,10 @@ function closeModal() {
     const modalImage = document.getElementById('modalImage');
     const modalVideo = document.getElementById('modalVideo');
 
-    modalImage.src = '';
+    modalImage.removeAttribute('src');
     modalVideo.pause();
-    modalVideo.src = '';
-
+    modalVideo.removeAttribute('src');
+    modalVideo.load();
     modal.style.display = 'none';
     modalImage.style.display = 'none';
     modalVideo.style.display = 'none';

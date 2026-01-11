@@ -54,7 +54,7 @@
         "せい" => [["twitter", "https://twitter.com/nonorieo__"]],
         "とっとこ避太郎" => [["twitter", "https://twitter.com/yoketarou137_5"]],
         "のけん" => [["twitter", "https://twitter.com/Shi_mtmt"], ["pixiv", "https://www.pixiv.net/users/29441975"]],
-        "はらぴょん" => [[["twitter", "https://twitter.com/harapyon9711"]]],
+        "はらぴょん" => [["twitter", "https://twitter.com/harapyon9711"]],
         "ひまじん" => [["twitter", "https://twitter.com/HIMAJIN_TOUHOU"]],
         "ふぇぶりゅう" => [["twitter", "https://twitter.com/MppjU"], ["pixiv", "https://www.pixiv.net/users/15053330"]],
         "めえきち" => [["twitter", "https://twitter.com/irastodake"]],
@@ -71,7 +71,7 @@
 
     $end_cards_2025 = [
         ["TH06 Lunatic Survival", "TH06_Lunatic_Survival.png", ["Skywalker2016GD"]],
-        ["TH06 Lunatic Scoring", "TH06_Lunatic_Scoring.png", ["白犬"]],
+        ["TH06 Lunatic Scoring", "TH06_Lunatic_Scoring.png", ["ShiR0"]],
         ["TH06 Extra Scoring", "TH06_Extra_Scoring.png", ["ひまじん"]],
         ["TH07 Lunatic Survival", "TH07_Lunatic_Survival.png", ["TurboMaya9000"]],
         ["TH07 Lunatic Scoring (video)", "TH07_Lunatic_Scoring.mp4", ["Lwiizi"]],
@@ -91,7 +91,7 @@
         ["TH12 Lunatic Scoring", "TH12_Lunatic_Scoring.png", ["SanneSakura"]],
         ["TH12 Extra Scoring", "TH12_Extra_Scoring.png", ["Ohako"]],
         ["TH128 Lunatic Survival", "TH128_Lunatic_Survival.png", ["めえきち"]],
-        ["TH128 Lunatic Scoring", "TH128_Lunatic_Scoring.png", ["Quoastli"]],
+        ["TH128 Lunatic Scoring", "TH128_Lunatic_Scoring.png", ["Qoastli"]],
         ["TH13 Lunatic Survival", "TH13_Lunatic_Survival.png", ["しぐれに"]],
         ["TH13 Lunatic Scoring", "TH13_Lunatic_Scoring.png", ["イロドリほたる"]],
         ["TH14 Lunatic Survival", "TH14_Lunatic_Survival.png", ["オノ･コーヘイ"]],
@@ -115,7 +115,7 @@
         ["Cat Sign \"Vengeful Cat Spirit's Erratic Step\"", "2.png", ["桃里"]],
         ["Music Sign \"Double Score\"", "3.png", ["RedlerRed7"]],
         ["Direction Sign \"Kimontonkou\"", "4.png", ["Lwiizi"]],
-        ["\"The Seven Issun-Boshi\"", "5.png", ["Quoastli"]],
+        ["\"The Seven Issun-Boshi\"", "5.png", ["Qoastli"]],
         ["Sphere Sign \"Yin-Yang God Sphere\"", "6.png", ["しぐれに", "あずまよりこ"]],
         ["Scarlet Sign \"Scarlet Meister\"", "7.png", ["Aniiue"]],
         ["\"Scarlet Gensokyou\"", "8.png", ["ひまじん"]],
@@ -333,8 +333,8 @@
     <!-- Modal structure -->
     <div id="modal" class="modal" onclick="closeModal()">
         <span class="modal-close">&times;</span>
-        <img id="modalImage" src="">
-        <video id="modalVideo" src="" controls></video>
+        <img id="modalImage">
+        <video id="modalVideo" controls></video>
     </div>
 
 </body>
