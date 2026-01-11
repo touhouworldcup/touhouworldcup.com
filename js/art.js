@@ -23,15 +23,33 @@ function art_show(clicker) {
     clicker.setAttribute("onclick", "art_hide(this)");
 }
 
-function openModal(imageSrc) {
-    const modal = document.getElementById('imageModal');
+function openModal(src) {
+    const modal = document.getElementById('modal');
     const modalImage = document.getElementById('modalImage');
-    modalImage.src = imageSrc;
+    const modalVideo = document.getElementById('modalVideo');
+
+    if (src.endsWith('.mp4')) {
+        modalVideo.src = src;
+        modalVideo.style.display = 'block';
+        modalVideo.play();
+    } else {
+        modalImage.src = src;
+        modalImage.style.display = 'block';
+    }
+
     modal.style.display = 'flex';
 }
 
 function closeModal() {
-    const modal = document.getElementById('imageModal');
-    modalImage.src = '';
+    const modal = document.getElementById('modal');
+    const modalImage = document.getElementById('modalImage');
+    const modalVideo = document.getElementById('modalVideo');
+
+    modalImage.removeAttribute('src');
+    modalVideo.pause();
+    modalVideo.removeAttribute('src');
+    modalVideo.load();
     modal.style.display = 'none';
+    modalImage.style.display = 'none';
+    modalVideo.style.display = 'none';
 }
