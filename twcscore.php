@@ -20,10 +20,10 @@
 	<h1><?php echo _('TWCScore Calculator') ?></h1>
 	<noscript><h2><?php echo _('This page requires JavaScript') ?></h2></noscript>
     <p><?php echo _('Use this page to calculate TWCScore for any particular run. TWCScore is subject to change.') ?></p>
-	<p><a href='https://wl7c2u3z.nocodb.com/#/nc/view/21e12de7-d9a3-4a65-8b41-94b4288991d0' target='_blank'>
+	<p><a href='https://nocodb.touhouworldcup.com/dashboard/#/nc/view/6f1c3b86-dd42-407f-862a-fb44bf7cfd7a' target='_blank'>
 		<?php echo _('Click here to see the survival rubrics.') ?>
 	</a></p>
-	<p><a href='https://wl7c2u3z.nocodb.com/#/nc/view/4525b5ee-87ae-41da-a056-b63f6014eeb3' target='_blank'>
+	<p><a href='https://nocodb.touhouworldcup.com/dashboard/#/nc/view/038aaacb-452d-4371-aa6e-e4779bb4097a' target='_blank'>
 		<?php echo _('Click here to see the scoring rubrics.') ?>
 	</a></p>
 	<form id="calc-iscore">
