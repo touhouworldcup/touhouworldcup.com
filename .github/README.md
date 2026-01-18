@@ -1,4 +1,6 @@
 # touhouworldcup.com
+![website-status](https://img.shields.io/website?url=https://touhouworldcup.com/)
+
 This is the repository for touhouworldcup.com, the official Touhou World Cup website.
 
 ## How to run
