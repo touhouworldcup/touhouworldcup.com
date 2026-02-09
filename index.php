@@ -5,7 +5,7 @@
     try {
 		$db_host = getenv('DB_HOST') ? getenv('DB_HOST') : 'localhost';
         $db = mysqli_connect($db_host, 'twc_admin', getenv('DB_PASSWORD'), 'twc');
-        $schedule_json = get_schedule($db, '2025');
+        $schedule_json = get_schedule($db, '2026');
     } catch (Exception $e) {
         $schedule_json = '';
     }
@@ -30,7 +30,7 @@
         <h2 id="countdown_title_match"><?php echo _('Next Match:') ?></h2>
         <p id="countdown" class="large"><span id="countdown_start"></span></p>
         <h2 id="current_match"><?php echo _('Currently ongoing: <a class="match_link" href="https://twitch.tv/touhou_replay_showcase" target="_blank">')?><span id="match_category"></span></a></h2>
-        <!-- <p class="huge"><?php //echo _('Touhou World Cup 2025 will start on May 17th.') ?></p> -->
+        <!-- <p class="huge"><?php //echo _('Touhou World Cup 2026 will start on <...>') ?></p> -->
     </div>
     <div id="cards">
         <div class="cards_inner">
