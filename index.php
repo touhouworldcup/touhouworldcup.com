@@ -97,7 +97,7 @@
         <a class="language_small" href="/?hl=de">Deutsch</a>
         <a class="language_small" href="/?hl=es">Español</a>
     </p>
-    <p class="bottom">Touhou World Cup 2025</p>
+    <p class="bottom">Touhou World Cup 2026</p>
     <input id="schedule" type="hidden" value='<?php echo str_replace("'", "`", $schedule_json) ?>'>
 	</main>
 </body>

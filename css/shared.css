@@ -19,7 +19,7 @@ select {
 }
 main {
     margin: 0px auto 0px auto;
-    background-color: rgba(34, 34, 34, 0.5);
+    background-color: rgba(34, 34, 34, 0.2);
     box-shadow: 4px 4px 4px 2px #88888830;
     -webkit-box-shadow: 4px 4px 4px 2px #88888830;
     max-width: 100%;
