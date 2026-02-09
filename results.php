@@ -29,6 +29,7 @@
     ?></p>
     <h2 class="contents"><?php echo _('Contents') ?></h2>
     <div class="contents">
+        <p><a href="#2024">2025</a></p>
         <p><a href="#2024">2024</a></p>
         <p><a href="#2023">2023</a></p>
         <p><a href="#2022">2022</a></p>
@@ -37,6 +38,51 @@
     </div>
     <p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
     <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>
+    <h2 id="2024"><img class="favicon" src="/assets/legacy/favicon_2025.ico" alt="2025 favicon"> TWC 2025</h2>
+    <p><?php echo _('Final tally:') ?></p>
+    <ol><?php
+        $json = get_teams($db, '2025');
+        $teams_2025 = json_decode($json, true);
+        $index = 0;
+        $max_index = 0;
+        $max_points = 0;
+        $teams = array();
+        uasort($teams_2025, function ($a, $b) {
+            return $a['Points'] < $b['Points'] ? 1 : -1;
+        });
+        foreach ($teams_2025 as $team) {
+            array_push($teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
+            if ($team['Points'] > $max_points) {
+                $max_points = $team['Points'];
+                $max_index = $index;
+            }
+            $index++;
+        }
+        if (array_key_exists($max_index, $teams)) {
+            $teams[$max_index] = str_replace('">', '"><strong>', $teams[$max_index]);
+            $teams[$max_index] = str_replace('</li>', '</strong></li>', $teams[$max_index]);
+        }
+        echo implode($teams);
+    ?></ol>
+    <table class="schedule_table spoiler">
+        <thead>
+            <tr>
+                <th><?php echo _('Date / Time') ?></th>
+                <th><?php echo _('Category') ?></th>
+                <th><?php echo _('Players') ?></th>
+                <th><?php echo _('Reset Time<br>(minutes)') ?></th>
+                <th><?php echo _('Results') ?></th>
+                <th><?php echo _('Points') ?></th>
+            </tr>
+        </thead>
+        <tbody id="schedule_tbody_2025"><?php
+            $json = get_schedule($db, '2025');
+            $schedule_2025 = json_decode($json, true);
+            $json = get_results($db, '2025');
+            $results_2025 = json_decode($json, true);
+            print_schedule($schedule_2025, $results_2025, $teams_2025, '2025', []);
+        ?></tbody>
+    </table>
     <h2 id="2024"><img class="favicon" src="/assets/legacy/favicon_2024.ico" alt="2024 favicon"> TWC 2024</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol><?php
