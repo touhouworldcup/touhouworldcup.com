@@ -2,27 +2,26 @@ const iscore = {};
 
 // Calculates the amount of TWCScore for a given survival run (except GFW; see below)
 iscore.calc_survival = (rubric, miss, CB) => {
-	let iscore_val = rubric["MaxScore"];
-
+	let iscore_val = Number(rubric["N"]);
 	if (CB) {
-		iscore_val += rubric["ChallengeBonus"];
+		iscore_val += Number(rubric["ChallengeBonus"]);
 	}
 
-	rate_of_decay = Math.round(rubric["RateOfDecay"] * 100);
-	iscore_val = iscore_val * rate_of_decay**miss / 100**miss;
+	const rate_of_decay = Number(rubric["RateOfDecay"]);
+	iscore_val = Number((iscore_val * (rate_of_decay ** miss)).toFixed(10));
 
 	return miss > 5 ? 0 : iscore_val;
 }
 
 // Calculates the amount of TWCScore for a given PoFV survival run
 iscore.calc_th09_survival = (rubric, s9_r1_duration, remaining) => {
-	let iscore_val = rubric["MaxScore"];
+	let iscore_val = Number(rubric["N"]);
 
 	if (remaining == 7) {
-		iscore_val += rubric["ChallengeBonus"];
+		iscore_val += Number(rubric["ChallengeBonus"]);
 	} else {
-		rate_of_decay = Math.round(rubric["RateOfDecay"] * 100);
-		iscore_val = iscore_val * rate_of_decay ** (6 - remaining) / 100 ** (6 - remaining);
+		const rate_of_decay = Number(rubric["RateOfDecay"]);
+		iscore_val = iscore_val * (rate_of_decay ** (6 - remaining));
 	}
 
 	iscore_val += 0.02 * Math.max(s9_r1_duration, 0);
@@ -36,6 +35,20 @@ iscore.calc_th128_survival = (rubric, medals, miss) => {
 	const c = parseFloat(rubric["C"]);
 	const iscore = b * Math.pow(a, medals) + c - Math.pow(2, miss);
 	return Math.max(iscore.toFixed(3), 0);
+}
+
+// Calculates the amount of TWCScore for a given FW survival run
+iscore.calc_th20_survival = (rubric, miss) => {
+	const a = Number(rubric["A"]);
+	const b = Number(rubric["B"]);
+	const c = Number(rubric["C"]);
+	const d = Number(rubric["D"]);
+	const iscore_val = a * (0.5 * (b + c) - 0.4 * Math.abs(b - c)) * d;
+
+	const rate_of_decay = Number(rubric["RateOfDecay"]);
+	iscore_val = Number((iscore_val * (rate_of_decay ** miss)).toFixed(10));
+
+	return iscore_val;
 }
 
 // Calculates the amount of TWCScore for a given score run
