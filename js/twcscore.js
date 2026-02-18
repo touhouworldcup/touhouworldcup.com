@@ -34,7 +34,7 @@ iscore.calc_th128_survival = (rubric, medals, miss) => {
 	const b = parseFloat(rubric["B"]);
 	const c = parseFloat(rubric["C"]);
 	const iscore = b * Math.pow(a, medals) + c - Math.pow(2, miss);
-	return Math.max(iscore.toFixed(3), 0);
+	return Number(iscore.toFixed(3));
 }
 
 // Calculates the amount of TWCScore for a given FW survival run
@@ -43,10 +43,10 @@ iscore.calc_th20_survival = (rubric, miss) => {
 	const b = Number(rubric["B"]);
 	const c = Number(rubric["C"]);
 	const d = Number(rubric["D"]);
-	const iscore_val = a * (0.5 * (b + c) - 0.4 * Math.abs(b - c)) * d;
+	let iscore_val = a * (0.5 * (b + c) - 0.4 * Math.abs(b - c)) * d;
 
 	const rate_of_decay = Number(rubric["RateOfDecay"]);
-	iscore_val = Number((iscore_val * (rate_of_decay ** miss)).toFixed(10));
+	iscore_val = Number((iscore_val * (rate_of_decay ** miss)).toFixed(3));
 
 	return iscore_val;
 }
