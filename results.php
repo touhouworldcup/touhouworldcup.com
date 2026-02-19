@@ -38,7 +38,7 @@
     </div>
     <p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
     <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>
-    <h2 id="2024"><img class="favicon" src="/assets/legacy/favicon_2025.ico" alt="2025 favicon"> TWC 2025</h2>
+    <h2 id="2025"><img class="favicon" src="/assets/legacy/favicon_2025.ico" alt="2025 favicon"> TWC 2025</h2>
     <p><?php echo _('Final tally:') ?></p>
     <ol><?php
         $json = get_teams($db, '2025');
