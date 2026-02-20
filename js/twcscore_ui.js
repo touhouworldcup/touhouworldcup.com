@@ -287,6 +287,8 @@ window.onload = () => {
             } else if (game_name === "th128") {
                 const medals = get_element_val(th128_medals, "medals", "number");
                 iscore_val = iscore.calc_th128_survival(data, medals, miss);
+            } else if (game_name === "th20") {
+                iscore_val = iscore.calc_th20_survival(data, miss);
             } else {
                 const CB = get_challenge_bonus();
                 iscore_val = iscore.calc_survival(data, miss, CB);
