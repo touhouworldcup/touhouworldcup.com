@@ -151,5 +151,23 @@
         "Chiyari",
         "Hisami",
         "Zanmu"
+    ],
+    "th20": [
+        "ReimuRed1",
+        "ReimuRed2",
+        "ReimuBlue1",
+        "ReimuBlue2",
+        "ReimuYellow1",
+        "ReimuYellow2",
+        "ReimuGreen1",
+        "ReimuGreen2",
+        "MarisaRed1",
+        "MarisaRed2",
+        "MarisaBlue1",
+        "MarisaBlue2",
+        "MarisaYellow1",
+        "MarisaYellow2",
+        "MarisaGreen1",
+        "MarisaGreen2"
     ]
 }

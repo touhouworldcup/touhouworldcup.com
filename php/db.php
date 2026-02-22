@@ -36,6 +36,23 @@
         }
     }
 
+    function get_survival_th20(mysqli $db, string $main, string $unfocus, string $focus, string $assist) {
+        $statement = mysqli_prepare($db, 'SELECT (SELECT A FROM `Survival Rubrics` WHERE Game = "th20" AND Shottype = ?) AS A, ' .
+        '(SELECT B FROM `Survival Rubrics` WHERE Game = "th20" AND Shottype = ?) AS B, ' .
+        '(SELECT C FROM `Survival Rubrics` WHERE Game = "th20" AND Shottype = ?) AS C, ' .
+        '(SELECT D FROM `Survival Rubrics` WHERE Game = "th20" AND Shottype = ?) AS D, ' .
+        '(SELECT RateOfDecay FROM `Survival Rubrics` WHERE Game = "th20" AND Shottype = ?) AS RateOfDecay');
+        $statement->bind_param('sssss', $main, $unfocus, $focus, $assist, $main);
+        $statement->execute();
+        $result = $statement->get_result();
+
+        if ($row = $result->fetch_assoc()) {
+            return json_encode($row);
+        } else {
+            return '{}'; // data error
+        }
+    }
+
     function get_scoring(mysqli $db, string $game, string $diff, string $shot) {
         $statement = mysqli_prepare($db, 'SELECT A, B, C FROM `Scoring Rubrics` WHERE Game = ? AND Difficulty = ? AND Shottype = ?');
         $statement->bind_param('sss', $game, $diff, $shot);
@@ -96,6 +113,8 @@
                 echo get_survival($db, $_GET['game'], $_GET['shot'], $_GET['route']);
             } else if ($_GET['game'] == 'th128') {
                 echo get_survival_th128($db, $_GET['game'], $_GET['shot']);
+            } else if ($_GET['game'] == 'th20') {
+                echo get_survival_th20($db, $_GET['shot'], $_GET['unfocus'], $_GET['focus'], $_GET['assist']);
             } else {
                 echo get_survival($db, $_GET['game'], $_GET['shot']);
             }

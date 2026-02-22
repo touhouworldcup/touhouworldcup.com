@@ -1,6 +1,6 @@
 /*global iscore*/
 window.onload = () => {
-    const games    = ["th06", "th07", "th08", "th09", "th10", "th11", "th12", "th128", "th13", "th14", "th15", "th16", "th17", "th18", "th19"];
+    const games    = ["th06", "th07", "th08", "th09", "th10", "th11", "th12", "th128", "th13", "th14", "th15", "th16", "th17", "th18", "th19", "th20"];
 	const diff_w   = document.getElementById("diff_w");
 	const runtype  = document.getElementById("runtype");
 	const inputscore  = document.getElementById("inputscore");
@@ -24,6 +24,12 @@ window.onload = () => {
 	const i_misses     = document.getElementById("misscount");
 	const i_misses_l   = document.getElementById("misscount_l");
     const remaining_l  = document.getElementById("remaining_l");
+	const unfocusstone     = document.getElementById("unfocusstone");
+	const focusstone     = document.getElementById("focusstone");
+	const assiststone     = document.getElementById("assiststone");
+    const unfocus_l  = document.getElementById("unfocus_l");
+    const focus_l  = document.getElementById("focus_l");
+    const assist_l  = document.getElementById("assist_l");
 	const i_plus       = document.getElementById("plus");
 	const i_minus      = document.getElementById("minus");
 	const i_score      = document.getElementById("score");
@@ -157,13 +163,28 @@ window.onload = () => {
                 th08_opts.style.display = "none";
             }
 
+            th09_s9r1_w.style.display = "none";
+            remaining_l.style.display = "none";
+            unfocusstone.style.display = "none";
+            unfocus_l.style.display = "none";
+            focusstone.style.display = "none";
+            focus_l.style.display = "none";
+            assiststone.style.display = "none";
+            assist_l.style.display = "none";
+
             if (game_name === "th09") {
 				th09_s9r1_w.style.display = "inline";
                 remaining_l.style.display = "inline";
                 i_misses_l.style.display = "none";
+            } else if (game_name === "th20") {
+                i_misses_l.style.display = "inline";
+				unfocusstone.style.display = "inline";
+				unfocus_l.style.display = "inline";
+				focusstone.style.display = "inline";
+				focus_l.style.display = "inline";
+				assiststone.style.display = "inline";
+				assist_l.style.display = "inline";
             } else {
-				th09_s9r1_w.style.display = "none";
-                remaining_l.style.display = "none";
                 i_misses_l.style.display = "inline";
             }
 
@@ -226,27 +247,27 @@ window.onload = () => {
     }
 
 	const get_element_val = (element, error, type) => {
-		if (typeof(element) != "object") {
-			throw "fatal";
-		}
+        if (typeof(element) != "object") {
+            throw "fatal";
+        }
 
-		let ret = element.value;
+        let ret = element.value;
 
         if (type !== "float") {
             ret = element.value.replace(/\.|,/g, "");
         }
 
-		if (ret === "") {
-			throw error;
-		}
+        if (ret === "") {
+            throw error;
+        }
 
-		if (type === "number") {
-			ret = parseInt(ret, 10);
-		} else if (type === "float") {
+        if (type === "number") {
+            ret = parseInt(ret, 10);
+        } else if (type === "float") {
             ret = parseFloat(ret);
         }
 
-		return ret;
+        return ret;
 	}
 
     const clear_errors = () => {
@@ -278,33 +299,38 @@ window.onload = () => {
         const is = get_name(inputscore);
         let iscore_val;
 
-        if (rt === "surv") {
-            const miss = get_element_val(i_misses, "miss", "number");
+        try {
+            if (rt === "surv") {
+                const miss = get_element_val(i_misses, "miss", "number");
 
-            if (game_name == "th09") {
-                const s9_r1_duration = get_element_val(th09_s9r1, "s9r1", "number");
-                iscore_val = iscore.calc_th09_survival(data, s9_r1_duration, miss);
-            } else if (game_name === "th128") {
-                const medals = get_element_val(th128_medals, "medals", "number");
-                iscore_val = iscore.calc_th128_survival(data, medals, miss);
-            } else if (game_name === "th20") {
-                iscore_val = iscore.calc_th20_survival(data, miss);
-            } else {
-                const CB = get_challenge_bonus();
-                iscore_val = iscore.calc_survival(data, miss, CB);
+                if (game_name == "th09") {
+                    const s9_r1_duration = get_element_val(th09_s9r1, "s9r1", "number");
+                    iscore_val = iscore.calc_th09_survival(data, s9_r1_duration, miss);
+                } else if (game_name === "th128") {
+                    const medals = get_element_val(th128_medals, "medals", "number");
+                    iscore_val = iscore.calc_th128_survival(data, medals, miss);
+                } else if (game_name === "th20") {
+                    iscore_val = iscore.calc_th20_survival(data, miss);
+                } else {
+                    const CB = get_challenge_bonus();
+                    iscore_val = iscore.calc_survival(data, miss, CB);
+                }
+            } else { // scoring
+                if (is === "ingame") {
+                    const score = get_element_val(i_score, "score", "string");
+                    iscore_val = iscore.calc_scoring(data, score);
+                } else { // "twc"
+                    const score = get_element_val(i_score, "score", "float");
+                    iscore_val = iscore.calc_scoring_reverse(data, score);
+                    iscore_val = sep(iscore_val);
+                }
             }
-        } else { // scoring
-            if (is === "ingame") {
-                const score = get_element_val(i_score, "score", "string");
-                iscore_val = iscore.calc_scoring(data, score);
-            } else { // "twc"
-                const score = get_element_val(i_score, "score", "float");
-                iscore_val = iscore.calc_scoring_reverse(data, score);
-                iscore_val = sep(iscore_val);
-            }
+
+            clear_errors();
+            return iscore_val;
+        } catch (error) {
+            handle_error(error);
         }
-
-        return iscore_val;
     }
 
     const fetch_iscore_data = (rt, game_name, shottype_name) => {
@@ -316,6 +342,13 @@ window.onload = () => {
 
         if (rt === "surv" && game_name === "th08") {
             url += `&route=${get_element_val(th08_end, "", "string")}`;
+        }
+
+        if (rt === "surv" && game_name === "th20") {
+            const chara = shottype_name.includes("Reimu") ? "Reimu" : "Marisa";
+            url += `&unfocus=${chara}${get_element_val(unfocusstone, "", "string")}`;
+            url += `&focus=${chara}${get_element_val(focusstone, "", "string")}`;
+            url += `&assist=${chara}${get_element_val(assiststone, "", "string")}`;
         }
 
         const xhr = new XMLHttpRequest();
@@ -332,9 +365,11 @@ window.onload = () => {
                     }
                 }
 
-                iscore_final.innerText = iscore_val.toString();
+                if (!isNaN(iscore_val)) {
+                    iscore_final.innerText = iscore_val.toString();
+                }
+
                 window.scrollTo(0, document.body.scrollHeight);
-                clear_errors();
             }
         }
 
@@ -349,15 +384,13 @@ window.onload = () => {
             let game_name = get_name(game_sel);
 
             if (game_name === "") {
-                handle_error("game");
-                return;
+                throw "game";
             }
 
             let shottype_name = get_shot_name();
 
             if (shottype_name === "") {
-                handle_error("shottype");
-                return;
+                throw "shottype";
             }
 
             fetch_iscore_data(rt, game_name, shottype_name);
@@ -455,6 +488,12 @@ window.onload = () => {
     diff_w.style.display = "none";
     th08_opts.style.display = "none";
     remaining_l.style.display = "none";
+    unfocus_l.style.display = "none";
+    focus_l.style.display = "none";
+    assist_l.style.display = "none";
+    unfocusstone.style.display = "none";
+    focusstone.style.display = "none";
+    assiststone.style.display = "none";
     th09_s9r1_w.style.display = "none";
     th128_medal_w.style.display = "none";
     game_selected();

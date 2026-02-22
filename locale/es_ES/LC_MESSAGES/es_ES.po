@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-05-31 15:34+0200\n"
-"PO-Revision-Date: 2025-05-31 15:35+0200\n"
+"POT-Creation-Date: 2026-02-22 22:37+0100\n"
+"PO-Revision-Date: 2026-02-22 22:52+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: credits.php\n"
 "X-Poedit-SearchPath-1: index.php\n"
@@ -193,8 +193,8 @@ msgstr ""
 msgid "Exhibition Matches"
 msgstr ""
 
-#: php/table_func.php:201 results.php:53 results.php:98 results.php:141
-#: results.php:184 results.php:228
+#: php/table_func.php:201 results.php:54 results.php:99 results.php:144
+#: results.php:187 results.php:230 results.php:274
 msgid "Team "
 msgstr "Equipo "
 
@@ -238,11 +238,11 @@ msgstr "Sakuya & Remilia"
 msgid "YoumuYuyuko"
 msgstr "Youmu & Yuyuko"
 
-#: php/translations.php:12 twcscore.php:84
+#: php/translations.php:12 twcscore.php:86
 msgid "Reimu"
 msgstr ""
 
-#: php/translations.php:13 twcscore.php:87
+#: php/translations.php:13 twcscore.php:89
 msgid "Marisa"
 msgstr ""
 
@@ -274,7 +274,7 @@ msgstr ""
 msgid "Reisen"
 msgstr ""
 
-#: php/translations.php:22 twcscore.php:85
+#: php/translations.php:22 twcscore.php:87
 msgid "Cirno"
 msgstr ""
 
@@ -290,7 +290,7 @@ msgstr ""
 msgid "Tewi"
 msgstr ""
 
-#: php/translations.php:26 twcscore.php:86
+#: php/translations.php:26 twcscore.php:88
 msgid "Aya"
 msgstr ""
 
@@ -311,184 +311,252 @@ msgid "Eiki"
 msgstr ""
 
 #: php/translations.php:31
-msgid "MarisaC"
+msgid "ReimuC"
 msgstr ""
 
 #: php/translations.php:32
-msgid "SanaeA"
+msgid "MarisaC"
 msgstr ""
 
 #: php/translations.php:33
-msgid "SanaeB"
+msgid "SanaeA"
 msgstr ""
 
 #: php/translations.php:34
-msgid "Sanae"
+msgid "SanaeB"
 msgstr ""
 
 #: php/translations.php:35
+msgid "Sanae"
+msgstr ""
+
+#: php/translations.php:36
 msgid "ReimuSpring"
 msgstr "ReimuPrimavera"
 
-#: php/translations.php:36
+#: php/translations.php:37
 msgid "CirnoSpring"
 msgstr "CirnoPrimavera"
 
-#: php/translations.php:37
+#: php/translations.php:38
 msgid "AyaSpring"
 msgstr "AyaPrimavera"
 
-#: php/translations.php:38
+#: php/translations.php:39
 msgid "MarisaSpring"
 msgstr "MarisaPrimavera"
 
-#: php/translations.php:39
+#: php/translations.php:40
 msgid "ReimuSummer"
 msgstr "ReimuVerano"
 
-#: php/translations.php:40
+#: php/translations.php:41
 msgid "CirnoSummer"
 msgstr "CirnoVerano"
 
-#: php/translations.php:41
+#: php/translations.php:42
 msgid "AyaSummer"
 msgstr "AyaVerano"
 
-#: php/translations.php:42
+#: php/translations.php:43
 msgid "MarisaSummer"
 msgstr "MarisaVerano"
 
-#: php/translations.php:43
+#: php/translations.php:44
 msgid "ReimuAutumn"
 msgstr "ReimuOtoño"
 
-#: php/translations.php:44
+#: php/translations.php:45
 msgid "CirnoAutumn"
 msgstr "CirnoOtoño"
 
-#: php/translations.php:45
+#: php/translations.php:46
 msgid "AyaAutumn"
 msgstr "AyaOtoño"
 
-#: php/translations.php:46
+#: php/translations.php:47
 msgid "MarisaAutumn"
 msgstr "MarisaOtoño"
 
-#: php/translations.php:47
+#: php/translations.php:48
 msgid "ReimuWinter"
 msgstr "ReimuInvierno"
 
-#: php/translations.php:48
+#: php/translations.php:49
 msgid "CirnoWinter"
 msgstr "CirnoInvierno"
 
-#: php/translations.php:49
+#: php/translations.php:50
 msgid "AyaWinter"
 msgstr "AyaInvierno"
 
-#: php/translations.php:50
+#: php/translations.php:51
 msgid "MarisaWinter"
 msgstr "MarisaInvierno"
 
-#: php/translations.php:51
+#: php/translations.php:52
 msgid "ReimuWolf"
 msgstr "ReimuLobo"
 
-#: php/translations.php:52
+#: php/translations.php:53
 msgid "ReimuOtter"
 msgstr "ReimuNutria"
 
-#: php/translations.php:53
+#: php/translations.php:54
 msgid "ReimuEagle"
 msgstr "ReimuÁguila"
 
-#: php/translations.php:54
+#: php/translations.php:55
 msgid "MarisaWolf"
 msgstr "MarisaLobo"
 
-#: php/translations.php:55
+#: php/translations.php:56
 msgid "MarisaOtter"
 msgstr "MarisaNutria"
 
-#: php/translations.php:56
+#: php/translations.php:57
 msgid "MarisaEagle"
 msgstr "MarisaÁguila"
 
-#: php/translations.php:57
+#: php/translations.php:58
 msgid "YoumuWolf"
 msgstr "YoumuLobo"
 
-#: php/translations.php:58
+#: php/translations.php:59
 msgid "YoumuOtter"
 msgstr "YoumuNutria"
 
-#: php/translations.php:59
+#: php/translations.php:60
 msgid "YoumuEagle"
 msgstr "YoumuÁguila"
 
-#: php/translations.php:60
+#: php/translations.php:61
 msgid "Ran"
 msgstr ""
 
-#: php/translations.php:61
+#: php/translations.php:62
 msgid "Aunn"
 msgstr ""
 
-#: php/translations.php:62
+#: php/translations.php:63
 msgid "Nazrin"
 msgstr ""
 
-#: php/translations.php:63
+#: php/translations.php:64
 msgid "Seiran"
 msgstr ""
 
-#: php/translations.php:64
+#: php/translations.php:65
 msgid "Rin"
 msgstr ""
 
-#: php/translations.php:65
+#: php/translations.php:66
 msgid "Tsukasa"
 msgstr ""
 
-#: php/translations.php:66
+#: php/translations.php:67
 msgid "Mamizou"
 msgstr ""
 
-#: php/translations.php:67
+#: php/translations.php:68
 msgid "Yachie"
 msgstr ""
 
-#: php/translations.php:68
+#: php/translations.php:69
 msgid "Saki"
 msgstr ""
 
-#: php/translations.php:69
+#: php/translations.php:70
 msgid "Yuuma"
 msgstr ""
 
-#: php/translations.php:70
+#: php/translations.php:71
 msgid "Suika"
 msgstr ""
 
-#: php/translations.php:71
+#: php/translations.php:72
 msgid "Biten"
 msgstr ""
 
-#: php/translations.php:72
+#: php/translations.php:73
 msgid "Enoko"
 msgstr ""
 
-#: php/translations.php:73
+#: php/translations.php:74
 msgid "Chiyari"
 msgstr ""
 
-#: php/translations.php:74
+#: php/translations.php:75
 msgid "Hisami"
 msgstr ""
 
-#: php/translations.php:75
+#: php/translations.php:76
 msgid "Zanmu"
 msgstr ""
+
+#: php/translations.php:77
+msgid "ReimuRed1"
+msgstr "ReimuRoja1"
+
+#: php/translations.php:78
+msgid "ReimuRed2"
+msgstr "ReimuRoja2"
+
+#: php/translations.php:79
+msgid "ReimuBlue1"
+msgstr "ReimuAzul1"
+
+#: php/translations.php:80
+msgid "ReimuBlue2"
+msgstr "ReimuAzul2"
+
+#: php/translations.php:81
+msgid "ReimuYellow1"
+msgstr "ReimuAmarilla1"
+
+#: php/translations.php:82
+msgid "ReimuYellow2"
+msgstr "ReimuAmarilla2"
+
+#: php/translations.php:83
+msgid "ReimuGreen1"
+msgstr "ReimuVerde1"
+
+#: php/translations.php:84
+msgid "ReimuGreen2"
+msgstr "ReimuVerde2"
+
+#: php/translations.php:85
+msgid "MarisaRed1"
+msgstr "MarisaRoja1"
+
+#: php/translations.php:86
+msgid "MarisaRed2"
+msgstr "MarisaRoja2"
+
+#: php/translations.php:87
+msgid "MarisaBlue1"
+msgstr "MarisaAzul1"
+
+#: php/translations.php:88
+msgid "MarisaBlue2"
+msgstr "MarisaAzul2"
+
+#: php/translations.php:89
+msgid "MarisaYellow1"
+msgstr "MarisaAmarilla1"
+
+#: php/translations.php:90
+msgid "MarisaYellow2"
+msgstr "MarisaAmarilla2"
+
+#: php/translations.php:91
+msgid "MarisaGreen1"
+msgstr "MarisaVerde1"
+
+#: php/translations.php:92
+msgid "MarisaGreen2"
+msgstr "MarisaVerde2"
 
 #: results.php:2 results.php:22
 msgid "Past Results"
@@ -512,59 +580,59 @@ msgstr "El Horario de Verano (DST) es considerado de manera automática."
 msgid "Contents"
 msgstr "Contenido"
 
-#: results.php:38 schedule.php:41
+#: results.php:39 schedule.php:41
 msgid "Show Results"
 msgstr "Mostrar Resultados"
 
-#: results.php:39 schedule.php:42
+#: results.php:40 schedule.php:42
 msgid "Hide Results"
 msgstr "Ocultar Resultados"
 
-#: results.php:41 results.php:86 results.php:129 results.php:172
-#: results.php:216
+#: results.php:42 results.php:87 results.php:132 results.php:175
+#: results.php:218 results.php:262
 msgid "Final tally:"
 msgstr "Puntuaciones finales:"
 
-#: results.php:53 results.php:98 results.php:141 results.php:184
-#: results.php:228
+#: results.php:54 results.php:99 results.php:144 results.php:187
+#: results.php:230 results.php:274
 msgid " points"
 msgstr " puntos"
 
-#: results.php:69 results.php:112 results.php:155 results.php:198
-#: results.php:242 schedule.php:48
+#: results.php:70 results.php:115 results.php:158 results.php:201
+#: results.php:244 results.php:288 schedule.php:48
 msgid "Date / Time"
 msgstr "Fecha / Hora"
 
-#: results.php:70 results.php:113 results.php:156 results.php:199
-#: results.php:243 schedule.php:49 twcscore.php:91
+#: results.php:71 results.php:116 results.php:159 results.php:202
+#: results.php:245 results.php:289 schedule.php:49 twcscore.php:93
 msgid "Category"
 msgstr "Categoría"
 
-#: results.php:71 results.php:114 results.php:157 results.php:200
-#: results.php:244 schedule.php:50
+#: results.php:72 results.php:117 results.php:160 results.php:203
+#: results.php:246 results.php:290 schedule.php:50
 msgid "Players"
 msgstr "Jugadores"
 
-#: results.php:72 results.php:115 results.php:158 results.php:201
-#: results.php:245 schedule.php:51
+#: results.php:73 results.php:118 results.php:161 results.php:204
+#: results.php:247 results.php:291 schedule.php:51
 msgid "Reset Time<br>(minutes)"
 msgstr "Temporizador de Reinicio<br>(minutos)"
 
-#: results.php:73 results.php:116 results.php:159 results.php:202
-#: results.php:246 schedule.php:52 schedule.php:55
+#: results.php:74 results.php:119 results.php:162 results.php:205
+#: results.php:248 results.php:292 schedule.php:52 schedule.php:55
 msgid "Results"
 msgstr "Resultados"
 
-#: results.php:74 results.php:117 results.php:160 results.php:203
-#: results.php:247 schedule.php:53 schedule.php:56
+#: results.php:75 results.php:120 results.php:163 results.php:206
+#: results.php:249 results.php:293 schedule.php:53 schedule.php:56
 msgid "Points"
 msgstr "Puntos"
 
-#: results.php:214 results.php:258
+#: results.php:260 results.php:304
 msgid "Game Over"
 msgstr ""
 
-#: results.php:259 rules.php:129
+#: results.php:305 rules.php:129
 msgid "Back to Top"
 msgstr "De vuelta al Inicio"
 
@@ -627,7 +695,7 @@ msgid ""
 msgstr ""
 "El equipo que tenga más puntos al final del Touhou World Cup es el ganador."
 
-#: rules.php:34 twcscore.php:2 twcscore.php:125 twcscore.php:128
+#: rules.php:34 twcscore.php:2 twcscore.php:142 twcscore.php:145
 msgid "TWCScore"
 msgstr "TWCScore"
 
@@ -1135,87 +1203,135 @@ msgstr "Touhou 18: Unconnected Marketeers"
 msgid "Touhou 19: Unfinished Dream of All Living Ghost"
 msgstr "Touhou 19: Unfinished Dream of All Living Ghost"
 
-#: twcscore.php:65
+#: twcscore.php:63
+msgid "Touhou 20: Fossilized Wonders"
+msgstr "Touhou 20: Fossilized Wonders"
+
+#: twcscore.php:67
 msgid "Shottype / Route"
 msgstr "Tipo de Disparo / Ruta"
 
-#: twcscore.php:94 twcscore.php:95
+#: twcscore.php:96 twcscore.php:97
 msgid "Survival"
 msgstr "Supervivencia"
 
-#: twcscore.php:97 twcscore.php:98
+#: twcscore.php:99 twcscore.php:100
 msgid "Scoring"
 msgstr "Puntuación"
 
-#: twcscore.php:104
+#: twcscore.php:106
 msgid "Challenge Bonus"
 msgstr ""
 
-#: twcscore.php:110
+#: twcscore.php:112
 msgid "Misses"
 msgstr "Muertes"
 
-#: twcscore.php:111
+#: twcscore.php:113
 msgid "Remaining lives"
 msgstr "Vidas restantes"
 
-#: twcscore.php:119
+#: twcscore.php:117
+msgid "Unfocus stone"
+msgstr "Piedra de unfocus"
+
+#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+msgid "Red1"
+msgstr "Roja1"
+
+#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+msgid "Red2"
+msgstr "Roja2"
+
+#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+msgid "Blue1"
+msgstr "Azul1"
+
+#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+msgid "Blue2"
+msgstr "Azul2"
+
+#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+msgid "Yellow1"
+msgstr "Amarilla1"
+
+#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+msgid "Yellow2"
+msgstr "Amarilla2"
+
+#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+msgid "Green1"
+msgstr "Verde1"
+
+#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+msgid "Green2"
+msgstr "Verde2"
+
+#: twcscore.php:122
+msgid "Focus stone"
+msgstr "Piedra de focus"
+
+#: twcscore.php:127
+msgid "Assist stone"
+msgstr "Piedra de asistir"
+
+#: twcscore.php:136
 msgid "Input score"
 msgstr "Puntuación de entrada"
 
-#: twcscore.php:122 twcscore.php:127
+#: twcscore.php:139 twcscore.php:144
 msgid "Score"
 msgstr "Puntuación"
 
-#: twcscore.php:134
+#: twcscore.php:151
 msgid "Duration of Stage 9 Round 1 (seconds)"
 msgstr "Duración de la Ronda 1 de la Etapa 9 (segundos)"
 
-#: twcscore.php:140
+#: twcscore.php:157
 msgid "Gold medals"
 msgstr "Medallas de Oro"
 
-#: twcscore.php:148
+#: twcscore.php:165
 msgid "Difficulty"
 msgstr "Dificultad"
 
-#: twcscore.php:158
+#: twcscore.php:175
 msgid "Final Stage"
 msgstr "Nivel Final"
 
-#: twcscore.php:160
+#: twcscore.php:177
 msgid "FinalA"
 msgstr "FinalA"
 
-#: twcscore.php:161
+#: twcscore.php:178
 msgid "FinalB"
 msgstr "FinalB"
 
-#: twcscore.php:167
+#: twcscore.php:184
 msgid "Please fill out the game"
 msgstr "Por favor llene el juego"
 
-#: twcscore.php:168
+#: twcscore.php:185
 msgid "Please fill out the shottype"
 msgstr "Por favor llene el tipo de disparo"
 
-#: twcscore.php:169
+#: twcscore.php:186
 msgid "Please fill out the miss count"
 msgstr "Por favor llene el contador de muertes"
 
-#: twcscore.php:170
+#: twcscore.php:187
 msgid "Please fill out the score"
 msgstr "Por favor llene la puntuación"
 
-#: twcscore.php:171
+#: twcscore.php:188
 msgid "Please fill out the Final Stage"
 msgstr "Por favor llene el Nivel Final"
 
-#: twcscore.php:172
+#: twcscore.php:189
 msgid "Please fill out the gold medals"
 msgstr "Por favor llene las medallas de oro"
 
-#: twcscore.php:173
+#: twcscore.php:190
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://bsky.app/profile/maribelhearn42.bsky.social\" "
@@ -1225,15 +1341,15 @@ msgstr ""
 "contacte <a href=\"https://bsky.app/profile/maribelhearn42.bsky.social\" "
 "target=\"_blank\">Maribel Hearn</a>"
 
-#: twcscore.php:177
+#: twcscore.php:194
 msgid "Calculate"
 msgstr "Calcular"
 
-#: twcscore.php:183
+#: twcscore.php:200
 msgid "TWCScore:"
 msgstr "TWCScore:"
 
-#: twcscore.php:184
+#: twcscore.php:201
 msgid "Score:"
 msgstr "Puntuación:"
 
@@ -1333,9 +1449,6 @@ msgstr "Puntuación:"
 #~ msgstr ""
 #~ "Esta página enumera los resultados de los últimos años del Touhou World "
 #~ "Cup."
-
-#~ msgid "ReimuC"
-#~ msgstr "ReimuC"
 
 #~ msgid ""
 #~ "Last Spell: Getting hit during a Last Spell is <strong>not</strong> "

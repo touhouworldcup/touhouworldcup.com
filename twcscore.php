@@ -59,6 +59,8 @@
     		<input type="radio" name="games" value="th18"><img id="cover_th18" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 18: Unconnected Marketeers') ?>"></span>
         </label><label>
     		<input type="radio" name="games" value="th19"><img id="cover_th19" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 19: Unfinished Dream of All Living Ghost') ?>"></span>
+        </label><label>
+    		<input type="radio" name="games" value="th20"><img id="cover_th20" class="cover" src="/assets/games_sheet.jpg" title="<?php echo _('Touhou 20: Fossilized Wonders') ?>"></span>
         </label>
 	</fieldset><br><br>
 
@@ -112,6 +114,39 @@
         <input type="button" id="minus" value="-">
 		<input type="number" id="misscount" name="misscount" value=0 readonly>
         <input type="button" id="plus" value="+">
+        <label for="unfocusstone" id="unfocus_l"><br><?php echo _('Unfocus stone') ?></label>
+		<select id="unfocusstone" name="unfocusstone">
+			<option value="Red1"><?php echo _('Red1') ?></option>
+			<option value="Red2"><?php echo _('Red2') ?></option>
+			<option value="Blue1"><?php echo _('Blue1') ?></option>
+			<option value="Blue2"><?php echo _('Blue2') ?></option>
+			<option value="Yellow1"><?php echo _('Yellow1') ?></option>
+			<option value="Yellow2"><?php echo _('Yellow2') ?></option>
+			<option value="Green1"><?php echo _('Green1') ?></option>
+			<option value="Green2"><?php echo _('Green2') ?></option>
+		</select>
+        <label for="focusstone" id="focus_l"><br><?php echo _('Focus stone') ?></label>
+		<select id="focusstone" name="focusstone">
+			<option value="Red1"><?php echo _('Red1') ?></option>
+			<option value="Red2"><?php echo _('Red2') ?></option>
+			<option value="Blue1"><?php echo _('Blue1') ?></option>
+			<option value="Blue2"><?php echo _('Blue2') ?></option>
+			<option value="Yellow1"><?php echo _('Yellow1') ?></option>
+			<option value="Yellow2"><?php echo _('Yellow2') ?></option>
+			<option value="Green1"><?php echo _('Green1') ?></option>
+			<option value="Green2"><?php echo _('Green2') ?></option>
+		</select>
+        <label for="assiststone" id="assist_l"><br><?php echo _('Assist stone') ?></label>
+		<select id="assiststone" name="assiststone">
+			<option value="Red1"><?php echo _('Red1') ?></option>
+			<option value="Red2"><?php echo _('Red2') ?></option>
+			<option value="Blue1"><?php echo _('Blue1') ?></option>
+			<option value="Blue2"><?php echo _('Blue2') ?></option>
+			<option value="Yellow1"><?php echo _('Yellow1') ?></option>
+			<option value="Yellow2"><?php echo _('Yellow2') ?></option>
+			<option value="Green1"><?php echo _('Green1') ?></option>
+			<option value="Green2"><?php echo _('Green2') ?></option>
+		</select>
 	</span>
 
 	<div id="score_opts">

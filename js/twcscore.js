@@ -39,6 +39,7 @@ iscore.calc_th128_survival = (rubric, medals, miss) => {
 
 // Calculates the amount of TWCScore for a given FW survival run
 iscore.calc_th20_survival = (rubric, miss) => {
+	console.log(rubric);
 	const a = Number(rubric["A"]);
 	const b = Number(rubric["B"]);
 	const c = Number(rubric["C"]);

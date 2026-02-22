@@ -11,14 +11,15 @@ $shots = array('th06ReimuA', 'th06ReimuB', 'th06MarisaA', 'th06MarisaB', 'th07Re
 'th17YoumuWolf', 'th17YoumuOtter', 'th17YoumuEagle', 'th18Reimu', 'th18Marisa', 'th18Sakuya', 'th18Sanae', 'th02ReimuA', 'th02ReimuB', 'th02ReimuC', 'th03Reimu', 'th03Mima', 'th03Marisa',
 'th03Ellen', 'th03Kotohime', 'th03Kana', 'th03Rikako', 'th03Chiyuri', 'th03Yumemi', 'th04ReimuA', 'th04ReimuB', 'th04MarisaA', 'th04MarisaB', 'th05Reimu', 'th05Marisa', 'th05Mima', 'th05Yuuka',
 'th09Merlin', 'th09Lunasa', 'th16ReimuExtra', 'th16CirnoExtra', 'th16AyaExtra', 'th16MarisaExtra', 'th128A1', 'th128A2', 'th128B1', 'th128B2', 'th128C1', 'th128C2', 'th128Extra', 'th19Reimu', 'th19Marisa',
-'th19Sanae', 'th19Ran', 'th19Aunn', 'th19Nazrin', 'th19Seiran', 'th19Rin', 'th19Tsukasa', 'th19Mamizou', 'th19Yachie', 'th19Saki', 'th19Yuuma', 'th19Suika',
-'th19Biten', 'th19Enoko', 'th19Chiyari', 'th19Hisami', 'th19Zanmu');
+'th19Sanae', 'th19Ran', 'th19Aunn', 'th19Nazrin', 'th19Seiran', 'th19Rin', 'th19Tsukasa', 'th19Mamizou', 'th19Yachie', 'th19Saki', 'th19Yuuma', 'th19Suika', 'th19Biten', 'th19Enoko', 'th19Chiyari',
+'th19Hisami', 'th19Zanmu', 'th20ReimuRed1', 'th20ReimuRed2', 'th20ReimuBlue1', 'th20ReimuBlue2', 'th20ReimuYellow1', 'th20ReimuYellow2', 'th20ReimuGreen1', 'th20ReimuGreen2',
+'th20MarisaRed1', 'th20MarisaRed2', 'th20MarisaBlue1', 'th20MarisaBlue2', 'th20MarisaYellow1', 'th20MarisaYellow2', 'th20MarisaGreen1', 'th20MarisaGreen2');
 for ($i = 0; $i < count($shots); $i++) {
     $x = ($i % $row_size) * $offset;
     $y = floor($i / $row_size) * $offset;
     echo '#' . $shots[$i] . '{object-position:' . $x . 'px ' . $y . 'px}';
 }
-$games = array('th06', 'th07', 'th08', 'th09', 'th10', 'th11', 'th12', 'th128', 'th13', 'th14', 'th15', 'th16', 'th17', 'th18', 'th19');
+$games = array('th06', 'th07', 'th08', 'th09', 'th10', 'th11', 'th12', 'th128', 'th13', 'th14', 'th15', 'th16', 'th17', 'th18', 'th19', 'th20');
 for ($i = 0; $i < count($games); $i++) {
     $x = $i * $offset;
     echo '#cover_' . $games[$i] . '{object-position:' . $x . 'px 0px}';

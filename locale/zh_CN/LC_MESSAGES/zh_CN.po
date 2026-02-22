@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-05-31 15:38+0200\n"
-"PO-Revision-Date: 2025-05-31 15:39+0200\n"
+"POT-Creation-Date: 2026-02-22 22:41+0100\n"
+"PO-Revision-Date: 2026-02-22 22:48+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: index.php\n"
 "X-Poedit-SearchPath-1: credits.php\n"
@@ -191,8 +191,8 @@ msgstr "）"
 msgid "Exhibition Matches"
 msgstr "表演赛"
 
-#: php/table_func.php:201 results.php:53 results.php:98 results.php:141
-#: results.php:184 results.php:228
+#: php/table_func.php:201 results.php:54 results.php:99 results.php:144
+#: results.php:187 results.php:230 results.php:274
 msgid "Team "
 msgstr ""
 
@@ -236,11 +236,11 @@ msgstr "红魔组"
 msgid "YoumuYuyuko"
 msgstr "幽冥组"
 
-#: php/translations.php:12 twcscore.php:84
+#: php/translations.php:12 twcscore.php:86
 msgid "Reimu"
 msgstr "灵梦"
 
-#: php/translations.php:13 twcscore.php:87
+#: php/translations.php:13 twcscore.php:89
 msgid "Marisa"
 msgstr "魔理沙"
 
@@ -272,7 +272,7 @@ msgstr "幽幽子"
 msgid "Reisen"
 msgstr "铃仙"
 
-#: php/translations.php:22 twcscore.php:85
+#: php/translations.php:22 twcscore.php:87
 msgid "Cirno"
 msgstr "琪露诺"
 
@@ -288,7 +288,7 @@ msgstr "米丝蒂亚"
 msgid "Tewi"
 msgstr "帝"
 
-#: php/translations.php:26 twcscore.php:86
+#: php/translations.php:26 twcscore.php:88
 msgid "Aya"
 msgstr "文"
 
@@ -309,184 +309,252 @@ msgid "Eiki"
 msgstr "映姬"
 
 #: php/translations.php:31
+msgid "ReimuC"
+msgstr "灵梦C"
+
+#: php/translations.php:32
 msgid "MarisaC"
 msgstr "魔理沙C"
 
-#: php/translations.php:32
+#: php/translations.php:33
 msgid "SanaeA"
 msgstr "早苗A"
 
-#: php/translations.php:33
+#: php/translations.php:34
 msgid "SanaeB"
 msgstr "早苗B"
 
-#: php/translations.php:34
+#: php/translations.php:35
 msgid "Sanae"
 msgstr "早苗"
 
-#: php/translations.php:35
+#: php/translations.php:36
 msgid "ReimuSpring"
 msgstr "灵梦春"
 
-#: php/translations.php:36
+#: php/translations.php:37
 msgid "CirnoSpring"
 msgstr "琪露诺春"
 
-#: php/translations.php:37
+#: php/translations.php:38
 msgid "AyaSpring"
 msgstr "文春"
 
-#: php/translations.php:38
+#: php/translations.php:39
 msgid "MarisaSpring"
 msgstr "魔理沙春"
 
-#: php/translations.php:39
+#: php/translations.php:40
 msgid "ReimuSummer"
 msgstr "灵梦夏"
 
-#: php/translations.php:40
+#: php/translations.php:41
 msgid "CirnoSummer"
 msgstr "琪露诺夏"
 
-#: php/translations.php:41
+#: php/translations.php:42
 msgid "AyaSummer"
 msgstr "文夏"
 
-#: php/translations.php:42
+#: php/translations.php:43
 msgid "MarisaSummer"
 msgstr "魔理沙夏"
 
-#: php/translations.php:43
+#: php/translations.php:44
 msgid "ReimuAutumn"
 msgstr "灵梦秋"
 
-#: php/translations.php:44
+#: php/translations.php:45
 msgid "CirnoAutumn"
 msgstr "琪露诺秋"
 
-#: php/translations.php:45
+#: php/translations.php:46
 msgid "AyaAutumn"
 msgstr "文秋"
 
-#: php/translations.php:46
+#: php/translations.php:47
 msgid "MarisaAutumn"
 msgstr "魔理沙秋"
 
-#: php/translations.php:47
+#: php/translations.php:48
 msgid "ReimuWinter"
 msgstr "灵梦冬"
 
-#: php/translations.php:48
+#: php/translations.php:49
 msgid "CirnoWinter"
 msgstr "琪露诺冬"
 
-#: php/translations.php:49
+#: php/translations.php:50
 msgid "AyaWinter"
 msgstr "文冬"
 
-#: php/translations.php:50
+#: php/translations.php:51
 msgid "MarisaWinter"
 msgstr "魔理沙冬"
 
-#: php/translations.php:51
+#: php/translations.php:52
 msgid "ReimuWolf"
 msgstr "灵梦狼"
 
-#: php/translations.php:52
+#: php/translations.php:53
 msgid "ReimuOtter"
 msgstr "灵梦獭"
 
-#: php/translations.php:53
+#: php/translations.php:54
 msgid "ReimuEagle"
 msgstr "灵梦鹰"
 
-#: php/translations.php:54
+#: php/translations.php:55
 msgid "MarisaWolf"
 msgstr "魔理沙狼"
 
-#: php/translations.php:55
+#: php/translations.php:56
 msgid "MarisaOtter"
 msgstr "魔理沙獭"
 
-#: php/translations.php:56
+#: php/translations.php:57
 msgid "MarisaEagle"
 msgstr "魔理沙鹰"
 
-#: php/translations.php:57
+#: php/translations.php:58
 msgid "YoumuWolf"
 msgstr "妖梦狼"
 
-#: php/translations.php:58
+#: php/translations.php:59
 msgid "YoumuOtter"
 msgstr "妖梦獭"
 
-#: php/translations.php:59
+#: php/translations.php:60
 msgid "YoumuEagle"
 msgstr "妖梦鹰"
 
-#: php/translations.php:60
+#: php/translations.php:61
 msgid "Ran"
 msgstr "蓝"
 
-#: php/translations.php:61
+#: php/translations.php:62
 msgid "Aunn"
 msgstr "阿吽"
 
-#: php/translations.php:62
+#: php/translations.php:63
 msgid "Nazrin"
 msgstr "娜兹玲"
 
-#: php/translations.php:63
+#: php/translations.php:64
 msgid "Seiran"
 msgstr "清兰"
 
-#: php/translations.php:64
+#: php/translations.php:65
 msgid "Rin"
 msgstr "燐"
 
-#: php/translations.php:65
+#: php/translations.php:66
 msgid "Tsukasa"
 msgstr "典"
 
-#: php/translations.php:66
+#: php/translations.php:67
 msgid "Mamizou"
 msgstr "猯藏"
 
-#: php/translations.php:67
+#: php/translations.php:68
 msgid "Yachie"
 msgstr "八千慧"
 
-#: php/translations.php:68
+#: php/translations.php:69
 msgid "Saki"
 msgstr "早鬼"
 
-#: php/translations.php:69
+#: php/translations.php:70
 msgid "Yuuma"
 msgstr "尤魔"
 
-#: php/translations.php:70
+#: php/translations.php:71
 msgid "Suika"
 msgstr "萃香"
 
-#: php/translations.php:71
+#: php/translations.php:72
 msgid "Biten"
 msgstr "美天"
 
-#: php/translations.php:72
+#: php/translations.php:73
 msgid "Enoko"
 msgstr "慧之子"
 
-#: php/translations.php:73
+#: php/translations.php:74
 msgid "Chiyari"
 msgstr "血枪"
 
-#: php/translations.php:74
+#: php/translations.php:75
 msgid "Hisami"
 msgstr "日狭美"
 
-#: php/translations.php:75
+#: php/translations.php:76
 msgid "Zanmu"
 msgstr "残无"
+
+#: php/translations.php:77
+msgid "ReimuRed1"
+msgstr "灵梦红１"
+
+#: php/translations.php:78
+msgid "ReimuRed2"
+msgstr "灵梦红２"
+
+#: php/translations.php:79
+msgid "ReimuBlue1"
+msgstr "灵梦蓝１"
+
+#: php/translations.php:80
+msgid "ReimuBlue2"
+msgstr "灵梦蓝２"
+
+#: php/translations.php:81
+msgid "ReimuYellow1"
+msgstr "灵梦黄１"
+
+#: php/translations.php:82
+msgid "ReimuYellow2"
+msgstr "灵梦黄２"
+
+#: php/translations.php:83
+msgid "ReimuGreen1"
+msgstr "灵梦绿１"
+
+#: php/translations.php:84
+msgid "ReimuGreen2"
+msgstr "灵梦绿２"
+
+#: php/translations.php:85
+msgid "MarisaRed1"
+msgstr "魔理沙红１"
+
+#: php/translations.php:86
+msgid "MarisaRed2"
+msgstr "魔理沙红２"
+
+#: php/translations.php:87
+msgid "MarisaBlue1"
+msgstr "魔理沙蓝１"
+
+#: php/translations.php:88
+msgid "MarisaBlue2"
+msgstr "魔理沙蓝２"
+
+#: php/translations.php:89
+msgid "MarisaYellow1"
+msgstr "魔理沙黄１"
+
+#: php/translations.php:90
+msgid "MarisaYellow2"
+msgstr "魔理沙黄２"
+
+#: php/translations.php:91
+msgid "MarisaGreen1"
+msgstr "魔理沙绿１"
+
+#: php/translations.php:92
+msgid "MarisaGreen2"
+msgstr "魔理沙绿２"
 
 #: results.php:2 results.php:22
 msgid "Past Results"
@@ -512,59 +580,59 @@ msgstr ""
 msgid "Contents"
 msgstr "目录"
 
-#: results.php:38 schedule.php:41
+#: results.php:39 schedule.php:41
 msgid "Show Results"
 msgstr "显示结果"
 
-#: results.php:39 schedule.php:42
+#: results.php:40 schedule.php:42
 msgid "Hide Results"
 msgstr "隐藏结果"
 
-#: results.php:41 results.php:86 results.php:129 results.php:172
-#: results.php:216
+#: results.php:42 results.php:87 results.php:132 results.php:175
+#: results.php:218 results.php:262
 msgid "Final tally:"
 msgstr "最终计分："
 
-#: results.php:53 results.php:98 results.php:141 results.php:184
-#: results.php:228
+#: results.php:54 results.php:99 results.php:144 results.php:187
+#: results.php:230 results.php:274
 msgid " points"
 msgstr "总分"
 
-#: results.php:69 results.php:112 results.php:155 results.php:198
-#: results.php:242 schedule.php:48
+#: results.php:70 results.php:115 results.php:158 results.php:201
+#: results.php:244 results.php:288 schedule.php:48
 msgid "Date / Time"
 msgstr "日期和时间"
 
-#: results.php:70 results.php:113 results.php:156 results.php:199
-#: results.php:243 schedule.php:49 twcscore.php:91
+#: results.php:71 results.php:116 results.php:159 results.php:202
+#: results.php:245 results.php:289 schedule.php:49 twcscore.php:93
 msgid "Category"
 msgstr "项目"
 
-#: results.php:71 results.php:114 results.php:157 results.php:200
-#: results.php:244 schedule.php:50
+#: results.php:72 results.php:117 results.php:160 results.php:203
+#: results.php:246 results.php:290 schedule.php:50
 msgid "Players"
 msgstr "玩家"
 
-#: results.php:72 results.php:115 results.php:158 results.php:201
-#: results.php:245 schedule.php:51
+#: results.php:73 results.php:118 results.php:161 results.php:204
+#: results.php:247 results.php:291 schedule.php:51
 msgid "Reset Time<br>(minutes)"
 msgstr "推把时间<br>（分钟）"
 
-#: results.php:73 results.php:116 results.php:159 results.php:202
-#: results.php:246 schedule.php:52 schedule.php:55
+#: results.php:74 results.php:119 results.php:162 results.php:205
+#: results.php:248 results.php:292 schedule.php:52 schedule.php:55
 msgid "Results"
 msgstr "结果"
 
-#: results.php:74 results.php:117 results.php:160 results.php:203
-#: results.php:247 schedule.php:53 schedule.php:56
+#: results.php:75 results.php:120 results.php:163 results.php:206
+#: results.php:249 results.php:293 schedule.php:53 schedule.php:56
 msgid "Points"
 msgstr "总分"
 
-#: results.php:214 results.php:258
+#: results.php:260 results.php:304
 msgid "Game Over"
 msgstr "结束"
 
-#: results.php:259 rules.php:129
+#: results.php:305 rules.php:129
 msgid "Back to Top"
 msgstr "回到顶部"
 
@@ -623,7 +691,7 @@ msgid ""
 "winner."
 msgstr "世界杯结束时总分最高的队伍获得胜利。"
 
-#: rules.php:34 twcscore.php:2 twcscore.php:125 twcscore.php:128
+#: rules.php:34 twcscore.php:2 twcscore.php:142 twcscore.php:145
 msgid "TWCScore"
 msgstr "TWCScore"
 
@@ -1085,87 +1153,135 @@ msgstr "东方虹龙洞　～ Unconnected Marketeers"
 msgid "Touhou 19: Unfinished Dream of All Living Ghost"
 msgstr "东方兽王园　～ Unfinished Dream of All Living Ghost"
 
-#: twcscore.php:65
+#: twcscore.php:63
+msgid "Touhou 20: Fossilized Wonders"
+msgstr "东方锦上京　～ Fossilized Wonders"
+
+#: twcscore.php:67
 msgid "Shottype / Route"
 msgstr "机体"
 
-#: twcscore.php:94 twcscore.php:95
+#: twcscore.php:96 twcscore.php:97
 msgid "Survival"
 msgstr "生存"
 
-#: twcscore.php:97 twcscore.php:98
+#: twcscore.php:99 twcscore.php:100
 msgid "Scoring"
 msgstr "打分"
 
-#: twcscore.php:104
+#: twcscore.php:106
 msgid "Challenge Bonus"
 msgstr ""
 
-#: twcscore.php:110
+#: twcscore.php:112
 msgid "Misses"
 msgstr "被弹数"
 
-#: twcscore.php:111
+#: twcscore.php:113
 msgid "Remaining lives"
 msgstr "其余的生命"
 
-#: twcscore.php:119
+#: twcscore.php:117
+msgid "Unfocus stone"
+msgstr ""
+
+#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+msgid "Red1"
+msgstr "红１"
+
+#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+msgid "Red2"
+msgstr "红２"
+
+#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+msgid "Blue1"
+msgstr "蓝１"
+
+#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+msgid "Blue2"
+msgstr "蓝２"
+
+#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+msgid "Yellow1"
+msgstr "黄１"
+
+#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+msgid "Yellow2"
+msgstr "黄２"
+
+#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+msgid "Green1"
+msgstr "绿１"
+
+#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+msgid "Green2"
+msgstr "绿２"
+
+#: twcscore.php:122
+msgid "Focus stone"
+msgstr ""
+
+#: twcscore.php:127
+msgid "Assist stone"
+msgstr ""
+
+#: twcscore.php:136
 msgid "Input score"
 msgstr "输入"
 
-#: twcscore.php:122 twcscore.php:127
+#: twcscore.php:139 twcscore.php:144
 msgid "Score"
 msgstr "分数"
 
-#: twcscore.php:134
+#: twcscore.php:151
 msgid "Duration of Stage 9 Round 1 (seconds)"
 msgstr "最后一阶段1R比赛时间（秒）"
 
-#: twcscore.php:140
+#: twcscore.php:157
 msgid "Gold medals"
 msgstr "金牌"
 
-#: twcscore.php:148
+#: twcscore.php:165
 msgid "Difficulty"
 msgstr "难度"
 
-#: twcscore.php:158
+#: twcscore.php:175
 msgid "Final Stage"
 msgstr "路线"
 
-#: twcscore.php:160
+#: twcscore.php:177
 msgid "FinalA"
 msgstr "路线A"
 
-#: twcscore.php:161
+#: twcscore.php:178
 msgid "FinalB"
 msgstr "路线B"
 
-#: twcscore.php:167
+#: twcscore.php:184
 msgid "Please fill out the game"
 msgstr "请输入游戏"
 
-#: twcscore.php:168
+#: twcscore.php:185
 msgid "Please fill out the shottype"
 msgstr "请输入机体"
 
-#: twcscore.php:169
+#: twcscore.php:186
 msgid "Please fill out the miss count"
 msgstr "请输入miss数"
 
-#: twcscore.php:170
+#: twcscore.php:187
 msgid "Please fill out the score"
 msgstr "请输入分数"
 
-#: twcscore.php:171
+#: twcscore.php:188
 msgid "Please fill out the Final Stage"
 msgstr "请输入路线"
 
-#: twcscore.php:172
+#: twcscore.php:189
 msgid "Please fill out the gold medals"
 msgstr "请输入金牌数"
 
-#: twcscore.php:173
+#: twcscore.php:190
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://bsky.app/profile/maribelhearn42.bsky.social\" "
@@ -1174,15 +1290,15 @@ msgstr ""
 "内部错误，请联系<a href=“https://bsky.app/profile/"
 "maribelhearn42.bsky.social” target=“_blank”>Maribel Hearn</a>"
 
-#: twcscore.php:177
+#: twcscore.php:194
 msgid "Calculate"
 msgstr "计算"
 
-#: twcscore.php:183
+#: twcscore.php:200
 msgid "TWCScore:"
 msgstr "TWCScore："
 
-#: twcscore.php:184
+#: twcscore.php:201
 msgid "Score:"
 msgstr "分数："
 
@@ -1267,9 +1383,6 @@ msgstr "分数："
 #~ msgstr ""
 #~ "<a href=\"https://forms.gle/WqTH2uweHFRZMpRT8\" target=\"_blank\">点此报名"
 #~ "</a>"
-
-#~ msgid "ReimuC"
-#~ msgstr "灵梦C"
 
 #~ msgid ""
 #~ "Last Spell: Getting hit during a Last Spell is <strong>not</strong> "
