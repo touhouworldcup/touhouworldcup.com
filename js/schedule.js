@@ -70,6 +70,11 @@ function toDateString(dateTime) {
 
 function convertDateTimes() {
     const schedule = document.getElementById("schedule_tbody");
+
+    if (!schedule) {
+        return; // when schedule is TBA
+    }
+
     const rows = schedule.getElementsByTagName("tr");
 
     for (const row of rows) {
@@ -84,20 +89,25 @@ function convertDateTimes() {
     }
 }
 
-function convertPastDateTimes(year) {
+function convertPastDateTimes() {
+    const currentYear = new Date().getFullYear();
     const loop = true;
     let index = 0;
 
-    while (loop) {
-        const dateElement = document.getElementById(`date_${year}_${index}`);
+    for (let year = 2020; year < currentYear; year++) {
+        while (loop) {
+            const dateElement = document.getElementById(`date_${year}_${index}`);
 
-        if (!dateElement) {
-            break;
+            if (!dateElement) {
+                break;
+            }
+
+            const dateString = toDateString(dateElement.innerHTML + " UTC");
+            dateElement.innerHTML = `<td class='noborders'>${dateString}</td>`;
+            index++;
         }
 
-        const dateString = toDateString(dateElement.innerHTML + " UTC");
-        dateElement.innerHTML = `<td class='noborders'>${dateString}</td>`;
-        index++;
+        index = 0;
     }
 }
 
@@ -189,11 +199,7 @@ function init() {
     if (location.pathname == "/schedule") {
         convertDateTimes();
     } else {
-        convertPastDateTimes("2024");
-        convertPastDateTimes("2023");
-        convertPastDateTimes("2022");
-        convertPastDateTimes("2021");
-        convertPastDateTimes("2020");
+        convertPastDateTimes();
     }
 
     scheduleElement = document.getElementById("schedule");
