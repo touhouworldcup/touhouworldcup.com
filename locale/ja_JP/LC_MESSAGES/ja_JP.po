@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-02-22 22:48+0100\n"
-"PO-Revision-Date: 2026-02-22 22:56+0100\n"
+"POT-Creation-Date: 2026-02-22 23:23+0100\n"
+"PO-Revision-Date: 2026-02-22 23:23+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -697,7 +697,7 @@ msgid ""
 "winner."
 msgstr "全試合終了後、獲得ポイントの多い順に順位が決定されます。"
 
-#: rules.php:34 twcscore.php:2 twcscore.php:142 twcscore.php:145
+#: rules.php:34 twcscore.php:2 twcscore.php:160 twcscore.php:163
 msgid "TWCScore"
 msgstr "TWCスコア"
 
@@ -1255,118 +1255,122 @@ msgstr "残機"
 msgid "Unfocus stone"
 msgstr ""
 
-#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+#: twcscore.php:119 twcscore.php:130 twcscore.php:141
 msgid "Red1"
 msgstr "赤１"
 
-#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+#: twcscore.php:120 twcscore.php:131 twcscore.php:142
 msgid "Red2"
 msgstr "赤２"
 
-#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+#: twcscore.php:121 twcscore.php:132 twcscore.php:143
 msgid "Blue1"
 msgstr "青１"
 
-#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+#: twcscore.php:122 twcscore.php:133 twcscore.php:144
 msgid "Blue2"
 msgstr "青２"
 
-#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+#: twcscore.php:123 twcscore.php:134 twcscore.php:145
 msgid "Yellow1"
 msgstr "黄１"
 
-#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+#: twcscore.php:124 twcscore.php:135 twcscore.php:146
 msgid "Yellow2"
 msgstr "黄２"
 
-#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+#: twcscore.php:125 twcscore.php:136 twcscore.php:147
 msgid "Green1"
 msgstr "緑１"
 
-#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+#: twcscore.php:126 twcscore.php:137 twcscore.php:148
 msgid "Green2"
 msgstr "緑２"
 
-#: twcscore.php:122
+#: twcscore.php:128
 msgid "Focus stone"
 msgstr ""
 
-#: twcscore.php:127
+#: twcscore.php:139
 msgid "Assist stone"
 msgstr ""
 
-#: twcscore.php:136
+#: twcscore.php:154
 msgid "Input score"
 msgstr "入力のスコア"
 
-#: twcscore.php:139 twcscore.php:144
+#: twcscore.php:157 twcscore.php:162
 msgid "Score"
 msgstr "スコア"
 
-#: twcscore.php:151
+#: twcscore.php:169
 msgid "Duration of Stage 9 Round 1 (seconds)"
 msgstr "最終ステージ1R目の試合時間(秒)"
 
-#: twcscore.php:157
+#: twcscore.php:175
 msgid "Gold medals"
 msgstr "金メダル"
 
-#: twcscore.php:165
+#: twcscore.php:183
 msgid "Difficulty"
 msgstr "難易度"
 
-#: twcscore.php:175
+#: twcscore.php:193
 msgid "Final Stage"
 msgstr "ルート"
 
-#: twcscore.php:177
+#: twcscore.php:195
 msgid "FinalA"
 msgstr "Aルート"
 
-#: twcscore.php:178
+#: twcscore.php:196
 msgid "FinalB"
 msgstr "Bルート"
 
-#: twcscore.php:184
+#: twcscore.php:202
+msgid "Please fill out the category"
+msgstr "カテゴリーを記入してください"
+
+#: twcscore.php:203
 msgid "Please fill out the game"
 msgstr "ゲームを記入してください"
 
-#: twcscore.php:185
+#: twcscore.php:204
 msgid "Please fill out the shottype"
 msgstr "キャラを記入してください"
 
-#: twcscore.php:186
+#: twcscore.php:205
 msgid "Please fill out the miss count"
 msgstr "ミス回数を記入してください"
 
-#: twcscore.php:187
+#: twcscore.php:206
 msgid "Please fill out the score"
 msgstr "スコアを記入してください"
 
-#: twcscore.php:188
+#: twcscore.php:207
 msgid "Please fill out the Final Stage"
 msgstr "ルートを記入してください"
 
-#: twcscore.php:189
+#: twcscore.php:208
 msgid "Please fill out the gold medals"
 msgstr "金メダルを記入してください"
 
-#: twcscore.php:190
+#: twcscore.php:209
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://bsky.app/profile/maribelhearn42.bsky.social\" "
 "target=\"_blank\">Maribel Hearn</a>"
 msgstr ""
 
-#: twcscore.php:194
+#: twcscore.php:213
 msgid "Calculate"
 msgstr "計算する"
 
-#: twcscore.php:200
+#: twcscore.php:219
 msgid "TWCScore:"
 msgstr "TWCスコア："
 
-#: twcscore.php:201
+#: twcscore.php:220
 msgid "Score:"
 msgstr "スコア："
 

@@ -199,6 +199,7 @@
 
 	<div>
         <div id="twcscore_error">
+            <p id="error_category"><?php echo _('Please fill out the category') ?></p>
             <p id="error_game"><?php echo _('Please fill out the game') ?></p>
             <p id="error_shottype"><?php echo _('Please fill out the shottype') ?></p>
             <p id="error_miss"><?php echo _('Please fill out the miss count') ?></p>

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-02-22 22:37+0100\n"
-"PO-Revision-Date: 2026-02-22 22:52+0100\n"
+"POT-Creation-Date: 2026-02-22 23:22+0100\n"
+"PO-Revision-Date: 2026-02-22 23:23+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -695,7 +695,7 @@ msgid ""
 msgstr ""
 "El equipo que tenga más puntos al final del Touhou World Cup es el ganador."
 
-#: rules.php:34 twcscore.php:2 twcscore.php:142 twcscore.php:145
+#: rules.php:34 twcscore.php:2 twcscore.php:160 twcscore.php:163
 msgid "TWCScore"
 msgstr "TWCScore"
 
@@ -1235,103 +1235,107 @@ msgstr "Vidas restantes"
 msgid "Unfocus stone"
 msgstr "Piedra de unfocus"
 
-#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+#: twcscore.php:119 twcscore.php:130 twcscore.php:141
 msgid "Red1"
 msgstr "Roja1"
 
-#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+#: twcscore.php:120 twcscore.php:131 twcscore.php:142
 msgid "Red2"
 msgstr "Roja2"
 
-#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+#: twcscore.php:121 twcscore.php:132 twcscore.php:143
 msgid "Blue1"
 msgstr "Azul1"
 
-#: twcscore.php:119 twcscore.php:124 twcscore.php:129
+#: twcscore.php:122 twcscore.php:133 twcscore.php:144
 msgid "Blue2"
 msgstr "Azul2"
 
-#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+#: twcscore.php:123 twcscore.php:134 twcscore.php:145
 msgid "Yellow1"
 msgstr "Amarilla1"
 
-#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+#: twcscore.php:124 twcscore.php:135 twcscore.php:146
 msgid "Yellow2"
 msgstr "Amarilla2"
 
-#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+#: twcscore.php:125 twcscore.php:136 twcscore.php:147
 msgid "Green1"
 msgstr "Verde1"
 
-#: twcscore.php:120 twcscore.php:125 twcscore.php:130
+#: twcscore.php:126 twcscore.php:137 twcscore.php:148
 msgid "Green2"
 msgstr "Verde2"
 
-#: twcscore.php:122
+#: twcscore.php:128
 msgid "Focus stone"
 msgstr "Piedra de focus"
 
-#: twcscore.php:127
+#: twcscore.php:139
 msgid "Assist stone"
 msgstr "Piedra de asistir"
 
-#: twcscore.php:136
+#: twcscore.php:154
 msgid "Input score"
 msgstr "Puntuación de entrada"
 
-#: twcscore.php:139 twcscore.php:144
+#: twcscore.php:157 twcscore.php:162
 msgid "Score"
 msgstr "Puntuación"
 
-#: twcscore.php:151
+#: twcscore.php:169
 msgid "Duration of Stage 9 Round 1 (seconds)"
 msgstr "Duración de la Ronda 1 de la Etapa 9 (segundos)"
 
-#: twcscore.php:157
+#: twcscore.php:175
 msgid "Gold medals"
 msgstr "Medallas de Oro"
 
-#: twcscore.php:165
+#: twcscore.php:183
 msgid "Difficulty"
 msgstr "Dificultad"
 
-#: twcscore.php:175
+#: twcscore.php:193
 msgid "Final Stage"
 msgstr "Nivel Final"
 
-#: twcscore.php:177
+#: twcscore.php:195
 msgid "FinalA"
 msgstr "FinalA"
 
-#: twcscore.php:178
+#: twcscore.php:196
 msgid "FinalB"
 msgstr "FinalB"
 
-#: twcscore.php:184
+#: twcscore.php:202
+msgid "Please fill out the category"
+msgstr "Por favor llene la categoría"
+
+#: twcscore.php:203
 msgid "Please fill out the game"
 msgstr "Por favor llene el juego"
 
-#: twcscore.php:185
+#: twcscore.php:204
 msgid "Please fill out the shottype"
 msgstr "Por favor llene el tipo de disparo"
 
-#: twcscore.php:186
+#: twcscore.php:205
 msgid "Please fill out the miss count"
 msgstr "Por favor llene el contador de muertes"
 
-#: twcscore.php:187
+#: twcscore.php:206
 msgid "Please fill out the score"
 msgstr "Por favor llene la puntuación"
 
-#: twcscore.php:188
+#: twcscore.php:207
 msgid "Please fill out the Final Stage"
 msgstr "Por favor llene el Nivel Final"
 
-#: twcscore.php:189
+#: twcscore.php:208
 msgid "Please fill out the gold medals"
 msgstr "Por favor llene las medallas de oro"
 
-#: twcscore.php:190
+#: twcscore.php:209
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://bsky.app/profile/maribelhearn42.bsky.social\" "
@@ -1341,15 +1345,15 @@ msgstr ""
 "contacte <a href=\"https://bsky.app/profile/maribelhearn42.bsky.social\" "
 "target=\"_blank\">Maribel Hearn</a>"
 
-#: twcscore.php:194
+#: twcscore.php:213
 msgid "Calculate"
 msgstr "Calcular"
 
-#: twcscore.php:200
+#: twcscore.php:219
 msgid "TWCScore:"
 msgstr "TWCScore:"
 
-#: twcscore.php:201
+#: twcscore.php:220
 msgid "Score:"
 msgstr "Puntuación:"
 

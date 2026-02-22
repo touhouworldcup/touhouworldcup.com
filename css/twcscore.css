@@ -56,7 +56,7 @@ button {
     font-weight: bold;
     font-size: 72px;
 }
-#error_game, #error_shottype, #error_miss, #error_score, #error_final, #error_medals, #error_fatal {
+#error_category, #error_game, #error_shottype, #error_miss, #error_score, #error_final, #error_medals, #error_fatal {
     display: none;
     color: red;
 }

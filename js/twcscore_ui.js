@@ -271,7 +271,7 @@ window.onload = () => {
 	}
 
     const clear_errors = () => {
-        const error_types = ["game", "shottype", "miss", "score", "final", "medals", "fatal"];
+        const error_types = ["category", "game", "shottype", "miss", "score", "final", "medals", "fatal"];
 
         for (let error of error_types) {
             document.getElementById("error_" + error).style.display = "none";
@@ -279,7 +279,7 @@ window.onload = () => {
     }
 
     const handle_error = (error) => {
-        const error_types = ["game", "shottype", "miss", "score", "final", "medals", "fatal"];
+        const error_types = ["category", "game", "shottype", "miss", "score", "final", "medals", "fatal"];
         clear_errors();
 
         if (error_types.includes(error)) {
@@ -381,6 +381,11 @@ window.onload = () => {
 
 		try {
             const rt = get_name(runtype);
+
+            if (rt === "") {
+                throw "category";
+            }
+
             let game_name = get_name(game_sel);
 
             if (game_name === "") {
