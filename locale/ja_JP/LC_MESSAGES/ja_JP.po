@@ -1253,47 +1253,47 @@ msgstr "残機"
 
 #: twcscore.php:117
 msgid "Unfocus stone"
-msgstr ""
+msgstr "拡散石"
 
 #: twcscore.php:119 twcscore.php:130 twcscore.php:141
 msgid "Red1"
-msgstr "赤１"
+msgstr "スカーレットデビル"
 
 #: twcscore.php:120 twcscore.php:131 twcscore.php:142
 msgid "Red2"
-msgstr "赤２"
+msgstr "クリーチャーレッド"
 
 #: twcscore.php:121 twcscore.php:132 twcscore.php:143
 msgid "Blue1"
-msgstr "青１"
+msgstr "スノーブロッサム"
 
 #: twcscore.php:122 twcscore.php:133 twcscore.php:144
 msgid "Blue2"
-msgstr "青２"
+msgstr "ブルーシーズン"
 
 #: twcscore.php:123 twcscore.php:134 twcscore.php:145
 msgid "Yellow1"
-msgstr "黄１"
+msgstr "イエローサブタレイニアン"
 
 #: twcscore.php:124 twcscore.php:135 twcscore.php:146
 msgid "Yellow2"
-msgstr "黄２"
+msgstr "インペリシャブルムーン"
 
 #: twcscore.php:125 twcscore.php:136 twcscore.php:147
 msgid "Green1"
-msgstr "緑１"
+msgstr "ビーストハードネス"
 
 #: twcscore.php:126 twcscore.php:137 twcscore.php:148
 msgid "Green2"
-msgstr "緑２"
+msgstr "シントイズムウィンド"
 
 #: twcscore.php:128
 msgid "Focus stone"
-msgstr ""
+msgstr "集中石"
 
 #: twcscore.php:139
 msgid "Assist stone"
-msgstr ""
+msgstr "支援石"
 
 #: twcscore.php:154
 msgid "Input score"
