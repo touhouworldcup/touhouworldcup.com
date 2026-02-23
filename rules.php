@@ -13,7 +13,7 @@
     <h2><?php echo _('Full Official Rules') ?></h2>
     <p><?php echo _('The full official rulebook can be found here:') ?></p>
     <ul class="style-none">
-        <li>English: <a href="https://docs.google.com/document/d/e/2PACX-1vQrmgcwhgKARoUnk5BPE0Oyv4fAgHilZs1pUa1RQJtm0X_z93L8eI0lNt1Y-iZQK3v4_Ab9vx1HzpkN/pub" target="_blank">TWC Handbook</a></li>
+        <li>English: <a href="https://docs.google.com/document/d/e/2PACX-1vQ5zQTsFZgih01WTIY5jF6NOuLrUrFPxulT2dACTJjH-PrMvxbR6xxr6UptCkDBKd-ZjlqLOSCZb-hR/pub" target="_blank">TWC Handbook</a></li>
         <li>日本語: <a href="https://drive.google.com/file/d/1eBMmTOLUj39ZGSUQQFYxsz4rIOoWYQcp/view" target="_blank">TWC_Handbook_JP(pdf)</a></li>
     </ul>
     <hr>
