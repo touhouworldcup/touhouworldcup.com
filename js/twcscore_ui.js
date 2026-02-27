@@ -284,6 +284,7 @@ window.onload = () => {
 
         if (error_types.includes(error)) {
             document.getElementById("error_" + error).style.display = "block";
+            iscore_final.innerText = "";
         }
     }
 
@@ -365,10 +366,7 @@ window.onload = () => {
                     }
                 }
 
-                if (!isNaN(iscore_val)) {
-                    iscore_final.innerText = iscore_val.toString();
-                }
-
+                iscore_final.innerText = iscore_val.toString() === "NaN" ? 0 : iscore_val.toString();
                 window.scrollTo(0, document.body.scrollHeight);
             }
         }
