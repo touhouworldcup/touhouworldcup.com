@@ -56,7 +56,8 @@ window.onload = () => {
         "th14": true,
         "th15": true,
         "th16": true,
-        "th18": true
+        "th18": true,
+        "th20": true
 	}
     const game_has_cb = {
         "th11": true,
