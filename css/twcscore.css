@@ -56,6 +56,14 @@ button {
     font-weight: bold;
     font-size: 72px;
 }
+#twcscore_final_reverse p {
+    display: flex;
+    font-weight: bold;
+    font-size: 36px;
+}
+#twcscore_final_reverse span {
+    flex: 1;
+}
 #error_category, #error_game, #error_shottype, #error_miss, #error_score, #error_final, #error_medals, #error_fatal {
     display: none;
     color: red;
@@ -74,7 +82,7 @@ button {
     object-fit: none;
     opacity: 0.7;
 }
-.cover:hover, .shottype:hover {
+.cover:hover, .shottype:hover, #twcscore_final_reverse .shottype {
     opacity: 1;
 }
 @media (min-width: 1050px) {

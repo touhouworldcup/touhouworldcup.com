@@ -66,6 +66,24 @@
         }
     }
 
+    function get_scoring_reverse(mysqli $db, string $game, string $diff) {
+        $statement = mysqli_prepare($db, 'SELECT Shottype, A, B, C FROM `Scoring Rubrics` WHERE Game = ? AND Difficulty = ?');
+        $statement->bind_param('ss', $game, $diff);
+        $statement->execute();
+        $result = $statement->get_result();
+        $rows = [];
+
+        while ($row = $result->fetch_assoc()) {
+            array_push($rows, $row);
+        }
+
+        if (sizeof($rows) === 0) {
+            return '{}'; // data error
+        }
+
+        return json_encode($rows);
+    }
+
     function get_schedule(mysqli $db, string $year) {
         $statement = mysqli_prepare($db, 'SELECT * FROM `Schedule ' . $year . '`');
         $statement->execute();
@@ -119,7 +137,11 @@
                 echo get_survival($db, $_GET['game'], $_GET['shot']);
             }
         } else if (!empty($_GET['game'])) {
-            echo get_scoring($db, $_GET['game'], $_GET['diff'], $_GET['shot']);
+            if (!empty($_GET['shot'])) {
+                echo get_scoring($db, $_GET['game'], $_GET['diff'], $_GET['shot']);
+            } else {
+                echo get_scoring_reverse($db, $_GET['game'], $_GET['diff']);
+            }
         }
     }
 ?>

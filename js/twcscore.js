@@ -81,17 +81,23 @@ iscore.calc_scoring = (rubric, score) => {
 }
 
 // Calculates the score of a given score run based on what its TWCScore was
-iscore.calc_scoring_reverse = (rubric, iscore) => {
-	const a = parseFloat(rubric.A);
-	const b = parseFloat(rubric.B);
-	const c = parseFloat(rubric.C);
-    let score = Math.round(Math.log((iscore - c) / b) / Math.log(a) * 10000000) * 10;
+iscore.calc_scoring_reverse = (rubrics, iscore) => {
+	let scores = {};
 
-	if (isNaN(score)) {
-		score = 0;
+	for (const rubric of rubrics) {
+		const a = parseFloat(rubric.A);
+		const b = parseFloat(rubric.B);
+		const c = parseFloat(rubric.C);
+		let score = Math.round(Math.log((iscore - c) / b) / Math.log(a) * 10000000) * 10;
+
+		if (isNaN(score)) {
+			score = 0;
+		}
+
+		scores[rubric.Shottype] = score;
 	}
 
-	return score;
+	return scores;
 }
 
 try {

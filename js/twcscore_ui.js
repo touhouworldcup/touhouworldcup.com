@@ -5,6 +5,7 @@ window.onload = () => {
 	const runtype  = document.getElementById("runtype");
 	const inputscore  = document.getElementById("inputscore");
 	const game_sel = document.getElementById("games");
+	const shottype_sel  = document.getElementById("shottypes");
 	const diff_sel = document.getElementById("diff");
 
 	const surv_opts  = document.getElementById("surv_opts");
@@ -38,6 +39,7 @@ window.onload = () => {
 
     const submit       = document.getElementById("submit");
 	const iscore_final = document.getElementById("twcscore_final");
+    const iscore_final_reverse = document.getElementById("twcscore_final_reverse");
 
 	const score_label  = document.getElementById("score_label");
 	const score_label_alt  = document.getElementById("score_label_alt");
@@ -286,6 +288,7 @@ window.onload = () => {
         if (error_types.includes(error)) {
             document.getElementById("error_" + error).style.display = "block";
             iscore_final.innerText = "";
+            iscore_final_reverse.innerHTML = `<p id="reverse_0"></p><p id="reverse_1"></p><p id="reverse_2"></p><p id="reverse_3"></p>`;
         }
     }
 
@@ -324,7 +327,10 @@ window.onload = () => {
                 } else { // "twc"
                     const score = get_element_val(i_score, "score", "float");
                     iscore_val = iscore.calc_scoring_reverse(data, score);
-                    iscore_val = sep(iscore_val);
+
+                    for (const shottype_name in iscore_val) {
+                        iscore_val[shottype_name] = sep(iscore_val[shottype_name]);
+                    }
                 }
             }
 
@@ -335,8 +341,32 @@ window.onload = () => {
         }
     }
 
-    const fetch_iscore_data = (rt, game_name, shottype_name) => {
-        let url = `/php/db.php?rt=${rt}&game=${game_name}&shot=${shottype_name}`;
+    const show_reverse_results = (game_name, iscore_val) => {
+        const divisor = game_name === "th08" || game_name === "th16" || game_name === "th20" ? 4 : 6;
+        let current_row = 0;
+        let i = 0;
+        iscore_final.innerText = "";
+
+        for (const shottype_name in iscore_val) {
+            document.getElementById(`reverse_${current_row}`).innerHTML += `<span class="reverse_result">` +
+            `<img id="${game_name + shottype_name}" class="shottype" src="/assets/shots_sheet.png" title="${shottype_name}" alt="${shottype_name}" width="100" height="100">` +
+            `<br>${iscore_val[shottype_name]}</span>`;
+            i++;
+
+            if (i % divisor === 0) {
+                current_row += 1;
+            }
+        }
+
+        window.scrollTo(0, document.body.scrollHeight);
+    };
+
+    const fetch_iscore_data = (rt, is, game_name, shottype_name) => {
+        let url = `/php/db.php?rt=${rt}&game=${game_name}`;
+
+        if (is === "ingame") {
+            url += `&shot=${shottype_name}`;
+        }
 
         if (rt === "score") {
             url += `&diff=${diff_sel.value}`;
@@ -367,6 +397,14 @@ window.onload = () => {
                     }
                 }
 
+                iscore_final_reverse.innerHTML = `<p id="reverse_0"></p><p id="reverse_1"></p><p id="reverse_2"></p><p id="reverse_3"></p>`;
+
+                // reverse calculation
+                if (typeof iscore_val === "object") {
+                    show_reverse_results(game_name, iscore_val);
+                    return;
+                }
+
                 iscore_final.innerText = iscore_val.toString() === "NaN" ? 0 : iscore_val.toString();
                 window.scrollTo(0, document.body.scrollHeight);
             }
@@ -385,19 +423,20 @@ window.onload = () => {
                 throw "category";
             }
 
-            let game_name = get_name(game_sel);
+            const game_name = get_name(game_sel);
 
             if (game_name === "") {
                 throw "game";
             }
 
-            let shottype_name = get_shot_name();
+            const shottype_name = get_shot_name();
+            const is = get_name(inputscore);
 
-            if (shottype_name === "") {
+            if (shottype_name === "" && is === "ingame") {
                 throw "shottype";
             }
 
-            fetch_iscore_data(rt, game_name, shottype_name);
+            fetch_iscore_data(rt, is, game_name, shottype_name);
 		} catch (error) {
 			handle_error(error);
 		}
@@ -441,12 +480,16 @@ window.onload = () => {
         if (rt === "surv") {
             surv_opts.style.display = "inline";
             score_opts.style.display = "none";
+            shottype_sel.style.display = "inline";
         } else if (rt === "score") {
+            const is = get_name(inputscore);
             surv_opts.style.display = "none";
             score_opts.style.display = "inline";
+            shottype_sel.style.display = is === "ingame" ? "inline" : "none";
         } else {
             surv_opts.style.display = "none";
             score_opts.style.display = "none";
+            shottype_sel.style.display = "inline";
         }
 
         game_runtype_specific_opts(get_name(game_sel));
@@ -460,11 +503,13 @@ window.onload = () => {
             score_label_alt.style.display = "none";
             twcscore_label.style.display = "inline";
             twcscore_label_alt.style.display = "none";
+            shottype_sel.style.display = "inline";
         } else { // is === "twc"
             score_label.style.display = "none";
             score_label_alt.style.display = "inline";
             twcscore_label.style.display = "none";
             twcscore_label_alt.style.display = "inline";
+            shottype_sel.style.display = "none";
         }
     }
 

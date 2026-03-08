@@ -64,31 +64,33 @@
         </label>
 	</fieldset><br><br>
 
-	<span><?php echo _('Shottype / Route') ?></span><br>
-    <?php
-        $json = file_get_contents('json/shots.json');
-        $shots = json_decode($json, true);
-        foreach ($shots as $game => $shots) {
-            $checked = true;
-            echo '<fieldset name="shottype" id="' . $game . '" class="game">';
-            foreach ($shots as $key => $shot) {
-                if ($checked) {
-                    echo '<label><input type="radio" name="shottype" value="' . $shot . '"><img id="' . $game . $shot . '" class="shottype" src="/assets/shots_sheet.png" title="' . _($shot) . '" alt="' . _($shot) . '" width=100 height=100></span></label>';
-                    $checked = false;
-                    continue;
-                }
-                echo '<label><input type="radio" name="shottype" value="' . $shot . '"><img id="' . $game . $shot . '" class="shottype" src="/assets/shots_sheet.png" title="' . _($shot) . '" alt="' . _($shot) . '" width=100 height=100></span></label>';
-            }
-            echo '</fieldset>';
-        }
-    ?>
-	<fieldset name="shottype" id="th16ex" class="game">
-		<label><input type="radio" name="shottype" value="Reimu"><img id="th16ReimuExtra" class="shottype" src="/assets/shots_sheet.png" title="<?php echo _('Reimu'); ?>" alt="<?php echo _('Reimu') ?>" width=100 height=100></span></label>
-		<label><input type="radio" name="shottype" value="Cirno"><img id="th16CirnoExtra" class="shottype" src="/assets/shots_sheet.png" title="<?php echo _('Cirno'); ?>" alt="<?php echo _('Cirno') ?>" width=100 height=100></span></label>
-		<label><input type="radio" name="shottype" value="Aya"><img id="th16AyaExtra" class="shottype" src="/assets/shots_sheet.png" title="<?php echo _('Aya'); ?>" alt="<?php echo _('Aya') ?>" width=100 height=100></span></label>
-		<label><input type="radio" name="shottype" value="Marisa"><img id="th16MarisaExtra" class="shottype" src="/assets/shots_sheet.png" title="<?php echo _('Marisa'); ?>" alt="<?php echo _('Marisa') ?>" width=100 height=100></span></label>
-	</fieldset>
-	<br><br>
+	<span id="shottypes">
+		<span><?php echo _('Shottype / Route') ?></span><br>
+		<?php
+			$json = file_get_contents('json/shots.json');
+			$shots = json_decode($json, true);
+			foreach ($shots as $game => $shots) {
+				$checked = true;
+				echo '<fieldset name="shottype" id="' . $game . '" class="game">';
+				foreach ($shots as $key => $shot) {
+					if ($checked) {
+						echo '<label><input type="radio" name="shottype" value="' . $shot . '"><img id="' . $game . $shot . '" class="shottype" src="/assets/shots_sheet.png" title="' . _($shot) . '" alt="' . _($shot) . '" width=100 height=100></span></label>';
+						$checked = false;
+						continue;
+					}
+					echo '<label><input type="radio" name="shottype" value="' . $shot . '"><img id="' . $game . $shot . '" class="shottype" src="/assets/shots_sheet.png" title="' . _($shot) . '" alt="' . _($shot) . '" width=100 height=100></span></label>';
+				}
+				echo '</fieldset>';
+			}
+		?>
+		<fieldset name="shottype" id="th16ex" class="game">
+			<label><input type="radio" name="shottype" value="Reimu"><img id="th16ReimuExtra" class="shottype" src="/assets/shots_sheet.png" title="<?php echo _('Reimu'); ?>" alt="<?php echo _('Reimu') ?>" width=100 height=100></span></label>
+			<label><input type="radio" name="shottype" value="Cirno"><img id="th16CirnoExtra" class="shottype" src="/assets/shots_sheet.png" title="<?php echo _('Cirno'); ?>" alt="<?php echo _('Cirno') ?>" width=100 height=100></span></label>
+			<label><input type="radio" name="shottype" value="Aya"><img id="th16AyaExtra" class="shottype" src="/assets/shots_sheet.png" title="<?php echo _('Aya'); ?>" alt="<?php echo _('Aya') ?>" width=100 height=100></span></label>
+			<label><input type="radio" name="shottype" value="Marisa"><img id="th16MarisaExtra" class="shottype" src="/assets/shots_sheet.png" title="<?php echo _('Marisa'); ?>" alt="<?php echo _('Marisa') ?>" width=100 height=100></span></label>
+		</fieldset>
+		<br><br>
+	</span>
 
 	<span><?php echo _('Category') ?></span><br>
     <fieldset name="runtype" id="runtype">
@@ -220,6 +222,12 @@
             <span id="twcscore_label_alt"><?php echo _('Score:') ?></span>
         </p>
     	<p id="twcscore_final"></p>
+    	<div id="twcscore_final_reverse">
+			<p id="reverse_0"></p>
+			<p id="reverse_1"></p>
+			<p id="reverse_2"></p>
+			<p id="reverse_3"></p>
+		</div>
     </div>
 	</form>
 	</main>
