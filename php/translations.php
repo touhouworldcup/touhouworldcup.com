@@ -1,4 +1,9 @@
 <?php
+if (!empty($_GET['string'])) {
+    include_once 'locale.php';
+    echo _($_GET['string']);
+    return;
+}
 echo _('ReimuA');
 echo _('ReimuB');
 echo _('MarisaA');

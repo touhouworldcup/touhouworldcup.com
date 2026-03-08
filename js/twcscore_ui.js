@@ -341,6 +341,28 @@ window.onload = () => {
         }
     }
 
+    const translate = (string, game_name) => {
+        const url = `/php/translations.php?string=${string}`;
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', url);
+        xhr.onreadystatechange = function () {
+            if (this.readyState === 4 && this.status === 200) {
+                // handle shottype translations
+                if (game_name) {
+                    document.getElementById(`reverse_${game_name + string}`).setAttribute("title", this.response);
+                    document.getElementById(`reverse_${game_name + string}`).setAttribute("alt", this.response);
+                    return;
+                }
+
+                return this.response;
+            }
+
+            return string;
+        }
+
+        xhr.send();
+    }
+
     const show_reverse_results = (game_name, iscore_val) => {
         let row_divisor = 6;
 
@@ -358,7 +380,7 @@ window.onload = () => {
 
         for (const shottype_name in iscore_val) {
             document.getElementById(`reverse_${current_row}`).innerHTML += `<span class="reverse_result">` +
-            `<img id="${game_name + shottype_name}" class="shottype" src="/assets/shots_sheet.png" title="${shottype_name}" alt="${shottype_name}" width="100" height="100">` +
+            `<img id="reverse_${game_name + shottype_name}" class="shottype" src="/assets/shots_sheet.png" title="${translate(shottype_name, game_name)}" alt="${translate(shottype_name, game_name)}" width="100" height="100">` +
             `<br>${iscore_val[shottype_name]}</span>`;
             i++;
 
@@ -505,7 +527,8 @@ window.onload = () => {
     }
 
     const change_inputscore = () => {
-        let is = get_name(inputscore);
+        const is = get_name(inputscore);
+        const rt = get_name(runtype);
 
         if (is === "ingame") {
             score_label.style.display = "inline";   
@@ -519,6 +542,10 @@ window.onload = () => {
             twcscore_label.style.display = "none";
             twcscore_label_alt.style.display = "inline";
             shottype_sel.style.display = "none";
+        }
+
+        if (rt === "surv") {
+            shottype_sel.style.display = "inline";
         }
     }
 
