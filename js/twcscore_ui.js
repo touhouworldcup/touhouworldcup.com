@@ -432,7 +432,7 @@ window.onload = () => {
             const shottype_name = get_shot_name();
             const is = get_name(inputscore);
 
-            if (shottype_name === "" && is === "ingame") {
+            if (shottype_name === "" && (rt === "surv" || is === "ingame")) {
                 throw "shottype";
             }
 
