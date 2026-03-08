@@ -342,7 +342,16 @@ window.onload = () => {
     }
 
     const show_reverse_results = (game_name, iscore_val) => {
-        const divisor = game_name === "th08" || game_name === "th16" || game_name === "th20" ? 4 : 6;
+        let row_divisor = 6;
+
+        if (game_name === "th08" || game_name === "th16" || game_name === "th20") {
+            row_divisor = 4;
+        }
+
+        if (game_name === "th17") {
+            row_divisor = 3;
+        }
+
         let current_row = 0;
         let i = 0;
         iscore_final.innerText = "";
@@ -353,7 +362,7 @@ window.onload = () => {
             `<br>${iscore_val[shottype_name]}</span>`;
             i++;
 
-            if (i % divisor === 0) {
+            if (i % row_divisor === 0) {
                 current_row += 1;
             }
         }
