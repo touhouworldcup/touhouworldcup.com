@@ -368,12 +368,12 @@ window.onload = () => {
         }
 
         window.scrollTo(0, document.body.scrollHeight);
-    };
+    }
 
     const fetch_iscore_data = (rt, is, game_name, shottype_name) => {
         let url = `/php/db.php?rt=${rt}&game=${game_name}`;
 
-        if (is === "ingame") {
+        if (rt === "surv" || is === "ingame") {
             url += `&shot=${shottype_name}`;
         }
 
