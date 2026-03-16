@@ -86,6 +86,9 @@ function convertDateTimes() {
 
         const dateString = toDateString(dateElement.innerHTML + " UTC");
         dateElement.innerHTML = `<td class='noborders'>${dateString}</td>`;
+
+        const categoryElement = row.childNodes[1];
+        categoryElement.innerHTML = categoryElement.innerHTML.replace("Qualifier", _("Qualifier"));
     }
 }
 
@@ -112,16 +115,25 @@ function convertPastDateTimes() {
 }
 
 function _(letter) {
-    if (language != "ja-JP" && language != "zh-CN") {
-        return letter;
+    if (language == "ja-JP") {
+        return ({
+            "d ": "日",
+            "h ": "時間",
+            "m ": "分",
+            "s": "秒"
+        }[letter]);
     }
 
-    return ({
-        "d ": "日",
-        "h ": "時間",
-        "m ": "分",
-        "s": "秒"
-    }[letter]);
+    if (language == "zh-CN") {
+        return ({
+            "d ": "天",
+            "h ": "小时",
+            "m ": "分",
+            "s": "秒"
+        }[letter]);
+    }
+
+    return letter;
 }
 
 function formatTime(timeLeft) {
