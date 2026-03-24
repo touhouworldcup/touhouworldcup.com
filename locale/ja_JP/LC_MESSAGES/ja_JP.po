@@ -1133,19 +1133,16 @@ msgstr "全ての東方作品で許可されているツールは以下の通り
 
 #: rules.php:132
 msgid ""
-"Note: the only allowed versions of thprac are GitHub Actions builds from the "
-"master branch (https://github.com/touhouworldcup/thprac/actions)"
-msgstr ""
-"許可されているバージョンは次のマスターブランチのみです。"
-"(https://github.com/touhouworldcup/thprac/actions)"
-
-#: rules.php:133
-msgid ""
+"Note: the only allowed versions of thprac are GitHub Actions builds from "
+"the master branch (https://github.com/touhouworldcup/thprac/actions), "
 "as well as official stable release versions "
 "(https://github.com/touhouworldcup/thprac/releases)"
 msgstr ""
-"公式の安定リリースバージョン: "
-"(https://github.com/touhouworldcup/thprac/releases)"
+"許可されているバージョンは以下のもののみとなります</li>"
+"<ul><li>マスターブランチからのGitHub Actionsビルド: "
+"(https://github.com/touhouworldcup/thprac/actions)</li>"
+"<li>公式の安定リリースバージョン: "
+"(https://github.com/touhouworldcup/thprac/releases)</li></ul>"
 
 #: rules.php:139
 msgid ""

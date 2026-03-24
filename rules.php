@@ -129,8 +129,8 @@
         <li><?php echo _('Vpatch by adonis') ?></li>
         <li><?php echo _('thprac by ack7139, 32th System') ?></li>
         <ul>
-            <li><?php echo _('Note: the only allowed versions of thprac are GitHub Actions builds from the master branch (https://github.com/touhouworldcup/thprac/actions)') ?></li>
-            <li><?php echo _('as well as official stable release versions (https://github.com/touhouworldcup/thprac/releases)') ?></li>
+            <li><?php echo _('Note: the only allowed versions of thprac are GitHub Actions builds from the master branch (https://github.com/touhouworldcup/thprac/actions), ' .
+            'as well as official stable release versions (https://github.com/touhouworldcup/thprac/releases)') ?></li>
         </ul>
         <li><?php echo _('enbconverter by Boris Vorontsov (aka. Dx8 to Dx9 converter)') ?></li>
         <li><?php echo _('Controller Deadzone Mod by 32th System') ?></li>
