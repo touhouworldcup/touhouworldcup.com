@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2026-02-22 23:23+0100\n"
-"PO-Revision-Date: 2026-02-22 23:23+0100\n"
+"PO-Revision-Date: 2026-03-22 16:56+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: index.php\n"
 "X-Poedit-SearchPath-1: credits.php\n"
@@ -849,7 +849,7 @@ msgid ""
 msgstr ""
 "TWCのこの部門ではプレイヤーは他作品と違う条件下で競います。プレイヤーの目標は"
 "最終残機数を最大化することです。各機体にはTWCスコア規定により最終残機数に応じ"
-"たTWCスコアが割り振られます。本部門のTWCスコアは、最終残機数7の場合TWCスコア"
+"たTWCスコアが割り振られます。<br>本部門のTWCスコアは、最終残機数7の場合TWCスコア"
 "ボーナスが割り振られるという例外を除いて他のサバイバル部門の「被弾数」に「7-"
 "最終残機数」を代入したものと見做せます。ただし最後に最終ステージ1ラウンド目の"
 "試合時間(秒)*0.02がTWCスコアに加算されます。最終残機数が2未満の場合のTWCスコ"
@@ -894,9 +894,9 @@ msgid ""
 "Gold medals are attained by capturing spell cards without using Ice Power or "
 "a Perfect Freeze. TWCScore increases exponentially by the number of gold "
 "medals captured by the player and is lost depending on the number of misses. "
-"The parameters of this exponential gain are different for each route. The "
+"The parameters of this exponential gain are different for each route.<br>The "
 "number of misses in a Great Fairy Wars Lunatic Survival credit does not "
-"affect the validity of the credit in any form. However, any otherwise valid "
+"affect the validity of the credit in any form.<br>However, any otherwise valid "
 "credit in a match of Great Fairy Wars Lunatic Survival which ends in a Game "
 "Over will always attain a TWCScore of -50."
 msgstr ""
@@ -904,10 +904,9 @@ msgstr ""
 "スペルカードの金メダル取得を増やすのが目標です。こおりパワーまたはパーフェク"
 "トフリーズを使用せずスペルカードを取得すると金メダル取得となります。TWCスコア"
 "は金メダル取得数によって指数関数的に増加し、被弾数に応じて減少します。この増"
-"加の仕方はルートにより異なります。妖精大戦争Lunaticサバイバルにおいては被弾数"
-"の上限はないものとします。満身創痍となったときの有効なクレジットのTWCスコア"
-"は-50となります。\n"
-"このルールは妖精大戦争Lunaticサバイバルにおいてのみ有効です。"
+"加の仕方はルートにより異なります。<br>妖精大戦争Lunaticサバイバルにおいては被弾数"
+"の上限はないものとします。<br>満身創痍となったときの有効なクレジットのTWCスコア"
+"は-50となります。"
 
 #: rules.php:76
 msgid "Touhou 13"
@@ -920,7 +919,7 @@ msgid ""
 "Challenge Bonus that is added to the initial TWCScore and is subject to the "
 "same score reduction from misses."
 msgstr ""
-"任意トランスは2被弾として扱われます。また、欲霊「スコアデザイアイーター」を取"
+"任意トランスは2被弾として扱われます。<br>また、欲霊「スコアデザイアイーター」を取"
 "得した場合、チャレンジボーナスとして追加のTWCスコアが与えられます。ただし、こ"
 "の追加のTWCスコアもミスによる減少を受けます。"
 
@@ -993,31 +992,64 @@ msgstr "鈴瑚印の団子"
 #: rules.php:95
 msgid ""
 "Additionally, the players are only allowed to buy \"Money Comes and Goes On "
-"its Own\" from the card shop between stages."
-msgstr "ステージ間のショップでは「勝手に天下の回り物」のみ購入できます。"
+"its Own\" and \"Ringo-Brand Dango\" from the card shop between stages."
+msgstr "ステージ間のショップでは「勝手に天下の回り物」と「鈴瑚印の団子」のみ購入できます。"
 
 #: rules.php:97
-msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
-msgstr "<em>「勝手に天下の回り物」</em>"
+#msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
+#msgstr "<em>「勝手に天下の回り物」</em>"
 
-#: rules.php:98
+#: rules.php:96
 msgid "Touhou 19"
 msgstr "東方獣王園　～ Unfinished Dream of All Living Ghost."
 
-#: rules.php:99
+#: rules.php:97
 msgid ""
-"Players will incur no penalty for taking a hit with a shield active. Players "
-"will also incur no penalty for regenerating their shield by using their "
-"gauge."
+"The final TWC score is the sum of the top three scores obtained with "
+"different characters.<br>Players will incur no penalty for taking a hit with "
+"a shield active. Players will also incur no penalty for regenerating their "
+"shield by using their gauge.<br>All players participating in UDoALG are "
+"required to apply the specified thprac version to display the slowdown rate "
+"counter, as well as enabling the ‘Replace certain functions with faster "
+"variants’ option in the F12 menu. Credits played without thprac being "
+"applied may be considered invalid."
 msgstr ""
-"バリアを張っている状態で被弾してもペナルティはありません。また、ゲージを消費"
-"してバリアを回復してもペナルティはありません。"
+"TWCのこの部門では、異なる機体による上位3つの得点のプレイを合計し、最終"
+"的なTWCスコアとして集計します。<br>バリアを張っている状態で被弾して"
+"もペナルティはありません。また、ゲージを消費してバリアを回復してもペナル"
+"ティはありません。<br>東方獣王園をプレイする全てのプレイヤーは、"
+"ThPracを適用して処理落ちカウンターが表示されている状態にし、F12メ"
+"ニューの「Replace certain functions with faster variants」(処理落ち軽減)"
+"オプションをオンにしなければなりません。ThPracが適用されていないクレ"
+"ジットは無効とされる可能性があります。"
 
-#: rules.php:100
+#: rules.php:101
+msgid "Touhou 20"
+msgstr "東方錦上京　〜 Fossilized Wonders."
+
+#: rules.php:102
+msgid ""
+"All players participating in FW are required to apply the specified ThPrac "
+"to prevent replay desynchronization. Credits played without thprac being "
+"applied may be considered invalid.<br>The number of misses in a FW Lunatic "
+"Survival credit does not affect the validity of the credit in any form.<br>"
+"If a player is hit by bullets that are resistant to bullet cancellation "
+"during an Incident Attack, consecutive hyper breaks/misses may occur; "
+"however, even in such cases, each hit is counted as 1miss."
+msgstr ""
+"東方錦上京をプレイする全てのプレイヤーは、リプレイずれを防ぐ"
+"ために指定されたThPracを適用しなければなりません。ThPracが適用"
+"されていないクレジットは無効とされる可能性があります。<br>錦上京 "
+"Lunatic Survivalにおいては被弾数の上限はないものとします。<br>"
+"異変攻撃中に弾消し耐性のある弾に被弾した場合、連続霊撃、及び被弾する可能性"
+"がありますが、この場合であっても通常と同様に1被弾あたり1ミスとしてカウン"
+"トされます。"
+
+#: rules.php:107
 msgid "Scoring Categories"
 msgstr "スコアアタック部門について"
 
-#: rules.php:101
+#: rules.php:108
 msgid ""
 "The goal of a player performing a credit in any scoring category is to play "
 "through a given Touhou Game while attaining the highest score possible "
@@ -1026,17 +1058,17 @@ msgstr ""
 "スコアアタック部門のプレイヤーの目標は、それぞれの部門におけるスコアアタック"
 "採点方式に従い、より高いスコアを目指すことです。"
 
-#: rules.php:102
+#: rules.php:109
 msgid "Some extra details about Scoring Categories:"
 msgstr "以下はスコアアタック部門についての詳細です。"
 
-#: rules.php:104
+#: rules.php:111
 msgid ""
 "There is now no penalty to TWCScore if a player Game Overs in a Scoring "
 "Category."
 msgstr "満身創痍にペナルティは発生しません。"
 
-#: rules.php:105
+#: rules.php:112
 msgid ""
 "Players participating in the Phantasmagoria of Flower View Lunatic Scoring "
 "category are prohibited from using Aya or Medicine until there are only 70 "
@@ -1045,7 +1077,7 @@ msgstr ""
 "東方花映塚Lunaticのプレイヤーは、残り時間が70分を切るまで文とメディスンの使用"
 "が禁止されています。"
 
-#: rules.php:107
+#: rules.php:114
 msgid ""
 "In Touhou 17 and Touhou 18, it is possible to reach the maximum value the "
 "score counter can display, known as a counterstop. If this happens, we will "
@@ -1055,7 +1087,7 @@ msgstr ""
 "東方鬼形獣、東方虹龍洞において、いわゆるスコアの「カンスト」が起きた場合、カ"
 "ウンターストップ解除パッチにより 「本来のスコア」が競技に適用されます。"
 
-#: rules.php:109
+#: rules.php:116
 msgid ""
 "In Touhou 12, the score counter will display the player's score incorrectly "
 "if the score reaches a high enough value. However, if this happens, the game "
@@ -1066,7 +1098,7 @@ msgstr ""
 "（いわゆるスコアバグ）。しかしリーダーボードでは正しいスコアが表記されるた"
 "め、そのスコアが採用されます。"
 
-#: rules.php:112
+#: rules.php:119
 msgid ""
 "In Touhou 18, the \"Market Manip.\" option from thprac is allowed for use. "
 "However, credits that directly use Market Manipulation are considered "
@@ -1079,15 +1111,11 @@ msgstr ""
 "グローバルタイマーの状態に関係なく、市場操作を行うことができます。特にこの規"
 "定は、プレイヤーとの対話により、変更される可能性があります。"
 
-#: rules.php:117
+#: rules.php:124
 msgid "Allowed Game Mods"
 msgstr "許可されているゲーム改変ツール"
 
-#: rules.php:118
-msgid "Vpatch is allowed for all applicable games."
-msgstr "Vパッチの使用は許可されています。"
-
-#: rules.php:119
+#: rules.php:125
 msgid ""
 "thprac can be used for practice during a match, but all cheats must be "
 "disabled when performing credits."
@@ -1095,19 +1123,62 @@ msgstr ""
 "試合中の練習のためにプラクティスツール（thprac等）を使用することは許可されて"
 "いますが、プラクティスツールの機能を用いたプレイは無効とします。"
 
-#: rules.php:120
-msgid "Counterstop Removal Patches and Scorebug Patches are allowed."
-msgstr "カウンターストップ解除パッチ、スコアバグ回避パッチは許可されます。"
-
-#: rules.php:121
+#: rules.php:126
 msgid "Visual, Audio and Translation patches are not allowed."
 msgstr "ゲーム画面改変、音声改変、翻訳パッチは許可されません。"
 
-#: rules.php:123
+#: rules.php:127
+msgid "For all Touhou games, the allowed modifications are as listed below:"
+msgstr "全ての東方作品で許可されているツールは以下の通りです。"
+
+#: rules.php:132
+msgid ""
+"Note: the only allowed versions of thprac are GitHub Actions builds from "
+"the master branch (https://github.com/touhouworldcup/thprac/actions), "
+"as well as official stable release versions "
+"(https://github.com/touhouworldcup/thprac/releases)"
+msgstr ""
+"許可されているバージョンは以下のもののみとなります</li>"
+"<ul><li>マスターブランチからのGitHub Actionsビルド: "
+"(https://github.com/touhouworldcup/thprac/actions)</li>"
+"<li>公式の安定リリースバージョン: "
+"(https://github.com/touhouworldcup/thprac/releases)</li></ul>"
+
+#: rules.php:139
+msgid ""
+"Only the use of the jaggy correction feature is permitted. The use of screen "
+"rotation or layout modification features is not permitted."
+msgstr ""
+"ジャギーの修正機能の使用のみが許可されます。画面回転やレイアウトの変更機能"
+"の使用は許可されません。"
+
+#: rules.php:142
+msgid ""
+"Additionally, the following modifications are allowed for each corresponding "
+"Touhou Game listed below:"
+msgstr "加えて、以下のツールが対応するゲームにおいて許可されています。"
+
+#: rules.php:144
+msgid "PoFV"
+msgstr "花映塚"
+
+#: rules.php:145
+msgid "UFO"
+msgstr "星蓮船"
+
+#: rules.php:146
+msgid "WBaWC"
+msgstr "鬼形獣"
+
+#: rules.php:146
+msgid "UM"
+msgstr "虹龍洞"
+
+#: rules.php:149
 msgid "Other Rules"
 msgstr "その他のルール"
 
-#: rules.php:125
+#: rules.php:151
 msgid ""
 "Players must stream their gameplay while playing their match, without "
 "covering any HUD or gameplay elements."
@@ -1115,7 +1186,7 @@ msgstr ""
 "プレイヤーはプレイ中のゲーム画面を配信しなければなりません。ゲーム画面をその"
 "まま配信し、形を変えたり切り取りをしないでください。"
 
-#: rules.php:126
+#: rules.php:152
 msgid ""
 "The replay file of each player's best performing credit must be submitted to "
 "the TWC Committee at the end of a match."
@@ -1123,7 +1194,7 @@ msgstr ""
 "試合終了後、各プレイヤーはTWCスコアが最も高いクレジットのリプレイファイルを"
 "TWC委員会に提出してください。"
 
-#: rules.php:127
+#: rules.php:153
 msgid "Please hide the ending when you reach the end of the game."
 msgstr "クリア後のエンディングは必ず隠してください。"
 
@@ -1796,9 +1867,6 @@ msgstr "スコア："
 
 #~ msgid "StB"
 #~ msgstr "文"
-
-#~ msgid "UM"
-#~ msgstr "虹"
 
 #~ msgid "Makai"
 #~ msgstr "魔界"
