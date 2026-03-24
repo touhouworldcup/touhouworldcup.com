@@ -70,8 +70,8 @@
                 <p><?php echo _('This category is played under different conditions to all other Survival Categories in TWC. ' .
                 'The goal of a player performing a credit in Great Fairy Wars Lunatic Survival is to play through the game on Lunatic difficulty while avoiding all enemy attacks and gaining gold medals from spell cards. ' .
                 'Gold medals are attained by capturing spell cards without using Ice Power or a Perfect Freeze. ' .
-                'TWCScore increases exponentially by the number of gold medals captured by the player and is lost depending on the number of misses. The parameters of this exponential gain are different for each route. ' .
-                'The number of misses in a Great Fairy Wars Lunatic Survival credit does not affect the validity of the credit in any form. ' .
+                'TWCScore increases exponentially by the number of gold medals captured by the player and is lost depending on the number of misses. The parameters of this exponential gain are different for each route.<br>' .
+                'The number of misses in a Great Fairy Wars Lunatic Survival credit does not affect the validity of the credit in any form.<br>' .
                 'However, any otherwise valid credit in a match of Great Fairy Wars Lunatic Survival which ends in a Game Over will always attain a TWCScore of -50.') ?></p>
             <h4><?php echo _('Touhou 13') ?></h4>
                 <p><?php echo _('Trance: A manually activated trance is considered two deaths.<br>' .
@@ -92,11 +92,18 @@
                     <li><?php echo _('Fragmented Spell Card') ?></li>
                     <li><?php echo _('Ringo-Brand Dango') ?></li>
                 </ul>
-                <p><?php echo _('Additionally, the players are only allowed to buy "Money Comes and Goes On its Own" from the card shop between stages.') ?></p>
-                <img src='assets/moneycard.png' alt='Money Comes and Goes On its Own card' width=96 height=120>
-                <p><?php echo _('<em>The "Money Comes and Goes On its Own" card.</em>') ?></p>
+                <p><?php echo _('Additionally, the players are only allowed to buy "Money Comes and Goes On its Own" and "Ringo-Brand Dango" from the card shop between stages.') ?></p>
             <h4><?php echo _('Touhou 19') ?></h4>
-                <p><?php echo _('Players will incur no penalty for taking a hit with a shield active. Players will also incur no penalty for regenerating their shield by using their gauge.') ?></p>
+                <p><?php echo _('The final TWC score is the sum of the top three scores obtained with different characters.<br>' .
+                'Players will incur no penalty for taking a hit with a shield active. Players will also incur no penalty for regenerating their shield by using their gauge.<br>' .
+                'All players participating in UDoALG are required to apply the specified thprac version to display the slowdown rate counter, ' .
+                'as well as enabling the ‘Replace certain functions with faster variants’ option in the F12 menu. Credits played without thprac being applied may be considered invalid.') ?></p>
+            <h4><?php echo _('Touhou 20') ?></h4>
+                <p><?php echo _('All players participating in FW are required to apply the specified ThPrac to prevent replay desynchronization. ' .
+                 'Credits played without thprac being applied may be considered invalid.<br>' .
+                 'The number of misses in a FW Lunatic Survival credit does not affect the validity of the credit in any form.<br>' .
+                 'If a player is hit by bullets that are resistant to bullet cancellation during an Incident Attack, consecutive hyper breaks/misses may occur; ' .
+                 'however, even in such cases, each hit is counted as 1miss.') ?></p>
         <h3><?php echo _('Scoring Categories') ?></h3>
             <p><?php echo _('The goal of a player performing a credit in any scoring category is to play through a given Touhou Game while attaining the highest score possible through use of the scoring mechanics of each individual Touhou Game.') ?></p>
             <p><?php echo _('Some extra details about Scoring Categories:') ?></p>
@@ -115,10 +122,29 @@
             </ul>
     <hr>
     <h2><?php echo _('Allowed Game Mods') ?></h2>
-    <p><?php echo _('Vpatch is allowed for all applicable games.') ?></p>
     <p><?php echo _('thprac can be used for practice during a match, but all cheats must be disabled when performing credits.') ?></p>
-    <p><?php echo _('Counterstop Removal Patches and Scorebug Patches are allowed.') ?></p>
     <p><?php echo _('Visual, Audio and Translation patches are not allowed.') ?></p>
+    <p><?php echo _('For all Touhou games, the allowed modifications are as listed below:') ?></p>
+    <ul>
+        <li><?php echo _('Vpatch by adonis') ?></li>
+        <li><?php echo _('thprac by ack7139, 32th System') ?></li>
+        <ul>
+            <li><?php echo _('Note: the only allowed versions of thprac are GitHub Actions builds from the master branch (https://github.com/touhouworldcup/thprac/actions)') ?></li>
+            <li><?php echo _('as well as official stable release versions (https://github.com/touhouworldcup/thprac/releases)') ?></li>
+        </ul>
+        <li><?php echo _('enbconverter by Boris Vorontsov (aka. Dx8 to Dx9 converter)') ?></li>
+        <li><?php echo _('Controller Deadzone Mod by 32th System') ?></li>
+        <li><?php echo _('THRotator by massanoori') ?></li>
+        <ul>
+            <li><?php echo _('Only the use of the jaggy correction feature is permitted. The use of screen rotation or layout modification features is not permitted.') ?></li>
+        </ul>
+    </ul>
+    <p><?php echo _('Additionally, the following modifications are allowed for each corresponding Touhou Game listed below:') ?></p>
+    <ul>
+        <li><?php echo _('PoFV - Replay crash fix by Unknown') ?></li>
+        <li><?php echo _('UFO - Scorebug Fix by Unknown') ?></li>
+        <li><?php echo _('WBaWC, UM - Counterstop Removal Patch by 32th System') ?></li>
+    </ul>
     <hr>
     <h2><?php echo _('Other Rules') ?></h2>
     <ul>
