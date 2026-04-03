@@ -87,8 +87,9 @@ function convertDateTimes() {
         const dateString = toDateString(dateElement.innerHTML + " UTC");
         dateElement.innerHTML = `<td class='noborders'>${dateString}</td>`;
 
-        const categoryElement = row.childNodes[1];
-        categoryElement.innerHTML = categoryElement.innerHTML.replace("Qualifier", _("Qualifier"));
+        // Translation not needed
+        // const categoryElement = row.childNodes[1];
+        // categoryElement.innerHTML = categoryElement.innerHTML.replace("Qualifier", _("Qualifier"));
     }
 }
 
