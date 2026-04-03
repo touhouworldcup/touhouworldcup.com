@@ -600,7 +600,7 @@ msgstr "ポイント"
 #: results.php:70 results.php:115 results.php:158 results.php:201
 #: results.php:244 results.php:288 schedule.php:48
 msgid "Date / Time"
-msgstr "日付と時間"
+msgstr "試合開始日時"
 
 #: results.php:71 results.php:116 results.php:159 results.php:202
 #: results.php:245 results.php:289 schedule.php:49 twcscore.php:93
@@ -615,12 +615,12 @@ msgstr "プレイヤー"
 #: results.php:73 results.php:118 results.php:161 results.php:204
 #: results.php:247 results.php:291 schedule.php:51
 msgid "Reset Time<br>(minutes)"
-msgstr "リセットのタイマー<br>（分）"
+msgstr "制限時間（分）"
 
 #: results.php:74 results.php:119 results.php:162 results.php:205
 #: results.php:248 results.php:292 schedule.php:52 schedule.php:55
 msgid "Results"
-msgstr "業績"
+msgstr "リザルト"
 
 #: results.php:75 results.php:120 results.php:163 results.php:206
 #: results.php:249 results.php:293 schedule.php:53 schedule.php:56
