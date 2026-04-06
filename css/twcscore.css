@@ -81,6 +81,7 @@ button {
     aspect-ratio: auto 100 / 100;
     object-fit: none;
     opacity: 0.7;
+    image-rendering: crisp-edges;
 }
 .cover:hover, .shottype:hover, #twcscore_final_reverse .shottype {
     opacity: 1;
