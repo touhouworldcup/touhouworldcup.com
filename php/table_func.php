@@ -190,7 +190,10 @@ function print_schedule(array $schedule, array $results, array $teams, string $y
         } else {
             echo '<td>???</td>';
         }
-        echo '<td class="' . preg_split('/ /', $match['Category'])[0] . '">' . $match['Category'] . '</td><td>';
+        $translatedCategory = preg_replace_callback('/TH\d+(?=\s)/', function($m) {
+            return _($m[0]);
+        }, $match['Category']);
+        echo '<td class="' . preg_split('/ /', $match['Category'])[0] . '">' . $translatedCategory . '</td><td>';
         for ($i = 1; $i <= 3; $i++) {
             $player = $match['Player_' . $i];
             if (empty($teams)) {

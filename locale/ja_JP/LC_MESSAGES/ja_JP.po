@@ -1906,3 +1906,79 @@ msgstr "スコア："
 
 #~ msgid "Hatate"
 #~ msgstr "はたて"
+
+#: schedule.php results.php
+msgid "TH06"
+msgstr "紅魔郷"
+
+#: schedule.php results.php
+msgid "TH07"
+msgstr "妖々夢"
+
+#: schedule.php results.php
+msgid "TH08"
+msgstr "永夜抄"
+
+#: schedule.php results.php
+msgid "TH09"
+msgstr "花映塚"
+
+#: schedule.php results.php
+msgid "TH095"
+msgstr "文花帖"
+
+#: schedule.php results.php
+msgid "TH10"
+msgstr "風神録"
+
+#: schedule.php results.php
+msgid "TH11"
+msgstr "地霊殿"
+
+#: schedule.php results.php
+msgid "TH12"
+msgstr "星蓮船"
+
+#: schedule.php results.php
+msgid "TH125"
+msgstr "DS"
+
+#: schedule.php results.php
+msgid "TH128"
+msgstr "大戦争"
+
+#: schedule.php results.php
+msgid "TH13"
+msgstr "神霊廟"
+
+#: schedule.php results.php
+msgid "TH14"
+msgstr "輝針城"
+
+#: schedule.php results.php
+msgid "TH143"
+msgstr "弾幕アマノジャク"
+
+#: schedule.php results.php
+msgid "TH15"
+msgstr "紺珠伝"
+
+#: schedule.php results.php
+msgid "TH16"
+msgstr "天空璋"
+
+#: schedule.php results.php
+msgid "TH17"
+msgstr "鬼形獣"
+
+#: schedule.php results.php
+msgid "TH18"
+msgstr "虹龍洞"
+
+#: schedule.php results.php
+msgid "TH19"
+msgstr "獣王園"
+
+#: schedule.php results.php
+msgid "TH20"
+msgstr "錦上京"
