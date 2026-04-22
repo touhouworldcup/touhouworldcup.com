@@ -75,7 +75,7 @@ function toDateString(dateTime) {
         const dayOfWeek = ["日", "月", "火", "水", "木", "金", "土"];
         const dayName = dayOfWeek[date.getDay()];
 
-        return `${Y}/${M}/${D}(${dayName}) ${h}:${m}`;
+        return `${Y}年${M}月${D}日(${dayName}) ${h}:${m}`;
     }
 
     return date.toLocaleString(language, {"dateStyle": "full"}) + ", " + date.toLocaleTimeString(language);
