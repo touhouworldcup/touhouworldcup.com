@@ -65,6 +65,19 @@ function getClientTimeZone() {
 
 function toDateString(dateTime) {
     const date = new Date(dateTime);
+
+    if (language === "ja-JP") {
+        const Y = date.getFullYear();
+        const M = date.getMonth() + 1;
+        const D = date.getDate();
+        const h = String(date.getHours()).padStart(2, '0');
+        const m = String(date.getMinutes()).padStart(2, '0');
+        const dayOfWeek = ["日", "月", "火", "水", "木", "金", "土"];
+        const dayName = dayOfWeek[date.getDay()];
+
+        return `${Y}/${M}/${D}(${dayName}) ${h}:${m}`;
+    }
+
     return date.toLocaleString(language, {"dateStyle": "full"}) + ", " + date.toLocaleTimeString(language);
 }
 
