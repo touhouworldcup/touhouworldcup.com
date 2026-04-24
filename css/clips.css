@@ -1,0 +1,10 @@
+input[type="button"] {
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 1000px) {
+    iframe {
+        width: 320px;
+        height: 240px;
+    }
+}

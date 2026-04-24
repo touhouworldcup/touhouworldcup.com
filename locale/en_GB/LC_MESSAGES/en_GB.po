@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-02-22 23:22+0100\n"
-"PO-Revision-Date: 2026-02-22 23:22+0100\n"
+"POT-Creation-Date: 2026-04-24 21:26+0200\n"
+"PO-Revision-Date: 2026-04-24 21:26+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -21,6 +21,27 @@ msgstr ""
 "X-Poedit-SearchPath-6: results.php\n"
 "X-Poedit-SearchPath-7: php/table_func.php\n"
 "X-Poedit-SearchPath-8: js/index.js\n"
+"X-Poedit-SearchPath-9: clips.php\n"
+
+#: clips.php:2 clips.php:21
+msgid "Clips"
+msgstr ""
+
+#: clips.php:22 results.php:30
+msgid "Contents"
+msgstr ""
+
+#: clips.php:23
+msgid "Choose a match to show its clips. The clips are in English only."
+msgstr ""
+
+#: clips.php:35
+msgid "Alternatively, click this button to show a randomly selected clip."
+msgstr ""
+
+#: clips.php:36
+msgid "Show Random Clip"
+msgstr ""
 
 #: credits.php:2 credits.php:12
 msgid "Credits"
@@ -190,363 +211,363 @@ msgstr ""
 msgid "Team "
 msgstr ""
 
-#: php/translations.php:2
+#: php/translations.php:7
 msgid "ReimuA"
 msgstr ""
 
-#: php/translations.php:3
+#: php/translations.php:8
 msgid "ReimuB"
 msgstr ""
 
-#: php/translations.php:4
+#: php/translations.php:9
 msgid "MarisaA"
 msgstr ""
 
-#: php/translations.php:5
+#: php/translations.php:10
 msgid "MarisaB"
 msgstr ""
 
-#: php/translations.php:6
+#: php/translations.php:11
 msgid "SakuyaA"
 msgstr ""
 
-#: php/translations.php:7
+#: php/translations.php:12
 msgid "SakuyaB"
 msgstr ""
 
-#: php/translations.php:8
+#: php/translations.php:13
 msgid "ReimuYukari"
 msgstr "Reimu & Yukari"
 
-#: php/translations.php:9
+#: php/translations.php:14
 msgid "MarisaAlice"
 msgstr "Marisa & Alice"
 
-#: php/translations.php:10
+#: php/translations.php:15
 msgid "SakuyaRemilia"
 msgstr "Sakuya & Remilia"
 
-#: php/translations.php:11
+#: php/translations.php:16
 msgid "YoumuYuyuko"
 msgstr "Youmu & Yuyuko"
 
-#: php/translations.php:12 twcscore.php:86
+#: php/translations.php:17 twcscore.php:87
 msgid "Reimu"
 msgstr ""
 
-#: php/translations.php:13 twcscore.php:89
+#: php/translations.php:18 twcscore.php:90
 msgid "Marisa"
 msgstr ""
 
-#: php/translations.php:14
+#: php/translations.php:19
 msgid "Sakuya"
 msgstr ""
 
-#: php/translations.php:15 php/translations.php:20
+#: php/translations.php:20 php/translations.php:25
 msgid "Youmu"
 msgstr ""
 
-#: php/translations.php:16
+#: php/translations.php:21
 msgid "Yukari"
 msgstr ""
 
-#: php/translations.php:17
+#: php/translations.php:22
 msgid "Alice"
 msgstr ""
 
-#: php/translations.php:18
+#: php/translations.php:23
 msgid "Remilia"
 msgstr ""
 
-#: php/translations.php:19
+#: php/translations.php:24
 msgid "Yuyuko"
 msgstr ""
 
-#: php/translations.php:21
+#: php/translations.php:26
 msgid "Reisen"
 msgstr ""
 
-#: php/translations.php:22 twcscore.php:87
+#: php/translations.php:27 twcscore.php:88
 msgid "Cirno"
 msgstr ""
 
-#: php/translations.php:23
+#: php/translations.php:28
 msgid "Lyrica"
 msgstr ""
 
-#: php/translations.php:24
+#: php/translations.php:29
 msgid "Mystia"
 msgstr ""
 
-#: php/translations.php:25
+#: php/translations.php:30
 msgid "Tewi"
 msgstr ""
 
-#: php/translations.php:26 twcscore.php:88
+#: php/translations.php:31 twcscore.php:89
 msgid "Aya"
 msgstr ""
 
-#: php/translations.php:27
+#: php/translations.php:32
 msgid "Medicine"
 msgstr ""
 
-#: php/translations.php:28
+#: php/translations.php:33
 msgid "Yuuka"
 msgstr ""
 
-#: php/translations.php:29
+#: php/translations.php:34
 msgid "Komachi"
 msgstr ""
 
-#: php/translations.php:30
+#: php/translations.php:35
 msgid "Eiki"
 msgstr ""
 
-#: php/translations.php:31
+#: php/translations.php:36
 msgid "ReimuC"
 msgstr ""
 
-#: php/translations.php:32
+#: php/translations.php:37
 msgid "MarisaC"
 msgstr ""
 
-#: php/translations.php:33
+#: php/translations.php:38
 msgid "SanaeA"
 msgstr ""
 
-#: php/translations.php:34
+#: php/translations.php:39
 msgid "SanaeB"
 msgstr ""
 
-#: php/translations.php:35
+#: php/translations.php:40
 msgid "Sanae"
 msgstr ""
 
-#: php/translations.php:36
+#: php/translations.php:41
 msgid "ReimuSpring"
 msgstr ""
 
-#: php/translations.php:37
+#: php/translations.php:42
 msgid "CirnoSpring"
 msgstr ""
 
-#: php/translations.php:38
+#: php/translations.php:43
 msgid "AyaSpring"
 msgstr ""
 
-#: php/translations.php:39
+#: php/translations.php:44
 msgid "MarisaSpring"
 msgstr ""
 
-#: php/translations.php:40
+#: php/translations.php:45
 msgid "ReimuSummer"
 msgstr ""
 
-#: php/translations.php:41
+#: php/translations.php:46
 msgid "CirnoSummer"
 msgstr ""
 
-#: php/translations.php:42
+#: php/translations.php:47
 msgid "AyaSummer"
 msgstr ""
 
-#: php/translations.php:43
+#: php/translations.php:48
 msgid "MarisaSummer"
 msgstr ""
 
-#: php/translations.php:44
+#: php/translations.php:49
 msgid "ReimuAutumn"
 msgstr ""
 
-#: php/translations.php:45
+#: php/translations.php:50
 msgid "CirnoAutumn"
 msgstr ""
 
-#: php/translations.php:46
+#: php/translations.php:51
 msgid "AyaAutumn"
 msgstr ""
 
-#: php/translations.php:47
+#: php/translations.php:52
 msgid "MarisaAutumn"
 msgstr ""
 
-#: php/translations.php:48
+#: php/translations.php:53
 msgid "ReimuWinter"
 msgstr ""
 
-#: php/translations.php:49
+#: php/translations.php:54
 msgid "CirnoWinter"
 msgstr ""
 
-#: php/translations.php:50
+#: php/translations.php:55
 msgid "AyaWinter"
 msgstr ""
 
-#: php/translations.php:51
+#: php/translations.php:56
 msgid "MarisaWinter"
 msgstr ""
 
-#: php/translations.php:52
+#: php/translations.php:57
 msgid "ReimuWolf"
 msgstr ""
 
-#: php/translations.php:53
+#: php/translations.php:58
 msgid "ReimuOtter"
 msgstr ""
 
-#: php/translations.php:54
+#: php/translations.php:59
 msgid "ReimuEagle"
 msgstr ""
 
-#: php/translations.php:55
+#: php/translations.php:60
 msgid "MarisaWolf"
 msgstr ""
 
-#: php/translations.php:56
+#: php/translations.php:61
 msgid "MarisaOtter"
 msgstr ""
 
-#: php/translations.php:57
+#: php/translations.php:62
 msgid "MarisaEagle"
 msgstr ""
 
-#: php/translations.php:58
+#: php/translations.php:63
 msgid "YoumuWolf"
 msgstr ""
 
-#: php/translations.php:59
+#: php/translations.php:64
 msgid "YoumuOtter"
 msgstr ""
 
-#: php/translations.php:60
+#: php/translations.php:65
 msgid "YoumuEagle"
 msgstr ""
 
-#: php/translations.php:61
+#: php/translations.php:66
 msgid "Ran"
 msgstr ""
 
-#: php/translations.php:62
+#: php/translations.php:67
 msgid "Aunn"
 msgstr ""
 
-#: php/translations.php:63
+#: php/translations.php:68
 msgid "Nazrin"
 msgstr ""
 
-#: php/translations.php:64
+#: php/translations.php:69
 msgid "Seiran"
 msgstr ""
 
-#: php/translations.php:65
+#: php/translations.php:70
 msgid "Rin"
 msgstr ""
 
-#: php/translations.php:66
+#: php/translations.php:71
 msgid "Tsukasa"
 msgstr ""
 
-#: php/translations.php:67
+#: php/translations.php:72
 msgid "Mamizou"
 msgstr ""
 
-#: php/translations.php:68
+#: php/translations.php:73
 msgid "Yachie"
 msgstr ""
 
-#: php/translations.php:69
+#: php/translations.php:74
 msgid "Saki"
 msgstr ""
 
-#: php/translations.php:70
+#: php/translations.php:75
 msgid "Yuuma"
 msgstr ""
 
-#: php/translations.php:71
+#: php/translations.php:76
 msgid "Suika"
 msgstr ""
 
-#: php/translations.php:72
+#: php/translations.php:77
 msgid "Biten"
 msgstr ""
 
-#: php/translations.php:73
+#: php/translations.php:78
 msgid "Enoko"
 msgstr ""
 
-#: php/translations.php:74
+#: php/translations.php:79
 msgid "Chiyari"
 msgstr ""
 
-#: php/translations.php:75
+#: php/translations.php:80
 msgid "Hisami"
 msgstr ""
 
-#: php/translations.php:76
+#: php/translations.php:81
 msgid "Zanmu"
 msgstr ""
 
-#: php/translations.php:77
+#: php/translations.php:82
 msgid "ReimuRed1"
 msgstr ""
 
-#: php/translations.php:78
+#: php/translations.php:83
 msgid "ReimuRed2"
 msgstr ""
 
-#: php/translations.php:79
+#: php/translations.php:84
 msgid "ReimuBlue1"
 msgstr ""
 
-#: php/translations.php:80
+#: php/translations.php:85
 msgid "ReimuBlue2"
 msgstr ""
 
-#: php/translations.php:81
+#: php/translations.php:86
 msgid "ReimuYellow1"
 msgstr ""
 
-#: php/translations.php:82
+#: php/translations.php:87
 msgid "ReimuYellow2"
 msgstr ""
 
-#: php/translations.php:83
+#: php/translations.php:88
 msgid "ReimuGreen1"
 msgstr ""
 
-#: php/translations.php:84
+#: php/translations.php:89
 msgid "ReimuGreen2"
 msgstr ""
 
-#: php/translations.php:85
+#: php/translations.php:90
 msgid "MarisaRed1"
 msgstr ""
 
-#: php/translations.php:86
+#: php/translations.php:91
 msgid "MarisaRed2"
 msgstr ""
 
-#: php/translations.php:87
+#: php/translations.php:92
 msgid "MarisaBlue1"
 msgstr ""
 
-#: php/translations.php:88
+#: php/translations.php:93
 msgid "MarisaBlue2"
 msgstr ""
 
-#: php/translations.php:89
+#: php/translations.php:94
 msgid "MarisaYellow1"
 msgstr ""
 
-#: php/translations.php:90
+#: php/translations.php:95
 msgid "MarisaYellow2"
 msgstr ""
 
-#: php/translations.php:91
+#: php/translations.php:96
 msgid "MarisaGreen1"
 msgstr ""
 
-#: php/translations.php:92
+#: php/translations.php:97
 msgid "MarisaGreen2"
 msgstr ""
 
@@ -564,10 +585,6 @@ msgstr ""
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
-msgstr ""
-
-#: results.php:30
-msgid "Contents"
 msgstr ""
 
 #: results.php:39 schedule.php:41
@@ -594,7 +611,7 @@ msgid "Date / Time"
 msgstr ""
 
 #: results.php:71 results.php:116 results.php:159 results.php:202
-#: results.php:245 results.php:289 schedule.php:49 twcscore.php:93
+#: results.php:245 results.php:289 schedule.php:49 twcscore.php:95
 msgid "Category"
 msgstr ""
 
@@ -622,7 +639,7 @@ msgstr ""
 msgid "Game Over"
 msgstr ""
 
-#: results.php:305 rules.php:129
+#: results.php:305 rules.php:155
 msgid "Back to Top"
 msgstr ""
 
@@ -680,7 +697,7 @@ msgid ""
 "winner."
 msgstr ""
 
-#: rules.php:34 twcscore.php:2 twcscore.php:160 twcscore.php:163
+#: rules.php:34 twcscore.php:2 twcscore.php:162 twcscore.php:165
 msgid "TWCScore"
 msgstr ""
 
@@ -839,11 +856,11 @@ msgid ""
 "Gold medals are attained by capturing spell cards without using Ice Power or "
 "a Perfect Freeze. TWCScore increases exponentially by the number of gold "
 "medals captured by the player and is lost depending on the number of misses. "
-"The parameters of this exponential gain are different for each route. The "
+"The parameters of this exponential gain are different for each route.<br>The "
 "number of misses in a Great Fairy Wars Lunatic Survival credit does not "
-"affect the validity of the credit in any form. However, any otherwise valid "
-"credit in a match of Great Fairy Wars Lunatic Survival which ends in a Game "
-"Over will always attain a TWCScore of -50."
+"affect the validity of the credit in any form.<br>However, any otherwise "
+"valid credit in a match of Great Fairy Wars Lunatic Survival which ends in a "
+"Game Over will always attain a TWCScore of -50."
 msgstr ""
 
 #: rules.php:76
@@ -919,53 +936,69 @@ msgstr ""
 #: rules.php:95
 msgid ""
 "Additionally, the players are only allowed to buy \"Money Comes and Goes On "
-"its Own\" from the card shop between stages."
+"its Own\" and \"Ringo-Brand Dango\" from the card shop between stages."
 msgstr ""
 
-#: rules.php:97
-msgid "<em>The \"Money Comes and Goes On its Own\" card.</em>"
-msgstr ""
-
-#: rules.php:98
+#: rules.php:96
 msgid "Touhou 19"
 msgstr ""
 
-#: rules.php:99
+#: rules.php:97
 msgid ""
-"Players will incur no penalty for taking a hit with a shield active. Players "
-"will also incur no penalty for regenerating their shield by using their "
-"gauge."
-msgstr ""
-
-#: rules.php:100
-msgid "Scoring Categories"
+"The final TWC score is the sum of the top three scores obtained with "
+"different characters.<br>Players will incur no penalty for taking a hit with "
+"a shield active. Players will also incur no penalty for regenerating their "
+"shield by using their gauge.<br>All players participating in UDoALG are "
+"required to apply the specified thprac version to display the slowdown rate "
+"counter, as well as enabling the ‘Replace certain functions with faster "
+"variants’ option in the F12 menu. Credits played without thprac being "
+"applied may be considered invalid."
 msgstr ""
 
 #: rules.php:101
+msgid "Touhou 20"
+msgstr ""
+
+#: rules.php:102
+msgid ""
+"All players participating in FW are required to apply the specified ThPrac "
+"to prevent replay desynchronization. Credits played without thprac being "
+"applied may be considered invalid.<br>The number of misses in a FW Lunatic "
+"Survival credit does not affect the validity of the credit in any form."
+"<br>If a player is hit by bullets that are resistant to bullet cancellation "
+"during an Incident Attack, consecutive hyper breaks/misses may occur; "
+"however, even in such cases, each hit is counted as 1miss."
+msgstr ""
+
+#: rules.php:107
+msgid "Scoring Categories"
+msgstr ""
+
+#: rules.php:108
 msgid ""
 "The goal of a player performing a credit in any scoring category is to play "
 "through a given Touhou Game while attaining the highest score possible "
 "through use of the scoring mechanics of each individual Touhou Game."
 msgstr ""
 
-#: rules.php:102
+#: rules.php:109
 msgid "Some extra details about Scoring Categories:"
 msgstr ""
 
-#: rules.php:104
+#: rules.php:111
 msgid ""
 "There is now no penalty to TWCScore if a player Game Overs in a Scoring "
 "Category."
 msgstr ""
 
-#: rules.php:105
+#: rules.php:112
 msgid ""
 "Players participating in the Phantasmagoria of Flower View Lunatic Scoring "
 "category are prohibited from using Aya or Medicine until there are only 70 "
 "minutes remaining in the reset time."
 msgstr ""
 
-#: rules.php:107
+#: rules.php:114
 msgid ""
 "In Touhou 17 and Touhou 18, it is possible to reach the maximum value the "
 "score counter can display, known as a counterstop. If this happens, we will "
@@ -973,7 +1006,7 @@ msgid ""
 "removal patches."
 msgstr ""
 
-#: rules.php:109
+#: rules.php:116
 msgid ""
 "In Touhou 12, the score counter will display the player's score incorrectly "
 "if the score reaches a high enough value. However, if this happens, the game "
@@ -981,7 +1014,7 @@ msgid ""
 "and that value will be used instead."
 msgstr ""
 
-#: rules.php:112
+#: rules.php:119
 msgid ""
 "In Touhou 18, the \"Market Manip.\" option from thprac is allowed for use. "
 "However, credits that directly use Market Manipulation are considered "
@@ -989,45 +1022,93 @@ msgid ""
 "match. This rule is subject to change depending on dialogue with players."
 msgstr ""
 
-#: rules.php:117
+#: rules.php:124
 msgid "Allowed Game Mods"
 msgstr ""
 
-#: rules.php:118
-msgid "Vpatch is allowed for all applicable games."
-msgstr ""
-
-#: rules.php:119
+#: rules.php:125
 msgid ""
 "thprac can be used for practice during a match, but all cheats must be "
 "disabled when performing credits."
 msgstr ""
 
-#: rules.php:120
-msgid "Counterstop Removal Patches and Scorebug Patches are allowed."
-msgstr ""
-
-#: rules.php:121
+#: rules.php:126
 msgid "Visual, Audio and Translation patches are not allowed."
 msgstr ""
 
-#: rules.php:123
+#: rules.php:127
+msgid "For all Touhou games, the allowed modifications are as listed below:"
+msgstr ""
+
+#: rules.php:129
+msgid "Vpatch by adonis"
+msgstr ""
+
+#: rules.php:130
+msgid "thprac by ack7139, 32th System"
+msgstr ""
+
+#: rules.php:132
+msgid ""
+"Note: the only allowed versions of thprac are GitHub Actions builds from the "
+"master branch (https://github.com/touhouworldcup/thprac/actions), as well as "
+"official stable release versions (https://github.com/touhouworldcup/thprac/"
+"releases)"
+msgstr ""
+
+#: rules.php:135
+msgid "enbconverter by Boris Vorontsov (aka. Dx8 to Dx9 converter)"
+msgstr ""
+
+#: rules.php:136
+msgid "Controller Deadzone Mod by 32th System"
+msgstr ""
+
+#: rules.php:137
+msgid "THRotator by massanoori"
+msgstr ""
+
+#: rules.php:139
+msgid ""
+"Only the use of the jaggy correction feature is permitted. The use of screen "
+"rotation or layout modification features is not permitted."
+msgstr ""
+
+#: rules.php:142
+msgid ""
+"Additionally, the following modifications are allowed for each corresponding "
+"Touhou Game listed below:"
+msgstr ""
+
+#: rules.php:144
+msgid "PoFV - Replay crash fix by Unknown"
+msgstr ""
+
+#: rules.php:145
+msgid "UFO - Scorebug Fix by Unknown"
+msgstr ""
+
+#: rules.php:146
+msgid "WBaWC, UM - Counterstop Removal Patch by 32th System"
+msgstr ""
+
+#: rules.php:149
 msgid "Other Rules"
 msgstr ""
 
-#: rules.php:125
+#: rules.php:151
 msgid ""
 "Players must stream their gameplay while playing their match, without "
 "covering any HUD or gameplay elements."
 msgstr ""
 
-#: rules.php:126
+#: rules.php:152
 msgid ""
 "The replay file of each player's best performing credit must be submitted to "
 "the TWC Committee at the end of a match."
 msgstr ""
 
-#: rules.php:127
+#: rules.php:153
 msgid "Please hide the ending when you reach the end of the game."
 msgstr ""
 
@@ -1129,149 +1210,149 @@ msgstr ""
 msgid "Touhou 20: Fossilized Wonders"
 msgstr ""
 
-#: twcscore.php:67
+#: twcscore.php:68
 msgid "Shottype / Route"
 msgstr ""
 
-#: twcscore.php:96 twcscore.php:97
+#: twcscore.php:98 twcscore.php:99
 msgid "Survival"
 msgstr ""
 
-#: twcscore.php:99 twcscore.php:100
+#: twcscore.php:101 twcscore.php:102
 msgid "Scoring"
 msgstr ""
 
-#: twcscore.php:106
+#: twcscore.php:108
 msgid "Challenge Bonus"
 msgstr ""
 
-#: twcscore.php:112
+#: twcscore.php:114
 msgid "Misses"
 msgstr ""
 
-#: twcscore.php:113
+#: twcscore.php:115
 msgid "Remaining lives"
 msgstr ""
 
-#: twcscore.php:117
+#: twcscore.php:119
 msgid "Unfocus stone"
 msgstr ""
 
-#: twcscore.php:119 twcscore.php:130 twcscore.php:141
+#: twcscore.php:121 twcscore.php:132 twcscore.php:143
 msgid "Red1"
 msgstr ""
 
-#: twcscore.php:120 twcscore.php:131 twcscore.php:142
+#: twcscore.php:122 twcscore.php:133 twcscore.php:144
 msgid "Red2"
 msgstr ""
 
-#: twcscore.php:121 twcscore.php:132 twcscore.php:143
+#: twcscore.php:123 twcscore.php:134 twcscore.php:145
 msgid "Blue1"
 msgstr ""
 
-#: twcscore.php:122 twcscore.php:133 twcscore.php:144
+#: twcscore.php:124 twcscore.php:135 twcscore.php:146
 msgid "Blue2"
 msgstr ""
 
-#: twcscore.php:123 twcscore.php:134 twcscore.php:145
+#: twcscore.php:125 twcscore.php:136 twcscore.php:147
 msgid "Yellow1"
 msgstr ""
 
-#: twcscore.php:124 twcscore.php:135 twcscore.php:146
+#: twcscore.php:126 twcscore.php:137 twcscore.php:148
 msgid "Yellow2"
 msgstr ""
 
-#: twcscore.php:125 twcscore.php:136 twcscore.php:147
+#: twcscore.php:127 twcscore.php:138 twcscore.php:149
 msgid "Green1"
 msgstr ""
 
-#: twcscore.php:126 twcscore.php:137 twcscore.php:148
+#: twcscore.php:128 twcscore.php:139 twcscore.php:150
 msgid "Green2"
 msgstr ""
 
-#: twcscore.php:128
+#: twcscore.php:130
 msgid "Focus stone"
 msgstr ""
 
-#: twcscore.php:139
+#: twcscore.php:141
 msgid "Assist stone"
 msgstr ""
 
-#: twcscore.php:154
+#: twcscore.php:156
 msgid "Input score"
 msgstr ""
 
-#: twcscore.php:157 twcscore.php:162
+#: twcscore.php:159 twcscore.php:164
 msgid "Score"
 msgstr ""
 
-#: twcscore.php:169
+#: twcscore.php:171
 msgid "Duration of Stage 9 Round 1 (seconds)"
 msgstr ""
 
-#: twcscore.php:175
+#: twcscore.php:177
 msgid "Gold medals"
 msgstr ""
 
-#: twcscore.php:183
+#: twcscore.php:185
 msgid "Difficulty"
 msgstr ""
 
-#: twcscore.php:193
+#: twcscore.php:195
 msgid "Final Stage"
 msgstr ""
 
-#: twcscore.php:195
+#: twcscore.php:197
 msgid "FinalA"
 msgstr ""
 
-#: twcscore.php:196
+#: twcscore.php:198
 msgid "FinalB"
 msgstr ""
 
-#: twcscore.php:202
+#: twcscore.php:204
 msgid "Please fill out the category"
 msgstr ""
 
-#: twcscore.php:203
+#: twcscore.php:205
 msgid "Please fill out the game"
 msgstr ""
 
-#: twcscore.php:204
+#: twcscore.php:206
 msgid "Please fill out the shottype"
 msgstr ""
 
-#: twcscore.php:205
+#: twcscore.php:207
 msgid "Please fill out the miss count"
 msgstr ""
 
-#: twcscore.php:206
+#: twcscore.php:208
 msgid "Please fill out the score"
 msgstr ""
 
-#: twcscore.php:207
+#: twcscore.php:209
 msgid "Please fill out the Final Stage"
 msgstr ""
 
-#: twcscore.php:208
+#: twcscore.php:210
 msgid "Please fill out the gold medals"
 msgstr ""
 
-#: twcscore.php:209
+#: twcscore.php:211
 msgid ""
 "FATAL ERROR: wrong type for \"element\" in get_element_val. Please contact "
 "<a href=\"https://bsky.app/profile/maribelhearn42.bsky.social\" "
 "target=\"_blank\">Maribel Hearn</a>"
 msgstr ""
 
-#: twcscore.php:213
+#: twcscore.php:215
 msgid "Calculate"
 msgstr ""
 
-#: twcscore.php:219
+#: twcscore.php:221
 msgid "TWCScore:"
 msgstr ""
 
-#: twcscore.php:220
+#: twcscore.php:222
 msgid "Score:"
 msgstr ""

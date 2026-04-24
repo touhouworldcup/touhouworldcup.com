@@ -116,6 +116,32 @@
         return json_encode($rows);
     }
 
+    function get_clip(mysqli $db, string $match) {
+        $statement = mysqli_prepare($db, 'SELECT * FROM `Clips` WHERE `Match` = ?');
+        $statement->bind_param('s', $match);
+        $statement->execute();
+        $result = $statement->get_result();
+        for ($rows = array (); $row = $result->fetch_assoc(); $rows[] = $row);
+        return json_encode($rows);
+    }
+
+    function get_random_clip(mysqli $db) {
+        $statement = mysqli_prepare($db, 'SELECT * FROM `Clips`');
+        $statement->execute();
+        $result = $statement->get_result();
+        for ($rows = array (); $row = $result->fetch_assoc(); $rows[] = $row);
+        $rand = rand(0, sizeof($rows) - 1);
+        return json_encode($rows[$rand]);
+    }
+
+    function get_clips_matches(mysqli $db) {
+        $statement = mysqli_prepare($db, 'SELECT `Match` FROM `Clips` GROUP BY `Match`');
+        $statement->execute();
+        $result = $statement->get_result();
+        for ($rows = array (); $row = $result->fetch_assoc(); $rows[] = $row);
+        return json_encode($rows);
+    }
+
     if (sizeof($_GET) > 0) {
 		$db_host = getenv('DB_HOST') ? getenv('DB_HOST') : 'localhost';
         $db = mysqli_connect($db_host, 'twc_admin', getenv('DB_PASSWORD'), 'twc');
@@ -124,6 +150,14 @@
             $_GET['error'] = 503;
             include_once('php/error.php');
             die();
+        }
+
+        if (!empty($_GET['clips'])) {
+            if ($_GET['clips'] == 'all') {
+                echo get_random_clip($db);
+            } else {
+                echo get_clip($db, $_GET['clips']);
+            }
         }
 
         if (!empty($_GET['rt']) && $_GET['rt'] == 'surv') {
