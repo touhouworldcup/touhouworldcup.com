@@ -67,15 +67,14 @@ function toDateString(dateTime) {
     const date = new Date(dateTime);
 
     if (language === "ja-JP") {
-        const Y = date.getFullYear();
-        const M = date.getMonth() + 1;
-        const D = date.getDate();
-        const h = String(date.getHours()).padStart(2, '0');
-        const m = String(date.getMinutes()).padStart(2, '0');
-        const dayOfWeek = ["日", "月", "火", "水", "木", "金", "土"];
-        const dayName = dayOfWeek[date.getDay()];
-
-        return `${Y}年${M}月${D}日(${dayName}) ${h}:${m}`;
+        return new Date(dateTime).toLocaleString("ja-JP", {
+            year: "numeric",
+            month: "numeric",
+            day: "numeric",
+            weekday: "short",
+            hour: "2-digit",
+            minute: "2-digit"
+        });
     }
 
     return date.toLocaleString(language, {"dateStyle": "full"}) + ", " + date.toLocaleTimeString(language);
