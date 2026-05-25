@@ -64,7 +64,8 @@ function getClientTimeZone() {
 }
 
 function toDateString(dateTime) {
-    const date = new Date(dateTime);
+    const safeDateTime = typeof dateTime === 'string' ? dateTime.replace(/-/g, '/') : dateTime;
+    const date = new Date(safeDateTime);
 
     if (language === "ja-JP") {
         return date.toLocaleString(language, {
