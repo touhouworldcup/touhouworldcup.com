@@ -9,7 +9,7 @@
     // 16:9 thumbnail_size = (640, 360)
 
     $artist_links = [
-        "Addamelech" => [["twitter", "https://twitter.com/addamelech"], ["pixiv", "https://www.pixiv.net/en/users/2570621"]],
+        "Addamelech" => [["twitter", "https://twitter.com/addamelech"], ["pixiv", "https://www.pixiv.net/en/users/2570621"], ["bluesky", "https://bsky.app/profile/addamelech.bsky.social"]],
         "AGT" => [],
         "Aniiue" => [["twitter", "https://twitter.com/NotGiorno4"], ["bluesky", "https://bsky.app/profile/aniiue.bsky.social"]],
         "Aqwa" => [["twitter", "https://twitter.com/aqwwa58"], ["tumblr", "https://aqwwa58.tumblr.com/"]],
@@ -42,9 +42,9 @@
         "TurboOven9000" => [["tumblr", "https://turbooven9000.tumblr.com/"]],
         "WErty" => [],
         "yeashie" => [["twitter", "https://twitter.com/danmaku_stg"]],
-        "あずまよりこ" => [["twitter", "https://twitter.com/AzumaYoriko"], ["pixiv", "https://www.pixiv.net/users/37450350"]],
+        "あずまよりこ" => [["twitter", "https://twitter.com/AzumaYoriko"], ["pixiv", "https://www.pixiv.net/users/37450350"], ["bluesky", "https://bsky.app/profile/Azumayoriko.bsky.social"]],
         "イロドリほたる" => [["twitter", "https://twitter.com/peconeko1"]],
-        "うめ" => [["twitter", "https://twitter.com/umebitansan"], ["pixiv", "https://www.pixiv.net/users/72729141"]],
+        "梅びたん" => [["twitter", "https://twitter.com/umebitansan"], ["pixiv", "https://www.pixiv.net/users/72729141"]],
         "オノ･コーヘイ" => [["twitter", "https://twitter.com/AXE_Empty"], ["pixiv", "https://www.pixiv.net/users/1891612"]],
         "おみず" => [["twitter", "https://twitter.com/dedicated_water"], ["pixiv", "https://www.pixiv.net/users/35059004"]],
         "こがらし" => [["twitter", "https://twitter.com/chiyonosuki"], ["pixiv", "https://www.pixiv.net/users/28927093"]],
@@ -52,7 +52,7 @@
         "スライス蛸足" => [["twitter", "https://twitter.com/S_tako_"]],
         "せい" => [["twitter", "https://twitter.com/nonorieo__"]],
         "とっとこ避太郎" => [["twitter", "https://twitter.com/yoketarou137_5"]],
-        "のけん" => [["twitter", "https://twitter.com/Shi_mtmt"], ["pixiv", "https://www.pixiv.net/users/29441975"]],
+        "のけん" => [["twitter", "https://twitter.com/Shi_mtmt"], ["pixiv", "https://www.pixiv.net/users/29441975"], ["bluesky", "https://bsky.app/profile/shimtmt.bsky.social"]],
         "はらぴょん" => [["twitter", "https://twitter.com/harapyon9711"]],
         "ひまじん" => [["twitter", "https://twitter.com/HIMAJIN_TOUHOU"]],
         "ふぇぶりゅう" => [["twitter", "https://twitter.com/MppjU"], ["pixiv", "https://www.pixiv.net/users/15053330"]],
@@ -66,6 +66,16 @@
         "藍雪" => [["twitter", "https://twitter.com/bluesnow_stg"]],
         "暇人" => [["twitter", "https://twitter.com/mizudanngo822"], ["pixiv", "https://www.pixiv.net/users/14028304"], ["bluesky", "https://bsky.app/profile/mizudanngo822.bsky.social"]],
         "缶詰" => [["twitter", "https://twitter.com/galaxykanzume"], ["pixiv", "https://www.pixiv.net/users/45538890"]],
+    ];
+
+    $end_cards_2026 = [
+        ["TH07 Lunatic Survival", "TH07_Lunatic_Survival.jpg", ["暇人"]],
+        ["TH09 Lunatic Survival", "TH09_Lunatic_Survival.jpg", ["Kosuka"]],
+        ["TH10 Lunatic Survival", "TH10_Lunatic_Survival.jpg", [""]],
+        ["TH15 Extra Scoring", "TH15_Extra_Scoring.jpg", [""]],
+        ["TH20 Lunatic Survival", "TH20_Lunatic_Survival_1.jpg", ["梅びたん"]],
+        ["TH20 Lunatic Survival", "TH20_Lunatic_Survival_2.jpg", ["あずまよりこ"]],
+        ["TH20 Extra Scoring", "TH20_Extra_Scoring.jpg", ["のけん", "Addamelech"]],
     ];
 
     $end_cards_2025 = [
@@ -296,6 +306,7 @@
         <h1><?php echo _("Artworks") ?></h1>
         <h2 class="contents"><?php echo _('Contents') ?></h2>
         <div class="contents">
+            <p><a href="#2026-end-cards">2026 End Cards</a></p>
             <p><a href="#2025-end-cards">2025 End Cards</a></p>
             <p><a href="#2025-final">2025 Final Collab Illustrations</a></p>
             <p><a href="#2024-end-cards">2024 End Cards</a></p>
@@ -303,14 +314,19 @@
             <p><a href="#2023-end-cards">2023 End Cards</a></p>
         </div>
 
-        <h2 id="2025-end-cards"><a class="expander" onclick="art_hide(this)">▾2025 End Cards</a></h2>
+        <h2 id="2026-end-cards"><a class="expander" onclick="art_hide(this)">▾2026 End Cards</a></h2>
         <div class="thumbnail-gallery three-cols">
-            <?php render_gallery($end_cards_2025, '/static/art/2025_end_cards', false);?>
+            <?php render_gallery($end_cards_2026, '/static/art/2026_end_cards', false);?>
         </div>
 
-        <h2 id="2025-final"><a class="expander" onclick="art_hide(this)">▾2025 Final Collab Illustrations</a></h2>
-        <div class="thumbnail-gallery two-cols">
-            <?php render_gallery($final_2025, '/static/art/2025_final_collab_illustrations', false);?>
+        <h2 id="2025-end-cards"><a class="expander" onclick="art_show(this)">▸2025 End Cards</a></h2>
+        <div class="thumbnail-gallery three-cols art-past">
+            <?php render_gallery($end_cards_2025, '/static/art/2025_end_cards', true);?>
+        </div>
+
+        <h2 id="2025-final"><a class="expander" onclick="art_show(this)">▸2025 Final Collab Illustrations</a></h2>
+        <div class="thumbnail-gallery two-cols art-past">
+            <?php render_gallery($final_2025, '/static/art/2025_final_collab_illustrations', true);?>
         </div>
 
         <h2 id="2024-end-cards"><a class="expander" onclick="art_show(this)">▸2024 End Cards</a></h2>
