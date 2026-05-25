@@ -67,7 +67,7 @@ function toDateString(dateTime) {
     const date = new Date(dateTime);
 
     if (language === "ja-JP") {
-        return new Date(dateTime).toLocaleString("ja-JP", {
+        return date.toLocaleString(language, {
             year: "numeric",
             month: "numeric",
             day: "numeric",
@@ -76,8 +76,26 @@ function toDateString(dateTime) {
             minute: "2-digit"
         });
     }
-
-    return date.toLocaleString(language, {"dateStyle": "full"}) + ", " + date.toLocaleTimeString(language);
+    else if (language === "zh-CN") {
+        return date.toLocaleString(language, {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+            weekday: "long",
+            hour: "2-digit",
+            minute: "2-digit"
+        });
+    }
+    else {
+        return date.toLocaleString(language, {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+            weekday: "long",
+            hour: "2-digit",
+            minute: "2-digit"
+        }).replace(" at ", ", ").replace(" um ", ", ");
+    }
 }
 
 function convertDateTimes() {
