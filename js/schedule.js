@@ -69,8 +69,8 @@ function toDateString(dateTime) {
     if (language === "ja-JP") {
         return date.toLocaleString(language, {
             year: "numeric",
-            month: "numeric",
-            day: "numeric",
+            month: "2-digit",
+            day: "2-digit",
             weekday: "short",
             hour: "2-digit",
             minute: "2-digit"
