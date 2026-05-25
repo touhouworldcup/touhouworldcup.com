@@ -29,7 +29,7 @@
     ?></p>
     <h2 class="contents"><?php echo _('Contents') ?></h2>
     <div class="contents">
-        <p><a href="#2024">2025</a></p>
+        <p><a href="#2025">2025</a></p>
         <p><a href="#2024">2024</a></p>
         <p><a href="#2023">2023</a></p>
         <p><a href="#2022">2022</a></p>
