@@ -4,15 +4,6 @@ function is_localhost() {
     return $addr == '::1' || $addr == '127.0.0.1' || substr($addr, 0, 8) == '192.168.';
 }
 
-function get_date_format(string $lang) {
-    switch ($lang) {
-        case 'ja_JP': return 'l, Y F j, H:i:s';
-        case 'zh_CN': return 'l, Y F j, H:i:s';
-        case 'en_US': return 'l, F j Y, H:i:s';
-        default: return 'l, j F Y, H:i:s';
-    }
-}
-
 function query_string() {
     if (isset($_SERVER['QUERY_STRING'])) {
         $query = preg_split('/=/', $_SERVER['QUERY_STRING']);

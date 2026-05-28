@@ -186,7 +186,7 @@ function print_schedule(array $schedule, array $results, array $teams, string $y
             echo '<tr' . ($is_bonus ? ' class="bonus_match"' : '') . '>';
         }
         if (!empty($match['Date__UTC_'])) {
-            echo '<td id="date_' . $year . '_' . $key . '">' . date_format(date_create($match['Date__UTC_']), get_date_format($lang)) . '</td>';
+            echo '<td id="date_' . $year . '_' . $key . '">' . $match['Date__UTC_'] . '</td>';
         } else {
             echo '<td>???</td>';
         }

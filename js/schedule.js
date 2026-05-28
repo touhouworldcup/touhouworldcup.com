@@ -64,8 +64,8 @@ function getClientTimeZone() {
 }
 
 function toDateString(dateTime) {
-    const safeDateTime = typeof dateTime === 'string' ? dateTime.replace(/-/g, '/') : dateTime;
-    const date = new Date(safeDateTime);
+    const isoUtc = dateTime.replace(" ", "T") + "Z";
+    const date = new Date(isoUtc);
 
     if (language === "ja-JP") {
         return date.toLocaleString(language, {
@@ -115,7 +115,7 @@ function convertDateTimes() {
             continue;
         }
 
-        const dateString = toDateString(dateElement.innerHTML + " UTC");
+        const dateString = toDateString(dateElement.innerHTML);
         dateElement.innerHTML = `<td class='noborders'>${dateString}</td>`;
 
         // Translation not needed
@@ -137,7 +137,7 @@ function convertPastDateTimes() {
                 break;
             }
 
-            const dateString = toDateString(dateElement.innerHTML + " UTC");
+            const dateString = toDateString(dateElement.innerHTML);
             dateElement.innerHTML = `<td class='noborders'>${dateString}</td>`;
             index++;
         }
