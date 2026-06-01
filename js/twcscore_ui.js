@@ -58,6 +58,7 @@ window.onload = () => {
         "th14": true,
         "th15": true,
         "th16": true,
+        "th17": true,
         "th18": true,
         "th20": true
 	}
