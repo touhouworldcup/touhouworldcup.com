@@ -20,6 +20,7 @@ $artist_links = [
     "hrm" => ["https://twitter.com/hrm_wata", "https://www.pixiv.net/users/1526168"],
     "indigo" => ["https://twitter.com/IKuroto"],
     "Kosuka" => ["https://twitter.com/K0suka", "https://www.pixiv.net/en/users/2627803", "https://bsky.app/profile/kosuka.bsky.social"],
+    "LudicrousFPS" => ["https://bsky.app/profile/ludicrousfps.bsky.social"],
     "Lwiizi" => [],
     "mero" => ["https://merort.tumblr.com/"],
     "Muzilana" => ["https://twitter.com/muzilana1", "https://www.pixiv.net/en/users/32090790"],
@@ -68,6 +69,8 @@ $artist_links = [
     "藍雪" => ["https://twitter.com/bluesnow_stg"],
     "暇人" => ["https://twitter.com/mizudanngo822", "https://www.pixiv.net/users/14028304", "https://bsky.app/profile/mizudanngo822.bsky.social"],
     "缶詰" => ["https://twitter.com/galaxykanzume", "https://www.pixiv.net/users/45538890"],
+    "海老天使" => ["https://twitter.com/AB_ten_", "https://www.pixiv.net/users/79217206", "https://bsky.app/profile/ab-ten-4.bsky.social"],
+    "月野鮭生" => ["https://twitter.com/sssyake35", "https://www.pixiv.net/users/1665718"],
 ];
 
     $end_cards_2026 = [
@@ -75,9 +78,12 @@ $artist_links = [
         ["TH09 Lunatic Survival", "TH09_Lunatic_Survival.jpg", ["Kosuka"]],
         ["TH09 Lunatic Scoring", "TH09_Lunatic_Scoring.jpg", ["砕氷"]],
         ["TH10 Lunatic Survival", "TH10_Lunatic_Survival.jpg", [""]],
+        ["TH11 Extra Scoring", "TH11_Extra_Scoring.jpg", ["月野鮭生"]],
         ["TH12 Extra Scoring", "TH12_Extra_Scoring.jpg", ["SanneSakura"]],
         ["TH128 Extra Scoring", "TH128_Extra_Scoring.jpg", ["siren"]],
+        ["TH14 Extra Scoring", "TH14_Extra_Scoring.jpg", ["LudicrousFPS"]],
         ["TH15 Extra Scoring", "TH15_Extra_Scoring.jpg", [""]],
+        ["TH17 Lunatic Scoring", "TH17_Lunatic_Scoring.jpg", ["海老天使"]],
         ["TH20 Lunatic Survival", "TH20_Lunatic_Survival_1.jpg", ["梅びたん"]],
         ["TH20 Lunatic Survival", "TH20_Lunatic_Survival_2.jpg", ["あずまよりこ"]],
         ["TH20 Extra Scoring", "TH20_Extra_Scoring.jpg", ["のけん", "Addamelech"]],
