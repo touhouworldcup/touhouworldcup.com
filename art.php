@@ -5,69 +5,70 @@
     include_once 'php/locale.php';
     include_once 'php/head.php';
 
-    // 4:3 thumbnail_size = (500, 375)
-    // 16:9 thumbnail_size = (640, 360)
+// 4:3 thumbnail_size = (500, 375)
+// 16:9 thumbnail_size = (640, 360)
 
-    $artist_links = [
-        "Addamelech" => [["twitter", "https://twitter.com/addamelech"], ["pixiv", "https://www.pixiv.net/en/users/2570621"], ["bluesky", "https://bsky.app/profile/addamelech.bsky.social"]],
-        "AGT" => [],
-        "Aniiue" => [["twitter", "https://twitter.com/NotGiorno4"], ["bluesky", "https://bsky.app/profile/aniiue.bsky.social"]],
-        "Aqwa" => [["twitter", "https://twitter.com/aqwwa58"], ["tumblr", "https://aqwwa58.tumblr.com/"]],
-        "Ciel-9" => [["twitter", "https://twitter.com/Cirnolover9"], ["bluesky", "https://bsky.app/profile/cirnolover9.bsky.social"]],
-        "daisymels" => [["twitter", "https://twitter.com/daisymels"], ["tumblr", "https://daisymels.tumblr.com/"]],
-        "DJThunderHeart" => [["linktree", "https://linktr.ee/djthunderheart"]],
-        "hrm" => [["twitter", "https://twitter.com/hrm_wata"], ["pixiv", "https://www.pixiv.net/users/1526168"]],
-        "indigo" => [["twitter", "https://twitter.com/IKuroto"]],
-        "Kosuka" => [["twitter", "https://twitter.com/K0suka"], ["pixiv", "https://www.pixiv.net/en/users/2627803"], ["bluesky", "https://bsky.app/profile/kosuka.bsky.social"]],
-        "Lwiizi" => [],
-        "mero" => [["tumblr", "https://merort.tumblr.com/"]],
-        "Muzilana" => [["twitter", "https://twitter.com/muzilana1"], ["pixiv", "https://www.pixiv.net/en/users/32090790"]],
-        "Nill-Milan" => [["twitter", "https://twitter.com/Nill_Milan"]],
-        "Ohako" => [["twitter", "https://twitter.com/OhakoMiv"], ["pixiv", "https://www.pixiv.net/users/14258934"]],
-        "Oligarchomp" => [["twitter", "https://twitter.com/oligarchomp"]],
-        "OmegaOof" => [["pixiv", "https://www.pixiv.net/en/users/64677321"]],
-        "pisangmolen" => [["twitter", "https://twitter.com/314smol"]],
-        "Qoastli" => [["bluesky", "https://bsky.app/profile/qoastli.bsky.social"]],
-        "RedlerRed7" => [["twitter", "https://twitter.com/redlerred7"], ["pixiv", "https://www.pixiv.net/en/users/18405197"], ["tumblr", "https://redlerred7.tumblr.com/"], ["bluesky", "https://bsky.app/profile/redlerred7.bsky.social"]],
-        "Sachisu" => [["twitter", "https://twitter.com/sachisudesu"], ["pixiv", "https://www.pixiv.net/en/users/22198273"], ["bluesky", "https://bsky.app/profile/sachisu.bsky.social"]],
-        "SanneSakura" => [["pixiv", "https://www.pixiv.net/en/users/109906751"], ["bluesky", "https://bsky.app/profile/sakurasanne.bsky.social"]],
-        "seri" => [["twitter", "https://twitter.com/serichii4"]],
-        "ShiR0" => [["twitter", "https://twitter.com/shiro0221_"], ["pixiv", "https://www.pixiv.net/users/99345932"], ["bluesky", "https://bsky.app/profile/shiro0221.bsky.social"]],
-        "siren" => [["twitter", "https://twitter.com/silent_siren_17"], ["pixiv", "https://www.pixiv.net/users/53894213"], ["bluesky", "https://bsky.app/profile/silentsiren17.bsky.social"]],
-        "Skywalker2016GD" => [["twitter", "https://twitter.com/Skywalker2016GD"], ["bluesky", "https://bsky.app/profile/skywalker2016gd.bsky.social"]],
-        "sleepymausu" => [["twitter", "https://twitter.com/sleepymausu"]],
-        "Sowako" => [["twitter", "https://twitter.com/Sowakodelama"], ["bluesky", "https://bsky.app/profile/sowaker.bsky.social"]],
-        "Starmanz" => [["twitter", "https://twitter.com/Its_a_Starman"], ["pixiv", "https://www.pixiv.net/en/users/115667958"]],
-        "TESM" => [["twitter", "https://twitter.com/MH67679768"]],
-        "trisector" => [["twitter", "https://twitter.com/tris3ctor"]],
-        "TurboOven9000" => [["tumblr", "https://turbooven9000.tumblr.com/"]],
-        "WErty" => [],
-        "yeashie" => [["twitter", "https://twitter.com/danmaku_stg"]],
-        "あずまよりこ" => [["twitter", "https://twitter.com/AzumaYoriko"], ["pixiv", "https://www.pixiv.net/users/37450350"], ["bluesky", "https://bsky.app/profile/Azumayoriko.bsky.social"]],
-        "イロドリほたる" => [["twitter", "https://twitter.com/peconeko1"]],
-        "梅びたん" => [["twitter", "https://twitter.com/umebitansan"], ["pixiv", "https://www.pixiv.net/users/72729141"]],
-        "オノ･コーヘイ" => [["twitter", "https://twitter.com/AXE_Empty"], ["pixiv", "https://www.pixiv.net/users/1891612"]],
-        "おみず" => [["twitter", "https://twitter.com/dedicated_water"], ["pixiv", "https://www.pixiv.net/users/35059004"]],
-        "こがらし" => [["twitter", "https://twitter.com/chiyonosuki"], ["pixiv", "https://www.pixiv.net/users/28927093"]],
-        "しぐれに" => [["twitter", "https://twitter.com/reni_Eremit"], ["pixiv", "https://www.pixiv.net/users/117765131"]],
-        "スライス蛸足" => [["twitter", "https://twitter.com/S_tako_"]],
-        "せい" => [["twitter", "https://twitter.com/nonorieo__"]],
-        "とっとこ避太郎" => [["twitter", "https://twitter.com/yoketarou137_5"]],
-        "のけん" => [["twitter", "https://twitter.com/Shi_mtmt"], ["pixiv", "https://www.pixiv.net/users/29441975"], ["bluesky", "https://bsky.app/profile/shimtmt.bsky.social"]],
-        "はらぴょん" => [["twitter", "https://twitter.com/harapyon9711"]],
-        "ひまじん" => [["twitter", "https://twitter.com/HIMAJIN_TOUHOU"]],
-        "ふぇぶりゅう" => [["twitter", "https://twitter.com/MppjU"], ["pixiv", "https://www.pixiv.net/users/15053330"]],
-        "めえきち" => [["twitter", "https://twitter.com/irastodake"]],
-        "らかさぁ" => [["twitter", "https://twitter.com/rakasa0923"]],
-        "りんり" => [["twitter", "https://twitter.com/pachurinri"]],
-        "松本岡" => [["twitter", "https://twitter.com/kan10na2"], ["pixiv", "https://www.pixiv.net/users/33532818"]],
-        "桃里" => [["twitter", "https://twitter.com/210marisa"], ["pixiv", "https://www.pixiv.net/users/13691788"]],
-        "砕氷" => [["twitter", "https://twitter.com/CreepingBarrett"], ["pixiv", "https://www.pixiv.net/users/9337602"], ["bluesky", "https://bsky.app/profile/creepingbarrett.bsky.social"]],
-        "鈴奈神楽" => [["twitter", "https://twitter.com/Suzuna_Kagura"]],
-        "藍雪" => [["twitter", "https://twitter.com/bluesnow_stg"]],
-        "暇人" => [["twitter", "https://twitter.com/mizudanngo822"], ["pixiv", "https://www.pixiv.net/users/14028304"], ["bluesky", "https://bsky.app/profile/mizudanngo822.bsky.social"]],
-        "缶詰" => [["twitter", "https://twitter.com/galaxykanzume"], ["pixiv", "https://www.pixiv.net/users/45538890"]],
-    ];
+// Supported platforms: Twitter, Pixiv, Bluesky, Linktree, and Tumblr.
+$artist_links = [
+    "Addamelech" => ["https://twitter.com/addamelech", "https://www.pixiv.net/en/users/2570621", "https://bsky.app/profile/addamelech.bsky.social"],
+    "AGT" => [],
+    "Aniiue" => ["https://twitter.com/NotGiorno4", "https://bsky.app/profile/aniiue.bsky.social"],
+    "Aqwa" => ["https://twitter.com/aqwwa58", "https://aqwwa58.tumblr.com/"],
+    "Ciel-9" => ["https://twitter.com/Cirnolover9", "https://bsky.app/profile/cirnolover9.bsky.social"],
+    "daisymels" => ["https://twitter.com/daisymels", "https://daisymels.tumblr.com/"],
+    "DJThunderHeart" => ["https://linktr.ee/djthunderheart"],
+    "hrm" => ["https://twitter.com/hrm_wata", "https://www.pixiv.net/users/1526168"],
+    "indigo" => ["https://twitter.com/IKuroto"],
+    "Kosuka" => ["https://twitter.com/K0suka", "https://www.pixiv.net/en/users/2627803", "https://bsky.app/profile/kosuka.bsky.social"],
+    "Lwiizi" => [],
+    "mero" => ["https://merort.tumblr.com/"],
+    "Muzilana" => ["https://twitter.com/muzilana1", "https://www.pixiv.net/en/users/32090790"],
+    "Nill-Milan" => ["https://twitter.com/Nill_Milan"],
+    "Ohako" => ["https://twitter.com/OhakoMiv", "https://www.pixiv.net/users/14258934"],
+    "Oligarchomp" => ["https://twitter.com/oligarchomp"],
+    "OmegaOof" => ["https://www.pixiv.net/en/users/64677321"],
+    "pisangmolen" => ["https://twitter.com/314smol"],
+    "Qoastli" => ["https://bsky.app/profile/qoastli.bsky.social"],
+    "RedlerRed7" => ["https://twitter.com/redlerred7", "https://www.pixiv.net/en/users/18405197", "https://redlerred7.tumblr.com/", "https://bsky.app/profile/redlerred7.bsky.social"],
+    "Sachisu" => ["https://twitter.com/sachisudesu", "https://www.pixiv.net/en/users/22198273", "https://bsky.app/profile/sachisu.bsky.social"],
+    "SanneSakura" => ["https://www.pixiv.net/en/users/109906751", "https://bsky.app/profile/sakurasanne.bsky.social"],
+    "seri" => ["https://twitter.com/serichii4"],
+    "ShiR0" => ["https://twitter.com/shiro0221_", "https://www.pixiv.net/users/99345932", "https://bsky.app/profile/shiro0221.bsky.social"],
+    "siren" => ["https://twitter.com/silent_siren_17", "https://www.pixiv.net/users/53894213", "https://bsky.app/profile/silentsiren17.bsky.social"],
+    "Skywalker2016GD" => ["https://twitter.com/Skywalker2016GD", "https://bsky.app/profile/skywalker2016gd.bsky.social"],
+    "sleepymausu" => ["https://twitter.com/sleepymausu"],
+    "Sowako" => ["https://twitter.com/Sowakodelama", "https://bsky.app/profile/sowaker.bsky.social"],
+    "Starmanz" => ["https://twitter.com/Its_a_Starman", "https://www.pixiv.net/en/users/115667958"],
+    "TESM" => ["https://twitter.com/MH67679768"],
+    "trisector" => ["https://twitter.com/tris3ctor"],
+    "TurboOven9000" => ["https://turbooven9000.tumblr.com/"],
+    "WErty" => [],
+    "yeashie" => ["https://twitter.com/danmaku_stg"],
+    "あずまよりこ" => ["https://twitter.com/AzumaYoriko", "https://www.pixiv.net/users/37450350", "https://bsky.app/profile/Azumayoriko.bsky.social"],
+    "イロドリほたる" => ["https://twitter.com/peconeko1"],
+    "梅びたん" => ["https://twitter.com/umebitansan", "https://www.pixiv.net/users/72729141"],
+    "オノ･コーヘイ" => ["https://twitter.com/AXE_Empty", "https://www.pixiv.net/users/1891612"],
+    "おみず" => ["https://twitter.com/dedicated_water", "https://www.pixiv.net/users/35059004"],
+    "こがらし" => ["https://twitter.com/chiyonosuki", "https://www.pixiv.net/users/28927093"],
+    "しぐれに" => ["https://twitter.com/reni_Eremit", "https://www.pixiv.net/users/117765131"],
+    "スライス蛸足" => ["https://twitter.com/S_tako_"],
+    "せい" => ["https://twitter.com/nonorieo__"],
+    "とっとこ避太郎" => ["https://twitter.com/yoketarou137_5"],
+    "のけん" => ["https://twitter.com/Shi_mtmt", "https://www.pixiv.net/users/29441975", "https://bsky.app/profile/shimtmt.bsky.social"],
+    "はらぴょん" => ["https://twitter.com/harapyon9711"],
+    "ひまじん" => ["https://twitter.com/HIMAJIN_TOUHOU"],
+    "ふぇぶりゅう" => ["https://twitter.com/MppjU", "https://www.pixiv.net/users/15053330"],
+    "めえきち" => ["https://twitter.com/irastodake"],
+    "らかさぁ" => ["https://twitter.com/rakasa0923"],
+    "りんり" => ["https://twitter.com/pachurinri"],
+    "松本岡" => ["https://twitter.com/kan10na2", "https://www.pixiv.net/users/33532818"],
+    "桃里" => ["https://twitter.com/210marisa", "https://www.pixiv.net/users/13691788"],
+    "砕氷" => ["https://twitter.com/CreepingBarrett", "https://www.pixiv.net/users/9337602", "https://bsky.app/profile/creepingbarrett.bsky.social"],
+    "鈴奈神楽" => ["https://twitter.com/Suzuna_Kagura"],
+    "藍雪" => ["https://twitter.com/bluesnow_stg"],
+    "暇人" => ["https://twitter.com/mizudanngo822", "https://www.pixiv.net/users/14028304", "https://bsky.app/profile/mizudanngo822.bsky.social"],
+    "缶詰" => ["https://twitter.com/galaxykanzume", "https://www.pixiv.net/users/45538890"],
+];
 
     $end_cards_2026 = [
         ["TH07 Lunatic Survival", "TH07_Lunatic_Survival.jpg", ["暇人"]],
@@ -180,7 +181,7 @@
         ["TH16 Extra Scoring", "HSiFS_Extra_Scoring.png", ["TurboOven9000"]],
         ["TH17 Lunatic Survival", "WBaWC_Lunatic_Survival.png", ["Starmanz"]],
         ["TH17 Lunatic Scoring", "WBaWC_Lunatic_Scoring.png", ["Muzilana"]],
-        ["TH18 Lunatic Survival", "UM_Lunatic_Survival.png", ["うめ"]],
+        ["TH18 Lunatic Survival", "UM_Lunatic_Survival.png", ["梅びたん"]],
         ["TH19 Lunatic Survival", "UDoALG_Lunatic_Survival.png", ["鈴奈神楽"]],
     ];
 
@@ -203,7 +204,7 @@
         ["TH11 Extra Scoring", "sa_ex.png", ["らかさぁ"]],
         ["TH12 Lunatic Survival", "ufo_lnb.png", ["seri"]],
         ["TH12 Lunatic Scoring", "ufo_scoring.png", ["Starmanz"]],
-        ["TH128 Lunatic Survival", "gfw_survival.png", ["うめ"]],
+        ["TH128 Lunatic Survival", "gfw_survival.png", ["梅びたん"]],
         ["TH128 Lunatic Scoring", "gfw_scoring.png", ["Ciel-9"]],
         ["TH13 Lunatic Survival", "td_lnb.png", ["ふぇぶりゅう"]],
         ["TH13 Lunatic Scoring", "td_scoring.png", ["Skywalker2016GD"]],
@@ -289,8 +290,9 @@
                     $artist_html = '<span class="artist-name">' . $artist_name;
                     foreach ($links as $link) {
                         $icon = '/assets/icons/icon_sheet_24.png';
-                        $artist_html .= '<a href="' . $link[1] . '" target="_blank" class="social-link">';
-                        $artist_html .= '<img class="icon24 ' . $link[0] . '" src="' . $icon . '" alt="' . ucfirst($link[0]) . ' icon" width=24 height=24>';
+                        $social_platform_name = get_social_platform_name($link);
+                        $artist_html .= '<a href="' . $link . '" target="_blank" class="social-link">';
+                        $artist_html .= '<img class="icon24 ' . $social_platform_name . '" src="' . $icon . '" alt="' . ucfirst($social_platform_name) . ' icon" width=24 height=24>';
                         $artist_html .= '</a>';
                     }
                     $artist_html .= '</span>';
@@ -300,6 +302,20 @@
                 echo '</div>';
             }
             echo '</div>';
+        }
+    }
+
+    function get_social_platform_name($link) {
+        if (str_contains($link, "https://twitter.com")) {
+            return "twitter";
+        } elseif (str_contains($link, "https://www.pixiv.net/")) {
+            return "pixiv";
+        } elseif (str_contains($link, "https://bsky.app")) {
+            return "bluesky";
+        } elseif (str_contains($link, "https://linktr.ee")) {
+            return "linktree";
+        } elseif (str_contains($link, "tumblr.com")) {
+            return "tumblr";
         }
     }
 ?>
