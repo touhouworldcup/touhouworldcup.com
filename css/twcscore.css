@@ -58,11 +58,13 @@ button {
 }
 #twcscore_final_reverse p {
     display: flex;
+    flex-wrap: wrap;
     font-weight: bold;
     font-size: 36px;
 }
 #twcscore_final_reverse span {
-    flex: 1;
+    display: flex;
+    flex-basis: 100%;
 }
 #error_category, #error_game, #error_shottype, #error_miss, #error_score, #error_final, #error_medals, #error_fatal {
     display: none;
@@ -90,5 +92,13 @@ button {
     main {
         max-width: 95%;
         width: 1700px;
+    }
+    #twcscore_final_reverse p {
+        flex-wrap: nowrap;
+    }
+    #twcscore_final_reverse span {
+        display: inline;
+        flex-basis: 0%;
+        flex: 1;
     }
 }
