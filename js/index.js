@@ -60,6 +60,7 @@ function formatTime(timeLeft) {
 
 function getNextMatch() {
     const now = Math.round(new Date().getTime() / 1000);
+    let smallestUnix = Number.MAX_VALUE;
 
     for (const match of schedule) {
         const time = match["Date__UTC_"];
@@ -68,20 +69,23 @@ function getNextMatch() {
         const resetTime = match["ResetTime"] * 60; // seconds
         const matchEnd = unix + resetTime;
 
-        if (unix > now) {
-            const timeLeft = unix - now;
-            document.getElementById("countdown_title_match").style.display = "block";
-            document.getElementById("countdown_start").innerHTML = formatTime(timeLeft * 1000);
-            return;
-        } else if (unix <= now && matchEnd > now) {
+        if (unix <= now && matchEnd > now) {
             document.getElementById("countdown_start").innerHTML = "";
             document.getElementById("countdown_title_match").style.display = "none";
             document.getElementById("current_match").style.display = "block";
             document.getElementById("match_category").innerHTML = match["Category"];
             return;
         }
+        
+        if (unix > now && unix < smallestUnix) {
+            smallestUnix = unix;
+        }
     }
 
+
+    const timeLeft = smallestUnix - now;
+    document.getElementById("countdown_title_match").style.display = "block";
+    document.getElementById("countdown_start").innerHTML = formatTime(timeLeft * 1000);
     document.getElementById("match_category").innerHTML = "";
     document.getElementById("countdown_start").innerHTML = "";
     document.getElementById("current_match").style.display = "none";
