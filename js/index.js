@@ -82,14 +82,19 @@ function getNextMatch() {
         }
     }
 
+    // Check if TWC is over
+    if (smallestUnix === Number.MAX_VALUE) {
+        document.getElementById("countdown_start").innerHTML = "";
+        document.getElementById("countdown_title_match").style.display = "none";
+        document.getElementById("current_match").style.display = "none";
+        document.getElementById("match_category").innerHTML = "";
+    }
 
     const timeLeft = smallestUnix - now;
-    document.getElementById("countdown_title_match").style.display = "block";
     document.getElementById("countdown_start").innerHTML = formatTime(timeLeft * 1000);
-    document.getElementById("match_category").innerHTML = "";
-    document.getElementById("countdown_start").innerHTML = "";
+    document.getElementById("countdown_title_match").style.display = "block";
     document.getElementById("current_match").style.display = "none";
-    document.getElementById("countdown_title_match").style.display = "none";
+    document.getElementById("match_category").innerHTML = "";
     clearInterval(step);
 }
 
