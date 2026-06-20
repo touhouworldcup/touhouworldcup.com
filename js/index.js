@@ -60,6 +60,7 @@ function formatTime(timeLeft) {
 
 function getNextMatch() {
     const now = Math.round(new Date().getTime() / 1000);
+    let smallestUnix = Number.MAX_VALUE;
 
     for (const match of schedule) {
         const time = match["Date__UTC_"];
@@ -68,25 +69,33 @@ function getNextMatch() {
         const resetTime = match["ResetTime"] * 60; // seconds
         const matchEnd = unix + resetTime;
 
-        if (unix > now) {
-            const timeLeft = unix - now;
-            document.getElementById("countdown_title_match").style.display = "block";
-            document.getElementById("countdown_start").innerHTML = formatTime(timeLeft * 1000);
-            return;
-        } else if (unix <= now && matchEnd > now) {
+        if (unix <= now && matchEnd > now) {
             document.getElementById("countdown_start").innerHTML = "";
             document.getElementById("countdown_title_match").style.display = "none";
             document.getElementById("current_match").style.display = "block";
             document.getElementById("match_category").innerHTML = match["Category"];
             return;
         }
+        
+        if (unix > now && unix < smallestUnix) {
+            smallestUnix = unix;
+        }
     }
 
-    document.getElementById("match_category").innerHTML = "";
-    document.getElementById("countdown_start").innerHTML = "";
+    // Check if TWC is over
+    if (smallestUnix === Number.MAX_VALUE) {
+        document.getElementById("countdown_start").innerHTML = "";
+        document.getElementById("countdown_title_match").style.display = "none";
+        document.getElementById("current_match").style.display = "none";
+        document.getElementById("match_category").innerHTML = "";
+        clearInterval(step);
+    }
+
+    const timeLeft = smallestUnix - now;
+    document.getElementById("countdown_start").innerHTML = formatTime(timeLeft * 1000);
+    document.getElementById("countdown_title_match").style.display = "block";
     document.getElementById("current_match").style.display = "none";
-    document.getElementById("countdown_title_match").style.display = "none";
-    clearInterval(step);
+    document.getElementById("match_category").innerHTML = "";
 }
 
 function countdownToStart() {
