@@ -88,6 +88,7 @@ function getNextMatch() {
         document.getElementById("countdown_title_match").style.display = "none";
         document.getElementById("current_match").style.display = "none";
         document.getElementById("match_category").innerHTML = "";
+        clearInterval(step);
     }
 
     const timeLeft = smallestUnix - now;
@@ -95,7 +96,6 @@ function getNextMatch() {
     document.getElementById("countdown_title_match").style.display = "block";
     document.getElementById("current_match").style.display = "none";
     document.getElementById("match_category").innerHTML = "";
-    clearInterval(step);
 }
 
 function countdownToStart() {
