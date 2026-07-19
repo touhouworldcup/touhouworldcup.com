@@ -10,15 +10,18 @@
 
 // Supported platforms: Twitter, Pixiv, Bluesky, Linktree, and Tumblr.
 $artist_links = [
+    "2G" => ["https://twitter.com/tindalos_01", "https://bsky.app/profile/tindalos01.bsky.social"],
     "Addamelech" => ["https://twitter.com/addamelech", "https://www.pixiv.net/en/users/2570621", "https://bsky.app/profile/addamelech.bsky.social"],
     "AGT" => [],
     "Aniiue" => ["https://twitter.com/NotGiorno4", "https://bsky.app/profile/aniiue.bsky.social"],
     "Aqwa" => ["https://twitter.com/aqwwa58", "https://aqwwa58.tumblr.com/"],
+    "Barbara" => ["https://twitter.com/peconeko1"],
     "Ciel-9" => ["https://twitter.com/Cirnolover9", "https://bsky.app/profile/cirnolover9.bsky.social"],
     "daisymels" => ["https://twitter.com/daisymels", "https://daisymels.tumblr.com/"],
     "DJThunderHeart" => ["https://linktr.ee/djthunderheart"],
     "hrm" => ["https://twitter.com/hrm_wata", "https://www.pixiv.net/users/1526168"],
     "indigo" => ["https://twitter.com/IKuroto"],
+    "koral" => ["https://bsky.app/profile/koralreef.bsky.social"],
     "Kosuka" => ["https://twitter.com/K0suka", "https://www.pixiv.net/en/users/2627803", "https://bsky.app/profile/kosuka.bsky.social"],
     "LudicrousFPS" => ["https://bsky.app/profile/ludicrousfps.bsky.social"],
     "Lwiizi" => [],
@@ -47,7 +50,6 @@ $artist_links = [
     "WErty" => [],
     "yeashie" => ["https://twitter.com/danmaku_stg"],
     "あずまよりこ" => ["https://twitter.com/AzumaYoriko", "https://www.pixiv.net/users/37450350", "https://bsky.app/profile/Azumayoriko.bsky.social"],
-    "イロドリほたる" => ["https://twitter.com/peconeko1"],
     "梅びたん" => ["https://twitter.com/umebitansan", "https://www.pixiv.net/users/72729141"],
     "オノ･コーヘイ" => ["https://twitter.com/AXE_Empty", "https://www.pixiv.net/users/1891612"],
     "おみず" => ["https://twitter.com/dedicated_water", "https://www.pixiv.net/users/35059004"],
@@ -59,7 +61,7 @@ $artist_links = [
     "セイスモ" => ["https://twitter.com/seisumochi", ],
     "とっとこ避太郎" => ["https://twitter.com/yoketarou137_5"],
     "のけん" => ["https://twitter.com/Shi_mtmt", "https://www.pixiv.net/users/29441975", "https://bsky.app/profile/shimtmt.bsky.social"],
-    "はらぴょん" => ["https://twitter.com/harapyon9711"],
+    "はらぴょん" => ["https://twitter.com/harapyon9711", "https://bsky.app/profile/harapyon9711.bsky.social"],
     "パンチ" => ["https://twitter.com/all_cap_noobs", "https://www.pixiv.net/users/31638829", "https://bsky.app/profile/punch155.bsky.social"],
     "ひまじん" => ["https://twitter.com/HIMAJIN_TOUHOU"],
     "ふぇぶりゅう" => ["https://twitter.com/MppjU", "https://www.pixiv.net/users/15053330"],
@@ -82,6 +84,7 @@ $artist_links = [
 ];
 
     $end_cards_2026 = [
+        ["TH06 Lunatic Scoring", "TH06_Lunatic_Scoring.jpg", ["はらぴょん"]],
         ["TH06 Extra Scoring", "TH06_Extra_Scoring.jpg", ["スライス蛸足"]],
         ["TH07 Lunatic Survival", "TH07_Lunatic_Survival.jpg", ["暇人"]],
         ["TH07 Lunatic Scoring", "TH07_Lunatic_Scoring.jpg", ["松本岡"]],
@@ -95,9 +98,12 @@ $artist_links = [
         ["TH11 Extra Scoring", "TH11_Extra_Scoring.jpg", ["月野鮭生"]],
         ["TH12 Extra Scoring", "TH12_Extra_Scoring.jpg", ["SanneSakura"]],
         ["TH128 Lunatic Survival", "TH128_Lunatic_Survival.jpg", ["ThrownAloeCrown"]],
+        ["TH128 Lunatic Scoring", "TH128_Lunatic_Scoring.jpg", ["koral"]],
         ["TH128 Extra Scoring", "TH128_Extra_Scoring.jpg", ["siren"]],
         ["TH13 Lunatic Survival", "TH13_Lunatic_Survival_1.jpg", ["しぐれに"]],
         ["TH13 Lunatic Survival", "TH13_Lunatic_Survival_2.jpg", ["パンチ"]],
+        ["TH13 Lunatic Scoring", "TH13_Lunatic_Scoring_1.jpg", ["Barbara"]],
+        ["TH13 Lunatic Scoring", "TH13_Lunatic_Scoring_2.jpg", ["2G"]],
         ["TH14 Lunatic Scoring", "TH14_Lunatic_Scoring.jpg", ["Starmanz"]],
         ["TH14 Extra Scoring", "TH14_Extra_Scoring.jpg", ["LudicrousFPS"]],
         ["TH15 Lunatic Scoring", "TH15_Lunatic_Scoring_1.jpg", ["こんたま"]],
