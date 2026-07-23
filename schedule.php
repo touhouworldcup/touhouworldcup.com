@@ -42,6 +42,31 @@
         echo '<p><input type="button" id="hide_results" value="' . _('Hide Results') . '"></p>';
     ?></p>
     <ol id="spoiler_ol"></ol>
+    <p><?php echo _('Current Points:') ?></p>
+    <ol><?php
+        $json = get_teams($db, '2026');
+        $teams_2026 = json_decode($json, true);
+        $index = 0;
+        $max_index = 0;
+        $max_points = 0;
+        $teams = array();
+        uasort($teams_2026, function ($a, $b) {
+            return $a['Points'] < $b['Points'] ? 1 : -1;
+        });
+        foreach ($teams_2026 as $team) {
+            array_push($teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
+            if ($team['Points'] > $max_points) {
+                $max_points = $team['Points'];
+                $max_index = $index;
+            }
+            $index++;
+        }
+        if (array_key_exists($max_index, $teams)) {
+            $teams[$max_index] = str_replace('">', '"><strong>', $teams[$max_index]);
+            $teams[$max_index] = str_replace('</li>', '</strong></li>', $teams[$max_index]);
+        }
+        echo implode($teams);
+    ?></ol>
     <table class="schedule_table">
         <thead>
             <tr>

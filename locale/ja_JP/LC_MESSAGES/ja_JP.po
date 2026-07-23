@@ -592,6 +592,9 @@ msgstr "試合結果を非表示"
 msgid "Final tally:"
 msgstr "最終獲得ポイント："
 
+msgid "Current Points:"
+msgstr "獲得ポイント："
+
 #: results.php:54 results.php:99 results.php:144 results.php:187
 #: results.php:230 results.php:274
 msgid " points"
