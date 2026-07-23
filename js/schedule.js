@@ -38,6 +38,8 @@ function showResults(event) {
     for (const result of results) {
         if (result.tagName == "P") {
             result.style.display = "block";
+        } else if (result.tagName == "OL") {
+            result.style.display = "block";
         } else {
             result.style.display = "table-cell";
         }

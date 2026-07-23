@@ -42,8 +42,8 @@
         echo '<p><input type="button" id="hide_results" value="' . _('Hide Results') . '"></p>';
     ?></p>
     <ol id="spoiler_ol"></ol>
-    <p><?php echo _('Current Points:') ?></p>
-    <ol><?php
+    <p class = "spoiler"><?php echo _('Current Points:') ?></p>
+    <ol class = "spoiler"><?php
         $json = get_teams($db, '2026');
         $teams_2026 = json_decode($json, true);
         $index = 0;
