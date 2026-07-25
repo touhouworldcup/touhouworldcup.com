@@ -37,11 +37,11 @@
     <div class="archive-links no-font-size">
         <a href="https://www.youtube.com/playlist?list=PL-ggW392LLUxq0GeQqGKj4_ylgPgHG2wx"
             target="_blank" rel="noopener noreferrer">
-            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">EN
+            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"><?php echo _("English Commentary Videos")?>
         </a>
         <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMjrgXNvuaTTl3PFc1wkB9KM"
             target="_blank" rel="noopener noreferrer">
-            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">JP
+            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"><?php echo _("Japanese Commentary Videos")?>
         </a>
     </div>
     <p><?php echo _('Your time zone was detected as <strong id="timezone">UTC+0000 (Coordinated Universal Time)</strong>.') ?></p>

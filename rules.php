@@ -141,9 +141,9 @@
     </ul>
     <p><?php echo _('Additionally, the following modifications are allowed for each corresponding Touhou Game listed below:') ?></p>
     <ul>
-        <li><?php echo _('PoFV - Replay crash fix by Unknown') ?></li>
-        <li><?php echo _('UFO - Scorebug Fix by Unknown') ?></li>
-        <li><?php echo _('WBaWC, UM - Counterstop Removal Patch by 32th System') ?></li>
+        <li><?php echo _('PoFV') ?> - Replay crash fix by Unknown</li>
+        <li><?php echo _('UFO') ?> - Scorebug Fix by Unknown</li>
+        <li><?php echo _('WBaWC') . ', ' . _('UM') ?> - Counterstop Removal Patch by 32th System</li>
     </ul>
     <hr>
     <h2><?php echo _('Other Rules') ?></h2>

@@ -8,7 +8,7 @@
     include_once 'php/db.php';
     try {
 		$db_host = getenv('DB_HOST') ? getenv('DB_HOST') : 'localhost';
-        $db = mysqli_connect($db_host, 'twc_admin', getenv('DB_PASSWORD'), 'twc_archive');
+        // $db = mysqli_connect($db_host, 'twc_admin', getenv('DB_PASSWORD'), 'twc_archive');
     } catch (Exception $e) {
         $_GET['error'] = 503;
         include_once 'php/error.php';
@@ -27,7 +27,6 @@
             echo _('Daylight Saving Time (also known as Summer Time or DST) is taken into account automatically.');
         }
     ?></p>
-    <h2 class="contents"><?php echo _('Contents') ?></h2>
     <div class="contents">
         <p>
             <a href="#2025">2025</a> / 

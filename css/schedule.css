@@ -135,7 +135,16 @@ input[type=button] {
     display: flex;
     align-items: center;
     gap: 8px;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
+    margin: 25px 0 0;    
+    margin-bottom: 0;
+}
+
+.section-header + p,
+.section-header + ol,
+.section-header + table {
+    margin-top: 10px;
+    padding-top: 0;
 }
 
 .section-header h2 {
@@ -155,7 +164,7 @@ input[type=button] {
     align-items: center;
     gap: 6px;
 
-    padding: 3px 10px 1px;
+    padding: 6px 10px 4px;
     border-radius: 999px;
     font-size: 14px;
     color: #ffffff;
