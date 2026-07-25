@@ -91,6 +91,7 @@
                 }
                 return $a['Date__UTC_'] > $b['Date__UTC_'];
             });
+            $results = array_values($results);
             $json = get_teams($db, '2026');
             $teams = json_decode($json, true);
             $json = get_players($db);
