@@ -130,3 +130,21 @@ input[type=button] {
         overflow-x: scroll;
     }
 }
+
+.archive-links {
+    margin: 12px 0 0;
+    font-size: 18px;
+}
+
+.archive-links a {
+    color: #6cb6ff;
+    text-decoration: none;
+}
+
+.archive-links a:hover {
+    text-decoration: underline;
+}
+
+.archive-links img {
+    vertical-align: -2px;
+}

@@ -98,14 +98,14 @@
     </table>
     <h2 id="2024"><img class="favicon" src="/assets/legacy/favicon_2024.ico" alt="2024 favicon"> TWC 2024</h2>
     <div class="archive-links">
-        <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMj94mTHRImZ--FcQJhlzoKp"
-            target="_blank" rel="noopener noreferrer">
-            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("Japanese Commentary Videos")?>
-        </a>
-        |
         <a href="https://www.youtube.com/playlist?list=PL-ggW392LLUz2GgMVzpluKRWTwtwLDwSk"
             target="_blank" rel="noopener noreferrer">
             <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("English Commentary Videos")?>
+        </a>
+        |
+        <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMj94mTHRImZ--FcQJhlzoKp"
+            target="_blank" rel="noopener noreferrer">
+            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("Japanese Commentary Videos")?>
         </a>
     </div>
     <p><?php echo _('Final tally:') ?></p>
@@ -154,14 +154,14 @@
     </table>
     <h2 id="2023"><img class="favicon" src="/assets/legacy/favicon_2023.ico" alt="2023 favicon"> TWC 2023</h2>
     <div class="archive-links">
-        <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMhKjxcKpp5MufQYJS5Mteiq"
-            target="_blank" rel="noopener noreferrer">
-            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("Japanese Commentary Videos")?>
-        </a>
-        |
         <a href="https://www.youtube.com/playlist?list=PL-ggW392LLUwjbkibyYpt2rbHEKZXil02"
             target="_blank" rel="noopener noreferrer">
             <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("English Commentary Videos")?>
+        </a>
+        |
+        <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMhKjxcKpp5MufQYJS5Mteiq"
+            target="_blank" rel="noopener noreferrer">
+            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("Japanese Commentary Videos")?>
         </a>
     </div>
     <p><?php echo _('Final tally:') ?></p>
@@ -208,14 +208,14 @@
     </table>
     <h2 id="2022"><img class="favicon" src="/assets/legacy/favicon_2022.ico" alt="2022 favicon"> TWC 2022</h2>
     <div class="archive-links">
-        <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMiq8MLHCgU0zJ_3lpjwH9-5"
-            target="_blank" rel="noopener noreferrer">
-            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("Japanese Commentary Videos")?>
-        </a>
-        |
         <a href="https://www.youtube.com/playlist?list=PL-ggW392LLUwqlx8PynPoltQ5oPBDb6d8"
             target="_blank" rel="noopener noreferrer">
             <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("English Commentary Videos")?>
+        </a>
+        |
+        <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMiq8MLHCgU0zJ_3lpjwH9-5"
+            target="_blank" rel="noopener noreferrer">
+            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("Japanese Commentary Videos")?>
         </a>
     </div>
     <p><?php echo _('Final tally:') ?></p>
@@ -262,14 +262,14 @@
     </table>
     <h2 id="2021"><img class="favicon" src="/assets/legacy/favicon_2021.ico" alt="2021 favicon"> TWC 2021</h2>
     <div class="archive-links">
-        <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMj54YYOenfb3G6DcrtoePhg"
-            target="_blank" rel="noopener noreferrer">
-            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("Japanese Commentary Videos")?>
-        </a>
-        |
         <a href="https://www.youtube.com/playlist?list=PL-ggW392LLUzjcX1-HbRtkuZ_yshGucxt"
             target="_blank" rel="noopener noreferrer">
             <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("English Commentary Videos")?>
+        </a>
+        |
+        <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMj54YYOenfb3G6DcrtoePhg"
+            target="_blank" rel="noopener noreferrer">
+            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("Japanese Commentary Videos")?>
         </a>
     </div>
     <p><?php echo _('Final tally:') ?></p>
@@ -317,14 +317,14 @@
     <p class="spoiler">* <?php echo _('Game Over') ?></p>
     <h2 id="2020"><img class="favicon" src="/assets/legacy/favicon_2020.ico" alt="2020 favicon"> TWC 2020</h2>
     <div class="archive-links">
-        <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMj5PDLI3EoX01JBnlJK34Dr"
-            target="_blank" rel="noopener noreferrer">
-            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("Japanese Commentary Videos")?>
-        </a>
-        |
         <a href="https://www.youtube.com/playlist?list=PL-ggW392LLUzV2las6ky6c1QInMIvB5bG"
             target="_blank" rel="noopener noreferrer">
             <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("English Commentary Videos")?>
+        </a>
+        |
+        <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMj5PDLI3EoX01JBnlJK34Dr"
+            target="_blank" rel="noopener noreferrer">
+            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("Japanese Commentary Videos")?>
         </a>
     </div>
     <p><?php echo _('Final tally:') ?></p>
