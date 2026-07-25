@@ -22,6 +22,7 @@
         }
         return $a['Date__UTC_'] > $b['Date__UTC_'];
     });
+    $schedule = array_values($schedule);
 ?>
 
 <body>
