@@ -575,10 +575,6 @@ msgid ""
 "account automatically."
 msgstr ""
 
-#: results.php:30
-msgid "Contents"
-msgstr "内容"
-
 #: results.php:39 schedule.php:41
 msgid "Show Results"
 msgstr "試合結果を表示"
@@ -586,6 +582,12 @@ msgstr "試合結果を表示"
 #: results.php:40 schedule.php:42
 msgid "Hide Results"
 msgstr "試合結果を非表示"
+
+msgid "English Commentary Videos"
+msgstr "英語配信アーカイブ"
+
+msgid "Japanese Commentary Videos"
+msgstr "日本語配信アーカイブ"
 
 #: results.php:42 results.php:87 results.php:132 results.php:175
 #: results.php:218 results.php:262

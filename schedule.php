@@ -34,6 +34,17 @@
         echo '</main></body></html>';
         die();
     } ?>
+    <div class="archive-links">
+        <a href="https://www.youtube.com/playlist?list=PL-ggW392LLUxq0GeQqGKj4_ylgPgHG2wx"
+            target="_blank" rel="noopener noreferrer">
+            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("English Commentary Videos")?>
+        </a>
+        |
+        <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMjrgXNvuaTTl3PFc1wkB9KM"
+            target="_blank" rel="noopener noreferrer">
+            <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon"> <?php echo _("Japanese Commentary Videos")?>
+        </a>
+    </div>
     <p><?php echo _('Your time zone was detected as <strong id="timezone">UTC+0000 (Coordinated Universal Time)</strong>.') ?></p>
     <p><?php
         if ($lang == 'en_GB' || $lang == 'en_US' || $lang == 'de_DE' || $lang == 'es_ES') {
