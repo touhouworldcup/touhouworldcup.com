@@ -148,7 +148,6 @@ input[type=button] {
 .archive-links {
     display: flex;
     gap: 8px;
-    padding-top: 5px;
 }
 
 .archive-links a {
@@ -156,7 +155,7 @@ input[type=button] {
     align-items: center;
     gap: 6px;
 
-    padding: 1px 10px 2px;
+    padding: 3px 10px 1px;
     border-radius: 999px;
     font-size: 14px;
     color: #ffffff;
@@ -170,14 +169,10 @@ input[type=button] {
 
 .archive-links.no-font-size a {
     font-size: inherit;
-    padding: 6px 12px;
+    padding: 8px 12px 6px;
 }
 
 .archive-links a:hover {
     background: rgba(108, 182, 255, .12);
     border-color: rgba(108, 182, 255, .35);
-}
-
-.archive-links img {
-    padding-top: 2.5px;
 }
