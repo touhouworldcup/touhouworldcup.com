@@ -85,6 +85,12 @@
         <tbody id="schedule_tbody"><?php
             $json = get_results($db, '2026');
             $results = json_decode($json, true);
+            uasort($results, function ($a, $b) {
+                if (empty($b['Date__UTC_'])) {
+                    return false;
+                }
+                return $a['Date__UTC_'] > $b['Date__UTC_'];
+            });
             $json = get_teams($db, '2026');
             $teams = json_decode($json, true);
             $json = get_players($db);
