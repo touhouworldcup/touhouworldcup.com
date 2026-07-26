@@ -21,6 +21,7 @@ $artist_links = [
     "DJThunderHeart" => ["https://linktr.ee/djthunderheart"],
     "hrm" => ["https://twitter.com/hrm_wata", "https://www.pixiv.net/users/1526168"],
     "indigo" => ["https://twitter.com/IKuroto"],
+    "いな" => ["https://twitter.com/ina__con", "https://www.pixiv.net/users/2846413"],
     "koral" => ["https://bsky.app/profile/koralreef.bsky.social"],
     "Kosuka" => ["https://twitter.com/K0suka", "https://www.pixiv.net/en/users/2627803", "https://bsky.app/profile/kosuka.bsky.social"],
     "LudicrousFPS" => ["https://bsky.app/profile/ludicrousfps.bsky.social"],
@@ -65,6 +66,7 @@ $artist_links = [
     "パンチ" => ["https://twitter.com/all_cap_noobs", "https://www.pixiv.net/users/31638829", "https://bsky.app/profile/punch155.bsky.social"],
     "ひまじん" => ["https://twitter.com/HIMAJIN_TOUHOU"],
     "ふぇぶりゅう" => ["https://twitter.com/MppjU", "https://www.pixiv.net/users/15053330"],
+    "ピッチ" => ["https://twitter.com/pittibuntyou", "https://bsky.app/profile/pittibuntyou.bsky.social"],
     "めえきち" => ["https://twitter.com/irastodake"],
     "めにね" => ["https://twitter.com/mennine_52149", "https://www.pixiv.net/users/19982214"],
     "よもぎば" => ["https://twitter.com/ymg8_3"],
@@ -80,12 +82,16 @@ $artist_links = [
     "缶詰" => ["https://twitter.com/galaxykanzume", "https://www.pixiv.net/users/45538890"],
     "海老天使" => ["https://twitter.com/AB_ten_", "https://www.pixiv.net/users/79217206", "https://bsky.app/profile/ab-ten-4.bsky.social"],
     "月野鮭生" => ["https://twitter.com/sssyake35", "https://www.pixiv.net/users/1665718"],
+    "GhostyMega" => ["https://bsky.app/profile/ghostymega.bsky.social"],
     "✦✦✦" => ["https://twitter.com/6Tanso14274", "https://bsky.app/profile/hanei8801.bsky.social"],
 ];
 
     $end_cards_2026 = [
         ["TH06 Lunatic Scoring", "TH06_Lunatic_Scoring.jpg", ["はらぴょん"]],
         ["TH06 Extra Scoring", "TH06_Extra_Scoring.jpg", ["スライス蛸足"]],
+        ["TH06 Lunatic Survival", "TH06_Lunatic_Survival.jpg", ["Sachisu"]],
+        ["TH07 Extra Scoring", "TH07_Extra_Scoring_1.jpg", ["ピッチ"]],
+        ["TH07 Extra Scoring", "TH07_Extra_Scoring_2.jpg", ["いな"]],
         ["TH07 Lunatic Survival", "TH07_Lunatic_Survival.jpg", ["暇人"]],
         ["TH07 Lunatic Scoring", "TH07_Lunatic_Scoring.jpg", ["松本岡"]],
         ["TH08 Lunatic Survival", "TH08_Lunatic_Survival.jpg", ["ひまじん"]],
@@ -96,6 +102,7 @@ $artist_links = [
         ["TH11 Lunatic Survival", "TH11_Lunatic_Survival.jpg", ["リョクミン", "セイスモ"]],
         ["TH11 Lunatic Scoring", "TH11_Lunatic_Scoring.jpg", ["めにね"]],
         ["TH11 Extra Scoring", "TH11_Extra_Scoring.jpg", ["月野鮭生"]],
+        ["TH12 Lunatic Survival", "TH12_Lunatic_Survival.jpg", ["hrm"]],
         ["TH12 Extra Scoring", "TH12_Extra_Scoring.jpg", ["SanneSakura"]],
         ["TH128 Lunatic Survival", "TH128_Lunatic_Survival.jpg", ["ThrownAloeCrown"]],
         ["TH128 Lunatic Scoring", "TH128_Lunatic_Scoring.jpg", ["koral"]],
@@ -114,6 +121,7 @@ $artist_links = [
         ["TH16 Lunatic Scoring", "TH16_Lunatic_Scoring.jpg", ["よもぎば"]],
         ["TH17 Lunatic Scoring", "TH17_Lunatic_Scoring.jpg", ["海老天使"]],
         ["TH17 Extra Scoring", "TH17_Extra_Scoring.jpg", ["TurboMaya"]],
+        ["TH18 Lunatic Scoring", "TH18_Lunatic_Scoring.jpg", ["GhostyMega"]],
         ["TH20 Lunatic Survival", "TH20_Lunatic_Survival_1.jpg", ["梅びたん"]],
         ["TH20 Lunatic Survival", "TH20_Lunatic_Survival_2.jpg", ["あずまよりこ"]],
         ["TH20 Lunatic Scoring", "TH20_Lunatic_Scoring.jpg", ["桃里"]],
@@ -309,7 +317,7 @@ $artist_links = [
         global $artist_links;
 
         foreach ($artworks as $art) {
-            $title = _($art[0]);
+            $title = preg_replace_callback('/TH\d+(?=\s)/', function($m) {return _($m[0]);}, _($art[0]));
             $file = $art[1];
             $artist_names = $art[2];
             $data_src = $img_dir . '/thumbnails/' . pathinfo($file)['filename'] . '.jpg';
@@ -361,13 +369,10 @@ $artist_links = [
 	<?php include_once 'php/body.php' ?>
 	<main>
         <h1><?php echo _("Artworks") ?></h1>
-        <h2 class="contents"><?php echo _('Contents') ?></h2>
         <div class="contents">
             <p><a href="#2026-end-cards">2026 End Cards</a></p>
-            <p><a href="#2025-end-cards">2025 End Cards</a></p>
-            <p><a href="#2025-final">2025 Final Collab Illustrations</a></p>
-            <p><a href="#2024-end-cards">2024 End Cards</a></p>
-            <p><a href="#2024-final">2024 Final Collab Illustrations</a></p>
+            <p><a href="#2025-end-cards">2025 End Cards</a> / <a href="#2025-final">2025 Final Collab Illustrations</a></p>
+            <p><a href="#2024-end-cards">2024 End Cards</a> / <a href="#2024-final">2024 Final Collab Illustrations</a></p>
             <p><a href="#2023-end-cards">2023 End Cards</a></p>
         </div>
 

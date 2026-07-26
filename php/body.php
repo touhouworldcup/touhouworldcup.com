@@ -5,12 +5,12 @@
 <input class="lang-btn" type="radio" name="nav" id="lang-btn">
 <label class="lang-icon" for="lang-btn"><img src="assets/lang.png" alt="<?php echo _('Language') ?>" class="lang-icon" width=32 height=32></label>
 <ul id="main_list" class="menu">
-    <li><a class="subpage" href="art<?php echo query_string() ?>"><?php echo _('Art') ?></a></li>
-    <li><a class="subpage" href="clips<?php echo query_string() ?>"><?php echo _('Clips') ?></a></li>
     <li><a class="subpage" href="rules<?php echo query_string() ?>"><?php echo _('Rules') ?></a></li>
     <li><a class="subpage" href="schedule<?php echo query_string() ?>"><?php echo _('Schedule') ?></a></li>
     <li><a class="subpage" href="results<?php echo query_string() ?>"><?php echo _('Past Results') ?></a></li>
     <li><a class="subpage" href="twcscore<?php echo query_string() ?>"><?php echo _('TWCScore') ?></a></li>
+    <li><a class="subpage" href="art<?php echo query_string() ?>"><?php echo _('Art') ?></a></li>
+    <li><a class="subpage" href="clips<?php echo query_string() ?>"><?php echo _('Clips') ?></a></li>
     <li><a class="subpage" href="credits<?php echo query_string() ?>"><?php echo _('Credits') ?></a></li>
 </ul>
 <ul id="lang_list" class="menu">
