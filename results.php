@@ -14,6 +14,34 @@
         include_once 'php/error.php';
         die();
     }
+
+    $youtube = [
+        2025 => [
+            'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUwcETVHKo9ONNKEyLXnYI7l',
+            'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMibMTZ5Y6hl0Mqold2MS5cj',
+        ],
+        2024 => [
+            'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUwcETVHKo9ONNKEyLXnYI7l',
+            'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMibMTZ5Y6hl0Mqold2MS5cj',
+        ],
+        2023 => [
+            'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUwjbkibyYpt2rbHEKZXil02',
+            'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMhKjxcKpp5MufQYJS5Mteiq',
+        ],
+        2022 => [
+            'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUwqlx8PynPoltQ5oPBDb6d8',
+            'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMiq8MLHCgU0zJ_3lpjwH9-5',
+        ],
+        2021 => [
+            'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUzjcX1-HbRtkuZ_yshGucxt',
+            'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMj54YYOenfb3G6DcrtoePhg',
+        ],
+        2020 => [
+            'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUzV2las6ky6c1QInMIvB5bG',
+            'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMj5PDLI3EoX01JBnlJK34Dr',
+        ],
+    ];
+
 ?>
 
 <body>
@@ -39,44 +67,52 @@
     </div>
     <p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
     <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>
-    <div class="section-header">
-        <h2 id="2025"><img class="favicon" src="/assets/legacy/favicon_2025.ico" alt="2025 favicon"> TWC 2025</h2>
-        <div class="archive-links">
-            <a href="https://www.youtube.com/playlist?list=PL-ggW392LLUwcETVHKo9ONNKEyLXnYI7l"
-                target="_blank" rel="noopener noreferrer">
-                <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">EN
-            </a>
-            <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMibMTZ5Y6hl0Mqold2MS5cj"
-                target="_blank" rel="noopener noreferrer">
-                <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">JP
-            </a>
+
+    <?php foreach (['2025', '2024', '2023', '2022', '2021', '2020'] as $year): ?>
+        <div class="section-header">
+            <h2 id="<?= $year ?>">
+                <img class="favicon"
+                    src="/assets/legacy/favicon_<?= $year ?>.ico"
+                    alt="<?= $year ?> favicon">
+                TWC <?= $year ?>
+            </h2>
+
+            <div class="archive-links">
+                <a href="<?= $links['en'] ?>" target="_blank" rel="noopener noreferrer">
+                    <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">EN
+                </a>
+                <a href="<?= $links['jp'] ?>" target="_blank" rel="noopener noreferrer">
+                    <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">JP
+                </a>
+            </div>
         </div>
-    </div>
-    <p><?php echo _('Final tally:') ?></p>
-    <ol><?php
-        $json = get_teams($db, '2025');
-        $teams_2025 = json_decode($json, true);
-        $index = 0;
-        $max_index = 0;
-        $max_points = 0;
-        $teams = array();
-        uasort($teams_2025, function ($a, $b) {
-            return $a['Points'] < $b['Points'] ? 1 : -1;
-        });
-        foreach ($teams_2025 as $team) {
-            array_push($teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
-            if ($team['Points'] > $max_points) {
-                $max_points = $team['Points'];
-                $max_index = $index;
+
+        <p><?php echo _('Final tally:') ?></p>
+        <ol><?php
+            $json = get_teams($db, $year);
+            $teams = json_decode($json, true);
+            $index = 0;
+            $max_index = 0;
+            $max_points = 0;
+            $display_teams = array();
+            uasort($teams, function ($a, $b) {
+                return $a['Points'] < $b['Points'] ? 1 : -1;
+            });
+            foreach ($teams as $team) {
+                array_push($display_teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
+                if ($team['Points'] > $max_points) {
+                    $max_points = $team['Points'];
+                    $max_index = $index;
+                }
+                $index++;
             }
-            $index++;
-        }
-        if (array_key_exists($max_index, $teams)) {
-            $teams[$max_index] = str_replace('">', '"><strong>', $teams[$max_index]);
-            $teams[$max_index] = str_replace('</li>', '</strong></li>', $teams[$max_index]);
-        }
-        echo implode($teams);
-    ?></ol>
+            if (array_key_exists($max_index, $display_teams)) {
+                $display_teams[$max_index] = str_replace('">', '"><strong>', $display_teams[$max_index]);
+                $display_teams[$max_index] = str_replace('</li>', '</strong></li>', $display_teams[$max_index]);
+            }
+            echo implode($display_teams);
+        ?></ol>
+
     <table class="schedule_table spoiler">
         <thead>
             <tr>
@@ -88,292 +124,16 @@
                 <th><?php echo _('Points') ?></th>
             </tr>
         </thead>
-        <tbody id="schedule_tbody_2025"><?php
-            $json = get_schedule($db, '2025');
-            $schedule_2025 = json_decode($json, true);
-            $json = get_results($db, '2025');
-            $results_2025 = json_decode($json, true);
-            print_schedule($schedule_2025, $results_2025, $teams_2025, '2025', []);
+        <tbody id="schedule_tbody_<?php echo $year ?>"><?php
+            $json = get_schedule($db, $year);
+            $schedule = json_decode($json, true);
+            $json = get_results($db, $year);
+            $results = json_decode($json, true);
+            print_schedule($schedule, $results, $teams, $year, []);
         ?></tbody>
     </table>
-    <div class="section-header">
-        <h2 id="2024"><img class="favicon" src="/assets/legacy/favicon_2024.ico" alt="2024 favicon"> TWC 2024</h2>
-        <div class="archive-links">
-            <a href="https://www.youtube.com/playlist?list=PL-ggW392LLUwcETVHKo9ONNKEyLXnYI7l"
-                target="_blank" rel="noopener noreferrer">
-                <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">EN
-            </a>
-            <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMibMTZ5Y6hl0Mqold2MS5cj"
-                target="_blank" rel="noopener noreferrer">
-                <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">JP
-            </a>
-        </div>
-    </div>
-    <p><?php echo _('Final tally:') ?></p>
-    <ol><?php
-        $json = get_teams($db, '2024');
-        $teams_2024 = json_decode($json, true);
-        $index = 0;
-        $max_index = 0;
-        $max_points = 0;
-        $teams = array();
-        uasort($teams_2024, function ($a, $b) {
-            return $a['Points'] < $b['Points'] ? 1 : -1;
-        });
-        foreach ($teams_2024 as $team) {
-            array_push($teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
-            if ($team['Points'] > $max_points) {
-                $max_points = $team['Points'];
-                $max_index = $index;
-            }
-            $index++;
-        }
-        if (array_key_exists($max_index, $teams)) {
-            $teams[$max_index] = str_replace('">', '"><strong>', $teams[$max_index]);
-            $teams[$max_index] = str_replace('</li>', '</strong></li>', $teams[$max_index]);
-        }
-        echo implode($teams);
-    ?></ol>
-    <table class="schedule_table spoiler">
-        <thead>
-            <tr>
-                <th><?php echo _('Date / Time') ?></th>
-                <th><?php echo _('Category') ?></th>
-                <th><?php echo _('Players') ?></th>
-                <th><?php echo _('Reset Time<br>(minutes)') ?></th>
-                <th><?php echo _('Results') ?></th>
-                <th><?php echo _('Points') ?></th>
-            </tr>
-        </thead>
-        <tbody id="schedule_tbody_2024"><?php
-            $json = get_schedule($db, '2024');
-            $schedule_2024 = json_decode($json, true);
-            $json = get_results($db, '2024');
-            $results_2024 = json_decode($json, true);
-            print_schedule($schedule_2024, $results_2024, $teams_2024, '2024', []);
-        ?></tbody>
-    </table>
-    <div class="section-header">
-        <h2 id="2023"><img class="favicon" src="/assets/legacy/favicon_2023.ico" alt="2023 favicon"> TWC 2023</h2>
-        <div class="archive-links">
-            <a href="https://www.youtube.com/playlist?list=PL-ggW392LLUwjbkibyYpt2rbHEKZXil02"
-                target="_blank" rel="noopener noreferrer">
-                <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">EN
-            </a>
-            <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMhKjxcKpp5MufQYJS5Mteiq"
-                target="_blank" rel="noopener noreferrer">
-                <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">JP
-            </a>
-        </div>
-    </div>
-    <p><?php echo _('Final tally:') ?></p>
-    <ol><?php
-        $json = get_teams($db, '2023');
-        $teams_2023 = json_decode($json, true);
-        $index = 0;
-        $max_index = 0;
-        $max_points = 0;
-        $teams = array();
-        uasort($teams_2023, function ($a, $b) {
-            return $a['Points'] < $b['Points'] ? 1 : -1;
-        });
-        foreach ($teams_2023 as $team) {
-            array_push($teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
-            if ($team['Points'] > $max_points) {
-                $max_points = $team['Points'];
-                $max_index = $index;
-            }
-            $index++;
-        }
-        $teams[$max_index] = str_replace('">', '"><strong>', $teams[$max_index]);
-        $teams[$max_index] = str_replace('</li>', '</strong></li>', $teams[$max_index]);
-        echo implode($teams);
-    ?></ol>
-    <table class="schedule_table spoiler">
-        <thead>
-            <tr>
-                <th><?php echo _('Date / Time') ?></th>
-                <th><?php echo _('Category') ?></th>
-                <th><?php echo _('Players') ?></th>
-                <th><?php echo _('Reset Time<br>(minutes)') ?></th>
-                <th><?php echo _('Results') ?></th>
-                <th><?php echo _('Points') ?></th>
-            </tr>
-        </thead>
-        <tbody id="schedule_tbody_2023"><?php
-            $json = get_schedule($db, '2023');
-            $schedule_2023 = json_decode($json, true);
-            $json = get_results($db, '2023');
-            $results_2023 = json_decode($json, true);
-            print_schedule($schedule_2023, $results_2023, $teams_2023, '2023', []);
-        ?></tbody>
-    </table>
-    <div class="section-header">
-        <h2 id="2022"><img class="favicon" src="/assets/legacy/favicon_2022.ico" alt="2022 favicon"> TWC 2022</h2>
-        <div class="archive-links">
-            <a href="https://www.youtube.com/playlist?list=PL-ggW392LLUwqlx8PynPoltQ5oPBDb6d8"
-                target="_blank" rel="noopener noreferrer">
-                <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">EN
-            </a>
-            <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMiq8MLHCgU0zJ_3lpjwH9-5"
-                target="_blank" rel="noopener noreferrer">
-                <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">JP
-            </a>
-        </div>
-    </div>
-    <p><?php echo _('Final tally:') ?></p>
-    <ol><?php
-        $json = get_teams($db, '2022');
-        $teams_2022 = json_decode($json, true);
-        $index = 0;
-        $max_index = 0;
-        $max_points = 0;
-        $teams = array();
-        uasort($teams_2022, function ($a, $b) {
-            return $a['Points'] < $b['Points'] ? 1 : -1;
-        });
-        foreach ($teams_2022 as $team) {
-            array_push($teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
-            if ($team['Points'] > $max_points) {
-                $max_points = $team['Points'];
-                $max_index = $index;
-            }
-            $index++;
-        }
-        $teams[$max_index] = str_replace('">', '"><strong>', $teams[$max_index]);
-        $teams[$max_index] = str_replace('</li>', '</strong></li>', $teams[$max_index]);
-        echo implode($teams);
-    ?></ol>
-    <table class="schedule_table spoiler">
-        <thead>
-            <tr>
-                <th><?php echo _('Date / Time') ?></th>
-                <th><?php echo _('Category') ?></th>
-                <th><?php echo _('Players') ?></th>
-                <th><?php echo _('Reset Time<br>(minutes)') ?></th>
-                <th><?php echo _('Results') ?></th>
-                <th><?php echo _('Points') ?></th>
-            </tr>
-        </thead>
-        <tbody id="schedule_tbody_2022"><?php
-            $json = get_schedule($db, '2022');
-            $schedule_2022 = json_decode($json, true);
-            $json = get_results($db, '2022');
-            $results_2022 = json_decode($json, true);
-            print_schedule($schedule_2022, $results_2022, $teams_2022, '2022', []);
-        ?></tbody>
-    </table>
-    <div class="section-header">
-        <h2 id="2021"><img class="favicon" src="/assets/legacy/favicon_2021.ico" alt="2021 favicon"> TWC 2021</h2>
-        <div class="archive-links">
-            <a href="https://www.youtube.com/playlist?list=PL-ggW392LLUzjcX1-HbRtkuZ_yshGucxt"
-                target="_blank" rel="noopener noreferrer">
-                <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">EN
-            </a>
-            <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMj54YYOenfb3G6DcrtoePhg"
-                target="_blank" rel="noopener noreferrer">
-                <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">JP
-            </a>
-        </div>
-    </div>
-    <p><?php echo _('Final tally:') ?></p>
-    <ol><?php
-        $json = get_teams($db, '2021');
-        $teams_2021 = json_decode($json, true);
-        $index = 0;
-        $max_index = 0;
-        $max_points = 0;
-        $teams = array();
-        uasort($teams_2021, function ($a, $b) {
-            return $a['Points'] < $b['Points'] ? 1 : -1;
-        });
-        foreach ($teams_2021 as $team) {
-            array_push($teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
-            if ($team['Points'] > $max_points) {
-                $max_points = $team['Points'];
-                $max_index = $index;
-            }
-            $index++;
-        }
-        $teams[$max_index] = str_replace('">', '"><strong>', $teams[$max_index]);
-        $teams[$max_index] = str_replace('</li>', '</strong></li>', $teams[$max_index]);
-        echo implode($teams);
-    ?></ol>
-    <table class="schedule_table spoiler">
-        <thead>
-            <tr>
-                <th><?php echo _('Date / Time') ?></th>
-                <th><?php echo _('Category') ?></th>
-                <th><?php echo _('Players') ?></th>
-                <th><?php echo _('Reset Time<br>(minutes)') ?></th>
-                <th><?php echo _('Results') ?></th>
-                <th><?php echo _('Points') ?></th>
-            </tr>
-        </thead>
-        <tbody id="schedule_tbody_2021"><?php
-            $json = get_schedule($db, '2021');
-            $schedule_2021 = json_decode($json, true);
-            $json = get_results($db, '2021');
-            $results_2021 = json_decode($json, true);
-            print_schedule($schedule_2021, $results_2021, $teams_2021, '2021', []);
-        ?></tbody>
-    </table>
-    <p class="spoiler">* <?php echo _('Game Over') ?></p>
-    <div class="section-header">
-        <h2 id="2020"><img class="favicon" src="/assets/legacy/favicon_2020.ico" alt="2020 favicon"> TWC 2020</h2>
-        <div class="archive-links">
-            <a href="https://www.youtube.com/playlist?list=PL-ggW392LLUzV2las6ky6c1QInMIvB5bG"
-                target="_blank" rel="noopener noreferrer">
-                <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">EN
-            </a>
-            <a href="https://www.youtube.com/playlist?list=PLQxyFdZX5PMj5PDLI3EoX01JBnlJK34Dr"
-                target="_blank" rel="noopener noreferrer">
-                <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">JP
-            </a>
-        </div>
-    </div>
-    <p><?php echo _('Final tally:') ?></p>
-    <ol><?php
-        $json = get_teams($db, '2020');
-        $teams_2020 = json_decode($json, true);
-        $index = 0;
-        $max_index = 0;
-        $max_points = 0;
-        $teams = array();
-        uasort($teams_2020, function ($a, $b) {
-            return $a['Points'] < $b['Points'] ? 1 : -1;
-        });
-        foreach ($teams_2020 as $team) {
-            array_push($teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
-            if ($team['Points'] > $max_points) {
-                $max_points = $team['Points'];
-                $max_index = $index;
-            }
-            $index++;
-        }
-        $teams[$max_index] = str_replace('">', '"><strong>', $teams[$max_index]);
-        $teams[$max_index] = str_replace('</li>', '</strong></li>', $teams[$max_index]);
-        echo implode($teams);
-    ?></ol>
-    <table class="schedule_table spoiler">
-        <thead>
-            <tr>
-                <th><?php echo _('Date / Time') ?></th>
-                <th><?php echo _('Category') ?></th>
-                <th><?php echo _('Players') ?></th>
-                <th><?php echo _('Reset Time<br>(minutes)') ?></th>
-                <th><?php echo _('Results') ?></th>
-                <th><?php echo _('Points') ?></th>
-            </tr>
-        </thead>
-        <tbody id="schedule_tbody_2020"><?php
-            $json = get_schedule($db, '2020');
-            $schedule_2020 = json_decode($json, true);
-            $json = get_results($db, '2020');
-            $results_2020 = json_decode($json, true);
-            print_schedule($schedule_2020, $results_2020, $teams_2020, '2020', []);
-        ?></tbody>
-    </table>
+    <?php endforeach; ?>
+
     <p class="spoiler">* <?php echo _('Game Over') ?></p>
     <p class="spoiler"><a href="#top"><?php echo _('Back to Top') ?></a></p>
 	</main>
