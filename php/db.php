@@ -85,7 +85,7 @@
     }
 
     function get_schedule(mysqli $db, string $year) {
-        $statement = mysqli_prepare($db, 'SELECT * FROM `Schedule ' . $year . '` ORDER BY `Date__UTC_` ASC');
+        $statement = mysqli_prepare($db, 'SELECT * FROM `Schedule ' . $year . '`');
         $statement->execute();
         $result = $statement->get_result();
         for ($rows = array (); $row = $result->fetch_assoc(); $rows[] = $row);
@@ -93,7 +93,7 @@
     }
 
     function get_results(mysqli $db, string $year) {
-        $statement = mysqli_prepare($db, 'SELECT * FROM `Results ' . $year . '` ORDER BY `Date__UTC_` ASC');
+        $statement = mysqli_prepare($db, 'SELECT * FROM `Results ' . $year . '`');
         $statement->execute();
         $result = $statement->get_result();
         for ($rows = array (); $row = $result->fetch_assoc(); $rows[] = $row);
