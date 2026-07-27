@@ -15,28 +15,28 @@
         die();
     }
 
-    $youtube = [
-        2025 => [
+    $playlists = [
+        '2025' => [
             'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUwcETVHKo9ONNKEyLXnYI7l',
             'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMibMTZ5Y6hl0Mqold2MS5cj',
         ],
-        2024 => [
-            'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUwcETVHKo9ONNKEyLXnYI7l',
-            'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMibMTZ5Y6hl0Mqold2MS5cj',
+        '2024' => [
+            'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUz2GgMVzpluKRWTwtwLDwSk',
+            'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMj94mTHRImZ--FcQJhlzoKp',
         ],
-        2023 => [
+        '2023' => [
             'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUwjbkibyYpt2rbHEKZXil02',
             'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMhKjxcKpp5MufQYJS5Mteiq',
         ],
-        2022 => [
+        '2022' => [
             'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUwqlx8PynPoltQ5oPBDb6d8',
             'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMiq8MLHCgU0zJ_3lpjwH9-5',
         ],
-        2021 => [
+        '2021' => [
             'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUzjcX1-HbRtkuZ_yshGucxt',
             'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMj54YYOenfb3G6DcrtoePhg',
         ],
-        2020 => [
+        '2020' => [
             'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUzV2las6ky6c1QInMIvB5bG',
             'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMj5PDLI3EoX01JBnlJK34Dr',
         ],
@@ -78,10 +78,10 @@
             </h2>
 
             <div class="archive-links">
-                <a href="<?= $links['en'] ?>" target="_blank" rel="noopener noreferrer">
+                <a href="<?= $playlists[$year]['en'] ?>" target="_blank" rel="noopener noreferrer">
                     <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">EN
                 </a>
-                <a href="<?= $links['jp'] ?>" target="_blank" rel="noopener noreferrer">
+                <a href="<?= $playlists[$year]['jp'] ?>" target="_blank" rel="noopener noreferrer">
                     <img class="icon16 youtube" src="/assets/icons/icon_sheet_16.png" alt="YouTube icon">JP
                 </a>
             </div>
