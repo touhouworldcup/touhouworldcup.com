@@ -8,6 +8,9 @@
     include_once 'php/db.php';
     try {
 		$db_host = getenv('DB_HOST') ? getenv('DB_HOST') : 'localhost';
+        $db = mysqli_connect($db_host, 'twc_admin', getenv('DB_PASSWORD'), 'twc');
+        $json = get_players($db);
+        $players = json_decode($json, true);
         $db = mysqli_connect($db_host, 'twc_admin', getenv('DB_PASSWORD'), 'twc_archive');
     } catch (Exception $e) {
         $_GET['error'] = 503;
@@ -15,8 +18,6 @@
         die();
     }
 
-    $json = get_players($db);
-    $players = json_decode($json, true);
     $playlists = [
         '2025' => [
             'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUwcETVHKo9ONNKEyLXnYI7l',
