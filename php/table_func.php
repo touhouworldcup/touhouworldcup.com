@@ -155,7 +155,7 @@ function get_icon(string $link) {
     if (strpos($link, 'twitch') !== false) {
         return '<img class="icon16 twitch" src="/assets/icons/icon_sheet_16.png" alt="Twitch icon">';
     }
-    else if (strpos($link, 'twitter') !== false) {
+    else if (strpos($link, 'twitter') !== false || strpos($link, 'x.com') !== false) {
         return '<img class="icon16 twitter" src="/assets/icons/icon_sheet_16.png" alt="Twitter icon">';
     }
     else if (strpos($link, 'youtube') !== false) {
@@ -163,6 +163,9 @@ function get_icon(string $link) {
     }
     else if (strpos($link, 'bilibili') !== false) {
         return '<img class="icon16 bilibili" src="/assets/icons/icon_sheet_16.png" alt="Bilibili icon">';
+    }
+    else if (strpos($link, 'bsky.app') !== false) {
+        return '<img class="icon16 bluesky" src="/assets/icons/icon_sheet_16.png" alt="Bluesky icon">';
     }
     else {
         return '<img class="icon16 globe" src="/assets/icons/icon_sheet_16.png" alt="Globe with meridians icon">';

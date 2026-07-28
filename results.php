@@ -15,6 +15,8 @@
         die();
     }
 
+    $json = get_players($db);
+    $players = json_decode($json, true);
     $playlists = [
         '2025' => [
             'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUwcETVHKo9ONNKEyLXnYI7l',
@@ -129,7 +131,7 @@
             $schedule = json_decode($json, true);
             $json = get_results($db, $year);
             $results = json_decode($json, true);
-            print_schedule($schedule, $results, $teams, $year, []);
+            print_schedule($schedule, $results, $teams, $year, $players);
         ?></tbody>
     </table>
     <?php endforeach; ?>
