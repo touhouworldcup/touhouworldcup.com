@@ -135,4 +135,6 @@ echo _('Big Centipede "Dragon Eater"');
 echo _('Dust Sign "Karabitsu Upheaval"');
 echo _('Team Tech "Fairy Overdrive"');
 echo _('Reaction "Youkai Polygraph"');
+echo _('Hatate');
+echo _('Seija');
 ?>

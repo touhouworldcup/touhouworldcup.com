@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-07-26 05:10+0900\n"
-"PO-Revision-Date: 2026-07-26 05:10+0900\n"
+"POT-Creation-Date: 2026-08-03 12:27+0900\n"
+"PO-Revision-Date: 2026-08-03 12:28+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -24,7 +24,7 @@ msgstr ""
 "X-Poedit-SearchPath-9: php/body.php\n"
 "X-Poedit-SearchPath-10: art.php\n"
 
-#: art.php:2 art.php:371
+#: art.php:2 art.php:382
 msgid "Artworks"
 msgstr "エンドカード"
 
@@ -190,30 +190,30 @@ msgstr ""
 msgid "Language"
 msgstr "言語"
 
-#: php/body.php:8
-msgid "Art"
-msgstr "エンドカード"
-
-#: php/body.php:9
-msgid "Clips"
-msgstr "クリップ"
-
-#: php/body.php:10 rules.php:2 rules.php:12
+#: php/body.php:8 rules.php:2 rules.php:12
 msgid "Rules"
 msgstr "ルール"
 
-#: php/body.php:11 schedule.php:2 schedule.php:32
+#: php/body.php:9 schedule.php:2 schedule.php:33
 msgid "Schedule"
 msgstr "スケジュール"
 
-#: php/body.php:12 results.php:2 results.php:23
+#: php/body.php:10 results.php:2 results.php:57
 msgid "Past Results"
 msgstr "過去の試合結果"
 
-#: php/body.php:13 rules.php:34 twcscore.php:2 twcscore.php:165
+#: php/body.php:11 rules.php:34 twcscore.php:2 twcscore.php:165
 #: twcscore.php:168
 msgid "TWCScore"
 msgstr "TWCスコア"
+
+#: php/body.php:12
+msgid "Art"
+msgstr "エンドカード"
+
+#: php/body.php:13
+msgid "Clips"
+msgstr "クリップ"
 
 #: php/body.php:18 php/body.php:43
 msgid "Flag of the United Kingdom"
@@ -247,20 +247,19 @@ msgstr "：ドイツ語"
 msgid "Flag of Spain"
 msgstr ""
 
-#: php/table_func.php:27
+#: php/table_func.php:42
 msgid " ("
 msgstr "（"
 
-#: php/table_func.php:32
+#: php/table_func.php:47
 msgid ")"
 msgstr "）"
 
-#: php/table_func.php:180
+#: php/table_func.php:198
 msgid "Exhibition Matches"
 msgstr "エキシビション"
 
-#: php/table_func.php:204 results.php:68 results.php:125 results.php:182
-#: results.php:237 results.php:292 results.php:348 schedule.php:69
+#: php/table_func.php:222 results.php:109 schedule.php:70
 msgid "Team "
 msgstr ""
 
@@ -784,7 +783,15 @@ msgstr "協力技「フェアリーオーバードライブ」"
 msgid "Reaction \"Youkai Polygraph\""
 msgstr "反応「妖怪ポリグラフ」"
 
-#: results.php:25 schedule.php:48
+#: php/translations.php:138
+msgid "Hatate"
+msgstr "はたて"
+
+#: php/translations.php:139
+msgid "Seija"
+msgstr "正邪"
+
+#: results.php:59 schedule.php:49
 msgid ""
 "Your time zone was detected as <strong id=\"timezone\">UTC+0000 (Coordinated "
 "Universal Time)</strong>."
@@ -792,65 +799,57 @@ msgstr ""
 "表示されているタイムゾーンは<strong id=\"timezone\">UTC+0000（協定世界時）</"
 "strong>です。"
 
-#: results.php:28 schedule.php:51
+#: results.php:62 schedule.php:52
 msgid ""
 "Daylight Saving Time (also known as Summer Time or DST) is taken into "
 "account automatically."
 msgstr ""
 
-#: results.php:41 schedule.php:53
+#: results.php:75 schedule.php:54
 msgid "Show Results"
 msgstr "試合結果を表示"
 
-#: results.php:42 schedule.php:54
+#: results.php:76 schedule.php:55
 msgid "Hide Results"
 msgstr "試合結果を非表示"
 
-#: results.php:56 results.php:113 results.php:170 results.php:225
-#: results.php:280 results.php:336
+#: results.php:97
 msgid "Final tally:"
 msgstr "最終獲得ポイント："
 
-#: results.php:68 results.php:125 results.php:182 results.php:237
-#: results.php:292 results.php:348 schedule.php:69
+#: results.php:109 schedule.php:70
 msgid " points"
 msgstr "ポイント"
 
-#: results.php:84 results.php:141 results.php:196 results.php:251
-#: results.php:306 results.php:362 schedule.php:85
+#: results.php:126 schedule.php:86
 msgid "Date / Time"
 msgstr "試合開始日時"
 
-#: results.php:85 results.php:142 results.php:197 results.php:252
-#: results.php:307 results.php:363 schedule.php:86 twcscore.php:98
+#: results.php:127 schedule.php:87 twcscore.php:98
 msgid "Category"
 msgstr "カテゴリー"
 
-#: results.php:86 results.php:143 results.php:198 results.php:253
-#: results.php:308 results.php:364 schedule.php:87
+#: results.php:128 schedule.php:88
 msgid "Players"
 msgstr "プレイヤー"
 
-#: results.php:87 results.php:144 results.php:199 results.php:254
-#: results.php:309 results.php:365 schedule.php:88
+#: results.php:129 schedule.php:89
 msgid "Reset Time<br>(minutes)"
 msgstr "制限時間（分）"
 
-#: results.php:88 results.php:145 results.php:200 results.php:255
-#: results.php:310 results.php:366 schedule.php:89 schedule.php:92
+#: results.php:130 schedule.php:90 schedule.php:93
 msgid "Results"
 msgstr "リザルト"
 
-#: results.php:89 results.php:146 results.php:201 results.php:256
-#: results.php:311 results.php:367 schedule.php:90 schedule.php:93
+#: results.php:131 schedule.php:91 schedule.php:94
 msgid "Points"
 msgstr "ポイント"
 
-#: results.php:322 results.php:378
+#: results.php:144
 msgid "Game Over"
 msgstr ""
 
-#: results.php:379 rules.php:155
+#: results.php:145 rules.php:155
 msgid "Back to Top"
 msgstr "上に帰る"
 
@@ -1424,19 +1423,19 @@ msgstr ""
 msgid "Please hide the ending when you reach the end of the game."
 msgstr "クリア後のエンディングは必ず隠してください。"
 
-#: schedule.php:33
+#: schedule.php:34
 msgid "Coming soon!"
 msgstr ""
 
-#: schedule.php:41
+#: schedule.php:42
 msgid "English Commentary Videos"
 msgstr "英語解説アーカイブ"
 
-#: schedule.php:45
+#: schedule.php:46
 msgid "Japanese Commentary Videos"
 msgstr "日本語解説アーカイブ"
 
-#: schedule.php:57
+#: schedule.php:58
 msgid "Current Points:"
 msgstr "獲得ポイント："
 
@@ -2047,6 +2046,3 @@ msgstr "スコア："
 
 #~ msgid "GhostTeam"
 #~ msgstr "妖夢＆幽々子"
-
-#~ msgid "Hatate"
-#~ msgstr "はたて"
