@@ -118,7 +118,8 @@ input[type=button] {
 #schedule_tbody .bonus_match .icon16,
 #schedule_tbody_2022 .bonus_match .icon16,
 #schedule_tbody_2023 .bonus_match .icon16,
-#schedule_tbody_2024 .bonus_match .icon16 {
+#schedule_tbody_2024 .bonus_match .icon16,
+#schedule_tbody_2025 .bonus_match .icon16 {
     display: none;
 }
 @media only screen and (max-width: 1000px) {
@@ -184,4 +185,10 @@ input[type=button] {
 .archive-links a:hover {
     background: rgba(108, 182, 255, .12);
     border-color: rgba(108, 182, 255, .35);
+}
+
+.player_names {
+    max-width: 280px;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }

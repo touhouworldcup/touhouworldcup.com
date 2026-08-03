@@ -10,7 +10,22 @@ function format_results(array $result, bool $is_bonus) {
             $formatted .= '-';
             continue;
         }
-        $formatted .= (empty($result['P' . $i . '_Shottype']) ? '' : _($result['P' . $i . '_Shottype'])) . ' <br class="mobile_br">';
+        if (empty($result['P' . $i . '_Shottype'])) {
+            $shotType = '';
+        } else {
+            $shotType = implode(', ', array_map(
+                function ($part) {
+                    return preg_replace_callback(
+                        '/^\S+/',
+                        fn($m) => _($m[0]),
+                        $part
+                    );
+                },
+                explode(', ', $result['P' . $i . '_Shottype'])
+            ));
+        }
+
+        $formatted .= $shotType . ' <br class="mobile_br">';
         //$formatted .= (empty($result['P' . $i . '_Shottype']) ? '' : $result['P' . $i . '_Route']) . ' ';
         if (is_numeric($result['P' . $i . '_Result'])) { // scoring
             $formatted .= number_format($result['P' . $i . '_Result'], 0, '.', ',');
@@ -196,7 +211,7 @@ function print_schedule(array $schedule, array $results, array $teams, string $y
         $translatedCategory = preg_replace_callback('/TH\d+(?=\s)/', function($m) {
             return _($m[0]);
         }, $match['Category']);
-        echo '<td class="' . preg_split('/ /', $match['Category'])[0] . '">' . $translatedCategory . '</td><td>';
+        echo '<td class="' . preg_split('/ /', $match['Category'])[0] . '">' . $translatedCategory . '</td><td class="player_names">';
         for ($i = 1; $i <= 3; $i++) {
             $player = $match['Player_' . $i];
             if (empty($teams)) {
