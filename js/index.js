@@ -89,6 +89,7 @@ function getNextMatch() {
         document.getElementById("current_match").style.display = "none";
         document.getElementById("match_category").innerHTML = "";
         clearInterval(step);
+        return;
     }
 
     const timeLeft = smallestUnix - now;
