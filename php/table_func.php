@@ -193,8 +193,15 @@ function print_schedule(array $schedule, array $results, array $teams, string $y
     global $lang;
     $highlight = false;
     foreach ($schedule as $key => $match) {
-        $is_bonus = $year == '2025' && $key >= count($schedule) - 3 || $year != '2020' && $year != '2025' && $key >= count($schedule) - 2 || $year == '2020' && $key == count($schedule) - 1;
-        if ($year == '2025' && $key == count($schedule) - 3 || $year != '2020' && $year != '2025' && $key == count($schedule) - 2 || $year == '2020' && $key == count($schedule) - 1) {
+        $bonus_count = 2;
+        if ($year == '2020') {
+            $bonus_count = 1;
+        } elseif ($year == '2025' || $year == '2026') {
+            $bonus_count = 3;
+        }
+        $bonus_start = count($schedule) - $bonus_count;
+        $is_bonus = $key >= $bonus_start;
+        if ($key === $bonus_start) {
             echo '<tr><td class="bonus" colspan="6"><strong>' . _('Exhibition Matches') . '</strong></td></tr>';
         }
         if (!$highlight && strtotime($match['Date__UTC_']) >= time()) {
