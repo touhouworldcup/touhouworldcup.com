@@ -143,7 +143,7 @@
     }
 
     if (sizeof($_GET) > 0) {
-        $env = parse_ini_file('.env.prod');
+        $env = parse_ini_file('../.env.prod');
 		$db_host = $env['DB_HOST'] ? $env['DB_HOST'] : 'localhost';
         $db = mysqli_connect($db_host, 'twc_admin', '', 'twc');
 
