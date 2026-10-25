@@ -8,7 +8,7 @@
     try {
         $env = parse_ini_file('.env.prod');
 		$db_host = $env['DB_HOST'] ? $env['DB_HOST'] : 'localhost';
-        $db = mysqli_connect($db_host, 'twc_admin', 'twc');
+        $db = mysqli_connect($db_host, 'twc_admin', '', 'twc');
     } catch (Exception $e) {
         $_GET['error'] = 503;
         include_once 'php/error.php';
