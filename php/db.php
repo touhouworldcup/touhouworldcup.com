@@ -143,8 +143,9 @@
     }
 
     if (sizeof($_GET) > 0) {
-		$db_host = getenv('DB_HOST') ? getenv('DB_HOST') : 'localhost';
-        $db = mysqli_connect($db_host, 'twc_admin', getenv('DB_PASSWORD'), 'twc');
+        $env = parse_ini_file('.env.prod');
+		$db_host = $env['DB_HOST'] ? $env['DB_HOST'] : 'localhost';
+        $db = mysqli_connect($db_host, 'twc_admin', $env['DB_PASSWORD'], 'twc');
 
         if ($db->connect_error) {
             $_GET['error'] = 503;
