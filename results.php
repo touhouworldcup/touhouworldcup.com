@@ -20,6 +20,10 @@
     }
 
     $playlists = [
+        '2026' => [
+            'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUxq0GeQqGKj4_ylgPgHG2wx',
+            'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMjrgXNvuaTTl3PFc1wkB9KM',
+        ],
         '2025' => [
             'en' => 'https://www.youtube.com/playlist?list=PL-ggW392LLUwcETVHKo9ONNKEyLXnYI7l',
             'jp' => 'https://www.youtube.com/playlist?list=PLQxyFdZX5PMibMTZ5Y6hl0Mqold2MS5cj',
@@ -61,6 +65,7 @@
     ?></p>
     <div class="contents">
         <p>
+            <a href="#2026">2026</a> / 
             <a href="#2025">2025</a> / 
             <a href="#2024">2024</a> / 
             <a href="#2023">2023</a> / 
@@ -72,7 +77,7 @@
     <p><input type="button" id="show_results" value="<?php echo _('Show Results') ?>"></p>
     <p><input type="button" id="hide_results" value="<?php echo _('Hide Results') ?>"></p>
 
-    <?php foreach (['2025', '2024', '2023', '2022', '2021', '2020'] as $year): ?>
+    <?php foreach (['2026', '2025', '2024', '2023', '2022', '2021', '2020'] as $year): ?>
         <div class="section-header">
             <h2 id="<?= $year ?>">
                 <img class="favicon"
