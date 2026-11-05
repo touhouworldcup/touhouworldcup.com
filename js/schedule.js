@@ -131,8 +131,12 @@ function convertPastDateTimes() {
     const loop = true;
     let index = 0;
 
-    for (let year = 2020; year < currentYear; year++) {
+    for (let year = 2020; year <= currentYear; year++) {
         while (loop) {
+            if (!document.body.includes(year)) {
+                break;
+            }
+
             const dateElement = document.getElementById(`date_${year}_${index}`);
 
             if (!dateElement) {
