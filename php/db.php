@@ -85,7 +85,7 @@
     }
 
     function get_schedule(mysqli $db, string $year) {
-        $statement = mysqli_prepare($db, 'SELECT * FROM `Schedule ' . $year . '`');
+        $statement = mysqli_prepare($db, 'SELECT * FROM `Schedule ' . $year . '` ORDER BY `Date__UTC_`');
         $statement->execute();
         $result = $statement->get_result();
         for ($rows = array (); $row = $result->fetch_assoc(); $rows[] = $row);
