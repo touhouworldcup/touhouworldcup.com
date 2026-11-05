@@ -15,7 +15,7 @@
         include_once 'php/error.php';
         die();
     }
-    $json = get_schedule($db, '2026');
+    $json = get_schedule($db, '2027');
     $schedule = json_decode($json, true);
     uasort($schedule, function ($a, $b) {
         if (empty($b['Date__UTC_'])) {
@@ -56,16 +56,16 @@
     <ol id="spoiler_ol"></ol>
     <p class = "spoiler"><?php echo _('Current Points:') ?></p>
     <ol class = "spoiler"><?php
-        $json = get_teams($db, '2026');
-        $teams_2026 = json_decode($json, true);
+        $json = get_teams($db, '2027');
+        $teams_2027 = json_decode($json, true);
         $index = 0;
         $max_index = 0;
         $max_points = 0;
         $teams = array();
-        uasort($teams_2026, function ($a, $b) {
+        uasort($teams_2027, function ($a, $b) {
             return $a['Points'] < $b['Points'] ? 1 : -1;
         });
-        foreach ($teams_2026 as $team) {
+        foreach ($teams_2027 as $team) {
             array_push($teams, '<li><img class="icon16 ' . strtolower($team['Name']) . '" src="/assets/icons/icon_sheet_16.png" alt="' . _('Team ' . $team['Name']) . '"> ' . _('Team ' . $team['Name'] . ': ') . (float) $team['Points'] . _(' points') . '</li>');
             if ($team['Points'] > $max_points) {
                 $max_points = $team['Points'];
@@ -95,7 +95,7 @@
             </tr>
         </thead>
         <tbody id="schedule_tbody"><?php
-            $json = get_results($db, '2026');
+            $json = get_results($db, '2027');
             $results = json_decode($json, true);
             uasort($results, function ($a, $b) {
                 if (empty($b['Date__UTC_'])) {
@@ -104,11 +104,11 @@
                 return $a['Date__UTC_'] > $b['Date__UTC_'];
             });
             $results = array_values($results);
-            $json = get_teams($db, '2026');
+            $json = get_teams($db, '2027');
             $teams = json_decode($json, true);
             $json = get_players($db);
             $players = json_decode($json, true);
-            print_schedule($schedule, $results, $teams, '2026', $players);
+            print_schedule($schedule, $results, $teams, '2027', $players);
         ?></tbody>
     </table>
     </main>
