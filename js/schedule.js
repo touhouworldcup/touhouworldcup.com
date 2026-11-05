@@ -133,7 +133,7 @@ function convertPastDateTimes() {
 
     for (let year = 2020; year <= currentYear; year++) {
         while (loop) {
-            if (!document.body.includes(year)) {
+            if (!document.body.innerHTML.includes(year)) {
                 break;
             }
 
