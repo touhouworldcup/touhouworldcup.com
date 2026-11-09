@@ -142,7 +142,7 @@
         return json_encode($rows);
     }
 
-    if (sizeof($_GET) > 0) {
+    if (sizeof($_GET) > 0 && !(isset($_GET['hl']) && sizeof($_GET) === 1)) {
         $env = parse_ini_file('../.env.prod');
 		$db_host = $env['DB_HOST'] ? $env['DB_HOST'] : 'localhost';
         $db = mysqli_connect($db_host, 'twc_admin', '', 'twc');

@@ -1,7 +1,7 @@
 <?php
 function is_localhost() {
     $addr = $_SERVER['REMOTE_ADDR'];
-    return $addr == '::1' || $addr == '127.0.0.1' || substr($addr, 0, 8) == '192.168.';
+    return !filter_var($addr, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE);
 }
 
 function query_string() {
@@ -56,11 +56,9 @@ if (empty($_GET['hl'])) {
             'samesite' => 'Strict'
         ));
     }
-    if (isset($_COOKIE['lang'])) {
-        $page = preg_split('/\?/', $_SERVER['REQUEST_URI'])[0];
-        header("Location: {$page}", true, 303);
-        exit();
-    }
+    $page = preg_split('/\?/', $_SERVER['REQUEST_URI'])[0];
+    header("Location: {$page}", true, 303);
+    exit();
 }
 if (isset($_COOKIE['lang'])) {
     $lang = $_COOKIE['lang'];
